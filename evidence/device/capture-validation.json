@@ -1,0 +1,438 @@
+{
+  "scope": "QA capture integrity only; not store screenshot approval",
+  "captures": [
+    {
+      "profile": "physical-hd10",
+      "file": "evidence/device/physical-hd10/01-garden.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "5a7b244eaa82bbbf09538e7b1a55991e16b7010d1195f4e7b7b65fec5687cb0a",
+      "bytes": 121164,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "physical-hd10",
+      "file": "evidence/device/physical-hd10/02-care.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "a25ba56770652466f7312df0a6162261dd1ae0f627c9677ea2fb7828a86b008f",
+      "bytes": 136171,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "physical-hd10",
+      "file": "evidence/device/physical-hd10/03-journal.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "2379f13cd33b6ca321a2bcba899bf6d8aecaeecf6f82373a932686c6c94435fa",
+      "bytes": 90644,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "physical-hd10",
+      "file": "evidence/device/physical-hd10/04-voice.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "ce3a1ec4c46d250d9f5d5525ad9f197b0e1ab3155dc0016a0c7aa5a33d4ba5fb",
+      "bytes": 150487,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "physical-hd10",
+      "file": "evidence/device/physical-hd10/05-insights.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "e52ec83da6c9fa86accf11decd02a2ca18059b2609924256b9d8e316e67d9ca0",
+      "bytes": 100157,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "physical-hd10",
+      "file": "evidence/device/physical-hd10/06-settings.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "b3edbf711f5185f13d6af977b439a7f6599a775b197f4da303e66790e9c2c224",
+      "bytes": 212079,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "physical-hd10",
+      "file": "evidence/device/physical-hd10/07-plant.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "0b5240aa5453ed40678b37cd191a1147f4890b725c4e8c23dfd46437e8f0faf6",
+      "bytes": 143902,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "physical-hd10",
+      "file": "evidence/device/physical-hd10/10-portrait.png",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "e958eac889bdd2fc4dd6013509dc56f01f9809dd24c3c800295b06218669bb53",
+      "bytes": 181260,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "physical-hd10",
+      "file": "evidence/device/physical-hd10/11-portrait-dark.png",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "6b16391ee2906e7dcfbf8367106f806d889850c8f9fcbbc1164bb02e7c43d2eb",
+      "bytes": 96976,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "physical-hd10",
+      "file": "evidence/device/physical-hd10/12-landscape-dark.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "87999dc91bb141a1cc9b6fd08a2644d360942b6cc575f8d754ff8c7b57527528",
+      "bytes": 120619,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "physical-hd10",
+      "file": "evidence/device/physical-hd10/13-voice-fallback.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "dd84c0971175ce87fe566bea1939487a189f75a95662a9e244e8f871b927d78e",
+      "bytes": 152657,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "physical-hd10",
+      "file": "evidence/device/physical-hd10/14-water-confirmation.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "5bf101e0e920059fe89b5278d381bc1e6df98f6889ccb5905507bd7853b8726f",
+      "bytes": 170415,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-7in-large-font",
+      "file": "evidence/device/layout-7in-large-font/01-garden.png",
+      "width": 1024,
+      "height": 600,
+      "sha256": "e1daa5a0d1b57c1dc6d5c642f3d0a0e056dbe3258b724d624126d29a9b7b75b3",
+      "bytes": 67416,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-7in-large-font",
+      "file": "evidence/device/layout-7in-large-font/02-care.png",
+      "width": 1024,
+      "height": 600,
+      "sha256": "95cfc13b8074270c9d6f5863f18c77cfc3a41462ae0e11a4d6d6af847edd6e4f",
+      "bytes": 76400,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-7in-large-font",
+      "file": "evidence/device/layout-7in-large-font/03-journal.png",
+      "width": 1024,
+      "height": 600,
+      "sha256": "629cda88819268c9762aa649eace08a922f9148ede94394e514fddca7a0f0b8d",
+      "bytes": 53730,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-7in-large-font",
+      "file": "evidence/device/layout-7in-large-font/04-voice.png",
+      "width": 1024,
+      "height": 600,
+      "sha256": "e0060252a7042bc3403cadc96d5a986294bc8068d7282b8648a86dd0a06c1d5f",
+      "bytes": 68499,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-7in-large-font",
+      "file": "evidence/device/layout-7in-large-font/05-insights.png",
+      "width": 1024,
+      "height": 600,
+      "sha256": "6c8b37dbe8b5a3440b1688111a16d6432f998417c982062095537edfcd762a35",
+      "bytes": 55690,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-7in-large-font",
+      "file": "evidence/device/layout-7in-large-font/06-settings.png",
+      "width": 1024,
+      "height": 600,
+      "sha256": "97668be8630d52c8c16070ad46fd453887156ef9703502ad9d33dbd3d5c04a97",
+      "bytes": 68781,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-7in-large-font",
+      "file": "evidence/device/layout-7in-large-font/07-plant.png",
+      "width": 1024,
+      "height": 600,
+      "sha256": "e1c28cfa99c7ed56145c8d2c22bdc806f1478efa60aed023b545cfe95dbf1aaf",
+      "bytes": 79756,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-7in-large-font",
+      "file": "evidence/device/layout-7in-large-font/10-portrait.png",
+      "width": 600,
+      "height": 1024,
+      "sha256": "5da79bffd1d9939f2316a9fc16d34c67c7a4cc925490621e4d3c12f740af7b34",
+      "bytes": 60703,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-7in-large-font",
+      "file": "evidence/device/layout-7in-large-font/11-portrait-dark.png",
+      "width": 600,
+      "height": 1024,
+      "sha256": "61e08c6abe2385fbc64ec16d407706489dd219e6f3315c57ef3bdf03bec451fe",
+      "bytes": 61157,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-7in-large-font",
+      "file": "evidence/device/layout-7in-large-font/12-landscape-dark.png",
+      "width": 1024,
+      "height": 600,
+      "sha256": "b66c0457b7cffb4bca61ee6cffe3659ce13965365c2faee0663ce49b1054ea2d",
+      "bytes": 67897,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-7in-large-font",
+      "file": "evidence/device/layout-7in-large-font/13-voice-fallback.png",
+      "width": 1024,
+      "height": 600,
+      "sha256": "18c17737b33f250b917d5db749b6c9ce3c0f706ff407f808d33edbff989a8b28",
+      "bytes": 65473,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-7in-large-font",
+      "file": "evidence/device/layout-7in-large-font/14-water-confirmation.png",
+      "width": 1024,
+      "height": 600,
+      "sha256": "dc83e277ca8cb9a7fa72e89b75c868e4cf058e14646a292b063f50c5a3f9c7f7",
+      "bytes": 82962,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-8in",
+      "file": "evidence/device/layout-8in/01-garden.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "f68350f0aeee4a1ee77b7a0f525a56c78ca8394900544b0a9b8aa0628713cbbd",
+      "bytes": 81806,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-8in",
+      "file": "evidence/device/layout-8in/02-care.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "192549ee1878f26acd7fece2de58a5b8f64cc8e06d1628afefab26af63b5b181",
+      "bytes": 95739,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-8in",
+      "file": "evidence/device/layout-8in/03-journal.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "49f9a34b625d81c52c6a11e84b723893a900514060a6c062932df95d0a379dfe",
+      "bytes": 60872,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-8in",
+      "file": "evidence/device/layout-8in/04-voice.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "36d7305782e5f400a01e74df7e3f8a0060f641f442b3ba6e20aef25f2f09b5f5",
+      "bytes": 106968,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-8in",
+      "file": "evidence/device/layout-8in/05-insights.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "a9f5bdfaf8ca343e860239e1e948f19ddf8e2bed5348142671b0ad70f4a1ef7c",
+      "bytes": 65347,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-8in",
+      "file": "evidence/device/layout-8in/06-settings.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "2c5459ce0f3536bc3e227f2e0d7c4183855b217fe7e5c93d12c0ba25578aeb25",
+      "bytes": 156110,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-8in",
+      "file": "evidence/device/layout-8in/07-plant.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "0b79ac9fc47ea576364cfe859c21a34fce0db2c5b510316203d6dfbfd5119218",
+      "bytes": 88824,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-8in",
+      "file": "evidence/device/layout-8in/10-portrait.png",
+      "width": 800,
+      "height": 1280,
+      "sha256": "822d0bce69299e4839693b6e6f603b16628675fb810acb1f2a4e3af4951d00f3",
+      "bytes": 78045,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-8in",
+      "file": "evidence/device/layout-8in/11-portrait-dark.png",
+      "width": 800,
+      "height": 1280,
+      "sha256": "b8ddba261e8918821a6afa813138b0fb097dee265b732ab5c9cc934556f4020b",
+      "bytes": 78674,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-8in",
+      "file": "evidence/device/layout-8in/12-landscape-dark.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "1a9fec26980b7311413710eb7f53884ca8dbbd68602aae398a91cf31516f745d",
+      "bytes": 82528,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-8in",
+      "file": "evidence/device/layout-8in/13-voice-fallback.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "3c0144528576fd5cd13d5e3be18fc8569a82f0b5f4818fd6a33660425a568cdd",
+      "bytes": 111685,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "layout-8in",
+      "file": "evidence/device/layout-8in/14-water-confirmation.png",
+      "width": 1280,
+      "height": 800,
+      "sha256": "443b31649e72e304d40384e92fd19f05a4c066cda9b5c3c3df523fd6094e7d3f",
+      "bytes": 116903,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "offline-hd10",
+      "file": "evidence/device/offline-hd10/01-garden.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "3c13bb735650e1a22f51f59ade33ecb1ec0ca67bbb61d0021eb203e5a18852b3",
+      "bytes": 119943,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "offline-hd10",
+      "file": "evidence/device/offline-hd10/02-care.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "dcd219738ed6b0a0113a82861f79a8941e18454e4d4678ff8df8a13208f49676",
+      "bytes": 135173,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "offline-hd10",
+      "file": "evidence/device/offline-hd10/03-journal.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "e86c49db73703720f5b77af4486114f8f1efed836be45f003fabd398647767e7",
+      "bytes": 89549,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "offline-hd10",
+      "file": "evidence/device/offline-hd10/04-voice.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "40e00056f752c8adc34cddc4b35d81025b85f7f701e1e502056e8771a2437094",
+      "bytes": 149417,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "offline-hd10",
+      "file": "evidence/device/offline-hd10/05-insights.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "06f3fa0dac97f6f4ab328aea9970891204d50c2e2c6c897e2c4e3ef0d2eebcf0",
+      "bytes": 99031,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "offline-hd10",
+      "file": "evidence/device/offline-hd10/06-settings.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "febf71c6cfe1c183c0a0a3495f06ae3d595d5d97d343e19e68db5b42528b618c",
+      "bytes": 211077,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "offline-hd10",
+      "file": "evidence/device/offline-hd10/07-plant.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "cf67992fbaead7e9e696ed57731bb344b0edb12ad73b96837eb89d3863837a74",
+      "bytes": 142591,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "offline-hd10",
+      "file": "evidence/device/offline-hd10/10-portrait.png",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "c310c74b1988f4faea408dd316ffbabaa7f473af96373a2665d012aa14146cfd",
+      "bytes": 94997,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "offline-hd10",
+      "file": "evidence/device/offline-hd10/11-portrait-dark.png",
+      "width": 1200,
+      "height": 1920,
+      "sha256": "b626cbe89dd9382a8ce0cccddfbdebfe80f289e873fd9f5f00c8e27ffad4d749",
+      "bytes": 95719,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "offline-hd10",
+      "file": "evidence/device/offline-hd10/12-landscape-dark.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "b7f411549a090a0313bbe3ddf74eb52d99a8a8c225c3d7c4270706d83c9cc475",
+      "bytes": 119445,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "offline-hd10",
+      "file": "evidence/device/offline-hd10/13-voice-fallback.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "56383f0006b1b3c9b8f41fedb1ef56f92870e6853d7cee3b0d32aaa011f29d66",
+      "bytes": 151681,
+      "store_dimensions_valid": true
+    },
+    {
+      "profile": "offline-hd10",
+      "file": "evidence/device/offline-hd10/14-water-confirmation.png",
+      "width": 1920,
+      "height": 1200,
+      "sha256": "8d6971818a382b78fd054011f3e483dd284d694fa9c28923cd1a4bb2558a6540",
+      "bytes": 169050,
+      "store_dimensions_valid": true
+    }
+  ],
+  "total_valid_png": 48
+}

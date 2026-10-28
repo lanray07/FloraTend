@@ -1,0 +1,75 @@
+
+com.floratend.app.PersistenceTest:..
+com.floratend.app.ReminderWorkerTest:
+Error in workerUsesOneNotificationAndUpdatesAfterCompletion(com.floratend.app.ReminderWorkerTest):
+org.junit.ComparisonFailure: expected:<[1 plant-care check] to review.> but was:<[2 plant-care checks] to review.>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.floratend.app.ReminderWorkerTest$workerUsesOneNotificationAndUpdatesAfterCompletion$1.invokeSuspend(ReminderWorkerTest.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.floratend.app.ReminderWorkerTest.workerUsesOneNotificationAndUpdatesAfterCompletion(ReminderWorkerTest.kt:18)
+
+com.floratend.app.SpeechCapabilityTest:.
+com.floratend.app.UiSmokeTest:.
+Error in careActionsJournalEditsAndVoiceConfirmation(com.floratend.app.UiSmokeTest):
+java.lang.AssertionError: Failed to assert the following: (is not enabled)
+Semantics of the node:
+Node #1041 at (l=228.0, t=691.0, r=376.0, b=751.0)px
+Focused = 'false'
+Role = 'Button'
+Text = '[Record care]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 3 siblings
+Selector used: (Text + EditableText contains 'Record care' (ignoreCase: false))
+
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:265)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:255)
+	at androidx.compose.ui.test.AssertionsKt.assertIsNotEnabled(Assertions.kt:63)
+	at com.floratend.app.UiSmokeTest.careActionsJournalEditsAndVoiceConfirmation(UiSmokeTest.kt:97)
+..
+
+Time: 31.985
+There were 2 failures:
+1) workerUsesOneNotificationAndUpdatesAfterCompletion(com.floratend.app.ReminderWorkerTest)
+org.junit.ComparisonFailure: expected:<[1 plant-care check] to review.> but was:<[2 plant-care checks] to review.>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.floratend.app.ReminderWorkerTest$workerUsesOneNotificationAndUpdatesAfterCompletion$1.invokeSuspend(ReminderWorkerTest.kt:43)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.floratend.app.ReminderWorkerTest.workerUsesOneNotificationAndUpdatesAfterCompletion(ReminderWorkerTest.kt:18)
+2) careActionsJournalEditsAndVoiceConfirmation(com.floratend.app.UiSmokeTest)
+java.lang.AssertionError: Failed to assert the following: (is not enabled)
+Semantics of the node:
+Node #1041 at (l=228.0, t=691.0, r=376.0, b=751.0)px
+Focused = 'false'
+Role = 'Button'
+Text = '[Record care]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 3 siblings
+Selector used: (Text + EditableText contains 'Record care' (ignoreCase: false))
+
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:265)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:255)
+	at androidx.compose.ui.test.AssertionsKt.assertIsNotEnabled(Assertions.kt:63)
+	at com.floratend.app.UiSmokeTest.careActionsJournalEditsAndVoiceConfirmation(UiSmokeTest.kt:97)
+
+FAILURES!!!
+Tests run: 8,  Failures: 2
+
+

@@ -448,5 +448,357 @@
       "docs/BILLING_INTEGRATION.md"
     ],
     "corrective_action": "Keep blocker details and criterion-level evidence current after every affected change."
+  },
+  "AC-01.09": {
+    "test_name": "Core navigation and startup smoke scenarios",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "All four current suites passed. The tested create/edit/calendar/journal/voice-text/insights/settings and rotation scenarios completed without an uncaught crash. This is bounded smoke coverage, not all-device reliability.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-02.01": {
+    "test_name": "Portrait and landscape navigation assertions",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "UiSmokeTest explicitly rotated the physical HD10 between portrait and landscape and asserted the primary Add plant control remained displayed. Other locale/font/device layouts remain separate.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt",
+      "evidence/device/layout-7in-large-font.txt",
+      "evidence/device/layout-8in.txt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-02.06": {
+    "test_name": "Core navigation smoke flow",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "The tested Garden, Calendar, Journal, Voice, Insights and Settings paths passed on the physical HD10 and both display overrides. The voice path used text entry when recognition was unavailable.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-03.01": {
+    "test_name": "Plant creation through Compose UI",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "Created a plant with nickname, species and location; asserted the resulting collection record and count. The same UI test passed with no active default network.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-03.02": {
+    "test_name": "Plant edit through Compose UI",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "Changed the saved species and awaited the updated visible value. The flow passed online and in the no-network suite.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-03.03": {
+    "test_name": "Confirmed plant deletion",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "Opened the plant delete confirmation and confirmed; awaited absence of that plant from the DAO. UI deletion and separate cascading integrity tests passed.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt",
+      "app/src/androidTest/java/com/floratend/app/PersistenceTest.kt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-03.09": {
+    "test_name": "Related-row cascade and unrelated-plant preservation",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "Saved two plants, care and journal rows, deleted one plant, and verified the unrelated plant survived while only the deleted plant's related rows were removed.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/PersistenceTest.kt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-03.10": {
+    "test_name": "Transactional free plant limit policy",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "The device DAO test accepted five free plant inserts and rejected the sixth, while still allowing an existing record edit. This verifies the authoritative storage policy, not purchase processing.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/PersistenceTest.kt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-04.02": {
+    "test_name": "Confirmed typed-command watering record",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "An English typed Mark my plant as watered command showed confirmation; no history row existed before confirmation, then one existed after it. The next check advanced seven days. No recognised-speech-input claim is made.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-04.04": {
+    "test_name": "Care schedule pause and resume",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "Pause switched the action to Resume and disabled Record care; resume restored the enabled routine before later completion. Tested through Compose online and without an active default network.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-04.06": {
+    "test_name": "Persisted care completion history",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "File-backed Room close/reopen retained the care completion row; the UI command test separately awaited one history row after confirmation.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/PersistenceTest.kt",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-04.07": {
+    "test_name": "Persisted next-check recurrence",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "Device tests verified the next date advances by the configured seven days after completion and survives database reopen.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/PersistenceTest.kt",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-04.09": {
+    "test_name": "Aggregate notification deduplication and completion refresh",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "ReminderWorkerTest ran real WorkManager jobs twice, verified one notification ID100, checked the current due-count message, then verified completion updates or cancels it. This covers the tested API28 notification settings; exact-time delivery and Android13 permission handling remain unverified.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/ReminderWorkerTest.kt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-05.01": {
+    "test_name": "Dated journal entry through Compose UI",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "Created and displayed a journal note using the default current-date entry; file-backed persistence tests retained saved journal data. Custom-date input boundaries remain outside this scenario.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt",
+      "app/src/androidTest/java/com/floratend/app/PersistenceTest.kt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-05.04": {
+    "test_name": "Journal edit and confirmed deletion",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "Edited a saved journal note, awaited the new visible text, opened and confirmed deletion, then awaited absence of the entry from the database.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-05.07": {
+    "test_name": "Missing saved photograph fallback",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "Imported and bounded a generated image into private storage, deleted that saved file, then asserted the journal shows the explicit missing-photograph message. External picker and camera permission flows were not exercised.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-05.09": {
+    "test_name": "Local journal workflow without default network",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "The offline UI suite created, displayed, edited and deleted journal notes while dumpsys connectivity reported no active default network; separate file-backed database reopen verified persisted journal data.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt",
+      "app/src/androidTest/java/com/floratend/app/PersistenceTest.kt",
+      "evidence/device/offline-network-state.txt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-06.10": {
+    "test_name": "Unavailable recognizer touch/text fallback",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "This physical Fire reported no SpeechRecognizer service. The test asserted Push to talk is disabled, a clear unavailable message is displayed, microphone permission remains denied, and a typed Add a new plant command opens the real editor. This does not test recognition on a capable device.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt",
+      "evidence/device/physical-hd10/speech-engine-test.json",
+      "evidence/device/physical-hd10/voice-capabilities.json"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-10.01": {
+    "test_name": "Saved plant display without active network",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "The offline UI suite displayed locally created/saved plant records and retained them through activity rotation.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt",
+      "evidence/device/offline-network-state.txt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-10.02": {
+    "test_name": "Plant creation and edit without active network",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "The offline suite created a plant, edited its saved species and awaited the updated UI value without an active default network.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt",
+      "evidence/device/offline-network-state.txt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-10.03": {
+    "test_name": "Saved care schedule view without active network",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "The offline suite created a saved soil-check schedule and displayed its real care actions without an active default network.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt",
+      "evidence/device/offline-network-state.txt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-10.04": {
+    "test_name": "Care completion without active network",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "The offline suite confirmed a typed watering-record command, then verified its history row and advanced next date without an active default network.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt",
+      "evidence/device/offline-network-state.txt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-10.05": {
+    "test_name": "Journal note creation without active network",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "The offline suite created and displayed a local journal note without an active default network.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt",
+      "evidence/device/offline-network-state.txt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-10.08": {
+    "test_name": "Core no-account no-network smoke workflows",
+    "execution_date": "2026-10-28",
+    "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
+    "status": "PASS",
+    "actual_result": "The tested core plant, schedule, completion and journal actions required neither an account nor an active default network. This is bounded workflow coverage, not a full process-kill or saved-photo offline matrix.",
+    "evidence": [
+      "evidence/device/physical-hd10.txt",
+      "evidence/device/offline-hd10.txt",
+      "docs/FIRE_TEST_PLAN.md",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt",
+      "evidence/device/offline-network-state.txt"
+    ],
+    "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
   }
 }

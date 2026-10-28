@@ -42,7 +42,7 @@ class FireResultGuardTests(unittest.TestCase):
             self.assertIn("AC-04.09", proposed)
             for prefix in ["AC-07", "AC-08", "AC-12", "AC-17", "AC-18", "AC-19"]:
                 self.assertFalse(any(key.startswith(prefix) for key in proposed))
-            for key in ["AC-03.04", "AC-03.11", "AC-05.06", "AC-06.02", "AC-06.03", "AC-06.04", "AC-06.06", "AC-10.06"]:
+            for key in ["AC-03.08", "AC-05.03", "AC-03.04", "AC-03.11", "AC-05.06", "AC-06.02", "AC-06.03", "AC-06.04", "AC-06.06", "AC-10.06"]:
                 self.assertNotIn(key, proposed)
 
 

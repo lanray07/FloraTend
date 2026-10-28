@@ -1,0 +1,56 @@
+{
+  "mode": "read-only; no observations changed",
+  "run": {
+    "suites": {
+      "physical-hd10": {
+        "tests": 8,
+        "mtime_utc": "2026-10-28T08:27:58+00:00",
+        "sha256": "86ed0ed2de12984ef3293bcacbbf73a0de7020d426c9d46fe282922685d2b780"
+      },
+      "layout-7in-large-font": {
+        "tests": 4,
+        "mtime_utc": "2026-10-28T08:28:36+00:00",
+        "sha256": "31b13ec39c520ab79be6e2b52ef66a9d109be1ff414911691746f942a2b58eb9"
+      },
+      "layout-8in": {
+        "tests": 4,
+        "mtime_utc": "2026-10-28T08:29:14+00:00",
+        "sha256": "ccfc461fe454d422bb65ba2c5b202b756785c6ae6ea03b201680742936168e69"
+      },
+      "offline-hd10": {
+        "tests": 4,
+        "mtime_utc": "2026-10-28T08:29:56+00:00",
+        "sha256": "8fcf33b68b0cbc7ec56c9b1c8d3d0914810a3915b539383424affd02b8d27d67"
+      }
+    },
+    "apk_sha256": "95c69a8e9482e2dae44f93daa14948d6de46467664bd7eaa20cc54868e6128d9",
+    "build_log_sha256": "0a9b44336dee556f20bfd2dbde6cc990fdf6bb6a90d62016e3c0e6f4dc88572f",
+    "execution_date": "2026-10-28"
+  },
+  "proposed_requirement_ids": [
+    "AC-01.09",
+    "AC-02.01",
+    "AC-02.06",
+    "AC-03.01",
+    "AC-03.02",
+    "AC-03.03",
+    "AC-03.09",
+    "AC-03.10",
+    "AC-04.02",
+    "AC-04.04",
+    "AC-04.06",
+    "AC-04.07",
+    "AC-04.09",
+    "AC-05.01",
+    "AC-05.04",
+    "AC-05.07",
+    "AC-05.09",
+    "AC-06.10",
+    "AC-10.01",
+    "AC-10.02",
+    "AC-10.03",
+    "AC-10.04",
+    "AC-10.05",
+    "AC-10.08"
+  ]
+}

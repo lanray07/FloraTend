@@ -11,6 +11,8 @@ function Invoke-Adb([string[]]$Arguments) {
     return $result
 }
 function Run-Suite([string]$Name, [string]$Class = '') {
+    Invoke-Adb @('shell','input','keyevent','KEYCODE_WAKEUP') | Out-Null
+    Invoke-Adb @('shell','wm','dismiss-keyguard') | Out-Null
     $argsForTest = @('shell','am','instrument','-w')
     if ($Class) { $argsForTest += @('-e','class',$Class) }
     $argsForTest += 'com.floratend.app.test/androidx.test.runner.AndroidJUnitRunner'
@@ -26,11 +28,13 @@ if (!$SkipBuild) {
 Invoke-Adb @('install','-r','app/build/outputs/apk/debug/app-debug.apk') | Out-Null
 Invoke-Adb @('install','-r','app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk') | Out-Null
 $fontScale = (Invoke-Adb @('shell','settings','get','system','font_scale') | Out-String).Trim()
+$stayAwake = (Invoke-Adb @('shell','settings','get','global','stay_on_while_plugged_in') | Out-String).Trim()
 $wifi = (Invoke-Adb @('shell','settings','get','global','wifi_on') | Out-String).Trim()
 $originalSize = (Invoke-Adb @('shell','wm','size') | Out-String).Trim()
 $originalDensity = (Invoke-Adb @('shell','wm','density') | Out-String).Trim()
 if ($originalSize -match 'Override' -or $originalDensity -match 'Override') { throw 'Pre-existing display overrides found; preserve and test them manually' }
 try {
+    Invoke-Adb @('shell','settings','put','global','stay_on_while_plugged_in','7') | Out-Null
     Invoke-Adb @('shell','input','keyevent','KEYCODE_WAKEUP') | Out-Null
     Invoke-Adb @('shell','wm','dismiss-keyguard') | Out-Null
     Run-Suite 'physical-hd10'
@@ -50,6 +54,8 @@ try {
     if (($offline -join '') -notmatch 'none') { throw 'No-network condition could not be verified' }
     Run-Suite 'offline-hd10' 'com.floratend.app.UiSmokeTest'
 } finally {
+    if ($stayAwake -and $stayAwake -ne 'null') { Invoke-Adb @('shell','settings','put','global','stay_on_while_plugged_in',$stayAwake) | Out-Null }
+    else { Invoke-Adb @('shell','settings','delete','global','stay_on_while_plugged_in') | Out-Null }
     Invoke-Adb @('shell','wm','size','reset') | Out-Null
     Invoke-Adb @('shell','wm','density','reset') | Out-Null
     if ($fontScale -and $fontScale -ne 'null') { Invoke-Adb @('shell','settings','put','system','font_scale',$fontScale) | Out-Null }

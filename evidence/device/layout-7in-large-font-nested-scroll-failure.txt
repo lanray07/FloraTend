@@ -1,0 +1,23 @@
+
+com.floratend.app.UiSmokeTest:.
+Error in careActionsJournalEditsAndVoiceConfirmation(com.floratend.app.UiSmokeTest):
+androidx.compose.ui.test.ComposeTimeoutException: Condition still not satisfied after 10000 ms
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitUntil(ComposeUiTest.android.kt:441)
+	at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitUntil(AndroidComposeTestRule.android.kt:306)
+	at com.floratend.app.UiSmokeTest.waitText(UiSmokeTest.kt:48)
+	at com.floratend.app.UiSmokeTest.careActionsJournalEditsAndVoiceConfirmation(UiSmokeTest.kt:105)
+..
+
+Time: 36.533
+There was 1 failure:
+1) careActionsJournalEditsAndVoiceConfirmation(com.floratend.app.UiSmokeTest)
+androidx.compose.ui.test.ComposeTimeoutException: Condition still not satisfied after 10000 ms
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitUntil(ComposeUiTest.android.kt:441)
+	at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitUntil(AndroidComposeTestRule.android.kt:306)
+	at com.floratend.app.UiSmokeTest.waitText(UiSmokeTest.kt:48)
+	at com.floratend.app.UiSmokeTest.careActionsJournalEditsAndVoiceConfirmation(UiSmokeTest.kt:105)
+
+FAILURES!!!
+Tests run: 4,  Failures: 1
+
+

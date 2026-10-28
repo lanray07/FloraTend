@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.floratend.app.CareEngineTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-28T07:31:30.189Z" hostname="DESKTOP-MAKK9CA" time="0.524">
+<testsuite name="com.floratend.app.CareEngineTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-28T08:21:49.893Z" hostname="DESKTOP-MAKK9CA" time="0.261">
   <properties/>
-  <testcase name="rejectExcessiveInterval" classname="com.floratend.app.CareEngineTest" time="0.083"/>
-  <testcase name="voiceDoesNotAcceptDestructiveCommand" classname="com.floratend.app.CareEngineTest" time="0.208"/>
-  <testcase name="unknownLanguageNeverExecutesEnglishCommand" classname="com.floratend.app.CareEngineTest" time="0.0"/>
-  <testcase name="requiredVoiceCommands" classname="com.floratend.app.CareEngineTest" time="0.035"/>
-  <testcase name="recurrenceCrossesLeapDayAndYear" classname="com.floratend.app.CareEngineTest" time="0.001"/>
+  <testcase name="rejectExcessiveInterval" classname="com.floratend.app.CareEngineTest" time="0.024"/>
+  <testcase name="voiceDoesNotAcceptDestructiveCommand" classname="com.floratend.app.CareEngineTest" time="0.166"/>
+  <testcase name="unknownLanguageNeverExecutesEnglishCommand" classname="com.floratend.app.CareEngineTest" time="0.001"/>
+  <testcase name="requiredVoiceCommands" classname="com.floratend.app.CareEngineTest" time="0.005"/>
+  <testcase name="recurrenceCrossesLeapDayAndYear" classname="com.floratend.app.CareEngineTest" time="0.0"/>
   <testcase name="rejectZeroInterval" classname="com.floratend.app.CareEngineTest" time="0.0"/>
-  <testcase name="csvProtectsFormulasAndQuotes" classname="com.floratend.app.CareEngineTest" time="0.164"/>
-  <testcase name="reminderKeepsLocalMorningAcrossDaylightSaving" classname="com.floratend.app.CareEngineTest" time="0.026"/>
+  <testcase name="csvProtectsFormulasAndQuotes" classname="com.floratend.app.CareEngineTest" time="0.061"/>
+  <testcase name="reminderKeepsLocalMorningAcrossDaylightSaving" classname="com.floratend.app.CareEngineTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,0 +1,8 @@
+Physical size: 1200x1920
+Physical density: 240
+font_scale
+1.0
+wifi_on
+1
+stay_on_while_plugged_in
+0

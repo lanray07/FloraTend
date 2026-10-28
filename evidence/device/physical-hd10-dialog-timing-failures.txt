@@ -1,0 +1,43 @@
+
+com.floratend.app.PersistenceTest:..
+com.floratend.app.ReminderWorkerTest:.
+com.floratend.app.SpeechCapabilityTest:.
+com.floratend.app.UiSmokeTest:
+Error in createPlantAndNavigateAllCoreScreens(com.floratend.app.UiSmokeTest):
+java.lang.AssertionError: Failed: assertExists.
+Reason: Expected exactly '1' node but could not find any node that satisfies: (Text + EditableText contains 'Your collection · 1 plant' (ignoreCase: false))
+However, the unmerged tree contains '1' node that matches. Are you missing `useUnmergedNode = true` in your finder?
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.assertExists(SemanticsNodeInteraction.kt:125)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.assertExists$default(SemanticsNodeInteraction.kt:124)
+	at com.floratend.app.UiSmokeTest.createPlantAndNavigateAllCoreScreens(UiSmokeTest.kt:66)
+..
+Error in rotationDarkThemeAndRecognitionFallback(com.floratend.app.UiSmokeTest):
+java.lang.AssertionError: Assert failed: The component is not displayed!
+	at androidx.compose.ui.test.AssertionsKt.assertIsDisplayed(Assertions.kt:34)
+	at com.floratend.app.UiSmokeTest.rotationDarkThemeAndRecognitionFallback(UiSmokeTest.kt:159)
+
+
+Time: 24.838
+There were 2 failures:
+1) createPlantAndNavigateAllCoreScreens(com.floratend.app.UiSmokeTest)
+java.lang.AssertionError: Failed: assertExists.
+Reason: Expected exactly '1' node but could not find any node that satisfies: (Text + EditableText contains 'Your collection · 1 plant' (ignoreCase: false))
+However, the unmerged tree contains '1' node that matches. Are you missing `useUnmergedNode = true` in your finder?
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.assertExists(SemanticsNodeInteraction.kt:125)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.assertExists$default(SemanticsNodeInteraction.kt:124)
+	at com.floratend.app.UiSmokeTest.createPlantAndNavigateAllCoreScreens(UiSmokeTest.kt:66)
+2) rotationDarkThemeAndRecognitionFallback(com.floratend.app.UiSmokeTest)
+java.lang.AssertionError: Assert failed: The component is not displayed!
+	at androidx.compose.ui.test.AssertionsKt.assertIsDisplayed(Assertions.kt:34)
+	at com.floratend.app.UiSmokeTest.rotationDarkThemeAndRecognitionFallback(UiSmokeTest.kt:159)
+
+FAILURES!!!
+Tests run: 8,  Failures: 2
+
+

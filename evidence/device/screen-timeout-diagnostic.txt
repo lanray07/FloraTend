@@ -1,0 +1,5 @@
+  mWakefulness=Asleep
+  mIsPowered=true
+  mStayOn=false
+Display Power: state=OFF
+  mIsPowered=true

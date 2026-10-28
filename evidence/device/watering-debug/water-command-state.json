@@ -1,0 +1,6 @@
+{
+  "transcript": "Mark my FloraTend QA fern as watered.",
+  "parsedCommand": "Water(name=floratend qa fern)",
+  "plantMatches": 1,
+  "schedules": "[CareSchedule(id=acceptance-schedule, plantId=acceptance-fern, type=soil, intervalDays=7, nextDate=2026-10-28, paused=false, lastCompleted=null)]"
+}

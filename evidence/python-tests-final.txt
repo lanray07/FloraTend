@@ -1,3 +1,8 @@
+test_exact_successful_count_is_required (test_fire_results.FireResultGuardTests) ... ok
+test_failed_or_skipped_suite_cannot_hide_behind_ok (test_fire_results.FireResultGuardTests) ... ok
+test_mapping_does_not_approve_untested_release_gates (test_fire_results.FireResultGuardTests) ... ok
+test_missing_log_rejected (test_fire_results.FireResultGuardTests) ... ok
+test_old_log_rejected (test_fire_results.FireResultGuardTests) ... ok
 test_duplicate_resource_names_rejected (test_localize.LocalizationTests) ... ok
 test_lost_or_duplicated_tokens_rejected (test_localize.LocalizationTests) ... ok
 test_missing_and_invalid_placeholder (test_localize.LocalizationTests) ... ok
@@ -28,7 +33,7 @@ test_unconfigured_site_fails_production_validation (test_supporting_tools.Websit
 test_unsafe_origins_rejected (test_supporting_tools.WebsiteTests) ... ok
 
 ----------------------------------------------------------------------
-Ran 27 tests in 3.402s
+Ran 32 tests in 1.542s
 
 OK
 {
