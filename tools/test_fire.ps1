@@ -16,8 +16,8 @@ function Run-Suite([string]$Name, [string]$Class = '') {
     $argsForTest += 'com.floratend.app.test/androidx.test.runner.AndroidJUnitRunner'
     $result = Invoke-Adb $argsForTest
     $result | Set-Content -Encoding utf8 "evidence/device/$Name.txt"
-    if (($result -join "`n") -notmatch 'OK \(\d+ tests?\)') { throw "Device suite failed: $Name" }
     Invoke-Adb @('pull','/sdcard/Android/data/com.floratend.app/files/acceptance/.',"evidence/device/$Name/") | Out-Null
+    if (($result -join "`n") -notmatch 'OK \(\d+ tests?\)') { throw "Device suite failed: $Name" }
 }
 if (!$SkipBuild) {
     & .\gradlew.bat :app:assembleDebug :app:assembleDebugAndroidTest :app:testDebugUnitTest :app:lintDebug --console=plain *> evidence/device-build.log

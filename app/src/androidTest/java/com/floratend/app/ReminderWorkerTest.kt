@@ -9,6 +9,7 @@ import androidx.work.WorkManager
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withTimeout
+import kotlinx.coroutines.delay
 import org.junit.Assert.*
 import org.junit.Assume.assumeTrue
 import org.junit.Test
@@ -34,13 +35,15 @@ class ReminderWorkerTest {
             app.settings.set("reminders",true)
             execute();execute()
             assertEquals(1,manager.activeNotifications.count { it.id==100 })
+            suspend fun awaitText(expected:String) { withTimeout(5000) { while(manager.activeNotifications.singleOrNull { it.id==100 }?.notification?.extras?.getCharSequence(Notification.EXTRA_TEXT)?.toString()!=expected) delay(50) } }
             val count=app.database.dao().due(LocalDate.now().toString()).size
+            awaitText(app.resources.getQuantityString(R.plurals.reminder_count,count,count))
             assertEquals(app.resources.getQuantityString(R.plurals.reminder_count,count,count),manager.activeNotifications.single { it.id==100 }.notification.extras.getCharSequence(Notification.EXTRA_TEXT).toString())
             app.database.dao().complete(schedule,LocalDate.now(),"Soil checked: moist")
             execute()
             val remaining=app.database.dao().due(LocalDate.now().toString()).size
-            if(remaining==0) assertTrue(manager.activeNotifications.none { it.id==100 })
-            else assertEquals(app.resources.getQuantityString(R.plurals.reminder_count,remaining,remaining),manager.activeNotifications.single { it.id==100 }.notification.extras.getCharSequence(Notification.EXTRA_TEXT).toString())
+            if(remaining==0) { withTimeout(5000) { while(manager.activeNotifications.any { it.id==100 }) delay(50) };assertTrue(manager.activeNotifications.none { it.id==100 }) }
+            else { awaitText(app.resources.getQuantityString(R.plurals.reminder_count,remaining,remaining));assertEquals(app.resources.getQuantityString(R.plurals.reminder_count,remaining,remaining),manager.activeNotifications.single { it.id==100 }.notification.extras.getCharSequence(Notification.EXTRA_TEXT).toString()) }
         } finally {
             app.database.dao().delete(plant)
             app.settings.set("reminders",original)

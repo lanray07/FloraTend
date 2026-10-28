@@ -22,10 +22,10 @@ class PlantViewModel(application: Application) : AndroidViewModel(application) {
             else error.value = app.getString(R.string.free_limit)
         }.onFailure { error.value = app.getString(R.string.save_error) }
     }
-    fun delete(plant: Plant) = viewModelScope.launch { dao.delete(plant) }
-    fun schedule(schedule: CareSchedule) = viewModelScope.launch { dao.save(schedule) }
-    fun complete(schedule: CareSchedule, observation: String = "") = viewModelScope.launch { dao.complete(schedule, LocalDate.now(), observation) }
+    fun delete(plant: Plant) = viewModelScope.launch { dao.delete(plant); Reminders.refresh(app) }
+    fun schedule(schedule: CareSchedule) = viewModelScope.launch { dao.save(schedule); Reminders.refresh(app) }
+    fun complete(schedule: CareSchedule, observation: String = "") = viewModelScope.launch { dao.complete(schedule, LocalDate.now(), observation); Reminders.refresh(app) }
     fun journal(entry: JournalEntry) = viewModelScope.launch { dao.save(entry) }
     fun delete(entry: JournalEntry) = viewModelScope.launch { dao.delete(entry) }
-    fun wipe() = viewModelScope.launch { dao.wipe(); app.filesDir.resolve("photos").deleteRecursively() }
+    fun wipe() = viewModelScope.launch { dao.wipe(); app.filesDir.resolve("photos").deleteRecursively(); Reminders.refresh(app) }
 }

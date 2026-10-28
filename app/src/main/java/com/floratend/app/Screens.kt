@@ -15,6 +15,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.unit.dp
@@ -24,6 +25,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.time.LocalDate
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable fun CareScreen(plants:List<Plant>,schedules:List<CareSchedule>,vm:PlantViewModel,onAdd:()->Unit,onComplete:(CareSchedule)->Unit) {
     var view by remember { mutableIntStateOf(0) };var filter by remember { mutableStateOf("") };var type by remember { mutableStateOf("") };var reschedule by remember { mutableStateOf<CareSchedule?>(null) };var newDate by remember { mutableStateOf("") }
     Heading(s(R.string.care_calendar),s(R.string.check_first))
@@ -34,11 +36,12 @@ import java.time.LocalDate
     val until=LocalDate.now().plusDays(when(view){0->0;1->7;else->30}).toString()
     val visible=schedules.filter { (filter.isEmpty() || it.plantId==filter) && (type.isEmpty() || it.type==type) && it.nextDate<=until }
     if(visible.isEmpty()) Empty(s(R.string.no_tasks),s(R.string.no_tasks_body))
-    LazyColumn(verticalArrangement=Arrangement.spacedBy(12.dp)) { items(visible,key={it.id}) { schedule -> Card(Modifier.fillMaxWidth()) { Column(Modifier.padding(16.dp)) { Text(plants.find { it.id==schedule.plantId }?.name.orEmpty(),style=MaterialTheme.typography.titleLarge);Text(careLabel(schedule.type));Text(formatDate(schedule.nextDate));if(schedule.paused) Text(s(R.string.paused));Row(Modifier.horizontalScroll(rememberScrollState())) {TextButton(enabled=!schedule.paused,onClick={onComplete(schedule)}){Text(s(R.string.record_care))};TextButton(onClick={vm.schedule(schedule.copy(nextDate=LocalDate.now().plusDays(1).toString()))}){Text(s(R.string.snooze))};TextButton(onClick={vm.schedule(schedule.copy(paused=!schedule.paused))}){Text(s(if(schedule.paused) R.string.resume else R.string.pause))};TextButton(onClick={newDate=schedule.nextDate;reschedule=schedule}){Text(s(R.string.reschedule))}} } } } }
+    LazyColumn(verticalArrangement=Arrangement.spacedBy(12.dp)) { items(visible,key={it.id}) { schedule -> Card(Modifier.fillMaxWidth()) { Column(Modifier.padding(16.dp)) { Text(plants.find { it.id==schedule.plantId }?.name.orEmpty(),style=MaterialTheme.typography.titleLarge);Text(careLabel(schedule.type));Text(formatDate(schedule.nextDate));if(schedule.paused) Text(s(R.string.paused));FlowRow(horizontalArrangement=Arrangement.spacedBy(4.dp)) {TextButton(enabled=!schedule.paused,onClick={onComplete(schedule)}){Text(s(R.string.record_care))};TextButton(onClick={vm.schedule(schedule.copy(nextDate=LocalDate.now().plusDays(1).toString()))}){Text(s(R.string.snooze))};TextButton(onClick={vm.schedule(schedule.copy(paused=!schedule.paused))}){Text(s(if(schedule.paused) R.string.resume else R.string.pause))};TextButton(onClick={newDate=schedule.nextDate;reschedule=schedule}){Text(s(R.string.reschedule))}} } } } }
     reschedule?.let { schedule -> AlertDialog(onDismissRequest={reschedule=null},title={Text(s(R.string.reschedule))},text={Field(newDate,R.string.date_iso,{newDate=it})},confirmButton={TextButton(enabled=runCatching { LocalDate.parse(newDate) }.isSuccess,onClick={vm.schedule(schedule.copy(nextDate=newDate));reschedule=null}){Text(s(R.string.save))}},dismissButton={TextButton(onClick={reschedule=null}){Text(s(R.string.cancel))}}) }
 }
 
 @Composable fun VoiceScreen(activity:MainActivity,plants:List<Plant>,schedules:List<CareSchedule>,vm:PlantViewModel,onTab:(Int)->Unit,onAdd:()->Unit,onSearch:(String)->Unit) {
+    val focusManager=LocalFocusManager.current
     var response by remember { mutableStateOf("") };var pending by remember { mutableStateOf<CareSchedule?>(null) }
     val permission=rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted -> if(granted) activity.listen() else response=activity.getString(R.string.mic_denied) }
     Heading(s(R.string.voice_assistant),s(R.string.voice_intro))
@@ -47,6 +50,7 @@ import java.time.LocalDate
         Button(onClick={if(ContextCompat.checkSelfPermission(activity,Manifest.permission.RECORD_AUDIO)==PackageManager.PERMISSION_GRANTED) activity.listen() else permission.launch(Manifest.permission.RECORD_AUDIO)},enabled=!activity.listening && SpeechRecognizer.isRecognitionAvailable(activity)) {Icon(FloraIcons.Mic,null);Text(s(if(activity.listening) R.string.listening else R.string.push_to_talk))}
         Field(activity.transcript,R.string.command,{activity.transcript=it},3)
         Button(onClick={
+            focusManager.clearFocus()
             response=when(val command=VoiceParser.parse(activity.transcript)) {
                 VoiceCommand.Add->{onAdd();activity.getString(R.string.add_plant)}
                 VoiceCommand.Calendar->{onTab(1);activity.getString(R.string.care_calendar)}
@@ -67,12 +71,12 @@ import java.time.LocalDate
     val price by app.billing.price.collectAsState();val message by app.billing.message.collectAsState();val available by app.billing.available.collectAsState()
     var wipe by remember { mutableStateOf(false) };var status by remember { mutableStateOf("") };var payload by remember { mutableStateOf("") }
     val exporter=rememberLauncherForActivityResult(ActivityResultContracts.CreateDocument("application/octet-stream")) { uri -> if(uri!=null) scope.launch { runCatching { withContext(Dispatchers.IO) { context.contentResolver.openOutputStream(uri)?.use { it.write(payload.toByteArray(Charsets.UTF_8)) } ?: error("Unavailable") } }.onSuccess { status=context.getString(R.string.export_saved) }.onFailure { status=context.getString(R.string.export_error) } } }
-    val notificationPermission=rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted -> scope.launch { app.settings.set("reminders",granted) } }
+    val notificationPermission=rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted -> scope.launch { app.settings.set("reminders",granted);Reminders.refresh(app) } }
     Heading(s(R.string.settings),s(R.string.settings_intro))
     Column(Modifier.verticalScroll(rememberScrollState())) {
         Toggle(s(R.string.dark_theme),dark){scope.launch{app.settings.set("dark",it)}}
         Toggle(s(R.string.imperial),imperial){scope.launch{app.settings.set("imperial",it)}}
-        Toggle(s(R.string.care_reminders),reminders){if(it && Build.VERSION.SDK_INT>=33) notificationPermission.launch(Manifest.permission.POST_NOTIFICATIONS) else scope.launch{app.settings.set("reminders",it)}}
+        Toggle(s(R.string.care_reminders),reminders){if(it && Build.VERSION.SDK_INT>=33) notificationPermission.launch(Manifest.permission.POST_NOTIFICATIONS) else scope.launch{app.settings.set("reminders",it);Reminders.refresh(app)}}
         HorizontalDivider();Text(s(R.string.premium),style=MaterialTheme.typography.headlineSmall,modifier=Modifier.padding(top=20.dp));Text(s(if(premium) R.string.premium_active else R.string.premium_intro))
         Button(onClick={app.billing.purchase()},enabled=available && !premium){Text(price?.let { s(R.string.unlock_price).format(it) } ?: s(R.string.store_unavailable))}
         TextButton(onClick={app.billing.restore()}){Text(s(R.string.restore))};if(message.isNotEmpty()) Text(message)

@@ -40,6 +40,12 @@ class UiSmokeTest {
         rule.waitForIdle()
         return plant
     }
+    private fun nav(label:String) {
+        val node=rule.onNodeWithText(label,substring=false)
+        if(InstrumentationRegistry.getInstrumentation().targetContext.resources.configuration.screenWidthDp>=720) node.performScrollTo()
+        node.performClick()
+    }
+    private fun waitText(text:String) { rule.waitUntil(10000) { rule.onAllNodesWithText(text,substring=false).fetchSemanticsNodes().isNotEmpty() } }
     private fun shot(name:String) {
         rule.waitForIdle()
         InstrumentationRegistry.getInstrumentation().waitForIdleSync()
@@ -56,35 +62,36 @@ class UiSmokeTest {
         rule.onNodeWithText("Species (optional)").performTextInput("Nephrolepis")
         rule.onNodeWithText("Location",substring=false).performTextInput("Study")
         rule.onNodeWithText("Save",substring=false).performClick()
-        rule.waitUntil(10000) { rule.onAllNodesWithText(fixture).fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(10000) { rule.onAllNodesWithText("Plant details",substring=false).fetchSemanticsNodes().isEmpty() && rule.onAllNodesWithText(fixture).fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithText("Your collection · 1 plant").assertExists()
         shot("01-garden")
-        rule.onNodeWithText(fixture).performClick();shot("07-plant")
+        rule.onNodeWithText(fixture).performScrollTo().performClick();shot("07-plant")
         rule.onNodeWithText("Edit",substring=false).performClick()
         rule.onNodeWithText("Species (optional)").performTextReplacement("Boston fern")
         rule.onNodeWithText("Save",substring=false).performClick()
-        rule.onNodeWithText("Boston fern").assertExists()
+        rule.waitUntil(10000) { rule.onAllNodesWithText("Plant details",substring=false).fetchSemanticsNodes().isEmpty() };waitText("Boston fern");rule.onNodeWithText("Boston fern").assertExists()
         rule.onNodeWithText("Search plants, species or locations").performTextInput("Study")
         rule.onNodeWithText(fixture).assertExists()
         rule.onNodeWithText("Search plants, species or locations").performTextReplacement("absent species")
         rule.onNodeWithText(fixture).assertDoesNotExist()
         rule.onNodeWithText("Search plants, species or locations").performTextClearance()
-        rule.onNodeWithText("Calendar",substring=false).performClick()
+        nav("Calendar")
         rule.onNodeWithText("Add care schedule").performClick()
         rule.onNodeWithText("Save",substring=false).performClick()
-        rule.onNodeWithText("Record care",substring=false).assertExists();shot("02-care")
-        rule.onNodeWithText("Journal",substring=false).performClick()
+        waitText("Record care");rule.onNodeWithText("Record care",substring=false).assertExists();shot("02-care")
+        nav("Journal")
         rule.onNodeWithText("Add journal entry").performClick()
         rule.onNodeWithText("Notes and observations").performTextInput("Demonstration journal note; no growth measurement.")
         rule.onNodeWithText("Save",substring=false).performClick()
-        rule.onNodeWithText("Demonstration journal note; no growth measurement.").assertExists();shot("03-journal")
-        rule.onNodeWithText("Voice",substring=false).performClick()
+        waitText("Demonstration journal note; no growth measurement.");rule.onNodeWithText("Demonstration journal note; no growth measurement.").assertExists();shot("03-journal")
+        nav("Voice")
         rule.onNodeWithText("A helping voice").assertIsDisplayed();shot("04-voice")
         rule.onNodeWithText("Review or type a command").performTextInput("Read my reminders.")
-        rule.onNodeWithText("Run command").performClick()
-        rule.onNodeWithText("Insights",substring=false).performClick()
+        rule.onNodeWithText("Run command").performScrollTo().performClick()
+        rule.onNodeWithText("1 plant-care check to review. $fixture").performScrollTo().assertIsDisplayed()
+        nav("Insights")
         rule.onNodeWithText("Plants in your collection").assertIsDisplayed();shot("05-insights")
-        rule.onNodeWithText("Settings",substring=false).performClick()
+        nav("Settings")
         rule.onNodeWithText("Dark theme").assertIsDisplayed();shot("06-settings")
         rule.onNodeWithText("Amazon product unavailable").assertIsNotEnabled()
     }
@@ -92,18 +99,22 @@ class UiSmokeTest {
         val plant=seed()
         val schedule=CareSchedule(id="acceptance-schedule",plantId=plant.id)
         runBlocking { app.database.dao().save(schedule) }
-        rule.onNodeWithText("Calendar",substring=false).performClick()
-        rule.onNodeWithText("Pause",substring=false).performClick()
+        nav("Calendar")
+        waitText("Pause");rule.onNodeWithText("Pause",substring=false).performScrollTo().performClick();waitText("Resume")
         rule.onNodeWithText("Record care",substring=false).assertIsNotEnabled()
-        rule.onNodeWithText("Resume",substring=false).performClick()
-        rule.onNodeWithText("Snooze until tomorrow").performClick()
+        rule.onNodeWithText("Resume",substring=false).performScrollTo().performClick();waitText("Pause")
+        rule.onNodeWithText("Snooze until tomorrow").performScrollTo().performClick()
+        rule.waitUntil(10000) { runBlocking { app.database.dao().schedules().first().single { it.plantId==plant.id }.nextDate==LocalDate.now().plusDays(1).toString() } }
         rule.onNodeWithText("Next 7 days").performClick()
-        rule.onNodeWithText("Reschedule",substring=false).performClick()
+        rule.onNodeWithText("Reschedule",substring=false).performScrollTo().performClick()
         rule.onNodeWithText("Date (YYYY-MM-DD)").performTextReplacement(LocalDate.now().toString())
         rule.onNodeWithText("Save",substring=false).performClick()
-        rule.onNodeWithText("Voice",substring=false).performClick()
+        nav("Voice")
         rule.onNodeWithText("Review or type a command").performTextInput("Mark my $fixture as watered.")
-        rule.onNodeWithText("Run command").performClick()
+        rule.onNodeWithText("Run command").performScrollTo().performClick()
+        shot("14-water-confirmation")
+        val state=org.json.JSONObject().put("transcript",rule.activity.transcript).put("parsedCommand",VoiceParser.parse(rule.activity.transcript).toString()).put("plantMatches",runBlocking { app.database.dao().plants().first().count { it.name.equals(fixture,true) } }).put("schedules",runBlocking { app.database.dao().schedules().first().filter { it.plantId==plant.id }.toString() })
+        File(app.getExternalFilesDir(null),"acceptance/water-command-state.json").writeText(state.toString(2))
         rule.onNodeWithText("Confirm",substring=false).assertExists()
         assertTrue(runBlocking { app.database.dao().history().first().none { it.plantId==plant.id } })
         rule.onNodeWithText("Confirm",substring=false).performClick()
@@ -111,16 +122,16 @@ class UiSmokeTest {
         assertEquals(LocalDate.now().plusDays(7).toString(),runBlocking { app.database.dao().schedules().first().single { it.plantId==plant.id }.nextDate })
         val entry=JournalEntry(id="acceptance-entry",plantId=plant.id,note="FloraTend QA original note")
         runBlocking { app.database.dao().save(entry) }
-        rule.onNodeWithText("Journal",substring=false).performClick()
-        rule.onNodeWithText(entry.note).performClick()
+        nav("Journal")
+        waitText(entry.note);rule.onNodeWithText(entry.note).performScrollTo().performClick()
         rule.onNodeWithText("Notes and observations").performTextReplacement("FloraTend QA edited note")
         rule.onNodeWithText("Save",substring=false).performClick()
-        rule.onNodeWithText("FloraTend QA edited note").performClick()
+        waitText("FloraTend QA edited note");rule.onNodeWithText("FloraTend QA edited note").performClick()
         rule.onNodeWithText("Delete",substring=false).performScrollTo().performClick()
         rule.onAllNodesWithText("Delete",substring=false).let { it[it.fetchSemanticsNodes().lastIndex].performClick() }
         rule.waitUntil(10000) { runBlocking { app.database.dao().journal().first().none { it.plantId==plant.id } } }
-        rule.onNodeWithText("Garden",substring=false).performClick()
-        rule.onNodeWithText(fixture).performClick()
+        nav("Garden")
+        rule.onNodeWithText(fixture).performScrollTo().performClick()
         rule.onNodeWithText("Delete",substring=false).performScrollTo().performClick()
         rule.onAllNodesWithText("Delete",substring=false).let { it[it.fetchSemanticsNodes().lastIndex].performClick() }
         rule.waitUntil(10000) { runBlocking { app.database.dao().plant(plant.id)==null } }
@@ -135,7 +146,7 @@ class UiSmokeTest {
         rule.activityRule.scenario.onActivity { it.requestedOrientation=ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE }
         rule.waitUntil(10000) { rule.activity.resources.configuration.orientation==android.content.res.Configuration.ORIENTATION_LANDSCAPE }
         rule.onNodeWithText("Add plant").assertIsDisplayed();shot("12-landscape-dark")
-        rule.onNodeWithText("Voice",substring=false).performClick()
+        nav("Voice")
         val folder=File(app.getExternalFilesDir(null),"acceptance").apply { mkdirs() }
         File(folder,"voice-capabilities.json").writeText(org.json.JSONObject().put("recognitionAvailable",SpeechRecognizer.isRecognitionAvailable(rule.activity)).put("microphonePermission",rule.activity.checkSelfPermission(android.Manifest.permission.RECORD_AUDIO)).put("locale",java.util.Locale.getDefault().toLanguageTag()).put("ttsServiceCount",rule.activity.packageManager.queryIntentServices(android.content.Intent(android.speech.tts.TextToSpeech.Engine.INTENT_ACTION_TTS_SERVICE),0).size).toString(2))
         if(!SpeechRecognizer.isRecognitionAvailable(rule.activity)) {
@@ -144,7 +155,8 @@ class UiSmokeTest {
         }
         assertEquals(PackageManager.PERMISSION_DENIED,rule.activity.checkSelfPermission(android.Manifest.permission.RECORD_AUDIO))
         rule.onNodeWithText("Review or type a command").performTextInput("Add a new plant.")
-        rule.onNodeWithText("Run command").performClick()
+        rule.onNodeWithText("Run command").performScrollTo().performClick()
+        rule.waitUntil(10000) { runCatching { rule.onNodeWithText("Plant details",substring=false).assertIsDisplayed();true }.getOrDefault(false) }
         rule.onNodeWithText("Plant details",substring=false).assertIsDisplayed()
         rule.onNodeWithText("Cancel",substring=false).performClick();shot("13-voice-fallback")
     }
@@ -161,8 +173,8 @@ class UiSmokeTest {
             BitmapFactory.decodeFile(path,options);assertTrue(options.outWidth<=1600 && options.outHeight<=1600)
             runBlocking { app.database.dao().save(JournalEntry(id="acceptance-photo",plantId=plant.id,note="FloraTend QA image fixture",photo=path)) }
             File(path).delete()
-            rule.onNodeWithText("Journal",substring=false).performClick()
-            rule.onNodeWithText("This photograph is no longer available.").assertIsDisplayed()
+            nav("Journal")
+            waitText("This photograph is no longer available.");rule.onNodeWithText("This photograph is no longer available.").assertIsDisplayed()
         } finally { File(path).delete();original.delete() }
     }
 }
