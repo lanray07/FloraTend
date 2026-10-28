@@ -1,0 +1,98 @@
+[
+  {
+    "scene": "01-hero",
+    "locale": "en-GB",
+    "device": "tablet",
+    "capture": "D:\\App Projects\\FloraTend\\evidence\\device\\01-garden.png",
+    "composition": null,
+    "production_png": null,
+    "status": "PENDING_CAPTURE",
+    "review": "pending",
+    "claims_review": "pending",
+    "capture_locale_review": "pending"
+  },
+  {
+    "scene": "02-watering",
+    "locale": "en-GB",
+    "device": "tablet",
+    "capture": "D:\\App Projects\\FloraTend\\evidence\\device\\02-care.png",
+    "composition": null,
+    "production_png": null,
+    "status": "PENDING_CAPTURE",
+    "review": "pending",
+    "claims_review": "pending",
+    "capture_locale_review": "pending"
+  },
+  {
+    "scene": "03-library",
+    "locale": "en-GB",
+    "device": "tablet",
+    "capture": "D:\\App Projects\\FloraTend\\evidence\\device\\01-garden.png",
+    "composition": null,
+    "production_png": null,
+    "status": "PENDING_CAPTURE",
+    "review": "pending",
+    "claims_review": "pending",
+    "capture_locale_review": "pending"
+  },
+  {
+    "scene": "04-calendar",
+    "locale": "en-GB",
+    "device": "tablet",
+    "capture": "D:\\App Projects\\FloraTend\\evidence\\device\\09-calendar.png",
+    "composition": null,
+    "production_png": null,
+    "status": "PENDING_CAPTURE",
+    "review": "pending",
+    "claims_review": "pending",
+    "capture_locale_review": "pending"
+  },
+  {
+    "scene": "05-growth",
+    "locale": "en-GB",
+    "device": "tablet",
+    "capture": "D:\\App Projects\\FloraTend\\evidence\\device\\03-journal.png",
+    "composition": null,
+    "production_png": null,
+    "status": "PENDING_CAPTURE",
+    "review": "pending",
+    "claims_review": "pending",
+    "capture_locale_review": "pending"
+  },
+  {
+    "scene": "06-voice",
+    "locale": "en-GB",
+    "device": "tablet",
+    "capture": "D:\\App Projects\\FloraTend\\evidence\\device\\04-voice.png",
+    "composition": null,
+    "production_png": null,
+    "status": "PENDING_CAPTURE",
+    "review": "pending",
+    "claims_review": "pending",
+    "capture_locale_review": "pending"
+  },
+  {
+    "scene": "07-offline",
+    "locale": "en-GB",
+    "device": "tablet",
+    "capture": "D:\\App Projects\\FloraTend\\evidence\\device\\08-offline.png",
+    "composition": null,
+    "production_png": null,
+    "status": "PENDING_CAPTURE",
+    "review": "pending",
+    "claims_review": "pending",
+    "capture_locale_review": "pending"
+  },
+  {
+    "scene": "08-insights",
+    "locale": "en-GB",
+    "device": "tablet",
+    "capture": "D:\\App Projects\\FloraTend\\evidence\\device\\05-insights.png",
+    "composition": null,
+    "production_png": null,
+    "status": "PENDING_CAPTURE",
+    "review": "pending",
+    "claims_review": "pending",
+    "capture_locale_review": "pending"
+  }
+]

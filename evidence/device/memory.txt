@@ -1,0 +1,59 @@
+Applications Memory Usage (in Kilobytes):
+Uptime: 126925389 Realtime: 256930471
+
+** MEMINFO in pid 31170 [com.floratend.app] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap    30056    29980        0        0    32768    28667     4100
+  Dalvik Heap     4176     4132        0        0     7270     3635     3635
+ Dalvik Other     4909     4908        0        0                           
+        Stack      448      448        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev       16        0       16        0                           
+     .so mmap    24127      148    20448        0                           
+    .apk mmap    17488    16624       12        0                           
+    .ttf mmap      604        0      604        0                           
+    .dex mmap    16196    10328     2460        0                           
+    .oat mmap      385        0       88        0                           
+    .art mmap     7332     6320      208        0                           
+   Other mmap      188        4       72        0                           
+    GL mtrack     9568     9568        0        0                           
+      Unknown     1312     1308        0        0                           
+        TOTAL   116807    83768    23908        0    40038    32302     7735
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    10660
+         Native Heap:    29980
+                Code:    50712
+               Stack:      448
+            Graphics:     9568
+       Private Other:     6308
+              System:     9131
+ 
+               TOTAL:   116807       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:       22         ViewRootImpl:        1
+         AppContexts:        5           Activities:        1
+              Assets:        3        AssetManagers:        0
+       Local Binders:       17        Proxy Binders:       32
+       Parcel memory:        7         Parcel count:       30
+    Death Recipients:        1      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:     1032
+  PAGECACHE_OVERFLOW:      185          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       60             35         4/52/5  /data/user/0/com.floratend.app/databases/floratend.db
+         4        8                         0/0/0    (attached) temp
+         4       60             52         3/25/4  /data/user/0/com.floratend.app/databases/floratend.db (1)
+         4       60             82         5/16/4  /data/user/0/com.floratend.app/databases/floratend.db (2)
+         4      104            109       15/58/13  /data/user/0/com.floratend.app/no_backup/androidx.work.workdb
+         4        8                         0/0/0    (attached) temp
+         4      104             59         5/25/6  /data/user/0/com.floratend.app/no_backup/androidx.work.workdb (1)

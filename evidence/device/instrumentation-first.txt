@@ -1,0 +1,9 @@
+
+com.floratend.app.PersistenceTest:..
+com.floratend.app.UiSmokeTest:.
+
+Time: 12.817
+
+OK (3 tests)
+
+

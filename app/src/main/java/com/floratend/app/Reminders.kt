@@ -29,7 +29,7 @@ class ReminderWorker(context: Context, params: WorkerParameters) : CoroutineWork
         if (due.isEmpty()) manager.cancel(100)
         else {
             val intent = PendingIntent.getActivity(app, 0, Intent(app, MainActivity::class.java), PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE)
-            manager.notify(100, NotificationCompat.Builder(app, "care").setSmallIcon(R.drawable.ic_flora).setContentTitle(app.getString(R.string.app_name)).setContentText(app.resources.getQuantityString(R.plurals.reminder_count, due.size, due.size)).setContentIntent(intent).setAutoCancel(true).build())
+            manager.notify(100, NotificationCompat.Builder(app, "care").setSmallIcon(R.drawable.ic_flora_monochrome).setContentTitle(app.getString(R.string.app_name)).setContentText(app.resources.getQuantityString(R.plurals.reminder_count, due.size, due.size)).setContentIntent(intent).setAutoCancel(true).build())
         }
         return Result.success()
     }

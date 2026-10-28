@@ -9,3 +9,4 @@ local.properties
 __pycache__/
 localization/cache/
 evidence/gradle-threads.txt
+.kotlin/

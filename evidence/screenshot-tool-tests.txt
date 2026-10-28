@@ -1,0 +1,18 @@
+test_actual_capture_creates_only_corresponding_previews (test_screenshots.ScreenshotTests) ... ok
+test_corruption_rejected (test_screenshots.ScreenshotTests) ... ok
+test_missing_captures_never_create_fake_compositions (test_screenshots.ScreenshotTests) ... ok
+test_truncated_and_zero_dimensions_rejected (test_screenshots.ScreenshotTests) ... ok
+test_unapproved_incomplete_production_fails (test_screenshots.ScreenshotTests) ... BLOCKED: production needs every capture, approved locale, reviewed claims/UI language, and verified PNG export.
+ok
+test_valid_dimensions_and_crc (test_screenshots.ScreenshotTests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.526s
+
+OK
+{
+  "scenes": 8,
+  "passes": 0,
+  "preview_compositions": 0,
+  "pending_captures": 8
+}

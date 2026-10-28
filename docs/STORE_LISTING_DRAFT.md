@@ -24,7 +24,7 @@ Use the growth journal for dated notes, photographs, height measurements and lea
 
 Core plant records, saved photographs, care schedules and journal notes are stored locally. No account is required for these core functions. Available English text commands offer another way to navigate and record care. Push-to-talk and spoken responses depend on compatible speech engines and supported languages installed on your device. Speech recognition may require a network connection.
 
-The free collection is limited to five plants. Premium availability and pricing are supplied by Amazon when a configured product is available in your marketplace. Advanced features must only be advertised after the corresponding purchase and feature checks pass.
+The free collection is limited to five plants. Any available Premium purchase price is shown by Amazon for your marketplace.
 
 FloraTend provides general organisational and educational tools. Plant needs vary by species and conditions. For persistent or severe plant problems, seek appropriate horticultural advice.
 

@@ -1,0 +1,7 @@
+Starting: Intent { cmp=com.floratend.app/.MainActivity }
+Status: ok
+Activity: com.floratend.app/.MainActivity
+ThisTime: 5079
+TotalTime: 4982
+WaitTime: 5182
+Complete

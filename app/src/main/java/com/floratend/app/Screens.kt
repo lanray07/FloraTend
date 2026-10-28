@@ -15,6 +15,8 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import kotlinx.coroutines.Dispatchers
@@ -42,7 +44,7 @@ import java.time.LocalDate
     Heading(s(R.string.voice_assistant),s(R.string.voice_intro))
     Column(Modifier.verticalScroll(rememberScrollState())) {
         Text(s(R.string.voice_privacy));if(!SpeechRecognizer.isRecognitionAvailable(activity)) Text(s(R.string.voice_unavailable),modifier=Modifier.padding(vertical=16.dp))
-        Button(onClick={if(ContextCompat.checkSelfPermission(activity,Manifest.permission.RECORD_AUDIO)==PackageManager.PERMISSION_GRANTED) activity.listen() else permission.launch(Manifest.permission.RECORD_AUDIO)},enabled=!activity.listening) {Icon(FloraIcons.Mic,null);Text(s(if(activity.listening) R.string.listening else R.string.push_to_talk))}
+        Button(onClick={if(ContextCompat.checkSelfPermission(activity,Manifest.permission.RECORD_AUDIO)==PackageManager.PERMISSION_GRANTED) activity.listen() else permission.launch(Manifest.permission.RECORD_AUDIO)},enabled=!activity.listening && SpeechRecognizer.isRecognitionAvailable(activity)) {Icon(FloraIcons.Mic,null);Text(s(if(activity.listening) R.string.listening else R.string.push_to_talk))}
         Field(activity.transcript,R.string.command,{activity.transcript=it},3)
         Button(onClick={
             response=when(val command=VoiceParser.parse(activity.transcript)) {
@@ -80,4 +82,4 @@ import java.time.LocalDate
     }
     if(wipe) Confirm(s(R.string.delete_all),{wipe=false}){vm.wipe();wipe=false}
 }
-@Composable fun Toggle(label:String,value:Boolean,change:(Boolean)->Unit){Row(Modifier.fillMaxWidth(),verticalAlignment=androidx.compose.ui.Alignment.CenterVertically){Text(label,Modifier.weight(1f));Switch(value,change)}}
+@Composable fun Toggle(label:String,value:Boolean,change:(Boolean)->Unit){Row(Modifier.fillMaxWidth(),verticalAlignment=androidx.compose.ui.Alignment.CenterVertically){Text(label,Modifier.weight(1f));Switch(value,change,modifier=Modifier.semantics { contentDescription=label })}}

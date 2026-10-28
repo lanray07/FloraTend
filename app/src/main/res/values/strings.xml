@@ -20,7 +20,6 @@
   <string name="choose_photo">Choose photo</string>
   <string name="close">Close</string>
   <string name="collection_breakdown">Collection breakdown</string>
-  <string name="collection_count">Your collection · %1$d plants</string>
   <string name="command">Review or type a command</string>
   <string name="comparison">First and latest saved photographs</string>
   <string name="completed_tasks">Care records saved</string>
@@ -70,7 +69,7 @@
   <string name="journal_entries">Journal entries</string>
   <string name="journal_intro">Photos, observations and small signs of growth.</string>
   <string name="language_notice">FloraTend follows your device language when an approved translation is available.</string>
-  <string name="language_pending">English preview. Other requested languages and translated voice dictionaries are pending provider translation, human review and device testing.</string>
+  <string name="language_pending">English preview. More languages are not yet available.</string>
   <string name="leaf_cleaning">Leaf cleaning</string>
   <string name="leaf_count">Leaf count (optional)</string>
   <string name="leaves_value">Leaves: %1$d</string>
@@ -168,4 +167,5 @@
   <string name="billing_restore_failed">Amazon purchase restoration could not be verified. Try again when connected.</string>
   <string name="billing_history_checked">Amazon purchase history checked.</string>
   <string name="billing_unavailable">Amazon purchasing is unavailable. Check your store connection and try again.</string>
+  <plurals name="collection_count"><item quantity="one">Your collection · %1$d plant</item><item quantity="other">Your collection · %1$d plants</item></plurals>
 </resources>

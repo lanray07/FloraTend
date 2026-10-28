@@ -2,23 +2,23 @@
 
 **BLOCKED**
 
-Verified acceptance rate: **16 / 204 = 7.84%**. BLOCKED and NOT TESTED criteria count as incomplete.
+Verified acceptance rate: **27 / 204 = 13.24%**. BLOCKED and NOT TESTED criteria count as incomplete.
 
 | Status | Mandatory criteria |
 |---|---:|
-| BLOCKED | 9 |
+| BLOCKED | 11 |
 | FAIL | 0 |
-| NOT TESTED | 179 |
-| PASS | 16 |
+| NOT TESTED | 166 |
+| PASS | 27 |
 
 The criterion-level evidence, expected behaviour and corrective actions are in [ACCEPTANCE_TEST_RESULTS.csv](ACCEPTANCE_TEST_RESULTS.csv) and [ACCEPTANCE_CRITERIA.md](ACCEPTANCE_CRITERIA.md). This decision is conservative: no release is approved while any mandatory criterion remains unverified. Publication additionally requires explicit user authorisation.
 
 ## Incomplete gates
 
-- AC-01 — Android Build and Architecture: 9 criteria incomplete.
+- AC-01 — Android Build and Architecture: 4 criteria incomplete.
 - AC-02 — Premium UI and Fire Tablet Compatibility: 10 criteria incomplete.
 - AC-03 — Plant Library: 11 criteria incomplete.
-- AC-04 — Watering and Care Scheduling: 10 criteria incomplete.
+- AC-04 — Watering and Care Scheduling: 9 criteria incomplete.
 - AC-05 — Growth Journal: 9 criteria incomplete.
 - AC-06 — Voice Input and Output: 13 criteria incomplete.
 - AC-07 — Worldwide Application Localisation: 14 criteria incomplete.
@@ -33,4 +33,4 @@ The criterion-level evidence, expected behaviour and corrective actions are in [
 - AC-16 — Privacy and Security: 11 criteria incomplete.
 - AC-17 — Accessibility: 9 criteria incomplete.
 - AC-18 — Performance and Reliability: 8 criteria incomplete.
-- AC-19 — Release Package: 13 criteria incomplete.
+- AC-19 — Release Package: 8 criteria incomplete.

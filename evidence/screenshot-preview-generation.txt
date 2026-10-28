@@ -1,0 +1,6 @@
+{
+  "scenes": 8,
+  "passes": 0,
+  "preview_compositions": 0,
+  "pending_captures": 8
+}

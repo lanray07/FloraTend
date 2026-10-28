@@ -1,0 +1,115 @@
+{
+  "AC-01.01": {
+    "test_name": "Gradle Android project configuration and debug assembly",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Java 17 / Gradle 8.13 / Android SDK 35",
+    "status": "PASS",
+    "actual_result": "Actual Gradle configuration, resource processing and assembleDebug completed; a debug APK exists. This establishes the debug project baseline, not all architecture or release gates.",
+    "evidence": ["evidence/build-clean.log", "app/build.gradle.kts", "settings.gradle.kts", "evidence/debug-apk-sha256.json"],
+    "corrective_action": "Complete signed-release, lint and device gates separately."
+  },
+  "AC-01.02": {
+    "test_name": "Kotlin and Java debug compilation",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Java 17 / Gradle 8.13 / Android SDK 35",
+    "status": "PASS",
+    "actual_result": "Actual compileDebugKotlin and compileDebugJavaWithJavac tasks completed and assembleDebug produced the APK. A deprecated icon API warning remains; no compile error is recorded. Pending later lint/device tasks are not reported as passed.",
+    "evidence": ["evidence/build-clean.log", "evidence/debug-apk-sha256.json"],
+    "corrective_action": "Resolve warnings and complete remaining checks without treating compilation as release approval."
+  },
+  "AC-01.03": {
+    "test_name": "Debug APK generation and artifact snapshot",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Java 17 / Gradle 8.13 / Android SDK 35",
+    "status": "PASS",
+    "actual_result": "assembleDebug generated app/build/outputs/apk/debug/app-debug.apk (13,752,583 bytes at the inspected snapshot). SHA-256 was recorded; the primary agent installed and launched this debug build on a physical API-28 Fire tablet.",
+    "evidence": ["evidence/build-clean.log", "evidence/debug-apk-sha256.json", "evidence/device/FIRST_LAUNCH.md", "evidence/device/00-first-launch.png"],
+    "corrective_action": "Keep the APK hash associated with this build evidence; verify the signed release independently."
+  },
+  "AC-01.04": {
+    "test_name": "Publisher-signed release generation prerequisite",
+    "status": "BLOCKED",
+    "actual_result": "The release signing process is documented and configured from environment variables, but no verified publisher-signed release is recorded. A debug APK is not submission evidence.",
+    "evidence": ["README.md", "app/build.gradle.kts"],
+    "corrective_action": "Provision the publisher's private signing material securely, build the release and verify its certificate."
+  },
+  "AC-01.06": {
+    "test_name": "Mandatory Google service dependency declaration audit",
+    "execution_date": "2026-10-28",
+    "environment": "Static source and Gradle dependency declaration inspection",
+    "status": "PASS",
+    "actual_result": "Executed source/configuration audit reports no Google Play Services or Google Play Billing dependency declared; the app uses native Amazon Appstore SDK. This is a declaration audit, not a full transitive supply-chain or network analysis.",
+    "evidence": ["evidence/source-audit.json", "app/build.gradle.kts"],
+    "corrective_action": "Recheck resolved release dependencies and runtime behaviour before submission."
+  },
+  "AC-01.07": {
+    "test_name": "Recognised source secret-pattern audit",
+    "execution_date": "2026-10-28",
+    "environment": "Static source/configuration scan; no release APK secret audit performed",
+    "status": "PASS",
+    "actual_result": "Executed static audit found no recognised API-key/password/signing-secret patterns and no app authentication key checked into source. Signing values are read from environment variables. This pass is limited to the executed source pattern/configuration check and is not a guarantee against arbitrary secrets or a release-artifact security approval.",
+    "evidence": ["evidence/source-audit.json", "app/build.gradle.kts", ".gitignore"],
+    "corrective_action": "Perform the separate release-artifact and full privacy/security checks; keep developer credentials external."
+  },
+  "AC-04.08": {
+    "test_name": "Calendar-day recurrence and Europe/London DST unit cases",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / local JVM JUnit / Java 17",
+    "status": "PASS",
+    "actual_result": "recurrenceCrossesLeapDayAndYear and reminderKeepsLocalMorningAcrossDaylightSaving passed. The tested helper keeps 09:00 local across the London spring DST transition with a 23-hour elapsed interval. This unit result covers date/helper semantics, not real WorkManager delivery, all timezones or device timezone-change events.",
+    "evidence": ["evidence/jvm/TEST-com.floratend.app.CareEngineTest.xml", "app/src/test/java/com/floratend/app/CareEngineTest.kt"],
+    "corrective_action": "Execute device notification/timezone-change and further zone-boundary scenarios separately."
+  },
+  "AC-19.01": {
+    "test_name": "Release artifact verification prerequisite",
+    "status": "BLOCKED",
+    "actual_result": "Only the debug APK generation is verified in this observation update; no publisher-signed release artifact is verified.",
+    "evidence": ["README.md", "evidence/build-clean.log"],
+    "corrective_action": "Complete signed release generation and retain certificate/build evidence."
+  },
+  "AC-19.02": {
+    "test_name": "Configured package identifier consistency audit",
+    "execution_date": "2026-10-28",
+    "environment": "Static Android Gradle configuration review",
+    "status": "PASS",
+    "actual_result": "Executed audit confirms namespace and applicationId are com.floratend.app; README and launcher component agree. This confirms the configured build identifier, while publisher/name clearance remains outstanding.",
+    "evidence": ["evidence/source-audit.json", "app/build.gradle.kts", "README.md"],
+    "corrective_action": "Obtain publisher/trademark clearance before the final submission identifier is approved."
+  },
+  "AC-19.03": {
+    "test_name": "Version configuration audit",
+    "execution_date": "2026-10-28",
+    "environment": "Static Android Gradle configuration review",
+    "status": "PASS",
+    "actual_result": "Executed audit confirms versionCode 1 and versionName 0.1.0 are configured in defaultConfig and documented.",
+    "evidence": ["evidence/source-audit.json", "app/build.gradle.kts", "README.md"],
+    "corrective_action": "Set and verify the intended release version and future monotonic version codes before submission."
+  },
+  "AC-19.04": {
+    "test_name": "Release signing procedure documentation review",
+    "execution_date": "2026-10-28",
+    "environment": "README and Gradle signing configuration inspection",
+    "status": "PASS",
+    "actual_result": "README documents the four external signing environment variables, release command, certificate verification and prohibition on relabelling debug/unsigned builds. These names match Gradle configuration. No successful signing execution is inferred.",
+    "evidence": ["README.md", "app/build.gradle.kts"],
+    "corrective_action": "Execute and verify the documented process once publisher signing material is securely available."
+  },
+  "AC-19.05": {
+    "test_name": "Declared permission inventory review",
+    "execution_date": "2026-10-28",
+    "environment": "Source manifest and permission documentation inspection",
+    "status": "PASS",
+    "actual_result": "docs/PERMISSIONS.md inventories RECORD_AUDIO, POST_NOTIFICATIONS, INTERNET, optional microphone hardware, speech package queries and Amazon receiver permission, including contextual-use and verification boundaries. It agrees with the inspected source manifest; merged release manifest/runtime checks remain separate.",
+    "evidence": ["docs/PERMISSIONS.md", "app/src/main/AndroidManifest.xml"],
+    "corrective_action": "Audit the merged release manifest and actual permission/network behaviour."
+  },
+  "AC-19.13": {
+    "test_name": "Outstanding release blocker documentation review",
+    "execution_date": "2026-10-28",
+    "environment": "Generated acceptance matrix and project release documentation inspection",
+    "status": "PASS",
+    "actual_result": "The generated readiness report explicitly states BLOCKED and lists incomplete gates; README, localisation and billing documents identify missing translations/review, signed release, store configuration, device coverage and external publication prerequisites. Unverified criteria are not treated as complete.",
+    "evidence": ["RELEASE_READINESS.md", "README.md", "LOCALIZATION_TEST_REPORT.md", "docs/BILLING_INTEGRATION.md"],
+    "corrective_action": "Keep blocker details and criterion-level evidence current after every affected change."
+  }
+}

@@ -119,12 +119,6 @@
       "value": "Collection breakdown"
     }
   },
-  "collection_count": {
-    "type": "string",
-    "values": {
-      "value": "Your collection · %1$d plants"
-    }
-  },
   "command": {
     "type": "string",
     "values": {
@@ -422,7 +416,7 @@
   "language_pending": {
     "type": "string",
     "values": {
-      "value": "English preview. Other requested languages and translated voice dictionaries are pending provider translation, human review and device testing."
+      "value": "English preview. More languages are not yet available."
     }
   },
   "leaf_cleaning": {
@@ -910,6 +904,91 @@
     "values": {
       "one": "%1$d plant-care check to review.",
       "other": "%1$d plant-care checks to review."
+    }
+  },
+  "billing_unconfigured": {
+    "type": "string",
+    "values": {
+      "value": "Purchasing is unavailable until Amazon store configuration is complete."
+    }
+  },
+  "billing_environment": {
+    "type": "string",
+    "values": {
+      "value": "Amazon purchasing is unavailable in this environment."
+    }
+  },
+  "billing_history_loading": {
+    "type": "string",
+    "values": {
+      "value": "Amazon purchase history is still loading. Try again shortly."
+    }
+  },
+  "billing_waiting": {
+    "type": "string",
+    "values": {
+      "value": "Waiting for Amazon purchase confirmation."
+    }
+  },
+  "billing_price_available": {
+    "type": "string",
+    "values": {
+      "value": "Amazon pricing is available."
+    }
+  },
+  "billing_pending": {
+    "type": "string",
+    "values": {
+      "value": "Purchase is awaiting a valid Amazon entitlement."
+    }
+  },
+  "billing_canceled": {
+    "type": "string",
+    "values": {
+      "value": "Amazon purchase was cancelled."
+    }
+  },
+  "billing_confirmed": {
+    "type": "string",
+    "values": {
+      "value": "Premium purchase confirmed by Amazon."
+    }
+  },
+  "billing_restoring": {
+    "type": "string",
+    "values": {
+      "value": "Restoring your Amazon purchase."
+    }
+  },
+  "billing_incomplete": {
+    "type": "string",
+    "values": {
+      "value": "Amazon did not complete the purchase. No new entitlement was granted."
+    }
+  },
+  "billing_restore_failed": {
+    "type": "string",
+    "values": {
+      "value": "Amazon purchase restoration could not be verified. Try again when connected."
+    }
+  },
+  "billing_history_checked": {
+    "type": "string",
+    "values": {
+      "value": "Amazon purchase history checked."
+    }
+  },
+  "billing_unavailable": {
+    "type": "string",
+    "values": {
+      "value": "Amazon purchasing is unavailable. Check your store connection and try again."
+    }
+  },
+  "collection_count": {
+    "type": "plurals",
+    "values": {
+      "one": "Your collection · %1$d plant",
+      "other": "Your collection · %1$d plants"
     }
   }
 }
