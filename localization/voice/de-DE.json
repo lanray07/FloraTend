@@ -1,0 +1,32 @@
+{
+  "add": [
+    "füge eine neue pflanze hinzu",
+    "pflanze hinzufügen"
+  ],
+  "due": [
+    "welche pflanzen brauchen heute wasser",
+    "welche pflanzen müssen heute gegossen werden"
+  ],
+  "calendar": [
+    "zeige meinen pflegekalender",
+    "öffne meinen pflegekalender"
+  ],
+  "read": [
+    "lies meine erinnerungen vor",
+    "lies meine pflegeerinnerungen vor"
+  ],
+  "water_prefix": [
+    "markiere meine ",
+    "markiere meinen ",
+    "markiere mein "
+  ],
+  "water_suffix": [
+    " als gegossen"
+  ],
+  "location_prefix": [
+    "zeige pflanzen im ",
+    "zeige pflanzen in der ",
+    "zeige pflanzen in "
+  ],
+  "unknown": []
+}

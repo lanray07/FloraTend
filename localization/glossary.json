@@ -1,8 +1,15 @@
 {
-  "protected_terms": ["FloraTend", "Amazon Appstore", "Fire"],
+  "protected_terms": [
+    "FloraTend",
+    "Amazon Appstore",
+    "Fire"
+  ],
   "instructions": {
     "watering_check": "A reminder to inspect soil moisture, never an instruction to water solely due to elapsed time.",
     "premium": "Use the approved localized product-tier term; do not translate FloraTend.",
     "plant_names": "Do not translate user-entered nicknames, species names or personal notes."
-  }
+  },
+  "branded_values": [
+    "FloraTend Premium"
+  ]
 }

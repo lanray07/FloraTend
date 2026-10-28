@@ -1,0 +1,15 @@
+{
+  "locale": "nl-NL",
+  "review_status": "draft_pending_human_review",
+  "display_title": "FloraTend - Plantenverzorging en waterherinneringen",
+  "short_description": "Organiseer je planten, plan verzorgingscontroles en houd groeiaantekeningen bij. Bewaar gegevens en foto’s op je apparaat, zonder verplicht account. Herinneringen vragen je de omstandigheden te controleren voordat je water geeft.",
+  "long_description": "Elke plant verdient een beetje aandacht.\n\nFloraTend brengt je plantenverzameling en verzorgingsroutine samen. Bewaar voor elke plant een bijnaam, soort, locatie en persoonlijke notities. Voeg je eigen foto’s toe en vind gegevens door je verzameling te doorzoeken of te filteren.\n\nPlan herinneringen om de bodem te controleren of maak schema’s voor bemesten, snoeien, verpotten en andere verzorging. Registreer voltooide verzorging, stel een controle uit of pauzeer een schema wanneer je routine verandert. Een herinnering nodigt je uit om je plant te bekijken; het is geen garantie dat de plant water nodig heeft.\n\nGebruik het groeidagboek voor gedateerde notities, foto’s, hoogtemetingen en aantallen bladeren. Je eigen observaties vormen de gegevens: FloraTend verzint geen groeimetingen en stelt geen diagnoses over de gezondheid van planten.\n\nEssentiële plantgegevens, opgeslagen foto’s, verzorgingsschema’s en dagboeknotities worden lokaal bewaard. Voor deze kernfuncties is geen account nodig.\n\nTekstopdrachten bieden een andere manier om te navigeren en verzorging te registreren. Spraakactivering via een knop en gesproken antwoorden zijn afhankelijk van compatibele spraakdiensten en talen op je apparaat. Als spraakherkenning niet beschikbaar is, gebruik je de bediening op het scherm of typ je een opdracht. Spraakherkenning kan een netwerkverbinding vereisen.\n\nDe gratis verzameling biedt ruimte aan maximaal vijf planten.\n\nFloraTend biedt algemene hulpmiddelen voor organisatie en informatie. De behoeften van planten verschillen per soort en omstandigheden. Vraag bij aanhoudende of ernstige problemen passend advies aan een plantendeskundige.",
+  "feature_bullets": [
+    "Bewaar plantnamen, locaties, foto’s en persoonlijke notities bij elkaar.",
+    "Plan verzorgingscontroles en leg de geschiedenis van voltooide verzorging vast.",
+    "Bewaar gedateerde groeiaantekeningen, hoogtemetingen en bladobservaties.",
+    "Bekijk essentiële lokale gegevens zonder verplicht account.",
+    "Gebruik schermbediening en tekstopdrachten; optionele spraakfuncties hangen af van je apparaat."
+  ],
+  "keywords": "plantenverzorging, herinnering water geven, kamerplanten bijhouden, verzorgingskalender, groeidagboek planten"
+}

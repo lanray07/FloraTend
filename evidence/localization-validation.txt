@@ -2,151 +2,115 @@
   {
     "locale": "en-GB",
     "errors": [],
-    "review_status": "pending",
+    "review_status": "assistant_draft_pending_human_review",
     "status": "NOT TESTED"
   },
   {
     "locale": "en-US",
-    "errors": [
-      "Resource file does not exist"
-    ],
-    "review_status": "pending",
-    "status": "FAIL"
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   },
   {
     "locale": "en-AU",
-    "errors": [
-      "Resource file does not exist"
-    ],
-    "review_status": "pending",
-    "status": "FAIL"
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   },
   {
     "locale": "es-ES",
-    "errors": [
-      "Resource file does not exist"
-    ],
-    "review_status": "pending",
-    "status": "FAIL"
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   },
   {
     "locale": "es-419",
-    "errors": [
-      "Resource file does not exist"
-    ],
-    "review_status": "pending",
-    "status": "FAIL"
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   },
   {
     "locale": "fr-FR",
-    "errors": [
-      "Resource file does not exist"
-    ],
-    "review_status": "pending",
-    "status": "FAIL"
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   },
   {
     "locale": "fr-CA",
-    "errors": [
-      "Resource file does not exist"
-    ],
-    "review_status": "pending",
-    "status": "FAIL"
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   },
   {
     "locale": "de-DE",
-    "errors": [
-      "Resource file does not exist"
-    ],
-    "review_status": "pending",
-    "status": "FAIL"
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   },
   {
     "locale": "it-IT",
-    "errors": [
-      "Resource file does not exist"
-    ],
-    "review_status": "pending",
-    "status": "FAIL"
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   },
   {
     "locale": "pt-BR",
-    "errors": [
-      "Resource file does not exist"
-    ],
-    "review_status": "pending",
-    "status": "FAIL"
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   },
   {
     "locale": "pt-PT",
-    "errors": [
-      "Resource file does not exist"
-    ],
-    "review_status": "pending",
-    "status": "FAIL"
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   },
   {
     "locale": "nl-NL",
-    "errors": [
-      "Resource file does not exist"
-    ],
-    "review_status": "pending",
-    "status": "FAIL"
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   },
   {
     "locale": "pl-PL",
-    "errors": [
-      "Resource file does not exist"
-    ],
-    "review_status": "pending",
-    "status": "FAIL"
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   },
   {
     "locale": "sv-SE",
-    "errors": [
-      "Resource file does not exist"
-    ],
-    "review_status": "pending",
-    "status": "FAIL"
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   },
   {
     "locale": "ja-JP",
-    "errors": [
-      "Resource file does not exist"
-    ],
-    "review_status": "pending",
-    "status": "FAIL"
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   },
   {
     "locale": "hi-IN",
-    "errors": [
-      "Resource file does not exist"
-    ],
-    "review_status": "pending",
-    "status": "FAIL"
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   },
   {
     "locale": "ar",
-    "errors": [
-      "Resource file does not exist"
-    ],
-    "review_status": "pending",
-    "status": "FAIL"
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   },
   {
     "locale": "tr-TR",
-    "errors": [
-      "Resource file does not exist"
-    ],
-    "review_status": "pending",
-    "status": "FAIL"
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   },
   {
     "locale": "id-ID",
-    "errors": [
-      "Resource file does not exist"
-    ],
-    "review_status": "pending",
-    "status": "FAIL"
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   }
 ]

@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-28",
+  "results": [
+    {
+      "locale": "it-IT",
+      "test": "static localized example-to-dictionary matching",
+      "actual": [
+        "add",
+        "due",
+        "water",
+        "calendar",
+        "read",
+        "location"
+      ],
+      "status": "PASS",
+      "not_established": "Kotlin loader integration, recognition/TTS engines and human linguistic review"
+    },
+    {
+      "locale": "pt-BR",
+      "test": "static localized example-to-dictionary matching",
+      "actual": [
+        "add",
+        "due",
+        "water",
+        "calendar",
+        "read",
+        "location"
+      ],
+      "status": "PASS",
+      "not_established": "Kotlin loader integration, recognition/TTS engines and human linguistic review"
+    },
+    {
+      "locale": "pt-PT",
+      "test": "static localized example-to-dictionary matching",
+      "actual": [
+        "add",
+        "due",
+        "water",
+        "calendar",
+        "read",
+        "location"
+      ],
+      "status": "PASS",
+      "not_established": "Kotlin loader integration, recognition/TTS engines and human linguistic review"
+    },
+    {
+      "locale": "nl-NL",
+      "test": "static localized example-to-dictionary matching",
+      "actual": [
+        "add",
+        "due",
+        "water",
+        "calendar",
+        "read",
+        "location"
+      ],
+      "status": "PASS",
+      "not_established": "Kotlin loader integration, recognition/TTS engines and human linguistic review"
+    },
+    {
+      "locale": "pl-PL",
+      "test": "static localized example-to-dictionary matching",
+      "actual": [
+        "add",
+        "due",
+        "water",
+        "calendar",
+        "read",
+        "location"
+      ],
+      "status": "PASS",
+      "not_established": "Kotlin loader integration, recognition/TTS engines and human linguistic review"
+    },
+    {
+      "locale": "sv-SE",
+      "test": "static localized example-to-dictionary matching",
+      "actual": [
+        "add",
+        "due",
+        "water",
+        "calendar",
+        "read",
+        "location"
+      ],
+      "status": "PASS",
+      "not_established": "Kotlin loader integration, recognition/TTS engines and human linguistic review"
+    }
+  ]
+}

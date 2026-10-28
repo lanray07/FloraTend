@@ -1,1 +1,135 @@
-{}
+{
+  "en-GB": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  },
+  "en-US": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  },
+  "en-AU": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  },
+  "es-ES": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  },
+  "es-419": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  },
+  "fr-FR": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  },
+  "fr-CA": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  },
+  "de-DE": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  },
+  "it-IT": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  },
+  "pt-BR": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  },
+  "pt-PT": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  },
+  "nl-NL": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  },
+  "pl-PL": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  },
+  "sv-SE": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  },
+  "ja-JP": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  },
+  "hi-IN": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  },
+  "ar": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  },
+  "tr-TR": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  },
+  "id-ID": {
+    "status": "assistant_draft_pending_human_review",
+    "source_sha256": "f6897fede78cf0011fd074a6543a344ca388778b99cad3bb474be5c178a33cbc",
+    "reviewer": null,
+    "reviewed_at": null,
+    "origin": "assistant-authored; no translation-provider calls"
+  }
+}

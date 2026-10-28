@@ -4,6 +4,7 @@ import android.Manifest
 import android.content.pm.PackageManager
 import android.os.Build
 import android.speech.SpeechRecognizer
+import androidx.activity.compose.LocalActivity
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.*
@@ -19,6 +20,8 @@ import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.platform.LocalLayoutDirection
+import java.util.Locale
 import androidx.core.content.ContextCompat
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -46,7 +49,7 @@ import java.time.LocalDate
     val permission=rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted -> if(granted) activity.listen() else response=activity.getString(R.string.mic_denied) }
     Heading(s(R.string.voice_assistant),s(R.string.voice_intro))
     Column(Modifier.verticalScroll(rememberScrollState())) {
-        Text(s(R.string.voice_privacy));if(!SpeechRecognizer.isRecognitionAvailable(activity)) Text(s(R.string.voice_unavailable),modifier=Modifier.padding(vertical=16.dp))
+        Text(s(R.string.voice_privacy)); if(activity.speechOutputSupported==false) Text(s(R.string.voice_output_unavailable));if(!SpeechRecognizer.isRecognitionAvailable(activity)) Text(s(R.string.voice_unavailable),modifier=Modifier.padding(vertical=16.dp))
         Button(onClick={if(ContextCompat.checkSelfPermission(activity,Manifest.permission.RECORD_AUDIO)==PackageManager.PERMISSION_GRANTED) activity.listen() else permission.launch(Manifest.permission.RECORD_AUDIO)},enabled=!activity.listening && SpeechRecognizer.isRecognitionAvailable(activity)) {Icon(FloraIcons.Mic,null);Text(s(if(activity.listening) R.string.listening else R.string.push_to_talk))}
         Field(activity.transcript,R.string.command,{activity.transcript=it},3)
         Button(onClick={
@@ -74,6 +77,7 @@ import java.time.LocalDate
     val notificationPermission=rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted -> scope.launch { app.settings.set("reminders",granted);Reminders.refresh(app) } }
     Heading(s(R.string.settings),s(R.string.settings_intro))
     Column(Modifier.verticalScroll(rememberScrollState())) {
+        LocalActivity.current?.let { LanguageSelector(it) }
         Toggle(s(R.string.dark_theme),dark){scope.launch{app.settings.set("dark",it)}}
         Toggle(s(R.string.imperial),imperial){scope.launch{app.settings.set("imperial",it)}}
         Toggle(s(R.string.care_reminders),reminders){if(it && Build.VERSION.SDK_INT>=33) notificationPermission.launch(Manifest.permission.POST_NOTIFICATIONS) else scope.launch{app.settings.set("reminders",it);Reminders.refresh(app)}}
@@ -87,3 +91,19 @@ import java.time.LocalDate
     if(wipe) Confirm(s(R.string.delete_all),{wipe=false}){vm.wipe();wipe=false}
 }
 @Composable fun Toggle(label:String,value:Boolean,change:(Boolean)->Unit){Row(Modifier.fillMaxWidth(),verticalAlignment=androidx.compose.ui.Alignment.CenterVertically){Text(label,Modifier.weight(1f));Switch(value,change,modifier=Modifier.semantics { contentDescription=label })}}
+
+@Composable fun LanguageSelector(activity:android.app.Activity) {
+    var open by remember { mutableStateOf(false) }
+    val tag=AppLocales.selected(activity)
+    val name=if(tag.isEmpty()) s(R.string.system_language) else Locale.forLanguageTag(tag).let { it.getDisplayName(it) }
+    TextButton(onClick={open=true}) { Text(s(R.string.language)+": "+name) }
+    if(open) AlertDialog(onDismissRequest={open=false},title={Text(s(R.string.language))},text={
+        LazyColumn(Modifier.heightIn(max=360.dp)) {
+            item { TextButton(onClick={AppLocales.choose(activity,"");open=false;activity.recreate()}) { Text(s(R.string.system_language)) } }
+            items(AppLocales.supported) { localeTag ->
+                val locale=Locale.forLanguageTag(localeTag)
+                TextButton(onClick={AppLocales.choose(activity,localeTag);open=false;activity.recreate()},modifier=Modifier.fillMaxWidth()) { Text(locale.getDisplayName(locale)) }
+            }
+        }
+    },confirmButton={TextButton(onClick={open=false}) { Text(s(R.string.close)) }})
+}

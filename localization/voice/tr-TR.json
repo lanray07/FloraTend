@@ -1,0 +1,10 @@
+{
+  "add": ["Yeni bir bitki ekle", "Yeni bitki ekle", "Bitki ekle"],
+  "due": ["Bugün hangi bitkilerin sulaması kontrol edilmeli", "Bugün hangi bitkilerin sulanması gerekiyor", "Bugünkü sulama kontrollerini göster"],
+  "calendar": ["Bakım takvimimi göster", "Bitki bakım takvimimi göster", "Bakım takvimini göster"],
+  "read": ["Hatırlatıcılarımı oku", "Bakım hatırlatıcılarımı oku", "Hatırlatmaları oku"],
+  "water_prefix": ["", "Şu bitkiyi: "],
+  "water_suffix": [" bitkimi sulanmış olarak işaretle", " bitkisini sulanmış olarak işaretle", " sulanmış olarak işaretle"],
+  "location_prefix": ["", "Bitkileri şu konumda göster: "],
+  "location_suffix": ["ndaki bitkileri göster", "ndeki bitkileri göster", "daki bitkileri göster", "deki bitkileri göster", " bitkilerini göster", ""]
+}

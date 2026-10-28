@@ -31,6 +31,7 @@ android {
     compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
     kotlinOptions { jvmTarget = "17" }
     testOptions { unitTests.isReturnDefaultValues = true }
+    sourceSets.getByName("test").resources.srcDir("src/main/assets")
 }
 ksp { arg("room.schemaLocation", "$projectDir/schemas") }
 dependencies {

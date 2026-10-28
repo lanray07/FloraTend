@@ -1,0 +1,15 @@
+{
+  "locale": "pt-BR",
+  "review_status": "draft_pending_human_review",
+  "display_title": "FloraTend - Cuidados com plantas e lembretes de rega",
+  "short_description": "Organize suas plantas, planeje verificações de cuidados e registre o crescimento. Salve dados e fotos no dispositivo, sem conta obrigatória. Os lembretes convidam você a verificar as condições antes de decidir se deve regar.",
+  "long_description": "Toda planta merece um pouco de atenção.\n\nO FloraTend reúne sua coleção de plantas e sua rotina de cuidados. Guarde o apelido, a espécie, o local e as anotações pessoais de cada planta. Adicione suas próprias fotos e encontre registros pesquisando ou filtrando a coleção.\n\nPlaneje lembretes para verificar o solo ou crie programações de adubação, poda, replantio e outros cuidados. Registre os cuidados concluídos, adie uma verificação ou pause uma programação quando sua rotina mudar. Um lembrete é um convite para observar a planta, não uma garantia de que ela precisa de água.\n\nUse o diário de crescimento para anotações com data, fotos, medidas de altura e contagens de folhas. O registro é formado pelas suas observações: o FloraTend não inventa medidas de crescimento nem diagnostica a saúde das plantas.\n\nOs dados essenciais das plantas, as fotos salvas, as programações de cuidados e as anotações do diário são armazenados localmente. Nenhuma conta é necessária para essas funções essenciais.\n\nOs comandos de texto oferecem outra maneira de navegar e registrar cuidados. A ativação por toque e as respostas faladas dependem de serviços de voz e idiomas compatíveis instalados no dispositivo. Se o reconhecimento de voz não estiver disponível, use os controles na tela ou digite um comando. O reconhecimento de voz pode exigir conexão de rede.\n\nA coleção gratuita permite até cinco plantas.\n\nO FloraTend oferece ferramentas gerais de organização e informação. As necessidades das plantas variam conforme a espécie e as condições. Para problemas persistentes ou graves, procure orientação adequada de um especialista em horticultura.",
+  "feature_bullets": [
+    "Reúna nomes, locais, fotos e anotações pessoais das plantas.",
+    "Planeje verificações e registre o histórico dos cuidados concluídos.",
+    "Salve anotações de crescimento com data, medidas de altura e observações das folhas.",
+    "Acesse os dados essenciais locais sem conta obrigatória.",
+    "Use os controles na tela e comandos de texto; a voz opcional depende do suporte do dispositivo."
+  ],
+  "keywords": "cuidados com plantas, lembrete de rega, plantas de interior, calendário de cuidados, diário de crescimento de plantas"
+}

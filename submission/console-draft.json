@@ -1,0 +1,51 @@
+{
+  "app_id": "amzn1.devportal.mobileapp.3737d69fff3041a38eb0517eba826cfb",
+  "release_id": "amzn1.devportal.apprelease.8d36cba79f2a439e803a4252a84f8e01",
+  "status": "incomplete_draft_not_submitted",
+  "app_sku": "floratend.android",
+  "category": "Lifestyle",
+  "subcategory": "Home & Garden",
+  "support_email": "banksmi@mail.com",
+  "support_url": "https://github.com/lanray07/FloraTend/blob/main/SUPPORT.md",
+  "privacy_url": "https://github.com/lanray07/FloraTend/blob/main/PRIVACY.md",
+  "listing_locales_observed": [
+    "en-US",
+    "en-GB",
+    "en-AU",
+    "en-IN",
+    "es-ES",
+    "es-MX",
+    "fr-FR",
+    "de-DE",
+    "it-IT",
+    "ja-JP",
+    "nl-NL",
+    "pl-PL",
+    "pt-BR",
+    "pt-PT",
+    "sv-SE"
+  ],
+  "console_limits": {
+    "display_title_chars": 200,
+    "short_description_chars": 1200,
+    "long_description_chars": 4000,
+    "feature_bullets_max": 10
+  },
+  "app_binary_languages_saved": [
+    "English"
+  ],
+  "submission_authorized": false,
+  "github_urls_saved_and_read_back": "2026-10-28",
+  "icons_uploaded": [
+    "assets/store/floratend-icon-512.png",
+    "assets/store/floratend-icon-114.png"
+  ],
+  "apk": {
+    "path": "app/build/outputs/apk/release/app-release.apk",
+    "sha256": "d2fce211f36987fb927b4c91f1d9a642fdd62267000fa2a343dbe543328ba1b6",
+    "version_code": 1,
+    "version_name": "0.1.0",
+    "upload_status": "accepted_by_console_1_file_uploaded",
+    "console_drm_applied": true
+  }
+}

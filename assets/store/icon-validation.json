@@ -1,0 +1,43 @@
+{
+  "source": "D:\\App Projects\\FloraTend\\assets\\app_icon_master.svg",
+  "source_sha256": "a826d8752a14e9332600dd60d8232b48f908fc409a2de1afb7bca87b59c2f90b",
+  "method": "Original SVG cubic/quadratic Bezier and circular arc sampling; Pillow 4x antialiasing; transparent rounded background corners",
+  "assets": [
+    {
+      "path": "D:\\App Projects\\FloraTend\\assets\\store\\floratend-icon-1024.png",
+      "width": 1024,
+      "height": 1024,
+      "format": "PNG",
+      "mode": "RGBA",
+      "transparent_corners": true,
+      "opaque_logo_centre": true,
+      "integrity": "PASS",
+      "sha256": "d8dba47780d131fd70aa6a0f31ca24f68554578819805a0fac46c60f4abbb058",
+      "bytes": 71531
+    },
+    {
+      "path": "D:\\App Projects\\FloraTend\\assets\\store\\floratend-icon-512.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "mode": "RGBA",
+      "transparent_corners": true,
+      "opaque_logo_centre": true,
+      "integrity": "PASS",
+      "sha256": "d06f9550472b8ef8c86e9b7800e090fd06a108cf4460dedc0a5a9383ddd001cc",
+      "bytes": 33827
+    },
+    {
+      "path": "D:\\App Projects\\FloraTend\\assets\\store\\floratend-icon-114.png",
+      "width": 114,
+      "height": 114,
+      "format": "PNG",
+      "mode": "RGBA",
+      "transparent_corners": true,
+      "opaque_logo_centre": true,
+      "integrity": "PASS",
+      "sha256": "0a543075b4f363fa46b7c4c5e0a329a7cd83690882c7ca27135c527f26bea474",
+      "bytes": 7101
+    }
+  ]
+}

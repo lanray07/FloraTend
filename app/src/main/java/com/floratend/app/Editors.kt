@@ -1,6 +1,7 @@
 package com.floratend.app
 
 import android.os.Build
+import androidx.activity.compose.LocalActivity
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.*
@@ -57,7 +58,7 @@ import java.time.LocalDate
         Image(painterResource(R.drawable.botanical_hero),contentDescription=null,modifier=Modifier.fillMaxWidth().height(220.dp))
         Heading(s(R.string.welcome),s(R.string.tagline))
         when(step) {
-            0->{Text(s(R.string.language_notice)); Text(s(R.string.language_pending));TextButton(onClick={step++}){Text(s(R.string.continue_label))}}
+            0->{LocalActivity.current?.let { LanguageSelector(it) };Text(s(R.string.language_notice)); Text(s(R.string.language_pending));TextButton(onClick={step++}){Text(s(R.string.continue_label))}}
             1->{Text(s(R.string.experience));listOf(R.string.beginner,R.string.experienced).forEachIndexed { i,id -> FilterChip(selected=experience==i,onClick={experience=i},label={Text(s(id))}) };FilterChip(selected=outdoors,onClick={outdoors=!outdoors},label={Text(s(R.string.outdoor))});TextButton(onClick={step++}){Text(s(R.string.continue_label))}}
             else->{Text(s(R.string.privacy_intro));Text(s(R.string.onboarding_optional));Button(onClick=done){Text(s(R.string.start_garden))}}
         }

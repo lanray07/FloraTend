@@ -1,6 +1,6 @@
 # Amazon requirements research
 
-Verified against public primary sources on 2026-10-28. This is research evidence, not evidence that the application passed these requirements. Developer Console configuration was not inspected. No submission or publication was performed.
+Verified against public primary sources on 2026-10-28. This is research evidence, not evidence that the application passed these requirements. The console was subsequently inspected and an incomplete draft was filled; see the dated console observations below. No submission or publication was performed.
 
 ## Submission and metadata
 
@@ -56,3 +56,9 @@ Use intervals to prompt a condition check. RHS recommends checking compost moist
 - Validate Fire model/OS support with the built APK and physical devices.
 - Verify all final asset uploads against console validation; eight localized screenshots are required by FloraTend for each approved locale.
 - Trademark/name clearance, privacy-policy legal approval and horticultural translation review remain outstanding.
+
+## Actual console observations — 2026-10-28
+
+The account exposes 15 description locales: en-US, en-GB, en-AU, en-IN, es-ES, es-MX, fr-FR, de-DE, it-IT, ja-JP, nl-NL, pl-PL, pt-BR, pt-PT and sv-SE. These take precedence over the earlier public-document enumeration for this draft. All 15 draft descriptions were saved and reloaded with matching title/short/long text; see `submission/listing-console-readback.json`. No human translation approval is asserted.
+
+The actual console counters permit a 200-character display title, 1,200-character short description, 4,000-character long description and up to 10 feature bullets. Both transparent icon sizes were accepted. Support email and GitHub SUPPORT.md / PRIVACY.md URLs were saved and read back. Public contact and factual disclosures are in those repository pages. The draft remains incomplete; privacy questionnaire, audience/rating, screenshots, device suitability and billing scenarios still need completion and review.

@@ -1,0 +1,96 @@
+{
+  "saved_draft_not_submitted": true,
+  "verified_at": "2026-10-28T09:49:15.158Z",
+  "locales": [
+    {
+      "locale": "en-US",
+      "matched_after_reload": true,
+      "title": "FloraTend - Plant Care & Watering Tracker",
+      "long_chars": 1424
+    },
+    {
+      "locale": "de-DE",
+      "matched_after_reload": true,
+      "title": "FloraTend - Pflanzenpflege & Gießen",
+      "long_chars": 1701
+    },
+    {
+      "locale": "en-AU",
+      "matched_after_reload": true,
+      "title": "FloraTend - Plant Care & Watering Tracker",
+      "long_chars": 1424
+    },
+    {
+      "locale": "en-GB",
+      "matched_after_reload": true,
+      "title": "FloraTend - Plant Care & Watering Tracker",
+      "long_chars": 1424
+    },
+    {
+      "locale": "en-IN",
+      "matched_after_reload": true,
+      "title": "FloraTend - Plant Care & Watering Tracker",
+      "long_chars": 1424
+    },
+    {
+      "locale": "es-ES",
+      "matched_after_reload": true,
+      "title": "FloraTend - Cuidados y riego de plantas",
+      "long_chars": 1639
+    },
+    {
+      "locale": "es-MX",
+      "matched_after_reload": true,
+      "title": "FloraTend - Cuidados y riego de plantas",
+      "long_chars": 1616
+    },
+    {
+      "locale": "fr-FR",
+      "matched_after_reload": true,
+      "title": "FloraTend - Entretien et arrosage",
+      "long_chars": 1791
+    },
+    {
+      "locale": "it-IT",
+      "matched_after_reload": true,
+      "title": "FloraTend - Cura delle piante e promemoria per annaffiare",
+      "long_chars": 1655
+    },
+    {
+      "locale": "ja-JP",
+      "matched_after_reload": true,
+      "title": "FloraTend - 植物のお手入れ・水やり記録",
+      "long_chars": 683
+    },
+    {
+      "locale": "nl-NL",
+      "matched_after_reload": true,
+      "title": "FloraTend - Plantenverzorging en waterherinneringen",
+      "long_chars": 1657
+    },
+    {
+      "locale": "pl-PL",
+      "matched_after_reload": true,
+      "title": "FloraTend - Pielęgnacja roślin i przypomnienia o podlewaniu",
+      "long_chars": 1620
+    },
+    {
+      "locale": "pt-BR",
+      "matched_after_reload": true,
+      "title": "FloraTend - Cuidados com plantas e lembretes de rega",
+      "long_chars": 1638
+    },
+    {
+      "locale": "pt-PT",
+      "matched_after_reload": true,
+      "title": "FloraTend - Cuidados com plantas e lembretes de rega",
+      "long_chars": 1652
+    },
+    {
+      "locale": "sv-SE",
+      "matched_after_reload": true,
+      "title": "FloraTend - Växtskötsel och påminnelser om vattning",
+      "long_chars": 1516
+    }
+  ]
+}

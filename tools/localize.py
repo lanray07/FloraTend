@@ -147,7 +147,7 @@ def emit_resources(records, path):
     ET.ElementTree(root).write(path, encoding='utf-8', xml_declaration=True)
 
 
-def validate(source, candidate, terms, locale):
+def validate(source, candidate, terms, locale, allowed_unchanged=()):
     errors = []
     required = {'ar': {'zero', 'one', 'two', 'few', 'many', 'other'},
                 'pl-PL': {'one', 'few', 'many', 'other'}}.get(locale, {'other'})
@@ -172,7 +172,7 @@ def validate(source, candidate, terms, locale):
             for term in terms:
                 if baseline.count(term) != clean.count(term):
                     errors.append(f'{name}/{q}: protected term {term} changed')
-            if clean == baseline and locale.split('-')[0] != 'en' and clean not in terms:
+            if clean == baseline and locale.split('-')[0] != 'en' and clean not in terms and clean not in allowed_unchanged:
                 errors.append(f'{name}/{q}: unchanged English requires review')
     errors.extend(f'{name}: obsolete resource' for name in candidate.keys() - source.keys())
     return errors
@@ -188,7 +188,8 @@ def main(argv=None):
     directory = ROOT / 'localization'
     write_json(directory / 'source.json', source)
     config = read_json(directory / 'locales.json', [])
-    terms = read_json(directory / 'glossary.json', {})['protected_terms']
+    glossary = read_json(directory / 'glossary.json', {})
+    terms = glossary['protected_terms']
     review = read_json(directory / 'review.json', {})
     if args.action == 'extract':
         print(f'Extracted {len(source)} translatable resources')
@@ -219,7 +220,7 @@ def main(argv=None):
     for locale in selected:
         path = ROOT / 'app/src/main/res' / locale['android_folder'] / 'strings.xml'
         try:
-            errors = validate(source, extract(path), terms, locale['locale']) if path.exists() else ['Resource file does not exist']
+            errors = validate(source, extract(path), terms, locale['locale'], glossary.get('branded_values', [])) if path.exists() else ['Resource file does not exist']
         except (ValueError, ET.ParseError) as error:
             errors = [str(error)]
         status = review.get(locale['locale'], {}).get('status', 'pending')

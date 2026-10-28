@@ -1,0 +1,35 @@
+{
+  "add": [
+    "ajoute une nouvelle plante",
+    "ajouter une plante"
+  ],
+  "due": [
+    "quelles plantes ont besoin d’arrosage aujourd’hui",
+    "quelles plantes ont besoin d'arrosage aujourd'hui",
+    "quelles plantes ont besoin d’eau aujourd’hui"
+  ],
+  "calendar": [
+    "affiche mon calendrier d’entretien",
+    "affiche mon calendrier d'entretien",
+    "montre mon calendrier d’entretien"
+  ],
+  "read": [
+    "lis mes rappels",
+    "lis mes rappels d’entretien"
+  ],
+  "water_prefix": [
+    "marque ma ",
+    "marque mon "
+  ],
+  "water_suffix": [
+    " comme arrosée",
+    " comme arrosé"
+  ],
+  "location_prefix": [
+    "affiche les plantes du ",
+    "affiche les plantes de la ",
+    "affiche les plantes dans ",
+    "montre les plantes du "
+  ],
+  "unknown": []
+}

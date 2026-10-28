@@ -1,0 +1,34 @@
+{
+  "add": [
+    "aggiungi una nuova pianta",
+    "aggiungi pianta"
+  ],
+  "due": [
+    "quali piante hanno bisogno di acqua oggi",
+    "quali piante devo controllare oggi"
+  ],
+  "calendar": [
+    "mostra il mio calendario di cura",
+    "apri il calendario di cura"
+  ],
+  "read": [
+    "leggi i miei promemoria",
+    "leggi i promemoria di cura"
+  ],
+  "water_prefix": [
+    "segna la mia ",
+    "segna il mio ",
+    "segna ",
+    "contrassegna la mia "
+  ],
+  "water_suffix": [
+    " come annaffiata",
+    " come annaffiato"
+  ],
+  "location_prefix": [
+    "mostra le piante in ",
+    "mostra piante in ",
+    "mostra le piante nel ",
+    "mostra le piante nella "
+  ]
+}

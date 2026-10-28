@@ -1,0 +1,17 @@
+{
+  "scope": "Static source/configuration inspection only; runtime, dependency supply-chain and full security review remain pending.",
+  "checks": {
+    "all_referenced_strings_exist": true,
+    "source_string_names_unique": true,
+    "android_backup_disabled": true,
+    "cleartext_network_disabled": true,
+    "rtl_declared": true,
+    "google_play_services_and_billing_not_declared": true,
+    "package_identifier_configured": true,
+    "version_configured": true,
+    "no_recognised_source_secret_patterns": true,
+    "authentication_assets_are_public_keys": true,
+    "no_background_microphone_service_declared": true
+  },
+  "missing_strings": []
+}

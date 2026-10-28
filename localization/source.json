@@ -410,13 +410,13 @@
   "language_notice": {
     "type": "string",
     "values": {
-      "value": "FloraTend follows your device language when an approved translation is available."
+      "value": "FloraTend follows your device language. You can change it in settings."
     }
   },
   "language_pending": {
     "type": "string",
     "values": {
-      "value": "English preview. More languages are not yet available."
+      "value": "Translations are previews and may contain mistakes. Choose a language you understand well."
     }
   },
   "leaf_cleaning": {
@@ -860,7 +860,7 @@
   "voice_unknown": {
     "type": "string",
     "values": {
-      "value": "Command not recognised. Try one of the examples below. English commands are currently available for testing."
+      "value": "Command not recognised. Try one of the examples below, or use the app controls."
     }
   },
   "watered": {
@@ -989,6 +989,24 @@
     "values": {
       "one": "Your collection · %1$d plant",
       "other": "Your collection · %1$d plants"
+    }
+  },
+  "language": {
+    "type": "string",
+    "values": {
+      "value": "Language"
+    }
+  },
+  "system_language": {
+    "type": "string",
+    "values": {
+      "value": "Device language"
+    }
+  },
+  "voice_output_unavailable": {
+    "type": "string",
+    "values": {
+      "value": "No installed voice supports this language. Written feedback is still available."
     }
   }
 }

@@ -1,0 +1,15 @@
+{
+  "locale": "it-IT",
+  "review_status": "draft_pending_human_review",
+  "display_title": "FloraTend - Cura delle piante e promemoria per annaffiare",
+  "short_description": "Organizza le piante, pianifica i controlli e annota la crescita. Conserva dati e fotografie sul dispositivo, senza un account obbligatorio. I promemoria invitano a verificare le condizioni prima di decidere se annaffiare.",
+  "long_description": "Ogni pianta merita un po’ di attenzione.\n\nFloraTend riunisce la tua collezione di piante e la routine di cura. Conserva un soprannome, la specie, la posizione e le note personali per ogni pianta. Aggiungi le tue fotografie e trova i dati cercando o filtrando la collezione.\n\nPianifica promemoria per controllare il terreno oppure crea programmi per concimazione, potatura, rinvaso e altre cure. Registra gli interventi completati, rimanda un controllo o sospendi un programma quando cambiano le tue abitudini. Un promemoria invita a osservare la pianta: non garantisce che abbia bisogno di acqua.\n\nUsa il diario di crescita per note datate, fotografie, misure di altezza e conteggi delle foglie. I dati provengono dalle tue osservazioni: FloraTend non inventa misurazioni e non formula diagnosi sulla salute delle piante.\n\nI dati essenziali delle piante, le fotografie salvate, i programmi di cura e le note del diario sono conservati localmente. Per queste funzioni essenziali non è richiesto un account.\n\nI comandi di testo offrono un altro modo per navigare e registrare le cure. L’attivazione vocale a pulsante e le risposte parlate dipendono da servizi vocali e lingue compatibili installati sul dispositivo. Se il riconoscimento vocale non è disponibile, usa i comandi a schermo o digita un comando. Il riconoscimento vocale potrebbe richiedere una connessione di rete.\n\nLa collezione gratuita può contenere fino a cinque piante.\n\nFloraTend offre strumenti generali di organizzazione e informazione. Le esigenze delle piante variano in base alla specie e alle condizioni. Per problemi persistenti o gravi, chiedi un parere orticolturale qualificato.",
+  "feature_bullets": [
+    "Riunisci nomi, posizioni, fotografie e note personali delle piante.",
+    "Pianifica i controlli e conserva la cronologia delle cure completate.",
+    "Salva note di crescita datate, misure di altezza e osservazioni sulle foglie.",
+    "Accedi ai dati essenziali locali senza un account obbligatorio.",
+    "Usa i comandi a schermo e di testo; le funzioni vocali facoltative dipendono dal dispositivo."
+  ],
+  "keywords": "cura delle piante, promemoria annaffiatura, piante da appartamento, calendario cura piante, diario crescita piante"
+}

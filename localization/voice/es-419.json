@@ -1,0 +1,36 @@
+{
+  "add": [
+    "añade una planta nueva",
+    "añadir una planta",
+    "agrega una planta nueva",
+    "agregar planta"
+  ],
+  "due": [
+    "qué plantas necesitan riego hoy",
+    "¿qué plantas necesitan riego hoy",
+    "qué plantas necesitan agua hoy",
+    "¿qué plantas necesitan agua hoy"
+  ],
+  "calendar": [
+    "muestra mi calendario de cuidados",
+    "abre mi calendario de cuidados"
+  ],
+  "read": [
+    "lee mis recordatorios",
+    "lee mis recordatorios de cuidados"
+  ],
+  "water_prefix": [
+    "marca mi "
+  ],
+  "water_suffix": [
+    " como regada",
+    " como regado"
+  ],
+  "location_prefix": [
+    "muestra las plantas del ",
+    "muestra las plantas de la ",
+    "muestra las plantas de ",
+    "muestra plantas en "
+  ],
+  "unknown": []
+}

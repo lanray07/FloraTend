@@ -1,0 +1,15 @@
+{
+  "locale": "en-IN",
+  "review_status": "draft_pending_human_review",
+  "display_title": "FloraTend - Plant Care & Watering Tracker",
+  "short_description": "Organise your plants, plan care checks and keep growth notes. Save core plant records and photographs on your device, with no account required. Watering reminders prompt you to check conditions before deciding whether to water.",
+  "long_description": "Every plant deserves a little attention.\n\nFloraTend brings your plant collection and care routine together. Keep a nickname, species, location and personal notes for each plant. Add your own photographs and find records by searching or filtering your collection.\n\nPlan reminders to check soil conditions, or create fertilising, pruning, repotting and other care schedules. Record completed care, snooze a check or pause a schedule when your routine changes. A reminder is a prompt to inspect your plant, not a guarantee that it needs water.\n\nUse the growth journal for dated notes, photographs, height measurements and leaf counts. Your observations form the record; FloraTend does not invent growth measurements or diagnose plant health.\n\nCore plant records, saved photographs, care schedules and journal notes are stored locally. No account is required for these core functions.\n\nText commands offer another way to navigate and record care. Push-to-talk and spoken responses depend on compatible speech engines and languages installed on your device. If speech recognition is unavailable, use the touch controls or type a command. Speech recognition may require a network connection.\n\nThe free collection supports up to five plants.\n\nFloraTend provides general organisational and educational tools. Plant needs vary by species and conditions. For persistent or severe plant problems, seek appropriate horticultural advice.",
+  "feature_bullets": [
+    "Keep plant names, locations, photographs and personal notes together.",
+    "Plan care checks and record your completed care history.",
+    "Save dated growth notes, height measurements and leaf observations.",
+    "Access local core records without a required account.",
+    "Use touch controls and text commands; optional speech depends on device support."
+  ],
+  "keywords": "plant care, plant watering reminder, houseplant tracker, plant care schedule, plant growth journal"
+}

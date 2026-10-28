@@ -1,0 +1,15 @@
+{
+  "locale": "es-MX",
+  "review_status": "draft_pending_human_review",
+  "display_title": "FloraTend - Cuidados y riego de plantas",
+  "short_description": "Organiza tus plantas, programa revisiones y anota su crecimiento. Guarda los registros principales y las fotos en tu dispositivo, sin crear una cuenta. Los recordatorios te invitan a revisar las condiciones antes de decidir si es necesario regar.",
+  "long_description": "Cada planta merece un poco de atención.\n\nFloraTend reúne tu colección de plantas y tu rutina de cuidados. Guarda el apodo, la especie, la ubicación y las notas personales de cada planta. Agrega tus propias fotos y encuentra los registros con búsquedas y filtros.\n\nPrograma recordatorios para revisar el sustrato o crea planes de fertilización, poda, trasplante y otros cuidados. Registra las tareas realizadas, pospón una revisión o pausa un programa cuando cambie tu rutina. Un recordatorio te invita a observar la planta; no garantiza que necesite agua.\n\nUsa el diario de crecimiento para guardar notas con fecha, fotos, medidas de altura y conteos de hojas. El historial se basa en tus observaciones: FloraTend no inventa medidas de crecimiento ni diagnostica la salud de las plantas.\n\nLos registros principales, las fotos guardadas, los programas de cuidados y las notas del diario se almacenan localmente. Estas funciones principales no requieren una cuenta.\n\nLos comandos escritos ofrecen otra forma de navegar y registrar cuidados. La función de presionar para hablar y las respuestas habladas dependen de los motores de voz y los idiomas compatibles instalados en tu dispositivo. Si el reconocimiento de voz no está disponible, usa los controles táctiles o escribe un comando. El reconocimiento de voz puede necesitar conexión a internet.\n\nLa colección gratuita admite hasta cinco plantas.\n\nFloraTend ofrece herramientas generales de organización e información. Las necesidades de cada planta varían según la especie y las condiciones. Ante problemas persistentes o graves, busca asesoría hortícola adecuada.",
+  "feature_bullets": [
+    "Reúne nombres, ubicaciones, fotos y notas personales de tus plantas.",
+    "Programa revisiones y conserva un historial de los cuidados realizados.",
+    "Guarda notas de crecimiento con fecha, medidas de altura y observaciones de las hojas.",
+    "Accede a los registros principales guardados localmente sin crear una cuenta.",
+    "Usa controles táctiles y comandos escritos; la voz opcional depende del dispositivo."
+  ],
+  "keywords": "cuidado de plantas, recordatorio de riego, plantas de interior, calendario de cuidados, diario de crecimiento"
+}

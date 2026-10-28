@@ -1,0 +1,28 @@
+{
+  "add": [
+    "add a new plant",
+    "add plant"
+  ],
+  "due": [
+    "which plants need watering today",
+    "which plants need water today"
+  ],
+  "calendar": [
+    "show my care calendar",
+    "show my plant-care calendar"
+  ],
+  "read": [
+    "read my reminders",
+    "read my care reminders"
+  ],
+  "water_prefix": [
+    "mark my "
+  ],
+  "water_suffix": [
+    " as watered"
+  ],
+  "location_prefix": [
+    "show plants in "
+  ],
+  "unknown": []
+}

@@ -1,0 +1,15 @@
+{
+  "locale": "fr-FR",
+  "review_status": "draft_pending_human_review",
+  "display_title": "FloraTend - Entretien et arrosage",
+  "short_description": "Organisez vos plantes, planifiez les vérifications et notez leur croissance. Conservez les données essentielles et les photos sur votre appareil, sans compte obligatoire. Les rappels vous invitent à vérifier les conditions avant de décider d’arroser.",
+  "long_description": "Chaque plante mérite un peu d’attention.\n\nFloraTend réunit votre collection de plantes et votre routine d’entretien. Enregistrez le surnom, l’espèce, l’emplacement et les notes personnelles de chaque plante. Ajoutez vos propres photos et retrouvez les données grâce à la recherche et aux filtres.\n\nProgrammez des rappels pour vérifier le terreau ou prévoyez la fertilisation, la taille, le rempotage et d’autres entretiens. Enregistrez les soins effectués, reportez une vérification ou mettez un programme en pause lorsque vos habitudes changent. Un rappel vous invite à observer la plante ; il ne garantit pas qu’elle ait besoin d’eau.\n\nUtilisez le carnet de croissance pour conserver des notes datées, des photos, des mesures de hauteur et des décomptes de feuilles. Vos observations constituent l’historique : FloraTend n’invente pas de mesures de croissance et ne diagnostique pas la santé des plantes.\n\nLes données essentielles, les photos enregistrées, les programmes d’entretien et les notes du carnet sont stockés localement. Ces fonctions principales ne nécessitent pas de compte.\n\nLes commandes écrites offrent une autre façon de naviguer et d’enregistrer un entretien. L’activation du microphone par pression et les réponses orales dépendent des moteurs vocaux et des langues compatibles installés sur votre appareil. Si la reconnaissance vocale est indisponible, utilisez les commandes tactiles ou saisissez une commande. La reconnaissance vocale peut nécessiter une connexion réseau.\n\nLa collection gratuite peut contenir jusqu’à cinq plantes.\n\nFloraTend propose des outils généraux d’organisation et d’information. Les besoins des plantes varient selon l’espèce et les conditions. Pour des problèmes persistants ou graves, demandez conseil à un spécialiste horticole compétent.",
+  "feature_bullets": [
+    "Regroupez les noms, les emplacements, les photos et les notes de vos plantes.",
+    "Planifiez les vérifications et conservez l’historique des entretiens effectués.",
+    "Enregistrez des notes datées, des mesures de hauteur et des observations des feuilles.",
+    "Accédez aux données essentielles stockées localement sans compte obligatoire.",
+    "Utilisez les commandes tactiles et écrites ; la voix facultative dépend de l’appareil."
+  ],
+  "keywords": "entretien des plantes, rappel arrosage, plantes d’intérieur, calendrier entretien, carnet de croissance"
+}

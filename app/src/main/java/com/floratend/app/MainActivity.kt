@@ -90,6 +90,12 @@ import java.util.Locale
 
 
 class MainActivity : ComponentActivity() {
+    var speechOutputSupported by mutableStateOf<Boolean?>(null)
+    override fun attachBaseContext(newBase: android.content.Context) {
+        Locale.setDefault(AppLocales.current(newBase))
+        super.attachBaseContext(AppLocales.wrap(newBase))
+    }
+
 
     private var recognizer: SpeechRecognizer? = null
 
@@ -104,10 +110,14 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
+        AppLocales.dictionaryTag(Locale.getDefault())?.let { tag ->
+            runCatching { assets.open("voice/$tag.properties").use { VoiceParser.install(tag,VoiceDictionary.read(it)) } }
+        }
 
         tts = TextToSpeech(this) { status ->
 
-            if (status == TextToSpeech.SUCCESS) canSpeak = (tts?.setLanguage(Locale.getDefault()) ?: -1) >= 0
+            canSpeak = status == TextToSpeech.SUCCESS && (tts?.setLanguage(Locale.getDefault()) ?: -1) >= 0
+            speechOutputSupported = canSpeak
 
         }
 

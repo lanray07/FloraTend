@@ -10,3 +10,10 @@ __pycache__/
 localization/cache/
 evidence/gradle-threads.txt
 .kotlin/
+
+!app/src/main/assets/AppstoreAuthenticationKey.pem
+
+*.p12
+*.pfx
+*.dpapi.json
+evidence/localized-device/startup-debug.png

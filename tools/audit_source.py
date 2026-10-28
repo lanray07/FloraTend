@@ -25,7 +25,7 @@ checks = {
     'package_identifier_configured': 'applicationId = "com.floratend.app"' in gradle,
     'version_configured': 'versionCode = 1' in gradle and 'versionName = "0.1.0"' in gradle,
     'no_recognised_source_secret_patterns': not any(re.search(pattern, sources + gradle) for pattern in patterns),
-    'no_app_authentication_key_checked_in': not list(main.glob('assets/*.pem')),
+    'authentication_assets_are_public_keys': all(b'BEGIN PUBLIC KEY' in p.read_bytes() and b'PRIVATE KEY' not in p.read_bytes() for p in main.glob('assets/*.pem')),
     'no_background_microphone_service_declared': not manifest.findall('.//service'),
 }
 report = {'scope': 'Static source/configuration inspection only; runtime, dependency supply-chain and full security review remain pending.', 'checks': checks, 'missing_strings': sorted(refs - set(names))}

@@ -17,3 +17,9 @@ Generated criterion-level verification report. No unrecorded result is inferred.
 | AC-06.11 | Voice Input and Output | Users can perform all essential actions without voice. | / Not executed | No verified test result recorded. | NOT TESTED |  | Execute the stated procedure and attach evidence. |
 | AC-06.12 | Voice Input and Output | No continuous background listening occurs. | / Not executed | No verified test result recorded. | NOT TESTED |  | Execute the stated procedure and attach evidence. |
 | AC-06.13 | Voice Input and Output | Raw microphone recordings are not stored by default. | / Not executed | No verified test result recorded. | NOT TESTED |  | Execute the stated procedure and attach evidence. |
+
+## Localized command implementation — 2026-10-28
+
+All 19 requested locale dictionaries are packaged. `LocalizedVoiceTest` passed all three JVM cases (six command families across dictionaries, real example transcripts, Unicode punctuation and safe unknown commands). Eleven total JVM tests and lint passed in `evidence/localized-build-final.log`. This verifies typed-command parsing, not microphone recognition. The Fire loaded all 19 dictionaries in `evidence/localized-device/screens/resource-and-dictionary-checks.json`.
+
+The attempted new real-UI suite has not passed: six UI cases could not see a Compose hierarchy, and a subsequent startup inspection showed the Fire PIN lock screen. The runner now detects this condition before starting. Representative Spanish, German, Japanese and Arabic typed actions must be rerun after the user unlocks the tablet. The prior English fallback PASS above remains limited to its recorded earlier build and device. The installed Fire TTS can synthesize English but does not support the other 16 requested non-English locale tags; the app now shows a localized unsupported-output message. No real recognition or non-English spoken-output PASS is claimed.

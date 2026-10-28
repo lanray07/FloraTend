@@ -4,7 +4,7 @@ Native dependency: `com.amazon.device:amazon-appstore-sdk:3.0.9`. The Android ma
 
 ## Configuration
 
-The app-specific public `AppstoreAuthenticationKey.pem` must be obtained from the actual Amazon Developer Console app record and placed under `app/src/main/assets/`. `AmazonBilling.register` leaves billing unavailable when that file is absent. The public key is distinct from private signing keys, developer passwords and any RVS shared secret. None of those private secrets belongs in source or the APK. Current gitignore excludes PEM files, so provisioning must be handled privately and intentionally by the publisher.
+The app-specific public `AppstoreAuthenticationKey.pem` must be obtained from the actual Amazon Developer Console app record and placed under `app/src/main/assets/`. `AmazonBilling.register` leaves billing unavailable when that file is absent. The public key is distinct from private signing keys, developer passwords and any RVS shared secret. None of those private secrets belongs in source or the APK. The actual FloraTend console public key is now bundled. Gitignore permits only this exact public PEM path; private signing material remains excluded. The app record is recorded in `submission/console-draft.json`.
 
 Configure the entitled product and marketplace distribution in the actual Amazon account. Set up Amazon App Tester or Live App Testing. These external steps and tests have not been replaced with a mock success path.
 
@@ -28,4 +28,4 @@ Official integration/API requirements and references are recorded in [AMAZON_REQ
 
 ## Preserved build-coordination note
 
-Before report regeneration, the billing report contained this note: a standalone `:app:compileDebugKotlin` attempt was stopped to avoid contention with the primary acceptance build. Its partial log is `evidence/billing-compile.log`; it is not passing build evidence. Use the main build/test/lint logs for compilation status. Billing messages are Android string resources (`billing_*`), ready for the translation pipeline; non-English billing copy remains pending translation and human review.
+Before report regeneration, the billing report contained this note: a standalone `:app:compileDebugKotlin` attempt was stopped to avoid contention with the primary acceptance build. Its partial log is `evidence/billing-compile.log`; it is not passing build evidence. Use the main build/test/lint logs for compilation status. Billing messages are Android string resources (`billing_*`), ready for the translation pipeline; non-English billing resources are included as assistant-authored drafts pending human review.

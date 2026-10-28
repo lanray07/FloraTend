@@ -1,0 +1,990 @@
+{
+  "status": "assistant_generated_draft_pending_linguistic_and_UI_review",
+  "generated_on": "2026-10-28",
+  "provider": "assistant-authored; no translation provider API invoked",
+  "human_reviewed": false,
+  "locales": [
+    "en-US",
+    "en-AU",
+    "es-ES",
+    "es-419",
+    "fr-FR",
+    "fr-CA",
+    "de-DE"
+  ],
+  "translation_columns": [
+    "es-ES",
+    "fr-FR",
+    "de-DE"
+  ],
+  "regional_note": "Regional English resources derive from source with local spelling. Spanish Latin America and Canadian French have explicit regional overrides. Every resource remains a draft, including shared wording.",
+  "translations": {
+    "acquired": [
+      "Fecha de adquisición (AAAA-MM-DD)",
+      "Date d’acquisition (AAAA-MM-JJ)",
+      "Erworben am (JJJJ-MM-TT)"
+    ],
+    "acquired_value": [
+      "Adquirida: %1$s",
+      "Acquisition : %1$s",
+      "Erworben: %1$s"
+    ],
+    "add_entry": [
+      "Añadir entrada al diario",
+      "Ajouter une entrée au journal",
+      "Journaleintrag hinzufügen"
+    ],
+    "add_plant": [
+      "Añadir planta",
+      "Ajouter une plante",
+      "Pflanze hinzufügen"
+    ],
+    "add_schedule": [
+      "Añadir programa de cuidados",
+      "Ajouter un programme d’entretien",
+      "Pflegeplan hinzufügen"
+    ],
+    "all": [
+      "Todas",
+      "Toutes",
+      "Alle"
+    ],
+    "app_name": [
+      "FloraTend",
+      "FloraTend",
+      "FloraTend"
+    ],
+    "attention": [
+      "Necesitan un poco de atención",
+      "Un peu d’attention nécessaire",
+      "Ein wenig Aufmerksamkeit gefragt"
+    ],
+    "backup_unavailable": [
+      "La copia de seguridad cifrada y la sincronización en la nube no están disponibles en esta versión preliminar. La copia de seguridad automática de Android está desactivada.",
+      "La sauvegarde chiffrée et la synchronisation dans le cloud ne sont pas disponibles dans cette version préliminaire. La sauvegarde automatique Android est désactivée.",
+      "Verschlüsselte Sicherungen und Cloud-Synchronisierung sind in dieser Vorschau nicht verfügbar. Die automatische Android-Sicherung ist deaktiviert."
+    ],
+    "beginner": [
+      "Estoy empezando",
+      "Je débute",
+      "Ich fange gerade an"
+    ],
+    "cacti": [
+      "Cactus",
+      "Cactus",
+      "Kakteen"
+    ],
+    "calendar": [
+      "Calendario",
+      "Calendrier",
+      "Kalender"
+    ],
+    "cancel": [
+      "Cancelar",
+      "Annuler",
+      "Abbrechen"
+    ],
+    "care_calendar": [
+      "Tu calendario de cuidados",
+      "Votre calendrier d’entretien",
+      "Dein Pflegekalender"
+    ],
+    "care_reminders": [
+      "Recordatorios para revisar las plantas",
+      "Rappels de vérification des plantes",
+      "Erinnerungen an Pflegekontrollen"
+    ],
+    "care_saved": [
+      "Se ha guardado el registro de cuidados.",
+      "Votre entretien a été enregistré.",
+      "Dein Pflegeeintrag wurde gespeichert."
+    ],
+    "check_first": [
+      "Es un recordatorio para revisar, no una orden de regar. Comprueba primero la humedad del sustrato, el drenaje y el estado de la planta.",
+      "Un rappel pour vérifier, pas une consigne d’arrosage. Vérifiez d’abord l’humidité du terreau, le drainage et l’état de la plante.",
+      "Eine Erinnerung zum Prüfen, keine Aufforderung zum Gießen. Prüfe zuerst die Bodenfeuchte, den Wasserabfluss und den Zustand deiner Pflanze."
+    ],
+    "choose_photo": [
+      "Elegir foto",
+      "Choisir une photo",
+      "Foto auswählen"
+    ],
+    "close": [
+      "Cerrar",
+      "Fermer",
+      "Schließen"
+    ],
+    "collection_breakdown": [
+      "Distribución de la colección",
+      "Répartition de la collection",
+      "Zusammensetzung der Sammlung"
+    ],
+    "command": [
+      "Revisa o escribe una orden",
+      "Vérifiez ou saisissez une commande",
+      "Befehl prüfen oder eingeben"
+    ],
+    "comparison": [
+      "Primera y última fotografía guardadas",
+      "Première et dernière photos enregistrées",
+      "Erstes und neuestes gespeichertes Foto"
+    ],
+    "completed_tasks": [
+      "Registros de cuidados guardados",
+      "Entretiens enregistrés",
+      "Gespeicherte Pflegeeinträge"
+    ],
+    "confirm": [
+      "Confirmar",
+      "Confirmer",
+      "Bestätigen"
+    ],
+    "confirm_water": [
+      "¿Registrar el riego como completado?",
+      "Enregistrer l’arrosage comme effectué ?",
+      "Gießen als erledigt eintragen?"
+    ],
+    "continue_label": [
+      "Continuar",
+      "Continuer",
+      "Weiter"
+    ],
+    "custom_care": [
+      "Cuidado personalizado",
+      "Entretien personnalisé",
+      "Eigene Pflegeaufgabe"
+    ],
+    "dark_theme": [
+      "Tema oscuro",
+      "Thème sombre",
+      "Dunkles Design"
+    ],
+    "date_iso": [
+      "Fecha (AAAA-MM-DD)",
+      "Date (AAAA-MM-JJ)",
+      "Datum (JJJJ-MM-TT)"
+    ],
+    "day": [
+      "Hoy",
+      "Aujourd’hui",
+      "Heute"
+    ],
+    "delete": [
+      "Eliminar",
+      "Supprimer",
+      "Löschen"
+    ],
+    "delete_all": [
+      "Eliminar todos los datos de plantas",
+      "Supprimer toutes les données des plantes",
+      "Alle Pflanzendaten löschen"
+    ],
+    "delete_entry": [
+      "¿Eliminar esta entrada del diario?",
+      "Supprimer cette entrée du journal ?",
+      "Diesen Journaleintrag löschen?"
+    ],
+    "delete_plant": [
+      "¿Eliminar esta planta?",
+      "Supprimer cette plante ?",
+      "Diese Pflanze löschen?"
+    ],
+    "delete_warning": [
+      "Los registros seleccionados se eliminarán de forma permanente. No se puede deshacer.",
+      "Les données sélectionnées seront définitivement supprimées. Cette action est irréversible.",
+      "Die ausgewählten Einträge werden dauerhaft entfernt. Dies kann nicht rückgängig gemacht werden."
+    ],
+    "done": [
+      "Cuidado completado",
+      "Entretien effectué",
+      "Pflege erledigt"
+    ],
+    "dry": [
+      "Sustrato revisado: seco",
+      "Terreau vérifié : sec",
+      "Erde geprüft: trocken"
+    ],
+    "duplicate": [
+      "Duplicar planta",
+      "Dupliquer la plante",
+      "Pflanze duplizieren"
+    ],
+    "edit": [
+      "Editar",
+      "Modifier",
+      "Bearbeiten"
+    ],
+    "empty_garden": [
+      "Haz sitio para algo verde",
+      "Faites une place à la verdure",
+      "Mach Platz für etwas Grünes"
+    ],
+    "empty_garden_body": [
+      "Añade tu primera planta para empezar una rutina de cuidados más tranquila.",
+      "Ajoutez votre première plante pour adopter une routine d’entretien plus sereine.",
+      "Füge deine erste Pflanze hinzu und starte eine entspanntere Pflegeroutine."
+    ],
+    "experience": [
+      "¿Qué experiencia tienes cuidando plantas?",
+      "Quelle est votre expérience de l’entretien des plantes ?",
+      "Wie gut kennst du dich mit Pflanzenpflege aus?"
+    ],
+    "experienced": [
+      "Tengo experiencia",
+      "J’ai de l’expérience",
+      "Ich habe Erfahrung"
+    ],
+    "export_csv": [
+      "Exportar plantas en CSV",
+      "Exporter les plantes en CSV",
+      "Pflanzen als CSV exportieren"
+    ],
+    "export_error": [
+      "No se ha podido guardar la exportación. Elige otro destino.",
+      "Impossible d’enregistrer l’exportation. Choisissez une autre destination.",
+      "Der Export konnte nicht gespeichert werden. Wähle ein anderes Ziel."
+    ],
+    "export_json": [
+      "Exportar JSON",
+      "Exporter en JSON",
+      "JSON exportieren"
+    ],
+    "export_notice": [
+      "Las exportaciones contienen notas personales. Elige un destino de confianza. El archivo JSON incluye los registros, pero no las fotografías.",
+      "Les exportations contiennent des notes personnelles. Choisissez une destination de confiance. Le fichier JSON contient les données, mais pas les photos.",
+      "Exporte enthalten persönliche Notizen. Wähle ein vertrauenswürdiges Ziel. JSON enthält die Einträge, bettet aber keine Fotos ein."
+    ],
+    "export_saved": [
+      "Exportación guardada.",
+      "Exportation enregistrée.",
+      "Export gespeichert."
+    ],
+    "fertilising": [
+      "Revisión del abonado",
+      "Vérification de la fertilisation",
+      "Düngung prüfen"
+    ],
+    "flowering": [
+      "Plantas con flores",
+      "Plantes à fleurs",
+      "Blühpflanzen"
+    ],
+    "free_limit": [
+      "La colección gratuita admite cinco plantas. Restaura o compra Premium para añadir más.",
+      "La collection gratuite peut contenir cinq plantes. Restaurez ou achetez Premium pour en ajouter davantage.",
+      "Die kostenlose Sammlung bietet Platz für fünf Pflanzen. Stelle Premium wieder her oder kaufe es, um weitere hinzuzufügen."
+    ],
+    "garden": [
+      "Jardín",
+      "Jardin",
+      "Garten"
+    ],
+    "growth_journal": [
+      "Cada hoja nueva tiene una historia",
+      "Chaque nouvelle feuille a son histoire",
+      "Jedes neue Blatt erzählt eine Geschichte"
+    ],
+    "guidance": [
+      "Revisa el sustrato y la planta antes de regar. El amarilleo, el marchitamiento y la caída de hojas pueden tener varias causas. Ante síntomas persistentes o graves, consulta a un especialista local en horticultura.",
+      "Vérifiez le terreau et la plante avant d’arroser. Le jaunissement, le flétrissement et la chute des feuilles peuvent avoir plusieurs causes. Si les symptômes persistent ou sont graves, consultez un spécialiste horticole local.",
+      "Prüfe Erde und Pflanze vor dem Gießen. Gelbe Blätter, Welken und Blattabwurf können verschiedene Ursachen haben. Bei anhaltenden oder starken Symptomen ist fachlicher Rat aus einer örtlichen Gärtnerei sinnvoll."
+    ],
+    "height_cm": [
+      "Altura (cm, opcional)",
+      "Hauteur (cm, facultatif)",
+      "Höhe (cm, optional)"
+    ],
+    "height_in": [
+      "Altura (pulgadas, opcional)",
+      "Hauteur (pouces, facultatif)",
+      "Höhe (Zoll, optional)"
+    ],
+    "height_in_value": [
+      "Altura: %1$s pulg.",
+      "Hauteur : %1$s po",
+      "Höhe: %1$s Zoll"
+    ],
+    "height_value": [
+      "Altura: %1$s cm",
+      "Hauteur : %1$s cm",
+      "Höhe: %1$s cm"
+    ],
+    "herbs": [
+      "Hierbas aromáticas",
+      "Plantes aromatiques",
+      "Kräuter"
+    ],
+    "identification_unavailable": [
+      "La identificación por foto no está configurada. Añade la especie manualmente; las fotografías permanecen en tu dispositivo.",
+      "L’identification par photo n’est pas configurée. Ajoutez l’espèce manuellement ; les photos restent sur votre appareil.",
+      "Die Fotoerkennung ist nicht eingerichtet. Gib die Art manuell ein; Fotos bleiben auf deinem Gerät."
+    ],
+    "imperial": [
+      "Usar pulgadas para medir el crecimiento",
+      "Utiliser les pouces pour mesurer la croissance",
+      "Wachstum in Zoll messen"
+    ],
+    "indoor": [
+      "Plantas de interior",
+      "Plantes d’intérieur",
+      "Zimmerpflanzen"
+    ],
+    "insights": [
+      "Estadísticas",
+      "Statistiques",
+      "Auswertung"
+    ],
+    "insights_intro": [
+      "Tus registros de un vistazo. La actividad no demuestra que las plantas estén sanas.",
+      "Vos données en un coup d’œil. L’activité ne prouve pas la bonne santé des plantes.",
+      "Deine Einträge auf einen Blick. Aktivität ist kein Beleg für Pflanzengesundheit."
+    ],
+    "interval_days": [
+      "Intervalo en días (1–3650)",
+      "Intervalle en jours (1–3650)",
+      "Abstand in Tagen (1–3650)"
+    ],
+    "journal": [
+      "Diario",
+      "Carnet",
+      "Pflanzentagebuch"
+    ],
+    "journal_entries": [
+      "Entradas del diario",
+      "Entrées du journal",
+      "Journaleinträge"
+    ],
+    "journal_intro": [
+      "Fotos, observaciones y pequeñas señales de crecimiento.",
+      "Photos, observations et petits signes de croissance.",
+      "Fotos, Beobachtungen und kleine Zeichen des Wachstums."
+    ],
+    "language_notice": [
+      "FloraTend utiliza el idioma de tu dispositivo. Puedes cambiarlo en los ajustes.",
+      "FloraTend utilise la langue de votre appareil. Vous pouvez la modifier dans les paramètres.",
+      "FloraTend verwendet deine Gerätesprache. Du kannst sie in den Einstellungen ändern."
+    ],
+    "language_pending": [
+      "Las traducciones son preliminares y pueden contener errores. Elige un idioma que comprendas bien.",
+      "Les traductions sont préliminaires et peuvent contenir des erreurs. Choisissez une langue que vous comprenez bien.",
+      "Die Übersetzungen sind Vorschauen und können Fehler enthalten. Wähle eine Sprache, die du gut verstehst."
+    ],
+    "leaf_cleaning": [
+      "Limpieza de hojas",
+      "Nettoyage des feuilles",
+      "Blätter reinigen"
+    ],
+    "leaf_count": [
+      "Número de hojas (opcional)",
+      "Nombre de feuilles (facultatif)",
+      "Blattanzahl (optional)"
+    ],
+    "leaves_value": [
+      "Hojas: %1$d",
+      "Feuilles : %1$d",
+      "Blätter: %1$d"
+    ],
+    "light": [
+      "Condiciones de luz",
+      "Conditions de luminosité",
+      "Lichtverhältnisse"
+    ],
+    "listening": [
+      "Escuchando…",
+      "Écoute en cours…",
+      "Ich höre zu…"
+    ],
+    "local_records": [
+      "Guardado en este dispositivo",
+      "Enregistré sur cet appareil",
+      "Auf diesem Gerät gespeichert"
+    ],
+    "location": [
+      "Ubicación",
+      "Emplacement",
+      "Standort"
+    ],
+    "mic_denied": [
+      "Se ha denegado el permiso del micrófono. Puedes escribir una orden.",
+      "L’accès au microphone a été refusé. Vous pouvez saisir une commande.",
+      "Der Mikrofonzugriff wurde abgelehnt. Du kannst stattdessen einen Befehl eingeben."
+    ],
+    "moist": [
+      "Sustrato revisado: húmedo",
+      "Terreau vérifié : humide",
+      "Erde geprüft: feucht"
+    ],
+    "month": [
+      "Próximos 30 días",
+      "Les 30 prochains jours",
+      "Nächste 30 Tage"
+    ],
+    "monthly_care": [
+      "Registros mensuales de cuidados",
+      "Entretiens mensuels",
+      "Monatliche Pflegeeinträge"
+    ],
+    "next_check": [
+      "Próxima revisión: %1$s",
+      "Prochaine vérification : %1$s",
+      "Nächste Kontrolle: %1$s"
+    ],
+    "nickname": [
+      "Apodo de la planta",
+      "Surnom de la plante",
+      "Spitzname der Pflanze"
+    ],
+    "no_entries": [
+      "Empieza una historia de crecimiento",
+      "Commencez une histoire de croissance",
+      "Beginne eine Wachstumsgeschichte"
+    ],
+    "no_entries_body": [
+      "Registra una observación, una medida o una fotografía.",
+      "Enregistrez une observation, une mesure ou une photo.",
+      "Halte eine Beobachtung, einen Messwert oder ein Foto fest."
+    ],
+    "no_tasks": [
+      "Un momento de calma",
+      "Un peu de répit",
+      "Ein wenig Zeit zum Durchatmen"
+    ],
+    "no_tasks_body": [
+      "No hay revisiones en esta vista. Añade un programa o elige un periodo más largo.",
+      "Aucune vérification dans cette vue. Ajoutez un programme ou choisissez une période plus longue.",
+      "Keine Kontrollen in dieser Ansicht. Füge einen Plan hinzu oder wähle einen längeren Zeitraum."
+    ],
+    "notes": [
+      "Notas y observaciones",
+      "Notes et observations",
+      "Notizen und Beobachtungen"
+    ],
+    "onboarding_optional": [
+      "Desde tu jardín y los ajustes puedes añadir tu primera planta, elegir las unidades de medida y activar recordatorios opcionales.",
+      "Depuis votre jardin et les paramètres, vous pouvez ajouter votre première plante, choisir les unités et activer les rappels facultatifs.",
+      "Im Garten und in den Einstellungen kannst du deine erste Pflanze hinzufügen, Maßeinheiten wählen und optionale Erinnerungen aktivieren."
+    ],
+    "open_plant": [
+      "Abrir los detalles de la planta",
+      "Ouvrir les détails de la plante",
+      "Pflanzendetails öffnen"
+    ],
+    "other": [
+      "Otras",
+      "Autres",
+      "Sonstige"
+    ],
+    "outdoor": [
+      "Plantas de exterior",
+      "Plantes d’extérieur",
+      "Freilandpflanzen"
+    ],
+    "pause": [
+      "Pausar",
+      "Mettre en pause",
+      "Pausieren"
+    ],
+    "paused": [
+      "En pausa",
+      "En pause",
+      "Pausiert"
+    ],
+    "pest_check": [
+      "Inspección de plagas",
+      "Inspection des parasites",
+      "Schädlingskontrolle"
+    ],
+    "photo_error": [
+      "No se ha podido abrir esa fotografía. Prueba con otra imagen o aplicación de cámara.",
+      "Impossible d’ouvrir cette photo. Essayez une autre image ou une autre application photo.",
+      "Dieses Foto konnte nicht geöffnet werden. Versuche ein anderes Bild oder eine andere Kamera-App."
+    ],
+    "photo_missing": [
+      "Esta fotografía ya no está disponible.",
+      "Cette photo n’est plus disponible.",
+      "Dieses Foto ist nicht mehr verfügbar."
+    ],
+    "plant_details": [
+      "Detalles de la planta",
+      "Détails de la plante",
+      "Pflanzendetails"
+    ],
+    "plant_photo": [
+      "Fotografía guardada de la planta",
+      "Photo enregistrée de la plante",
+      "Gespeichertes Pflanzenfoto"
+    ],
+    "pot_size": [
+      "Diámetro de la maceta (cm, opcional)",
+      "Diamètre du pot (cm, facultatif)",
+      "Topfdurchmesser (cm, optional)"
+    ],
+    "pot_value": [
+      "Maceta: %1$.1f cm",
+      "Pot : %1$.1f cm",
+      "Topf: %1$.1f cm"
+    ],
+    "premium": [
+      "FloraTend Premium",
+      "FloraTend Premium",
+      "FloraTend Premium"
+    ],
+    "premium_active": [
+      "Premium está activo para esta cuenta de Amazon.",
+      "Premium est activé pour ce compte Amazon.",
+      "Premium ist für dieses Amazon-Konto aktiv."
+    ],
+    "premium_intro": [
+      "Una compra única para tener más de cinco plantas y exportar datos. Amazon proporciona el precio y la disponibilidad en la tienda.",
+      "Un achat unique pour gérer plus de cinq plantes et exporter vos données. Le prix et la disponibilité dans la boutique sont fournis par Amazon.",
+      "Eine einmalige Freischaltung für mehr als fünf Pflanzen und den Datenexport. Preis und Verfügbarkeit werden von Amazon bereitgestellt."
+    ],
+    "privacy_intro": [
+      "No se necesita cuenta. Los registros de plantas y las fotografías permanecen en el almacenamiento privado de la aplicación. Sin publicidad ni análisis de terceros. Amazon gestiona las compras opcionales. Tu proveedor instalado procesa el reconocimiento de voz solo cuando lo solicitas.",
+      "Aucun compte nécessaire. Les données des plantes et les photos restent dans l’espace privé de l’application. Aucune publicité ni analyse par des tiers. Amazon gère les achats facultatifs. La reconnaissance vocale est assurée par votre service installé uniquement à votre demande.",
+      "Kein Konto erforderlich. Pflanzeneinträge und Fotos bleiben im privaten App-Speicher. Keine Werbung und keine Analysedienste Dritter. Amazon wickelt optionale Käufe ab. Die Spracherkennung erfolgt nur auf Anfrage durch deinen installierten Anbieter."
+    ],
+    "pruning": [
+      "Poda",
+      "Taille",
+      "Rückschnitt"
+    ],
+    "push_to_talk": [
+      "Pulsa para hablar",
+      "Appuyer pour parler",
+      "Zum Sprechen drücken"
+    ],
+    "record_care": [
+      "Registrar cuidado",
+      "Enregistrer un entretien",
+      "Pflege eintragen"
+    ],
+    "repotting": [
+      "Trasplante",
+      "Rempotage",
+      "Umtopfen"
+    ],
+    "reschedule": [
+      "Cambiar fecha",
+      "Reprogrammer",
+      "Neu planen"
+    ],
+    "restore": [
+      "Restaurar compras",
+      "Restaurer les achats",
+      "Käufe wiederherstellen"
+    ],
+    "resume": [
+      "Reanudar",
+      "Reprendre",
+      "Fortsetzen"
+    ],
+    "run_command": [
+      "Ejecutar orden",
+      "Exécuter la commande",
+      "Befehl ausführen"
+    ],
+    "save": [
+      "Guardar",
+      "Enregistrer",
+      "Speichern"
+    ],
+    "save_error": [
+      "No se ha podido guardar el registro. Inténtalo de nuevo.",
+      "Impossible d’enregistrer vos données. Réessayez.",
+      "Dein Eintrag konnte nicht gespeichert werden. Bitte versuche es erneut."
+    ],
+    "search": [
+      "Buscar plantas, especies o ubicaciones",
+      "Rechercher des plantes, espèces ou emplacements",
+      "Pflanzen, Arten oder Standorte suchen"
+    ],
+    "settings": [
+      "Ajustes",
+      "Paramètres",
+      "Einstellungen"
+    ],
+    "settings_intro": [
+      "Haz de FloraTend tu hogar.",
+      "Personnalisez FloraTend à votre image.",
+      "Richte FloraTend nach deinen Wünschen ein."
+    ],
+    "skip": [
+      "Omitir por ahora",
+      "Passer pour le moment",
+      "Vorerst überspringen"
+    ],
+    "snooze": [
+      "Posponer hasta mañana",
+      "Reporter à demain",
+      "Auf morgen verschieben"
+    ],
+    "soil_check": [
+      "Revisión de la humedad del sustrato",
+      "Vérification de l’humidité du terreau",
+      "Bodenfeuchte prüfen"
+    ],
+    "soil_type": [
+      "Tipo de sustrato",
+      "Type de terreau",
+      "Erdenart"
+    ],
+    "sort_asc": [
+      "Nombre: A–Z",
+      "Nom : A–Z",
+      "Bezeichnung: A–Z"
+    ],
+    "sort_desc": [
+      "Nombre: Z–A",
+      "Nom : Z–A",
+      "Bezeichnung: Z–A"
+    ],
+    "species": [
+      "Especie (opcional)",
+      "Espèce (facultatif)",
+      "Art (optional)"
+    ],
+    "start_garden": [
+      "Abrir mi jardín",
+      "Ouvrir mon jardin",
+      "Meinen Garten öffnen"
+    ],
+    "store_unavailable": [
+      "Producto de Amazon no disponible",
+      "Produit Amazon indisponible",
+      "Amazon-Produkt nicht verfügbar"
+    ],
+    "succulents": [
+      "Suculentas",
+      "Plantes succulentes",
+      "Sukkulenten"
+    ],
+    "tagline": [
+      "Cada planta merece un poco de atención.",
+      "Chaque plante mérite un peu d’attention.",
+      "Jede Pflanze verdient ein wenig Aufmerksamkeit."
+    ],
+    "take_photo": [
+      "Hacer foto",
+      "Prendre une photo",
+      "Foto aufnehmen"
+    ],
+    "total_plants": [
+      "Plantas en tu colección",
+      "Plantes de votre collection",
+      "Pflanzen in deiner Sammlung"
+    ],
+    "trees": [
+      "Árboles",
+      "Arbres",
+      "Bäume"
+    ],
+    "unlock_price": [
+      "Desbloquear por %1$s",
+      "Débloquer pour %1$s",
+      "Für %1$s freischalten"
+    ],
+    "upcoming": [
+      "Próximas revisiones de cuidados",
+      "Prochaines vérifications d’entretien",
+      "Anstehende Pflegekontrollen"
+    ],
+    "valid_plant": [
+      "Introduce un nombre, una fecha válida y, si lo indicas, un diámetro de maceta positivo.",
+      "Saisissez un nom, une date valide et, si vous le renseignez, un diamètre de pot positif.",
+      "Gib einen Namen, ein gültiges Datum und gegebenenfalls einen positiven Topfdurchmesser ein."
+    ],
+    "voice": [
+      "Voz",
+      "Voix",
+      "Sprache"
+    ],
+    "voice_ambiguous": [
+      "Elige la planta y su programa de cuidados en el calendario. El nombre o el programa no estaba claro.",
+      "Choisissez la plante et son programme d’entretien dans le calendrier. Le nom ou le programme était ambigu.",
+      "Wähle die Pflanze und ihren Pflegeplan im Kalender aus. Der Name oder der Plan war nicht eindeutig."
+    ],
+    "voice_assistant": [
+      "Una voz que ayuda",
+      "Une voix pour vous aider",
+      "Eine hilfreiche Stimme"
+    ],
+    "voice_error": [
+      "No se ha reconocido la voz. Inténtalo de nuevo o escribe la orden.",
+      "La parole n’a pas été reconnue. Réessayez ou saisissez votre commande.",
+      "Die Sprache konnte nicht erkannt werden. Versuche es erneut oder gib deinen Befehl ein."
+    ],
+    "voice_examples": [
+      "Prueba: Añade una planta nueva. ¿Qué plantas necesitan riego hoy? Marca mi Monstera como regada. Muestra mi calendario de cuidados. Lee mis recordatorios. Muestra las plantas del salón.",
+      "Essayez : Ajoute une nouvelle plante. Quelles plantes ont besoin d’arrosage aujourd’hui ? Marque ma Monstera comme arrosée. Affiche mon calendrier d’entretien. Lis mes rappels. Affiche les plantes du salon.",
+      "Probiere: Füge eine neue Pflanze hinzu. Welche Pflanzen brauchen heute Wasser? Markiere meine Monstera als gegossen. Zeige meinen Pflegekalender. Lies meine Erinnerungen vor. Zeige Pflanzen im Wohnzimmer."
+    ],
+    "voice_intro": [
+      "Di una orden, revisa el texto y ejecútala.",
+      "Dictez une commande, vérifiez le texte, puis exécutez-la.",
+      "Sprich einen Befehl, prüfe den Text und führe ihn dann aus."
+    ],
+    "voice_privacy": [
+      "Solo se escucha al pulsar para hablar. El servicio de reconocimiento instalado puede usar una conexión de red. FloraTend no guarda grabaciones de audio sin procesar. Las respuestas habladas dependen de las voces instaladas.",
+      "L’écoute s’active uniquement en appuyant pour parler. Le service de reconnaissance installé peut utiliser le réseau. FloraTend ne conserve pas les enregistrements audio bruts. Les réponses orales dépendent des voix installées.",
+      "Aufnahme nur auf Knopfdruck. Der installierte Erkennungsdienst nutzt möglicherweise eine Netzwerkverbindung. FloraTend speichert keine Rohaufnahmen. Gesprochene Antworten hängen von den installierten Stimmen ab."
+    ],
+    "voice_unavailable": [
+      "El reconocimiento de voz no está disponible en este dispositivo. Escribe una orden abajo o usa los controles de la aplicación.",
+      "La reconnaissance vocale n’est pas disponible sur cet appareil. Saisissez une commande ci-dessous ou utilisez les commandes de l’application.",
+      "Auf diesem Gerät ist keine Spracherkennung verfügbar. Gib unten einen Befehl ein oder nutze die Bedienelemente der App."
+    ],
+    "voice_unknown": [
+      "Orden no reconocida. Prueba uno de los ejemplos de abajo o usa los controles de la aplicación.",
+      "Commande non reconnue. Essayez un des exemples ci-dessous ou utilisez les commandes de l’application.",
+      "Befehl nicht erkannt. Probiere eines der folgenden Beispiele oder nutze die Bedienelemente der App."
+    ],
+    "watered": [
+      "Riego completado",
+      "Arrosage effectué",
+      "Gießen erledigt"
+    ],
+    "watering": [
+      "Revisión del riego",
+      "Vérification de l’arrosage",
+      "Gießen prüfen"
+    ],
+    "week": [
+      "Próximos 7 días",
+      "Les 7 prochains jours",
+      "Nächste 7 Tage"
+    ],
+    "welcome": [
+      "Te damos la bienvenida a FloraTend",
+      "Bienvenue sur FloraTend",
+      "Willkommen bei FloraTend"
+    ],
+    "wet": [
+      "Sustrato revisado: mojado",
+      "Terreau vérifié : détrempé",
+      "Erde geprüft: nass"
+    ],
+    "your_garden": [
+      "Un poco de cuidado. Un hogar más verde.",
+      "Un peu d’attention. Un intérieur plus vert.",
+      "Ein wenig Pflege. Ein grüneres Zuhause."
+    ],
+    "reminder_count": [
+      {
+        "one": "%1$d revisión de plantas pendiente.",
+        "other": "%1$d revisiones de plantas pendientes."
+      },
+      {
+        "one": "%1$d vérification de plante à consulter.",
+        "other": "%1$d vérifications de plantes à consulter."
+      },
+      {
+        "one": "%1$d Pflanzenkontrolle zum Prüfen.",
+        "other": "%1$d Pflanzenkontrollen zum Prüfen."
+      }
+    ],
+    "billing_unconfigured": [
+      "Las compras no estarán disponibles hasta que se complete la configuración de la tienda de Amazon.",
+      "Les achats seront disponibles une fois la configuration de la boutique Amazon terminée.",
+      "Käufe sind erst verfügbar, wenn die Amazon-Store-Einrichtung abgeschlossen ist."
+    ],
+    "billing_environment": [
+      "Las compras de Amazon no están disponibles en este entorno.",
+      "Les achats Amazon ne sont pas disponibles dans cet environnement.",
+      "Amazon-Käufe sind in dieser Umgebung nicht verfügbar."
+    ],
+    "billing_history_loading": [
+      "El historial de compras de Amazon sigue cargándose. Inténtalo de nuevo en unos instantes.",
+      "L’historique des achats Amazon est en cours de chargement. Réessayez dans quelques instants.",
+      "Die Amazon-Kaufhistorie wird noch geladen. Versuche es gleich erneut."
+    ],
+    "billing_waiting": [
+      "Esperando la confirmación de compra de Amazon.",
+      "En attente de la confirmation d’achat Amazon.",
+      "Warten auf die Kaufbestätigung von Amazon."
+    ],
+    "billing_price_available": [
+      "El precio de Amazon está disponible.",
+      "Le prix Amazon est disponible.",
+      "Der Amazon-Preis ist verfügbar."
+    ],
+    "billing_pending": [
+      "La compra está pendiente de un derecho de acceso válido de Amazon.",
+      "L’achat est en attente d’un droit d’accès Amazon valide.",
+      "Für den Kauf wird noch auf eine gültige Amazon-Berechtigung gewartet."
+    ],
+    "billing_canceled": [
+      "Se ha cancelado la compra de Amazon.",
+      "L’achat Amazon a été annulé.",
+      "Der Amazon-Kauf wurde abgebrochen."
+    ],
+    "billing_confirmed": [
+      "Amazon ha confirmado la compra de Premium.",
+      "L’achat Premium a été confirmé par Amazon.",
+      "Der Premium-Kauf wurde von Amazon bestätigt."
+    ],
+    "billing_restoring": [
+      "Restaurando tu compra de Amazon.",
+      "Restauration de votre achat Amazon.",
+      "Dein Amazon-Kauf wird wiederhergestellt."
+    ],
+    "billing_incomplete": [
+      "Amazon no ha completado la compra. No se ha concedido ningún derecho de acceso nuevo.",
+      "Amazon n’a pas finalisé l’achat. Aucun nouveau droit d’accès n’a été accordé.",
+      "Amazon hat den Kauf nicht abgeschlossen. Es wurde keine neue Berechtigung erteilt."
+    ],
+    "billing_restore_failed": [
+      "No se ha podido verificar la restauración de la compra de Amazon. Inténtalo de nuevo cuando tengas conexión.",
+      "La restauration de l’achat Amazon n’a pas pu être vérifiée. Réessayez lorsque vous serez connecté.",
+      "Die Wiederherstellung des Amazon-Kaufs konnte nicht bestätigt werden. Versuche es erneut, wenn eine Verbindung besteht."
+    ],
+    "billing_history_checked": [
+      "Se ha comprobado el historial de compras de Amazon.",
+      "L’historique des achats Amazon a été vérifié.",
+      "Die Amazon-Kaufhistorie wurde geprüft."
+    ],
+    "billing_unavailable": [
+      "Las compras de Amazon no están disponibles. Comprueba la conexión con la tienda e inténtalo de nuevo.",
+      "Les achats Amazon ne sont pas disponibles. Vérifiez votre connexion à la boutique et réessayez.",
+      "Amazon-Käufe sind nicht verfügbar. Prüfe deine Verbindung zum Store und versuche es erneut."
+    ],
+    "collection_count": [
+      {
+        "one": "Tu colección · %1$d planta",
+        "other": "Tu colección · %1$d plantas"
+      },
+      {
+        "one": "Votre collection · %1$d plante",
+        "other": "Votre collection · %1$d plantes"
+      },
+      {
+        "one": "Deine Sammlung · %1$d Pflanze",
+        "other": "Deine Sammlung · %1$d Pflanzen"
+      }
+    ]
+  },
+  "regional_overrides": {
+    "en-US": {
+      "fertilising": "Fertilizing check",
+      "empty_garden_body": "Add your first plant to begin a calmer care routine.",
+      "voice_error": "Speech could not be recognized. Try again or type your command.",
+      "voice_unknown": "Command not recognized. Try one of the examples below, or use the app controls.",
+      "billing_canceled": "Amazon purchase was canceled.",
+      "language_notice": "FloraTend follows your device language. You can change it in settings.",
+      "language_pending": "Translations are previews and may contain mistakes. Choose a language you understand well."
+    },
+    "en-AU": {
+      "language_notice": "FloraTend follows your device language. You can change it in settings.",
+      "language_pending": "Translations are previews and may contain mistakes. Choose a language you understand well.",
+      "voice_unknown": "Command not recognised. Try one of the examples below, or use the app controls."
+    },
+    "es-419": {
+      "add_entry": "Agregar entrada al diario",
+      "add_plant": "Agregar planta",
+      "add_schedule": "Agregar programa de cuidados",
+      "empty_garden_body": "Agrega tu primera planta para empezar una rutina de cuidados más tranquila.",
+      "free_limit": "La colección gratuita admite cinco plantas. Restaura o compra Premium para agregar más.",
+      "identification_unavailable": "La identificación por foto no está configurada. Agrega la especie manualmente; las fotografías permanecen en tu dispositivo.",
+      "settings": "Configuración",
+      "take_photo": "Tomar foto",
+      "voice_examples": "Prueba: Agrega una planta nueva. ¿Qué plantas necesitan riego hoy? Marca mi Monstera como regada. Muestra mi calendario de cuidados. Lee mis recordatorios. Muestra las plantas de la sala.",
+      "no_tasks_body": "No hay revisiones en esta vista. Agrega un programa o elige un periodo más largo.",
+      "language_notice": "FloraTend utiliza el idioma de tu dispositivo. Puedes cambiarlo en la configuración."
+    },
+    "fr-CA": {
+      "backup_unavailable": "La sauvegarde chiffrée et la synchronisation infonuagique ne sont pas disponibles dans cette version préliminaire. La sauvegarde automatique Android est désactivée.",
+      "species": "Espèce (facultative)",
+      "height_cm": "Hauteur (cm, facultative)",
+      "height_in": "Hauteur (pouces, facultative)",
+      "pot_size": "Diamètre du pot (cm, facultatif)",
+      "voice_examples": "Essayez : Ajoute une nouvelle plante. Quelles plantes ont besoin d’arrosage aujourd’hui ? Marque ma Monstera comme arrosée. Affiche mon calendrier d’entretien. Lis mes rappels. Affiche les plantes du salon."
+    }
+  },
+  "resource_validation": [
+    {
+      "locale": "en-US",
+      "resource_count": 165,
+      "exact_keys": true,
+      "placeholder_integrity": "PASS",
+      "plural_keys": "PASS",
+      "path": "app\\src\\main\\res\\values-en-rUS\\strings.xml",
+      "sha256": "f2fe8b1a79b04dd39b7d56336cfba3b434b6f5f26624370a1f98a64dd7cf6e75",
+      "linguistic_review": "pending",
+      "UI_review": "pending"
+    },
+    {
+      "locale": "en-AU",
+      "resource_count": 165,
+      "exact_keys": true,
+      "placeholder_integrity": "PASS",
+      "plural_keys": "PASS",
+      "path": "app\\src\\main\\res\\values-en-rAU\\strings.xml",
+      "sha256": "ad0ca28ccebfaf6831ecd1ab084f8a8ec9e218a1b5eb0a2e02dd701e0d49ad6f",
+      "linguistic_review": "pending",
+      "UI_review": "pending"
+    },
+    {
+      "locale": "es-ES",
+      "resource_count": 165,
+      "exact_keys": true,
+      "placeholder_integrity": "PASS",
+      "plural_keys": "PASS",
+      "path": "app\\src\\main\\res\\values-es-rES\\strings.xml",
+      "sha256": "6c41e6d285b2901813e2aa93fc58e846cba15e04a72dbbbe43555630bec61018",
+      "linguistic_review": "pending",
+      "UI_review": "pending"
+    },
+    {
+      "locale": "es-419",
+      "resource_count": 165,
+      "exact_keys": true,
+      "placeholder_integrity": "PASS",
+      "plural_keys": "PASS",
+      "path": "app\\src\\main\\res\\values-b+es+419\\strings.xml",
+      "sha256": "d60d3cca2f989e3c9fe40e482ad5d8f0b2a977995cc01c7cbaef3528f6579990",
+      "linguistic_review": "pending",
+      "UI_review": "pending"
+    },
+    {
+      "locale": "fr-FR",
+      "resource_count": 165,
+      "exact_keys": true,
+      "placeholder_integrity": "PASS",
+      "plural_keys": "PASS",
+      "path": "app\\src\\main\\res\\values-fr-rFR\\strings.xml",
+      "sha256": "9c5b15d1c150c0c1dbc4e15793569e9a4cfe4e601fb90b707e95702caf3c2c16",
+      "linguistic_review": "pending",
+      "UI_review": "pending"
+    },
+    {
+      "locale": "fr-CA",
+      "resource_count": 165,
+      "exact_keys": true,
+      "placeholder_integrity": "PASS",
+      "plural_keys": "PASS",
+      "path": "app\\src\\main\\res\\values-fr-rCA\\strings.xml",
+      "sha256": "042aeab2277d1dc2c95846047ea8af2290225e5daaf3be65e22f502c262dcfbd",
+      "linguistic_review": "pending",
+      "UI_review": "pending"
+    },
+    {
+      "locale": "de-DE",
+      "resource_count": 165,
+      "exact_keys": true,
+      "placeholder_integrity": "PASS",
+      "plural_keys": "PASS",
+      "path": "app\\src\\main\\res\\values-de-rDE\\strings.xml",
+      "sha256": "d607b68832ce7d3cec40f7d97b74ed7beff698cbd3f996f3bd131fba07122403",
+      "linguistic_review": "pending",
+      "UI_review": "pending"
+    }
+  ],
+  "source_sha256_at_generation": "28a7cef53a4a952d5bb41c002d44451828b9c2e20857278ff3740de9029a0241",
+  "voice_status": "assistant-generated dictionaries; parsing, speech recognition, pronunciation and physical-device tests pending",
+  "coordinated_source_meaning_updates": [
+    "language_notice",
+    "language_pending",
+    "voice_unknown"
+  ],
+  "selfcheck_execution": "2026-10-28: XML parse, exact 165 source keys, all source plural forms and positional placeholders verified for all seven locales."
+}

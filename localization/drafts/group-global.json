@@ -1,0 +1,82 @@
+{
+  "authorship": "assistant_generated_translation_drafts",
+  "provider": "none; no DeepL or other translation API calls",
+  "status": "pending_human_linguistic_and_UI_review",
+  "release_approved": false,
+  "source_file": "app/src/main/res/values/strings.xml",
+  "source_sha256": "28a7cef53a4a952d5bb41c002d44451828b9c2e20857278ff3740de9029a0241",
+  "source_resource_count": 165,
+  "locales": [
+    {
+      "locale": "ja-JP",
+      "android_folder": "values-ja-rJP",
+      "direction": "ltr",
+      "resource_file": "app/src/main/res/values-ja-rJP/strings.xml",
+      "resource_count": 165,
+      "xml_and_placeholder_validation": "PASS",
+      "voice_dictionary": "localization/voice/ja-JP.json",
+      "voice_schema_validation": "PASS",
+      "review_status": "assistant_draft_pending_human_linguistic_and_UI_review",
+      "human_reviewed": false,
+      "device_UI_reviewed": false,
+      "spoken_command_tested": false
+    },
+    {
+      "locale": "hi-IN",
+      "android_folder": "values-hi-rIN",
+      "direction": "ltr",
+      "resource_file": "app/src/main/res/values-hi-rIN/strings.xml",
+      "resource_count": 165,
+      "xml_and_placeholder_validation": "PASS",
+      "voice_dictionary": "localization/voice/hi-IN.json",
+      "voice_schema_validation": "PASS",
+      "review_status": "assistant_draft_pending_human_linguistic_and_UI_review",
+      "human_reviewed": false,
+      "device_UI_reviewed": false,
+      "spoken_command_tested": false
+    },
+    {
+      "locale": "ar",
+      "android_folder": "values-ar",
+      "direction": "rtl",
+      "resource_file": "app/src/main/res/values-ar/strings.xml",
+      "resource_count": 165,
+      "xml_and_placeholder_validation": "PASS",
+      "voice_dictionary": "localization/voice/ar.json",
+      "voice_schema_validation": "PASS",
+      "review_status": "assistant_draft_pending_human_linguistic_and_UI_review",
+      "human_reviewed": false,
+      "device_UI_reviewed": false,
+      "spoken_command_tested": false
+    },
+    {
+      "locale": "tr-TR",
+      "android_folder": "values-tr-rTR",
+      "direction": "ltr",
+      "resource_file": "app/src/main/res/values-tr-rTR/strings.xml",
+      "resource_count": 165,
+      "xml_and_placeholder_validation": "PASS",
+      "voice_dictionary": "localization/voice/tr-TR.json",
+      "voice_schema_validation": "PASS",
+      "review_status": "assistant_draft_pending_human_linguistic_and_UI_review",
+      "human_reviewed": false,
+      "device_UI_reviewed": false,
+      "spoken_command_tested": false
+    },
+    {
+      "locale": "id-ID",
+      "android_folder": "values-in-rID",
+      "direction": "ltr",
+      "resource_file": "app/src/main/res/values-in-rID/strings.xml",
+      "resource_count": 165,
+      "xml_and_placeholder_validation": "PASS",
+      "voice_dictionary": "localization/voice/id-ID.json",
+      "voice_schema_validation": "PASS",
+      "review_status": "assistant_draft_pending_human_linguistic_and_UI_review",
+      "human_reviewed": false,
+      "device_UI_reviewed": false,
+      "spoken_command_tested": false
+    }
+  ],
+  "validation_errors": []
+}

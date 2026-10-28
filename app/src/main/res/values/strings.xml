@@ -68,8 +68,8 @@
   <string name="journal">Journal</string>
   <string name="journal_entries">Journal entries</string>
   <string name="journal_intro">Photos, observations and small signs of growth.</string>
-  <string name="language_notice">FloraTend follows your device language when an approved translation is available.</string>
-  <string name="language_pending">English preview. More languages are not yet available.</string>
+  <string name="language_notice">FloraTend follows your device language. You can change it in settings.</string>
+  <string name="language_pending">Translations are previews and may contain mistakes. Choose a language you understand well.</string>
   <string name="leaf_cleaning">Leaf cleaning</string>
   <string name="leaf_count">Leaf count (optional)</string>
   <string name="leaves_value">Leaves: %1$d</string>
@@ -143,7 +143,7 @@
   <string name="voice_intro">Speak a command, review the words, then run it.</string>
   <string name="voice_privacy">Push to talk only. Your installed recognition service may use a network connection. FloraTend does not save raw recordings. Spoken replies depend on installed voices.</string>
   <string name="voice_unavailable">Speech recognition is unavailable on this device. Type a command below or use the app controls.</string>
-  <string name="voice_unknown">Command not recognised. Try one of the examples below. English commands are currently available for testing.</string>
+  <string name="voice_unknown">Command not recognised. Try one of the examples below, or use the app controls.</string>
   <string name="watered">Watering completed</string>
   <string name="watering">Watering check</string>
   <string name="week">Next 7 days</string>
@@ -167,5 +167,11 @@
   <string name="billing_restore_failed">Amazon purchase restoration could not be verified. Try again when connected.</string>
   <string name="billing_history_checked">Amazon purchase history checked.</string>
   <string name="billing_unavailable">Amazon purchasing is unavailable. Check your store connection and try again.</string>
-  <plurals name="collection_count"><item quantity="one">Your collection · %1$d plant</item><item quantity="other">Your collection · %1$d plants</item></plurals>
+  <plurals name="collection_count">
+    <item quantity="one">Your collection · %1$d plant</item>
+    <item quantity="other">Your collection · %1$d plants</item>
+  </plurals>
+  <string name="language">Language</string>
+  <string name="system_language">Device language</string>
+  <string name="voice_output_unavailable">No installed voice supports this language. Written feedback is still available.</string>
 </resources>

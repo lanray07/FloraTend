@@ -19,8 +19,8 @@ class PlantViewModel(application: Application) : AndroidViewModel(application) {
     fun save(plant: Plant, done: () -> Unit) = viewModelScope.launch {
         runCatching {
             if (dao.savePlantLimited(plant, premium.value)) done()
-            else error.value = app.getString(R.string.free_limit)
-        }.onFailure { error.value = app.getString(R.string.save_error) }
+            else error.value = AppLocales.wrap(app).getString(R.string.free_limit)
+        }.onFailure { error.value = AppLocales.wrap(app).getString(R.string.save_error) }
     }
     fun delete(plant: Plant) = viewModelScope.launch { dao.delete(plant); Reminders.refresh(app) }
     fun schedule(schedule: CareSchedule) = viewModelScope.launch { dao.save(schedule); Reminders.refresh(app) }

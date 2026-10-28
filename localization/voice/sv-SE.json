@@ -1,0 +1,31 @@
+{
+  "add": [
+    "lägg till en ny växt",
+    "lägg till en växt"
+  ],
+  "due": [
+    "vilka växter behöver vatten idag",
+    "vilka växter ska jag kontrollera idag"
+  ],
+  "calendar": [
+    "visa min skötselkalender",
+    "öppna min skötselkalender"
+  ],
+  "read": [
+    "läs mina påminnelser",
+    "läs upp mina påminnelser"
+  ],
+  "water_prefix": [
+    "markera min ",
+    "markera mitt ",
+    "markera "
+  ],
+  "water_suffix": [
+    " som vattnad",
+    " som vattnat"
+  ],
+  "location_prefix": [
+    "visa växter i ",
+    "visa växterna i "
+  ]
+}

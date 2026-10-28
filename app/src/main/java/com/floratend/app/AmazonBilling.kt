@@ -16,7 +16,7 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main.immediate)
     private val cache = app.getSharedPreferences("amazon_entitlement", Context.MODE_PRIVATE)
     private val mutablePrice = MutableStateFlow<String?>(null)
-    private val mutableMessage = MutableStateFlow(app.getString(R.string.billing_unconfigured))
+    private val mutableMessage = MutableStateFlow(AppLocales.wrap(app).getString(R.string.billing_unconfigured))
     private val mutableAvailable = MutableStateFlow(false)
     val price: StateFlow<String?> = mutablePrice
     val message: StateFlow<String> = mutableMessage
@@ -46,7 +46,7 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
                 scope.launch {
                     if (!allowedMode()) {
                         mutableAvailable.value = false
-                        mutableMessage.value = app.getString(R.string.billing_environment)
+                        mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_environment)
                     } else refresh()
                 }
             }
@@ -60,7 +60,7 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
 
     /** Called from Activity.onResume; retains a verified cached entitlement while offline. */
     fun refresh() {
-        if (!registered || userRequest != null) return
+        if (!registered) { mutableMessage.value=AppLocales.wrap(app).getString(R.string.billing_unconfigured);return };if (userRequest != null) return
         mutableAvailable.value = false
         mutablePrice.value = null
         runCatching { userRequest = PurchasingService.getUserData() }.onFailure { unavailable() }
@@ -72,10 +72,10 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
             unavailable(); return
         }
         if (purchases.isNotEmpty() || updatesRequest != null) {
-            mutableMessage.value = app.getString(R.string.billing_history_loading)
+            mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_history_loading)
             return
         }
-        mutableMessage.value = app.getString(R.string.billing_waiting)
+        mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_waiting)
         runCatching { purchases[PurchasingService.purchase(SKU)] = owner }.onFailure { unavailable() }
     }
 
@@ -122,7 +122,7 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
             product?.productType == ProductType.ENTITLED && product.price.isNotBlank() && allowedMode()) {
             mutablePrice.value = product.price
             mutableAvailable.value = true
-            mutableMessage.value = app.getString(R.string.billing_price_available)
+            mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_price_available)
         } else unavailable()
     } }
 
@@ -133,17 +133,17 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
             PurchaseResponse.RequestStatus.SUCCESSFUL -> {
                 val receipt = response.receipt
                 if (!matches(receipt) || receipt.isDeferred) {
-                    mutableMessage.value = app.getString(R.string.billing_pending)
+                    mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_pending)
                     return@launch
                 }
                 persist(!receipt.isCanceled, receipt)
-                mutableMessage.value = if (receipt.isCanceled) app.getString(R.string.billing_canceled) else app.getString(R.string.billing_confirmed)
+                mutableMessage.value = if (receipt.isCanceled) AppLocales.wrap(app).getString(R.string.billing_canceled) else AppLocales.wrap(app).getString(R.string.billing_confirmed)
             }
             PurchaseResponse.RequestStatus.ALREADY_PURCHASED -> {
-                mutableMessage.value = app.getString(R.string.billing_restoring)
+                mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_restoring)
                 restore()
             }
-            else -> mutableMessage.value = app.getString(R.string.billing_incomplete)
+            else -> mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_incomplete)
         }
     } }
 
@@ -152,7 +152,7 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
         updatesRequest = null
         if (response.requestStatus != PurchaseUpdatesResponse.RequestStatus.SUCCESSFUL ||
             response.userData?.userId != updatesUser || updatesUser != user || !allowedMode()) {
-            mutableMessage.value = app.getString(R.string.billing_restore_failed)
+            mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_restore_failed)
             return@launch
         }
         for (receipt in response.receipts.orEmpty()) {
@@ -172,7 +172,7 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
                 persist(!receipt.isCanceled, receipt)
             } else if (fullHistory && receipt == null) persist(false, null)
             if (restoreRequested) startUpdates(true)
-            mutableMessage.value = app.getString(R.string.billing_history_checked)
+            mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_history_checked)
         }
     } }
 
@@ -193,7 +193,7 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
     private fun unavailable() {
         mutableAvailable.value = false
         mutablePrice.value = null
-        mutableMessage.value = app.getString(R.string.billing_unavailable)
+        mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_unavailable)
     }
 }
 

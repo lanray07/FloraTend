@@ -1,0 +1,5 @@
+ja-JP: 165 resources emitted; XML, placeholders, protected terms and dictionary schema PASS; human/UI/spoken review PENDING
+hi-IN: 165 resources emitted; XML, placeholders, protected terms and dictionary schema PASS; human/UI/spoken review PENDING
+ar: 165 resources emitted; XML, placeholders, protected terms and dictionary schema PASS; human/UI/spoken review PENDING
+tr-TR: 165 resources emitted; XML, placeholders, protected terms and dictionary schema PASS; human/UI/spoken review PENDING
+id-ID: 165 resources emitted; XML, placeholders, protected terms and dictionary schema PASS; human/UI/spoken review PENDING

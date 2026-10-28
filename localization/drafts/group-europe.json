@@ -1,0 +1,108 @@
+{
+  "created": "2026-10-28",
+  "provenance": "assistant-generated from own linguistic ability",
+  "translation_api_used": false,
+  "provider": "none; not DeepL",
+  "release_approved": false,
+  "review_status": "pending_human_review",
+  "source_sha256": "28a7cef53a4a952d5bb41c002d44451828b9c2e20857278ff3740de9029a0241",
+  "protected_terms": [
+    "FloraTend",
+    "FloraTend Premium",
+    "Premium",
+    "Amazon",
+    "Android",
+    "CSV",
+    "JSON",
+    "Monstera",
+    "cm",
+    "YYYY-MM-DD"
+  ],
+  "source_meanings_coordinated_with_root": [
+    "language_notice",
+    "language_pending",
+    "voice_unknown"
+  ],
+  "editable_draft": "localization/drafts/group-europe.tsv",
+  "reproduction": "python localization/drafts/build-europe.py",
+  "results": [
+    {
+      "locale": "it-IT",
+      "resource_file": "app/src/main/res/values-it-rIT/strings.xml",
+      "strings": 163,
+      "plurals": 2,
+      "missing_current_source_keys": [],
+      "xml_parse": "PASS",
+      "placeholder_counts": "PASS",
+      "human_review": "PENDING",
+      "device_voice_test": "NOT TESTED",
+      "voice_dictionary": "localization/voice/it-IT.json"
+    },
+    {
+      "locale": "pt-BR",
+      "resource_file": "app/src/main/res/values-pt-rBR/strings.xml",
+      "strings": 163,
+      "plurals": 2,
+      "missing_current_source_keys": [],
+      "xml_parse": "PASS",
+      "placeholder_counts": "PASS",
+      "human_review": "PENDING",
+      "device_voice_test": "NOT TESTED",
+      "voice_dictionary": "localization/voice/pt-BR.json"
+    },
+    {
+      "locale": "pt-PT",
+      "resource_file": "app/src/main/res/values-pt-rPT/strings.xml",
+      "strings": 163,
+      "plurals": 2,
+      "missing_current_source_keys": [],
+      "xml_parse": "PASS",
+      "placeholder_counts": "PASS",
+      "human_review": "PENDING",
+      "device_voice_test": "NOT TESTED",
+      "voice_dictionary": "localization/voice/pt-PT.json"
+    },
+    {
+      "locale": "nl-NL",
+      "resource_file": "app/src/main/res/values-nl-rNL/strings.xml",
+      "strings": 163,
+      "plurals": 2,
+      "missing_current_source_keys": [],
+      "xml_parse": "PASS",
+      "placeholder_counts": "PASS",
+      "human_review": "PENDING",
+      "device_voice_test": "NOT TESTED",
+      "voice_dictionary": "localization/voice/nl-NL.json"
+    },
+    {
+      "locale": "pl-PL",
+      "resource_file": "app/src/main/res/values-pl-rPL/strings.xml",
+      "strings": 163,
+      "plurals": 2,
+      "missing_current_source_keys": [],
+      "xml_parse": "PASS",
+      "placeholder_counts": "PASS",
+      "human_review": "PENDING",
+      "device_voice_test": "NOT TESTED",
+      "voice_dictionary": "localization/voice/pl-PL.json"
+    },
+    {
+      "locale": "sv-SE",
+      "resource_file": "app/src/main/res/values-sv-rSE/strings.xml",
+      "strings": 163,
+      "plurals": 2,
+      "missing_current_source_keys": [],
+      "xml_parse": "PASS",
+      "placeholder_counts": "PASS",
+      "human_review": "PENDING",
+      "device_voice_test": "NOT TESTED",
+      "voice_dictionary": "localization/voice/sv-SE.json"
+    }
+  ],
+  "limits": [
+    "XML and placeholder validation do not establish linguistic approval.",
+    "All six locales require native-speaker human review and rendered layout checks.",
+    "All voice locales require actual speech-engine and TTS verification.",
+    "Voice examples preserve stored plant nicknames; inflected nicknames may require touch selection."
+  ]
+}

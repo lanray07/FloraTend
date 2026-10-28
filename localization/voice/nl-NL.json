@@ -1,0 +1,32 @@
+{
+  "add": [
+    "voeg een nieuwe plant toe",
+    "voeg een plant toe",
+    "plant toevoegen"
+  ],
+  "due": [
+    "welke planten hebben vandaag water nodig",
+    "welke planten moet ik vandaag controleren"
+  ],
+  "calendar": [
+    "toon mijn verzorgingskalender",
+    "open mijn verzorgingskalender"
+  ],
+  "read": [
+    "lees mijn herinneringen",
+    "lees mijn herinneringen voor"
+  ],
+  "water_prefix": [
+    "markeer mijn ",
+    "markeer "
+  ],
+  "water_suffix": [
+    " als bewaterd",
+    " als water gegeven"
+  ],
+  "location_prefix": [
+    "toon planten in de ",
+    "toon planten in het ",
+    "toon planten in "
+  ]
+}

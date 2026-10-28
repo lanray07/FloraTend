@@ -1,0 +1,15 @@
+{
+  "locale": "sv-SE",
+  "review_status": "draft_pending_human_review",
+  "display_title": "FloraTend - Växtskötsel och påminnelser om vattning",
+  "short_description": "Ordna dina växter, planera skötselkontroller och anteckna tillväxt. Spara uppgifter och foton på enheten utan krav på konto. Påminnelserna uppmanar dig att kontrollera förhållandena innan du bestämmer om du ska vattna.",
+  "long_description": "Varje växt förtjänar lite omsorg.\n\nFloraTend samlar dina växter och din skötselrutin på ett ställe. Spara smeknamn, art, plats och personliga anteckningar för varje växt. Lägg till egna foton och hitta uppgifter genom att söka eller filtrera samlingen.\n\nPlanera påminnelser om att kontrollera jorden eller skapa scheman för gödsling, beskärning, omplantering och annan skötsel. Registrera utförd skötsel, skjut upp en kontroll eller pausa ett schema när rutinen förändras. En påminnelse uppmanar dig att undersöka växten, men garanterar inte att den behöver vatten.\n\nAnvänd tillväxtdagboken för daterade anteckningar, foton, höjdmått och antal blad. Det är dina observationer som bildar historiken: FloraTend hittar inte på tillväxtmått och ställer inga diagnoser om växters hälsa.\n\nGrundläggande växtuppgifter, sparade foton, skötselscheman och dagboksanteckningar lagras lokalt. Inget konto krävs för dessa grundfunktioner.\n\nTextkommandon ger ytterligare ett sätt att navigera och registrera skötsel. Talaktivering med knapptryck och talade svar beror på kompatibla taltjänster och språk som är installerade på enheten. Om taligenkänning saknas kan du använda skärmens kontroller eller skriva ett kommando. Taligenkänning kan kräva en nätverksanslutning.\n\nDen kostnadsfria samlingen rymmer upp till fem växter.\n\nFloraTend erbjuder allmänna verktyg för organisering och information. Växters behov varierar med art och förhållanden. Vid ihållande eller allvarliga problem bör du söka lämpliga råd från en växtexpert.",
+  "feature_bullets": [
+    "Samla växtnamn, platser, foton och personliga anteckningar.",
+    "Planera skötselkontroller och registrera din utförda skötsel.",
+    "Spara daterade tillväxtanteckningar, höjdmått och bladobservationer.",
+    "Öppna grundläggande lokala uppgifter utan krav på konto.",
+    "Använd skärmens kontroller och textkommandon; valfria talfunktioner beror på enheten."
+  ],
+  "keywords": "växtskötsel, påminnelse om vattning, krukväxter, skötselkalender, tillväxtdagbok växter"
+}

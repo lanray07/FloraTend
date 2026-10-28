@@ -1,0 +1,15 @@
+{
+  "locale": "de-DE",
+  "review_status": "draft_pending_human_review",
+  "display_title": "FloraTend - Pflanzenpflege & Gießen",
+  "short_description": "Organisiere deine Pflanzen, plane Pflegekontrollen und halte ihr Wachstum fest. Speichere die grundlegenden Einträge und Fotos auf deinem Gerät, ohne ein Konto anzulegen. Gießerinnerungen helfen dir, die Bedingungen zu prüfen, bevor du über das Gießen entscheidest.",
+  "long_description": "Jede Pflanze verdient ein wenig Aufmerksamkeit.\n\nFloraTend bringt deine Pflanzensammlung und deine Pflegeroutine zusammen. Speichere für jede Pflanze einen Spitznamen, die Art, den Standort und persönliche Notizen. Füge eigene Fotos hinzu und finde Einträge mithilfe von Suche und Filtern.\n\nPlane Erinnerungen zur Kontrolle der Erde oder lege Pläne für Düngung, Rückschnitt, Umtopfen und andere Pflegeaufgaben an. Trage erledigte Pflege ein, verschiebe eine Kontrolle oder pausiere einen Plan, wenn sich deine Routine ändert. Eine Erinnerung ist ein Anlass, die Pflanze zu prüfen, und keine Garantie dafür, dass sie Wasser benötigt.\n\nNutze das Pflanzentagebuch für datierte Notizen, Fotos, Höhenmessungen und Blattzählungen. Der Verlauf beruht auf deinen Beobachtungen: FloraTend erfindet keine Wachstumsmessungen und stellt keine Diagnosen zur Pflanzengesundheit.\n\nGrundlegende Pflanzeneinträge, gespeicherte Fotos, Pflegepläne und Tagebuchnotizen werden lokal gespeichert. Für diese Kernfunktionen ist kein Konto erforderlich.\n\nTextbefehle bieten eine weitere Möglichkeit, durch die App zu navigieren und Pflege einzutragen. Sprechen auf Knopfdruck und gesprochene Antworten hängen von kompatiblen Sprachdiensten und installierten Sprachen auf deinem Gerät ab. Ist keine Spracherkennung verfügbar, nutze die Touch-Bedienung oder gib einen Befehl ein. Die Spracherkennung kann eine Netzwerkverbindung benötigen.\n\nDie kostenlose Sammlung bietet Platz für bis zu fünf Pflanzen.\n\nFloraTend bietet allgemeine Hilfen zur Organisation und Information. Pflanzenbedürfnisse unterscheiden sich je nach Art und Bedingungen. Hole bei anhaltenden oder schweren Pflanzenproblemen geeigneten gärtnerischen Rat ein.",
+  "feature_bullets": [
+    "Bewahre Pflanzennamen, Standorte, Fotos und persönliche Notizen an einem Ort auf.",
+    "Plane Pflegekontrollen und halte bereits erledigte Pflege fest.",
+    "Speichere datierte Wachstumsnotizen, Höhenmessungen und Blattbeobachtungen.",
+    "Greife ohne erforderliches Konto auf lokal gespeicherte Kerndaten zu.",
+    "Nutze Touch-Bedienung und Textbefehle; optionale Sprache hängt vom Gerät ab."
+  ],
+  "keywords": "Pflanzenpflege, Gießerinnerung, Zimmerpflanzen verwalten, Pflegekalender, Pflanzentagebuch"
+}

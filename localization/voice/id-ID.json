@@ -1,0 +1,10 @@
+{
+  "add": ["Tambahkan tanaman baru", "Tambah tanaman baru", "Tambah tanaman"],
+  "due": ["Tanaman mana yang perlu diperiksa untuk penyiraman hari ini", "Tanaman mana yang perlu disiram hari ini", "Tampilkan pemeriksaan penyiraman hari ini"],
+  "calendar": ["Tampilkan kalender perawatan saya", "Tampilkan kalender perawatan tanaman saya", "Tampilkan kalender perawatan"],
+  "read": ["Bacakan pengingat saya", "Baca pengingat saya", "Bacakan pengingat perawatan saya"],
+  "water_prefix": ["Tandai ", "Tandai tanaman "],
+  "water_suffix": [" sudah disiram", " telah disiram"],
+  "location_prefix": ["Tampilkan tanaman di ", "Tunjukkan tanaman di "],
+  "location_suffix": [""]
+}

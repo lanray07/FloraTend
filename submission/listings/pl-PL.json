@@ -1,0 +1,15 @@
+{
+  "locale": "pl-PL",
+  "review_status": "draft_pending_human_review",
+  "display_title": "FloraTend - Pielęgnacja roślin i przypomnienia o podlewaniu",
+  "short_description": "Uporządkuj rośliny, zaplanuj kontrole pielęgnacji i zapisuj obserwacje wzrostu. Przechowuj dane i zdjęcia na urządzeniu bez obowiązkowego konta. Przypomnienia zachęcają do sprawdzenia warunków przed podjęciem decyzji o podlewaniu.",
+  "long_description": "Każda roślina zasługuje na odrobinę uwagi.\n\nFloraTend łączy Twoją kolekcję roślin z codzienną pielęgnacją. Zapisz nazwę własną, gatunek, lokalizację i osobiste notatki dla każdej rośliny. Dodawaj własne zdjęcia i znajduj dane dzięki wyszukiwaniu lub filtrowaniu kolekcji.\n\nZaplanuj przypomnienia o sprawdzaniu podłoża lub utwórz harmonogramy nawożenia, przycinania, przesadzania i innych czynności. Zapisuj wykonaną pielęgnację, odkładaj kontrole lub wstrzymuj harmonogramy, gdy zmieni się Twoja rutyna. Przypomnienie zachęca do obejrzenia rośliny, a nie gwarantuje, że potrzebuje ona wody.\n\nDziennik wzrostu służy do zapisywania datowanych notatek, zdjęć, pomiarów wysokości i liczby liści. Historia powstaje na podstawie Twoich obserwacji: FloraTend nie wymyśla pomiarów wzrostu ani nie diagnozuje zdrowia roślin.\n\nPodstawowe dane roślin, zapisane zdjęcia, harmonogramy pielęgnacji i notatki z dziennika są przechowywane lokalnie. Korzystanie z tych podstawowych funkcji nie wymaga konta.\n\nPolecenia tekstowe to dodatkowy sposób nawigowania i zapisywania pielęgnacji. Wprowadzanie mowy po naciśnięciu przycisku i odpowiedzi głosowe zależą od zgodnych usług głosowych oraz języków zainstalowanych na urządzeniu. Jeśli rozpoznawanie mowy jest niedostępne, użyj przycisków na ekranie lub wpisz polecenie. Rozpoznawanie mowy może wymagać połączenia z siecią.\n\nBezpłatna kolekcja mieści do pięciu roślin.\n\nFloraTend udostępnia ogólne narzędzia organizacyjne i edukacyjne. Potrzeby roślin zależą od gatunku i warunków. Przy utrzymujących się lub poważnych problemach skorzystaj z odpowiedniej porady specjalisty ogrodnictwa.",
+  "feature_bullets": [
+    "Przechowuj razem nazwy roślin, lokalizacje, zdjęcia i osobiste notatki.",
+    "Planuj kontrole i zapisuj historię wykonanej pielęgnacji.",
+    "Zapisuj datowane notatki o wzroście, pomiary wysokości i obserwacje liści.",
+    "Korzystaj z podstawowych danych lokalnych bez obowiązkowego konta.",
+    "Używaj przycisków i poleceń tekstowych; opcjonalna obsługa głosu zależy od urządzenia."
+  ],
+  "keywords": "pielęgnacja roślin, przypomnienie o podlewaniu, rośliny domowe, harmonogram pielęgnacji, dziennik wzrostu roślin"
+}
