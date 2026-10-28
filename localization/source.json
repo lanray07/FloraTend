@@ -1,0 +1,915 @@
+{
+  "acquired": {
+    "type": "string",
+    "values": {
+      "value": "Acquired date (YYYY-MM-DD)"
+    }
+  },
+  "acquired_value": {
+    "type": "string",
+    "values": {
+      "value": "Acquired: %1$s"
+    }
+  },
+  "add_entry": {
+    "type": "string",
+    "values": {
+      "value": "Add journal entry"
+    }
+  },
+  "add_plant": {
+    "type": "string",
+    "values": {
+      "value": "Add plant"
+    }
+  },
+  "add_schedule": {
+    "type": "string",
+    "values": {
+      "value": "Add care schedule"
+    }
+  },
+  "all": {
+    "type": "string",
+    "values": {
+      "value": "All"
+    }
+  },
+  "app_name": {
+    "type": "string",
+    "values": {
+      "value": "FloraTend"
+    }
+  },
+  "attention": {
+    "type": "string",
+    "values": {
+      "value": "A little attention needed"
+    }
+  },
+  "backup_unavailable": {
+    "type": "string",
+    "values": {
+      "value": "Encrypted backup and cloud sync are not available in this preview. Android automatic backup is disabled."
+    }
+  },
+  "beginner": {
+    "type": "string",
+    "values": {
+      "value": "Just getting started"
+    }
+  },
+  "cacti": {
+    "type": "string",
+    "values": {
+      "value": "Cacti"
+    }
+  },
+  "calendar": {
+    "type": "string",
+    "values": {
+      "value": "Calendar"
+    }
+  },
+  "cancel": {
+    "type": "string",
+    "values": {
+      "value": "Cancel"
+    }
+  },
+  "care_calendar": {
+    "type": "string",
+    "values": {
+      "value": "Your care calendar"
+    }
+  },
+  "care_reminders": {
+    "type": "string",
+    "values": {
+      "value": "Care check reminders"
+    }
+  },
+  "care_saved": {
+    "type": "string",
+    "values": {
+      "value": "Your care record has been saved."
+    }
+  },
+  "check_first": {
+    "type": "string",
+    "values": {
+      "value": "A reminder to check, not an instruction to water. Check soil moisture, drainage and your plant’s condition first."
+    }
+  },
+  "choose_photo": {
+    "type": "string",
+    "values": {
+      "value": "Choose photo"
+    }
+  },
+  "close": {
+    "type": "string",
+    "values": {
+      "value": "Close"
+    }
+  },
+  "collection_breakdown": {
+    "type": "string",
+    "values": {
+      "value": "Collection breakdown"
+    }
+  },
+  "collection_count": {
+    "type": "string",
+    "values": {
+      "value": "Your collection · %1$d plants"
+    }
+  },
+  "command": {
+    "type": "string",
+    "values": {
+      "value": "Review or type a command"
+    }
+  },
+  "comparison": {
+    "type": "string",
+    "values": {
+      "value": "First and latest saved photographs"
+    }
+  },
+  "completed_tasks": {
+    "type": "string",
+    "values": {
+      "value": "Care records saved"
+    }
+  },
+  "confirm": {
+    "type": "string",
+    "values": {
+      "value": "Confirm"
+    }
+  },
+  "confirm_water": {
+    "type": "string",
+    "values": {
+      "value": "Record watering as completed?"
+    }
+  },
+  "continue_label": {
+    "type": "string",
+    "values": {
+      "value": "Continue"
+    }
+  },
+  "custom_care": {
+    "type": "string",
+    "values": {
+      "value": "Custom care"
+    }
+  },
+  "dark_theme": {
+    "type": "string",
+    "values": {
+      "value": "Dark theme"
+    }
+  },
+  "date_iso": {
+    "type": "string",
+    "values": {
+      "value": "Date (YYYY-MM-DD)"
+    }
+  },
+  "day": {
+    "type": "string",
+    "values": {
+      "value": "Today"
+    }
+  },
+  "delete": {
+    "type": "string",
+    "values": {
+      "value": "Delete"
+    }
+  },
+  "delete_all": {
+    "type": "string",
+    "values": {
+      "value": "Delete all plant data"
+    }
+  },
+  "delete_entry": {
+    "type": "string",
+    "values": {
+      "value": "Delete this journal entry?"
+    }
+  },
+  "delete_plant": {
+    "type": "string",
+    "values": {
+      "value": "Delete this plant?"
+    }
+  },
+  "delete_warning": {
+    "type": "string",
+    "values": {
+      "value": "This permanently removes the selected records. This cannot be undone."
+    }
+  },
+  "done": {
+    "type": "string",
+    "values": {
+      "value": "Care completed"
+    }
+  },
+  "dry": {
+    "type": "string",
+    "values": {
+      "value": "Soil checked: dry"
+    }
+  },
+  "duplicate": {
+    "type": "string",
+    "values": {
+      "value": "Duplicate plant"
+    }
+  },
+  "edit": {
+    "type": "string",
+    "values": {
+      "value": "Edit"
+    }
+  },
+  "empty_garden": {
+    "type": "string",
+    "values": {
+      "value": "Make room for something green"
+    }
+  },
+  "empty_garden_body": {
+    "type": "string",
+    "values": {
+      "value": "Add your first plant to begin a calmer care routine."
+    }
+  },
+  "experience": {
+    "type": "string",
+    "values": {
+      "value": "How familiar are you with plant care?"
+    }
+  },
+  "experienced": {
+    "type": "string",
+    "values": {
+      "value": "An experienced grower"
+    }
+  },
+  "export_csv": {
+    "type": "string",
+    "values": {
+      "value": "Export plants CSV"
+    }
+  },
+  "export_error": {
+    "type": "string",
+    "values": {
+      "value": "Export could not be saved. Choose another destination."
+    }
+  },
+  "export_json": {
+    "type": "string",
+    "values": {
+      "value": "Export JSON"
+    }
+  },
+  "export_notice": {
+    "type": "string",
+    "values": {
+      "value": "Exports contain personal notes. Choose a destination you trust. JSON includes records but does not embed photographs."
+    }
+  },
+  "export_saved": {
+    "type": "string",
+    "values": {
+      "value": "Export saved."
+    }
+  },
+  "fertilising": {
+    "type": "string",
+    "values": {
+      "value": "Fertilising check"
+    }
+  },
+  "flowering": {
+    "type": "string",
+    "values": {
+      "value": "Flowering plants"
+    }
+  },
+  "free_limit": {
+    "type": "string",
+    "values": {
+      "value": "The free collection supports five plants. Restore or purchase Premium to add more."
+    }
+  },
+  "garden": {
+    "type": "string",
+    "values": {
+      "value": "Garden"
+    }
+  },
+  "growth_journal": {
+    "type": "string",
+    "values": {
+      "value": "Every new leaf has a story"
+    }
+  },
+  "guidance": {
+    "type": "string",
+    "values": {
+      "value": "Check the soil and the plant before watering. Yellowing, wilting and leaf drop can have several causes. Persistent or severe symptoms deserve advice from a local horticultural expert."
+    }
+  },
+  "height_cm": {
+    "type": "string",
+    "values": {
+      "value": "Height (cm, optional)"
+    }
+  },
+  "height_in": {
+    "type": "string",
+    "values": {
+      "value": "Height (inches, optional)"
+    }
+  },
+  "height_in_value": {
+    "type": "string",
+    "values": {
+      "value": "Height: %1$s in"
+    }
+  },
+  "height_value": {
+    "type": "string",
+    "values": {
+      "value": "Height: %1$s cm"
+    }
+  },
+  "herbs": {
+    "type": "string",
+    "values": {
+      "value": "Herbs"
+    }
+  },
+  "identification_unavailable": {
+    "type": "string",
+    "values": {
+      "value": "Photo identification is not configured. Add the species manually; photographs stay on your device."
+    }
+  },
+  "imperial": {
+    "type": "string",
+    "values": {
+      "value": "Use inches for growth measurements"
+    }
+  },
+  "indoor": {
+    "type": "string",
+    "values": {
+      "value": "Indoor plants"
+    }
+  },
+  "insights": {
+    "type": "string",
+    "values": {
+      "value": "Insights"
+    }
+  },
+  "insights_intro": {
+    "type": "string",
+    "values": {
+      "value": "Your records at a glance. Activity does not prove plant health."
+    }
+  },
+  "interval_days": {
+    "type": "string",
+    "values": {
+      "value": "Interval in days (1–3650)"
+    }
+  },
+  "journal": {
+    "type": "string",
+    "values": {
+      "value": "Journal"
+    }
+  },
+  "journal_entries": {
+    "type": "string",
+    "values": {
+      "value": "Journal entries"
+    }
+  },
+  "journal_intro": {
+    "type": "string",
+    "values": {
+      "value": "Photos, observations and small signs of growth."
+    }
+  },
+  "language_notice": {
+    "type": "string",
+    "values": {
+      "value": "FloraTend follows your device language when an approved translation is available."
+    }
+  },
+  "language_pending": {
+    "type": "string",
+    "values": {
+      "value": "English preview. Other requested languages and translated voice dictionaries are pending provider translation, human review and device testing."
+    }
+  },
+  "leaf_cleaning": {
+    "type": "string",
+    "values": {
+      "value": "Leaf cleaning"
+    }
+  },
+  "leaf_count": {
+    "type": "string",
+    "values": {
+      "value": "Leaf count (optional)"
+    }
+  },
+  "leaves_value": {
+    "type": "string",
+    "values": {
+      "value": "Leaves: %1$d"
+    }
+  },
+  "light": {
+    "type": "string",
+    "values": {
+      "value": "Light conditions"
+    }
+  },
+  "listening": {
+    "type": "string",
+    "values": {
+      "value": "Listening…"
+    }
+  },
+  "local_records": {
+    "type": "string",
+    "values": {
+      "value": "Saved on this device"
+    }
+  },
+  "location": {
+    "type": "string",
+    "values": {
+      "value": "Location"
+    }
+  },
+  "mic_denied": {
+    "type": "string",
+    "values": {
+      "value": "Microphone permission was declined. You can type a command instead."
+    }
+  },
+  "moist": {
+    "type": "string",
+    "values": {
+      "value": "Soil checked: moist"
+    }
+  },
+  "month": {
+    "type": "string",
+    "values": {
+      "value": "Next 30 days"
+    }
+  },
+  "monthly_care": {
+    "type": "string",
+    "values": {
+      "value": "Monthly care records"
+    }
+  },
+  "next_check": {
+    "type": "string",
+    "values": {
+      "value": "Next check: %1$s"
+    }
+  },
+  "nickname": {
+    "type": "string",
+    "values": {
+      "value": "Plant nickname"
+    }
+  },
+  "no_entries": {
+    "type": "string",
+    "values": {
+      "value": "Start a growing story"
+    }
+  },
+  "no_entries_body": {
+    "type": "string",
+    "values": {
+      "value": "Record an observation, a measurement or a photograph."
+    }
+  },
+  "no_tasks": {
+    "type": "string",
+    "values": {
+      "value": "A little breathing room"
+    }
+  },
+  "no_tasks_body": {
+    "type": "string",
+    "values": {
+      "value": "No checks in this view. Add a schedule or choose a longer period."
+    }
+  },
+  "notes": {
+    "type": "string",
+    "values": {
+      "value": "Notes and observations"
+    }
+  },
+  "onboarding_optional": {
+    "type": "string",
+    "values": {
+      "value": "You can add your first plant, choose measurements and enable optional reminders from your garden and settings."
+    }
+  },
+  "open_plant": {
+    "type": "string",
+    "values": {
+      "value": "Open plant details"
+    }
+  },
+  "other": {
+    "type": "string",
+    "values": {
+      "value": "Other"
+    }
+  },
+  "outdoor": {
+    "type": "string",
+    "values": {
+      "value": "Outdoor plants"
+    }
+  },
+  "pause": {
+    "type": "string",
+    "values": {
+      "value": "Pause"
+    }
+  },
+  "paused": {
+    "type": "string",
+    "values": {
+      "value": "Paused"
+    }
+  },
+  "pest_check": {
+    "type": "string",
+    "values": {
+      "value": "Pest inspection"
+    }
+  },
+  "photo_error": {
+    "type": "string",
+    "values": {
+      "value": "Could not open that photograph. Try another image or camera app."
+    }
+  },
+  "photo_missing": {
+    "type": "string",
+    "values": {
+      "value": "This photograph is no longer available."
+    }
+  },
+  "plant_details": {
+    "type": "string",
+    "values": {
+      "value": "Plant details"
+    }
+  },
+  "plant_photo": {
+    "type": "string",
+    "values": {
+      "value": "Saved plant photograph"
+    }
+  },
+  "pot_size": {
+    "type": "string",
+    "values": {
+      "value": "Pot diameter (cm, optional)"
+    }
+  },
+  "pot_value": {
+    "type": "string",
+    "values": {
+      "value": "Pot: %1$.1f cm"
+    }
+  },
+  "premium": {
+    "type": "string",
+    "values": {
+      "value": "FloraTend Premium"
+    }
+  },
+  "premium_active": {
+    "type": "string",
+    "values": {
+      "value": "Premium is active for this Amazon account."
+    }
+  },
+  "premium_intro": {
+    "type": "string",
+    "values": {
+      "value": "A one-time unlock for more than five plants and data export. Store availability and price are supplied by Amazon."
+    }
+  },
+  "privacy_intro": {
+    "type": "string",
+    "values": {
+      "value": "No account required. Plant records and photographs stay in private app storage. No advertising or third-party analytics. Amazon handles optional purchases. Speech recognition is handled by your installed provider only when requested."
+    }
+  },
+  "pruning": {
+    "type": "string",
+    "values": {
+      "value": "Pruning"
+    }
+  },
+  "push_to_talk": {
+    "type": "string",
+    "values": {
+      "value": "Push to talk"
+    }
+  },
+  "record_care": {
+    "type": "string",
+    "values": {
+      "value": "Record care"
+    }
+  },
+  "repotting": {
+    "type": "string",
+    "values": {
+      "value": "Repotting"
+    }
+  },
+  "reschedule": {
+    "type": "string",
+    "values": {
+      "value": "Reschedule"
+    }
+  },
+  "restore": {
+    "type": "string",
+    "values": {
+      "value": "Restore purchases"
+    }
+  },
+  "resume": {
+    "type": "string",
+    "values": {
+      "value": "Resume"
+    }
+  },
+  "run_command": {
+    "type": "string",
+    "values": {
+      "value": "Run command"
+    }
+  },
+  "save": {
+    "type": "string",
+    "values": {
+      "value": "Save"
+    }
+  },
+  "save_error": {
+    "type": "string",
+    "values": {
+      "value": "Your record could not be saved. Please try again."
+    }
+  },
+  "search": {
+    "type": "string",
+    "values": {
+      "value": "Search plants, species or locations"
+    }
+  },
+  "settings": {
+    "type": "string",
+    "values": {
+      "value": "Settings"
+    }
+  },
+  "settings_intro": {
+    "type": "string",
+    "values": {
+      "value": "Make FloraTend feel at home."
+    }
+  },
+  "skip": {
+    "type": "string",
+    "values": {
+      "value": "Skip for now"
+    }
+  },
+  "snooze": {
+    "type": "string",
+    "values": {
+      "value": "Snooze until tomorrow"
+    }
+  },
+  "soil_check": {
+    "type": "string",
+    "values": {
+      "value": "Soil-moisture check"
+    }
+  },
+  "soil_type": {
+    "type": "string",
+    "values": {
+      "value": "Soil type"
+    }
+  },
+  "sort_asc": {
+    "type": "string",
+    "values": {
+      "value": "Name: A–Z"
+    }
+  },
+  "sort_desc": {
+    "type": "string",
+    "values": {
+      "value": "Name: Z–A"
+    }
+  },
+  "species": {
+    "type": "string",
+    "values": {
+      "value": "Species (optional)"
+    }
+  },
+  "start_garden": {
+    "type": "string",
+    "values": {
+      "value": "Open my garden"
+    }
+  },
+  "store_unavailable": {
+    "type": "string",
+    "values": {
+      "value": "Amazon product unavailable"
+    }
+  },
+  "succulents": {
+    "type": "string",
+    "values": {
+      "value": "Succulents"
+    }
+  },
+  "tagline": {
+    "type": "string",
+    "values": {
+      "value": "Every plant deserves a little attention."
+    }
+  },
+  "take_photo": {
+    "type": "string",
+    "values": {
+      "value": "Take photo"
+    }
+  },
+  "total_plants": {
+    "type": "string",
+    "values": {
+      "value": "Plants in your collection"
+    }
+  },
+  "trees": {
+    "type": "string",
+    "values": {
+      "value": "Trees"
+    }
+  },
+  "unlock_price": {
+    "type": "string",
+    "values": {
+      "value": "Unlock for %1$s"
+    }
+  },
+  "upcoming": {
+    "type": "string",
+    "values": {
+      "value": "Upcoming care checks"
+    }
+  },
+  "valid_plant": {
+    "type": "string",
+    "values": {
+      "value": "Enter a name, a valid date, and a positive pot size if supplied."
+    }
+  },
+  "voice": {
+    "type": "string",
+    "values": {
+      "value": "Voice"
+    }
+  },
+  "voice_ambiguous": {
+    "type": "string",
+    "values": {
+      "value": "Please choose the plant and its care schedule using the calendar. The name or schedule was ambiguous."
+    }
+  },
+  "voice_assistant": {
+    "type": "string",
+    "values": {
+      "value": "A helping voice"
+    }
+  },
+  "voice_error": {
+    "type": "string",
+    "values": {
+      "value": "Speech could not be recognised. Try again or type your command."
+    }
+  },
+  "voice_examples": {
+    "type": "string",
+    "values": {
+      "value": "Try: Add a new plant. Which plants need watering today? Mark my Monstera as watered. Show my care calendar. Read my reminders. Show plants in the living room."
+    }
+  },
+  "voice_intro": {
+    "type": "string",
+    "values": {
+      "value": "Speak a command, review the words, then run it."
+    }
+  },
+  "voice_privacy": {
+    "type": "string",
+    "values": {
+      "value": "Push to talk only. Your installed recognition service may use a network connection. FloraTend does not save raw recordings. Spoken replies depend on installed voices."
+    }
+  },
+  "voice_unavailable": {
+    "type": "string",
+    "values": {
+      "value": "Speech recognition is unavailable on this device. Type a command below or use the app controls."
+    }
+  },
+  "voice_unknown": {
+    "type": "string",
+    "values": {
+      "value": "Command not recognised. Try one of the examples below. English commands are currently available for testing."
+    }
+  },
+  "watered": {
+    "type": "string",
+    "values": {
+      "value": "Watering completed"
+    }
+  },
+  "watering": {
+    "type": "string",
+    "values": {
+      "value": "Watering check"
+    }
+  },
+  "week": {
+    "type": "string",
+    "values": {
+      "value": "Next 7 days"
+    }
+  },
+  "welcome": {
+    "type": "string",
+    "values": {
+      "value": "Welcome to FloraTend"
+    }
+  },
+  "wet": {
+    "type": "string",
+    "values": {
+      "value": "Soil checked: wet"
+    }
+  },
+  "your_garden": {
+    "type": "string",
+    "values": {
+      "value": "A little care. A greener home."
+    }
+  },
+  "reminder_count": {
+    "type": "plurals",
+    "values": {
+      "one": "%1$d plant-care check to review.",
+      "other": "%1$d plant-care checks to review."
+    }
+  }
+}

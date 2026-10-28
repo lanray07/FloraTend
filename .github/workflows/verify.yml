@@ -1,0 +1,51 @@
+name: Verify development build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - uses: android-actions/setup-android@v3
+      - name: Install Android SDK components
+        run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0' 'platform-tools'
+      - name: Build, JVM tests and Android lint
+        run: bash gradlew --no-daemon :app:assembleDebug :app:testDebugUnitTest :app:lintDebug
+      - name: Supporting regression tests
+        run: python -m unittest discover -s tools -p 'test_*.py' -v
+      - name: Extract Android source strings
+        run: python tools/localize.py extract
+      - name: Build and validate local static website
+        run: |
+          python website/build.py
+          python website/validate.py
+      - name: Regenerate evidence-gated acceptance matrix
+        run: python tools/report_acceptance.py
+      - name: Retain test and lint reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: development-verification
+          path: |
+            app/build/reports/
+            app/build/test-results/
+            app/build/outputs/apk/debug/*.apk
+            website/dist/build-report.json
+            ACCEPTANCE_TEST_RESULTS.csv
+            RELEASE_READINESS.md
+          if-no-files-found: warn

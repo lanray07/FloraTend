@@ -1,0 +1,11 @@
+.gradle/
+**/build/
+local.properties
+*.jks
+*.keystore
+*.pem
+.env*
+!*.example
+__pycache__/
+localization/cache/
+evidence/gradle-threads.txt

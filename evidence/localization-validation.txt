@@ -1,0 +1,152 @@
+[
+  {
+    "locale": "en-GB",
+    "errors": [],
+    "review_status": "pending",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "en-US",
+    "errors": [
+      "Resource file does not exist"
+    ],
+    "review_status": "pending",
+    "status": "FAIL"
+  },
+  {
+    "locale": "en-AU",
+    "errors": [
+      "Resource file does not exist"
+    ],
+    "review_status": "pending",
+    "status": "FAIL"
+  },
+  {
+    "locale": "es-ES",
+    "errors": [
+      "Resource file does not exist"
+    ],
+    "review_status": "pending",
+    "status": "FAIL"
+  },
+  {
+    "locale": "es-419",
+    "errors": [
+      "Resource file does not exist"
+    ],
+    "review_status": "pending",
+    "status": "FAIL"
+  },
+  {
+    "locale": "fr-FR",
+    "errors": [
+      "Resource file does not exist"
+    ],
+    "review_status": "pending",
+    "status": "FAIL"
+  },
+  {
+    "locale": "fr-CA",
+    "errors": [
+      "Resource file does not exist"
+    ],
+    "review_status": "pending",
+    "status": "FAIL"
+  },
+  {
+    "locale": "de-DE",
+    "errors": [
+      "Resource file does not exist"
+    ],
+    "review_status": "pending",
+    "status": "FAIL"
+  },
+  {
+    "locale": "it-IT",
+    "errors": [
+      "Resource file does not exist"
+    ],
+    "review_status": "pending",
+    "status": "FAIL"
+  },
+  {
+    "locale": "pt-BR",
+    "errors": [
+      "Resource file does not exist"
+    ],
+    "review_status": "pending",
+    "status": "FAIL"
+  },
+  {
+    "locale": "pt-PT",
+    "errors": [
+      "Resource file does not exist"
+    ],
+    "review_status": "pending",
+    "status": "FAIL"
+  },
+  {
+    "locale": "nl-NL",
+    "errors": [
+      "Resource file does not exist"
+    ],
+    "review_status": "pending",
+    "status": "FAIL"
+  },
+  {
+    "locale": "pl-PL",
+    "errors": [
+      "Resource file does not exist"
+    ],
+    "review_status": "pending",
+    "status": "FAIL"
+  },
+  {
+    "locale": "sv-SE",
+    "errors": [
+      "Resource file does not exist"
+    ],
+    "review_status": "pending",
+    "status": "FAIL"
+  },
+  {
+    "locale": "ja-JP",
+    "errors": [
+      "Resource file does not exist"
+    ],
+    "review_status": "pending",
+    "status": "FAIL"
+  },
+  {
+    "locale": "hi-IN",
+    "errors": [
+      "Resource file does not exist"
+    ],
+    "review_status": "pending",
+    "status": "FAIL"
+  },
+  {
+    "locale": "ar",
+    "errors": [
+      "Resource file does not exist"
+    ],
+    "review_status": "pending",
+    "status": "FAIL"
+  },
+  {
+    "locale": "tr-TR",
+    "errors": [
+      "Resource file does not exist"
+    ],
+    "review_status": "pending",
+    "status": "FAIL"
+  },
+  {
+    "locale": "id-ID",
+    "errors": [
+      "Resource file does not exist"
+    ],
+    "review_status": "pending",
+    "status": "FAIL"
+  }
+]

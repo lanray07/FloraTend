@@ -1,0 +1,14 @@
+test_duplicate_resource_names_rejected (test_localize.LocalizationTests) ... ok
+test_lost_or_duplicated_tokens_rejected (test_localize.LocalizationTests) ... ok
+test_missing_and_invalid_placeholder (test_localize.LocalizationTests) ... ok
+test_plural_categories_and_other_required (test_localize.LocalizationTests) ... ok
+test_protected_brand_must_remain (test_localize.LocalizationTests) ... ok
+test_protects_repeated_positional_placeholders_and_brand (test_localize.LocalizationTests) ... ok
+test_provider_requires_key_and_official_https (test_localize.LocalizationTests) ... ok
+test_resource_round_trip_and_nontranslatable_exclusion (test_localize.LocalizationTests) ... ok
+test_translation_cache (test_localize.LocalizationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.088s
+
+OK

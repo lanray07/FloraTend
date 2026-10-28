@@ -1,0 +1,7 @@
+test_default_report_never_infers_pass (test_supporting_tools.ReportingTests) ... ok
+test_invalid_status_rejected (test_supporting_tools.ReportingTests) ... ok
+test_missing_and_outside_project_evidence_rejected (test_supporting_tools.ReportingTests) ... ok
+test_nonexecuted_blocker_does_not_require_fake_date (test_supporting_tools.ReportingTests) ... ok
+test_pass_without_execution_evidence_rejected (test_supporting_tools.ReportingTests) ... ok
+test_real_spec_has_unique_ids_and_all_groups (test_supporting_tools.ReportingTests) ... ok
+test_broken_link_fails_validation (test_supporting_tools.WebsiteTests) ... ok

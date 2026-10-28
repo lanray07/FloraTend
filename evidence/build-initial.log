@@ -1,0 +1,67 @@
+Starting a Gradle Daemon, 2 busy Daemons could not be reused, use --status for details
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:parseDebugLocalResources
+> Task :app:extractDeepLinksDebug
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:desugarDebugFileDependencies
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJniLibFolders
+> Task :app:processDebugManifestForPackage
+> Task :app:mergeExtDexDebug
+
+The message received from the daemon indicates that the daemon has disappeared.
+Build request sent: Build{id=421e8e80-64ba-4964-a7d8-25324765d902, currentDir=D:\App Projects\FloraTend}
+Attempting to read last messages from the daemon log...
+Daemon pid: 21592
+  log file: C:\Users\User\.gradle\daemon\8.13\daemon-21592.out.log
+----- Last 20 lines from daemon log file - daemon-21592.out.log -----
+2026-10-28T07:19:27.776+0000 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 22: received class org.gradle.launcher.daemon.protocol.Build
+2026-10-28T07:19:27.777+0000 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 22: Received non-IO message from client: Build{id=421e8e80-64ba-4964-a7d8-25324765d902, currentDir=D:\App Projects\FloraTend}
+2026-10-28T07:19:27.777+0000 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=421e8e80-64ba-4964-a7d8-25324765d902, currentDir=D:\App Projects\FloraTend}.
+2026-10-28T07:19:27.777+0000 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=421e8e80-64ba-4964-a7d8-25324765d902, currentDir=D:\App Projects\FloraTend} with connection: socket connection from /127.0.0.1:65063 to /127.0.0.1:65064.
+2026-10-28T07:19:27.783+0000 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=421e8e80-64ba-4964-a7d8-25324765d902, currentDir=D:\App Projects\FloraTend}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:65063 to /127.0.0.1:65064] after 0.0046500000000000005 minutes of idle
+2026-10-28T07:19:27.783+0000 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [4a9bf21d-b1cb-43b2-bab7-5ec68496a048 port:65063, addresses:[localhost/127.0.0.1]]
+2026-10-28T07:19:27.784+0000 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [4a9bf21d-b1cb-43b2-bab7-5ec68496a048 port:65063, addresses:[localhost/127.0.0.1]]
+2026-10-28T07:19:27.786+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-10-28T07:19:27.787+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-10-28T07:19:27.789+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-10-28T07:19:27.790+0000 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2026-10-28T07:19:27.790+0000 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2026-10-28T07:19:27.792+0000 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=421e8e80-64ba-4964-a7d8-25324765d902, currentDir=D:\App Projects\FloraTend}. Dispatching build started information...
+2026-10-28T07:19:27.793+0000 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 24: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@9a1dde6
+2026-10-28T07:19:27.805+0000 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, BROWSER_USE_ACCESS_VERIFYING_IDENTITY, PROCESSOR_LEVEL, GIT_PAGER, ALLUSERSPROFILE, CODEX_MCP_NODE_PATH, SDKROOT, CODEX_SHELL, PROCESSOR_ARCHITECTURE, __COMPAT_LAYER, PSModulePath, SystemDrive, GH_PAGER, BROWSER_USE_ACCESS_EXECUTOR_ID, CODEX_APP_TOOLS_PIPE_PATH, COLORTERM, NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S, DIRNAME, USERNAME, CODEX_TASK_WORKSPACE_VERIFYING_IDENTITY, ProgramFiles(x86), CODEX_APP_RUNTIME_CLI_PATH, CODEX_INTERNAL_ORIGINATOR_OVERRIDE, APP_HOME, CODEX_SAGE_BACKFILL_TRACKER_TAB_REUSE, DEFAULT_JVM_OPTS, PATHEXT, SHELL, DriverData, OneDriveConsumer, PAGER, CODEX_PERMISSION_PROFILE, CODEX_WINDOWS_SANDBOX_PACKAGE_FAMILY, LOG_FORMAT, ProgramData, ProgramW6432, HOMEPATH, BROWSER_USE_ACCESS_PIPE_PATH, LC_ALL, PROCESSOR_IDENTIFIER, ProgramFiles, PUBLIC, ZSH_TMUX_AUTOSTARTED, windir, LC_CTYPE, CODEX_SESSION_ID, ZES_ENABLE_SYSMAN, LOCALAPPDATA, USERDOMAIN, LOGONSERVER, JAVA_HOME, PROMPT, RUST_LOG, TERM, LANG, asl.log, OneDrive, APPDATA, CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS, JAVA_EXE, CODEX_THREAD_ID, NO_COLOR, CODEX_CI, CommonProgramFiles, Path, DISABLE_AUTO_UPDATE, OS, COMPUTERNAME, CODEX_TOOL_CALL_ID, PROCESSOR_REVISION, CLASSPATH, CommonProgramW6432, ComSpec, APP_BASE_NAME, ZSH_TMUX_AUTOSTART, =D:, SystemRoot, TEMP, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), CODEX_TECTONIC_PATH, CODEX_VERSION, NUMBER_OF_PROCESSORS]
+2026-10-28T07:19:27.858+0000 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2026-10-28T07:19:27.858+0000 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 21592). The daemon log file: C:\Users\User\.gradle\daemon\8.13\daemon-21592.out.log
+2026-10-28T07:19:27.865+0000 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 3 GiB]
+2026-10-28T07:19:27.871+0000 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2026-10-28T07:19:27.873+0000 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=de930920-2c32-4158-a62c-c48e139d26e7,javaHome=C:\Program Files\Microsoft\jdk-17.0.20.101-hotspot,javaVersion=17,javaVendor=Microsoft,daemonRegistryDir=C:\Users\User\.gradle\daemon,pid=21592,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx3g,-Dfile.encoding=UTF-8,-Duser.country=GB,-Duser.language=en,-Duser.variant]----- End of the daemon log -----
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Gradle build daemon disappeared unexpectedly (it may have been killed or may have crashed)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.

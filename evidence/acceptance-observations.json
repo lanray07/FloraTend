@@ -1,0 +1,211 @@
+{
+  "AC-07.01": {
+    "test_name": "Requested interface locale audit",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Python 3.10 / Android resource source audit",
+    "status": "BLOCKED",
+    "actual_result": "Validation reports 18 missing target resource files; source-English has no human release approval. No worldwide language completion is claimed.",
+    "evidence": ["evidence/localization-validation.txt", "localization/validation-report.json"],
+    "corrective_action": "Translate, validate, render and review every release-approved interface locale."
+  },
+  "AC-07.14": {
+    "test_name": "Human linguistic approval audit",
+    "status": "BLOCKED",
+    "actual_result": "Review registry is empty and all locale review statuses remain pending.",
+    "evidence": ["localization/review.json", "localization/validation-report.json"],
+    "corrective_action": "Obtain qualified human review tied to the exact current source hash."
+  },
+  "AC-08.01": {
+    "test_name": "Localised store screenshot prerequisite audit",
+    "status": "BLOCKED",
+    "actual_result": "No locale has completed translation and human approval; eight approved store-locale compositions are not verified.",
+    "evidence": ["LOCALIZATION_TEST_REPORT.md"],
+    "corrective_action": "Complete locale approval, then capture implemented screens and verify eight compositions per approved listing locale."
+  },
+  "AC-09.01": {
+    "test_name": "Android resource extraction and XML round trip",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Python 3.10 / development resource tooling",
+    "status": "PASS",
+    "actual_result": "Actual app extraction exited 0. Executed tests verify XML resource round trip and exclusion of nontranslatable text. This verifies tooling extraction, not complete application localisation.",
+    "evidence": ["evidence/localization-extraction.txt", "evidence/localization-tests.txt"],
+    "corrective_action": "Rerun extraction after source changes; audit UI literals separately."
+  },
+  "AC-09.03": {
+    "test_name": "Live DeepL provider verification",
+    "status": "BLOCKED",
+    "actual_result": "Live provider credentials are unavailable. Stub-provider tests do not establish live endpoint or language compatibility.",
+    "evidence": ["LOCALIZATION_TEST_REPORT.md"],
+    "corrective_action": "Configure developer-only translation credentials privately, execute a live translation, validate output and obtain review."
+  },
+  "AC-09.04": {
+    "test_name": "Cached translation request suppression",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Python 3.10 / deterministic stub provider",
+    "status": "PASS",
+    "actual_result": "test_translation_cache passed: repeated unchanged input reused one provider call; changed source requested another call. No live provider claim.",
+    "evidence": ["evidence/localization-tests.txt", "tools/test_localize.py"],
+    "corrective_action": "Verify live-provider requests separately when credentials are available."
+  },
+  "AC-09.05": {
+    "test_name": "Placeholder protection and corruption rejection",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Python 3.10 / deterministic translation fixtures",
+    "status": "PASS",
+    "actual_result": "Tests passed for repeated positional/named placeholder round trips, missing/duplicated token rejection and mismatched argument detection.",
+    "evidence": ["evidence/localization-tests.txt", "tools/test_localize.py"],
+    "corrective_action": "Run the same validator on every real translation before human review."
+  },
+  "AC-09.06": {
+    "test_name": "Protected brand terminology validation",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Python 3.10 / deterministic translation fixtures",
+    "status": "PASS",
+    "actual_result": "Protected FloraTend tokens survive a round trip and a changed brand term is rejected by validation.",
+    "evidence": ["evidence/localization-tests.txt", "tools/test_localize.py"],
+    "corrective_action": "Review real translated horticultural terminology as well as protected tokens."
+  },
+  "AC-09.07": {
+    "test_name": "Missing-resource detection",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Python 3.10 / current resource tree and fixtures",
+    "status": "PASS",
+    "actual_result": "Missing-string fixture test passed; actual validation reported 18 absent locale resource files and exited nonzero. Detection passed while translation completeness remains blocked.",
+    "evidence": ["evidence/localization-tests.txt", "evidence/localization-validation.txt", "localization/validation-report.json"],
+    "corrective_action": "Resolve the reported missing resources before release."
+  },
+  "AC-09.08": {
+    "test_name": "Invalid XML resource and plural rejection",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Python 3.10 / invalid-resource fixtures",
+    "status": "PASS",
+    "actual_result": "Executed tests reject duplicate resource names, missing required plural forms, missing other forms and mismatched placeholders.",
+    "evidence": ["evidence/localization-tests.txt", "tools/test_localize.py"],
+    "corrective_action": "Keep validation mandatory for generated locale files."
+  },
+  "AC-09.09": {
+    "test_name": "Pending translation review status reporting",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Python 3.10 / current locale report inspection",
+    "status": "PASS",
+    "actual_result": "Regenerated validation report records pending review status for each requested locale. No human approval is inferred from this status-tracking check.",
+    "evidence": ["evidence/localization-validation.txt", "localization/validation-report.json", "localization/review.json"],
+    "corrective_action": "Obtain and record actual source-hash-bound human approval separately."
+  },
+  "AC-09.11": {
+    "test_name": "Localisation report regeneration",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Python 3.10 / development localisation commands",
+    "status": "PASS",
+    "actual_result": "Actual extract and validate commands regenerated source and per-locale validation outputs, including explicit missing-resource and pending-review results.",
+    "evidence": ["evidence/localization-extraction.txt", "evidence/localization-validation.txt", "localization/validation-report.json"],
+    "corrective_action": "Regenerate after each source or translation update."
+  },
+  "AC-12.02": {
+    "test_name": "Amazon configured product lookup prerequisite",
+    "status": "BLOCKED",
+    "actual_result": "The app-specific public key, configured catalogue and Amazon test environment are not verified. No live product retrieval or store price is recorded.",
+    "evidence": ["docs/BILLING_INTEGRATION.md"],
+    "corrective_action": "Configure the actual Amazon app and entitled product, then execute product lookup and all purchase/restore scenarios."
+  },
+  "AC-15.01": {
+    "test_name": "Static website generation",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Python 3.10 / local generated website",
+    "status": "PASS",
+    "actual_result": "The actual website build generated all 12 requested English pages and static CSS without external dependencies. This is a local build, not deployment approval.",
+    "evidence": ["evidence/supporting/website-build.log", "website/dist/build-report.json"],
+    "corrective_action": "Complete production URL, privacy/publisher details, translations and visual review before publication."
+  },
+  "AC-15.02": {
+    "test_name": "Static crawlable HTML structure validation",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Python 3.10 / HTMLParser structural checks",
+    "status": "PASS",
+    "actual_result": "All 12 pages contain server-readable static HTML headings and content; no JavaScript rendering is required. Local noindex remains intentional until a real domain is configured.",
+    "evidence": ["evidence/supporting/website-validation.log", "website/validate.py", "website/dist/index.html"],
+    "corrective_action": "Configure and test the real deployment before allowing indexing."
+  },
+  "AC-15.03": {
+    "test_name": "Page title and description inspection",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Python 3.10 / generated-page and source content review",
+    "status": "PASS",
+    "actual_result": "All 12 pages have one title, one h1, a language declaration and a page-specific description; reviewed copy describes each page's subject and development status.",
+    "evidence": ["evidence/supporting/website-validation.log", "website/build.py", "website/dist/features.html"],
+    "corrective_action": "Translate and review metadata for additional approved languages."
+  },
+  "AC-15.04": {
+    "test_name": "Production canonical URL configuration",
+    "status": "BLOCKED",
+    "actual_result": "No verified deployment SITE_URL is configured. Generator tests prove configured-domain output using a reserved fixture, but no production canonical is invented.",
+    "evidence": ["evidence/supporting/website-build.log", "evidence/supporting/tool-tests.log"],
+    "corrective_action": "Set the verified deployed HTTPS origin and run production build and validation."
+  },
+  "AC-15.05": {
+    "test_name": "Production sitemap completeness",
+    "status": "BLOCKED",
+    "actual_result": "Valid sitemap.xml exists locally but intentionally contains no production URLs without a verified SITE_URL. A configured-origin fixture passes twelve-URL validation.",
+    "evidence": ["website/dist/sitemap.xml", "evidence/supporting/tool-tests.log"],
+    "corrective_action": "Generate a complete sitemap using the actual deployment URL, then verify published URLs."
+  },
+  "AC-15.06": {
+    "test_name": "Robots file existence and safe local mode",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Python 3.10 / local output and configured-origin fixture",
+    "status": "PASS",
+    "actual_result": "robots.txt exists. Local mode disallows crawling; configured-origin fixture produces Allow and a sitemap directive. No deployed crawl policy is claimed.",
+    "evidence": ["website/dist/robots.txt", "evidence/supporting/tool-tests.log", "evidence/supporting/website-validation.log"],
+    "corrective_action": "Review the published robots policy at deployment."
+  },
+  "AC-15.07": {
+    "test_name": "SoftwareApplication JSON-LD parsing",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Python 3.10 / generated static HTML",
+    "status": "PASS",
+    "actual_result": "Validator parsed valid SoftwareApplication JSON-LD on all 12 generated pages; no fabricated reviews, offers or download URLs are included.",
+    "evidence": ["evidence/supporting/website-validation.log", "website/dist/index.html"],
+    "corrective_action": "Reconcile structured data with the approved product release and deployed page facts."
+  },
+  "AC-15.08": {
+    "test_name": "Structured-data visible-fact review",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / source and generated English HTML inspection",
+    "status": "PASS",
+    "actual_result": "Schema name, Android platform and in-development/not-downloadable description match visible headings and development notices. Schema contains no price, rating, availability or compatibility claim beyond visible content.",
+    "evidence": ["website/build.py", "website/dist/index.html", "website/dist/fire-tablet-compatibility.html"],
+    "corrective_action": "Repeat review after product facts or release availability change."
+  },
+  "AC-15.09": {
+    "test_name": "Localised alternate-page prerequisite",
+    "status": "BLOCKED",
+    "actual_result": "Only source-English pages exist. No hreflang links are fabricated for untranslated pages; source-English alternate URLs require a real domain.",
+    "evidence": ["website/dist/build-report.json", "website/README.md"],
+    "corrective_action": "Build reviewed locale pages and configure reciprocal real URLs before approving locale alternate annotations."
+  },
+  "AC-15.11": {
+    "test_name": "Privacy and support page generation",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Python 3.10 / local generated website",
+    "status": "PASS",
+    "actual_result": "Actual privacy.html and support.html files were generated and validated as reachable internal pages. Both disclose development limitations; legal identity and monitored contact remain pending.",
+    "evidence": ["evidence/supporting/website-validation.log", "website/dist/privacy.html", "website/dist/support.html"],
+    "corrective_action": "Complete publisher, contact and legal review before publication; page existence is not privacy approval."
+  },
+  "AC-15.12": {
+    "test_name": "Internal link validation and negative fixture",
+    "execution_date": "2026-10-28",
+    "environment": "Windows / Python 3.10 / local HTML output",
+    "status": "PASS",
+    "actual_result": "Actual 12-page output has zero broken internal links. Negative test removes a linked page and verifies validation fails.",
+    "evidence": ["evidence/supporting/website-validation.log", "evidence/supporting/tool-tests.log"],
+    "corrective_action": "Repeat validation against translated and deployed page paths."
+  },
+  "AC-15.13": {
+    "test_name": "Official Amazon listing link availability",
+    "status": "BLOCKED",
+    "actual_result": "No verified public FloraTend Appstore listing URL is available; no substitute URL is generated.",
+    "evidence": ["website/dist/build-report.json", "website/README.md"],
+    "corrective_action": "After authorised publication provides an actual listing URL, configure APPSTORE_URL and verify the link."
+  }
+}

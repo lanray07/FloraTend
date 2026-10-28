@@ -1,0 +1,21 @@
+[
+  {"locale":"en-GB","android_folder":"values","provider_target":null,"direction":"ltr","release_status":"pending_human_review","store_listing":"verify_with_Amazon_matrix"},
+  {"locale":"en-US","android_folder":"values-en-rUS","provider_target":"EN-US","direction":"ltr","release_status":"pending","store_listing":"verify_with_Amazon_matrix"},
+  {"locale":"en-AU","android_folder":"values-en-rAU","provider_target":null,"direction":"ltr","release_status":"pending_regional_translation","store_listing":"verify_with_Amazon_matrix"},
+  {"locale":"es-ES","android_folder":"values-es-rES","provider_target":"ES","direction":"ltr","release_status":"pending","store_listing":"verify_with_Amazon_matrix"},
+  {"locale":"es-419","android_folder":"values-b+es+419","provider_target":null,"direction":"ltr","release_status":"pending_regional_translation","store_listing":"verify_with_Amazon_matrix"},
+  {"locale":"fr-FR","android_folder":"values-fr-rFR","provider_target":"FR","direction":"ltr","release_status":"pending","store_listing":"verify_with_Amazon_matrix"},
+  {"locale":"fr-CA","android_folder":"values-fr-rCA","provider_target":null,"direction":"ltr","release_status":"pending_regional_translation","store_listing":"verify_with_Amazon_matrix"},
+  {"locale":"de-DE","android_folder":"values-de-rDE","provider_target":"DE","direction":"ltr","release_status":"pending","store_listing":"verify_with_Amazon_matrix"},
+  {"locale":"it-IT","android_folder":"values-it-rIT","provider_target":"IT","direction":"ltr","release_status":"pending","store_listing":"verify_with_Amazon_matrix"},
+  {"locale":"pt-BR","android_folder":"values-pt-rBR","provider_target":"PT-BR","direction":"ltr","release_status":"pending","store_listing":"verify_with_Amazon_matrix"},
+  {"locale":"pt-PT","android_folder":"values-pt-rPT","provider_target":"PT-PT","direction":"ltr","release_status":"pending","store_listing":"verify_with_Amazon_matrix"},
+  {"locale":"nl-NL","android_folder":"values-nl-rNL","provider_target":"NL","direction":"ltr","release_status":"pending","store_listing":"verify_with_Amazon_matrix"},
+  {"locale":"pl-PL","android_folder":"values-pl-rPL","provider_target":"PL","direction":"ltr","release_status":"pending","store_listing":"verify_with_Amazon_matrix"},
+  {"locale":"sv-SE","android_folder":"values-sv-rSE","provider_target":"SV","direction":"ltr","release_status":"pending","store_listing":"verify_with_Amazon_matrix"},
+  {"locale":"ja-JP","android_folder":"values-ja-rJP","provider_target":"JA","direction":"ltr","release_status":"pending","store_listing":"verify_with_Amazon_matrix"},
+  {"locale":"hi-IN","android_folder":"values-hi-rIN","provider_target":"HI","direction":"ltr","release_status":"pending_provider_language_verification","store_listing":"verify_with_Amazon_matrix"},
+  {"locale":"ar","android_folder":"values-ar","provider_target":"AR","direction":"rtl","release_status":"pending_provider_language_verification","store_listing":"verify_with_Amazon_matrix"},
+  {"locale":"tr-TR","android_folder":"values-tr-rTR","provider_target":"TR","direction":"ltr","release_status":"pending","store_listing":"verify_with_Amazon_matrix"},
+  {"locale":"id-ID","android_folder":"values-in-rID","provider_target":"ID","direction":"ltr","release_status":"pending","store_listing":"verify_with_Amazon_matrix"}
+]

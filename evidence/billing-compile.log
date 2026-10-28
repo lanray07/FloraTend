@@ -1,0 +1,9 @@
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugBuildConfig
+> Task :app:checkDebugAarMetadata
+> Task :app:generateDebugResValues
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
