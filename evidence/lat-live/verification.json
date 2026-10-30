@@ -10,7 +10,7 @@
   "premium_active": true,
   "purchase_verified": true,
   "owned_restore_verified": true,
-  "checkpoint": "Requested LAT purchase and restore verified; pending GitHub push/CI",
+  "checkpoint": "Requested LAT purchase and restore verified; results pushed to GitHub; CI tracked by commit in GitHub Actions",
   "landscape_blank_attempt": "Recovered by relaunch; cause not isolated; portrait checkout displayed",
   "report": "docs/LAT_LIVE_TEST_20261030.md",
   "public_promotion": false,
