@@ -1,0 +1,8 @@
+
+com.floratend.app.LatPreparationTest:.
+
+Time: 0.155
+
+OK (1 test)
+
+

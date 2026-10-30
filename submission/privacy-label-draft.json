@@ -1122,5 +1122,22 @@
     }
   ],
   "console_status": "Saved for review",
-  "rationale": "docs/RELEASE_VERIFICATION_20261030.md"
+  "rationale": "docs/RELEASE_VERIFICATION_20261030.md",
+  "receipt_verification_candidate": {
+    "version": "0.1.5 / code 6",
+    "provider": "Cloudflare Workers Free",
+    "data_sent": [
+      "App-scoped Amazon user ID",
+      "Amazon receipt ID"
+    ],
+    "purpose": [
+      "Purchase verification",
+      "Fraud prevention",
+      "Rate limiting"
+    ],
+    "raw_identifiers_persisted_by_app_server": false,
+    "counter_storage": "HMAC owner/minute counters only; logical expiry each minute; active cleanup normally within six minutes; provider snapshots may retain prior versions",
+    "public_release_publisher_review_pending": true,
+    "console_reassessment_pending": true
+  }
 }

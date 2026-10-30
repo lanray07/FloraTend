@@ -1,0 +1,9 @@
+
+com.floratend.app.EntitlementStoreTest:....
+com.floratend.app.BillingStartupTest:..
+
+Time: 0.383
+
+OK (6 tests)
+
+

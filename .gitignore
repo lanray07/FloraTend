@@ -5,6 +5,9 @@ local.properties
 *.keystore
 *.pem
 .env*
+.dev.vars*
+.wrangler/
+node_modules/
 !*.example
 __pycache__/
 localization/cache/

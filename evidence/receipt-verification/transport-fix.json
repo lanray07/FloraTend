@@ -1,0 +1,14 @@
+{
+  "observed_failure": "Live Worker returned 503/unavailable for invalid fixture receipts before reaching Amazon",
+  "diagnostic_scope": "Temporary status-only and redacted transport error messages; raw tail remains private",
+  "root_cause": "Cloudflare Workers fetch rejects redirect:error; native Node tests did not expose that platform constraint",
+  "fix": "Use redirect:manual; reject all 3xx responses without following Location",
+  "regression_evidence": [
+    "server-tests.txt",
+    "live-endpoint-before-fix.txt",
+    "live-endpoint-negative-tests.json",
+    "production-endpoint-negative-tests.json"
+  ],
+  "debug_instrumentation_removed": true,
+  "not_a_checkout_ui_fix": true
+}

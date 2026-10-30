@@ -1,0 +1,8 @@
+ERROR: null root node returned by UiTestAutomationBridge.
+ERROR: null root node returned by UiTestAutomationBridge.
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\observe_lat_checkout.py", line 91, in <module>
+    main()
+  File "D:\App Projects\FloraTend\tools\observe_lat_checkout.py", line 61, in main
+    raise RuntimeError('BLOCKED: reset only the dedicated LAT test entitlement before checkout reproduction')
+RuntimeError: BLOCKED: reset only the dedicated LAT test entitlement before checkout reproduction

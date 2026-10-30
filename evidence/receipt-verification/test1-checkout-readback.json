@@ -1,0 +1,14 @@
+{
+  "build": 5,
+  "installer": "com.amazon.venezia",
+  "portraitCheckoutVisible": true,
+  "portraitCancelled": true,
+  "landscapeCheckoutVisible": true,
+  "landscapeAuthorizedFreeLATPurchaseConfirmed": true,
+  "price": "GBP 3.73",
+  "premiumActiveAfterPurchase": true,
+  "uiAutomatorAttachedAfterPurchaseTap": false,
+  "blankWindowReproduced": false,
+  "code6ServerVerificationProven": false,
+  "scope": "One successful checkout presentation in each orientation; no permanent fix or root cause inferred"
+}

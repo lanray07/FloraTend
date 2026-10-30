@@ -21,6 +21,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Receipt verification server regressions
+        run: node --test server/receipt-verifier.test.mjs
+      - name: Install pinned Worker tooling
+        working-directory: server
+        run: npm ci
+      - name: Validate Cloudflare Worker bundle
+        working-directory: server
+        run: npx wrangler deploy --dry-run --outdir ../build/receipt-worker
       - uses: android-actions/setup-android@v4
       - name: Install Android SDK components
         run: sdkmanager 'platforms;android-36' 'build-tools;35.0.0' 'platform-tools'

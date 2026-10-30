@@ -118,5 +118,25 @@
       "owned_restore": "verified_after_Amazon_reinstall"
     },
     "owned_entitlement_restore_verified": true
+  },
+  "lat2": {
+    "checked": "2026-10-30",
+    "distribution": "TEST_ONLY",
+    "track": 2,
+    "name": "FloraTend 0.1.5 server verification",
+    "release_id": "amzn1.devportal.apprelease.1dcfff5e29ab4aa9bcd9e9e801464bcf",
+    "channel_id": "amzn1.channel.da5482a4754b4b0f8be04a45ff4982d7",
+    "status": "Test submitted",
+    "version_code": 6,
+    "version_name": "0.1.5",
+    "apk_sha256": "a94efb019d38a3a82f8f62f4583ae4b88629bdf739a6d325fbb64f4563a72329",
+    "drm": true,
+    "tablet_devices_selected": 12,
+    "tester_group": "FloraTend Premium LAT",
+    "tester_group_selected_and_read_back": true,
+    "genuine_server_receipt_verified": false,
+    "checkout_issue_resolved": false,
+    "public_promotion_performed": false,
+    "evidence": "evidence/receipt-verification/lat2-submitted.png"
   }
 }

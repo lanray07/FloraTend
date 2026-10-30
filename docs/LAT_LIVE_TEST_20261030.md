@@ -1,3 +1,5 @@
+> Latest candidate status: [0.1.5 server verification and Test 2](SERVER_RECEIPT_RELEASE_CHECK_20261030.md). Historical results below apply to their stated build.
+
 # Amazon-delivered LAT Test 1 — 30 October 2026
 
 **PASS: actual LAT catalogue, purchase, restart persistence and owned-entitlement restore on the Amazon-delivered build.** This update supersedes the environment state in [the earlier blocked check](LAT_BILLING_CHECK_20261030.md), while retaining that run's actual failed callbacks as historical evidence.
@@ -30,7 +32,7 @@ After removing the verified-empty sideload, Amazon delivered code **5 / 0.1.4** 
 
 The previously missing price resolved after LAT became available and the Amazon-delivered build was installed. No hard-coded price, local Premium override, fabricated callback or production code change was used.
 
-The first purchase attempt in landscape showed a blank window. Relaunch recovered Settings with Premium still inactive. The next attempt in portrait, without an immediate UIAutomator dump after the tap, displayed checkout normally. Both orientation and observation timing changed, so this does not isolate a root cause or establish a landscape fix. `purchase-blank-window.png` retains the failed attempt.
+The first purchase attempt in landscape showed a blank window. Relaunch recovered Settings with Premium still inactive. The next attempt in portrait, without an immediate UIAutomator dump after the tap, displayed checkout normally. Both orientation and observation timing changed, so this does not isolate a root cause or establish a landscape fix. Correction after image inspection: `purchase-blank-window.png` depicts Settings waiting, not a black checkout window; it does not substantiate the reported blank screen. The issue remains unisolated.
 
 ## Purchase, restoration and remaining limits
 

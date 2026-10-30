@@ -1,0 +1,21 @@
+{
+  "versionCode": 6,
+  "purchaseAttempted": false,
+  "identifiersRecorded": false,
+  "userDataStatus": "FAILED",
+  "nonblankOwnerReturned": false,
+  "explicitDiagnosticProductQuery": true,
+  "productDataStatus": "FAILED",
+  "skuReturned": false,
+  "skuMarkedUnavailable": false,
+  "sdkPrice": null,
+  "skuType": null,
+  "explicitDiagnosticHistoryQuery": true,
+  "historyStatus": "FAILED",
+  "sdkMode": "PRODUCTION",
+  "clientAvailable": false,
+  "clientPrice": null,
+  "clientMessage": "Amazon purchasing is unavailable. Check your store connection and try again.",
+  "catalogueAndPriceVerified": false,
+  "failure": "Amazon must supply a usable account before buying expected:<[SUCCESSFUL]> but was:<[FAILED]>"
+}

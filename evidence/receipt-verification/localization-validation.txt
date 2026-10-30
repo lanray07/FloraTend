@@ -1,0 +1,116 @@
+[
+  {
+    "locale": "en-GB",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "en-US",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "en-AU",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "es-ES",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "es-419",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "fr-FR",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "fr-CA",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "de-DE",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "it-IT",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "pt-BR",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "pt-PT",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "nl-NL",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "pl-PL",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "sv-SE",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "ja-JP",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "hi-IN",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "ar",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "tr-TR",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "id-ID",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  }
+]

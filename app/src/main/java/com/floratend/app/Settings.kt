@@ -16,7 +16,9 @@ class FloraSettings(private val context: Context) {
     val premium = context.store.data.map {
         val cache = context.getSharedPreferences("amazon_entitlement", Context.MODE_PRIVATE)
         (it[booleanPreferencesKey("premium")] ?: false) && BillingPolicy.cachedGrant(BuildConfig.DEBUG,
-            cache.getString("mode", null), cache.getString("owner", null), cache.getString("receipt", null), cache.getBoolean("active", false))
+            cache.getString("mode", null), cache.getString("owner", null), cache.getString("receipt", null), cache.getBoolean("active", false),
+            BillingPolicy.verifiedAuthority(cache.getBoolean("serverVerified", false),
+                cache.getString("verificationEndpoint", null), BuildConfig.RECEIPT_VERIFIER_URL))
     }
     suspend fun set(key: String, value: Boolean) { context.store.edit { it[booleanPreferencesKey(key)] = value } }
 }

@@ -30,7 +30,7 @@ checks = {
     'iap_metadata_fields_within_console_limits': all(0 < len(m['title']) <= 128 and 0 < len(m['description']) <= 1200 for m in product['locales'].values()),
     'google_play_services_and_billing_not_declared': not re.search(r'com\.google\.android\.(?:gms|play)|com\.android\.billingclient', gradle),
     'package_identifier_configured': 'applicationId = "com.floratend.app"' in gradle,
-    'version_configured': 'versionCode = 5' in gradle and 'versionName = "0.1.4"' in gradle,
+    'version_configured': 'versionCode = 6' in gradle and 'versionName = "0.1.5"' in gradle,
     'fire_os_16_target_api': 'compileSdk = 36' in gradle and 'targetSdk = 36' in gradle,
     'no_recognised_source_secret_patterns': not any(re.search(pattern, sources + gradle) for pattern in patterns),
     'authentication_assets_are_public_keys': all(b'BEGIN PUBLIC KEY' in p.read_bytes() and b'PRIVATE KEY' not in p.read_bytes() for p in main.glob('assets/*.pem')),

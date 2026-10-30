@@ -1,0 +1,35 @@
+
+com.floratend.app.RealServerReceiptTest:
+Error in genuineOwnedReceiptPassesRemoteVerification(com.floratend.app.RealServerReceiptTest):
+java.lang.IllegalStateException: No genuine purchase-history callback
+	at com.floratend.app.RealServerReceiptTest$genuineOwnedReceiptPassesRemoteVerification$1.invokeSuspend(RealServerReceiptTest.kt:53)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.floratend.app.RealServerReceiptTest.genuineOwnedReceiptPassesRemoteVerification(RealServerReceiptTest.kt:31)
+
+
+Time: 46.029
+There was 1 failure:
+1) genuineOwnedReceiptPassesRemoteVerification(com.floratend.app.RealServerReceiptTest)
+java.lang.IllegalStateException: No genuine purchase-history callback
+	at com.floratend.app.RealServerReceiptTest$genuineOwnedReceiptPassesRemoteVerification$1.invokeSuspend(RealServerReceiptTest.kt:53)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.floratend.app.RealServerReceiptTest.genuineOwnedReceiptPassesRemoteVerification(RealServerReceiptTest.kt:31)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+

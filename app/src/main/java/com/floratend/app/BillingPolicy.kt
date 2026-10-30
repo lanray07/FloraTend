@@ -7,11 +7,16 @@ object BillingPolicy {
     fun allowedMode(mode: String?, debugBuild: Boolean): Boolean =
         mode == "PRODUCTION" || (debugBuild && mode == "SANDBOX")
 
-    fun cachedGrant(debugBuild: Boolean, mode: String?, owner: String?, receipt: String?, active: Boolean): Boolean =
-        active && allowedMode(mode, debugBuild) && !owner.isNullOrBlank() && !receipt.isNullOrBlank()
+    fun cachedGrant(debugBuild: Boolean, mode: String?, owner: String?, receipt: String?, active: Boolean,
+                    serverVerified: Boolean = false): Boolean =
+        active && allowedMode(mode, debugBuild) && !owner.isNullOrBlank() && !receipt.isNullOrBlank() &&
+            ((mode == "SANDBOX" && debugBuild) || serverVerified)
 
     fun purchaseOwnerMatches(expected: String?, current: String?, returned: String?, successful: Boolean): Boolean =
         !expected.isNullOrBlank() && expected == current && (!successful || returned == expected)
+
+    fun verifiedAuthority(verified: Boolean, savedEndpoint: String?, currentEndpoint: String): Boolean =
+        verified && currentEndpoint.isNotBlank() && savedEndpoint == currentEndpoint
 }
 
 data class EntitledReceipt(

@@ -1,0 +1,8 @@
+{
+  "sdkMode": "PRODUCTION",
+  "receiptInjected": false,
+  "newPurchaseAttempted": false,
+  "remoteEndpoint": "https:\/\/floratend-receipt-verifier.lanraybanks.workers.dev\/verify",
+  "versionCode": 6,
+  "identifiersRecorded": false
+}

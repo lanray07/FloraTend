@@ -1,0 +1,14 @@
+{
+  "testDebugUnitTest": {
+    "tests": 21,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "testReleaseUnitTest": {
+    "tests": 21,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  }
+}

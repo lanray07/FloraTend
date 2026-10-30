@@ -1,0 +1,12 @@
+{
+  "endpoint": "https://floratend-receipt-verifier.lanraybanks.workers.dev/verify",
+  "negativeFixtureOnly": true,
+  "methodRejected": true,
+  "malformedRejected": true,
+  "queryRejected": true,
+  "concurrentRequests": 12,
+  "amazonRejectedInvalidPairs": 10,
+  "durableRateLimited": 2,
+  "rawAccountOrReceiptIdentifiersUsed": false,
+  "status": "PASS"
+}

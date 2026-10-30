@@ -1,3 +1,5 @@
+> Latest candidate status: [0.1.5 server verification and Test 2](SERVER_RECEIPT_RELEASE_CHECK_20261030.md). Historical results below apply to their stated build.
+
 # LAT billing readiness check — 30 October 2026
 
 > Later update: LAT is now active, the Amazon-delivered Test 1 build is installed and the £3.73 regional price is verified. Actual LAT purchase, restart persistence and owned-entitlement restoration after a clean Amazon reinstall passed. See [current live test evidence](LAT_LIVE_TEST_20261030.md). Earlier results below retain their original scope.

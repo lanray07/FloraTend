@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
+  "name": "floratend-receipt-verifier-production",
+  "main": "cloudflare-worker.mjs",
+  "compatibility_date": "2026-10-30",
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": {"enabled": false},
+  "vars": {"FLORATEND_RVS_ENVIRONMENT": "PRODUCTION"},
+  "durable_objects": {"bindings": [{"name": "RECEIPT_LIMIT", "class_name": "ReceiptRateLimit"}]},
+  "migrations": [{"tag": "v1", "new_sqlite_classes": ["ReceiptRateLimit"]}]
+}

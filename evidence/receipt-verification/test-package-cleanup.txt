@@ -1,0 +1,4 @@
+com.floratend.app.test: Success
+com.floratend.app.qa.test: Success
+com.floratend.app.qa: Success
+com.floratend.app: Success

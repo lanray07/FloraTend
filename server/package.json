@@ -1,0 +1,8 @@
+{
+  "name": "floratend-receipt-verifier",
+  "private": true,
+  "type": "module",
+  "scripts": {"test": "node --test receipt-verifier.test.mjs"},
+  "devDependencies": {"wrangler": "4.154.0"},
+  "engines": {"node": ">=22"}
+}

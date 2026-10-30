@@ -1,0 +1,15 @@
+{
+  "provider": "Cloudflare Workers",
+  "plan": "Free",
+  "plan_verified_in_dashboard": true,
+  "recurring_base_price_usd": 0,
+  "paid_upgrade_performed": false,
+  "supabase_project_created": false,
+  "supabase_creation_blocker": "Two active free project quota; existing projects unchanged",
+  "lat_endpoint": "https://floratend-receipt-verifier.lanraybanks.workers.dev/verify",
+  "production_endpoint": "https://floratend-receipt-verifier-production.lanraybanks.workers.dev/verify",
+  "secret_storage": "Cloudflare server secret bindings; no server credentials in APK",
+  "persistent_data": "Minute counters keyed by HMAC owner, no raw account/receipt IDs",
+  "logging": "Application logs and request observability disabled; temporary redacted diagnostics removed",
+  "free_limit_behavior": "Requests can fail when Free quotas are exhausted; no paid upgrade enabled"
+}

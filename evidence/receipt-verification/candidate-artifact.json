@@ -1,0 +1,12 @@
+{
+  "versionCode": 6,
+  "versionName": "0.1.5",
+  "sha256": "a94efb019d38a3a82f8f62f4583ae4b88629bdf739a6d325fbb64f4563a72329",
+  "bytes": 10901833,
+  "configuredVerifier": "https://floratend-receipt-verifier.lanraybanks.workers.dev/verify",
+  "serverSecretBytesAbsent": true,
+  "endpointBoundCacheCodePresent": true,
+  "fixtureReceiptAbsentFromApp": true,
+  "latestNegativeAuthorityTestPresent": true,
+  "installationProvenance": "Developer-signed direct candidate; not Amazon-resigned yet"
+}

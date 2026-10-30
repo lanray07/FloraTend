@@ -1,0 +1,14 @@
+{
+  "pages": 12,
+  "language": "en-GB",
+  "production_configured": false,
+  "canonical_origin": null,
+  "appstore_link_configured": false,
+  "pending": [
+    "Verified deployment origin required",
+    "Publisher legal/contact information and final privacy review",
+    "Translated pages and human review",
+    "Product facts reconciliation against verified release",
+    "Verified Appstore listing URL"
+  ]
+}

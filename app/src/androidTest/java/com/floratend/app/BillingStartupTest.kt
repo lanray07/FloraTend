@@ -33,7 +33,8 @@ class BillingStartupTest {
         check(cache.edit().clear().putString("mode", "PRODUCTION")
             .putString("owner", "controlled-fixture-owner")
             .putString("receipt", "controlled-fixture-receipt")
-            .putBoolean("active", active).commit())
+            .putBoolean("active", active).putBoolean("serverVerified", true)
+            .putString("verificationEndpoint", BuildConfig.RECEIPT_VERIFIER_URL).commit())
     }
     @Test fun restartRecoversGrantWhenCacheWasWrittenBeforeProjection(): Unit = runBlocking {
         fixture(true)

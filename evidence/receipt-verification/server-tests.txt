@@ -1,0 +1,14 @@
+✔ Amazon fields bind exact SKU, type, receipt and environment (1.3501ms)
+✔ successful HTTP flow returns minimal non-cacheable result (52.052ms)
+✔ bad input, query strings, missing configuration and rate limits cannot call RVS (5.3122ms)
+✔ only definitive Amazon answers revoke; outages never fabricate success (8.4041ms)
+✔ bearer identifiers are URL encoded, never interpreted as an upstream host (1.7318ms)
+✔ Workers-compatible manual redirects never forward the shared secret (1.2642ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 308.678

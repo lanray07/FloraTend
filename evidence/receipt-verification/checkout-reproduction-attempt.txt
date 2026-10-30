@@ -1,0 +1,7 @@
+ERROR: null root node returned by UiTestAutomationBridge.
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\observe_lat_checkout.py", line 88, in <module>
+    main()
+  File "D:\App Projects\FloraTend\tools\observe_lat_checkout.py", line 46, in main
+    raise RuntimeError('No fresh pre-checkout UI; refusing a stale selector')
+RuntimeError: No fresh pre-checkout UI; refusing a stale selector

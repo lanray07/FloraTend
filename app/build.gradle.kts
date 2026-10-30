@@ -13,8 +13,13 @@ android {
         applicationId = "com.floratend.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 5
-        versionName = "0.1.4"
+        versionCode = 6
+        versionName = "0.1.5"
+        val verifierUrl = providers.gradleProperty("floratend.receiptVerifierUrl")
+            .orElse(providers.environmentVariable("FLORATEND_RECEIPT_VERIFIER_URL"))
+            .getOrElse("https://floratend-receipt-verifier-production.lanraybanks.workers.dev/verify")
+        require(verifierUrl.isEmpty() || verifierUrl.matches(Regex("https://[a-zA-Z0-9.-]+/[a-zA-Z0-9/_-]+"))) { "Invalid receipt verifier HTTPS URL" }
+        buildConfigField("String", "RECEIPT_VERIFIER_URL", "\"$verifierUrl\"")
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     signingConfigs {
@@ -29,6 +34,12 @@ android {
         }
     }
     buildTypes { release { isMinifyEnabled = false; signingConfig = if (!System.getenv("FLORATEND_KEYSTORE").isNullOrBlank()) signingConfigs.getByName("store") else null } }
+    buildTypes.create("qa") {
+        initWith(buildTypes.getByName("debug"))
+        applicationIdSuffix = ".qa"
+        versionNameSuffix = "-qa"
+        matchingFallbacks += "debug"
+    }
     buildFeatures { compose = true; buildConfig = true }
     compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
     kotlinOptions { jvmTarget = "17" }

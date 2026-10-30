@@ -16,7 +16,8 @@ class BillingPolicyTest {
             assertFalse(BillingPolicy.allowedMode(mode, BuildConfig.DEBUG))
     }
     @Test fun cacheRequiresCompleteOwnerReceiptModeAndActiveFlag() {
-        assertTrue(BillingPolicy.cachedGrant(false, "PRODUCTION", "owner", "receipt", true))
+        assertTrue(BillingPolicy.cachedGrant(false, "PRODUCTION", "owner", "receipt", true, serverVerified = true))
+        assertFalse(BillingPolicy.cachedGrant(false, "PRODUCTION", "owner", "receipt", true))
         assertFalse(BillingPolicy.cachedGrant(false, "PRODUCTION", "owner", "receipt", false))
         assertFalse(BillingPolicy.cachedGrant(false, "SANDBOX", "owner", "receipt", true))
         for (missing in listOf(null, "", "  ")) {

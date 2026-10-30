@@ -13,6 +13,7 @@ import kotlinx.coroutines.flow.StateFlow
 class AmazonBilling(context: Context, private val settings: FloraSettings) : PurchasingListener {
     companion object { const val SKU = BillingPolicy.PREMIUM_SKU }
     private val app = context.applicationContext
+    private val verifier: ReceiptVerifier = ServerReceiptVerifier()
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main.immediate)
     private val cache = app.getSharedPreferences("amazon_entitlement", Context.MODE_PRIVATE)
     private val entitlements = EntitlementStore(cache, BuildConfig.DEBUG) { settings.set("premium", it) }
@@ -34,6 +35,7 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
     private var history = EntitlementHistory()
     private var restoreRequested = false
     private var keepPurchaseMessage = false
+    private var verificationRevision = 0L
 
     fun register() {
         if (registrationStarted) return
@@ -103,6 +105,7 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
         val owner = response.userData?.userId?.takeIf { it.isNotBlank() } ?: run { unavailable(); return@launch }
         val switched = cache.getString("owner", null) != owner || cache.getString("mode", null) != LicensingService.getAppstoreSDKMode()
         if (switched) {
+            verificationRevision++
             keepPurchaseMessage = false
             try { entitlements.changeOwner(owner, LicensingService.getAppstoreSDKMode()) }
             catch (error: Exception) {
@@ -115,7 +118,8 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
         user = owner
         runCatching {
             productRequest = PurchasingService.getProductData(setOf(SKU))
-            if (updatesRequest == null) startUpdates(restoreRequested || switched)
+            // Revalidate the owned receipt on every successful foreground account refresh.
+            if (updatesRequest == null) startUpdates(true)
         }.onFailure { unavailable() }
     } }
 
@@ -133,6 +137,9 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
         val product = response.productData?.get(SKU)
         if (response.requestStatus == ProductDataResponse.RequestStatus.SUCCESSFUL &&
             product?.productType == ProductType.ENTITLED && product.price.isNotBlank() && allowedMode()) {
+            if (LicensingService.getAppstoreSDKMode() == "PRODUCTION" && !ServerReceiptVerifier.configured()) {
+                unavailable(); return@launch
+            }
             mutablePrice.value = product.price
             mutableAvailable.value = true
             if (!keepPurchaseMessage) mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_price_available)
@@ -194,8 +201,21 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
 
     private suspend fun persistSnapshot(receipt: EntitledReceipt?): Boolean {
         val owner = user ?: return false
+        val revision = ++verificationRevision
+        val mode = LicensingService.getAppstoreSDKMode()
+        val verification = if (receipt != null && !receipt.canceled && !receipt.deferred && mode == "PRODUCTION")
+            verifier.verify(owner, receipt.id) else Verification.UNAVAILABLE
+        // Verification suspends: never persist a response for an account that has changed.
+        if (revision != verificationRevision || owner != user || mode != LicensingService.getAppstoreSDKMode()) return false
         try {
-            if (!entitlements.save(owner, LicensingService.getAppstoreSDKMode(), receipt)) { unavailable(); return false }
+            if (receipt != null && !receipt.canceled && !ReceiptVerificationPolicy.grant(mode, BuildConfig.DEBUG, verification)) {
+                if (verification == Verification.REVOKED || verification == Verification.INVALID) {
+                    entitlements.save(owner, mode, receipt.copy(canceled = true))
+                }
+                mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_restore_failed)
+                return false
+            }
+            if (!entitlements.save(owner, mode, receipt, verification == Verification.VERIFIED)) { unavailable(); return false }
         } catch (error: Exception) {
             if (error is CancellationException) throw error
             unavailable(); return false

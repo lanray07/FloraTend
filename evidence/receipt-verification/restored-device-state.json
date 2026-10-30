@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-30",
+  "installedVersionCode": 5,
+  "installer": "com.amazon.venezia",
+  "debuggable": false,
+  "premiumActive": true,
+  "temporaryHarnessesRemoved": true,
+  "baselinePurpose": "Working Test 1 restored while Amazon processes Test 2; no genuine code-6 RVS success claimed",
+  "settings": {
+    "accelerometer_rotation": "1",
+    "user_rotation": "0",
+    "wifi_on": "1"
+  },
+  "explicitRestoreInvoked": true,
+  "uiObservation": "Amazon confirmed fresh landscape Test 1 purchase; explicit Restore purchases invoked afterwards"
+}
