@@ -82,32 +82,41 @@
   },
   "lat": {
     "tester_identifier_held_privately": true,
-    "invitations_sent": false,
+    "invitations_sent": true,
     "app_submitted": true,
-    "production_service_purchase_verified": false,
+    "production_service_purchase_verified": true,
     "draft_created": true,
     "release_id": "amzn1.devportal.apprelease.7c3531115e8c491ab1103825aaff94f1",
     "version_code": 5,
-    "tester_group_assigned": false,
+    "tester_group_assigned": true,
     "export_compliance_certified": true,
     "tester_group_name": "FloraTend Premium LAT",
     "test_submission_authorized": true,
     "invitation_authorized": true,
-    "status": "Test submitted",
+    "status": "Test in-progress",
     "distribution": "TEST_ONLY",
     "tester_count": 1,
-    "invitation_status": "Pending Amazon test availability; enrollment retry returned server 500",
+    "invitation_status": "Delivered",
     "public_promotion_performed": false,
     "submission_date": "2026-10-30",
     "tester_group_selected_at_submission": true,
-    "tester_group_association_verified": false,
+    "tester_group_association_verified": true,
     "enrollment_retry_result": "An error occurred in adding requested tester(s)",
     "submitted_form_selection_verified": true,
-    "latest_check_evidence": "evidence/lat-billing/console-readback.json",
-    "latest_sdk_callbacks": {
+    "latest_check_evidence": "evidence/lat-live/verification.json",
+    "historical_sdk_callbacks": {
       "user_data": "FAILED",
       "product_data": "FAILED",
       "full_history": "FAILED"
-    }
+    },
+    "current_ui_verification": {
+      "amazon_delivered_build": true,
+      "regional_price": "GBP 3.73",
+      "purchase_history_checked": true,
+      "premium_active": true,
+      "purchase": "verified_LAT",
+      "owned_restore": "verified_after_Amazon_reinstall"
+    },
+    "owned_entitlement_restore_verified": true
   }
 }

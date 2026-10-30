@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-30",
+  "version_code": 5,
+  "scope": "Amazon-delivered Test 1 on physical Fire HD10; UI verification",
+  "lat_status": "Test in-progress",
+  "invitation": "Delivered",
+  "installer": "com.amazon.venezia",
+  "catalogue_price": "GBP 3.73",
+  "purchase_history_checked": true,
+  "premium_active": true,
+  "purchase_verified": true,
+  "owned_restore_verified": true,
+  "checkpoint": "Requested LAT purchase and restore verified; pending GitHub push/CI",
+  "landscape_blank_attempt": "Recovered by relaunch; cause not isolated; portrait checkout displayed",
+  "report": "docs/LAT_LIVE_TEST_20261030.md",
+  "public_promotion": false,
+  "raw_account_and_receipt_identifiers_published": false,
+  "explicit_restore_verified": true,
+  "process_restart_verified": true,
+  "restore_method": "Uninstall empty test installation, Amazon re-delivery of same APK, fresh onboarding, automatic SDK history restoration, explicit Restore purchases",
+  "landscape_checkout_reverified": false
+}

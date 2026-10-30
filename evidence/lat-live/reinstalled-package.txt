@@ -1,0 +1,4 @@
+versionCode=5 minSdk=26 targetSdk=36
+versionName=0.1.4
+flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+installerPackageName=com.amazon.venezia

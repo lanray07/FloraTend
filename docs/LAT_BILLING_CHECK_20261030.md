@@ -1,5 +1,7 @@
 # LAT billing readiness check — 30 October 2026
 
+> Later update: LAT is now active, the Amazon-delivered Test 1 build is installed and the £3.73 regional price is verified. Actual LAT purchase, restart persistence and owned-entitlement restoration after a clean Amazon reinstall passed. See [current live test evidence](LAT_LIVE_TEST_20261030.md). Earlier results below retain their original scope.
+
 **Blocked by the current Amazon test environment. Missing product/price is not resolved, and purchase plus owned-entitlement restore are not complete.** This check adds actual SDK callback evidence; it does not convert a sideload into an Amazon-delivered LAT installation.
 
 ## Verified console state

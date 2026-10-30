@@ -1138,14 +1138,20 @@
   "AC-19.10": {
     "test_name": "Production billing verification dependency",
     "status": "BLOCKED",
-    "actual_result": "Native client checks pass. IAP is TEST / Approved at USD 4.99. LAT remains Test submitted with tester management disabled; submitted form confirms the saved FloraTend group. Actual signed-tablet SDK account, direct product and full-history callbacks all returned FAILED in PRODUCTION mode. No production price, purchase or owned-entitlement restore is verified; server RVS is not deployed.",
+    "actual_result": "Actual LAT catalogue GBP3.73, genuine purchase, force-stop persistence and owned-entitlement restore after uninstall/Amazon reinstall passed. Explicit Restore purchases retains Premium. IAP remains TEST-only and no public promotion occurred. Server RVS is not deployed; initial landscape checkout blank window remains unisolated, so the full production billing gate remains BLOCKED.",
     "evidence": [
       "submission/production-iap-readback.json",
       "docs/PRODUCTION_BILLING_RELEASE_CHECKS.md",
       "submission/test-only-submission.json",
       "evidence/lat-billing/production-callbacks.json",
-      "evidence/lat-billing/console-readback.json"
+      "evidence/lat-billing/console-readback.json",
+      "evidence/lat-live/verification.json",
+      "docs/LAT_LIVE_TEST_20261030.md",
+      "evidence/lat-live/purchase-confirmed.png",
+      "evidence/lat-live/owned-restored-after-reinstall.png"
     ],
-    "corrective_action": "Approve and perform the external test submission, authorize the tester invitation, install the Amazon-delivered LAT build and verify production-service flows."
+    "corrective_action": "Complete server verification and remaining billing edge cases; isolate the first landscape checkout blank-window attempt before production readiness.",
+    "execution_date": "2026-10-30",
+    "environment": "Physical Fire HD10 API28; Amazon-delivered code5 Test1, actual production Amazon LAT services"
   }
 }

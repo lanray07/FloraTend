@@ -10,25 +10,26 @@
   },
   "lat": {
     "name": "FloraTend 0.1.4 billing verification",
-    "status": "Test submitted",
+    "status": "Test in-progress",
     "group": "FloraTend Premium LAT",
     "group_created": true,
     "group_size": 1,
     "group_selected_at_submission": true,
-    "association_verified": false,
+    "association_verified": true,
     "invitation_authorized": true,
-    "invitation_delivery_verified": false,
+    "invitation_delivery_verified": true,
     "enrollment_retry_http_status": 500,
     "enrollment_error": "An error occurred in adding requested tester(s)",
     "submitted_form_selection_verified": true,
-    "current_check": "evidence/lat-billing/console-readback.json"
+    "current_check": "evidence/lat-live/verification.json"
   },
   "publisher_confirmed_tester_and_export_declarations": true,
-  "actual_production_purchase_verified": false,
+  "actual_production_purchase_verified": true,
   "proof": [
     "iap-test-approved.png",
     "lat-test-submitted.png",
     "tester-assignment-error.png"
   ],
-  "private_tester_identifier_published": false
+  "private_tester_identifier_published": false,
+  "owned_entitlement_restore_verified": true
 }

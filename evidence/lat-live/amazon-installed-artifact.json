@@ -1,0 +1,11 @@
+{
+  "versionCode": 5,
+  "versionName": "0.1.4",
+  "installerPackage": "com.amazon.venezia",
+  "testTrack": 1,
+  "asin": "B0HPTB96DG",
+  "bytes": 11125630,
+  "sha256": "35b1481191acda7b6ab068469ff207d7ce5f4bca99fd3fbe3dadd3c05f405899",
+  "debuggable": false,
+  "installedVia": "Amazon Appstore delivery after removing verified-empty original sideload"
+}

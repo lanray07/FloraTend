@@ -1,5 +1,7 @@
 # Production billing preparation and release checks
 
+> Later update: LAT is now active, the Amazon-delivered Test 1 build is installed and the £3.73 regional price is verified. Actual LAT purchase, restart persistence and owned-entitlement restoration after a clean Amazon reinstall passed. See [current live test evidence](LAT_LIVE_TEST_20261030.md). Earlier results below retain their original scope.
+
 Verified 30 October 2026. Current candidate: **0.1.4 / code 5**. This report does not approve publication or claim a production purchase. The complete mandatory release matrix remains authoritative in `RELEASE_READINESS.md`.
 
 ## Amazon configuration prepared
