@@ -1,10 +1,10 @@
 {
   "AC-07.01": {
     "test_name": "Requested interface locale audit",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Windows / Python 3.10 / Android resource source audit",
     "status": "BLOCKED",
-    "actual_result": "All 19 requested Android locale bundles contain the current 168 resource entries with zero resource-validation errors. All remain assistant-authored drafts without human release approval. Physical Fire bundle/dictionary loading passed; representative UI tests were obstructed by the PIN lock screen.",
+    "actual_result": "All 19 requested Android locale bundles contain 168 resources with zero resource-validation errors. Native resource/dictionary loading passed for all 19; representative Spanish, German, Japanese and Arabic UI/actions passed. Human release approval remains pending for every locale.",
     "evidence": [
       "evidence/localization-validation.txt",
       "localization/validation-report.json"
@@ -412,16 +412,18 @@
     "corrective_action": "Set and verify the intended release version and future monotonic version codes before submission."
   },
   "AC-19.04": {
-    "test_name": "Release signing procedure documentation review",
-    "execution_date": "2026-10-28",
-    "environment": "README and Gradle signing configuration inspection",
+    "test_name": "Release signing documentation and artifact verification",
+    "execution_date": "2026-10-30",
+    "environment": "Windows / SDK 36 / physical Amazon KFTRWI API 28 where stated",
     "status": "PASS",
-    "actual_result": "README documents the four external signing environment variables, release command, certificate verification and prohibition on relabelling debug/unsigned builds. These names match Gradle configuration. No successful signing execution is inferred.",
+    "actual_result": "The signed 0.1.1/code 2 APK verifies with the same RSA3072 certificate using APK v2 signing. The local DPAPI signing workflow, secret locations and backup limitation are documented; secrets remain outside Git.",
     "evidence": [
-      "README.md",
-      "app/build.gradle.kts"
+      "evidence/release-signature.txt",
+      "evidence/signed-release-build.log",
+      "submission/README.md",
+      "tools/build_signed_release.ps1"
     ],
-    "corrective_action": "Execute and verify the documented process once publisher signing material is securely available."
+    "corrective_action": "Retain this evidence scope; complete remaining release gates separately."
   },
   "AC-19.05": {
     "test_name": "Declared permission inventory review",
@@ -800,5 +802,82 @@
       "evidence/device/offline-network-state.txt"
     ],
     "corrective_action": "Retain the tested-device scope and execute remaining locale/device/workflow scenarios separately."
+  },
+  "AC-06.05": {
+    "test_name": "Translated typed commands execute real actions",
+    "execution_date": "2026-10-30",
+    "environment": "Windows / SDK 36 / physical Amazon KFTRWI API 28 where stated",
+    "status": "PASS",
+    "actual_result": "All five commands opened the editor, queried actual due reminders, navigated the calendar, read actual reminder text, and confirmed/saved care history with recurrence in es-ES, de-DE, ja-JP and ar. Eleven native tests passed. Input was typed; actual microphone recognition is unverified.",
+    "evidence": [
+      "evidence/localized-device/instrumentation.txt",
+      "evidence/localized-device/screens/translated-typed-command-checks.json",
+      "evidence/api36-verification.json"
+    ],
+    "corrective_action": "Retain this evidence scope; complete remaining release gates separately."
+  },
+  "AC-07.03": {
+    "test_name": "All-locale resource placeholder validation",
+    "execution_date": "2026-10-30",
+    "environment": "Windows / SDK 36 / physical Amazon KFTRWI API 28 where stated",
+    "status": "PASS",
+    "actual_result": "The current 168-entry source and all 19 locale resource bundles validate with zero placeholder errors. Human linguistic approval remains pending.",
+    "evidence": [
+      "localization/validation-report.json",
+      "evidence/localization-validation.txt"
+    ],
+    "corrective_action": "Retain this evidence scope; complete remaining release gates separately."
+  },
+  "AC-07.13": {
+    "test_name": "Packaged locale command dictionary loading",
+    "execution_date": "2026-10-30",
+    "environment": "Windows / SDK 36 / physical Amazon KFTRWI API 28 where stated",
+    "status": "PASS",
+    "actual_result": "All 19 packaged dictionaries loaded and parsed five command families on the physical Fire; JVM coverage also exercises location capture, Unicode punctuation and unknown commands. This does not claim a recognition engine exists for these languages.",
+    "evidence": [
+      "evidence/localized-device/screens/resource-and-dictionary-checks.json",
+      "evidence/api36-build.log",
+      "app/src/test/java/com/floratend/app/LocalizedVoiceTest.kt"
+    ],
+    "corrective_action": "Retain this evidence scope; complete remaining release gates separately."
+  },
+  "AC-19.06": {
+    "test_name": "Store icon validation and console upload",
+    "execution_date": "2026-10-30",
+    "environment": "Windows / SDK 36 / physical Amazon KFTRWI API 28 where stated",
+    "status": "PASS",
+    "actual_result": "Original transparent 512px and 114px PNG icons passed dimension/hash checks and were accepted by the Amazon console.",
+    "evidence": [
+      "assets/store/icon-validation.json",
+      "submission/github-support-console.png",
+      "submission/README.md"
+    ],
+    "corrective_action": "Retain this evidence scope; complete remaining release gates separately."
+  },
+  "AC-19.09": {
+    "test_name": "Published privacy policy and console link",
+    "execution_date": "2026-10-30",
+    "environment": "Windows / SDK 36 / physical Amazon KFTRWI API 28 where stated",
+    "status": "PASS",
+    "actual_result": "A factual policy covering local plant records, speech providers, Amazon purchases, exports and deletion is public on GitHub and saved in the draft. This is policy preparation, not legal approval or completion of privacy labels.",
+    "evidence": [
+      "PRIVACY.md",
+      "submission/targeting-console-20261030.png",
+      "submission/console-draft.json"
+    ],
+    "corrective_action": "Retain this evidence scope; complete remaining release gates separately."
+  },
+  "AC-19.08": {
+    "test_name": "Localized listing draft verification",
+    "execution_date": "2026-10-30",
+    "environment": "Windows / SDK 36 / physical Amazon KFTRWI API 28 where stated",
+    "status": "BLOCKED",
+    "actual_result": "All 15 console-supported listing locale drafts were saved and their titles and descriptions read back. Linguistic approval is still pending.",
+    "evidence": [
+      "submission/listing-console-readback.json",
+      "submission/listings/en-US.json",
+      "submission/README.md"
+    ],
+    "corrective_action": "Obtain human review and complete corresponding localized store screenshot sets before release."
   }
 }

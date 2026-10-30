@@ -8,7 +8,7 @@ Physical-device testing is required before submission; emulator checks are initi
 
 The internal App title differs from the public Display title. The public docs reviewed do not state a numeric Display title maximum: validate the proposed title in Developer Console before approval. Binary language declarations do not translate the application. Amazon supports APK and AAB submission. [Upload your app file](https://developer.amazon.com/docs/app-submission/upload-app-file.html).
 
-For tablet listings: transparent PNG icons at 114×114 and 512×512; 3–10 PNG/JPEG screenshots. Supported landscape sizes: 800×480, 1024×600, 1280×720, 1280×800, 1920×1080, 1920×1200, 2560×1600; portrait is allowed. FloraTend's eight-composition requirement fits the count. Long description: 4,000 characters maximum; short description: 2,000 bytes. Supply 3–5 feature bullets. An optional comma-separated Keywords field exists. Listing inputs are plain text. IAP prices displayed inside the app must come from getProductData. [Appstore details](https://developer.amazon.com/docs/app-submission/appstore-details.html).
+For tablet listings: transparent PNG icons at 114Ã—114 and 512Ã—512; 3â€“10 PNG/JPEG screenshots. Supported landscape sizes: 800Ã—480, 1024Ã—600, 1280Ã—720, 1280Ã—800, 1920Ã—1080, 1920Ã—1200, 2560Ã—1600; portrait is allowed. FloraTend's eight-composition requirement fits the count. Long description: 4,000 characters maximum; short description: 2,000 bytes. Supply 3â€“5 feature bullets. An optional comma-separated Keywords field exists. Listing inputs are plain text. IAP prices displayed inside the app must come from getProductData. [Appstore details](https://developer.amazon.com/docs/app-submission/appstore-details.html).
 
 Do not put IAP prices in store metadata. Avoid repetitive terms, emojis, misleading assets or claims. [Listing and promotion policy](https://developer.amazon.com/docs/policy-center/listing-promo.html).
 
@@ -57,8 +57,16 @@ Use intervals to prompt a condition check. RHS recommends checking compost moist
 - Verify all final asset uploads against console validation; eight localized screenshots are required by FloraTend for each approved locale.
 - Trademark/name clearance, privacy-policy legal approval and horticultural translation review remain outstanding.
 
-## Actual console observations — 2026-10-28
+## Actual console observations â€” 2026-10-28
 
 The account exposes 15 description locales: en-US, en-GB, en-AU, en-IN, es-ES, es-MX, fr-FR, de-DE, it-IT, ja-JP, nl-NL, pl-PL, pt-BR, pt-PT and sv-SE. These take precedence over the earlier public-document enumeration for this draft. All 15 draft descriptions were saved and reloaded with matching title/short/long text; see `submission/listing-console-readback.json`. No human translation approval is asserted.
 
 The actual console counters permit a 200-character display title, 1,200-character short description, 4,000-character long description and up to 10 feature bullets. Both transparent icon sizes were accepted. Support email and GitHub SUPPORT.md / PRIVACY.md URLs were saved and read back. Public contact and factual disclosures are in those repository pages. The draft remains incomplete; privacy questionnaire, audience/rating, screenshots, device suitability and billing scenarios still need completion and review.
+
+## API 36 and targeting observations — 2026-10-30
+
+The console warned that target API 35 excluded six newer Alexa/Amazon Kids tablet entries. Amazon's current [minimum target table](https://developer.amazon.com/docs/app-submission/device-filtering-and-compatibility.html#fire-os-and-android-api-levels) requires target API 36 for Fire OS 16. Android's [AGP compatibility table](https://developer.android.com/build/releases/about-agp) permits API 36 with AGP 8.9.1 or later; this project uses 8.9.2.
+
+Version 0.1.1/code 2 targets and compiles against API 36, retains minSdk 26, passes build/lint/JVM/11 native Fire tests and signature verification, and is accepted in the console draft. The minimum-target warning cleared after processing. Twelve existing Fire tablet selections remain; the six newer Alexa tablet entries are still disabled in the picker and are not claimed compatible. A successful upload and a physical API 28 test do not establish Fire OS 16 runtime support.
+
+The saved audience is 16-17 plus 18+, independently of the content rating. The content questionnaire displays Complete. Privacy policy/support/deletion links use the public GitHub repository. Detailed user-data privacy labels remain incomplete pending verified SDK and speech-provider data mapping.

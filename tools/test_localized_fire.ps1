@@ -15,7 +15,11 @@ try {
     & $adb shell input keyevent KEYCODE_WAKEUP
     & $adb shell wm dismiss-keyguard
     $lockState=(& $adb shell dumpsys window policy | Out-String)
-    if ($lockState -match 'showingAndNotOccluded=true') {
+    # Fire OS can retain showingAndNotOccluded=true after unlock. The live
+    # KeyguardStateMonitor and input restriction reflect the visible lock state.
+    $liveState=[regex]::Match($lockState,'mIsShowing=(true|false)')
+    $locked=if ($liveState.Success) { $liveState.Groups[1].Value -eq 'true' } else { $lockState -match 'showingAndNotOccluded=true' }
+    if ($locked -or $lockState -match '(?m)^\s*(?:mInputRestricted|inputRestricted)=true') {
         throw 'Tablet is locked. Unlock it on the device before running UI tests; this runner does not bypass a PIN.'
     }
     & $adb install -r app/build/outputs/apk/debug/app-debug.apk

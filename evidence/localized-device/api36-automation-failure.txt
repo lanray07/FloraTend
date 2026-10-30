@@ -1,0 +1,40 @@
+
+com.floratend.app.PersistenceTest:..
+com.floratend.app.ReminderWorkerTest:.
+com.floratend.app.SpeechCapabilityTest:.
+com.floratend.app.UiSmokeTest:
+Error in createPlantAndNavigateAllCoreScreens(com.floratend.app.UiSmokeTest):
+java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@1d3de08already registered!
+	at android.os.Parcel.createException(Parcel.java:1959)
+	at android.os.Parcel.readException(Parcel.java:1919)
+	at android.os.Parcel.readException(Parcel.java:1869)
+	at android.app.IUiAutomationConnection$Stub$Proxy.connect(IUiAutomationConnection.java:255)
+	at android.app.UiAutomation.connect(UiAutomation.java:234)
+	at android.app.Instrumentation.getUiAutomation(Instrumentation.java:2116)
+	at android.app.Instrumentation.getUiAutomation(Instrumentation.java:2073)
+	at com.floratend.app.UiSmokeTest.shot(UiSmokeTest.kt:55)
+	at com.floratend.app.UiSmokeTest.createPlantAndNavigateAllCoreScreens(UiSmokeTest.kt:67)
+
+Error in careActionsJournalEditsAndVoiceConfirmation(com.floratend.app.UiSmokeTest):
+java.lang.IllegalStateException: UiAutomation not connected!
+	at android.app.UiAutomation.throwIfNotConnectedLocked(UiAutomation.java:1112)
+	at android.app.UiAutomation.takeScreenshot(UiAutomation.java:709)
+	at com.floratend.app.UiSmokeTest.shot(UiSmokeTest.kt:55)
+	at com.floratend.app.UiSmokeTest.careActionsJournalEditsAndVoiceConfirmation(UiSmokeTest.kt:115)
+.
+Error in rotationDarkThemeAndRecognitionFallback(com.floratend.app.UiSmokeTest):
+java.lang.IllegalStateException: UiAutomation not connected!
+	at android.app.UiAutomation.throwIfNotConnectedLocked(UiAutomation.java:1112)
+	at android.app.UiAutomation.takeScreenshot(UiAutomation.java:709)
+	at com.floratend.app.UiSmokeTest.shot(UiSmokeTest.kt:55)
+	at com.floratend.app.UiSmokeTest.rotationDarkThemeAndRecognitionFallback(UiSmokeTest.kt:143)
+
+com.floratend.app.LocalizedUiTest:
+Error in selectedLanguagePersistsAndRepresentativeScreensRender(com.floratend.app.LocalizedUiTest):
+java.lang.IllegalStateException: UiAutomation not connected!
+	at android.app.UiAutomation.throwIfNotConnectedLocked(UiAutomation.java:1112)
+	at android.app.UiAutomation.takeScreenshot(UiAutomation.java:709)
+	at com.floratend.app.LocalizedUiTest.screenshot(LocalizedUiTest.kt:120)
+	at com.floratend.app.LocalizedUiTest.selectedLanguagePersistsAndRepresentativeScreensRender(LocalizedUiTest.kt:181)
+..INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0

@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-30",
+  "application_id": "com.floratend.app",
+  "version_name": "0.1.1",
+  "version_code": 2,
+  "compile_sdk": 36,
+  "target_sdk": 36,
+  "minimum_sdk": 26,
+  "device": "Amazon Fire HD 10 (2021) KFTRWI / API 28",
+  "native_tests_passed": 11,
+  "jvm_tests_passed": 11,
+  "lint": "PASS",
+  "speech_recognition_exercised": false,
+  "human_language_review": false,
+  "hashes": {
+    "app/build/outputs/apk/debug/app-debug.apk": "d9f0851db5db51935238d88fa4d304985a9bf6327ca54bef7e538413edbc7a81",
+    "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk": "94310cc50916ae7bdd1102526cd847a74eb55bcc76eb9c3537759d8a9ef9d3b5",
+    "app/build/outputs/apk/release/app-release.apk": "c8aa9a846e8a2c04ece41f745c1202387eae9bb8f662a94862a0b50fdb9d057a",
+    "evidence/localized-device/instrumentation.txt": "0e71c05e551d6ea32333a816f396b50b2d10a4cef5bc8dcb89f0021c9b961206"
+  }
+}

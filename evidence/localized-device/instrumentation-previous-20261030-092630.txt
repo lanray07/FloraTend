@@ -1,0 +1,12 @@
+
+com.floratend.app.PersistenceTest:..
+com.floratend.app.ReminderWorkerTest:.
+com.floratend.app.SpeechCapabilityTest:.
+com.floratend.app.UiSmokeTest:....
+com.floratend.app.LocalizedUiTest:...
+
+Time: 77.49
+
+OK (11 tests)
+
+

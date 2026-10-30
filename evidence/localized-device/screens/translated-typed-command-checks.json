@@ -1,0 +1,38 @@
+{
+  "locales": [
+    {
+      "locale": "es-ES",
+      "typedAddOpenedEditor": true,
+      "typedDueReadActualReminders": true,
+      "typedCalendarNavigated": true,
+      "typedReadReadActualReminders": true,
+      "typedWaterRequiredConfirmationAndSaved": true
+    },
+    {
+      "locale": "de-DE",
+      "typedAddOpenedEditor": true,
+      "typedDueReadActualReminders": true,
+      "typedCalendarNavigated": true,
+      "typedReadReadActualReminders": true,
+      "typedWaterRequiredConfirmationAndSaved": true
+    },
+    {
+      "locale": "ja-JP",
+      "typedAddOpenedEditor": true,
+      "typedDueReadActualReminders": true,
+      "typedCalendarNavigated": true,
+      "typedReadReadActualReminders": true,
+      "typedWaterRequiredConfirmationAndSaved": true
+    },
+    {
+      "locale": "ar",
+      "typedAddOpenedEditor": true,
+      "typedDueReadActualReminders": true,
+      "typedCalendarNavigated": true,
+      "typedReadReadActualReminders": true,
+      "typedWaterRequiredConfirmationAndSaved": true
+    }
+  ],
+  "speechRecognitionExercised": false,
+  "recognitionServiceAvailable": false
+}

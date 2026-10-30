@@ -2,14 +2,14 @@
 
 **BLOCKED**
 
-Verified acceptance rate: **51 / 204 = 25.00%**. BLOCKED and NOT TESTED criteria count as incomplete.
+Verified acceptance rate: **56 / 204 = 27.45%**. BLOCKED and NOT TESTED criteria count as incomplete.
 
 | Status | Mandatory criteria |
 |---|---:|
-| BLOCKED | 11 |
+| BLOCKED | 12 |
 | FAIL | 0 |
-| NOT TESTED | 142 |
-| PASS | 51 |
+| NOT TESTED | 136 |
+| PASS | 56 |
 
 The criterion-level evidence, expected behaviour and corrective actions are in [ACCEPTANCE_TEST_RESULTS.csv](ACCEPTANCE_TEST_RESULTS.csv) and [ACCEPTANCE_CRITERIA.md](ACCEPTANCE_CRITERIA.md). This decision is conservative: no release is approved while any mandatory criterion remains unverified. Publication additionally requires explicit user authorisation.
 
@@ -20,8 +20,8 @@ The criterion-level evidence, expected behaviour and corrective actions are in [
 - AC-03 — Plant Library: 6 criteria incomplete.
 - AC-04 — Watering and Care Scheduling: 4 criteria incomplete.
 - AC-05 — Growth Journal: 5 criteria incomplete.
-- AC-06 — Voice Input and Output: 12 criteria incomplete.
-- AC-07 — Worldwide Application Localisation: 14 criteria incomplete.
+- AC-06 — Voice Input and Output: 11 criteria incomplete.
+- AC-07 — Worldwide Application Localisation: 12 criteria incomplete.
 - AC-08 — Localised Amazon Appstore Screenshots: 14 criteria incomplete.
 - AC-09 — Automatic Translation Pipeline: 3 criteria incomplete.
 - AC-10 — Offline Functionality: 3 criteria incomplete.
@@ -33,4 +33,4 @@ The criterion-level evidence, expected behaviour and corrective actions are in [
 - AC-16 — Privacy and Security: 11 criteria incomplete.
 - AC-17 — Accessibility: 9 criteria incomplete.
 - AC-18 — Performance and Reliability: 8 criteria incomplete.
-- AC-19 — Release Package: 8 criteria incomplete.
+- AC-19 — Release Package: 6 criteria incomplete.
