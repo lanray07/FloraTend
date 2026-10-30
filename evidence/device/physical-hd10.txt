@@ -4,7 +4,7 @@ com.floratend.app.ReminderWorkerTest:.
 com.floratend.app.SpeechCapabilityTest:.
 com.floratend.app.UiSmokeTest:....
 
-Time: 45.087
+Time: 44.568
 
 OK (8 tests)
 

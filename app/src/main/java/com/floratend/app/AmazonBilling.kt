@@ -11,10 +11,11 @@ import kotlinx.coroutines.flow.StateFlow
 
 /** Native Amazon callbacks are authenticated by the SDK/public key. This is not server RVS. */
 class AmazonBilling(context: Context, private val settings: FloraSettings) : PurchasingListener {
-    companion object { const val SKU = "floratend.premium" }
+    companion object { const val SKU = BillingPolicy.PREMIUM_SKU }
     private val app = context.applicationContext
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main.immediate)
     private val cache = app.getSharedPreferences("amazon_entitlement", Context.MODE_PRIVATE)
+    private val entitlements = EntitlementStore(cache, BuildConfig.DEBUG) { settings.set("premium", it) }
     private val mutablePrice = MutableStateFlow<String?>(null)
     private val mutableMessage = MutableStateFlow(AppLocales.wrap(app).getString(R.string.billing_unconfigured))
     private val mutableAvailable = MutableStateFlow(false)
@@ -22,6 +23,7 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
     val message: StateFlow<String> = mutableMessage
     val available: StateFlow<Boolean> = mutableAvailable
     private var registered = false
+    private var registrationStarted = false
     private var user: String? = null
     private var userRequest: RequestId? = null
     private var productRequest: RequestId? = null
@@ -29,33 +31,37 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
     private var updatesRequest: RequestId? = null
     private var updatesUser: String? = null
     private var fullHistory = false
-    private var updateCandidate: Receipt? = null
+    private var history = EntitlementHistory()
     private var restoreRequested = false
+    private var keepPurchaseMessage = false
 
     fun register() {
-        if (registered) return
-        // Sandbox entitlements must never survive installation of a production build.
-        if (!BuildConfig.DEBUG && cache.getString("mode", "") != "PRODUCTION") scope.launch {
-            settings.set("premium", false)
-        }
-        if (!runCatching { app.assets.open("AppstoreAuthenticationKey.pem").use { it.read() >= 0 } }.getOrDefault(false)) return
-        runCatching {
-            PurchasingService.registerListener(app, this)
-            registered = true
-            LicensingService.verifyLicense(app) {
-                scope.launch {
-                    if (!allowedMode()) {
-                        mutableAvailable.value = false
-                        mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_environment)
-                    } else refresh()
+        if (registrationStarted) return
+        registrationStarted = true
+        scope.launch {
+            try {
+                entitlements.recover()
+                if (!runCatching { app.assets.open("AppstoreAuthenticationKey.pem").use { it.read() >= 0 } }.getOrDefault(false)) return@launch
+                PurchasingService.registerListener(app, this@AmazonBilling)
+                registered = true
+                LicensingService.verifyLicense(app) {
+                    scope.launch {
+                        if (!allowedMode()) {
+                            mutableAvailable.value = false
+                            mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_environment)
+                        } else refresh()
+                    }
                 }
+            } catch (error: Exception) {
+                if (error is CancellationException) throw error
+                unavailable()
             }
-        }.onFailure { unavailable() }
+        }
     }
 
     private fun allowedMode(): Boolean {
         val mode = LicensingService.getAppstoreSDKMode()
-        return mode == "PRODUCTION" || (BuildConfig.DEBUG && mode == "SANDBOX")
+        return BillingPolicy.allowedMode(mode, BuildConfig.DEBUG)
     }
 
     /** Called from Activity.onResume; retains a verified cached entitlement while offline. */
@@ -63,6 +69,7 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
         if (!registered) { mutableMessage.value=AppLocales.wrap(app).getString(R.string.billing_unconfigured);return };if (userRequest != null) return
         mutableAvailable.value = false
         mutablePrice.value = null
+        productRequest = null // A prior account refresh must not re-enable purchases with a late price response.
         runCatching { userRequest = PurchasingService.getUserData() }.onFailure { unavailable() }
     }
 
@@ -75,12 +82,14 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
             mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_history_loading)
             return
         }
+        keepPurchaseMessage = false
         mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_waiting)
         runCatching { purchases[PurchasingService.purchase(SKU)] = owner }.onFailure { unavailable() }
     }
 
     fun restore() {
         if (!registered) { unavailable(); return }
+        keepPurchaseMessage = false
         restoreRequested = true
         refresh()
     }
@@ -92,10 +101,14 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
             unavailable(); return@launch
         }
         val owner = response.userData?.userId?.takeIf { it.isNotBlank() } ?: run { unavailable(); return@launch }
-        val switched = cache.getString("owner", null) != owner
+        val switched = cache.getString("owner", null) != owner || cache.getString("mode", null) != LicensingService.getAppstoreSDKMode()
         if (switched) {
-            settings.set("premium", false)
-            cache.edit().putString("owner", owner).putBoolean("active", false).apply()
+            keepPurchaseMessage = false
+            try { entitlements.changeOwner(owner, LicensingService.getAppstoreSDKMode()) }
+            catch (error: Exception) {
+                if (error is CancellationException) throw error
+                unavailable(); return@launch
+            }
             purchases.clear()
             updatesRequest = null
         }
@@ -108,7 +121,7 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
 
     private fun startUpdates(reset: Boolean) {
         fullHistory = reset
-        updateCandidate = null
+        history = EntitlementHistory()
         updatesUser = user
         updatesRequest = PurchasingService.getPurchaseUpdates(reset)
         restoreRequested = false
@@ -122,13 +135,15 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
             product?.productType == ProductType.ENTITLED && product.price.isNotBlank() && allowedMode()) {
             mutablePrice.value = product.price
             mutableAvailable.value = true
-            mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_price_available)
+            if (!keepPurchaseMessage) mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_price_available)
         } else unavailable()
     } }
 
     override fun onPurchaseResponse(response: PurchaseResponse) { scope.launch {
         val expectedUser = purchases.remove(response.requestId) ?: return@launch
-        if (expectedUser != user || response.userData?.userId != expectedUser || !allowedMode()) return@launch
+        if (!BillingPolicy.purchaseOwnerMatches(expectedUser, user, response.userData?.userId,
+                response.requestStatus == PurchaseResponse.RequestStatus.SUCCESSFUL) || !allowedMode()) return@launch
+        keepPurchaseMessage = true
         when (response.requestStatus) {
             PurchaseResponse.RequestStatus.SUCCESSFUL -> {
                 val receipt = response.receipt
@@ -136,7 +151,7 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
                     mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_pending)
                     return@launch
                 }
-                persist(!receipt.isCanceled, receipt)
+                if (!persist(receipt)) return@launch
                 mutableMessage.value = if (receipt.isCanceled) AppLocales.wrap(app).getString(R.string.billing_canceled) else AppLocales.wrap(app).getString(R.string.billing_confirmed)
             }
             PurchaseResponse.RequestStatus.ALREADY_PURCHASED -> {
@@ -156,38 +171,39 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
             return@launch
         }
         for (receipt in response.receipts.orEmpty()) {
-            if (!matches(receipt) || receipt.isDeferred) continue
-            val previous = updateCandidate
-            val time = receipt.purchaseDate?.time ?: 0L
-            val previousTime = previous?.purchaseDate?.time ?: -1L
-            if (previous == null || time > previousTime ||
-                (time == previousTime && receipt.isCanceled)) updateCandidate = receipt
+            history.add(receipt.snapshot())
         }
         if (response.hasMore()) {
             runCatching { updatesRequest = PurchasingService.getPurchaseUpdates(false) }.onFailure { unavailable() }
         } else {
-            val receipt = updateCandidate
-            if (receipt != null && (fullHistory ||
-                (receipt.purchaseDate?.time ?: 0L) >= cache.getLong("purchaseEpoch", 0L))) {
-                persist(!receipt.isCanceled, receipt)
-            } else if (fullHistory && receipt == null) persist(false, null)
+            if (history.shouldReplace(fullHistory, cache.getLong("purchaseEpoch", 0L))) {
+                if (!persistSnapshot(history.latest)) return@launch
+            }
             if (restoreRequested) startUpdates(true)
-            mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_history_checked)
+            if (!keepPurchaseMessage) mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_history_checked)
         }
     } }
 
     private fun matches(receipt: Receipt?): Boolean = receipt != null && receipt.sku == SKU &&
         receipt.productType == ProductType.ENTITLED && receipt.receiptId.isNotBlank()
 
-    private suspend fun persist(active: Boolean, receipt: Receipt?) {
-        // Persist before acknowledgment so a crash can safely replay the idempotent grant.
-        cache.edit().putString("owner", user).putString("mode", LicensingService.getAppstoreSDKMode())
-            .putBoolean("active", active).putString("receipt", receipt?.receiptId)
-            .putLong("purchaseEpoch", receipt?.purchaseDate?.time ?: 0L).apply()
-        settings.set("premium", active)
-        if (active && receipt != null) runCatching {
-            PurchasingService.notifyFulfillment(receipt.receiptId, FulfillmentResult.FULFILLED)
+    private fun Receipt.snapshot() = EntitledReceipt(receiptId, sku, productType == ProductType.ENTITLED,
+        isCanceled, isDeferred, purchaseDate?.time ?: 0L)
+
+    private suspend fun persist(receipt: Receipt) = persistSnapshot(receipt.snapshot())
+
+    private suspend fun persistSnapshot(receipt: EntitledReceipt?): Boolean {
+        val owner = user ?: return false
+        try {
+            if (!entitlements.save(owner, LicensingService.getAppstoreSDKMode(), receipt)) { unavailable(); return false }
+        } catch (error: Exception) {
+            if (error is CancellationException) throw error
+            unavailable(); return false
         }
+        if (receipt != null && !receipt.canceled && !receipt.deferred) runCatching {
+            PurchasingService.notifyFulfillment(receipt.id, FulfillmentResult.FULFILLED)
+        }
+        return true
     }
 
     private fun unavailable() {

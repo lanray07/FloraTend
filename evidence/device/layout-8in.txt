@@ -1,7 +1,7 @@
 
 com.floratend.app.UiSmokeTest:....
 
-Time: 39.832
+Time: 40.171
 
 OK (4 tests)
 

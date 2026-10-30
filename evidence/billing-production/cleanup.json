@@ -1,0 +1,8 @@
+{
+  "sandbox_disabled": true,
+  "test_premium_revoked": true,
+  "catalogue_restored_byte_for_byte": true,
+  "response_settings_restored": true,
+  "test_account_restored": "Amazon User 1",
+  "other_projects_untouched": true
+}

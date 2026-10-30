@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-30",
+  "version_code": 5,
+  "version_name": "0.1.4",
+  "jvm_variants": {
+    "Debug": {
+      "tests": 17,
+      "failures": 0
+    },
+    "Release": {
+      "tests": 17,
+      "failures": 0
+    }
+  },
+  "artifacts": {
+    "app/build/outputs/apk/debug/app-debug.apk": {
+      "bytes": 13964228,
+      "sha256": "93089c46fb83a8262fe93a87968b89585afbb96e9d2b3d53568c47408c9710d3"
+    },
+    "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk": {
+      "bytes": 1130486,
+      "sha256": "a6e86a947b762e9451de2b048fc9c814d31abafbb81d56bea8870c7194ed5f04"
+    },
+    "app/build/outputs/apk/release/app-release.apk": {
+      "bytes": 10901829,
+      "sha256": "155fe9912c7060b4dd27dc46185c4f11522c05c79907d2774482914e3acfe35f"
+    }
+  },
+  "actual_production_purchase": false,
+  "iap_submitted": false,
+  "lat_invitation_sent": false,
+  "final_core_device_tests": {
+    "tests": 20,
+    "failures": 0,
+    "scope": "Physical HD10; smaller size overrides, large font, offline"
+  },
+  "additional_native_code5_tests": {
+    "tests": 6,
+    "failures": 0,
+    "scope": "Privacy deletion, startup recovery and entitlement-store fixtures"
+  }
+}

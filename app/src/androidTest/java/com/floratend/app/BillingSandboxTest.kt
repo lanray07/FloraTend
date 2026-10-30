@@ -72,8 +72,8 @@ class BillingSandboxTest {
             available();Thread.sleep(800)
             assertFalse("Use a fresh FloraTend sandbox entitlement",runBlocking{app.settings.premium.first()})
             runBlocking {
-                val canceled=async(start=CoroutineStart.UNDISPATCHED){withTimeout(30000){app.billing.message.first{it==app.getString(R.string.billing_incomplete)}}}
                 instrumentation.runOnMainSync{app.billing.purchase()}
+                val canceled=async(start=CoroutineStart.UNDISPATCHED){withTimeout(30000){app.billing.message.first{it==app.getString(R.string.billing_incomplete)}}}
                 clickNative("Cancel")
                 canceled.await()
             }
@@ -105,12 +105,13 @@ class BillingSandboxTest {
     }
 
     private val observedHistory=LinkedBlockingQueue<PurchaseUpdatesResponse>()
+    private val observedPurchases=LinkedBlockingQueue<PurchaseResponse>()
     private fun traceRealSdkCallbacks(){
         instrumentation.runOnMainSync {
             PurchasingService.registerListener(app,object:PurchasingListener {
                 override fun onUserDataResponse(r:UserDataResponse){app.billing.onUserDataResponse(r)}
                 override fun onProductDataResponse(r:ProductDataResponse){app.billing.onProductDataResponse(r)}
-                override fun onPurchaseResponse(r:PurchaseResponse){app.billing.onPurchaseResponse(r)}
+                override fun onPurchaseResponse(r:PurchaseResponse){app.billing.onPurchaseResponse(r);observedPurchases.offer(r)}
                 override fun onPurchaseUpdatesResponse(r:PurchaseUpdatesResponse){app.billing.onPurchaseUpdatesResponse(r);observedHistory.offer(r)}
             })
         }
@@ -128,6 +129,33 @@ class BillingSandboxTest {
             result.put("realCanceledReceiptObserved",true).put("premiumRevoked",true)
         }catch(error:Throwable){result.put("error",error.toString());throw error}
         finally{save("canceled-receipt.json",result)}
+    }
+    @Test fun actualFailedPurchaseDoesNotGrantPremium() {
+        val result=JSONObject()
+        try {
+            available();Thread.sleep(800)
+            assertFalse(runBlocking { app.settings.premium.first() })
+            traceRealSdkCallbacks()
+            runBlocking {
+                val failure=async(start=CoroutineStart.UNDISPATCHED) { withTimeout(10000) {
+                    app.billing.message.first { it==app.getString(R.string.billing_incomplete) }
+                } }
+                instrumentation.runOnMainSync { app.billing.purchase() }
+                val response=observedPurchases.poll(30,TimeUnit.SECONDS) ?: error("No real failed purchase response")
+                assertEquals(PurchaseResponse.RequestStatus.FAILED,response.requestStatus)
+                result.put("realSdkFailedResponse",true).put("responseHadUserData",response.userData!=null)
+                    .put("responseUserIdIsBlank",response.userData?.userId.isNullOrBlank())
+                    .put("responseUserMatchesCurrentOwner",response.userData?.userId==app.getSharedPreferences("amazon_entitlement",Context.MODE_PRIVATE).getString("owner",null))
+                failure.await()
+            }
+            assertFalse(runBlocking { app.settings.premium.first() })
+            result.put("premiumNotGranted",true)
+            // Model Activity.onResume: a successful catalogue refresh must not hide the failure.
+            available();instrumentation.waitForIdleSync()
+            assertEquals(app.getString(R.string.billing_incomplete),app.billing.message.value)
+            result.put("errorRemainsVisibleAfterRefresh",true)
+        } catch(error:Throwable) { result.put("error",error.toString());throw error }
+        finally { save("failed-purchase.json",result.put("lastMessage",app.billing.message.value)) }
     }
     @Test fun differentSandboxAccountCannotUsePreviousGrant(){
         val result=JSONObject()
@@ -156,6 +184,81 @@ class BillingSandboxTest {
             result.put("failedSdkRefresh",true).put("verifiedCachedEntitlementRetained",true).put("purchaseDisabledDuringFailure",true)
         }catch(error:Throwable){result.put("error",error.toString());throw error}
         finally{save("failed-refresh-cache.json",result)}
+    }
+
+    @Test fun prepareRealReceiptForOfflineRelaunch() {
+        available()
+        runBlocking { withTimeout(10000) { app.settings.premium.first { it } } }
+        assertTrue(app.getSharedPreferences("amazon_entitlement",Context.MODE_PRIVATE).getBoolean("active",false))
+        app.getSharedPreferences("qa_billing_control",Context.MODE_PRIVATE).edit()
+            .putInt("before_restart_pid",android.os.Process.myPid()).commit()
+        save("offline-restart-prepare.json",JSONObject().put("genuineSandboxGrantConfirmed",true))
+    }
+
+    @Test fun realCachedEntitlementSurvivesOfflineProcessRestart() {
+        val connectivity=android.os.ParcelFileDescriptor.AutoCloseInputStream(
+            instrumentation.uiAutomation.executeShellCommand("dumpsys connectivity")).bufferedReader().use { it.readText() }
+        assertTrue("Disable every active network before running this case",connectivity.contains("Active default network: none"))
+        val previous=app.getSharedPreferences("qa_billing_control",Context.MODE_PRIVATE).getInt("before_restart_pid",-1)
+        assertTrue(previous>0);assertNotEquals(previous,android.os.Process.myPid())
+        runBlocking { withTimeout(10000) { app.settings.premium.first { it } } }
+        assertEquals("SANDBOX",app.getSharedPreferences("amazon_entitlement",Context.MODE_PRIVATE).getString("mode",null))
+        save("offline-restart.json",JSONObject().put("differentProcess",true).put("noActiveNetwork",true)
+            .put("genuineCachedEntitlementRetained",true))
+    }
+
+    private fun gateViewModel(): PlantViewModel {
+        lateinit var model: PlantViewModel
+        instrumentation.runOnMainSync { model=PlantViewModel(app) }
+        return model
+    }
+    private fun gatePlant(number:Int)=Plant(id="qa-premium-gate-$number",name="FloraTend QA gate $number")
+    private fun settingsScreen() {
+        runBlocking { app.settings.set("onboarded",true) }
+        rule.waitForIdle()
+        rule.onNodeWithText("Settings",substring=false).performScrollTo().performClick()
+    }
+    @Test fun realFreeAccountCannotAddSixthPlantOrExport() {
+        available()
+        assertFalse(runBlocking { app.settings.premium.first() })
+        val model=gateViewModel()
+        runBlocking {
+            check(app.database.dao().plants().first().all { it.id.startsWith("qa-premium-gate-") }) { "Dedicated empty test collection required" }
+            for(number in 1..5) app.database.dao().save(gatePlant(number))
+            model.save(gatePlant(6)) { error("Free account must not add the sixth plant") }.join()
+            assertNull(app.database.dao().plant(gatePlant(6).id))
+            assertEquals(app.getString(R.string.free_limit),model.error.value)
+        }
+        settingsScreen()
+        rule.onNodeWithText(app.getString(R.string.export_json)).assertIsNotEnabled()
+        rule.onNodeWithText(app.getString(R.string.export_csv)).assertIsNotEnabled()
+        save("free-gates.json",JSONObject().put("sixthPlantRejected",true).put("exportButtonsDisabled",true))
+    }
+    @Test fun realPremiumAccountUnlocksSixthPlantAndExports() {
+        try {
+            available()
+            runBlocking { withTimeout(10000) { app.settings.premium.first { it } } }
+            val model=gateViewModel()
+            runBlocking {
+                withTimeout(10000) { model.premium.first { it } }
+                check(app.database.dao().plants().first().all { it.id.startsWith("qa-premium-gate-") })
+                for(number in 1..5) app.database.dao().save(gatePlant(number))
+                model.save(gatePlant(6)) { }.join()
+                assertNotNull(app.database.dao().plant(gatePlant(6).id))
+                val plants=app.database.dao().plants().first()
+                val json=Export.json(plants,app.database.dao().schedules().first(),app.database.dao().journal().first(),app.database.dao().history().first())
+                val csv=Export.csv(plants)
+                assertTrue(json.contains(gatePlant(6).name));assertTrue(csv.contains(gatePlant(6).name))
+            }
+            settingsScreen()
+            rule.onNodeWithText(app.getString(R.string.export_json)).assertIsEnabled()
+            rule.onNodeWithText(app.getString(R.string.export_csv)).assertIsEnabled()
+            save("premium-gates.json",JSONObject().put("realSdkPremium",true).put("sixthPlantSaved",true)
+                .put("exportButtonsEnabled",true).put("exportPayloadContainsSavedRecord",true)
+                .put("systemDocumentDestinationNotExercised",true))
+        } finally {
+            runBlocking { app.database.dao().plants().first().filter { it.id.startsWith("qa-premium-gate-") }.forEach { app.database.dao().delete(it) } }
+        }
     }
 
 }

@@ -1,0 +1,7 @@
+{
+  "versionCode": 5,
+  "confirmationRequired": true,
+  "allFourRecordTablesEmpty": true,
+  "importedPhotoRemoved": true,
+  "scope": "Actual native delete-all UI and private test data; provider\/export copies are outside this scope"
+}

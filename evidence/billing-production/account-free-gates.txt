@@ -1,0 +1,8 @@
+
+com.floratend.app.BillingSandboxTest:..
+
+Time: 8.605
+
+OK (2 tests)
+
+

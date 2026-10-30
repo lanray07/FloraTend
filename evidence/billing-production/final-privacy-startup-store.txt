@@ -1,0 +1,10 @@
+
+com.floratend.app.PrivacyReleaseTest:.
+com.floratend.app.BillingStartupTest:..
+com.floratend.app.EntitlementStoreTest:...
+
+Time: 5.976
+
+OK (6 tests)
+
+

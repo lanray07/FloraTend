@@ -1,0 +1,7 @@
+{
+  "realSdkFailedResponse": true,
+  "error": "kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 10000 ms",
+  "lastMessage": "Waiting for Amazon purchase confirmation.",
+  "versionCode": 4,
+  "sandboxOnly": true
+}

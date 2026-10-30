@@ -1,0 +1,8 @@
+{
+  "cancelDidNotGrantPremium": true,
+  "realTesterPurchaseGranted": true,
+  "receiptPersisted": true,
+  "mode": "SANDBOX",
+  "versionCode": 3,
+  "sandboxOnly": true
+}

@@ -6,7 +6,7 @@ Native dependency: `com.amazon.device:amazon-appstore-sdk:3.0.9`. The Android ma
 
 The app-specific public `AppstoreAuthenticationKey.pem` must be obtained from the actual Amazon Developer Console app record and placed under `app/src/main/assets/`. `AmazonBilling.register` leaves billing unavailable when that file is absent. The public key is distinct from private signing keys, developer passwords and any RVS shared secret. None of those private secrets belongs in source or the APK. The actual FloraTend console public key is now bundled. Gitignore permits only this exact public PEM path; private signing material remains excluded. The app record is recorded in `submission/console-draft.json`.
 
-Configure the live entitled product and marketplace distribution in the actual Amazon account. Amazon App Tester tests passed with the isolated Flora fixture in `billing/amazon.sdktester.json`; US$4.99 is a sandbox-only test price. The shared tablet catalogue was restored afterwards. Live App Testing and live pricing remain pending.
+The actual entitled item is now **Ready to Submit**, with 12 localized metadata/icon drafts and proposed US$4.99 base pricing plus Amazon currency conversions. Prices are not publisher-approved or active. See `billing/product-metadata.json` and `submission/production-iap-readback.json`. An unsubmitted LAT draft copies signed version 0.1.4/code 5. No item submission or tester invitation has occurred. Amazon App Tester tests use the isolated Flora fixture in `billing/amazon.sdktester.json`; its US$4.99 response is sandbox data. The shared tablet catalogue was restored afterwards.
 
 ## Implemented client behaviour
 
@@ -15,10 +15,10 @@ Configure the live entitled product and marketplace distribution in the actual A
 - Correlates callbacks with request IDs and expected account IDs. Account changes clear the previous grant before synchronising the new account.
 - Checks entitlement SKU, product type and receipt ID; deferred receipts do not grant Premium. Cancellations can revoke the grant.
 - Restores full purchase history on request, handles pagination, and uses candidate receipt dates/cancellation status when applying updates.
-- Persists account/mode/receipt metadata in private preferences and the Premium flag in DataStore. Verified cached state is retained when a refresh cannot complete offline.
-- Notifies fulfillment after recording the entitlement. Failure/not-supported paths expose unavailable state rather than substituting a hardcoded price or granting Premium.
+- Commits account/mode/receipt metadata before projecting the Premium flag to DataStore or acknowledging fulfillment. A serialized EntitlementStore recovers the projection on startup; stale account writes and release sandbox grants are rejected. Cached state is retained when a refresh cannot complete offline.
+- Correlates unsuccessful purchase callbacks by request and current owner even when Amazon returns a blank user ID. Successful grants require matching returned ownership. Terminal purchase errors remain visible through background refresh. Fulfillment follows successful persistence.
 
-The dated verification report separates executed sandbox cases from source descriptions. Pagination, duplicate/deferred callbacks, process death, physical offline relaunch and release/sandbox transitions still require tests. The client integration is not a server Receipt Verification Service deployment. A backend RVS secret must never be added to the APK; choose and verify any server-side verification design separately.
+The [current verification report](PRODUCTION_BILLING_RELEASE_CHECKS.md) distinguishes real sandbox callbacks, controlled cache fixtures and JVM policy tests. Physical offline force-stop/relaunch, failed purchase, access gates and cache recovery passed. Real SDK pagination, duplicate/deferred delivery and signed-release device transitions still need integration tests. The client integration is not a server Receipt Verification Service deployment. A backend RVS secret must never be added to the APK; choose and verify any server-side verification design separately.
 
 ## Required executed scenarios
 

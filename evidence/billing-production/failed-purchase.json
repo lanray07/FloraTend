@@ -1,0 +1,11 @@
+{
+  "realSdkFailedResponse": true,
+  "responseHadUserData": true,
+  "responseUserIdIsBlank": true,
+  "responseUserMatchesCurrentOwner": false,
+  "premiumNotGranted": true,
+  "errorRemainsVisibleAfterRefresh": true,
+  "lastMessage": "Amazon did not complete the purchase. No new entitlement was granted.",
+  "versionCode": 5,
+  "sandboxOnly": true
+}

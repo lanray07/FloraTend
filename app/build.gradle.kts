@@ -11,13 +11,13 @@ android {
         applicationId = "com.floratend.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 3
-        versionName = "0.1.2"
+        versionCode = 5
+        versionName = "0.1.4"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     signingConfigs {
         create("store") {
-            val path = System.getenv("FLORATEND_KEYSTORE")
+            val path = System.getenv("FLORATEND_KEYSTORE")?.takeIf { it.isNotBlank() }
             if (path != null) {
                 storeFile = file(path)
                 storePassword = System.getenv("FLORATEND_STORE_PASSWORD")
@@ -26,7 +26,7 @@ android {
             }
         }
     }
-    buildTypes { release { isMinifyEnabled = false; signingConfig = if (System.getenv("FLORATEND_KEYSTORE") != null) signingConfigs.getByName("store") else null } }
+    buildTypes { release { isMinifyEnabled = false; signingConfig = if (!System.getenv("FLORATEND_KEYSTORE").isNullOrBlank()) signingConfigs.getByName("store") else null } }
     buildFeatures { compose = true; buildConfig = true }
     compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
     kotlinOptions { jvmTarget = "17" }

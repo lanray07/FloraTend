@@ -1,0 +1,6 @@
+Physical size: 1200x1920
+Physical density: 240
+font_scale=1.0
+stay_awake=3
+wifi=1
+sandbox=none

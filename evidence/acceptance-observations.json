@@ -382,14 +382,17 @@
     "corrective_action": "Execute device notification/timezone-change and further zone-boundary scenarios separately."
   },
   "AC-19.01": {
-    "test_name": "Release artifact verification prerequisite",
-    "status": "BLOCKED",
-    "actual_result": "Only the debug APK generation is verified in this observation update; no publisher-signed release artifact is verified.",
+    "test_name": "Signed release code 5 assembly",
+    "execution_date": "2026-10-30",
+    "environment": "Physical KFTRWI API28 / actual Amazon App Tester where stated / compiled debug and release JVM variants / signed APK audit",
+    "status": "PASS",
+    "actual_result": "Real release assembly completed with the private signing configuration outside Git. V2 signature, expected certificate, package/version and non-debuggable archive were verified.",
     "evidence": [
-      "README.md",
-      "evidence/build-clean.log"
+      "evidence/signed-release-build.log",
+      "evidence/billing-production/release-signature.txt",
+      "evidence/billing-production/release-artifact-audit.json"
     ],
-    "corrective_action": "Complete signed release generation and retain certificate/build evidence."
+    "corrective_action": "Keep production/LAT, human review and broader integration gates separate."
   },
   "AC-19.02": {
     "test_name": "Configured package identifier consistency audit",
@@ -1003,5 +1006,143 @@
       "evidence/source-audit-20261030.json"
     ],
     "corrective_action": "Keep human review and other untested release gates separate."
+  },
+  "AC-03.11": {
+    "test_name": "Real Premium account saves a sixth plant",
+    "execution_date": "2026-10-30",
+    "environment": "Physical KFTRWI API28 / actual Amazon App Tester where stated / compiled debug and release JVM variants / signed APK audit",
+    "status": "PASS",
+    "actual_result": "A genuine SDK-entitled account saved plant six through PlantViewModel and Room; the free-account comparison rejected the same addition. Code-4 gate test; unchanged gate/persistence rules ship in code 5.",
+    "evidence": [
+      "evidence/billing-production/premium-gates.txt",
+      "evidence/billing-production/premium-gates.json",
+      "evidence/billing-production/free-gates.json"
+    ],
+    "corrective_action": "Keep production/LAT, human review and broader integration gates separate."
+  },
+  "AC-12.06": {
+    "test_name": "Actual FAILED purchase callback handling",
+    "execution_date": "2026-10-30",
+    "environment": "Physical KFTRWI API28 / actual Amazon App Tester where stated / compiled debug and release JVM variants / signed APK audit",
+    "status": "PASS",
+    "actual_result": "Code 5 received a real SDK FAILED response containing a blank user ID. It granted nothing and retained the error through a catalogue refresh. The original stuck-Waiting failure and fix are preserved.",
+    "evidence": [
+      "evidence/billing-production/failure-message-red.json",
+      "evidence/billing-production/failed-purchase.txt",
+      "evidence/billing-production/failed-purchase.json"
+    ],
+    "corrective_action": "Keep production/LAT, human review and broader integration gates separate."
+  },
+  "AC-12.08": {
+    "test_name": "Real offline relaunch plus interrupted-cache recovery",
+    "execution_date": "2026-10-30",
+    "environment": "Physical KFTRWI API28 / actual Amazon App Tester where stated / compiled debug and release JVM variants / signed APK audit",
+    "status": "PASS",
+    "actual_result": "A genuine sandbox grant survived a force-stop and relaunch with no active network (code 4). Controlled code-5 startup/store tests recover grants and revocations after interrupted projection writes; these fixtures are not purchases.",
+    "evidence": [
+      "evidence/billing-production/offline-restart.txt",
+      "evidence/billing-production/offline-restart.json",
+      "evidence/billing-production/final-privacy-startup-store.txt",
+      "evidence/billing-startup-red.txt"
+    ],
+    "corrective_action": "Keep production/LAT, human review and broader integration gates separate."
+  },
+  "AC-12.09": {
+    "test_name": "Free SDK account limit and export gates",
+    "execution_date": "2026-10-30",
+    "environment": "Physical KFTRWI API28 / actual Amazon App Tester where stated / compiled debug and release JVM variants / signed APK audit",
+    "status": "PASS",
+    "actual_result": "Actual sandbox User 2 could not save plant six and both export controls remained disabled.",
+    "evidence": [
+      "evidence/billing-production/account-free-gates.txt",
+      "evidence/billing-production/free-gates.json"
+    ],
+    "corrective_action": "Keep production/LAT, human review and broader integration gates separate."
+  },
+  "AC-12.10": {
+    "test_name": "Implemented Premium gates with genuine SDK entitlement",
+    "execution_date": "2026-10-30",
+    "environment": "Physical KFTRWI API28 / actual Amazon App Tester where stated / compiled debug and release JVM variants / signed APK audit",
+    "status": "PASS",
+    "actual_result": "Actual entitled account saved plant six, enabled JSON/CSV controls and generated payloads containing the stored record. System document destinations and unimplemented roadmap features are excluded.",
+    "evidence": [
+      "evidence/billing-production/premium-gates.txt",
+      "evidence/billing-production/premium-gates.json"
+    ],
+    "corrective_action": "Keep production/LAT, human review and broader integration gates separate."
+  },
+  "AC-12.11": {
+    "test_name": "Compiled release policy rejects sandbox grants",
+    "execution_date": "2026-10-30",
+    "environment": "Physical KFTRWI API28 / actual Amazon App Tester where stated / compiled debug and release JVM variants / signed APK audit",
+    "status": "PASS",
+    "actual_result": "Debug/release JVM variants exercise actual BuildConfig flags; release rejects SANDBOX grants. Native controlled-cache tests reject sandbox and incomplete state; the signed APK is non-debuggable and omits QA fixtures. This does not claim a production purchase or signed-release SDK transition.",
+    "evidence": [
+      "evidence/billing-production/final-validation-build.log",
+      "evidence/billing-production/final-privacy-startup-store.txt",
+      "evidence/billing-production/release-artifact-audit.json"
+    ],
+    "corrective_action": "Keep production/LAT, human review and broader integration gates separate."
+  },
+  "AC-16.06": {
+    "test_name": "Targeted packaged-release secret and signing audit",
+    "execution_date": "2026-10-30",
+    "environment": "Physical KFTRWI API28 / actual Amazon App Tester where stated / compiled debug and release JVM variants / signed APK audit",
+    "status": "PASS",
+    "actual_result": "Signed code-5 archive/source audit found no recognized API-secret/private-key patterns, private-key files, test fixture markers or private tester email. The exact public Appstore key is intentionally bundled. This is a targeted audit, not exhaustive security assurance.",
+    "evidence": [
+      "evidence/billing-production/release-artifact-audit.json",
+      "evidence/billing-production/release-signature.txt",
+      "evidence/billing-production/source-audit.json"
+    ],
+    "corrective_action": "Keep production/LAT, human review and broader integration gates separate."
+  },
+  "AC-16.08": {
+    "test_name": "Actual delete-all confirmation and imported-photo deletion",
+    "execution_date": "2026-10-30",
+    "environment": "Physical KFTRWI API28 / actual Amazon App Tester where stated / compiled debug and release JVM variants / signed APK audit",
+    "status": "PASS",
+    "actual_result": "Code-5 native UI retained data until confirmation, then removed plants, schedules, journal, history and the imported photo. Test refused pre-existing user records or photographs.",
+    "evidence": [
+      "evidence/billing-production/final-privacy-startup-store.txt",
+      "evidence/billing-production/privacy-deletion.json"
+    ],
+    "corrective_action": "Keep production/LAT, human review and broader integration gates separate."
+  },
+  "AC-16.11": {
+    "test_name": "Third-party processing documentation",
+    "execution_date": "2026-10-30",
+    "environment": "Physical KFTRWI API28 / actual Amazon App Tester where stated / compiled debug and release JVM variants / signed APK audit",
+    "status": "PASS",
+    "actual_result": "Public privacy notice and questionnaire rationale document Amazon purchase/account/connection/diagnostic processing and conditional installed speech-provider processing. Provider retention and publisher legal review are not claimed verified.",
+    "evidence": [
+      "PRIVACY.md",
+      "submission/privacy-label-draft.json",
+      "docs/PRODUCTION_BILLING_RELEASE_CHECKS.md"
+    ],
+    "corrective_action": "Keep production/LAT, human review and broader integration gates separate."
+  },
+  "AC-19.07": {
+    "test_name": "Localized screenshot files and console readback",
+    "execution_date": "2026-10-30",
+    "environment": "Physical KFTRWI API28 / actual Amazon App Tester where stated / compiled debug and release JVM variants / signed APK audit",
+    "status": "PASS",
+    "actual_result": "120 actual-UI PNG drafts exist across 15 metadata locales and validate against native sources; 88 are saved across the 11 image channels. Human approval remains pending in the separate language/claims gates.",
+    "evidence": [
+      "assets/screenshots/localized/localized-manifest.json",
+      "submission/screenshot-console-upload.json",
+      "evidence/billing-production/python-tests.log"
+    ],
+    "corrective_action": "Keep production/LAT, human review and broader integration gates separate."
+  },
+  "AC-19.10": {
+    "test_name": "Production billing verification dependency",
+    "status": "BLOCKED",
+    "actual_result": "Native client tests pass, but the actual Premium item remains Ready to Submit. LAT/production-service purchase and server RVS have not been executed.",
+    "evidence": [
+      "submission/production-iap-readback.json",
+      "docs/PRODUCTION_BILLING_RELEASE_CHECKS.md"
+    ],
+    "corrective_action": "Approve and perform the external test submission, authorize the tester invitation, install the Amazon-delivered LAT build and verify production-service flows."
   }
 }

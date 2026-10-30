@@ -1,0 +1,44 @@
+
+com.floratend.app.BillingStartupTest:
+Error in restartRecoversRevocationWhenCacheWasWrittenBeforeProjection(com.floratend.app.BillingStartupTest):
+kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 3000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:188)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:498)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:105)
+	at java.lang.Thread.run(Thread.java:764)
+
+Error in restartRecoversGrantWhenCacheWasWrittenBeforeProjection(com.floratend.app.BillingStartupTest):
+kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 3000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:188)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:498)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:105)
+	at java.lang.Thread.run(Thread.java:764)
+
+
+Time: 6.336
+There were 2 failures:
+1) restartRecoversRevocationWhenCacheWasWrittenBeforeProjection(com.floratend.app.BillingStartupTest)
+kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 3000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:188)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:498)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:105)
+	at java.lang.Thread.run(Thread.java:764)
+2) restartRecoversGrantWhenCacheWasWrittenBeforeProjection(com.floratend.app.BillingStartupTest)
+kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 3000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:188)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:156)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:498)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:105)
+	at java.lang.Thread.run(Thread.java:764)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+
+

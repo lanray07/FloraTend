@@ -25,7 +25,7 @@ jobs:
       - name: Install Android SDK components
         run: sdkmanager 'platforms;android-36' 'build-tools;35.0.0' 'platform-tools'
       - name: Build, JVM tests and Android lint
-        run: bash gradlew --no-daemon :app:assembleDebug :app:assembleDebugAndroidTest :app:testDebugUnitTest :app:lintDebug
+        run: bash gradlew --no-daemon :app:assembleDebug :app:assembleDebugAndroidTest :app:testDebugUnitTest :app:testReleaseUnitTest :app:lintDebug :app:lintRelease
       - name: Supporting regression tests
         run: python -m unittest discover -s tools -p 'test_*.py' -v
       - name: Audit Android configuration

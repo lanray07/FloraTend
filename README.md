@@ -9,7 +9,7 @@ Native Android plant collection, care-check scheduler and growth journal, primar
 Use Java 17 and Android SDK Platform 36. Gradle 8.13 is pinned by the wrapper. Configure `ANDROID_HOME` or an ignored `local.properties` containing `sdk.dir=<your SDK path>`; install appropriate SDK build tools and platform tools. Dependencies require network access on a fresh machine.
 
 ```powershell
-.\gradlew.bat :app:assembleDebug :app:testDebugUnitTest :app:lintDebug
+.\gradlew.bat :app:assembleDebug :app:testDebugUnitTest :app:testReleaseUnitTest :app:lintDebug :app:lintRelease
 .\gradlew.bat :app:installDebug
 adb shell am start -n com.floratend.app/.MainActivity
 ```
@@ -20,7 +20,7 @@ On macOS/Linux use `bash gradlew` in place of `.\gradlew.bat`. The debug APK is 
 .\tools\test_localized_fire.ps1
 ```
 
-Tests can modify the app's local records and preferences; use a dedicated test installation/device profile. No production account or plant data should be used. The app requires Android API 26 or higher, targets API 36, and currently has version `0.1.2` / code `3`. A minimum SDK declaration is not a verified device-compatibility promise. Stateful App Tester and store capture tests require explicit opt-in; do not run the entire instrumentation package blindly.
+Tests can modify the app's local records and preferences; use a dedicated test installation/device profile. No production account or plant data should be used. The app requires Android API 26 or higher, targets API 36, and currently has version `0.1.4` / code `5`. A minimum SDK declaration is not a verified device-compatibility promise. Stateful App Tester and store capture tests require explicit opt-in; do not run the entire instrumentation package blindly.
 
 ## Supporting checks
 
@@ -57,7 +57,7 @@ Implemented source includes local plant CRUD/search/categories, configurable rec
 - Locale command parsing has JVM and physical-device coverage. Recognition/TTS depend on installed engines and device/language capability; offline recognition is not claimed. This Fire has no speech recognition service and its default TTS supports the three English tags, not the other 16 requested tags.
 - Photo import copies downsampled images to private app storage. Camera capture currently uses an external camera preview thumbnail, not full-resolution CameraX capture.
 - Optional identification has no configured engine. Cloud sync and encrypted backup are unavailable. JSON export excludes image binaries; CSV exports plant records only. There is no backup-restore import workflow.
-- Real Amazon App Tester catalogue/price, purchase, cancellation, restoration, account switching, revocation and failed-refresh cache tests passed. Production/LAT, live product configuration, broader response cases and several planned Premium divisions remain unverified. See [dated verification and limitations](docs/RELEASE_VERIFICATION_20261030.md).
+- Real Amazon App Tester catalogue/price, purchase, cancellation, restoration, account switching, revocation and failed-refresh cache tests passed. Real SDK FAILED responses, offline process relaunch, free/Premium access gates and cache recovery have additional evidence. The actual entitled item has 12 localized metadata/icon drafts and proposed US$4.99 base pricing; it is Ready to Submit, not live. An unsubmitted LAT draft copies code 5. Production/LAT, server verification and broader response cases remain unverified. See [current billing verification and limitations](docs/PRODUCTION_BILLING_RELEASE_CHECKS.md).
 - Reminder delivery uses periodic WorkManager checks, not an exact-time alarm; the recurrence helper's 09:00 calculation does not make delivery exact.
 - Room schema version 1 is exported; there is no historical schema upgrade yet. Future schema changes require explicit non-destructive migrations and migration tests.
 - Human approval of localized assets, complete tablet/phone and accessibility matrices, privacy/legal review, publisher details and name clearance remain release gates. All 39 privacy-label answers are saved for publisher review; this is not legal approval.

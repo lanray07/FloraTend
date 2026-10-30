@@ -1,0 +1,20 @@
+{
+  "sku": "floratend.premium",
+  "type": "ENTITLED",
+  "review_status": "assistant_draft_pending_publisher_and_human_language_review",
+  "proposed_base_price": {"currency": "USD", "amount": "4.99", "published": false},
+  "locales": {
+    "en-US": {"label": "English (U.S.)", "title": "FloraTend Premium", "description": "Keep more than five plants and export saved records as JSON or your plant list as CSV. One-time purchase; no subscription. Exports do not contain photographs."},
+    "en-GB": {"label": "English (U.K.)", "title": "FloraTend Premium", "description": "Keep more than five plants and export saved records as JSON or your plant list as CSV. One-time purchase; no subscription. Exports do not contain photographs."},
+    "en-AU": {"label": "English (Australia)", "title": "FloraTend Premium", "description": "Keep more than five plants and export saved records as JSON or your plant list as CSV. One-time purchase; no subscription. Exports do not contain photographs."},
+    "en-IN": {"label": "English (India)", "title": "FloraTend Premium", "description": "Keep more than five plants and export saved records as JSON or your plant list as CSV. One-time purchase; no subscription. Exports do not contain photographs."},
+    "de-DE": {"label": "German", "title": "FloraTend Premium", "description": "Verwalte mehr als fünf Pflanzen und exportiere gespeicherte Einträge als JSON oder deine Pflanzenliste als CSV. Einmaliger Kauf, kein Abonnement. Fotos sind in Exporten nicht enthalten."},
+    "es-ES": {"label": "Spanish", "title": "FloraTend Premium", "description": "Guarda más de cinco plantas y exporta tus registros en JSON o tu lista de plantas en CSV. Compra única, sin suscripción. Las exportaciones no incluyen fotografías."},
+    "es-MX": {"label": "Spanish (Mexico)", "title": "FloraTend Premium", "description": "Guarda más de cinco plantas y exporta tus registros en JSON o tu lista de plantas en CSV. Compra única, sin suscripción. Las exportaciones no incluyen fotografías."},
+    "fr-FR": {"label": "French", "title": "FloraTend Premium", "description": "Ajoutez plus de cinq plantes et exportez vos données en JSON ou votre liste de plantes en CSV. Achat unique, sans abonnement. Les exports ne contiennent pas de photos."},
+    "it-IT": {"label": "Italian", "title": "FloraTend Premium", "description": "Salva più di cinque piante ed esporta i dati in JSON o l'elenco delle piante in CSV. Acquisto unico, senza abbonamento. Le esportazioni non includono fotografie."},
+    "ja-JP": {"label": "Japanese", "title": "FloraTend プレミアム", "description": "6株以上の植物を登録し、保存した記録をJSON形式、植物リストをCSV形式で書き出せます。買い切りで、定期購入ではありません。書き出したデータに写真は含まれません。"},
+    "pt-BR": {"label": "Portuguese (Brazil)", "title": "FloraTend Premium", "description": "Cadastre mais de cinco plantas e exporte os registros em JSON ou sua lista de plantas em CSV. Compra única, sem assinatura. As exportações não incluem fotografias."},
+    "zh-CN": {"label": "Chinese (Simplified)", "title": "FloraTend 高级版", "description": "可保存五株以上的植物，将记录导出为JSON，或将植物列表导出为CSV。一次性购买，无需订阅。导出内容不包含照片。"}
+  }
+}

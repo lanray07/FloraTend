@@ -1,0 +1,25 @@
+
+com.floratend.app.BillingSandboxTest:
+Error in actualFailedPurchaseDoesNotGrantPremium(com.floratend.app.BillingSandboxTest):
+java.lang.AssertionError: expected:<FAILED> but was:<ALREADY_PURCHASED>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.floratend.app.BillingSandboxTest.actualFailedPurchaseDoesNotGrantPremium(BillingSandboxTest.kt:139)
+
+
+Time: 4.675
+There was 1 failure:
+1) actualFailedPurchaseDoesNotGrantPremium(com.floratend.app.BillingSandboxTest)
+java.lang.AssertionError: expected:<FAILED> but was:<ALREADY_PURCHASED>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.floratend.app.BillingSandboxTest.actualFailedPurchaseDoesNotGrantPremium(BillingSandboxTest.kt:139)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+

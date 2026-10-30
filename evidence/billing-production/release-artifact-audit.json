@@ -1,0 +1,15 @@
+{
+  "scope": "Static packaged-artifact/signing checks only; not an exhaustive security or runtime privacy audit",
+  "version_code": 5,
+  "sha256": "155fe9912c7060b4dd27dc46185c4f11522c05c79907d2774482914e3acfe35f",
+  "checks": {
+    "expected_package_and_version": true,
+    "release_not_debuggable": true,
+    "expected_signing_identity": true,
+    "v2_signature_verified": true,
+    "expected_public_authentication_key": true,
+    "no_private_key_files": true,
+    "no_private_key_or_recognised_api_secret_patterns": true,
+    "no_test_fixture_or_private_tester_data": true
+  }
+}

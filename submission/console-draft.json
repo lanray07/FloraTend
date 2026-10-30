@@ -42,10 +42,10 @@
   ],
   "apk": {
     "path": "app/build/outputs/apk/release/app-release.apk",
-    "sha256": "25934fac8a6d882386b2810d945e08fb0a1c4451ace0fd93da77906bcddb3acc",
-    "version_code": 3,
-    "version_name": "0.1.2",
-    "upload_status": "accepted_by_console_version_code_3",
+    "sha256": "155fe9912c7060b4dd27dc46185c4f11522c05c79907d2774482914e3acfe35f",
+    "version_code": 5,
+    "version_name": "0.1.4",
+    "upload_status": "accepted_by_console_version_code_5",
     "console_drm_applied": true,
     "target_sdk": 36
   },
@@ -68,5 +68,26 @@
     "uploaded_images": 88,
     "readback": "submission/screenshot-console-upload.json",
     "human_approval": false
+  },
+  "iap": {
+    "sku": "floratend.premium",
+    "id": "amzn1.dex.title.18e5f7f4adaf425a8a13d5ea6ca65b9b",
+    "status": "Ready to Submit",
+    "submitted": false,
+    "proposed_base_price": "USD 4.99",
+    "publisher_price_approval": false,
+    "localized_purchase_dialogs": 12,
+    "readback": "submission/production-iap-readback.json"
+  },
+  "lat": {
+    "tester_identifier_held_privately": true,
+    "invitations_sent": false,
+    "app_submitted": false,
+    "production_service_purchase_verified": false,
+    "draft_created": true,
+    "release_id": "amzn1.devportal.apprelease.7c3531115e8c491ab1103825aaff94f1",
+    "version_code": 5,
+    "tester_group_assigned": false,
+    "export_compliance_certified": false
   }
 }

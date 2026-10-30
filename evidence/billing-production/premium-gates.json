@@ -1,0 +1,9 @@
+{
+  "realSdkPremium": true,
+  "sixthPlantSaved": true,
+  "exportButtonsEnabled": true,
+  "exportPayloadContainsSavedRecord": true,
+  "systemDocumentDestinationNotExercised": true,
+  "versionCode": 4,
+  "sandboxOnly": true
+}
