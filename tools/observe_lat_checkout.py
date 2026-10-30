@@ -18,7 +18,7 @@ ADB = str(Path(os.environ['LOCALAPPDATA']) / 'Android/Sdk/platform-tools/adb.exe
 
 
 def adb(*args):
-    return subprocess.check_output([ADB, *args])
+    return subprocess.check_output([ADB, *args], timeout=20)
 
 
 def before_snapshot():
@@ -47,7 +47,7 @@ def main():
         if 'mIsShowing=true' in policy or 'mInputRestricted=true' in policy:
             raise RuntimeError('Unlock the test tablet before observing checkout')
         adb('shell', 'settings', 'put', 'system', 'accelerometer_rotation', '0')
-        adb('shell', 'settings', 'put', 'system', 'user_rotation', '0' if args.orientation == 'portrait' else '1')
+        adb('shell', 'settings', 'put', 'system', 'user_rotation', '0' if args.orientation == 'portrait' else '3')
         time.sleep(2)
         # Only inspect the application screen BEFORE opening checkout.
         root = before_snapshot()
@@ -62,6 +62,11 @@ def main():
         buttons = [n for n in root.iter('node') if n.get('text', '').startswith('Unlock for ') and n.get('enabled') == 'true']
         if len(buttons) != 1:
             raise RuntimeError('Open Settings and wait for one enabled SDK-priced Unlock button')
+        # Fire rotation requests can lag or be ignored; verify the displayed shape.
+        width, height = Image.open(BytesIO(adb('exec-out', 'screencap', '-p'))).size
+        observed = 'landscape' if width > height else 'portrait'
+        if observed != args.orientation:
+            raise RuntimeError('Requested orientation was not applied; refusing mislabeled evidence')
         x1, y1, x2, y2 = map(int, re.findall(r'\d+', buttons[0].get('bounds', '')))
         adb('shell', 'input', 'tap', str((x1+x2)//2), str((y1+y2)//2))
         samples = []
