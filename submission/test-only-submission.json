@@ -19,7 +19,9 @@
     "invitation_authorized": true,
     "invitation_delivery_verified": false,
     "enrollment_retry_http_status": 500,
-    "enrollment_error": "An error occurred in adding requested tester(s)"
+    "enrollment_error": "An error occurred in adding requested tester(s)",
+    "submitted_form_selection_verified": true,
+    "current_check": "evidence/lat-billing/console-readback.json"
   },
   "publisher_confirmed_tester_and_export_declarations": true,
   "actual_production_purchase_verified": false,

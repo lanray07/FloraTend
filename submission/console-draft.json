@@ -101,6 +101,13 @@
     "submission_date": "2026-10-30",
     "tester_group_selected_at_submission": true,
     "tester_group_association_verified": false,
-    "enrollment_retry_result": "An error occurred in adding requested tester(s)"
+    "enrollment_retry_result": "An error occurred in adding requested tester(s)",
+    "submitted_form_selection_verified": true,
+    "latest_check_evidence": "evidence/lat-billing/console-readback.json",
+    "latest_sdk_callbacks": {
+      "user_data": "FAILED",
+      "product_data": "FAILED",
+      "full_history": "FAILED"
+    }
   }
 }

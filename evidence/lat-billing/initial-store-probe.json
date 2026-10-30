@@ -1,0 +1,12 @@
+{
+  "versionCode": 5,
+  "debuggable": false,
+  "installation": "direct signed APK sideload",
+  "sdkMode": "PRODUCTION",
+  "catalogueAvailable": false,
+  "price": null,
+  "premium": false,
+  "message": "Amazon purchasing is unavailable. Check your store connection and try again.",
+  "purchaseAttempted": false,
+  "productionPurchaseVerified": false
+}

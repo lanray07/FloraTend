@@ -1,0 +1,12 @@
+{
+  "checked_at_utc": "2026-10-30T13:15:42.809183+00:00",
+  "app_left_installed": true,
+  "installed_apk_sha256": "155fe9912c7060b4dd27dc46185c4f11522c05c79907d2774482914e3acfe35f",
+  "matches_original_submitted_apk": true,
+  "harness_removed": true,
+  "sandbox_property": "none",
+  "private_account_screens_not_published": true,
+  "user_records_modified_by_probe": false,
+  "public_promotion_performed": false,
+  "price_or_entitlement_override_applied": false
+}

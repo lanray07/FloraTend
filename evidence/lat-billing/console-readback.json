@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-30",
+  "lat_status": "Test submitted",
+  "manage_testers_disabled": true,
+  "submitted_version_code": 5,
+  "drm_applied": true,
+  "submitted_tester_group": "FloraTend Premium LAT",
+  "submitted_tester_group_checked_and_disabled": true,
+  "export_declaration_checked": true,
+  "iap_status": "Approved",
+  "iap_test_label": true,
+  "sku": "floratend.premium",
+  "base_price_usd": "4.99",
+  "public_promotion_performed": false,
+  "tablet_appstore_browsing_worked": true,
+  "tablet_iap_enabled": true,
+  "tablet_registered": true,
+  "tester_login_email_match_verified": false,
+  "production_purchase_verified": false,
+  "owned_entitlement_restore_verified": false
+}

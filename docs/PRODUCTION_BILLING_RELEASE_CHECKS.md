@@ -66,3 +66,7 @@ Console proof: `submission/iap-test-approved.png` and `submission/lat-test-submi
 ## Direct signed tablet installation and test
 
 The exact submitted code-5 APK was directly installed on the physical Fire tablet and passed 15 signed-release device tests. SDK mode was PRODUCTION, but the real catalogue returned unavailable, price was null and purchasing remained disabled. No purchase was attempted. The app remains installed; the separate test harness was removed. [Full signed-device result and reproduction](SIGNED_TABLET_TEST_20261030.md). This strengthens signed-client evidence without closing LAT/invitation or production purchase gates.
+
+## LAT readiness and actual callback check
+
+LAT still shows Test submitted. The saved submitted form confirms the FloraTend group selection. Independent real SDK account, product and full-history queries all returned FAILED in production mode; the opt-in catalogue test fails on the account prerequisite. Price/purchase/owned-entitlement restore remain blocked. [Current diagnosis and reproduction](LAT_BILLING_CHECK_20261030.md). No speculative production client change or public promotion was performed.

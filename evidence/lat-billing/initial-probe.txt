@@ -1,0 +1,8 @@
+
+com.floratend.app.ReleaseDeviceTest:.
+
+Time: 20.414
+
+OK (1 test)
+
+
