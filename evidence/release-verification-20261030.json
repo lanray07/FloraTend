@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-30",
+  "versionCode": 3,
+  "versionName": "0.1.2",
+  "targetSdk": 36,
+  "artifacts": {
+    "app/build/outputs/apk/debug/app-debug.apk": {
+      "bytes": 13947844,
+      "sha256": "ea90a3f811c8154e21a489da3c02dba5d91b2042a85d682aa1c6f4f3dec42958"
+    },
+    "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk": {
+      "bytes": 1107331,
+      "sha256": "6f514902b49c34c2ba031ab5c781aaad0be540d03bcfcc0886f4425a99920298"
+    },
+    "app/build/outputs/apk/release/app-release.apk": {
+      "bytes": 10885449,
+      "sha256": "25934fac8a6d882386b2810d945e08fb0a1c4451ace0fd93da77906bcddb3acc"
+    }
+  },
+  "jvm_tests": 11,
+  "jvm_failures": 0,
+  "native_localized_tests": 11,
+  "native_scope": "KFTRWI API28, real UI and typed commands; no recognition service",
+  "billing_scope": "Debug sandbox tests ran with manifest fixes and versionCode2; version3 only changes version identifiers",
+  "screenshot_source_version_code": 2,
+  "release_signature_evidence": "evidence/release-signature-20261030.txt",
+  "privacy_approval": false,
+  "human_language_approval": false,
+  "core_device_matrix_tests": 20,
+  "core_device_matrix": "PASS: physical HD10 8, 7-inch large-font override 4, 8-inch override 4, offline HD10 4; overrides are not physical smaller devices",
+  "test_harness_note": "Final 20-test matrix uses explicit Espresso keyboard dismissal; earlier localized 11-test run predates this test-only change."
+}

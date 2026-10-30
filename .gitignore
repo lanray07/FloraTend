@@ -17,3 +17,9 @@ evidence/gradle-threads.txt
 *.pfx
 *.dpapi.json
 evidence/localized-device/startup-debug.png
+evidence/billing/tester.png
+evidence/billing/*ui.xml
+evidence/billing/tester-current.xml
+evidence/billing/test-environment.json
+evidence/layout8-failure-screen.png
+evidence/layout8-live.png

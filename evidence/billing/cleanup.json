@@ -1,0 +1,7 @@
+{
+  "premium_revoked_before_cleanup": true,
+  "other_projects_untouched": true,
+  "catalogue_restored": true,
+  "sandbox_disabled_value": "none (documented disable value; original property was empty)",
+  "sandbox_mode": "none"
+}

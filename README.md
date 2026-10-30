@@ -17,14 +17,14 @@ adb shell am start -n com.floratend.app/.MainActivity
 On macOS/Linux use `bash gradlew` in place of `.\gradlew.bat`. The debug APK is `app/build/outputs/apk/debug/app-debug.apk`. Instrumented tests require a connected, authorised compatible device or emulator:
 
 ```powershell
-.\gradlew.bat :app:connectedDebugAndroidTest
+.\tools\test_localized_fire.ps1
 ```
 
-Tests can modify the app's local records and preferences; use a dedicated test installation/device profile. No production account or plant data should be used. The app requires Android API 26 or higher, targets API 36, and currently has version `0.1.1` / code `2`. A minimum SDK declaration is not a verified device-compatibility promise.
+Tests can modify the app's local records and preferences; use a dedicated test installation/device profile. No production account or plant data should be used. The app requires Android API 26 or higher, targets API 36, and currently has version `0.1.2` / code `3`. A minimum SDK declaration is not a verified device-compatibility promise. Stateful App Tester and store capture tests require explicit opt-in; do not run the entire instrumentation package blindly.
 
 ## Supporting checks
 
-Python 3.10+ is sufficient; the supporting scripts use the standard library.
+Python 3.10+ is sufficient for supporting checks. Screenshot recomposition additionally requires Pillow and suitable installed fonts.
 
 ```powershell
 python -m unittest discover -s tools -p "test_*.py" -v
@@ -53,13 +53,13 @@ Native Amazon Appstore SDK 3.0.9 is integrated. Billing is unavailable until the
 
 Implemented source includes local plant CRUD/search/categories, configurable recurring care checks/history, journal notes/measurements/photos, touch/text command entry, push-to-talk and TTS capability handling, a tablet navigation rail, settings, basic summaries, and export code. Refer to test evidence before treating any workflow as verified.
 
-- All 19 requested app locale bundles and voice dictionaries are packaged as assistant-authored drafts. Current resource validation has zero errors. Spanish, German, Japanese and Arabic native UI/actions have executed Fire tests. Human review, complete localized screenshots and website translations remain pending. All 15 available Amazon description locales are saved as drafts.
+- All 19 requested app locale bundles and voice dictionaries are packaged as assistant-authored drafts. Current resource validation has zero errors. Spanish, German, Japanese and Arabic native UI/actions have executed Fire tests. Real captures cover 19 locales; 120 composed screenshot drafts cover 15 metadata locales, with 88 uploaded across all 11 available Amazon image channels. Human language review and website translations remain pending. All 15 available Amazon description locales are saved as drafts.
 - Locale command parsing has JVM and physical-device coverage. Recognition/TTS depend on installed engines and device/language capability; offline recognition is not claimed. This Fire has no speech recognition service and its default TTS supports the three English tags, not the other 16 requested tags.
 - Photo import copies downsampled images to private app storage. Camera capture currently uses an external camera preview thumbnail, not full-resolution CameraX capture.
 - Optional identification has no configured engine. Cloud sync and encrypted backup are unavailable. JSON export excludes image binaries; CSV exports plant records only. There is no backup-restore import workflow.
-- Premium purchase/restore/account-switch/revocation scenarios require actual Amazon App Tester/LAT configuration and execution. Several planned Premium divisions still require implementation and verification.
+- Real Amazon App Tester catalogue/price, purchase, cancellation, restoration, account switching, revocation and failed-refresh cache tests passed. Production/LAT, live product configuration, broader response cases and several planned Premium divisions remain unverified. See [dated verification and limitations](docs/RELEASE_VERIFICATION_20261030.md).
 - Reminder delivery uses periodic WorkManager checks, not an exact-time alarm; the recurrence helper's 09:00 calculation does not make delivery exact.
 - Room schema version 1 is exported; there is no historical schema upgrade yet. Future schema changes require explicit non-destructive migrations and migration tests.
-- Required locale screenshots, complete tablet/phone and accessibility matrices, privacy/legal review, publisher details and name clearance remain release gates.
+- Human approval of localized assets, complete tablet/phone and accessibility matrices, privacy/legal review, publisher details and name clearance remain release gates. All 39 privacy-label answers are saved for publisher review; this is not legal approval.
 
 No app submission, website deployment or external publication is authorised by the supporting CI workflow. Original specifications are preserved in [docs/spec/](docs/spec/MASTER_BUILD_PROMPT.md).

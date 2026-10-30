@@ -2,14 +2,14 @@
 
 **BLOCKED**
 
-Verified acceptance rate: **56 / 204 = 27.45%**. BLOCKED and NOT TESTED criteria count as incomplete.
+Verified acceptance rate: **68 / 204 = 33.33%**. BLOCKED and NOT TESTED criteria count as incomplete.
 
 | Status | Mandatory criteria |
 |---|---:|
-| BLOCKED | 12 |
+| BLOCKED | 10 |
 | FAIL | 0 |
-| NOT TESTED | 136 |
-| PASS | 56 |
+| NOT TESTED | 126 |
+| PASS | 68 |
 
 The criterion-level evidence, expected behaviour and corrective actions are in [ACCEPTANCE_TEST_RESULTS.csv](ACCEPTANCE_TEST_RESULTS.csv) and [ACCEPTANCE_CRITERIA.md](ACCEPTANCE_CRITERIA.md). This decision is conservative: no release is approved while any mandatory criterion remains unverified. Publication additionally requires explicit user authorisation.
 
@@ -22,11 +22,11 @@ The criterion-level evidence, expected behaviour and corrective actions are in [
 - AC-05 — Growth Journal: 5 criteria incomplete.
 - AC-06 — Voice Input and Output: 11 criteria incomplete.
 - AC-07 — Worldwide Application Localisation: 12 criteria incomplete.
-- AC-08 — Localised Amazon Appstore Screenshots: 14 criteria incomplete.
+- AC-08 — Localised Amazon Appstore Screenshots: 9 criteria incomplete.
 - AC-09 — Automatic Translation Pipeline: 3 criteria incomplete.
 - AC-10 — Offline Functionality: 3 criteria incomplete.
 - AC-11 — Plant Identification: 8 criteria incomplete.
-- AC-12 — Amazon In-App Purchasing: 12 criteria incomplete.
+- AC-12 — Amazon In-App Purchasing: 5 criteria incomplete.
 - AC-13 — Premium Assets: 10 criteria incomplete.
 - AC-14 — Amazon SEO / ASO: 10 criteria incomplete.
 - AC-15 — AI Search Optimisation: 5 criteria incomplete.

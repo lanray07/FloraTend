@@ -25,9 +25,11 @@ jobs:
       - name: Install Android SDK components
         run: sdkmanager 'platforms;android-36' 'build-tools;35.0.0' 'platform-tools'
       - name: Build, JVM tests and Android lint
-        run: bash gradlew --no-daemon :app:assembleDebug :app:testDebugUnitTest :app:lintDebug
+        run: bash gradlew --no-daemon :app:assembleDebug :app:assembleDebugAndroidTest :app:testDebugUnitTest :app:lintDebug
       - name: Supporting regression tests
         run: python -m unittest discover -s tools -p 'test_*.py' -v
+      - name: Audit Android configuration
+        run: python tools/audit_source.py
       - name: Extract Android source strings
         run: python tools/localize.py extract
       - name: Build and validate local static website
@@ -45,6 +47,7 @@ jobs:
             app/build/reports/
             app/build/test-results/
             app/build/outputs/apk/debug/*.apk
+            app/build/outputs/apk/androidTest/debug/*.apk
             website/dist/build-report.json
             ACCEPTANCE_TEST_RESULTS.csv
             RELEASE_READINESS.md

@@ -1,0 +1,155 @@
+{
+  "review_status": "assistant_draft_pending_human_review",
+  "locales": {
+    "en-GB": [
+      "Your plants, beautifully organised",
+      "Build a calmer care routine",
+      "Give every plant a place",
+      "See the care ahead",
+      "Keep a journal of new growth",
+      "Type a command. Keep caring.",
+      "Your plant records, even offline",
+      "See your care take shape"
+    ],
+    "en-US": [
+      "Your plants, beautifully organized",
+      "Build a calmer care routine",
+      "Give every plant a place",
+      "See the care ahead",
+      "Keep a journal of new growth",
+      "Type a command. Keep caring.",
+      "Your plant records, even offline",
+      "See your care take shape"
+    ],
+    "en-AU": [
+      "Your plants, beautifully organised",
+      "Build a calmer care routine",
+      "Give every plant a place",
+      "See the care ahead",
+      "Keep a journal of new growth",
+      "Type a command. Keep caring.",
+      "Your plant records, even offline",
+      "See your care take shape"
+    ],
+    "en-IN": [
+      "Your plants, beautifully organised",
+      "Build a calmer care routine",
+      "Give every plant a place",
+      "See the care ahead",
+      "Keep a journal of new growth",
+      "Type a command. Keep caring.",
+      "Your plant records, even offline",
+      "See your care take shape"
+    ],
+    "es-ES": [
+      "Tus plantas, bien organizadas",
+      "Cuida con más calma",
+      "Un lugar para cada planta",
+      "Prepara los próximos cuidados",
+      "Lleva un diario de crecimiento",
+      "Escribe una orden y sigue cuidando",
+      "Tus plantas, también sin conexión",
+      "Consulta los cuidados que registras"
+    ],
+    "es-MX": [
+      "Tus plantas, bien organizadas",
+      "Cuida con más calma",
+      "Un lugar para cada planta",
+      "Planea los próximos cuidados",
+      "Lleva una bitácora de crecimiento",
+      "Escribe un comando y sigue cuidando",
+      "Tus plantas, también sin conexión",
+      "Consulta los cuidados que registras"
+    ],
+    "fr-FR": [
+      "Vos plantes, bien organisées",
+      "Une routine de soins plus sereine",
+      "Une place pour chaque plante",
+      "Anticipez les prochains soins",
+      "Gardez une trace de la croissance",
+      "Saisissez une commande, tout simplement",
+      "Vos plantes, même hors connexion",
+      "Retrouvez les soins enregistrés"
+    ],
+    "de-DE": [
+      "Deine Pflanzen, schön geordnet",
+      "Mehr Ruhe bei der Pflanzenpflege",
+      "Ein Platz für jede Pflanze",
+      "Die nächste Pflege im Blick",
+      "Halte neues Wachstum fest",
+      "Befehl eingeben. Pflanzen pflegen.",
+      "Deine Pflanzendaten, auch offline",
+      "Deine dokumentierte Pflege im Blick"
+    ],
+    "it-IT": [
+      "Le tue piante, ben organizzate",
+      "Una cura più serena, ogni giorno",
+      "Un posto per ogni pianta",
+      "Organizza le prossime cure",
+      "Tieni un diario della crescita",
+      "Scrivi un comando e continua a curare",
+      "Le tue piante, anche senza rete",
+      "Ritrova le cure che hai registrato"
+    ],
+    "ja-JP": [
+      "植物をすっきり、ひとまとめに",
+      "無理なく続く、お手入れ習慣",
+      "一鉢ずつ、大切に記録",
+      "これからのお手入れを確認",
+      "小さな成長を日記に残す",
+      "文字のコマンドで、手軽に操作",
+      "オフラインでも、植物の記録を",
+      "記録したお手入れを振り返る"
+    ],
+    "nl-NL": [
+      "Je planten, mooi op orde",
+      "Meer rust in je plantenverzorging",
+      "Een plek voor elke plant",
+      "Plan de volgende verzorging",
+      "Leg nieuwe groei vast",
+      "Typ een opdracht en verzorg verder",
+      "Je plantgegevens, ook zonder internet",
+      "Bekijk je vastgelegde verzorging"
+    ],
+    "pl-PL": [
+      "Twoje rośliny, pięknie uporządkowane",
+      "Spokojniejsza codzienna pielęgnacja",
+      "Miejsce dla każdej rośliny",
+      "Zaplanuj kolejne zabiegi",
+      "Zapisuj oznaki nowego wzrostu",
+      "Wpisz polecenie i dbaj dalej",
+      "Dane roślin także bez internetu",
+      "Przeglądaj zapisaną pielęgnację"
+    ],
+    "pt-BR": [
+      "Suas plantas, bem organizadas",
+      "Uma rotina de cuidados mais tranquila",
+      "Um lugar para cada planta",
+      "Planeje os próximos cuidados",
+      "Registre cada sinal de crescimento",
+      "Digite um comando e continue cuidando",
+      "Suas plantas, mesmo sem internet",
+      "Veja os cuidados que você registrou"
+    ],
+    "pt-PT": [
+      "As suas plantas, bem organizadas",
+      "Uma rotina de cuidados mais tranquila",
+      "Um lugar para cada planta",
+      "Planeie os próximos cuidados",
+      "Registe cada sinal de crescimento",
+      "Escreva um comando e continue a cuidar",
+      "As suas plantas, mesmo sem internet",
+      "Consulte os cuidados que registou"
+    ],
+    "sv-SE": [
+      "Dina växter, fint samlade",
+      "En lugnare rutin för växtskötsel",
+      "En plats för varje växt",
+      "Planera kommande skötsel",
+      "Spara små tecken på tillväxt",
+      "Skriv ett kommando och fortsätt sköta",
+      "Dina växtuppgifter, även utan internet",
+      "Se den skötsel du har registrerat"
+    ]
+  }
+}

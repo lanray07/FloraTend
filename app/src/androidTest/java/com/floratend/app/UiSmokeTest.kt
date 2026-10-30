@@ -155,8 +155,18 @@ class UiSmokeTest {
         }
         assertEquals(PackageManager.PERMISSION_DENIED,rule.activity.checkSelfPermission(android.Manifest.permission.RECORD_AUDIO))
         rule.onNodeWithText("Review or type a command").performTextInput("Add a new plant.")
+        rule.onNodeWithText("Review or type a command").assertTextContains("Add a new plant.")
+        // IME resize/scroll animation can move the touch target on Fire display overrides.
+        // Close the keyboard through Espresso's normal user-facing dismissal first.
+        androidx.test.espresso.Espresso.closeSoftKeyboard()
+        rule.waitForIdle()
         rule.onNodeWithText("Run command").performScrollTo().performClick()
-        rule.waitUntil(10000) { runCatching { rule.onNodeWithText("Plant details",substring=false).assertIsDisplayed();true }.getOrDefault(false) }
+        try {
+            rule.waitUntil(10000) { runCatching { rule.onNodeWithText("Plant details",substring=false).assertIsDisplayed();true }.getOrDefault(false) }
+        } catch (failure: Throwable) {
+            shot("failure-add-command")
+            throw AssertionError("Typed command did not open plant details. transcript=${rule.activity.transcript}; locale=${java.util.Locale.getDefault()}; UI=${rule.onRoot(useUnmergedTree=true).printToString()}", failure)
+        }
         rule.onNodeWithText("Plant details",substring=false).assertIsDisplayed()
         rule.onNodeWithText("Cancel",substring=false).performClick();shot("13-voice-fallback")
     }

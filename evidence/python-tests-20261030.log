@@ -1,0 +1,51 @@
+test_exact_successful_count_is_required (test_fire_results.FireResultGuardTests) ... ok
+test_failed_or_skipped_suite_cannot_hide_behind_ok (test_fire_results.FireResultGuardTests) ... ok
+test_mapping_does_not_approve_untested_release_gates (test_fire_results.FireResultGuardTests) ... ok
+test_missing_log_rejected (test_fire_results.FireResultGuardTests) ... ok
+test_old_log_rejected (test_fire_results.FireResultGuardTests) ... ok
+test_all_five_xml_files_cover_source_and_preserve_placeholders_and_brand (test_global_drafts.GlobalDraftTests) ... ok
+test_arabic_plural_categories_and_rtl_catalogue (test_global_drafts.GlobalDraftTests) ... ok
+test_metadata_never_implies_human_or_device_approval (test_global_drafts.GlobalDraftTests) ... ok
+test_voice_dictionaries_cover_displayed_mandatory_examples_and_capture_names (test_global_drafts.GlobalDraftTests) ... ok
+test_duplicate_resource_names_rejected (test_localize.LocalizationTests) ... ok
+test_lost_or_duplicated_tokens_rejected (test_localize.LocalizationTests) ... ok
+test_missing_and_invalid_placeholder (test_localize.LocalizationTests) ... ok
+test_plural_categories_and_other_required (test_localize.LocalizationTests) ... ok
+test_protected_brand_must_remain (test_localize.LocalizationTests) ... ok
+test_protects_repeated_positional_placeholders_and_brand (test_localize.LocalizationTests) ... ok
+test_provider_requires_key_and_official_https (test_localize.LocalizationTests) ... ok
+test_resource_round_trip_and_nontranslatable_exclusion (test_localize.LocalizationTests) ... ok
+test_translation_cache (test_localize.LocalizationTests) ... ok
+test_all_app_locales_captured_offline (test_localized_screenshot_assets.LocalizedScreenshotAssets) ... ok
+test_complete_unique_locale_scene_matrix (test_localized_screenshot_assets.LocalizedScreenshotAssets) ... ok
+test_png_integrity_and_native_capture_provenance (test_localized_screenshot_assets.LocalizedScreenshotAssets) ... ok
+test_actual_capture_creates_only_corresponding_previews (test_screenshots.ScreenshotTests) ... ok
+test_corruption_rejected (test_screenshots.ScreenshotTests) ... ok
+test_missing_captures_never_create_fake_compositions (test_screenshots.ScreenshotTests) ... ok
+test_truncated_and_zero_dimensions_rejected (test_screenshots.ScreenshotTests) ... ok
+test_unapproved_incomplete_production_fails (test_screenshots.ScreenshotTests) ... BLOCKED: production needs every capture, approved locale, reviewed claims/UI language, and verified PNG export.
+ok
+test_valid_dimensions_and_crc (test_screenshots.ScreenshotTests) ... ok
+test_default_report_never_infers_pass (test_supporting_tools.ReportingTests) ... ok
+test_invalid_status_rejected (test_supporting_tools.ReportingTests) ... ok
+test_missing_and_outside_project_evidence_rejected (test_supporting_tools.ReportingTests) ... ok
+test_nonexecuted_blocker_does_not_require_fake_date (test_supporting_tools.ReportingTests) ... ok
+test_pass_without_execution_evidence_rejected (test_supporting_tools.ReportingTests) ... ok
+test_real_spec_has_unique_ids_and_all_groups (test_supporting_tools.ReportingTests) ... ok
+test_broken_link_fails_validation (test_supporting_tools.WebsiteTests) ... ok
+test_configured_domain_generates_canonicals_and_sitemap (test_supporting_tools.WebsiteTests) ... ok
+test_local_build_complete_and_nonindexable (test_supporting_tools.WebsiteTests) ... ok
+test_no_invented_amazon_link (test_supporting_tools.WebsiteTests) ... ok
+test_unconfigured_site_fails_production_validation (test_supporting_tools.WebsiteTests) ... ok
+test_unsafe_origins_rejected (test_supporting_tools.WebsiteTests) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 17.394s
+
+OK
+{
+  "scenes": 8,
+  "passes": 0,
+  "preview_compositions": 0,
+  "pending_captures": 8
+}

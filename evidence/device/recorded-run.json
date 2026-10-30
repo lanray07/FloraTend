@@ -2,26 +2,26 @@
   "suites": {
     "physical-hd10": {
       "tests": 8,
-      "mtime_utc": "2026-10-28T08:27:58+00:00",
-      "sha256": "86ed0ed2de12984ef3293bcacbbf73a0de7020d426c9d46fe282922685d2b780"
+      "mtime_utc": "2026-10-30T10:50:00+00:00",
+      "sha256": "c769d87f2964d7589c9b6250112a93f9dfc68a17c7c131983818309a5dfc174e"
     },
     "layout-7in-large-font": {
       "tests": 4,
-      "mtime_utc": "2026-10-28T08:28:36+00:00",
-      "sha256": "31b13ec39c520ab79be6e2b52ef66a9d109be1ff414911691746f942a2b58eb9"
+      "mtime_utc": "2026-10-30T10:50:48+00:00",
+      "sha256": "a2ce0b675692f3912c58d8f766fbc0b1437deccefd24b2cc4b5e9e751fab20ee"
     },
     "layout-8in": {
       "tests": 4,
-      "mtime_utc": "2026-10-28T08:29:14+00:00",
-      "sha256": "ccfc461fe454d422bb65ba2c5b202b756785c6ae6ea03b201680742936168e69"
+      "mtime_utc": "2026-10-30T10:51:34+00:00",
+      "sha256": "6a4474cec5194df8605155852b560bde2c2698dc36b922786ae4d83ac49ad622"
     },
     "offline-hd10": {
       "tests": 4,
-      "mtime_utc": "2026-10-28T08:29:56+00:00",
-      "sha256": "8fcf33b68b0cbc7ec56c9b1c8d3d0914810a3915b539383424affd02b8d27d67"
+      "mtime_utc": "2026-10-30T10:52:28+00:00",
+      "sha256": "c5908e6c377d31244b7088cb9c7c773a457deee79de20ab27d8aab150fa4d00b"
     }
   },
-  "apk_sha256": "95c69a8e9482e2dae44f93daa14948d6de46467664bd7eaa20cc54868e6128d9",
-  "build_log_sha256": "0a9b44336dee556f20bfd2dbde6cc990fdf6bb6a90d62016e3c0e6f4dc88572f",
-  "execution_date": "2026-10-28"
+  "apk_sha256": "ea90a3f811c8154e21a489da3c02dba5d91b2042a85d682aa1c6f4f3dec42958",
+  "build_log_sha256": "9e1f0420548d036004cfad71f130aab1b945a07d2c27de703f97700749e35417",
+  "execution_date": "2026-10-30"
 }

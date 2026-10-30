@@ -37,7 +37,8 @@ try {
     Invoke-Adb @('shell','settings','put','global','stay_on_while_plugged_in','7') | Out-Null
     Invoke-Adb @('shell','input','keyevent','KEYCODE_WAKEUP') | Out-Null
     Invoke-Adb @('shell','wm','dismiss-keyguard') | Out-Null
-    Run-Suite 'physical-hd10'
+    # Stateful App Tester scenarios and screenshot fixtures are explicitly opt-in.
+    Run-Suite 'physical-hd10' 'com.floratend.app.PersistenceTest,com.floratend.app.ReminderWorkerTest,com.floratend.app.SpeechCapabilityTest,com.floratend.app.UiSmokeTest'
     Invoke-Adb @('shell','wm','size','600x1024') | Out-Null
     Invoke-Adb @('shell','wm','density','160') | Out-Null
     Invoke-Adb @('shell','settings','put','system','font_scale','1.3') | Out-Null

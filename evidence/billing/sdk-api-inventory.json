@@ -1,0 +1,40 @@
+{
+  "sdk": "amazon-appstore-sdk:3.0.9",
+  "sha256": "a179aaeec903d6a871dec732d94f16c67d12691fd0aa076995bd3943dc79ca09",
+  "scope": "Static constant-pool API references. Presence alone is not proof of runtime collection or retention.",
+  "references": {
+    "getInstalledPackages": [],
+    "getInstalledApplications": [],
+    "getSerial": [],
+    "getDeviceId": [],
+    "android_id": [],
+    "ANDROID_ID": [],
+    "getAdvertisingIdInfo": [],
+    "getMacAddress": [],
+    "getIpAddress": [],
+    "MetricData": [
+      "com/amazon/android/AmazonAppstoreService.class",
+      "com/amazon/android/framework/task/e.class",
+      "com/amazon/android/framework/task/a/a.class",
+      "com/amazon/android/framework/task/a/d$1.class",
+      "com/amazon/android/framework/task/a/d.class",
+      "com/amazon/android/framework/task/a/j.class",
+      "com/amazon/android/framework/task/scheduler/f.class",
+      "com/amazon/android/a/b/b$a.class",
+      "com/amazon/android/a/b/b.class",
+      "com/amazon/android/model/MetricData.class",
+      "com/amazon/android/model/MetricDataBuilder.class",
+      "com/amazon/device/iap/internal/d.class",
+      "com/amazon/device/iap/internal/a/c$1.class",
+      "com/amazon/device/iap/internal/a/c.class",
+      "com/amazon/device/simplesignin/a/d/b.class"
+    ],
+    "MetricsHelper": [
+      "com/amazon/device/iap/internal/a/b/c.class",
+      "com/amazon/device/iap/internal/a/e/a$1.class",
+      "com/amazon/device/iap/internal/a/h/a$1.class",
+      "com/amazon/device/iap/internal/util/MetricsHelper.class",
+      "com/amazon/device/iap/internal/util/c.class"
+    ]
+  }
+}

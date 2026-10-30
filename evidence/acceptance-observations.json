@@ -22,13 +22,16 @@
     "corrective_action": "Obtain qualified human review tied to the exact current source hash."
   },
   "AC-08.01": {
-    "test_name": "Localised store screenshot prerequisite audit",
-    "status": "BLOCKED",
-    "actual_result": "No locale has completed translation and human approval; eight approved store-locale compositions are not verified.",
+    "test_name": "Complete localized screenshot export matrix",
+    "execution_date": "2026-10-30",
+    "environment": "Physical Fire HD 10 KFTRWI API 28 / real Amazon App Tester where applicable / Python asset integrity checks",
+    "status": "PASS",
+    "actual_result": "Eight real-UI draft compositions exported for each of 15 metadata locales (120 total). Human approval remains pending.",
     "evidence": [
-      "LOCALIZATION_TEST_REPORT.md"
+      "assets/screenshots/localized/localized-manifest.json",
+      "evidence/localized-screenshot-checks.log"
     ],
-    "corrective_action": "Complete locale approval, then capture implemented screens and verify eight compositions per approved listing locale."
+    "corrective_action": "Keep human review and other untested release gates separate."
   },
   "AC-09.01": {
     "test_name": "Android resource extraction and XML round trip",
@@ -139,13 +142,16 @@
     "corrective_action": "Regenerate after each source or translation update."
   },
   "AC-12.02": {
-    "test_name": "Amazon configured product lookup prerequisite",
-    "status": "BLOCKED",
-    "actual_result": "The app-specific public key, configured catalogue and Amazon test environment are not verified. No live product retrieval or store price is recorded.",
+    "test_name": "Real sandbox product lookup",
+    "execution_date": "2026-10-30",
+    "environment": "Physical Fire HD 10 KFTRWI API 28 / real Amazon App Tester where applicable / Python asset integrity checks",
+    "status": "PASS",
+    "actual_result": "The SDK returned the entitled Flora SKU and US$4.99 fixture price; no live price claimed.",
     "evidence": [
-      "docs/BILLING_INTEGRATION.md"
+      "evidence/billing/catalogue-probe.txt",
+      "evidence/billing/catalogue-probe.json"
     ],
-    "corrective_action": "Configure the actual Amazon app and entitled product, then execute product lookup and all purchase/restore scenarios."
+    "corrective_action": "Keep human review and other untested release gates separate."
   },
   "AC-15.01": {
     "test_name": "Static website generation",
@@ -453,7 +459,7 @@
   },
   "AC-01.09": {
     "test_name": "Core navigation and startup smoke scenarios",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "All four current suites passed. The tested create/edit/calendar/journal/voice-text/insights/settings and rotation scenarios completed without an uncaught crash. This is bounded smoke coverage, not all-device reliability.",
@@ -467,7 +473,7 @@
   },
   "AC-02.01": {
     "test_name": "Portrait and landscape navigation assertions",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "UiSmokeTest explicitly rotated the physical HD10 between portrait and landscape and asserted the primary Add plant control remained displayed. Other locale/font/device layouts remain separate.",
@@ -483,7 +489,7 @@
   },
   "AC-02.06": {
     "test_name": "Core navigation smoke flow",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "The tested Garden, Calendar, Journal, Voice, Insights and Settings paths passed on the physical HD10 and both display overrides. The voice path used text entry when recognition was unavailable.",
@@ -497,7 +503,7 @@
   },
   "AC-03.01": {
     "test_name": "Plant creation through Compose UI",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "Created a plant with nickname, species and location; asserted the resulting collection record and count. The same UI test passed with no active default network.",
@@ -511,7 +517,7 @@
   },
   "AC-03.02": {
     "test_name": "Plant edit through Compose UI",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "Changed the saved species and awaited the updated visible value. The flow passed online and in the no-network suite.",
@@ -525,7 +531,7 @@
   },
   "AC-03.03": {
     "test_name": "Confirmed plant deletion",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "Opened the plant delete confirmation and confirmed; awaited absence of that plant from the DAO. UI deletion and separate cascading integrity tests passed.",
@@ -540,7 +546,7 @@
   },
   "AC-03.09": {
     "test_name": "Related-row cascade and unrelated-plant preservation",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "Saved two plants, care and journal rows, deleted one plant, and verified the unrelated plant survived while only the deleted plant's related rows were removed.",
@@ -554,7 +560,7 @@
   },
   "AC-03.10": {
     "test_name": "Transactional free plant limit policy",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "The device DAO test accepted five free plant inserts and rejected the sixth, while still allowing an existing record edit. This verifies the authoritative storage policy, not purchase processing.",
@@ -568,7 +574,7 @@
   },
   "AC-04.02": {
     "test_name": "Confirmed typed-command watering record",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "An English typed Mark my plant as watered command showed confirmation; no history row existed before confirmation, then one existed after it. The next check advanced seven days. No recognised-speech-input claim is made.",
@@ -582,7 +588,7 @@
   },
   "AC-04.04": {
     "test_name": "Care schedule pause and resume",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "Pause switched the action to Resume and disabled Record care; resume restored the enabled routine before later completion. Tested through Compose online and without an active default network.",
@@ -596,7 +602,7 @@
   },
   "AC-04.06": {
     "test_name": "Persisted care completion history",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "File-backed Room close/reopen retained the care completion row; the UI command test separately awaited one history row after confirmation.",
@@ -611,7 +617,7 @@
   },
   "AC-04.07": {
     "test_name": "Persisted next-check recurrence",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "Device tests verified the next date advances by the configured seven days after completion and survives database reopen.",
@@ -626,7 +632,7 @@
   },
   "AC-04.09": {
     "test_name": "Aggregate notification deduplication and completion refresh",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "ReminderWorkerTest ran real WorkManager jobs twice, verified one notification ID100, checked the current due-count message, then verified completion updates or cancels it. This covers the tested API28 notification settings; exact-time delivery and Android13 permission handling remain unverified.",
@@ -640,7 +646,7 @@
   },
   "AC-05.01": {
     "test_name": "Dated journal entry through Compose UI",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "Created and displayed a journal note using the default current-date entry; file-backed persistence tests retained saved journal data. Custom-date input boundaries remain outside this scenario.",
@@ -655,7 +661,7 @@
   },
   "AC-05.04": {
     "test_name": "Journal edit and confirmed deletion",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "Edited a saved journal note, awaited the new visible text, opened and confirmed deletion, then awaited absence of the entry from the database.",
@@ -669,7 +675,7 @@
   },
   "AC-05.07": {
     "test_name": "Missing saved photograph fallback",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "Imported and bounded a generated image into private storage, deleted that saved file, then asserted the journal shows the explicit missing-photograph message. External picker and camera permission flows were not exercised.",
@@ -683,7 +689,7 @@
   },
   "AC-05.09": {
     "test_name": "Local journal workflow without default network",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "The offline UI suite created, displayed, edited and deleted journal notes while dumpsys connectivity reported no active default network; separate file-backed database reopen verified persisted journal data.",
@@ -699,7 +705,7 @@
   },
   "AC-06.10": {
     "test_name": "Unavailable recognizer touch/text fallback",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "This physical Fire reported no SpeechRecognizer service. The test asserted Push to talk is disabled, a clear unavailable message is displayed, microphone permission remains denied, and a typed Add a new plant command opens the real editor. This does not test recognition on a capable device.",
@@ -715,7 +721,7 @@
   },
   "AC-10.01": {
     "test_name": "Saved plant display without active network",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "The offline UI suite displayed locally created/saved plant records and retained them through activity rotation.",
@@ -730,7 +736,7 @@
   },
   "AC-10.02": {
     "test_name": "Plant creation and edit without active network",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "The offline suite created a plant, edited its saved species and awaited the updated UI value without an active default network.",
@@ -745,7 +751,7 @@
   },
   "AC-10.03": {
     "test_name": "Saved care schedule view without active network",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "The offline suite created a saved soil-check schedule and displayed its real care actions without an active default network.",
@@ -760,7 +766,7 @@
   },
   "AC-10.04": {
     "test_name": "Care completion without active network",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "The offline suite confirmed a typed watering-record command, then verified its history row and advanced next date without an active default network.",
@@ -775,7 +781,7 @@
   },
   "AC-10.05": {
     "test_name": "Journal note creation without active network",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "The offline suite created and displayed a local journal note without an active default network.",
@@ -790,7 +796,7 @@
   },
   "AC-10.08": {
     "test_name": "Core no-account no-network smoke workflows",
-    "execution_date": "2026-10-28",
+    "execution_date": "2026-10-30",
     "environment": "Physical Amazon KFTRWI Fire HD 10 (2021), API 28, en-GB; separately named display overrides and no-network suite",
     "status": "PASS",
     "actual_result": "The tested core plant, schedule, completion and journal actions required neither an account nor an active default network. This is bounded workflow coverage, not a full process-kill or saved-photo offline matrix.",
@@ -879,5 +885,123 @@
       "submission/README.md"
     ],
     "corrective_action": "Obtain human review and complete corresponding localized store screenshot sets before release."
+  },
+  "AC-08.02": {
+    "test_name": "Native screenshot capture provenance",
+    "execution_date": "2026-10-30",
+    "environment": "Physical Fire HD 10 KFTRWI API 28 / real Amazon App Tester where applicable / Python asset integrity checks",
+    "status": "PASS",
+    "actual_result": "All 152 source screenshots captured from implemented native app screens across 19 locales, using explicit demonstration database records.",
+    "evidence": [
+      "evidence/store-captures/run-20261030-094326/capture-manifest.json",
+      "evidence/store-captures/run-20261030-094326/instrumentation.txt"
+    ],
+    "corrective_action": "Keep human review and other untested release gates separate."
+  },
+  "AC-08.09": {
+    "test_name": "Amazon image dimensions and upload",
+    "execution_date": "2026-10-30",
+    "environment": "Physical Fire HD 10 KFTRWI API 28 / real Amazon App Tester where applicable / Python asset integrity checks",
+    "status": "PASS",
+    "actual_result": "All 120 exports validate at 2560x1600. Amazon accepted eight in each of its 11 available image-language channels, read back after reload.",
+    "evidence": [
+      "evidence/localized-screenshot-checks.log",
+      "submission/screenshot-console-upload.json"
+    ],
+    "corrective_action": "Keep human review and other untested release gates separate."
+  },
+  "AC-08.13": {
+    "test_name": "PNG integrity and hash verification",
+    "execution_date": "2026-10-30",
+    "environment": "Physical Fire HD 10 KFTRWI API 28 / real Amazon App Tester where applicable / Python asset integrity checks",
+    "status": "PASS",
+    "actual_result": "Every composed PNG passes signature/chunk/CRC/decompressed scanline and hash validation against its real native source.",
+    "evidence": [
+      "evidence/localized-screenshot-checks.log",
+      "assets/screenshots/localized/localized-manifest.json"
+    ],
+    "corrective_action": "Keep human review and other untested release gates separate."
+  },
+  "AC-08.14": {
+    "test_name": "Screenshot provenance manifest",
+    "execution_date": "2026-10-30",
+    "environment": "Physical Fire HD 10 KFTRWI API 28 / real Amazon App Tester where applicable / Python asset integrity checks",
+    "status": "PASS",
+    "actual_result": "Manifest records physical device, listing/native locale, scene, input/export filename and SHA256; human review explicitly false.",
+    "evidence": [
+      "assets/screenshots/localized/localized-manifest.json"
+    ],
+    "corrective_action": "Keep human review and other untested release gates separate."
+  },
+  "AC-12.01": {
+    "test_name": "Actual Amazon SDK integration",
+    "execution_date": "2026-10-30",
+    "environment": "Physical Fire HD 10 KFTRWI API 28 / real Amazon App Tester where applicable / Python asset integrity checks",
+    "status": "PASS",
+    "actual_result": "Native Appstore SDK delivered real sandbox catalogue and purchase/history callbacks; required package queries and DRM receiver now audited.",
+    "evidence": [
+      "evidence/billing/catalogue-probe.json",
+      "evidence/billing-manifest-after-fix.json"
+    ],
+    "corrective_action": "Keep human review and other untested release gates separate."
+  },
+  "AC-12.03": {
+    "test_name": "Store-provided price rendered",
+    "execution_date": "2026-10-30",
+    "environment": "Physical Fire HD 10 KFTRWI API 28 / real Amazon App Tester where applicable / Python asset integrity checks",
+    "status": "PASS",
+    "actual_result": "Compose Settings displayed the exact returned SDK price.",
+    "evidence": [
+      "evidence/billing/catalogue-probe.txt",
+      "evidence/billing/catalogue-probe.json"
+    ],
+    "corrective_action": "Keep human review and other untested release gates separate."
+  },
+  "AC-12.04": {
+    "test_name": "Real sandbox purchase entitlement",
+    "execution_date": "2026-10-30",
+    "environment": "Physical Fire HD 10 KFTRWI API 28 / real Amazon App Tester where applicable / Python asset integrity checks",
+    "status": "PASS",
+    "actual_result": "Get Item / Close delivered a genuine SDK receipt, persisted it and granted Premium. Other feature gates remain separate.",
+    "evidence": [
+      "evidence/billing/purchase-and-cancel.txt",
+      "evidence/billing/purchase-and-cancel.json"
+    ],
+    "corrective_action": "Keep human review and other untested release gates separate."
+  },
+  "AC-12.05": {
+    "test_name": "Actual purchase dialog cancellation",
+    "execution_date": "2026-10-30",
+    "environment": "Physical Fire HD 10 KFTRWI API 28 / real Amazon App Tester where applicable / Python asset integrity checks",
+    "status": "PASS",
+    "actual_result": "Cancel returned billing-incomplete and Premium remained false before a separate successful purchase.",
+    "evidence": [
+      "evidence/billing/purchase-and-cancel.txt",
+      "evidence/billing/purchase-and-cancel.json"
+    ],
+    "corrective_action": "Keep human review and other untested release gates separate."
+  },
+  "AC-12.07": {
+    "test_name": "Real SDK purchase restoration",
+    "execution_date": "2026-10-30",
+    "environment": "Physical Fire HD 10 KFTRWI API 28 / real Amazon App Tester where applicable / Python asset integrity checks",
+    "status": "PASS",
+    "actual_result": "After removing only the local grant, full SDK history restored Premium from the actual tester receipt.",
+    "evidence": [
+      "evidence/billing/restore-receipt.txt",
+      "evidence/billing/restore-receipt.json"
+    ],
+    "corrective_action": "Keep human review and other untested release gates separate."
+  },
+  "AC-12.12": {
+    "test_name": "Amazon source dependency audit",
+    "execution_date": "2026-10-30",
+    "environment": "Physical Fire HD 10 KFTRWI API 28 / real Amazon App Tester where applicable / Python asset integrity checks",
+    "status": "PASS",
+    "actual_result": "Configured Amazon build declares no Google Play services or Google Billing dependencies; static audit passed.",
+    "evidence": [
+      "evidence/source-audit-20261030.json"
+    ],
+    "corrective_action": "Keep human review and other untested release gates separate."
   }
 }

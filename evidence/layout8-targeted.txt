@@ -1,0 +1,8 @@
+
+com.floratend.app.UiSmokeTest:.
+
+Time: 12.396
+
+OK (1 test)
+
+

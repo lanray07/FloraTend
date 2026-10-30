@@ -1,0 +1,7 @@
+{
+  "cancelDidNotGrantPremium": true,
+  "error": "kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 30000 ms",
+  "sdkMessage": "Waiting for Amazon purchase confirmation.",
+  "versionCode": 2,
+  "sandboxOnly": true
+}

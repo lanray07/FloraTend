@@ -1,8 +1,11 @@
+Display:
 Physical size: 1200x1920
 Physical density: 240
-font_scale
+Font scale:
 1.0
-wifi_on
+Stay awake:
+3
+WiFi:
 1
-stay_on_while_plugged_in
-0
+Sandbox:
+none

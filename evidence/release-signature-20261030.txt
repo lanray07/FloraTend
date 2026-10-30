@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=FloraTend
+Signer #1 certificate SHA-256 digest: c08b2dd3462a14be0351a87c0da7afd83a4efd64ea6ff168aa83853692ff3a94
+Signer #1 certificate SHA-1 digest: 653908600a415cc66b8d9a3acc6cfc710c1ced29
+Signer #1 certificate MD5 digest: be903bd71fe113fb0f7e90685946a9a6
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: 3b8303aeba22d8d5c8e282ba643e4b4d77c69d94d0899249e97ea6aee07a8917
+Signer #1 public key SHA-1 digest: 1fd52e72ed7344657c0782179e8aea05d32769a1
+Signer #1 public key MD5 digest: e41a55124e30a5ab4a723e1c849dba0f

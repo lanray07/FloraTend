@@ -5,7 +5,7 @@ com.floratend.app.SpeechCapabilityTest:.
 com.floratend.app.UiSmokeTest:....
 com.floratend.app.LocalizedUiTest:...
 
-Time: 77.333
+Time: 77.94
 
 OK (11 tests)
 

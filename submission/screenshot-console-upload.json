@@ -1,0 +1,181 @@
+{
+  "verifiedAt": "2026-10-30",
+  "state": "saved_draft_not_submitted",
+  "imageChannels": 11,
+  "images": 88,
+  "locales": [
+    {
+      "locale": "en-US",
+      "consoleLabel": "English (U.S.)",
+      "count": 8,
+      "assetIds": [
+        "screenshot amzn1.dex.asset.ed8eedd43f33401cbcb690ccf28d75b6",
+        "screenshot amzn1.dex.asset.d75198af387e4843a440ea641d6507d5",
+        "screenshot amzn1.dex.asset.bfe5355fbe9741bd974d011e424f76f3",
+        "screenshot amzn1.dex.asset.e0856801591d40e89c8de1908e2b682d",
+        "screenshot amzn1.dex.asset.753c6712efbc4bb1b0abced8e1cc1d8d",
+        "screenshot amzn1.dex.asset.8e8688568559429ba31d7c16b784cec7",
+        "screenshot amzn1.dex.asset.f9ca1e69612a4d019f9f38bd698f8fdf",
+        "screenshot amzn1.dex.asset.2d377fc38d9846f297d16e9df64e8bd3"
+      ]
+    },
+    {
+      "locale": "en-AU",
+      "consoleLabel": "English (Australia)",
+      "count": 8,
+      "assetIds": [
+        "screenshot amzn1.dex.asset.d60a47cbe49245dab96b768f04237532",
+        "screenshot amzn1.dex.asset.edfaee67d6b2486fac2208d9b2142a79",
+        "screenshot amzn1.dex.asset.832a72b65757413aa6a807ff8116d7bc",
+        "screenshot amzn1.dex.asset.c44b3190e36c43139381c7f16d419975",
+        "screenshot amzn1.dex.asset.c5c9ba2c5c4d4701893aa99bb62395bc",
+        "screenshot amzn1.dex.asset.24113cbead7f47189dad616188d7f7f7",
+        "screenshot amzn1.dex.asset.397fde5b2db24e528d9786ee6da2aedf",
+        "screenshot amzn1.dex.asset.8366572b2dd64db7b4ad765d643ed552"
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "consoleLabel": "English (U.K.)",
+      "count": 8,
+      "assetIds": [
+        "screenshot amzn1.dex.asset.db1df5f5741447ef8575b613ca201c18",
+        "screenshot amzn1.dex.asset.f8b77f72fdab4685bd715225d21b0cc4",
+        "screenshot amzn1.dex.asset.33944e5f98a24428961e9f25bf979275",
+        "screenshot amzn1.dex.asset.48cda4f117f54f368a98a83a30db4f6b",
+        "screenshot amzn1.dex.asset.a000a9c8eb22403e9953edb0b27635fc",
+        "screenshot amzn1.dex.asset.51b4b8f801d341a4b6f1450fcb892f87",
+        "screenshot amzn1.dex.asset.13d89bcc028748bab2dc5da586f8c6b9",
+        "screenshot amzn1.dex.asset.0b4b39bd89bf43d7ab523af2735c3eca"
+      ]
+    },
+    {
+      "locale": "en-IN",
+      "consoleLabel": "English (India)",
+      "count": 8,
+      "assetIds": [
+        "screenshot amzn1.dex.asset.f9d147e24c31403490af0c5e4af54ad7",
+        "screenshot amzn1.dex.asset.a891f6354a284b5caa3af41a4bb0643b",
+        "screenshot amzn1.dex.asset.4ea3ea89426b4a688bfb9c8d9a564459",
+        "screenshot amzn1.dex.asset.05843f5fc44147779064b0ead619a15f",
+        "screenshot amzn1.dex.asset.bcee4feb09554fbdb33d112a923fe84a",
+        "screenshot amzn1.dex.asset.dbd3f6a955a34d30972a9c566808b98a",
+        "screenshot amzn1.dex.asset.a913e7faab4c4b5aba51ee4a0bc8b4bc",
+        "screenshot amzn1.dex.asset.fb5fb98e071a414ba733e829b31b2357"
+      ]
+    },
+    {
+      "locale": "de-DE",
+      "consoleLabel": "German",
+      "count": 8,
+      "assetIds": [
+        "screenshot amzn1.dex.asset.43018c2e0f14400ab8ee4890de98e600",
+        "screenshot amzn1.dex.asset.0034fe858f154981bea636f24ee21cf7",
+        "screenshot amzn1.dex.asset.43a1a320634d4d98aa97663042c036ef",
+        "screenshot amzn1.dex.asset.0d5e604fe27f49d3b1694ce2dd6d0032",
+        "screenshot amzn1.dex.asset.e991c8df01424a739785e54c5a8c0edf",
+        "screenshot amzn1.dex.asset.6491f67898e14d33a46fbbebd2bb1874",
+        "screenshot amzn1.dex.asset.8b9cb1cc79864568a4678aac285876d1",
+        "screenshot amzn1.dex.asset.da36ddf9b93f4360980c1200d6ed7953"
+      ]
+    },
+    {
+      "locale": "es-ES",
+      "consoleLabel": "Spanish",
+      "count": 8,
+      "assetIds": [
+        "screenshot amzn1.dex.asset.f8b91792ae664816afe90933179e2d38",
+        "screenshot amzn1.dex.asset.acd60483d3f34de6bd5eb12942f2261f",
+        "screenshot amzn1.dex.asset.11fe39d9a4a7468bb452fcd6549939ca",
+        "screenshot amzn1.dex.asset.fccc6aa2cc36437595874aec094fe02b",
+        "screenshot amzn1.dex.asset.7d85795b31534ab9950c73ca5c45883b",
+        "screenshot amzn1.dex.asset.6fcb19c40e86426483bc6fee3d4e5451",
+        "screenshot amzn1.dex.asset.766b314f902446c99b92dad745697474",
+        "screenshot amzn1.dex.asset.d0ee7c9b45484525b9c8567f82ac19e7"
+      ]
+    },
+    {
+      "locale": "es-MX",
+      "consoleLabel": "Spanish (Mexico)",
+      "count": 8,
+      "assetIds": [
+        "screenshot amzn1.dex.asset.36765e4888ea41969ed6c52ea2cef752",
+        "screenshot amzn1.dex.asset.6388160b21c3482ba4f6fe26af6e4817",
+        "screenshot amzn1.dex.asset.0ec53bfcd7d04bfb850cc8abc0cf5668",
+        "screenshot amzn1.dex.asset.8a1fea1b540f40c68485da8de3cfbf2f",
+        "screenshot amzn1.dex.asset.3e2038279686450996972ed6ac358766",
+        "screenshot amzn1.dex.asset.daa137e42d4b4a16844f9169857fd3a9",
+        "screenshot amzn1.dex.asset.21a29a4ef5cf4e02a2d0cde7653a5542",
+        "screenshot amzn1.dex.asset.f7d6320a85c14a54af6b49507e4e7ba9"
+      ]
+    },
+    {
+      "locale": "fr-FR",
+      "consoleLabel": "French",
+      "count": 8,
+      "assetIds": [
+        "screenshot amzn1.dex.asset.1111155e475c46dda1c3b475e9abff53",
+        "screenshot amzn1.dex.asset.668f4bf83c3b402293d4cc7a89df4aab",
+        "screenshot amzn1.dex.asset.82c3fdd18db14b10aa61dddd94bc0d51",
+        "screenshot amzn1.dex.asset.76f9c93839084d158fb46953d97d737d",
+        "screenshot amzn1.dex.asset.327b42fa4d7446c49530bb13742f0fd7",
+        "screenshot amzn1.dex.asset.e2d91d36c4f54949a2b6060823c28244",
+        "screenshot amzn1.dex.asset.299f81b0266242c7a1e5ad17621c6391",
+        "screenshot amzn1.dex.asset.9829fd2441e64b228c8b5f9d1d0cd0aa"
+      ]
+    },
+    {
+      "locale": "it-IT",
+      "consoleLabel": "Italian",
+      "count": 8,
+      "assetIds": [
+        "screenshot amzn1.dex.asset.1ede297154a84e4894daba5b2758ea40",
+        "screenshot amzn1.dex.asset.01b4dccce44d4887afc1da498a67bc6f",
+        "screenshot amzn1.dex.asset.e2b8cd4d495b458dbac9b1f35c26fafa",
+        "screenshot amzn1.dex.asset.c3de19458e5b4c549ba2e9e2ddec3527",
+        "screenshot amzn1.dex.asset.3af024026e9f466cba68b3e62fc0a4a8",
+        "screenshot amzn1.dex.asset.95be7d05f20d466ab88716cf552ed4cc",
+        "screenshot amzn1.dex.asset.be3e2bc1a15d42828269c211a7b6bbc9",
+        "screenshot amzn1.dex.asset.135cfb61c2bb42b385098c0346f457ca"
+      ]
+    },
+    {
+      "locale": "ja-JP",
+      "consoleLabel": "Japanese",
+      "count": 8,
+      "assetIds": [
+        "screenshot amzn1.dex.asset.3a396b4422454291883e74b24f21ed19",
+        "screenshot amzn1.dex.asset.955be30510ac4b969cb1ba250ec7ad06",
+        "screenshot amzn1.dex.asset.bda533bdfd964b47adab7debba16dc0b",
+        "screenshot amzn1.dex.asset.bb0d1d9e893e4e54937fde90ca5b64d6",
+        "screenshot amzn1.dex.asset.635dae6d2cf644459ac78e3d2a7df7fa",
+        "screenshot amzn1.dex.asset.acb61a65a59542e3bcf00214ce3e7990",
+        "screenshot amzn1.dex.asset.17785576890b4d1e86e5fb75666fdcce",
+        "screenshot amzn1.dex.asset.2452e4914f39441a8cfc562a4675ed87"
+      ]
+    },
+    {
+      "locale": "pt-BR",
+      "consoleLabel": "Portuguese (Brazil)",
+      "count": 8,
+      "assetIds": [
+        "screenshot amzn1.dex.asset.9b8e3e6b026e41c88096d036e0779566",
+        "screenshot amzn1.dex.asset.de9bcb3937154745967a2eb11687308b",
+        "screenshot amzn1.dex.asset.4388d3e993534e80b4c1435d8b09adca",
+        "screenshot amzn1.dex.asset.4733f0fedac24b3ca7d1338f28695d46",
+        "screenshot amzn1.dex.asset.3eacca857f2d443cb722238f1a563631",
+        "screenshot amzn1.dex.asset.3e3420c8baad40909dc15448c2888831",
+        "screenshot amzn1.dex.asset.5d3cd7bcdc2041869ef1fc159137dc8e",
+        "screenshot amzn1.dex.asset.a15af77f8a9344cb82a1be22d6dcd166"
+      ]
+    }
+  ],
+  "additionalPacksWithoutDedicatedConsoleChannel": [
+    "nl-NL",
+    "pl-PL",
+    "pt-PT",
+    "sv-SE"
+  ],
+  "fallbackForUnsupportedImageChannels": "English (U.S.)",
+  "humanLanguageApproval": false
+}

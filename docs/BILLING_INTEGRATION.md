@@ -1,12 +1,12 @@
 # Amazon billing integration and remaining verification
 
-Native dependency: `com.amazon.device:amazon-appstore-sdk:3.0.9`. The Android manifest registers Amazon's IAP response receiver with the notification permission. The intended one-time entitled product SKU is `floratend.premium`. No configured catalogue, product price, successful test purchase or release purchase is asserted by this document.
+Native dependency: `com.amazon.device:amazon-appstore-sdk:3.0.9`. The Android manifest registers Amazon's IAP and DRM response receivers with their notification permissions and declares package visibility for Appstore and App Tester. The intended one-time entitled product SKU is `floratend.premium`. Real sandbox purchase evidence is now recorded in [30 October verification](RELEASE_VERIFICATION_20261030.md); no live product or release purchase is asserted.
 
 ## Configuration
 
 The app-specific public `AppstoreAuthenticationKey.pem` must be obtained from the actual Amazon Developer Console app record and placed under `app/src/main/assets/`. `AmazonBilling.register` leaves billing unavailable when that file is absent. The public key is distinct from private signing keys, developer passwords and any RVS shared secret. None of those private secrets belongs in source or the APK. The actual FloraTend console public key is now bundled. Gitignore permits only this exact public PEM path; private signing material remains excluded. The app record is recorded in `submission/console-draft.json`.
 
-Configure the entitled product and marketplace distribution in the actual Amazon account. Set up Amazon App Tester or Live App Testing. These external steps and tests have not been replaced with a mock success path.
+Configure the live entitled product and marketplace distribution in the actual Amazon account. Amazon App Tester tests passed with the isolated Flora fixture in `billing/amazon.sdktester.json`; US$4.99 is a sandbox-only test price. The shared tablet catalogue was restored afterwards. Live App Testing and live pricing remain pending.
 
 ## Implemented client behaviour
 
@@ -18,7 +18,7 @@ Configure the entitled product and marketplace distribution in the actual Amazon
 - Persists account/mode/receipt metadata in private preferences and the Premium flag in DataStore. Verified cached state is retained when a refresh cannot complete offline.
 - Notifies fulfillment after recording the entitlement. Failure/not-supported paths expose unavailable state rather than substituting a hardcoded price or granting Premium.
 
-These are source-level descriptions. Request correlation, pagination, duplicate handling, deferred/cancelled receipts, process death, account switching, offline cache and release/sandbox transitions all need executed purchase-environment tests. The client integration is not a server Receipt Verification Service deployment. A backend RVS secret must never be added to the APK; choose and verify any server-side verification design separately.
+The dated verification report separates executed sandbox cases from source descriptions. Pagination, duplicate/deferred callbacks, process death, physical offline relaunch and release/sandbox transitions still require tests. The client integration is not a server Receipt Verification Service deployment. A backend RVS secret must never be added to the APK; choose and verify any server-side verification design separately.
 
 ## Required executed scenarios
 

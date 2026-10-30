@@ -1,6 +1,6 @@
 # FloraTend privacy notice
 
-Last updated: 28 October 2026
+Last updated: 30 October 2026
 
 FloraTend is maintained by Lanray. Contact: **banksmi@mail.com**. This notice describes the current FloraTend app; availability and features may vary by release and device.
 
@@ -19,6 +19,8 @@ Your installed speech-recognition and text-to-speech providers process speech or
 ## Amazon purchases
 
 Optional purchases and restoration use Amazon's Appstore SDK. Amazon processes store account, purchase and transaction information under its policies. FloraTend stores entitlement status and relevant Amazon account/receipt references locally to associate an unlock with its owner and support restoration. No payment-card details are collected by FloraTend itself. Purchasing may be unavailable until the store product is configured and offered in your marketplace.
+
+The SDK also supplies marketplace or account-region information and includes operational diagnostics for receipt verification, parsing failures and exceptions. Connections to Amazon expose connection information, such as an IP address, to the receiving service. These provider operations support purchase functionality, troubleshooting and fraud prevention. FloraTend does not request an advertising identifier or use purchase information for advertising. Amazon controls retention of information processed by its services; clearing FloraTend's local data does not delete Amazon's records.
 
 ## Notifications, settings and analytics
 

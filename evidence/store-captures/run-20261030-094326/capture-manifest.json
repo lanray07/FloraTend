@@ -1,0 +1,1016 @@
+{
+  "versionCode": 2,
+  "versionName": "0.1.1",
+  "createdAtEpochMs": 1793353615311,
+  "demonstrationRecords": true,
+  "humanLanguageApproval": false,
+  "locales": [
+    {
+      "locale": "en-GB",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "en-GB\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "en-GB\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "en-GB\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "en-GB\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "en-GB\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "en-GB\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "en-GB\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "en-GB\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "locale": "en-US",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "en-US\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "en-US\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "en-US\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "en-US\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "en-US\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "en-US\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "en-US\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "en-US\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "locale": "en-AU",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "en-AU\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "en-AU\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "en-AU\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "en-AU\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "en-AU\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "en-AU\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "en-AU\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "en-AU\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "locale": "es-ES",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "es-ES\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "es-ES\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "es-ES\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "es-ES\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "es-ES\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "es-ES\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "es-ES\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "es-ES\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "locale": "es-419",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "es-419\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "es-419\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "es-419\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "es-419\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "es-419\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "es-419\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "es-419\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "es-419\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "locale": "fr-FR",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "fr-FR\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "fr-FR\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "fr-FR\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "fr-FR\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "fr-FR\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "fr-FR\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "fr-FR\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "fr-FR\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "locale": "fr-CA",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "fr-CA\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "fr-CA\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "fr-CA\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "fr-CA\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "fr-CA\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "fr-CA\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "fr-CA\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "fr-CA\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "locale": "de-DE",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "de-DE\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "de-DE\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "de-DE\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "de-DE\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "de-DE\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "de-DE\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "de-DE\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "de-DE\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "locale": "it-IT",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "it-IT\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "it-IT\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "it-IT\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "it-IT\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "it-IT\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "it-IT\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "it-IT\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "it-IT\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "locale": "pt-BR",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "pt-BR\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "pt-BR\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "pt-BR\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "pt-BR\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "pt-BR\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "pt-BR\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "pt-BR\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "pt-BR\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "locale": "pt-PT",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "pt-PT\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "pt-PT\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "pt-PT\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "pt-PT\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "pt-PT\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "pt-PT\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "pt-PT\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "pt-PT\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "locale": "nl-NL",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "nl-NL\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "nl-NL\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "nl-NL\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "nl-NL\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "nl-NL\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "nl-NL\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "nl-NL\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "nl-NL\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "locale": "pl-PL",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "pl-PL\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "pl-PL\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "pl-PL\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "pl-PL\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "pl-PL\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "pl-PL\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "pl-PL\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "pl-PL\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "locale": "sv-SE",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "sv-SE\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "sv-SE\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "sv-SE\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "sv-SE\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "sv-SE\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "sv-SE\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "sv-SE\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "sv-SE\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "locale": "ja-JP",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "ja-JP\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "ja-JP\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "ja-JP\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "ja-JP\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "ja-JP\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "ja-JP\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "ja-JP\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "ja-JP\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "locale": "hi-IN",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "hi-IN\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "hi-IN\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "hi-IN\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "hi-IN\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "hi-IN\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "hi-IN\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "hi-IN\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "hi-IN\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "ar\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "ar\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "ar\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "ar\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "ar\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "ar\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "ar\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "ar\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "locale": "tr-TR",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "tr-TR\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "tr-TR\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "tr-TR\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "tr-TR\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "tr-TR\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "tr-TR\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "tr-TR\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "tr-TR\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "locale": "id-ID",
+      "scenes": [
+        {
+          "scene": "01-hero",
+          "file": "id-ID\/01-hero.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "02-watering",
+          "file": "id-ID\/02-watering.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "03-library",
+          "file": "id-ID\/03-library.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "04-calendar",
+          "file": "id-ID\/04-calendar.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "05-growth",
+          "file": "id-ID\/05-growth.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "06-voice",
+          "file": "id-ID\/06-voice.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "07-offline",
+          "file": "id-ID\/07-offline.png",
+          "width": 1920,
+          "height": 1200
+        },
+        {
+          "scene": "08-insights",
+          "file": "id-ID\/08-insights.png",
+          "width": 1920,
+          "height": 1200
+        }
+      ]
+    }
+  ]
+}

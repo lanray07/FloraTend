@@ -42,10 +42,10 @@
   ],
   "apk": {
     "path": "app/build/outputs/apk/release/app-release.apk",
-    "sha256": "c8aa9a846e8a2c04ece41f745c1202387eae9bb8f662a94862a0b50fdb9d057a",
-    "version_code": 2,
-    "version_name": "0.1.1",
-    "upload_status": "accepted_by_console_version_code_2",
+    "sha256": "25934fac8a6d882386b2810d945e08fb0a1c4451ace0fd93da77906bcddb3acc",
+    "version_code": 3,
+    "version_name": "0.1.2",
+    "upload_status": "accepted_by_console_version_code_3",
     "console_drm_applied": true,
     "target_sdk": 36
   },
@@ -54,11 +54,19 @@
     "18+"
   ],
   "rating_questionnaire": "Complete",
-  "privacy_questionnaire": "Not started; SDK/speech-provider data mapping requires review",
+  "privacy_questionnaire": "Saved for review; 39 data types answered; publisher privacy assessment pending",
   "account_creation": false,
   "deletion_url": "https://github.com/lanray07/FloraTend/blob/main/PRIVACY.md#export-deletion-and-retention",
   "tablet_devices_selected": 12,
   "minimum_target_api_warning": "cleared_after_API36_upload",
   "new_alexa_tablets": "still disabled in device picker; not verified",
-  "last_verified": "2026-10-30"
+  "last_verified": "2026-10-30",
+  "screenshots": {
+    "exports": 120,
+    "metadata_locales": 15,
+    "console_image_locales": 11,
+    "uploaded_images": 88,
+    "readback": "submission/screenshot-console-upload.json",
+    "human_approval": false
+  }
 }

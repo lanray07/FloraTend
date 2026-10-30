@@ -1,3 +1,11 @@
+# Current localized exports — 30 October 2026
+
+The current package is `localized/localized-manifest.json`: 120 actual-UI compositions across 15 metadata locales, sourced from 152 real Fire captures in 19 app locales. All 11 image channels available in this Amazon draft contain eight uploaded images each. Four additional packs have no dedicated console image channel. Human language/claims approval remains pending; these are draft assets. See `../../docs/RELEASE_VERIFICATION_20261030.md` and `../../submission/screenshot-console-upload.json`.
+
+## Earlier English SVG preview workflow
+
+The following describes the original preview tool, not the newer localized PNG composer. Its production approval gate remains conservative.
+
 # Actual-app screenshot preparation
 
 Run `python tools/screenshots.py` after device capture. This produces editable en-GB preview SVGs only for existing real PNG captures in `evidence/device/`. It never creates a replacement app UI or a missing screenshot. The eight requested compositions have entries in `screenshot-manifest.json`; absent captures remain pending. `template-source.svg` is an editable source template, visibly labelled as missing a capture, not a release screenshot.

@@ -1,0 +1,8 @@
+{
+  "floratend.premium": {
+    "price": 4.99,
+    "itemType": "ENTITLED",
+    "title": "FloraTend Premium SANDBOX",
+    "description": "Sandbox entitlement for automated FloraTend purchase tests"
+  }
+}

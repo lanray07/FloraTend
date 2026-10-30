@@ -1,0 +1,2421 @@
+{
+  "version_code": 2,
+  "version_name": "0.1.1",
+  "raw_app_locales": 19,
+  "store_locales": 15,
+  "images": 120,
+  "human_language_approval": false,
+  "region_mapping": {
+    "en-IN": "en-GB",
+    "es-MX": "es-419"
+  },
+  "screenshots": [
+    {
+      "listing_locale": "en-GB",
+      "native_app_locale": "en-GB",
+      "scene": "01-hero",
+      "headline": "Your plants, beautifully organised",
+      "headline_lines": [
+        "Your plants, beautifully organised"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-GB/01-hero.png",
+      "capture_sha256": "dff3f1c959172b7739bd116d6d9e77441fb3e650dd71fa94bd361772c85efb1b",
+      "export": "assets/screenshots/localized/en-GB/01-hero.png",
+      "export_sha256": "79b5fe77ca9ba28fd7694f7643a505ff0746e5c3a834cdb391d1dfc63e07c9fc",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-GB",
+      "native_app_locale": "en-GB",
+      "scene": "02-watering",
+      "headline": "Build a calmer care routine",
+      "headline_lines": [
+        "Build a calmer care routine"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-GB/02-watering.png",
+      "capture_sha256": "1c7126d2a13a20f7b04d52b2f2d426aa283750dc4e7d6cec641245f21f3c86d7",
+      "export": "assets/screenshots/localized/en-GB/02-watering.png",
+      "export_sha256": "3c40d15526b269613710cd3b152e2bc22c0cd7acd8846e5ca19cc4512cf4cb42",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-GB",
+      "native_app_locale": "en-GB",
+      "scene": "03-library",
+      "headline": "Give every plant a place",
+      "headline_lines": [
+        "Give every plant a place"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-GB/03-library.png",
+      "capture_sha256": "4fa635756c0c3e31f8684dccb3e451aaf328d3af7bbb162c7831a6478f6b9cfa",
+      "export": "assets/screenshots/localized/en-GB/03-library.png",
+      "export_sha256": "421de60109f940dc6b36b96b7c21c2ac28427c8e79b9ccece98ef23872d9c66f",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-GB",
+      "native_app_locale": "en-GB",
+      "scene": "04-calendar",
+      "headline": "See the care ahead",
+      "headline_lines": [
+        "See the care ahead"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-GB/04-calendar.png",
+      "capture_sha256": "684357c49f62d2a1a24a33ec4909e9325e39df87632bfb6ab1494d9771e3790e",
+      "export": "assets/screenshots/localized/en-GB/04-calendar.png",
+      "export_sha256": "98d5c96947a634a2896159605166890d379133de3623a31b89a30d783ea709bc",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-GB",
+      "native_app_locale": "en-GB",
+      "scene": "05-growth",
+      "headline": "Keep a journal of new growth",
+      "headline_lines": [
+        "Keep a journal of new growth"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-GB/05-growth.png",
+      "capture_sha256": "60b8023db3369e61a14f1c6b5882bf80b7fb6daccc3fc71d0d6c5ad5657fdf6b",
+      "export": "assets/screenshots/localized/en-GB/05-growth.png",
+      "export_sha256": "00f1d74d79c79e164ecd62281dcd0b39352c429f6b68f1353c3849b755587c09",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-GB",
+      "native_app_locale": "en-GB",
+      "scene": "06-voice",
+      "headline": "Type a command. Keep caring.",
+      "headline_lines": [
+        "Type a command. Keep caring."
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-GB/06-voice.png",
+      "capture_sha256": "4c0d4ebb4ebf31d2884ab666dccf532abc2a5cf7aeb2f40eea6ff78e7d87efb6",
+      "export": "assets/screenshots/localized/en-GB/06-voice.png",
+      "export_sha256": "ce96e9c25947b93938b1abe44afaa06b421605471b293a3f60426dffc4c93bce",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-GB",
+      "native_app_locale": "en-GB",
+      "scene": "07-offline",
+      "headline": "Your plant records, even offline",
+      "headline_lines": [
+        "Your plant records, even offline"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-GB/07-offline.png",
+      "capture_sha256": "d65fc9e96f282139a09ffab915dcdfe308a0421ea01f1cf0d64860bd9ee2eaf0",
+      "export": "assets/screenshots/localized/en-GB/07-offline.png",
+      "export_sha256": "2aa427e1633180ea3c33e64e3dad2cb5edfa7f26a900971b266f8dd1e115ca28",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-GB",
+      "native_app_locale": "en-GB",
+      "scene": "08-insights",
+      "headline": "See your care take shape",
+      "headline_lines": [
+        "See your care take shape"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-GB/08-insights.png",
+      "capture_sha256": "b2ad7dcd8b7dc664806c0eb21134eb93142e2c5ca852a6883be39c61c6ab6c87",
+      "export": "assets/screenshots/localized/en-GB/08-insights.png",
+      "export_sha256": "5f99bc5213dd7213c9fa8890dac82de2d1171c307cec9c863f3e90d6abfc6d05",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-US",
+      "native_app_locale": "en-US",
+      "scene": "01-hero",
+      "headline": "Your plants, beautifully organized",
+      "headline_lines": [
+        "Your plants, beautifully organized"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-US/01-hero.png",
+      "capture_sha256": "27192e9ca8c2bca69f673e74192ee496c4da6236b47d61302756cfef48d1c1ea",
+      "export": "assets/screenshots/localized/en-US/01-hero.png",
+      "export_sha256": "1ea8706f5c5044fb374f00c06a7d72f6c4a85205fbd1664989822d411926bdf6",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-US",
+      "native_app_locale": "en-US",
+      "scene": "02-watering",
+      "headline": "Build a calmer care routine",
+      "headline_lines": [
+        "Build a calmer care routine"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-US/02-watering.png",
+      "capture_sha256": "000e7d1d9358dc761bd6ba8e72af5fdda34ba01ae3fa3c379debf68091d495c3",
+      "export": "assets/screenshots/localized/en-US/02-watering.png",
+      "export_sha256": "7feb30406381cc70b17bb46398cd8370397e56aed78387497b88be69353dfb4f",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-US",
+      "native_app_locale": "en-US",
+      "scene": "03-library",
+      "headline": "Give every plant a place",
+      "headline_lines": [
+        "Give every plant a place"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-US/03-library.png",
+      "capture_sha256": "c558287923fa90a7b87dc317e405b0e8c750ccd28c5cbbf99faf80357e8cfede",
+      "export": "assets/screenshots/localized/en-US/03-library.png",
+      "export_sha256": "96491a7dc90798c24c07049e9f832c0cc5f32c3ed7c8507ea0908c86ffad9e9c",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-US",
+      "native_app_locale": "en-US",
+      "scene": "04-calendar",
+      "headline": "See the care ahead",
+      "headline_lines": [
+        "See the care ahead"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-US/04-calendar.png",
+      "capture_sha256": "9e15108f4cb3095c672c1b1153bf397f03e2eaab6c3ec61b6ea35fae541f9d25",
+      "export": "assets/screenshots/localized/en-US/04-calendar.png",
+      "export_sha256": "568d64449c0d4d9327f7bff729854e7e2d9e7fa7b03f2c8f04a36d547f7090c6",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-US",
+      "native_app_locale": "en-US",
+      "scene": "05-growth",
+      "headline": "Keep a journal of new growth",
+      "headline_lines": [
+        "Keep a journal of new growth"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-US/05-growth.png",
+      "capture_sha256": "318fca0eab2f1599cf42c73e492beca594a4e51de20595b5165c2a473e819932",
+      "export": "assets/screenshots/localized/en-US/05-growth.png",
+      "export_sha256": "71c5f301354f1a694f97c5a979f3d4f1ea4377798db53a6f772e56089db15383",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-US",
+      "native_app_locale": "en-US",
+      "scene": "06-voice",
+      "headline": "Type a command. Keep caring.",
+      "headline_lines": [
+        "Type a command. Keep caring."
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-US/06-voice.png",
+      "capture_sha256": "6f702890a154eabcae43b15d2999c9833701d4bf0a40c90f5773ca992cc7963e",
+      "export": "assets/screenshots/localized/en-US/06-voice.png",
+      "export_sha256": "a27197c463e4b5e8406657a2663084e2ef21097f81ebe738bdc15f5b3fb37a8c",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-US",
+      "native_app_locale": "en-US",
+      "scene": "07-offline",
+      "headline": "Your plant records, even offline",
+      "headline_lines": [
+        "Your plant records, even offline"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-US/07-offline.png",
+      "capture_sha256": "edc28a738e9e633c5b0a443768e5a33ba7094a285a33c2f140398738041e1b07",
+      "export": "assets/screenshots/localized/en-US/07-offline.png",
+      "export_sha256": "1ec3610b6dc2df76f9f9779835c9cac0dc7f4d5b7f4d753cb462f59927176785",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-US",
+      "native_app_locale": "en-US",
+      "scene": "08-insights",
+      "headline": "See your care take shape",
+      "headline_lines": [
+        "See your care take shape"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-US/08-insights.png",
+      "capture_sha256": "3d8f19b8909c2976b87e12c890ae694809be36a604ad5424edf5671791ad9e42",
+      "export": "assets/screenshots/localized/en-US/08-insights.png",
+      "export_sha256": "f813ac1f4c8e3fefbcd5cb511f50a2afe9460f8061b6e361de58bac074adaed0",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-AU",
+      "native_app_locale": "en-AU",
+      "scene": "01-hero",
+      "headline": "Your plants, beautifully organised",
+      "headline_lines": [
+        "Your plants, beautifully organised"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-AU/01-hero.png",
+      "capture_sha256": "f1f0522fe5a6235cbf1770e6862d6dd3d40c1b9a98e041a81cd39c1c4f92a792",
+      "export": "assets/screenshots/localized/en-AU/01-hero.png",
+      "export_sha256": "100e056799d6c4fb74b144723aa7979f1d886efd6cdf393191cfdc08adc68790",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-AU",
+      "native_app_locale": "en-AU",
+      "scene": "02-watering",
+      "headline": "Build a calmer care routine",
+      "headline_lines": [
+        "Build a calmer care routine"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-AU/02-watering.png",
+      "capture_sha256": "3ac7e9344ed68481f61ac26ff104e329909c5f26933b56e9fcfa32261a8cb0c9",
+      "export": "assets/screenshots/localized/en-AU/02-watering.png",
+      "export_sha256": "1841fe0e6157374b34625a88e3e61fbc8cad77158ca4be3bfe18dc083267509b",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-AU",
+      "native_app_locale": "en-AU",
+      "scene": "03-library",
+      "headline": "Give every plant a place",
+      "headline_lines": [
+        "Give every plant a place"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-AU/03-library.png",
+      "capture_sha256": "eef7902b277ca63d548072fac7f520e1f3ddd049592530a5aa4d1eab084606cd",
+      "export": "assets/screenshots/localized/en-AU/03-library.png",
+      "export_sha256": "9624840938dc68efeee5305a705292801db919b0a39a24dd92555b23fdc748bc",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-AU",
+      "native_app_locale": "en-AU",
+      "scene": "04-calendar",
+      "headline": "See the care ahead",
+      "headline_lines": [
+        "See the care ahead"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-AU/04-calendar.png",
+      "capture_sha256": "20c934a61e5a49d5bc814f2cf06aa6b127a88356972a81e36d26c629626d0063",
+      "export": "assets/screenshots/localized/en-AU/04-calendar.png",
+      "export_sha256": "b46980a0f19d20b08bc4e6ffea082ec6ea4102e7441a3c4d664e194f5a89c7d6",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-AU",
+      "native_app_locale": "en-AU",
+      "scene": "05-growth",
+      "headline": "Keep a journal of new growth",
+      "headline_lines": [
+        "Keep a journal of new growth"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-AU/05-growth.png",
+      "capture_sha256": "af51dd05f009b65b4b2e67749884020f7516b3ce9147d4cd8c5087c7293ae323",
+      "export": "assets/screenshots/localized/en-AU/05-growth.png",
+      "export_sha256": "b44eaab02571781f1c840193d0e7c8a70cec20c55c4eb8829e065638e54942bf",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-AU",
+      "native_app_locale": "en-AU",
+      "scene": "06-voice",
+      "headline": "Type a command. Keep caring.",
+      "headline_lines": [
+        "Type a command. Keep caring."
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-AU/06-voice.png",
+      "capture_sha256": "6f702890a154eabcae43b15d2999c9833701d4bf0a40c90f5773ca992cc7963e",
+      "export": "assets/screenshots/localized/en-AU/06-voice.png",
+      "export_sha256": "a27197c463e4b5e8406657a2663084e2ef21097f81ebe738bdc15f5b3fb37a8c",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-AU",
+      "native_app_locale": "en-AU",
+      "scene": "07-offline",
+      "headline": "Your plant records, even offline",
+      "headline_lines": [
+        "Your plant records, even offline"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-AU/07-offline.png",
+      "capture_sha256": "1a34bdd621294d0bab19aa582571e60c0456739f37e102b831b6fd3c5904070a",
+      "export": "assets/screenshots/localized/en-AU/07-offline.png",
+      "export_sha256": "b58ef832b01c032cca706de7b396f01c2681f79e8c3db1b5a592722f88117122",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-AU",
+      "native_app_locale": "en-AU",
+      "scene": "08-insights",
+      "headline": "See your care take shape",
+      "headline_lines": [
+        "See your care take shape"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-AU/08-insights.png",
+      "capture_sha256": "b2ad7dcd8b7dc664806c0eb21134eb93142e2c5ca852a6883be39c61c6ab6c87",
+      "export": "assets/screenshots/localized/en-AU/08-insights.png",
+      "export_sha256": "5f99bc5213dd7213c9fa8890dac82de2d1171c307cec9c863f3e90d6abfc6d05",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-IN",
+      "native_app_locale": "en-GB",
+      "scene": "01-hero",
+      "headline": "Your plants, beautifully organised",
+      "headline_lines": [
+        "Your plants, beautifully organised"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-GB/01-hero.png",
+      "capture_sha256": "dff3f1c959172b7739bd116d6d9e77441fb3e650dd71fa94bd361772c85efb1b",
+      "export": "assets/screenshots/localized/en-IN/01-hero.png",
+      "export_sha256": "79b5fe77ca9ba28fd7694f7643a505ff0746e5c3a834cdb391d1dfc63e07c9fc",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-IN",
+      "native_app_locale": "en-GB",
+      "scene": "02-watering",
+      "headline": "Build a calmer care routine",
+      "headline_lines": [
+        "Build a calmer care routine"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-GB/02-watering.png",
+      "capture_sha256": "1c7126d2a13a20f7b04d52b2f2d426aa283750dc4e7d6cec641245f21f3c86d7",
+      "export": "assets/screenshots/localized/en-IN/02-watering.png",
+      "export_sha256": "3c40d15526b269613710cd3b152e2bc22c0cd7acd8846e5ca19cc4512cf4cb42",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-IN",
+      "native_app_locale": "en-GB",
+      "scene": "03-library",
+      "headline": "Give every plant a place",
+      "headline_lines": [
+        "Give every plant a place"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-GB/03-library.png",
+      "capture_sha256": "4fa635756c0c3e31f8684dccb3e451aaf328d3af7bbb162c7831a6478f6b9cfa",
+      "export": "assets/screenshots/localized/en-IN/03-library.png",
+      "export_sha256": "421de60109f940dc6b36b96b7c21c2ac28427c8e79b9ccece98ef23872d9c66f",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-IN",
+      "native_app_locale": "en-GB",
+      "scene": "04-calendar",
+      "headline": "See the care ahead",
+      "headline_lines": [
+        "See the care ahead"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-GB/04-calendar.png",
+      "capture_sha256": "684357c49f62d2a1a24a33ec4909e9325e39df87632bfb6ab1494d9771e3790e",
+      "export": "assets/screenshots/localized/en-IN/04-calendar.png",
+      "export_sha256": "98d5c96947a634a2896159605166890d379133de3623a31b89a30d783ea709bc",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-IN",
+      "native_app_locale": "en-GB",
+      "scene": "05-growth",
+      "headline": "Keep a journal of new growth",
+      "headline_lines": [
+        "Keep a journal of new growth"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-GB/05-growth.png",
+      "capture_sha256": "60b8023db3369e61a14f1c6b5882bf80b7fb6daccc3fc71d0d6c5ad5657fdf6b",
+      "export": "assets/screenshots/localized/en-IN/05-growth.png",
+      "export_sha256": "00f1d74d79c79e164ecd62281dcd0b39352c429f6b68f1353c3849b755587c09",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-IN",
+      "native_app_locale": "en-GB",
+      "scene": "06-voice",
+      "headline": "Type a command. Keep caring.",
+      "headline_lines": [
+        "Type a command. Keep caring."
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-GB/06-voice.png",
+      "capture_sha256": "4c0d4ebb4ebf31d2884ab666dccf532abc2a5cf7aeb2f40eea6ff78e7d87efb6",
+      "export": "assets/screenshots/localized/en-IN/06-voice.png",
+      "export_sha256": "ce96e9c25947b93938b1abe44afaa06b421605471b293a3f60426dffc4c93bce",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-IN",
+      "native_app_locale": "en-GB",
+      "scene": "07-offline",
+      "headline": "Your plant records, even offline",
+      "headline_lines": [
+        "Your plant records, even offline"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-GB/07-offline.png",
+      "capture_sha256": "d65fc9e96f282139a09ffab915dcdfe308a0421ea01f1cf0d64860bd9ee2eaf0",
+      "export": "assets/screenshots/localized/en-IN/07-offline.png",
+      "export_sha256": "2aa427e1633180ea3c33e64e3dad2cb5edfa7f26a900971b266f8dd1e115ca28",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "en-IN",
+      "native_app_locale": "en-GB",
+      "scene": "08-insights",
+      "headline": "See your care take shape",
+      "headline_lines": [
+        "See your care take shape"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/en-GB/08-insights.png",
+      "capture_sha256": "b2ad7dcd8b7dc664806c0eb21134eb93142e2c5ca852a6883be39c61c6ab6c87",
+      "export": "assets/screenshots/localized/en-IN/08-insights.png",
+      "export_sha256": "5f99bc5213dd7213c9fa8890dac82de2d1171c307cec9c863f3e90d6abfc6d05",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "es-ES",
+      "native_app_locale": "es-ES",
+      "scene": "01-hero",
+      "headline": "Tus plantas, bien organizadas",
+      "headline_lines": [
+        "Tus plantas, bien organizadas"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/es-ES/01-hero.png",
+      "capture_sha256": "300f814d47b113758d3238cc406d7d8084eb3d4c172facdba9c7de732690541e",
+      "export": "assets/screenshots/localized/es-ES/01-hero.png",
+      "export_sha256": "2a1327a9c445791a6c0364ed325ac5036ce7f3db512668d59d1ab7a294785974",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "es-ES",
+      "native_app_locale": "es-ES",
+      "scene": "02-watering",
+      "headline": "Cuida con más calma",
+      "headline_lines": [
+        "Cuida con más calma"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/es-ES/02-watering.png",
+      "capture_sha256": "f480a3471e91cd6d9c63e7f4715c858f7bbe6f9e7e8b7bc0fcc2a788f9956679",
+      "export": "assets/screenshots/localized/es-ES/02-watering.png",
+      "export_sha256": "ee2a4e06381f5b24f03e22d65993e9cb8def5354a285a8243860184557195a79",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "es-ES",
+      "native_app_locale": "es-ES",
+      "scene": "03-library",
+      "headline": "Un lugar para cada planta",
+      "headline_lines": [
+        "Un lugar para cada planta"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/es-ES/03-library.png",
+      "capture_sha256": "9dc27771cfa0a61fdecc260352dd69b8e1c1bf4f284f2eb694dffa9fa9ab1dc4",
+      "export": "assets/screenshots/localized/es-ES/03-library.png",
+      "export_sha256": "76b1dada20dd00842e4bf795b3387f093787afaacbf5cba03525a7f506b3c7cb",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "es-ES",
+      "native_app_locale": "es-ES",
+      "scene": "04-calendar",
+      "headline": "Prepara los próximos cuidados",
+      "headline_lines": [
+        "Prepara los próximos cuidados"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/es-ES/04-calendar.png",
+      "capture_sha256": "e40fe13b8729f8ab64304fdbd71d6ea5abea10ad211e6a81622fe97d3fcbdcee",
+      "export": "assets/screenshots/localized/es-ES/04-calendar.png",
+      "export_sha256": "0fc91ccec53b2dcbc029b407fddf7f4e029e56a6eaa9886b89058b0b6dabbe83",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "es-ES",
+      "native_app_locale": "es-ES",
+      "scene": "05-growth",
+      "headline": "Lleva un diario de crecimiento",
+      "headline_lines": [
+        "Lleva un diario de crecimiento"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/es-ES/05-growth.png",
+      "capture_sha256": "a016641554477116e1a215e0a99a9d32a5573784842aefb6fab072a4f31aa0e9",
+      "export": "assets/screenshots/localized/es-ES/05-growth.png",
+      "export_sha256": "2dbf8258ed1a2ee3ec038c94cf3e1b72237d6553d8d508e6d028e998669d22ee",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "es-ES",
+      "native_app_locale": "es-ES",
+      "scene": "06-voice",
+      "headline": "Escribe una orden y sigue cuidando",
+      "headline_lines": [
+        "Escribe una orden y sigue cuidando"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/es-ES/06-voice.png",
+      "capture_sha256": "199b59f419449a6da0d51dc0ba1505163b9073c2927f0c9093ce9ead8f2e265e",
+      "export": "assets/screenshots/localized/es-ES/06-voice.png",
+      "export_sha256": "b933f41327c09eb33e7a741cff67d3b1275f1dd20171d9ef1059601a4e2bcb17",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "es-ES",
+      "native_app_locale": "es-ES",
+      "scene": "07-offline",
+      "headline": "Tus plantas, también sin conexión",
+      "headline_lines": [
+        "Tus plantas, también sin conexión"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/es-ES/07-offline.png",
+      "capture_sha256": "f3c2a2b6567583b48c46166b6768b47951022bc73ed2fabe32bb73f289d02169",
+      "export": "assets/screenshots/localized/es-ES/07-offline.png",
+      "export_sha256": "a5cf6847e49d48e2025cfea1a8ced7d37c841ad6e66985834200690948088c13",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "es-ES",
+      "native_app_locale": "es-ES",
+      "scene": "08-insights",
+      "headline": "Consulta los cuidados que registras",
+      "headline_lines": [
+        "Consulta los cuidados que registras"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/es-ES/08-insights.png",
+      "capture_sha256": "f97e5db74621e30b20e294e39a59f2542a0fd6db64be192cb1c8190ca4c899aa",
+      "export": "assets/screenshots/localized/es-ES/08-insights.png",
+      "export_sha256": "dd2805926c584c63970e9dce617a2ff29f108fe26e23d9ca14fa761595264c07",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "es-MX",
+      "native_app_locale": "es-419",
+      "scene": "01-hero",
+      "headline": "Tus plantas, bien organizadas",
+      "headline_lines": [
+        "Tus plantas, bien organizadas"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/es-419/01-hero.png",
+      "capture_sha256": "11fac7a177291fb6bcf10c64c3b83688a2c571e39e040f95cf943e18b7649526",
+      "export": "assets/screenshots/localized/es-MX/01-hero.png",
+      "export_sha256": "ecd2219258e95412b419cfa6548f8ed2aa93d6ca6c8fee86378ffc3b2e6fbcc9",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "es-MX",
+      "native_app_locale": "es-419",
+      "scene": "02-watering",
+      "headline": "Cuida con más calma",
+      "headline_lines": [
+        "Cuida con más calma"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/es-419/02-watering.png",
+      "capture_sha256": "a0e2694421470082ed8b6af8b02467eb8fca036c39c921b6494a753100ce4dc0",
+      "export": "assets/screenshots/localized/es-MX/02-watering.png",
+      "export_sha256": "58ea2464838201f7264466930e439667bf7ba381a6a3f6de3f4eabe1fbe9a6bd",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "es-MX",
+      "native_app_locale": "es-419",
+      "scene": "03-library",
+      "headline": "Un lugar para cada planta",
+      "headline_lines": [
+        "Un lugar para cada planta"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/es-419/03-library.png",
+      "capture_sha256": "29439c40ba734937f5c638f4fc0a1e2e80bbe1d1003c68e7c0110ae2ed4d4578",
+      "export": "assets/screenshots/localized/es-MX/03-library.png",
+      "export_sha256": "f76a586b39ddc71b74950516ad1eae165154df671a63ad39440852c03f0dde5d",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "es-MX",
+      "native_app_locale": "es-419",
+      "scene": "04-calendar",
+      "headline": "Planea los próximos cuidados",
+      "headline_lines": [
+        "Planea los próximos cuidados"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/es-419/04-calendar.png",
+      "capture_sha256": "17cb61ba2df1937f36468ce515012f05b719a78b3ab4a864ded145d06124ab67",
+      "export": "assets/screenshots/localized/es-MX/04-calendar.png",
+      "export_sha256": "c0b9315b718a00190b790176812a88bba6669d8b883f330c87b56872f41d86c6",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "es-MX",
+      "native_app_locale": "es-419",
+      "scene": "05-growth",
+      "headline": "Lleva una bitácora de crecimiento",
+      "headline_lines": [
+        "Lleva una bitácora de crecimiento"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/es-419/05-growth.png",
+      "capture_sha256": "468edc405558d939cfc840bcc9ae03a69fc563194a3d9c97e9d8d812995a374c",
+      "export": "assets/screenshots/localized/es-MX/05-growth.png",
+      "export_sha256": "1a63c56f07cc246922974096b66c7b1f5b72494f1705a63cd62821e5cef2a480",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "es-MX",
+      "native_app_locale": "es-419",
+      "scene": "06-voice",
+      "headline": "Escribe un comando y sigue cuidando",
+      "headline_lines": [
+        "Escribe un comando y sigue cuidando"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/es-419/06-voice.png",
+      "capture_sha256": "b269aba07a1c428cf28f45f109db8fc145324b1767c763e36255727290770820",
+      "export": "assets/screenshots/localized/es-MX/06-voice.png",
+      "export_sha256": "7eeba56d34890fb0934eb09fc966d8d19415796d282739ae43ec72b1bac194e4",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "es-MX",
+      "native_app_locale": "es-419",
+      "scene": "07-offline",
+      "headline": "Tus plantas, también sin conexión",
+      "headline_lines": [
+        "Tus plantas, también sin conexión"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/es-419/07-offline.png",
+      "capture_sha256": "ef4505645588f29bd502b1807be8eb36d054482ba3620382032e0c23ff817db4",
+      "export": "assets/screenshots/localized/es-MX/07-offline.png",
+      "export_sha256": "8477872a4c1966182ced91e306609276539d560fdd0b03459d0e076536a7247d",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "es-MX",
+      "native_app_locale": "es-419",
+      "scene": "08-insights",
+      "headline": "Consulta los cuidados que registras",
+      "headline_lines": [
+        "Consulta los cuidados que registras"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/es-419/08-insights.png",
+      "capture_sha256": "243a0ecf4008b8103f29d21288c9cffae98bf946da38200f0dc0c5f5fe28f4b9",
+      "export": "assets/screenshots/localized/es-MX/08-insights.png",
+      "export_sha256": "c135b3df9f5aa671ca1360ffc1ffb931bfd262060185917df6f29fc599bc0309",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "fr-FR",
+      "native_app_locale": "fr-FR",
+      "scene": "01-hero",
+      "headline": "Vos plantes, bien organisées",
+      "headline_lines": [
+        "Vos plantes, bien organisées"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/fr-FR/01-hero.png",
+      "capture_sha256": "a84dd56b73ad80ad5c98fb62d3a8a9a7b7b617e5ee81b3169164d10f9cc05ac2",
+      "export": "assets/screenshots/localized/fr-FR/01-hero.png",
+      "export_sha256": "e88457785d44fc4262c682ccd9955722b484d0fc74406a5559496e28b5f9dc6f",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "fr-FR",
+      "native_app_locale": "fr-FR",
+      "scene": "02-watering",
+      "headline": "Une routine de soins plus sereine",
+      "headline_lines": [
+        "Une routine de soins plus sereine"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/fr-FR/02-watering.png",
+      "capture_sha256": "818e5362dc1ddfde6186ad151325586658bbfb5c786d1982efaf37a39c828aca",
+      "export": "assets/screenshots/localized/fr-FR/02-watering.png",
+      "export_sha256": "37dfffdb11dcfb3f4a17f89aba4d180ffe15731e2d7b70124e44efa4767b8fcc",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "fr-FR",
+      "native_app_locale": "fr-FR",
+      "scene": "03-library",
+      "headline": "Une place pour chaque plante",
+      "headline_lines": [
+        "Une place pour chaque plante"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/fr-FR/03-library.png",
+      "capture_sha256": "f87f7dae21265dd559edc6c10237c6c2e8c7d33ab41f0d6b1ff68abcde8f2422",
+      "export": "assets/screenshots/localized/fr-FR/03-library.png",
+      "export_sha256": "6fd5e754a66e265527f4e5416a4f6ab68ad711e59da882bf96c678edf1e34d14",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "fr-FR",
+      "native_app_locale": "fr-FR",
+      "scene": "04-calendar",
+      "headline": "Anticipez les prochains soins",
+      "headline_lines": [
+        "Anticipez les prochains soins"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/fr-FR/04-calendar.png",
+      "capture_sha256": "a4a62352561f8a9f6a209165428c0b7ab136523ad9e7bf52b8ae31b070f5802e",
+      "export": "assets/screenshots/localized/fr-FR/04-calendar.png",
+      "export_sha256": "ccfa269c7be81ef87ab1f60cd228dce022a782048fb0c1a37bc002fdeaff415d",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "fr-FR",
+      "native_app_locale": "fr-FR",
+      "scene": "05-growth",
+      "headline": "Gardez une trace de la croissance",
+      "headline_lines": [
+        "Gardez une trace de la croissance"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/fr-FR/05-growth.png",
+      "capture_sha256": "cf13e1805c9d350a3c3803e68b821f7b7ba700bcfd0a36053ead7dc46c3c129f",
+      "export": "assets/screenshots/localized/fr-FR/05-growth.png",
+      "export_sha256": "9003c6ffd090874bbdeb6665ed4cfc4f68fd997f92519bc7744ba8903b903204",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "fr-FR",
+      "native_app_locale": "fr-FR",
+      "scene": "06-voice",
+      "headline": "Saisissez une commande, tout simplement",
+      "headline_lines": [
+        "Saisissez une commande, tout simplement"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/fr-FR/06-voice.png",
+      "capture_sha256": "30a041ccb1b8988ec3c90c13f8040a6750bb4df3e5f40d622e5189a7af56b976",
+      "export": "assets/screenshots/localized/fr-FR/06-voice.png",
+      "export_sha256": "69bacc8a9534f4d4853df0d7819227f10dec49841b4e79ccb5fd173153fe886b",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "fr-FR",
+      "native_app_locale": "fr-FR",
+      "scene": "07-offline",
+      "headline": "Vos plantes, même hors connexion",
+      "headline_lines": [
+        "Vos plantes, même hors connexion"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/fr-FR/07-offline.png",
+      "capture_sha256": "187acd49c51a1922492e06c8bd3c271496c60d9e11d3b806102a4fd5f35e529b",
+      "export": "assets/screenshots/localized/fr-FR/07-offline.png",
+      "export_sha256": "bf01a2159def2e925211cb88024b533208b2ba3849a7ff780558681927e4cdcb",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "fr-FR",
+      "native_app_locale": "fr-FR",
+      "scene": "08-insights",
+      "headline": "Retrouvez les soins enregistrés",
+      "headline_lines": [
+        "Retrouvez les soins enregistrés"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/fr-FR/08-insights.png",
+      "capture_sha256": "7e94455cd9f7d62a01063fde8dbf7b9e201ec9e26bb28bfd827e92f551416f90",
+      "export": "assets/screenshots/localized/fr-FR/08-insights.png",
+      "export_sha256": "c362e6f5771e7154d7b7ce98d7dda585ed0cdef8c33853b90edf3ab6021a9191",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "de-DE",
+      "native_app_locale": "de-DE",
+      "scene": "01-hero",
+      "headline": "Deine Pflanzen, schön geordnet",
+      "headline_lines": [
+        "Deine Pflanzen, schön geordnet"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/de-DE/01-hero.png",
+      "capture_sha256": "491f816e5ac31d54a1ae8972a1bd0a56581bd4e8f5967004ab19fb3277a3ad3e",
+      "export": "assets/screenshots/localized/de-DE/01-hero.png",
+      "export_sha256": "3bf1457e0023880d8fa02614206c93bbb42b2257e5f133153b04dc7b4b27ac86",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "de-DE",
+      "native_app_locale": "de-DE",
+      "scene": "02-watering",
+      "headline": "Mehr Ruhe bei der Pflanzenpflege",
+      "headline_lines": [
+        "Mehr Ruhe bei der Pflanzenpflege"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/de-DE/02-watering.png",
+      "capture_sha256": "b00a7b900bf01fc959df2cc08d2bb1ab5666adf01b3a3899dc5192a030aaf5ec",
+      "export": "assets/screenshots/localized/de-DE/02-watering.png",
+      "export_sha256": "52638c464dbeb8eca216e271479b58dd62c69ea30e97c01f952cf5e5d6be4606",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "de-DE",
+      "native_app_locale": "de-DE",
+      "scene": "03-library",
+      "headline": "Ein Platz für jede Pflanze",
+      "headline_lines": [
+        "Ein Platz für jede Pflanze"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/de-DE/03-library.png",
+      "capture_sha256": "fab6dcb157400e5e3af3584cdf017c458cd37f6bb6ec1d519d067af0c36d6c32",
+      "export": "assets/screenshots/localized/de-DE/03-library.png",
+      "export_sha256": "030cfd3e22b4faaefa0602597554f2b69933ac6cf41ed65970a560685a617bc1",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "de-DE",
+      "native_app_locale": "de-DE",
+      "scene": "04-calendar",
+      "headline": "Die nächste Pflege im Blick",
+      "headline_lines": [
+        "Die nächste Pflege im Blick"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/de-DE/04-calendar.png",
+      "capture_sha256": "08d2d08055b80517872dcfc7392fa5ae0637e95dc246f1f5f9cb2a60bf31bc2b",
+      "export": "assets/screenshots/localized/de-DE/04-calendar.png",
+      "export_sha256": "62e090b0ad1d7f37b27c4f6a81721899d397b0a42f84410197cfe438a7caf6b8",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "de-DE",
+      "native_app_locale": "de-DE",
+      "scene": "05-growth",
+      "headline": "Halte neues Wachstum fest",
+      "headline_lines": [
+        "Halte neues Wachstum fest"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/de-DE/05-growth.png",
+      "capture_sha256": "93d90611cfef820214fb9376c12246e2ae820a1e3384249fd08742c0c92571ff",
+      "export": "assets/screenshots/localized/de-DE/05-growth.png",
+      "export_sha256": "68fd5418156c1db3642225d7360fc1018fbec80786012751638fd938a1fdd32b",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "de-DE",
+      "native_app_locale": "de-DE",
+      "scene": "06-voice",
+      "headline": "Befehl eingeben. Pflanzen pflegen.",
+      "headline_lines": [
+        "Befehl eingeben. Pflanzen pflegen."
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/de-DE/06-voice.png",
+      "capture_sha256": "370910ebb37789919f792e2b81681182a57b0c91e73adb8471c2e5903c1decae",
+      "export": "assets/screenshots/localized/de-DE/06-voice.png",
+      "export_sha256": "5cb9560193cd674ed6c36e5f00c4b512649e6acfb325a95656aeef21285ff616",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "de-DE",
+      "native_app_locale": "de-DE",
+      "scene": "07-offline",
+      "headline": "Deine Pflanzendaten, auch offline",
+      "headline_lines": [
+        "Deine Pflanzendaten, auch offline"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/de-DE/07-offline.png",
+      "capture_sha256": "f47963adca2ebd67ff0cc5b08ec73d850fd1c56a6e25ed2f59058e15477d132f",
+      "export": "assets/screenshots/localized/de-DE/07-offline.png",
+      "export_sha256": "de75d14778fa8fccd4e984321220d1def61f936eeafe36becf513bb580d46f1b",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "de-DE",
+      "native_app_locale": "de-DE",
+      "scene": "08-insights",
+      "headline": "Deine dokumentierte Pflege im Blick",
+      "headline_lines": [
+        "Deine dokumentierte Pflege im Blick"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/de-DE/08-insights.png",
+      "capture_sha256": "258bca005fe9d8b28ffb537ac86d71f85378a2cff48c052b2d863079daf75098",
+      "export": "assets/screenshots/localized/de-DE/08-insights.png",
+      "export_sha256": "3c98818bbce8cb083fe07906753556c756bed66949f2799c969a1a404778657b",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "it-IT",
+      "native_app_locale": "it-IT",
+      "scene": "01-hero",
+      "headline": "Le tue piante, ben organizzate",
+      "headline_lines": [
+        "Le tue piante, ben organizzate"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/it-IT/01-hero.png",
+      "capture_sha256": "9b13160a1d5ca11336b4fe66fb47ceb52a1338779eda5014e15f2b812d2bf70f",
+      "export": "assets/screenshots/localized/it-IT/01-hero.png",
+      "export_sha256": "c92ee3a51ce2c5faa04ccdf330c247c9b8702feeb34f9125692ea4d88f39e612",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "it-IT",
+      "native_app_locale": "it-IT",
+      "scene": "02-watering",
+      "headline": "Una cura più serena, ogni giorno",
+      "headline_lines": [
+        "Una cura più serena, ogni giorno"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/it-IT/02-watering.png",
+      "capture_sha256": "b3fb19491466736f40219eaaf2c7a345622bc29acecd412483f067def20e099f",
+      "export": "assets/screenshots/localized/it-IT/02-watering.png",
+      "export_sha256": "bd2307efe6a46330455351e84c2f66f3b4e7a0597d2936a7b661779e5b290648",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "it-IT",
+      "native_app_locale": "it-IT",
+      "scene": "03-library",
+      "headline": "Un posto per ogni pianta",
+      "headline_lines": [
+        "Un posto per ogni pianta"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/it-IT/03-library.png",
+      "capture_sha256": "7ef31bd77213ad1ea5be91717c216ef21ef0d85cb3789dc5074a2ca8ecdd12c1",
+      "export": "assets/screenshots/localized/it-IT/03-library.png",
+      "export_sha256": "f7acb5e258ceb91e85ddebb66ce9f7ec3a0de40ea08d875698a7d17c90f7dad5",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "it-IT",
+      "native_app_locale": "it-IT",
+      "scene": "04-calendar",
+      "headline": "Organizza le prossime cure",
+      "headline_lines": [
+        "Organizza le prossime cure"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/it-IT/04-calendar.png",
+      "capture_sha256": "a3c6aa89e7da1c8562ae28608b5d6d030ea6a831ded8dba9757364489c650a76",
+      "export": "assets/screenshots/localized/it-IT/04-calendar.png",
+      "export_sha256": "759d26b088e311d3d7cd9ec918d471f25aa228f6c710dd8dc4c98738c887b818",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "it-IT",
+      "native_app_locale": "it-IT",
+      "scene": "05-growth",
+      "headline": "Tieni un diario della crescita",
+      "headline_lines": [
+        "Tieni un diario della crescita"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/it-IT/05-growth.png",
+      "capture_sha256": "a078c1072ed529c043eb714ecce96dece5728d795b4c29b334435bdc4251565c",
+      "export": "assets/screenshots/localized/it-IT/05-growth.png",
+      "export_sha256": "23ca10acf9e2419d9db54747db82f8d92403cff55c55caed273c75af0a5bfdf5",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "it-IT",
+      "native_app_locale": "it-IT",
+      "scene": "06-voice",
+      "headline": "Scrivi un comando e continua a curare",
+      "headline_lines": [
+        "Scrivi un comando e continua a curare"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/it-IT/06-voice.png",
+      "capture_sha256": "15a69ec84af2fa2222bd8fc62e84c513e3ae644efad51be7ee009815839563ed",
+      "export": "assets/screenshots/localized/it-IT/06-voice.png",
+      "export_sha256": "518f4b729a57fa5bd64747b12101db09dbed8bcf2128361fbd68d753762b3ea8",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "it-IT",
+      "native_app_locale": "it-IT",
+      "scene": "07-offline",
+      "headline": "Le tue piante, anche senza rete",
+      "headline_lines": [
+        "Le tue piante, anche senza rete"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/it-IT/07-offline.png",
+      "capture_sha256": "ff2e25ae9e750cd4b787938f5f06d563baf11988364ceb043343b486318f5a9f",
+      "export": "assets/screenshots/localized/it-IT/07-offline.png",
+      "export_sha256": "5b45e9b57ea046d77b30db6176408f0fadf0d39700ff839f8fe05e949f8fbd4a",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "it-IT",
+      "native_app_locale": "it-IT",
+      "scene": "08-insights",
+      "headline": "Ritrova le cure che hai registrato",
+      "headline_lines": [
+        "Ritrova le cure che hai registrato"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/it-IT/08-insights.png",
+      "capture_sha256": "489419754d08bf78b062c5f004ec885abfeed80db87791916dc9707ff41402bb",
+      "export": "assets/screenshots/localized/it-IT/08-insights.png",
+      "export_sha256": "8adcd4d55cd672704025a3eedd714b79c75d53153ef6b78e60c4f61cfdf2988a",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "ja-JP",
+      "native_app_locale": "ja-JP",
+      "scene": "01-hero",
+      "headline": "植物をすっきり、ひとまとめに",
+      "headline_lines": [
+        "植物をすっきり、ひとまとめに"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/ja-JP/01-hero.png",
+      "capture_sha256": "2bb4df60935fbc02479e2155f46cf990a9ec3b4add2d65ff315fdf269b60f8b8",
+      "export": "assets/screenshots/localized/ja-JP/01-hero.png",
+      "export_sha256": "2c746f95cd41269164dbe988d992c8e8f558e9c152f31250d38a6c330c7b60d7",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "ja-JP",
+      "native_app_locale": "ja-JP",
+      "scene": "02-watering",
+      "headline": "無理なく続く、お手入れ習慣",
+      "headline_lines": [
+        "無理なく続く、お手入れ習慣"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/ja-JP/02-watering.png",
+      "capture_sha256": "c408dfdd77a76bdec0c6ca1e3aa7b7f210d85f1148b124d277a25026ad26ad16",
+      "export": "assets/screenshots/localized/ja-JP/02-watering.png",
+      "export_sha256": "28d3437d359bf6529a00ed16ba83cb586a0c62c10d6a6e69461bc4c1a076944e",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "ja-JP",
+      "native_app_locale": "ja-JP",
+      "scene": "03-library",
+      "headline": "一鉢ずつ、大切に記録",
+      "headline_lines": [
+        "一鉢ずつ、大切に記録"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/ja-JP/03-library.png",
+      "capture_sha256": "a0176f9539fc170ba29dbc4944ccd0a72e4dcf2a21c13676a384fe2ce5d2bc18",
+      "export": "assets/screenshots/localized/ja-JP/03-library.png",
+      "export_sha256": "590e87e01f340aaef95e9e3317bc4c1d40857eb35aa4d20d4e1a5d55c836d5f7",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "ja-JP",
+      "native_app_locale": "ja-JP",
+      "scene": "04-calendar",
+      "headline": "これからのお手入れを確認",
+      "headline_lines": [
+        "これからのお手入れを確認"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/ja-JP/04-calendar.png",
+      "capture_sha256": "194e259f0b7df4000a9dbe8f187c8b447ac260ba9acdeac56808b0070e38cf06",
+      "export": "assets/screenshots/localized/ja-JP/04-calendar.png",
+      "export_sha256": "197b9c52f11d969aa5970917bdf2884b2520675873c2de0cd9bdd4bcb8330cdd",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "ja-JP",
+      "native_app_locale": "ja-JP",
+      "scene": "05-growth",
+      "headline": "小さな成長を日記に残す",
+      "headline_lines": [
+        "小さな成長を日記に残す"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/ja-JP/05-growth.png",
+      "capture_sha256": "d056dfab59730215a46e82c853e6ac2a739dd2db9781f89c169ee97bec83acd1",
+      "export": "assets/screenshots/localized/ja-JP/05-growth.png",
+      "export_sha256": "cf0e2c4727700563b5288835bec9b4890e6e7f3f1361f2e876cea66630df9d63",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "ja-JP",
+      "native_app_locale": "ja-JP",
+      "scene": "06-voice",
+      "headline": "文字のコマンドで、手軽に操作",
+      "headline_lines": [
+        "文字のコマンドで、手軽に操作"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/ja-JP/06-voice.png",
+      "capture_sha256": "8bcfb5dea13d4d6c4589acf499eef0384728cf5831963c96aee8b15da89fa8a3",
+      "export": "assets/screenshots/localized/ja-JP/06-voice.png",
+      "export_sha256": "10fd4e83f0dbccfd4e9154de1c32916684bb41c9468a4b5fa5e98bd1c40e36ed",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "ja-JP",
+      "native_app_locale": "ja-JP",
+      "scene": "07-offline",
+      "headline": "オフラインでも、植物の記録を",
+      "headline_lines": [
+        "オフラインでも、植物の記録を"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/ja-JP/07-offline.png",
+      "capture_sha256": "c985fa76196f696d86109e090fc4c0e41fc306c2b42237ff5fa4332c4a287ffa",
+      "export": "assets/screenshots/localized/ja-JP/07-offline.png",
+      "export_sha256": "7beb390a42ce1b929bff7f7d58d024cae38209648d7be764d69aa3067ef0facd",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "ja-JP",
+      "native_app_locale": "ja-JP",
+      "scene": "08-insights",
+      "headline": "記録したお手入れを振り返る",
+      "headline_lines": [
+        "記録したお手入れを振り返る"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/ja-JP/08-insights.png",
+      "capture_sha256": "fb396a43844c67908f80d79cec43fadebfb6deac4b764737dd10e3c784b617d7",
+      "export": "assets/screenshots/localized/ja-JP/08-insights.png",
+      "export_sha256": "6755c4a698716bde835f27081f4189608a8168ebd28408805798905f5b4ac9ec",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "nl-NL",
+      "native_app_locale": "nl-NL",
+      "scene": "01-hero",
+      "headline": "Je planten, mooi op orde",
+      "headline_lines": [
+        "Je planten, mooi op orde"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/nl-NL/01-hero.png",
+      "capture_sha256": "7ff2cea675b1fd4a8ed114d729c54fb4a61934fbf5b28b1c63c8230d3009f1e7",
+      "export": "assets/screenshots/localized/nl-NL/01-hero.png",
+      "export_sha256": "1e5d66991c0cc9afeee9095339b295e7a1aac063ab6d0bc14f8fe4275c3bba42",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "nl-NL",
+      "native_app_locale": "nl-NL",
+      "scene": "02-watering",
+      "headline": "Meer rust in je plantenverzorging",
+      "headline_lines": [
+        "Meer rust in je plantenverzorging"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/nl-NL/02-watering.png",
+      "capture_sha256": "8430bb48deb5f82b42b8f1279d240d6bfd5cd93f88e9b139883590aaa155a4f6",
+      "export": "assets/screenshots/localized/nl-NL/02-watering.png",
+      "export_sha256": "86cc38e73face61ca8257ef0652fa10b250cfa907aa3151da6ef63d996217569",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "nl-NL",
+      "native_app_locale": "nl-NL",
+      "scene": "03-library",
+      "headline": "Een plek voor elke plant",
+      "headline_lines": [
+        "Een plek voor elke plant"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/nl-NL/03-library.png",
+      "capture_sha256": "f325d188a5855b61c1f6176aff364d52decbc7913bd84a664f4c8b69552d43bd",
+      "export": "assets/screenshots/localized/nl-NL/03-library.png",
+      "export_sha256": "955374acccd5cad01af1dabdd7b5d757ced938da82b4cdfff7591ca208e676df",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "nl-NL",
+      "native_app_locale": "nl-NL",
+      "scene": "04-calendar",
+      "headline": "Plan de volgende verzorging",
+      "headline_lines": [
+        "Plan de volgende verzorging"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/nl-NL/04-calendar.png",
+      "capture_sha256": "6132c4aa7b215e63b545c0d65ed7470cae62cd263cd5fdc0eec43586b0b2efab",
+      "export": "assets/screenshots/localized/nl-NL/04-calendar.png",
+      "export_sha256": "fbf48cea2620ba098f1bca3148d42b958acd4dac66560955c01672361c1d661a",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "nl-NL",
+      "native_app_locale": "nl-NL",
+      "scene": "05-growth",
+      "headline": "Leg nieuwe groei vast",
+      "headline_lines": [
+        "Leg nieuwe groei vast"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/nl-NL/05-growth.png",
+      "capture_sha256": "c9ad791d9f70f8092370507de3bca0ec460de44906897f58ffdf528daeb737a9",
+      "export": "assets/screenshots/localized/nl-NL/05-growth.png",
+      "export_sha256": "739c0efe57047032938313af4ed7803a9d112b3e209a640737c573c93382f898",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "nl-NL",
+      "native_app_locale": "nl-NL",
+      "scene": "06-voice",
+      "headline": "Typ een opdracht en verzorg verder",
+      "headline_lines": [
+        "Typ een opdracht en verzorg verder"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/nl-NL/06-voice.png",
+      "capture_sha256": "89998dd2ced9cd1aaae84696cd11c81a99c58e2ea09eb8249c8d6aa8a751a510",
+      "export": "assets/screenshots/localized/nl-NL/06-voice.png",
+      "export_sha256": "a97f22a6cbe7cc84c9ecdd887e26dbbf8bcb99bb6e7d22d563c426d7698aeded",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "nl-NL",
+      "native_app_locale": "nl-NL",
+      "scene": "07-offline",
+      "headline": "Je plantgegevens, ook zonder internet",
+      "headline_lines": [
+        "Je plantgegevens, ook zonder internet"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/nl-NL/07-offline.png",
+      "capture_sha256": "4b1b0ab561a63a098f30aea2182db704b3421e4afd1a4104d0dfdeb57cfabcdb",
+      "export": "assets/screenshots/localized/nl-NL/07-offline.png",
+      "export_sha256": "aeb6bf31766148ed295d4af12d2ec1a97a8781402a3eb2e927e2972238d683dd",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "nl-NL",
+      "native_app_locale": "nl-NL",
+      "scene": "08-insights",
+      "headline": "Bekijk je vastgelegde verzorging",
+      "headline_lines": [
+        "Bekijk je vastgelegde verzorging"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/nl-NL/08-insights.png",
+      "capture_sha256": "00947ffce7a5e3bf0086ca5605810602d95c32f45b8bbef517b377723b8f2fc9",
+      "export": "assets/screenshots/localized/nl-NL/08-insights.png",
+      "export_sha256": "a4ae676ae8204164e5f760f046a5fbf7855971ce8d047e0346b785c575aa02c6",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pl-PL",
+      "native_app_locale": "pl-PL",
+      "scene": "01-hero",
+      "headline": "Twoje rośliny, pięknie uporządkowane",
+      "headline_lines": [
+        "Twoje rośliny, pięknie uporządkowane"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pl-PL/01-hero.png",
+      "capture_sha256": "88afef8240ee001c7ad6af47f798bc80ac06dfd65938da3cf647d51daecde1a3",
+      "export": "assets/screenshots/localized/pl-PL/01-hero.png",
+      "export_sha256": "2170be25cac1559f00d33aceb17527ce22acfc77b6ad395e5998aa4bc3fd6d76",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pl-PL",
+      "native_app_locale": "pl-PL",
+      "scene": "02-watering",
+      "headline": "Spokojniejsza codzienna pielęgnacja",
+      "headline_lines": [
+        "Spokojniejsza codzienna pielęgnacja"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pl-PL/02-watering.png",
+      "capture_sha256": "3414781960548183e624bbf1ddc08161015cf57d70e001b62d86bcfee5ac4088",
+      "export": "assets/screenshots/localized/pl-PL/02-watering.png",
+      "export_sha256": "28bff956770da95eb25c149b78e2bbc15bc852df6d0e61096d0a8a6053f4705c",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pl-PL",
+      "native_app_locale": "pl-PL",
+      "scene": "03-library",
+      "headline": "Miejsce dla każdej rośliny",
+      "headline_lines": [
+        "Miejsce dla każdej rośliny"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pl-PL/03-library.png",
+      "capture_sha256": "00576d6f6642a4756e3d2049d7f05974f6d2c36b2c5c7ae142c7c38183d277b4",
+      "export": "assets/screenshots/localized/pl-PL/03-library.png",
+      "export_sha256": "9e965f43cf6c708537b8b356eed1d6b1c91dca0164892f3fec78bb7d3b2d1659",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pl-PL",
+      "native_app_locale": "pl-PL",
+      "scene": "04-calendar",
+      "headline": "Zaplanuj kolejne zabiegi",
+      "headline_lines": [
+        "Zaplanuj kolejne zabiegi"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pl-PL/04-calendar.png",
+      "capture_sha256": "9a199d1353794f13a4e60c106af442c437e40a9594a657a46d2d7b4259d8161a",
+      "export": "assets/screenshots/localized/pl-PL/04-calendar.png",
+      "export_sha256": "3300202f72e237e57704bffe9f6fa2fde6514cbd31b5ee10a32ee45bacc3c3f4",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pl-PL",
+      "native_app_locale": "pl-PL",
+      "scene": "05-growth",
+      "headline": "Zapisuj oznaki nowego wzrostu",
+      "headline_lines": [
+        "Zapisuj oznaki nowego wzrostu"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pl-PL/05-growth.png",
+      "capture_sha256": "dc03f42bc18a931dfeb44fb8a72ee967c1babd01c5cb37d7202201c6771396c4",
+      "export": "assets/screenshots/localized/pl-PL/05-growth.png",
+      "export_sha256": "915c2d2553f261d97acee3b5756ba10e528935af49c07a00a21f1b7c2812bfd9",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pl-PL",
+      "native_app_locale": "pl-PL",
+      "scene": "06-voice",
+      "headline": "Wpisz polecenie i dbaj dalej",
+      "headline_lines": [
+        "Wpisz polecenie i dbaj dalej"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pl-PL/06-voice.png",
+      "capture_sha256": "2f0c7aed6d4580eda5e1182dd2ae635570c04f7e79ccede72b7d0d1ddd052c6a",
+      "export": "assets/screenshots/localized/pl-PL/06-voice.png",
+      "export_sha256": "9ca26480df2dbb730655f56b8019d38d7591686095c2ce9c017021a9c179a768",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pl-PL",
+      "native_app_locale": "pl-PL",
+      "scene": "07-offline",
+      "headline": "Dane roślin także bez internetu",
+      "headline_lines": [
+        "Dane roślin także bez internetu"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pl-PL/07-offline.png",
+      "capture_sha256": "fc74bc9a9ce998a7cffd4dca8e43368fe782f4a50d813273f666a4361bfbfc4e",
+      "export": "assets/screenshots/localized/pl-PL/07-offline.png",
+      "export_sha256": "3b282790f0563bac2c54627507b0d91bb3d4e813a8cbc7ab4d3cec53c0952e7e",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pl-PL",
+      "native_app_locale": "pl-PL",
+      "scene": "08-insights",
+      "headline": "Przeglądaj zapisaną pielęgnację",
+      "headline_lines": [
+        "Przeglądaj zapisaną pielęgnację"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pl-PL/08-insights.png",
+      "capture_sha256": "9db84a372e99df0c088a4e10b9f72928006ad530666a356cfca0b66e83e0c310",
+      "export": "assets/screenshots/localized/pl-PL/08-insights.png",
+      "export_sha256": "40b7652130d74efb10b7b7a4ed96c6960f7fc857480d4d64ffa783b0a25ab1c3",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pt-BR",
+      "native_app_locale": "pt-BR",
+      "scene": "01-hero",
+      "headline": "Suas plantas, bem organizadas",
+      "headline_lines": [
+        "Suas plantas, bem organizadas"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pt-BR/01-hero.png",
+      "capture_sha256": "a659959e51b39c563eb0da1c20da506ca7d87355861ca1ac86655fe54a27b8a8",
+      "export": "assets/screenshots/localized/pt-BR/01-hero.png",
+      "export_sha256": "5521ddcfbd314dccd1993947554e9e20a5acff6897f3d8d705f9ffc5d2a5225e",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pt-BR",
+      "native_app_locale": "pt-BR",
+      "scene": "02-watering",
+      "headline": "Uma rotina de cuidados mais tranquila",
+      "headline_lines": [
+        "Uma rotina de cuidados mais tranquila"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pt-BR/02-watering.png",
+      "capture_sha256": "187c6d4a21b6517f0279f84dea0ac0774d4afcf64baee2b551ebd355e307ba12",
+      "export": "assets/screenshots/localized/pt-BR/02-watering.png",
+      "export_sha256": "df5786352e495e93903abff4fbb02b3a577177ce723538dbb995463d436a74ab",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pt-BR",
+      "native_app_locale": "pt-BR",
+      "scene": "03-library",
+      "headline": "Um lugar para cada planta",
+      "headline_lines": [
+        "Um lugar para cada planta"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pt-BR/03-library.png",
+      "capture_sha256": "b6155ceff1249d25173725904526e2f59304fea5653ba9c9f5b882904aaa691f",
+      "export": "assets/screenshots/localized/pt-BR/03-library.png",
+      "export_sha256": "3be2cd108646ca89858c45541a65d8ba9edf6259abb6c8fbaadce5353ef5219b",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pt-BR",
+      "native_app_locale": "pt-BR",
+      "scene": "04-calendar",
+      "headline": "Planeje os próximos cuidados",
+      "headline_lines": [
+        "Planeje os próximos cuidados"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pt-BR/04-calendar.png",
+      "capture_sha256": "68a4609528a8911c4c2a1438a0e280ff72090917413a5be23a88cf246c82f4c6",
+      "export": "assets/screenshots/localized/pt-BR/04-calendar.png",
+      "export_sha256": "0182ec0f6b44aa5408f8746b7119bee0919b3105abc2ea8a7bf902bcbfb1c876",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pt-BR",
+      "native_app_locale": "pt-BR",
+      "scene": "05-growth",
+      "headline": "Registre cada sinal de crescimento",
+      "headline_lines": [
+        "Registre cada sinal de crescimento"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pt-BR/05-growth.png",
+      "capture_sha256": "919d42b31eefb5ae00b98338e8a173a82e340ee16c8813ee209f9b529648ab9b",
+      "export": "assets/screenshots/localized/pt-BR/05-growth.png",
+      "export_sha256": "68a10d045ace3fa2bda2679edc291698706ff271e46704a5f72c8f524923ba81",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pt-BR",
+      "native_app_locale": "pt-BR",
+      "scene": "06-voice",
+      "headline": "Digite um comando e continue cuidando",
+      "headline_lines": [
+        "Digite um comando e continue cuidando"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pt-BR/06-voice.png",
+      "capture_sha256": "520cbed007b01c0d0161c6564dbac38951ca5ea041d20f102ccee01eea1811bf",
+      "export": "assets/screenshots/localized/pt-BR/06-voice.png",
+      "export_sha256": "be8a25ed64b9787d77c2e68ae0cb1c99d2d04a32bcb2c1218e3ca42f03ca7439",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pt-BR",
+      "native_app_locale": "pt-BR",
+      "scene": "07-offline",
+      "headline": "Suas plantas, mesmo sem internet",
+      "headline_lines": [
+        "Suas plantas, mesmo sem internet"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pt-BR/07-offline.png",
+      "capture_sha256": "96c23859ebd2efd2c7fb2f1c6a9c7d6b29809622b68c0dc16213612b4b916e97",
+      "export": "assets/screenshots/localized/pt-BR/07-offline.png",
+      "export_sha256": "72f3ae0cae06a9be1d3ddf417d6b4387c5fdf1e892d9d8b0f2c40f864af9d78a",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pt-BR",
+      "native_app_locale": "pt-BR",
+      "scene": "08-insights",
+      "headline": "Veja os cuidados que você registrou",
+      "headline_lines": [
+        "Veja os cuidados que você registrou"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pt-BR/08-insights.png",
+      "capture_sha256": "1d1b3a45fe507f38b9458c0790611035022b0c22088f09be0f9c21f821dcf490",
+      "export": "assets/screenshots/localized/pt-BR/08-insights.png",
+      "export_sha256": "3217f8c56456acc24bb3853937b79c520b8e24d66d7028be78b464adcebcee90",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pt-PT",
+      "native_app_locale": "pt-PT",
+      "scene": "01-hero",
+      "headline": "As suas plantas, bem organizadas",
+      "headline_lines": [
+        "As suas plantas, bem organizadas"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pt-PT/01-hero.png",
+      "capture_sha256": "1238e894b641a80a38f333e459c00bb820c7d437a10749605e50ad3410803063",
+      "export": "assets/screenshots/localized/pt-PT/01-hero.png",
+      "export_sha256": "1a6e81e1e6c7312be54ce73e946b474b80e4af4ae1463cf210037049e1fa3712",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pt-PT",
+      "native_app_locale": "pt-PT",
+      "scene": "02-watering",
+      "headline": "Uma rotina de cuidados mais tranquila",
+      "headline_lines": [
+        "Uma rotina de cuidados mais tranquila"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pt-PT/02-watering.png",
+      "capture_sha256": "4c1f89f45fa12b483d18653d0f7f7b086346ece5b89d0478753aa9b141b40b90",
+      "export": "assets/screenshots/localized/pt-PT/02-watering.png",
+      "export_sha256": "10353ad8087f3148084cd1327f04e1e178e23c754fdba92da517816a3ee55450",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pt-PT",
+      "native_app_locale": "pt-PT",
+      "scene": "03-library",
+      "headline": "Um lugar para cada planta",
+      "headline_lines": [
+        "Um lugar para cada planta"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pt-PT/03-library.png",
+      "capture_sha256": "b090849de492651bc82efb009841a25ee4019dad30be7121b559a63abab7c384",
+      "export": "assets/screenshots/localized/pt-PT/03-library.png",
+      "export_sha256": "2d01d4e623afbbbc07e1545e647b0ed96e00dac80b15565f45a9a625fe57f0e9",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pt-PT",
+      "native_app_locale": "pt-PT",
+      "scene": "04-calendar",
+      "headline": "Planeie os próximos cuidados",
+      "headline_lines": [
+        "Planeie os próximos cuidados"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pt-PT/04-calendar.png",
+      "capture_sha256": "c191ecb87d15245ba0246d2637c331045dc299ccdcdb5ffe40cc765fe5c3ce98",
+      "export": "assets/screenshots/localized/pt-PT/04-calendar.png",
+      "export_sha256": "97cdcc638a75233088444be97702421c892d49d49d50542740278a3881a37f3b",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pt-PT",
+      "native_app_locale": "pt-PT",
+      "scene": "05-growth",
+      "headline": "Registe cada sinal de crescimento",
+      "headline_lines": [
+        "Registe cada sinal de crescimento"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pt-PT/05-growth.png",
+      "capture_sha256": "bfc41934b4d25280a3970814da022d7031096478de24ff3e2d4d351389cb1cbb",
+      "export": "assets/screenshots/localized/pt-PT/05-growth.png",
+      "export_sha256": "337eed9943c65df02c577733dbea616b38f49bb359a944566adc6f6390b6d667",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pt-PT",
+      "native_app_locale": "pt-PT",
+      "scene": "06-voice",
+      "headline": "Escreva um comando e continue a cuidar",
+      "headline_lines": [
+        "Escreva um comando e continue a cuidar"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pt-PT/06-voice.png",
+      "capture_sha256": "4c12db19ee7a13585bd6eac38dd74d52b5ae12a44bc834d77bca60fb8ae85b7e",
+      "export": "assets/screenshots/localized/pt-PT/06-voice.png",
+      "export_sha256": "c4b651afb06eaaf614380b796efd57fd0206f752c8affd2be046bc6d18cdc967",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pt-PT",
+      "native_app_locale": "pt-PT",
+      "scene": "07-offline",
+      "headline": "As suas plantas, mesmo sem internet",
+      "headline_lines": [
+        "As suas plantas, mesmo sem internet"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pt-PT/07-offline.png",
+      "capture_sha256": "8b84e23f592a51584191790819789233fee72276ff3b79b3b17a74702e67be8e",
+      "export": "assets/screenshots/localized/pt-PT/07-offline.png",
+      "export_sha256": "4b7409604dad4b016062147aa647e4e310acba486abaf10fc99b7c3862c295ad",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "pt-PT",
+      "native_app_locale": "pt-PT",
+      "scene": "08-insights",
+      "headline": "Consulte os cuidados que registou",
+      "headline_lines": [
+        "Consulte os cuidados que registou"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/pt-PT/08-insights.png",
+      "capture_sha256": "dc53be61e2e280186a3f4bed16b275aba0243634c871f1d155dc05db306692ad",
+      "export": "assets/screenshots/localized/pt-PT/08-insights.png",
+      "export_sha256": "e0507d136e52926f4172c28be4da6545a2b4402dfc233903d73ab95784eb1735",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "sv-SE",
+      "native_app_locale": "sv-SE",
+      "scene": "01-hero",
+      "headline": "Dina växter, fint samlade",
+      "headline_lines": [
+        "Dina växter, fint samlade"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/sv-SE/01-hero.png",
+      "capture_sha256": "f98599fc8537c65eab71c4f5ee894188ac1b5ddb430e16b9383526ae773a795c",
+      "export": "assets/screenshots/localized/sv-SE/01-hero.png",
+      "export_sha256": "a52fab5d2390db8ce7be6445d9ed3eabc7d0b9c304005ff4b0fc8def48a7b8bc",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "sv-SE",
+      "native_app_locale": "sv-SE",
+      "scene": "02-watering",
+      "headline": "En lugnare rutin för växtskötsel",
+      "headline_lines": [
+        "En lugnare rutin för växtskötsel"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/sv-SE/02-watering.png",
+      "capture_sha256": "544d530d5dd61c16a8414fd4a3f21d57c14992aa953d213e50300614793be279",
+      "export": "assets/screenshots/localized/sv-SE/02-watering.png",
+      "export_sha256": "70222259172018f790e50dedc912abb1177ed9377ec1693ca62ea98c403b3dc5",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "sv-SE",
+      "native_app_locale": "sv-SE",
+      "scene": "03-library",
+      "headline": "En plats för varje växt",
+      "headline_lines": [
+        "En plats för varje växt"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/sv-SE/03-library.png",
+      "capture_sha256": "95e43c67983854985b3913fb701883860d37ace2aaba8fc6acf23087e3e1881f",
+      "export": "assets/screenshots/localized/sv-SE/03-library.png",
+      "export_sha256": "874b03307f9936b5135c1d85601a6f6e99b7b075c1d24f3b00271a20d74b0c45",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "sv-SE",
+      "native_app_locale": "sv-SE",
+      "scene": "04-calendar",
+      "headline": "Planera kommande skötsel",
+      "headline_lines": [
+        "Planera kommande skötsel"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/sv-SE/04-calendar.png",
+      "capture_sha256": "fa760245b1c47c52197a4c74e4be98146ec5aa16b78b440610a59a304e77248e",
+      "export": "assets/screenshots/localized/sv-SE/04-calendar.png",
+      "export_sha256": "7039bb1d62c573d95a6c4f26a97255b4c5e750fd90aaac9e2ba56b368eb99d70",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "sv-SE",
+      "native_app_locale": "sv-SE",
+      "scene": "05-growth",
+      "headline": "Spara små tecken på tillväxt",
+      "headline_lines": [
+        "Spara små tecken på tillväxt"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/sv-SE/05-growth.png",
+      "capture_sha256": "90f5e60164e2d50206d84f486eb4ff95cb890451ee422e26dc8cd15f050ee18f",
+      "export": "assets/screenshots/localized/sv-SE/05-growth.png",
+      "export_sha256": "b7ebfd4ff6e2d010f401805a65be6380ad071f389097090c49b162b919302ea8",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "sv-SE",
+      "native_app_locale": "sv-SE",
+      "scene": "06-voice",
+      "headline": "Skriv ett kommando och fortsätt sköta",
+      "headline_lines": [
+        "Skriv ett kommando och fortsätt sköta"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/sv-SE/06-voice.png",
+      "capture_sha256": "d48599702c4528e6d3152c6116e4d880e31eb8fe71fb319b10e65657c3e9c404",
+      "export": "assets/screenshots/localized/sv-SE/06-voice.png",
+      "export_sha256": "b2b33e1aa7a56ca3654b8776621edefae2ac05281fb5892772489774c57f611c",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "sv-SE",
+      "native_app_locale": "sv-SE",
+      "scene": "07-offline",
+      "headline": "Dina växtuppgifter, även utan internet",
+      "headline_lines": [
+        "Dina växtuppgifter, även utan internet"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/sv-SE/07-offline.png",
+      "capture_sha256": "f00b596cc846ccfe1f91dc4add919f7abefe403ed8eb0280960bc9856ee16977",
+      "export": "assets/screenshots/localized/sv-SE/07-offline.png",
+      "export_sha256": "f6a6c135e3538f32e53ec30cabe0210c1908ddca7cc7393a29958ec9b2321b2a",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    },
+    {
+      "listing_locale": "sv-SE",
+      "native_app_locale": "sv-SE",
+      "scene": "08-insights",
+      "headline": "Se den skötsel du har registrerat",
+      "headline_lines": [
+        "Se den skötsel du har registrerat"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261030-094326/sv-SE/08-insights.png",
+      "capture_sha256": "577ac6367808d71ea9cab28404eed7ce5addf7c0f79ab10754aefd737c53aa9f",
+      "export": "assets/screenshots/localized/sv-SE/08-insights.png",
+      "export_sha256": "e95d047d9c837edcb283abf83dbb5c8b2a0230ed4f927125285a9eca93272625",
+      "width": 2560,
+      "height": 1600,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true
+    }
+  ],
+  "device": {
+    "model": "KFTRWI",
+    "name": "Fire HD 10 (2021)",
+    "api": 28,
+    "capture_width": 1920,
+    "capture_height": 1200
+  }
+}
