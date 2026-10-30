@@ -12,5 +12,6 @@
     "wifi_on": "1"
   },
   "explicitRestoreInvoked": true,
-  "uiObservation": "Amazon confirmed fresh landscape Test 1 purchase; explicit Restore purchases invoked afterwards"
+  "uiObservation": "Amazon confirmed fresh landscape Test 1 purchase; explicit Restore purchases invoked afterwards",
+  "explicitRestoreHistoryCheckedWithPremiumActive": true
 }
