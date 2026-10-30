@@ -1,0 +1,15 @@
+
+com.floratend.app.PrivacyReleaseTest:.
+com.floratend.app.PersistenceTest:..
+com.floratend.app.ReminderWorkerTest:.
+com.floratend.app.SpeechCapabilityTest:.
+com.floratend.app.UiSmokeTest:....
+com.floratend.app.BillingStartupTest:..
+com.floratend.app.EntitlementStoreTest:...
+com.floratend.app.ReleaseDeviceTest:.
+
+Time: 57.375
+
+OK (15 tests)
+
+

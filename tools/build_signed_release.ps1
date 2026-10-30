@@ -1,4 +1,4 @@
-param()
+param([switch]$BuildDeviceTests)
 $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path -Parent $PSScriptRoot
 Set-Location -LiteralPath $projectRoot
@@ -32,8 +32,15 @@ try {
         }
     }
     foreach ($name in $names) { if (![Environment]::GetEnvironmentVariable($name,'Process')) { throw "Missing signing variable: $name" } }
-    & .\gradlew.bat :app:assembleRelease --console=plain *> evidence/signed-release-build.log
-    if ($LASTEXITCODE -ne 0) { throw 'Signed release build failed; see evidence/signed-release-build.log' }
+    $gradleArgs = @(':app:assembleRelease','--console=plain')
+    $buildLog = 'evidence/signed-release-build.log'
+    if ($BuildDeviceTests) {
+        $gradleArgs += @('-Pfloratend.testBuildType=release', ':app:assembleReleaseAndroidTest')
+        $buildLog = 'evidence/direct-release/instrumentation-build.log'
+        [System.IO.Directory]::CreateDirectory((Join-Path $projectRoot 'evidence/direct-release')) | Out-Null
+    }
+    & .\gradlew.bat @gradleArgs *> $buildLog
+    if ($LASTEXITCODE -ne 0) { throw "Signed release build failed; see $buildLog" }
     Write-Output 'Signed release APK built. Signing secrets remain outside the repository in Windows-protected local configuration.'
 } finally {
     foreach ($name in $names) { [Environment]::SetEnvironmentVariable($name,$previous[$name],'Process') }

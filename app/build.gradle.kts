@@ -7,6 +7,8 @@ plugins {
 android {
     namespace = "com.floratend.app"
     compileSdk = 36
+    // Opt-in device verification of the actual non-debuggable, signed candidate.
+    testBuildType = providers.gradleProperty("floratend.testBuildType").getOrElse("debug")
     defaultConfig {
         applicationId = "com.floratend.app"
         minSdk = 26

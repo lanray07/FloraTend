@@ -1,0 +1,1 @@
+Starting: Intent { cmp=com.floratend.app/.MainActivity }

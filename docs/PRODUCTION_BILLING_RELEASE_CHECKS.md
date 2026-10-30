@@ -62,3 +62,7 @@ Primary references: [Amazon single-IAP configuration](https://developer.amazon.c
 ## Test-only submission update — 30 October 2026
 
 Console proof: `submission/iap-test-approved.png` and `submission/lat-test-submitted.png`. LAT shows **Test submitted**. Test-only approval is not public release approval, invitation delivery or successful production purchase evidence. The overall release matrix remains blocked.
+
+## Direct signed tablet installation and test
+
+The exact submitted code-5 APK was directly installed on the physical Fire tablet and passed 15 signed-release device tests. SDK mode was PRODUCTION, but the real catalogue returned unavailable, price was null and purchasing remained disabled. No purchase was attempted. The app remains installed; the separate test harness was removed. [Full signed-device result and reproduction](SIGNED_TABLET_TEST_20261030.md). This strengthens signed-client evidence without closing LAT/invitation or production purchase gates.

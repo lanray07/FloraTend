@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-30",
+  "installation": "Direct USB sideload of original signed Amazon submission candidate",
+  "version_code": 5,
+  "apk_sha256": "155fe9912c7060b4dd27dc46185c4f11522c05c79907d2774482914e3acfe35f",
+  "matches_submitted_apk": true,
+  "native_tests": 15,
+  "failures": 0,
+  "duration_seconds": 57.375,
+  "test_harness_removed_after_run": true,
+  "app_left_installed": true,
+  "preexisting_record_counts": {
+    "plants": 0,
+    "schedules": 0,
+    "journal": 0,
+    "history": 0
+  },
+  "private_debug_data_backup_taken": true,
+  "sandbox_mode": "none",
+  "production_purchase_verified": false,
+  "scope": "KFTRWI API28 physical tablet, original signed non-debuggable code5; controlled cache fixtures are not purchases",
+  "store_probe": {
+    "versionCode": 5,
+    "debuggable": false,
+    "installation": "direct signed APK sideload",
+    "sdkMode": "PRODUCTION",
+    "catalogueAvailable": false,
+    "price": null,
+    "premium": false,
+    "message": "Purchasing is unavailable until Amazon store configuration is complete.",
+    "purchaseAttempted": false,
+    "productionPurchaseVerified": false
+  }
+}

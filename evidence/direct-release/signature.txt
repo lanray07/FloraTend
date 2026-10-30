@@ -1,0 +1,4 @@
+Signer #1 certificate DN: CN=FloraTend
+Signer #1 certificate SHA-256 digest: c08b2dd3462a14be0351a87c0da7afd83a4efd64ea6ff168aa83853692ff3a94
+Signer #1 certificate SHA-1 digest: 653908600a415cc66b8d9a3acc6cfc710c1ced29
+Signer #1 certificate MD5 digest: be903bd71fe113fb0f7e90685946a9a6
