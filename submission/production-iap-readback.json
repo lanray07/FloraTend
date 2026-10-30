@@ -2,12 +2,12 @@
   "date": "2026-10-30",
   "sku": "floratend.premium",
   "itemId": "amzn1.dex.title.18e5f7f4adaf425a8a13d5ea6ca65b9b",
-  "state": "Ready to Submit",
-  "submitted": false,
+  "state": "Approved",
+  "submitted": true,
   "basePrice": {
     "currency": "USD",
     "amount": "4.99",
-    "publisherApproved": false
+    "publisherApproved": true
   },
   "regionalPrices": {
     "CAD": "6.98",
@@ -94,5 +94,9 @@
       "description": "可保存五株以上的植物，将记录导出为JSON，或将植物列表导出为CSV。一次性购买，无需订阅。导出内容不包含照片。",
       "bothIconsUploaded": true
     }
-  ]
+  ],
+  "distribution": "TEST_ONLY",
+  "test_label_visible": true,
+  "public_promotion_performed": false,
+  "submission_date": "2026-10-30"
 }

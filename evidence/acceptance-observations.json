@@ -1138,10 +1138,11 @@
   "AC-19.10": {
     "test_name": "Production billing verification dependency",
     "status": "BLOCKED",
-    "actual_result": "Native client tests pass, but the actual Premium item remains Ready to Submit. LAT/production-service purchase and server RVS have not been executed.",
+    "actual_result": "Native client tests pass. Premium IAP is TEST / Approved at publisher-approved USD 4.99; LAT code 5 shows Test submitted. Tester enrollment retry returned an Amazon server error; invitation delivery, production-service purchase and server RVS remain unverified.",
     "evidence": [
       "submission/production-iap-readback.json",
-      "docs/PRODUCTION_BILLING_RELEASE_CHECKS.md"
+      "docs/PRODUCTION_BILLING_RELEASE_CHECKS.md",
+      "submission/test-only-submission.json"
     ],
     "corrective_action": "Approve and perform the external test submission, authorize the tester invitation, install the Amazon-delivered LAT build and verify production-service flows."
   }

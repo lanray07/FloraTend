@@ -4,9 +4,9 @@ Verified 30 October 2026. Current candidate: **0.1.4 / code 5**. This report doe
 
 ## Amazon configuration prepared
 
-The actual FloraTend console now contains an **ENTITLED** item, SKU `floratend.premium`, item ID `amzn1.dex.title.18e5f7f4adaf425a8a13d5ea6ca65b9b`. Its state is **Ready to Submit**. It has not been submitted to testing or live distribution.
+The actual FloraTend console now contains an **ENTITLED** item, SKU `floratend.premium`, item ID `amzn1.dex.title.18e5f7f4adaf425a8a13d5ea6ca65b9b`. On publisher authorization, **Submit to Test** was selected. Amazon now shows **TEST / Approved**, US$4.99. Public promotion was not performed.
 
-The proposed base price is **US$4.99**, with Amazon-calculated regional prices: CAD 6.98, EUR 4.46, INR 474.81, JPY 787, AUD 7.10, MXN 94.15, GBP 3.73 and BRL 26.89. These are saved draft list prices, not active customer prices or publisher-approved pricing. Runtime prices come from the SDK, never from these repository values.
+The publisher-approved base price is **US$4.99**, with Amazon-calculated regional prices: CAD 6.98, EUR 4.46, INR 474.81, JPY 787, AUD 7.10, MXN 94.15, GBP 3.73 and BRL 26.89. These are the saved test-item list prices; no public sale or completed production-service purchase is claimed. Runtime prices come from the SDK, never from these repository values.
 
 All 12 available IAP metadata locales have saved titles, descriptions and matching original 512/114-pixel icons: en-US, en-GB, en-AU, en-IN, de-DE, es-ES, es-MX, fr-FR, it-IT, ja-JP, pt-BR and zh-CN. All fields were read back after reloading. These purchase-dialog locale choices differ from the app listing's 15 description and 11 screenshot channels. Human language review remains pending.
 
@@ -44,17 +44,21 @@ The code-4 account/offline/gate tests exercise the persistence and access rules 
 
 The cache tests deliberately use controlled fixture strings and simulated projection interruptions, isolated from the production receipt preferences. They do not represent purchases, real production receipts or an observed power-loss event. Real purchase tests are named separately and never inject SDK success callbacks.
 
-The original shared App Tester catalogue was restored byte-for-byte, response defaults and User 1 were restored, sandbox mode disabled and the final disposable entitlement revoked. Other projects' transactions were untouched. Cleanup proof is `cleanup.json`. Raw tester UI containing account/receipt references remains excluded from Git. The LAT tester email is held privately outside the public repository; no invitation has been sent.
+The original shared App Tester catalogue was restored byte-for-byte, response defaults and User 1 were restored, sandbox mode disabled and the final disposable entitlement revoked. Other projects' transactions were untouched. Cleanup proof is `cleanup.json`. Raw tester UI containing account/receipt references remains excluded from Git. The LAT tester email is held privately outside the public repository. Invitation was authorized; dispatch depends on Amazon making the submitted test live.
 
 Failed setup attempts are retained: an initial JUnit harness return-type error, an initial coroutine-listener compile error, and a tester selection that returned ALREADY_PURCHASED instead of the intended FAILED response. None is counted as passing purchase evidence.
 
 ## Remaining production steps and release limits
 
-- Obtain publisher approval for proposed prices and the external test submission. Submit the item **to Test only** for LAT; public promotion is a separate action.
-- An unsubmitted LAT draft named FloraTend 0.1.4 billing verification now copies code 5, DRM and the 12 selected Fire devices. It still needs a FloraTend tester group and publisher export-compliance certification. Other apps' tester groups were not selected. Submit the approved LAT app and install the Amazon-delivered build. The supplied tester identifier stays private, and invitations require explicit instruction.
+- Completed: publisher authorized US$4.99 and test-only submission; the IAP is Approved with a TEST label. Public promotion remains a separate, unauthorized action.
+- Submitted: FloraTend 0.1.4 billing verification, code 5, DRM, 12 selected Fire devices. Publisher confirmed export compliance and tester consent/age declarations. The dedicated FloraTend Premium LAT group was selected at submission. Its association is not yet verified: the submitted test's tester screen showed no testers, and saving enrollment returned server HTTP 500 with “An error occurred in adding requested tester(s)”. Wait for Amazon test availability, then install the Amazon-delivered build. The supplied tester identifier stays private, and invitations require explicit instruction.
 - Verify actual production-service catalogue, regional price, purchase, restoration, cancellation and ownership behavior. DevTest requires a live IAP item; a saved draft is insufficient.
 - Server RVS is not deployed. Production server verification needs a private backend and shared secret; neither belongs in the APK. The current client relies on authenticated SDK callbacks and local bookkeeping. This report does not equate that with server verification.
 - Real SDK pagination, duplicate/deferred delivery, licensing-error behavior and a signed-release device transition from sandbox still require purchase-environment verification. The pure policy tests do not close these integration cases.
 - Human translation/asset review, publisher privacy review, broader OS/device/accessibility/performance checks, identification and other unimplemented specification features remain open in the 204-criterion matrix. This is not an Appstore-ready declaration.
 
 Primary references: [Amazon single-IAP configuration](https://developer.amazon.com/docs/in-app-purchasing/iap-create-and-submit-iap-items.html), [LAT for IAP](https://developer.amazon.com/docs/in-app-purchasing/iap-lat.html), [DevTest prerequisites](https://developer.amazon.com/docs/app-testing/get-started-appstore-devtest-iap.html), [RVS](https://developer.amazon.com/docs/in-app-purchasing/iap-rvs-for-android-apps.html). Amazon documents LAT purchases as free while using its production services.
+
+## Test-only submission update — 30 October 2026
+
+Console proof: `submission/iap-test-approved.png` and `submission/lat-test-submitted.png`. LAT shows **Test submitted**. Test-only approval is not public release approval, invitation delivery or successful production purchase evidence. The overall release matrix remains blocked.

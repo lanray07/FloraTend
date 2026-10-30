@@ -72,22 +72,35 @@
   "iap": {
     "sku": "floratend.premium",
     "id": "amzn1.dex.title.18e5f7f4adaf425a8a13d5ea6ca65b9b",
-    "status": "Ready to Submit",
-    "submitted": false,
+    "status": "Approved",
+    "submitted": true,
     "proposed_base_price": "USD 4.99",
-    "publisher_price_approval": false,
+    "publisher_price_approval": true,
     "localized_purchase_dialogs": 12,
-    "readback": "submission/production-iap-readback.json"
+    "readback": "submission/production-iap-readback.json",
+    "distribution": "TEST_ONLY"
   },
   "lat": {
     "tester_identifier_held_privately": true,
     "invitations_sent": false,
-    "app_submitted": false,
+    "app_submitted": true,
     "production_service_purchase_verified": false,
     "draft_created": true,
     "release_id": "amzn1.devportal.apprelease.7c3531115e8c491ab1103825aaff94f1",
     "version_code": 5,
     "tester_group_assigned": false,
-    "export_compliance_certified": false
+    "export_compliance_certified": true,
+    "tester_group_name": "FloraTend Premium LAT",
+    "test_submission_authorized": true,
+    "invitation_authorized": true,
+    "status": "Test submitted",
+    "distribution": "TEST_ONLY",
+    "tester_count": 1,
+    "invitation_status": "Pending Amazon test availability; enrollment retry returned server 500",
+    "public_promotion_performed": false,
+    "submission_date": "2026-10-30",
+    "tester_group_selected_at_submission": true,
+    "tester_group_association_verified": false,
+    "enrollment_retry_result": "An error occurred in adding requested tester(s)"
   }
 }

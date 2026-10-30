@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-30",
+  "version_code": 5,
+  "iap": {
+    "sku": "floratend.premium",
+    "price_usd": "4.99",
+    "test_label": true,
+    "status": "Approved",
+    "public_promotion": false
+  },
+  "lat": {
+    "name": "FloraTend 0.1.4 billing verification",
+    "status": "Test submitted",
+    "group": "FloraTend Premium LAT",
+    "group_created": true,
+    "group_size": 1,
+    "group_selected_at_submission": true,
+    "association_verified": false,
+    "invitation_authorized": true,
+    "invitation_delivery_verified": false,
+    "enrollment_retry_http_status": 500,
+    "enrollment_error": "An error occurred in adding requested tester(s)"
+  },
+  "publisher_confirmed_tester_and_export_declarations": true,
+  "actual_production_purchase_verified": false,
+  "proof": [
+    "iap-test-approved.png",
+    "lat-test-submitted.png",
+    "tester-assignment-error.png"
+  ],
+  "private_tester_identifier_published": false
+}
