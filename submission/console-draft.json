@@ -60,7 +60,7 @@
   "tablet_devices_selected": 12,
   "minimum_target_api_warning": "cleared_after_API36_upload",
   "new_alexa_tablets": "still disabled in device picker; not verified",
-  "last_verified": "2026-10-30",
+  "last_verified": "2026-10-31",
   "screenshots": {
     "exports": 120,
     "metadata_locales": 15,
@@ -120,13 +120,13 @@
     "owned_entitlement_restore_verified": true
   },
   "lat2": {
-    "checked": "2026-10-30",
+    "checked": "2026-10-31",
     "distribution": "TEST_ONLY",
     "track": 2,
     "name": "FloraTend 0.1.5 server verification",
     "release_id": "amzn1.devportal.apprelease.1dcfff5e29ab4aa9bcd9e9e801464bcf",
     "channel_id": "amzn1.channel.da5482a4754b4b0f8be04a45ff4982d7",
-    "status": "Test submitted",
+    "status": "Test in-progress",
     "version_code": 6,
     "version_name": "0.1.5",
     "apk_sha256": "a94efb019d38a3a82f8f62f4583ae4b88629bdf739a6d325fbb64f4563a72329",
@@ -137,6 +137,11 @@
     "genuine_server_receipt_verified": false,
     "checkout_issue_resolved": false,
     "public_promotion_performed": false,
-    "evidence": "evidence/receipt-verification/lat2-submitted.png"
+    "evidence": "evidence/receipt-verification/lat2-submitted.png",
+    "invitation_status": "Delivered",
+    "invitation_accepted": true,
+    "amazon_installed_version_code": 6,
+    "amazon_apk_sha256": "2e647a22019aefb67be951a58086a13deb535b40934b2665a3009ce86e8a332d",
+    "latest_check": "docs/LAT_SERVER_TEST_20261031.md"
   }
 }

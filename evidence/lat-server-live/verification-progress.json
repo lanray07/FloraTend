@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-31",
+  "installationVerified": true,
+  "genuineAmazonCode6Installed": true,
+  "genuineServerReceiptVerified": false,
+  "initialLandscapeAttempts": 2,
+  "checkoutDialogVisible": false,
+  "uiAutomationAttachedAfterTap": false,
+  "restartAppRecovered": false,
+  "tabletRebootRequestedForStoreRefresh": true,
+  "postRebootUsbState": "unauthorized",
+  "scope": "In-progress diagnosis; not passing purchase/restore evidence",
+  "identifiersRecorded": false
+}

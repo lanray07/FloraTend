@@ -1,4 +1,6 @@
-# Server receipt verification â€” 30 October 2026
+> Superseded availability status: [31 October actual Amazon code-6 installation and checkout diagnosis](LAT_SERVER_TEST_20261031.md). Test 2 is now in progress and installed; genuine receipt tests remain blocked.
+
+# Server receipt verification - 30 October 2026
 
 **Release remains BLOCKED.** Source 0.1.5/code 6 is submitted as Amazon LAT Test 2. The console reads **Test submitted**; the Amazon-resigned build is not yet available for genuine receipt and checkout verification. Test 1 code 5 purchase and restore results remain historical evidence for its SDK-only implementation.
 

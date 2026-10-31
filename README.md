@@ -4,7 +4,7 @@ Native Android plant collection, care-check scheduler and growth journal, primar
 
 **Development build — release status BLOCKED.** The authoritative executed verification is [RELEASE_READINESS.md](RELEASE_READINESS.md), with individual results in [ACCEPTANCE_TEST_RESULTS.csv](ACCEPTANCE_TEST_RESULTS.csv). Compilation, source implementation and a small set of device tests do not establish production readiness.
 
-Current candidate: [server verification and LAT Test 2](docs/SERVER_RECEIPT_RELEASE_CHECK_20261030.md). Free Cloudflare LAT and production verifiers are deployed; genuine server receipt and checkout tests await Amazon Test 2 availability. See [.env.example](.env.example) and [backend setup](server/README.md).
+Current candidate: [server verification and LAT Test 2](docs/SERVER_RECEIPT_RELEASE_CHECK_20261030.md). Free Cloudflare LAT and production verifiers are deployed; Amazon Test 2 is installed; genuine server receipt and checkout tests are in progress. See [actual code-6 results](docs/LAT_SERVER_TEST_20261031.md). See [.env.example](.env.example) and [backend setup](server/README.md).
 
 ## Build and run
 

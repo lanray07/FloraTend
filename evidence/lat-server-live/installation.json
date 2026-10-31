@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-31",
+  "versionCode": 6,
+  "versionName": "0.1.5",
+  "installer": "com.amazon.venezia",
+  "debuggable": false,
+  "apkSha256": "2e647a22019aefb67be951a58086a13deb535b40934b2665a3009ce86e8a332d",
+  "amazonCertificateSha256": "8e35b165d5a1dc14c10820cee25ed2c24e9c543ceb2f059b9f5bc93baa672297",
+  "updatePreservedInstallation": true,
+  "cataloguePrice": "GBP 3.73",
+  "premiumBeforePurchase": false,
+  "purchaseHistoryChecked": true,
+  "track": 2
+}

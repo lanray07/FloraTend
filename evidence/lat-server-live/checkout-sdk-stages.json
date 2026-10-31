@@ -1,0 +1,38 @@
+{
+  "scope": "Actual Amazon Test2 code6 purchase attempts, before reboot; sanitized event names only",
+  "events": [
+    "IapGetItemCommandInitiated",
+    "IapGetItemCommandDiscoveryRequestInitiated",
+    "IapGetItemCommandDiscoveryRequestSuccess",
+    "IapGetItemCommandSuccess",
+    "IapPurchaseUpdatesCommandInitiated",
+    "IapPurchaseUpdatesCommandSuccess",
+    "IapTimeFromStartToFinishPurchaseItemCommandInitiated",
+    "IapPurchaseItemCommandInitiated",
+    "IapPurchaseItemCommandSuccess",
+    "IapTimeFromStartToFinishPurchaseItemCommandCompleted",
+    "IapTimeFromPurchaseItemCommandToDetailDialogInitiated",
+    "IapGetItemCommandInitiated",
+    "IapGetItemCommandDiscoveryRequestInitiated",
+    "IapGetItemCommandDiscoveryRequestSuccess",
+    "IapGetItemCommandSuccess",
+    "IapPurchaseUpdatesCommandInitiated",
+    "IapPurchaseUpdatesCommandSuccess",
+    "IapTimeFromStartToFinishPurchaseItemCommandInitiated",
+    "IapPurchaseItemCommandInitiated",
+    "IapPurchaseItemCommandSuccess",
+    "IapTimeFromStartToFinishPurchaseItemCommandCompleted",
+    "IapTimeFromPurchaseItemCommandToDetailDialogInitiated"
+  ],
+  "observations": {
+    "catalogueSuccess": true,
+    "historySuccess": true,
+    "purchaseCommandAccepted": true,
+    "detailDialogInitiatedMetric": true,
+    "checkoutDialogVisible": false,
+    "amazonUiActivityStarted": false,
+    "premiumGranted": false,
+    "clientRestartRecoveredCheckout": false
+  },
+  "identifiersRecorded": false
+}
