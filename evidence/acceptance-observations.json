@@ -1161,7 +1161,6 @@
     ],
     "corrective_action": "Acquire Amazon-delivered code7 in place; retest genuine fresh purchase activation, owned Restore and offline restart; finish production receipt edge cases and privacy review.",
     "execution_date": "2026-10-31",
-    "environment": "Physical Fire HD10 API28; Amazon-delivered code5 Test1, actual production Amazon LAT services",
-    "device_environment": "Physical Fire HD10 API28; actual Amazon-delivered Test2 code6; source7 regression and LAT submission"
+    "environment": "Physical Fire HD10 API28; actual Amazon-delivered Test2 code6; source7 regression and LAT submission"
   }
 }
