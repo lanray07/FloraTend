@@ -1,0 +1,7 @@
+{
+  "actualAmazonCode6": true,
+  "expectedPremiumAfterPurchase": true,
+  "actualPremium": false,
+  "result": "FAIL",
+  "scope": "Actual fresh native UI after Amazon purchase success; no injected receipt or grant"
+}

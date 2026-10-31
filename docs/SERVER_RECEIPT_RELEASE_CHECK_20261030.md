@@ -1,4 +1,4 @@
-> Superseded availability status: [31 October actual Amazon code-6 installation and checkout diagnosis](LAT_SERVER_TEST_20261031.md). Test 2 is now in progress and installed; genuine receipt tests remain blocked.
+> Superseded availability status: [31 October actual Amazon code-6 installation and checkout diagnosis](LAT_SERVER_TEST_20261031.md). Code 6 passed genuine server-gated Restore and offline restart. Automatic activation failed; corrected code 7 is submitted to LAT. Historical results below retain their original scope.
 
 # Server receipt verification - 30 October 2026
 

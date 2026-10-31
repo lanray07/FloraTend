@@ -1,4 +1,4 @@
-> Latest candidate status: [0.1.5 server verification and Test 2](SERVER_RECEIPT_RELEASE_CHECK_20261030.md). Historical results below apply to their stated build.
+> Latest candidate status: [code-6 genuine server Restore and code-7 race correction](LAT_SERVER_TEST_20261031.md). Historical results below apply to their stated build.
 
 # Production billing preparation and release checks
 

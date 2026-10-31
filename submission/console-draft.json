@@ -134,7 +134,7 @@
     "tablet_devices_selected": 12,
     "tester_group": "FloraTend Premium LAT",
     "tester_group_selected_and_read_back": true,
-    "genuine_server_receipt_verified": false,
+    "genuine_server_receipt_verified": true,
     "checkout_issue_resolved": false,
     "public_promotion_performed": false,
     "evidence": "evidence/receipt-verification/lat2-submitted.png",
@@ -142,6 +142,24 @@
     "invitation_accepted": true,
     "amazon_installed_version_code": 6,
     "amazon_apk_sha256": "2e647a22019aefb67be951a58086a13deb535b40934b2665a3009ce86e8a332d",
-    "latest_check": "docs/LAT_SERVER_TEST_20261031.md"
+    "latest_check": "docs/LAT_SERVER_TEST_20261031.md",
+    "verification_scope": "Actual Amazon code6 genuine purchase followed by server-gated owned Restore; strict installed client gate plus UI, no raw RVS payload captured",
+    "automatic_purchase_activation": "FAIL on code6; fixed source7 awaiting genuine regression",
+    "explicit_owned_restore": "PASS code6",
+    "offline_process_restart": "PASS code6",
+    "both_checkout_orientations": "PASS code6 after reboot; initial presentation cause unisolated",
+    "upcoming": {
+      "name": "FloraTend 0.1.6 purchase verification fix",
+      "release_id": "amzn1.devportal.apprelease.0e6f92e850c74edd9216137c06b725a5",
+      "status": "Test submitted",
+      "version_code": 7,
+      "version_name": "0.1.6",
+      "apk_sha256": "dc39d4875f9350f743a0966ed0db62eccb5abdcfb45476406014893b760a174d",
+      "drm": true,
+      "tablet_devices_selected": 12,
+      "tester_group": "FloraTend Premium LAT",
+      "genuine_purchase_regression": "PENDING",
+      "evidence": "evidence/lat-server-live/code7-submitted.png"
+    }
   }
 }

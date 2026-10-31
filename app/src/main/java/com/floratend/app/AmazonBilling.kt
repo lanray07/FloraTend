@@ -9,7 +9,7 @@ import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 
-/** Native Amazon callbacks are authenticated by the SDK/public key. This is not server RVS. */
+/** Native SDK callbacks supply receipts; the server verifier authorizes new grants. */
 class AmazonBilling(context: Context, private val settings: FloraSettings) : PurchasingListener {
     companion object { const val SKU = BillingPolicy.PREMIUM_SKU }
     private val app = context.applicationContext
@@ -28,7 +28,7 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
     private var user: String? = null
     private var userRequest: RequestId? = null
     private var productRequest: RequestId? = null
-    private val purchases = mutableMapOf<RequestId, String>()
+    private val purchases = PendingPurchaseRequests<RequestId>()
     private var updatesRequest: RequestId? = null
     private var updatesUser: String? = null
     private var fullHistory = false
@@ -118,8 +118,9 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
         user = owner
         runCatching {
             productRequest = PurchasingService.getProductData(setOf(SKU))
-            // Revalidate the owned receipt on every successful foreground account refresh.
-            if (updatesRequest == null) startUpdates(true)
+            // Checkout resume can precede both its receipt and remote verification.
+            // An empty history at that point must not supersede the new purchase.
+            if (purchases.mayRefreshHistory(updatesRequest != null)) startUpdates(true)
         }.onFailure { unavailable() }
     } }
 
@@ -147,18 +148,18 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
     } }
 
     override fun onPurchaseResponse(response: PurchaseResponse) { scope.launch {
-        val expectedUser = purchases.remove(response.requestId) ?: return@launch
+        purchases.process(response.requestId) { expectedUser ->
         if (!BillingPolicy.purchaseOwnerMatches(expectedUser, user, response.userData?.userId,
-                response.requestStatus == PurchaseResponse.RequestStatus.SUCCESSFUL) || !allowedMode()) return@launch
+                response.requestStatus == PurchaseResponse.RequestStatus.SUCCESSFUL) || !allowedMode()) return@process
         keepPurchaseMessage = true
         when (response.requestStatus) {
             PurchaseResponse.RequestStatus.SUCCESSFUL -> {
                 val receipt = response.receipt
                 if (!matches(receipt) || receipt.isDeferred) {
                     mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_pending)
-                    return@launch
+                    return@process
                 }
-                if (!persist(receipt)) return@launch
+                if (!persist(receipt)) return@process
                 mutableMessage.value = if (receipt.isCanceled) AppLocales.wrap(app).getString(R.string.billing_canceled) else AppLocales.wrap(app).getString(R.string.billing_confirmed)
             }
             PurchaseResponse.RequestStatus.ALREADY_PURCHASED -> {
@@ -166,6 +167,10 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
                 restore()
             }
             else -> mutableMessage.value = AppLocales.wrap(app).getString(R.string.billing_incomplete)
+        }
+        }
+        if (restoreRequested && user != null && allowedMode() && purchases.mayRefreshHistory(updatesRequest != null)) {
+            runCatching { startUpdates(true) }.onFailure { unavailable() }
         }
     } }
 

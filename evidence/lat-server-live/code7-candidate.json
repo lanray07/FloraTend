@@ -1,0 +1,9 @@
+{
+  "versionCode": 7,
+  "versionName": "0.1.6",
+  "sha256": "dc39d4875f9350f743a0966ed0db62eccb5abdcfb45476406014893b760a174d",
+  "bytes": 10901833,
+  "latEndpointPresent": true,
+  "pendingPurchaseGuardPresent": true,
+  "provenance": "Developer-signed LAT candidate; not installed over the Amazon app"
+}

@@ -1,0 +1,13 @@
+{
+  "amazonVersionCode": 6,
+  "installer": "com.amazon.venezia",
+  "wifiOn": true,
+  "rotation": {
+    "accelerometer_rotation": "1",
+    "user_rotation": "0"
+  },
+  "appstoreSort": "By Title confirmed in store UI",
+  "dataRemoved": false,
+  "temporaryHarnessInstalled": false,
+  "scope": "Current actual Amazon code6; source code7 pending LAT publication"
+}
