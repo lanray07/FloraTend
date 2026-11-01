@@ -1,0 +1,9 @@
+{
+  "wifiDisabled": true,
+  "noDefaultNetwork": true,
+  "actualProcessStoppedAndRestarted": true,
+  "processIdChanged": true,
+  "amazonSignedVersionCode": 15,
+  "developerInstrumentationAttachedToAmazonApp": false,
+  "wifiRestoredOn": true
+}

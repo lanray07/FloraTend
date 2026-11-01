@@ -1,0 +1,20 @@
+{
+  "amazonVersionCode": 15,
+  "installer": "com.amazon.venezia",
+  "qaBackupIntegrity": "ok",
+  "emptyQaDomainCounts": {
+    "plants": 0,
+    "schedules": 0,
+    "journal": 0,
+    "history": 0
+  },
+  "qaAndPerfHarnessPackagesAbsent": true,
+  "instrumentationDetached": true,
+  "physicalSizeAndDensityReset": true,
+  "fontScale": 1.0,
+  "wifiOn": true,
+  "accelerometerRotation": 1,
+  "userRotation": 0,
+  "mainAppDataClearedOrUninstalled": false,
+  "appstoreSortUnchanged": "By Title"
+}

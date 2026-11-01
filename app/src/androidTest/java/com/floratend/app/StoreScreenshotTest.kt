@@ -29,7 +29,22 @@ class StoreScreenshotTest {
     private val id="qa-store-monstera"
     private val folder get()=File(context.getExternalFilesDir(null),"store-captures").apply{mkdirs()}
     private fun text(res:Int)=AppLocales.wrap(context).getString(res)
-    private fun waitText(value:String)=rule.waitUntil(15000){runCatching{rule.onAllNodesWithText(value,substring=false).fetchSemanticsNodes().isNotEmpty()}.getOrDefault(false)}
+    private fun waitText(value:String) {
+        try { rule.waitUntil(15000){runCatching{rule.onAllNodesWithText(value,substring=false).fetchSemanticsNodes().isNotEmpty()}.getOrDefault(false)} }
+        catch(failure:Throwable) {
+            val diagnostics=File(context.getExternalFilesDir(null),"store-capture-diagnostics").apply{mkdirs()}
+            File(diagnostics,"failure.txt").writeText("Missing expected text: $value\n"+rule.onRoot(useUnmergedTree=true).printToString())
+            InstrumentationRegistry.getInstrumentation().uiAutomation.takeScreenshot()?.let { bitmap ->
+                File(diagnostics,"failure.png").outputStream().use{bitmap.compress(Bitmap.CompressFormat.PNG,100,it)};bitmap.recycle()
+            }
+            throw AssertionError("Capture did not expose expected text: $value",failure)
+        }
+    }
+    private fun showFixture() {
+        // A Lazy grid does not compose an off-screen plant on a narrow/long-text layout.
+        rule.onNodeWithTag("plant-grid").performScrollToNode(hasText("Monstera deliciosa",substring=false))
+        waitText("Monstera deliciosa")
+    }
     private fun nav(res:Int) {
         val node=rule.onNodeWithText(text(res),substring=false)
         if(AppLocales.wrap(context).resources.configuration.screenWidthDp>=720) node.performScrollTo()
@@ -79,12 +94,12 @@ class StoreScreenshotTest {
             runBlocking { app.settings.set("dark",false) }
             rule.activityRule.scenario.onActivity{it.recreate()}
             waitText(text(R.string.garden));nav(R.string.garden)
-            waitText(text(R.string.your_garden));waitText("Monstera deliciosa")
+            waitText(text(R.string.your_garden));showFixture()
             rule.activityRule.scenario.onActivity{assertEquals(Locale.forLanguageTag(tag).toLanguageTag(),it.resources.configuration.locales[0].toLanguageTag())}
             val scenes=JSONArray()
             scenes.put(shot(tag,"01-hero"))
             nav(R.string.calendar);waitText(text(R.string.care_calendar));scenes.put(shot(tag,"02-watering"))
-            nav(R.string.garden);waitText("Monstera deliciosa")
+            nav(R.string.garden);showFixture()
             rule.onNodeWithText("Monstera deliciosa",substring=false).performScrollTo().performClick()
             waitText(text(R.string.close));scenes.put(shot(tag,"03-library"))
             rule.onNodeWithText(text(R.string.close),substring=false).performClick()

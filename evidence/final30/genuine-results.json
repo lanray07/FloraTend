@@ -1,0 +1,33 @@
+{
+  "execution_date": "2026-11-01",
+  "versionCode": 15,
+  "privateTest2Status": "Test in-progress",
+  "dedicatedSingleTesterResetAcknowledged": true,
+  "freshGenuineFreeLatPurchase": "PASS",
+  "automaticStrictServerGatedPremiumBeforeRestore": "PASS",
+  "explicitOwnedRestore": "PASS",
+  "offlineNoNetworkProcessRestart": "PASS",
+  "finalOnlineRestore": "PASS",
+  "landscapeCheckout": "PASS, cancelled",
+  "portraitCheckout": "PASS, completed free LAT purchase",
+  "checkoutPresentationScreenshotReturnBoundsSeconds": [
+    1.985,
+    2.141
+  ],
+  "targetSeconds": 5,
+  "bothObservedBoundsPass": true,
+  "notExactLatencyMeasurement": true,
+  "originalIntermittentStoreDelayCause": "Unisolated; historical failures retained",
+  "uiAutomatorDuringCheckout": false,
+  "rawRvsResponseCaptured": false,
+  "developerInstrumentationOnAmazonApp": false,
+  "fixturesUsedForAmazonPurchase": false,
+  "scope": "Actual Amazon15 strict installed-client verification gate plus real UI. No raw RVS response or instrumentation of Amazon app; no public promotion or real charge.",
+  "freeLatReference": "https://developer.amazon.com/docs/in-app-purchasing/iap-lat.html",
+  "priorExactHeadCi": {
+    "head": "9d772662c8b6241dd9924fecb483fd741e18138b",
+    "run": 41362571898,
+    "result": "SUCCESS"
+  },
+  "strictGateEvidence": "All uploaded DEX files byte-identical in Amazon installation; existing verifier code gates purchase grant; actual UI showed Premium purchase confirmed before Restore. Raw RVS response not captured."
+}

@@ -1,0 +1,9 @@
+{
+  "result": "FAIL",
+  "completedLocales": 18,
+  "failedNextLocale": "id-ID",
+  "failure": "Timeout waiting for Garden heading or off-screen Monstera fixture at line82; same original harness reproduced failure twice.",
+  "rawManifestSha256": "93eab15f46f3e6c1293aaa9b93ab5c7895727811d276db58c90a7a1290dd0ff3",
+  "rawCaptureRetainedPrivately": true,
+  "hypothesis": "The lazy grid does not compose off-screen items on narrow layouts; amended capture helper scrolls to fixture before asserting. Exact failed expected text now added to diagnostics; hypothesis requires green rerun."
+}

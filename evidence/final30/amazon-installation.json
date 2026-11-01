@@ -1,0 +1,16 @@
+{
+  "versionCode": 15,
+  "versionName": "0.1.14",
+  "installer": "com.amazon.venezia",
+  "debuggable": false,
+  "installedApkSha256": "0cac2013ccdfa4ab426112652cd82a6b8ca14994dacc7241610367cd6c46fb83",
+  "amazonCertificateSha256": "8e35b165d5a1dc14c10820cee25ed2c24e9c543ceb2f059b9f5bc93baa672297",
+  "installedDexLatEndpointPresent": true,
+  "installedDexIdentificationEndpointPresent": true,
+  "productionVerifierAbsent": true,
+  "inPlaceUpdate": true,
+  "mainAppDataClearedOrUninstalled": false,
+  "genuineBillingTests": "PASS fresh purchase automatic grant, owned Restore, offline restart, final online Restore",
+  "allUploadedDexUnchanged": true,
+  "dexFilesCompared": 1
+}

@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "amazonVersionCode": 15,
+  "runnerInSeparateQaProcess": true,
+  "amazonTargetInstrumented": false,
+  "nativeEditorReviewAndUnknownCommand": true,
+  "noPurchaseTriggered": true,
+  "noPlantRecordsChanged": true,
+  "screenReaderApproval": false
+}

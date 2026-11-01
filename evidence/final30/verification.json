@@ -1,0 +1,29 @@
+{
+  "execution_date": "2026-11-01",
+  "phoneCapture": {
+    "result": "PASS",
+    "scenes": 176,
+    "appLocales": 22,
+    "fixtureScrollFixInHarnessOnly": true,
+    "earlierTimeoutsRetained": true
+  },
+  "phoneCompositions": {
+    "images": 120,
+    "listingLocales": 15,
+    "humanApproval": false
+  },
+  "externalAmazonNativeUi": {
+    "result": "PASS",
+    "tests": 1,
+    "runnerTarget": "Isolated QA package",
+    "amazonTargetInstrumented": false,
+    "firstHarnessFailureRetained": true
+  },
+  "actualAmazon15BillingRegression": "PASS, separately scoped in genuine-results.json",
+  "productionCodeChangedAfterSubmission": false,
+  "fullProductionReadiness": false,
+  "supportingPython": {
+    "tests": 70,
+    "result": "PASS"
+  }
+}

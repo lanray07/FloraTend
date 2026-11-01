@@ -1,0 +1,12 @@
+{
+  "result": "FAIL",
+  "runnerInQa": true,
+  "amazonTargetInstrumented": false,
+  "actualAmazonVersion": 15,
+  "exception": "androidx.test.uiautomator.StaleObjectException",
+  "stage": "Reusing editor handle after text input and keyboard dismissal",
+  "reachedSettingsPremiumActiveAndVoiceEditor": true,
+  "appFailureInferred": false,
+  "fix": "Do not issue an unnecessary Back after accessibility setText. Reacquire the editor after subsequent UI changes; preserve exact text assertions.",
+  "observedFailureState": "Amazon15 returned to Settings after unconditional Back; OS setText had not opened the keyboard."
+}

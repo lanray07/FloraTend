@@ -1,0 +1,13 @@
+{
+  "encodingPatterns": [
+    "UTF-8",
+    "UTF-16LE"
+  ],
+  "matches": 0,
+  "valuesExported": false,
+  "artifactArchivesChecked": 4,
+  "valuesAndIdentifiersChecked": 8,
+  "repositoryFilesChecked": 339,
+  "scope": "Exact byte-sequence scan of changed/new nonignored repository files and final candidate archives; private values read in memory. Not every transformed encoding or a full security audit.",
+  "execution_date": "2026-11-01"
+}

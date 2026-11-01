@@ -1168,7 +1168,7 @@
   "AC-19.10": {
     "test_name": "Production billing verification dependency",
     "status": "BLOCKED",
-    "actual_result": "Actual Amazon11 genuine free LAT purchase automatically activated Premium through strict server gating; explicit Restore, offline no-network process restart and final online Restore passed. Both uploaded DEX files unchanged. First cold portrait screenshot-return bound5.844s exceeded internal5s target; repeat2.735s. Historical failures retained; original intermittent store-delay cause unisolated. Paid production receipt edge cases and publisher privacy review remain open.",
+    "actual_result": "Actual Amazon11 genuine free LAT purchase automatically activated Premium through strict server gating; explicit Restore, offline no-network process restart and final online Restore passed. Both uploaded DEX files unchanged. First cold portrait screenshot-return bound5.844s exceeded internal5s target; repeat2.735s. Historical failures retained; original intermittent store-delay cause unisolated. Paid production receipt edge cases and publisher privacy review remain open. Actual Amazon15 in-place update and matching certificate/unchanged uploaded DEX verified. Fresh free LAT purchase automatically activated Premium before Restore; owned Restore, offline no-network process restart and final online Restore passed. First observed checkout screenshot-return bounds1.985s landscape and2.141s portrait were below5s. Historical failures remain; original intermittent store delay cause remains unisolated.",
     "evidence": [
       "submission/production-iap-readback.json",
       "docs/PRODUCTION_BILLING_RELEASE_CHECKS.md",
@@ -1196,7 +1196,10 @@
       "evidence/lat-code7/offline-process-state.json",
       "evidence/release-followup/code11-genuine-results.json",
       "evidence/release-followup/code11-cold-portrait-checkout.json",
-      "evidence/release-followup/code11-cold-portrait-repeat.json"
+      "evidence/release-followup/code11-cold-portrait-repeat.json",
+      "docs/RELEASE_CODE15_20261101.md",
+      "evidence/final30/genuine-results.json",
+      "evidence/final30/amazon-installation.json"
     ],
     "corrective_action": "Investigate retained checkout delay and finish production receipt edge cases, publisher privacy review and broader acceptance gates.",
     "execution_date": "2026-11-01",
@@ -2564,12 +2567,15 @@
     "execution_date": "2026-11-01",
     "environment": "Physical FireHD10 plus411dp simulated phone configuration, actual native15UI captures and PNG/provenance tests",
     "test_name": "Tablet and phone draft asset variants",
-    "actual_result": "120tablet and120portrait phone draft compositions cover all15current listing locales, with full native pixels retained. Tablet22locale capture passed. Phone capture completed18locales covering all15listing locales, then timed out on Indonesian; full-phone coverage is not claimed. No separate phone hardware or human language/readability certification.",
+    "actual_result": "120tablet and120portrait phone draft compositions cover all15current listing locales, with full native pixels retained. Tablet22locale capture passed. Phone capture completed18locales covering all15listing locales, then timed out on Indonesian; full-phone coverage is not claimed. No separate phone hardware or human language/readability certification. The corrected phone capture harness subsequently passed all176scenes/22app locales without a production-code change, and120phone compositions were regenerated from the successful run. Earlier18locale timeout failures remain retained.",
     "evidence": [
       "assets/screenshots/phone/localized-manifest.json",
       "assets/screenshots/localized/localized-manifest.json",
       "evidence/store-captures/run-20261101-231611/scope.json",
-      "tools/test_phone_screenshot_assets.py"
+      "tools/test_phone_screenshot_assets.py",
+      "evidence/store-captures/run-20261101-234656/instrumentation-summary.json",
+      "evidence/final30/phone-red-reproduction.json",
+      "docs/RELEASE_CODE15_20261101.md"
     ],
     "corrective_action": "Resolve remaining full-phone capture failure; obtain qualified review and actual phone compatibility evidence separately."
   }
