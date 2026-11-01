@@ -1,0 +1,684 @@
+test_android_quote_wrappers_are_not_rendered_but_escaped_quotes_survive (test_localized_screenshot_assets.ContactSheetWriteTests) ... ok
+test_persistent_denial_fails_and_preserves_previous_sheet (test_localized_screenshot_assets.ContactSheetWriteTests) ... ok
+test_transient_replacement_denial_preserves_previous_sheet_then_succeeds (test_localized_screenshot_assets.ContactSheetWriteTests) ... ok
+test_all_app_locales_captured_offline (test_localized_screenshot_assets.LocalizedScreenshotAssets) ... ok
+test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) ... test_complete_unique_locale_scene_matrix (test_localized_screenshot_assets.LocalizedScreenshotAssets) ... ok
+test_export_preserves_entire_native_capture_without_cropping (test_localized_screenshot_assets.LocalizedScreenshotAssets) ... ok
+test_png_integrity_and_native_capture_provenance (test_localized_screenshot_assets.LocalizedScreenshotAssets) ... ok
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='en-US', scene='01-hero')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Every plant deserves a little attention.' != '"Every plant deserves a little attention."'
+- Every plant deserves a little attention.
++ "Every plant deserves a little attention."
+? +                                        +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='en-US', scene='02-watering')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'A reminder to check, not an instruction t[68 chars]rst.' != '"A reminder to check, not an instruction [70 chars]st."'
+- A reminder to check, not an instruction to water. Check soil moisture, drainage and your plant�s condition first.
++ "A reminder to check, not an instruction to water. Check soil moisture, drainage and your plant�s condition first."
+? +                                                                                                                 +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='en-US', scene='03-library')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Search plants, species or locations' != '"Search plants, species or locations"'
+- Search plants, species or locations
++ "Search plants, species or locations"
+? +                                   +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='en-US', scene='04-calendar')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Care check reminders' != '"Care check reminders"'
+- Care check reminders
++ "Care check reminders"
+? +                    +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='en-US', scene='05-growth')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Photos, observations and small signs of growth.' != '"Photos, observations and small signs of growth."'
+- Photos, observations and small signs of growth.
++ "Photos, observations and small signs of growth."
+? +                                               +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='en-US', scene='06-voice')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Review or type a command' != '"Review or type a command"'
+- Review or type a command
++ "Review or type a command"
+? +                        +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='en-US', scene='07-offline')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Saved on this device' != '"Saved on this device"'
+- Saved on this device
++ "Saved on this device"
+? +                    +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='en-US', scene='08-insights')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Your records at a glance. Activity does not prove plant health.' != '"Your records at a glance. Activity does not prove plant health."'
+- Your records at a glance. Activity does not prove plant health.
++ "Your records at a glance. Activity does not prove plant health."
+? +                                                               +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='en-AU', scene='01-hero')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Every plant deserves a little attention.' != '"Every plant deserves a little attention."'
+- Every plant deserves a little attention.
++ "Every plant deserves a little attention."
+? +                                        +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='en-AU', scene='02-watering')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'A reminder to check, not an instruction t[68 chars]rst.' != '"A reminder to check, not an instruction [70 chars]st."'
+- A reminder to check, not an instruction to water. Check soil moisture, drainage and your plant�s condition first.
++ "A reminder to check, not an instruction to water. Check soil moisture, drainage and your plant�s condition first."
+? +                                                                                                                 +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='en-AU', scene='03-library')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Search plants, species or locations' != '"Search plants, species or locations"'
+- Search plants, species or locations
++ "Search plants, species or locations"
+? +                                   +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='en-AU', scene='04-calendar')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Care check reminders' != '"Care check reminders"'
+- Care check reminders
++ "Care check reminders"
+? +                    +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='en-AU', scene='05-growth')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Photos, observations and small signs of growth.' != '"Photos, observations and small signs of growth."'
+- Photos, observations and small signs of growth.
++ "Photos, observations and small signs of growth."
+? +                                               +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='en-AU', scene='06-voice')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Review or type a command' != '"Review or type a command"'
+- Review or type a command
++ "Review or type a command"
+? +                        +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='en-AU', scene='07-offline')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Saved on this device' != '"Saved on this device"'
+- Saved on this device
++ "Saved on this device"
+? +                    +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='en-AU', scene='08-insights')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Your records at a glance. Activity does not prove plant health.' != '"Your records at a glance. Activity does not prove plant health."'
+- Your records at a glance. Activity does not prove plant health.
++ "Your records at a glance. Activity does not prove plant health."
+? +                                                               +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='es-ES', scene='01-hero')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Cada planta merece un poco de atenci�n.' != '"Cada planta merece un poco de atenci�n."'
+- Cada planta merece un poco de atenci�n.
++ "Cada planta merece un poco de atenci�n."
+? +                                       +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='es-ES', scene='02-watering')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Es un recordatorio para revisar, no una o[90 chars]nta.' != '"Es un recordatorio para revisar, no una [92 chars]ta."'
+- Es un recordatorio para revisar, no una orden de regar. Comprueba primero la humedad del sustrato, el drenaje y el estado de la planta.
++ "Es un recordatorio para revisar, no una orden de regar. Comprueba primero la humedad del sustrato, el drenaje y el estado de la planta."
+? +                                                                                                                                       +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='es-ES', scene='03-library')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Buscar plantas, especies o ubicaciones' != '"Buscar plantas, especies o ubicaciones"'
+- Buscar plantas, especies o ubicaciones
++ "Buscar plantas, especies o ubicaciones"
+? +                                      +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='es-ES', scene='04-calendar')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Recordatorios para revisar las plantas' != '"Recordatorios para revisar las plantas"'
+- Recordatorios para revisar las plantas
++ "Recordatorios para revisar las plantas"
+? +                                      +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='es-ES', scene='05-growth')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Fotos, observaciones y peque�as se�ales de crecimiento.' != '"Fotos, observaciones y peque�as se�ales de crecimiento."'
+- Fotos, observaciones y peque�as se�ales de crecimiento.
++ "Fotos, observaciones y peque�as se�ales de crecimiento."
+? +                                                       +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='es-ES', scene='06-voice')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Revisa o escribe una orden' != '"Revisa o escribe una orden"'
+- Revisa o escribe una orden
++ "Revisa o escribe una orden"
+? +                          +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='es-ES', scene='07-offline')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Guardado en este dispositivo' != '"Guardado en este dispositivo"'
+- Guardado en este dispositivo
++ "Guardado en este dispositivo"
+? +                            +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='es-ES', scene='08-insights')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Tus registros de un vistazo. La actividad[38 chars]nas.' != '"Tus registros de un vistazo. La activida[40 chars]as."'
+- Tus registros de un vistazo. La actividad no demuestra que las plantas est�n sanas.
++ "Tus registros de un vistazo. La actividad no demuestra que las plantas est�n sanas."
+? +                                                                                   +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='es-MX', scene='01-hero')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Cada planta merece un poco de atenci�n.' != '"Cada planta merece un poco de atenci�n."'
+- Cada planta merece un poco de atenci�n.
++ "Cada planta merece un poco de atenci�n."
+? +                                       +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='es-MX', scene='02-watering')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Es un recordatorio para revisar, no una o[90 chars]nta.' != '"Es un recordatorio para revisar, no una [92 chars]ta."'
+- Es un recordatorio para revisar, no una orden de regar. Comprueba primero la humedad del sustrato, el drenaje y el estado de la planta.
++ "Es un recordatorio para revisar, no una orden de regar. Comprueba primero la humedad del sustrato, el drenaje y el estado de la planta."
+? +                                                                                                                                       +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='es-MX', scene='03-library')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Buscar plantas, especies o ubicaciones' != '"Buscar plantas, especies o ubicaciones"'
+- Buscar plantas, especies o ubicaciones
++ "Buscar plantas, especies o ubicaciones"
+? +                                      +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='es-MX', scene='04-calendar')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Recordatorios para revisar las plantas' != '"Recordatorios para revisar las plantas"'
+- Recordatorios para revisar las plantas
++ "Recordatorios para revisar las plantas"
+? +                                      +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='es-MX', scene='05-growth')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Fotos, observaciones y peque�as se�ales de crecimiento.' != '"Fotos, observaciones y peque�as se�ales de crecimiento."'
+- Fotos, observaciones y peque�as se�ales de crecimiento.
++ "Fotos, observaciones y peque�as se�ales de crecimiento."
+? +                                                       +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='es-MX', scene='06-voice')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Revisa o escribe una orden' != '"Revisa o escribe una orden"'
+- Revisa o escribe una orden
++ "Revisa o escribe una orden"
+? +                          +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='es-MX', scene='07-offline')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Guardado en este dispositivo' != '"Guardado en este dispositivo"'
+- Guardado en este dispositivo
++ "Guardado en este dispositivo"
+? +                            +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='es-MX', scene='08-insights')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Tus registros de un vistazo. La actividad[38 chars]nas.' != '"Tus registros de un vistazo. La activida[40 chars]as."'
+- Tus registros de un vistazo. La actividad no demuestra que las plantas est�n sanas.
++ "Tus registros de un vistazo. La actividad no demuestra que las plantas est�n sanas."
+? +                                                                                   +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='fr-FR', scene='01-hero')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Chaque plante m�rite un peu d�attention.' != '"Chaque plante m�rite un peu d�attention."'
+- Chaque plante m�rite un peu d�attention.
++ "Chaque plante m�rite un peu d�attention."
+? +                                        +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='fr-FR', scene='02-watering')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Un rappel pour v�rifier, pas une consigne[84 chars]nte.' != '"Un rappel pour v�rifier, pas une consign[86 chars]te."'
+- Un rappel pour v�rifier, pas une consigne d�arrosage. V�rifiez d�abord l�humidit� du terreau, le drainage et l��tat de la plante.
++ "Un rappel pour v�rifier, pas une consigne d�arrosage. V�rifiez d�abord l�humidit� du terreau, le drainage et l��tat de la plante."
+? +                                                                                                                                 +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='fr-FR', scene='03-library')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Rechercher des plantes, esp�ces ou emplacements' != '"Rechercher des plantes, esp�ces ou emplacements"'
+- Rechercher des plantes, esp�ces ou emplacements
++ "Rechercher des plantes, esp�ces ou emplacements"
+? +                                               +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='fr-FR', scene='04-calendar')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Rappels de v�rification des plantes' != '"Rappels de v�rification des plantes"'
+- Rappels de v�rification des plantes
++ "Rappels de v�rification des plantes"
+? +                                   +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='fr-FR', scene='05-growth')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Photos, observations et petits signes de croissance.' != '"Photos, observations et petits signes de croissance."'
+- Photos, observations et petits signes de croissance.
++ "Photos, observations et petits signes de croissance."
+? +                                                    +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='fr-FR', scene='06-voice')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'V�rifiez ou saisissez une commande' != '"V�rifiez ou saisissez une commande"'
+- V�rifiez ou saisissez une commande
++ "V�rifiez ou saisissez une commande"
+? +                                  +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='fr-FR', scene='07-offline')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Enregistr� sur cet appareil' != '"Enregistr� sur cet appareil"'
+- Enregistr� sur cet appareil
++ "Enregistr� sur cet appareil"
+? +                           +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='fr-FR', scene='08-insights')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Vos donn�es en un coup d��il. L�activit� [37 chars]tes.' != '"Vos donn�es en un coup d��il. L�activit�[39 chars]es."'
+- Vos donn�es en un coup d��il. L�activit� ne prouve pas la bonne sant� des plantes.
++ "Vos donn�es en un coup d��il. L�activit� ne prouve pas la bonne sant� des plantes."
+? +                                                                                  +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='de-DE', scene='01-hero')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Jede Pflanze verdient ein wenig Aufmerksamkeit.' != '"Jede Pflanze verdient ein wenig Aufmerksamkeit."'
+- Jede Pflanze verdient ein wenig Aufmerksamkeit.
++ "Jede Pflanze verdient ein wenig Aufmerksamkeit."
+? +                                               +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='de-DE', scene='02-watering')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Eine Erinnerung zum Pr�fen, keine Aufford[94 chars]nze.' != '"Eine Erinnerung zum Pr�fen, keine Auffor[96 chars]ze."'
+- Eine Erinnerung zum Pr�fen, keine Aufforderung zum Gie�en. Pr�fe zuerst die Bodenfeuchte, den Wasserabfluss und den Zustand deiner Pflanze.
++ "Eine Erinnerung zum Pr�fen, keine Aufforderung zum Gie�en. Pr�fe zuerst die Bodenfeuchte, den Wasserabfluss und den Zustand deiner Pflanze."
+? +                                                                                                                                           +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='de-DE', scene='03-library')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Pflanzen, Arten oder Standorte suchen' != '"Pflanzen, Arten oder Standorte suchen"'
+- Pflanzen, Arten oder Standorte suchen
++ "Pflanzen, Arten oder Standorte suchen"
+? +                                     +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='de-DE', scene='04-calendar')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Erinnerungen an Pflegekontrollen' != '"Erinnerungen an Pflegekontrollen"'
+- Erinnerungen an Pflegekontrollen
++ "Erinnerungen an Pflegekontrollen"
+? +                                +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='de-DE', scene='05-growth')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Fotos, Beobachtungen und kleine Zeichen des Wachstums.' != '"Fotos, Beobachtungen und kleine Zeichen des Wachstums."'
+- Fotos, Beobachtungen und kleine Zeichen des Wachstums.
++ "Fotos, Beobachtungen und kleine Zeichen des Wachstums."
+? +                                                      +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='de-DE', scene='06-voice')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Befehl pr�fen oder eingeben' != '"Befehl pr�fen oder eingeben"'
+- Befehl pr�fen oder eingeben
++ "Befehl pr�fen oder eingeben"
+? +                           +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='de-DE', scene='07-offline')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Auf diesem Ger�t gespeichert' != '"Auf diesem Ger�t gespeichert"'
+- Auf diesem Ger�t gespeichert
++ "Auf diesem Ger�t gespeichert"
+? +                            +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='de-DE', scene='08-insights')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: 'Deine Eintr�ge auf einen Blick. Aktivit�t[35 chars]eit.' != '"Deine Eintr�ge auf einen Blick. Aktivit�[37 chars]it."'
+- Deine Eintr�ge auf einen Blick. Aktivit�t ist kein Beleg f�r Pflanzengesundheit.
++ "Deine Eintr�ge auf einen Blick. Aktivit�t ist kein Beleg f�r Pflanzengesundheit."
+? +                                                                                +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='ja-JP', scene='01-hero')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: '\u3069\u3093\u306a\u690d\u7269\u306b\u3082\u3001\u5c11\u3057\u306e\u6c17\u3065\u304b\u3044\u3092\u3002' != '"\u3069\u3093\u306a\u690d\u7269\u306b\u3082\u3001\u5c11\u3057\u306e\u6c17\u3065\u304b\u3044\u3092\u3002"'
+- \u3069\u3093\u306a\u690d\u7269\u306b\u3082\u3001\u5c11\u3057\u306e\u6c17\u3065\u304b\u3044\u3092\u3002
++ "\u3069\u3093\u306a\u690d\u7269\u306b\u3082\u3001\u5c11\u3057\u306e\u6c17\u3065\u304b\u3044\u3092\u3002"
+? +                 +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='ja-JP', scene='02-watering')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: '\u6c34\u3084\u308a\u306e\u6307\u793a\u3067\u306f\u306a\u304f\u3001\u72b6\u614b\u3092\u78ba\u8a8d\u3059\u308b\u305f\u3081\u306e\u30ea\u30de\u30a4\u30f3\u30c0\u30fc\u3067\u3059\u3002\u307e\u305a\u571f\u306e\u6e7f\u308a\u5177\u5408\u3001\u6c34\u306f\u3051\u3001\u690d\u7269\u306e\u72b6\u614b\u3092\u78ba\u8a8d\u3057\u3066\u304f\u3060\u3055\u3044\u3002' != '"\u6c34\u3084\u308a\u306e\u6307\u793a\u3067\u306f\u306a\u304f\u3001\u72b6\u614b\u3092\u78ba\u8a8d\u3059\u308b\u305f\u3081\u306e\u30ea\u30de\u30a4\u30f3\u30c0\u30fc\u3067\u3059\u3002\u307e\u305a\u571f\u306e\u6e7f\u308a\u5177\u5408\u3001\u6c34\u306f\u3051\u3001\u690d\u7269\u306e\u72b6\u614b\u3092\u78ba\u8a8d\u3057\u3066\u304f\u3060\u3055\u3044\u3002"'
+- \u6c34\u3084\u308a\u306e\u6307\u793a\u3067\u306f\u306a\u304f\u3001\u72b6\u614b\u3092\u78ba\u8a8d\u3059\u308b\u305f\u3081\u306e\u30ea\u30de\u30a4\u30f3\u30c0\u30fc\u3067\u3059\u3002\u307e\u305a\u571f\u306e\u6e7f\u308a\u5177\u5408\u3001\u6c34\u306f\u3051\u3001\u690d\u7269\u306e\u72b6\u614b\u3092\u78ba\u8a8d\u3057\u3066\u304f\u3060\u3055\u3044\u3002
++ "\u6c34\u3084\u308a\u306e\u6307\u793a\u3067\u306f\u306a\u304f\u3001\u72b6\u614b\u3092\u78ba\u8a8d\u3059\u308b\u305f\u3081\u306e\u30ea\u30de\u30a4\u30f3\u30c0\u30fc\u3067\u3059\u3002\u307e\u305a\u571f\u306e\u6e7f\u308a\u5177\u5408\u3001\u6c34\u306f\u3051\u3001\u690d\u7269\u306e\u72b6\u614b\u3092\u78ba\u8a8d\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+? +                                                          +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='ja-JP', scene='03-library')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: '\u690d\u7269\u3001\u7a2e\u985e\u3001\u7f6e\u304d\u5834\u6240\u3092\u691c\u7d22' != '"\u690d\u7269\u3001\u7a2e\u985e\u3001\u7f6e\u304d\u5834\u6240\u3092\u691c\u7d22"'
+- \u690d\u7269\u3001\u7a2e\u985e\u3001\u7f6e\u304d\u5834\u6240\u3092\u691c\u7d22
++ "\u690d\u7269\u3001\u7a2e\u985e\u3001\u7f6e\u304d\u5834\u6240\u3092\u691c\u7d22"
+? +             +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='ja-JP', scene='04-calendar')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: '\u304a\u624b\u5165\u308c\u78ba\u8a8d\u306e\u30ea\u30de\u30a4\u30f3\u30c0\u30fc' != '"\u304a\u624b\u5165\u308c\u78ba\u8a8d\u306e\u30ea\u30de\u30a4\u30f3\u30c0\u30fc"'
+- \u304a\u624b\u5165\u308c\u78ba\u8a8d\u306e\u30ea\u30de\u30a4\u30f3\u30c0\u30fc
++ "\u304a\u624b\u5165\u308c\u78ba\u8a8d\u306e\u30ea\u30de\u30a4\u30f3\u30c0\u30fc"
+? +             +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='ja-JP', scene='05-growth')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: '\u5199\u771f\u3084\u89b3\u5bdf\u3001\u6210\u9577\u306e\u5c0f\u3055\u306a\u5146\u3057\u3092\u6b8b\u3057\u307e\u3057\u3087\u3046\u3002' != '"\u5199\u771f\u3084\u89b3\u5bdf\u3001\u6210\u9577\u306e\u5c0f\u3055\u306a\u5146\u3057\u3092\u6b8b\u3057\u307e\u3057\u3087\u3046\u3002"'
+- \u5199\u771f\u3084\u89b3\u5bdf\u3001\u6210\u9577\u306e\u5c0f\u3055\u306a\u5146\u3057\u3092\u6b8b\u3057\u307e\u3057\u3087\u3046\u3002
++ "\u5199\u771f\u3084\u89b3\u5bdf\u3001\u6210\u9577\u306e\u5c0f\u3055\u306a\u5146\u3057\u3092\u6b8b\u3057\u307e\u3057\u3087\u3046\u3002"
+? +                      +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='ja-JP', scene='06-voice')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: '\u30b3\u30de\u30f3\u30c9\u3092\u78ba\u8a8d\u307e\u305f\u306f\u5165\u529b' != '"\u30b3\u30de\u30f3\u30c9\u3092\u78ba\u8a8d\u307e\u305f\u306f\u5165\u529b"'
+- \u30b3\u30de\u30f3\u30c9\u3092\u78ba\u8a8d\u307e\u305f\u306f\u5165\u529b
++ "\u30b3\u30de\u30f3\u30c9\u3092\u78ba\u8a8d\u307e\u305f\u306f\u5165\u529b"
+? +            +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='ja-JP', scene='07-offline')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: '\u3053\u306e\u7aef\u672b\u306b\u4fdd\u5b58\u6e08\u307f' != '"\u3053\u306e\u7aef\u672b\u306b\u4fdd\u5b58\u6e08\u307f"'
+- \u3053\u306e\u7aef\u672b\u306b\u4fdd\u5b58\u6e08\u307f
++ "\u3053\u306e\u7aef\u672b\u306b\u4fdd\u5b58\u6e08\u307f"
+? +         +
+
+
+======================================================================
+FAIL: test_all_supporting_captions_use_localized_app_resource (test_localized_screenshot_assets.LocalizedScreenshotAssets) (locale='ja-JP', scene='08-insights')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\test_localized_screenshot_assets.py", line 124, in test_all_supporting_captions_use_localized_app_resource
+    self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+AssertionError: '\u8a18\u9332\u3092\u3072\u3068\u76ee\u3067\u78ba\u8a8d\u3002\u304a\u624b\u5165\u308c\u306e\u5b9f\u65bd\u306f\u690d\u7269\u306e\u5065\u5eb7\u3092\u8a3c\u660e\u3059\u308b\u3082\u306e\u3067\u306f\u3042\u308a\u307e\u305b\u3093\u3002' != '"\u8a18\u9332\u3092\u3072\u3068\u76ee\u3067\u78ba\u8a8d\u3002\u304a\u624b\u5165\u308c\u306e\u5b9f\u65bd\u306f\u690d\u7269\u306e\u5065\u5eb7\u3092\u8a3c\u660e\u3059\u308b\u3082\u306e\u3067\u306f\u3042\u308a\u307e\u305b\u3093\u3002"'
+- \u8a18\u9332\u3092\u3072\u3068\u76ee\u3067\u78ba\u8a8d\u3002\u304a\u624b\u5165\u308c\u306e\u5b9f\u65bd\u306f\u690d\u7269\u306e\u5065\u5eb7\u3092\u8a3c\u660e\u3059\u308b\u3082\u306e\u3067\u306f\u3042\u308a\u307e\u305b\u3093\u3002
++ "\u8a18\u9332\u3092\u3072\u3068\u76ee\u3067\u78ba\u8a8d\u3002\u304a\u624b\u5165\u308c\u306e\u5b9f\u65bd\u306f\u690d\u7269\u306e\u5065\u5eb7\u3092\u8a3c\u660e\u3059\u308b\u3082\u306e\u3067\u306f\u3042\u308a\u307e\u305b\u3093\u3002"
+? +                                      +
+
+
+----------------------------------------------------------------------
+Ran 8 tests in 17.359s
+
+FAILED (failures=56)

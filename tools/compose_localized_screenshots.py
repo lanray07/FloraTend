@@ -11,6 +11,12 @@ MAPPING={'en-IN':'en-GB','es-MX':'es-419'}
 CAPTION_KEYS=['tagline','check_first','search','care_reminders','journal_intro','command','local_records','insights_intro']
 def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 
+def caption_text(value):
+    # Android's outer XML string quotes preserve whitespace; they are not UI ink.
+    if len(value)>=2 and value.startswith('"') and value.endswith('"'):
+        value=value[1:-1]
+    return value.replace("\\'", "'").replace('\\"','"').replace('\\n','\n')
+
 def write_contact_sheets(out,locales):
     results=[]
     for locale in locales:
@@ -66,7 +72,7 @@ def compose(captures,out):
         assert len(titles)==8
         native=MAPPING.get(locale,locale)
         caption_source=ROOT/'app/src/main/res'/folders[native]/'strings.xml'
-        strings={node.attrib['name']:''.join(node.itertext()).replace("\\'", "'").replace('\\"','"') for node in ET.parse(caption_source).getroot() if node.tag=='string'}
+        strings={node.attrib['name']:caption_text(''.join(node.itertext())) for node in ET.parse(caption_source).getroot() if node.tag=='string'}
         for scene,title,caption_key in zip(SCENES,titles,CAPTION_KEYS):
             caption=strings[caption_key]
             record=captured[native][scene];raw=captures/record['file']

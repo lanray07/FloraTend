@@ -9,7 +9,7 @@ from unittest.mock import patch
 from PIL import Image, ImageChops, ImageOps
 
 from screenshots import validate_png
-from compose_localized_screenshots import write_contact_sheets
+from compose_localized_screenshots import write_contact_sheets, caption_text
 
 ROOT = Path(__file__).resolve().parents[1]
 SCENES = {'01-hero', '02-watering', '03-library', '04-calendar',
@@ -17,6 +17,9 @@ SCENES = {'01-hero', '02-watering', '03-library', '04-calendar',
 
 
 class ContactSheetWriteTests(unittest.TestCase):
+    def test_android_quote_wrappers_are_not_rendered_but_escaped_quotes_survive(self):
+        self.assertEqual('コマンドを確認または入力',caption_text('"コマンドを確認または入力"'))
+        self.assertEqual('"Literal quotes"',caption_text('\\"Literal quotes\\"'))
     def prepare(self,root):
         folder=root/'en-GB';folder.mkdir()
         for scene in SCENES:
@@ -117,7 +120,7 @@ class LocalizedScreenshotAssets(unittest.TestCase):
             with self.subTest(locale=row['listing_locale'], scene=row['scene']):
                 source=ROOT / row['caption_resource_source']
                 self.assertEqual(row['caption_resource_sha256'], hashlib.sha256(source.read_bytes()).hexdigest())
-                strings={n.attrib['name']:''.join(n.itertext()).replace("\\'", "'").replace('\\"','"') for n in ET.parse(source).getroot() if n.tag=='string'}
+                strings={n.attrib['name']:caption_text(''.join(n.itertext())) for n in ET.parse(source).getroot() if n.tag=='string'}
                 self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
                 self.assertTrue(row['supporting_caption'].strip())
                 self.assertLessEqual(len(row['caption_lines']),2)
