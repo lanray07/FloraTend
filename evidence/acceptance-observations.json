@@ -1138,7 +1138,7 @@
   "AC-19.10": {
     "test_name": "Production billing verification dependency",
     "status": "BLOCKED",
-    "actual_result": "Actual Amazon code6 free LAT purchase completed after reboot restored checkout presentation in both orientations. Automatic Premium activation FAILED. Explicit Restore activated Premium through strict server verification; offline process restart and subsequent online Restore PASSED. A verification/history race has a failing-before/passing-after regression; source0.1.6/code7 passes24 JVM tests each debug/release and lint, signed and submitted to LAT only. Genuine code7 purchase regression awaits Amazon distribution. Original store presentation cause remains unisolated; production receipts and broader release gates remain open. On1Nov actual Amazon code7 installed in place with matching certificate; after dedicated LAT reset, two landscape attempts and one portrait attempt did not open checkout. No payment pressed; app/store reopen did not recover. Reboot now awaits USB authorization. Code7 genuine purchase/restore/offline regression remains incomplete.",
+    "actual_result": "Actual Amazon-delivered code7 fresh free LAT purchase automatically activated Premium through the strict server gate; explicit owned Restore and offline no-network process restart PASSED under exclusive tablet access. Both checkout orientations rendered after reboot; initial dialog-absent/delayed attempts and code6 automatic-activation failure retained. Original store presentation cause remains unisolated; production receipt edge cases and privacy review remain open. No public promotion, real charge or paid hosting.",
     "evidence": [
       "submission/production-iap-readback.json",
       "docs/PRODUCTION_BILLING_RELEASE_CHECKS.md",
@@ -1160,9 +1160,12 @@
       "evidence/lat-server-live/code7-jvm-results.json",
       "docs/LAT_CODE7_TEST_20261101.md",
       "evidence/lat-code7/installation.json",
-      "evidence/lat-code7/pre-reboot-checks.json"
+      "evidence/lat-code7/pre-reboot-checks.json",
+      "evidence/lat-code7/genuine-results.json",
+      "evidence/lat-code7/exclusive-owned-restore.png",
+      "evidence/lat-code7/offline-process-state.json"
     ],
-    "corrective_action": "Acquire Amazon-delivered code7 in place; retest genuine fresh purchase activation, owned Restore and offline restart; finish production receipt edge cases and privacy review.",
+    "corrective_action": "Investigate retained checkout delay and finish production receipt edge cases, publisher privacy review and broader acceptance gates.",
     "execution_date": "2026-11-01",
     "environment": "Physical Fire HD10 API28; actual Amazon Test2 code7; strict LAT verifier"
   }

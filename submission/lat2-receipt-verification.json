@@ -37,10 +37,13 @@
     "drm": true,
     "tablet_devices_selected": 12,
     "tester_group": "FloraTend Premium LAT",
-    "genuine_purchase_regression": "BLOCKED: checkout absent twice landscape and once portrait; reboot awaits USB authorization",
+    "genuine_purchase_regression": "PASS actual Amazon7: fresh free purchase automatically activated Premium",
     "evidence": "evidence/lat-server-live/code7-submitted.png",
     "amazon_installed_version_code": 7,
     "amazon_apk_sha256": "9d6ebeceb52c85d3f827392b002799c5b43e0fdbbd79ca7daa81fd16a9aa3351",
-    "latest_check": "docs/LAT_CODE7_TEST_20261101.md"
+    "latest_check": "docs/LAT_CODE7_TEST_20261101.md",
+    "explicit_owned_restore": "PASS actual Amazon7 under exclusive access",
+    "offline_process_restart": "PASS actual Amazon7 no default network and changed PID",
+    "checkout_both_orientations": "PASS after reboot; initial delays retained, original cause unisolated"
   }
 }

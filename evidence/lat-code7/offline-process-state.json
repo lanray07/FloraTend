@@ -1,0 +1,7 @@
+{
+  "wifiDisabled": true,
+  "noDefaultNetwork": true,
+  "processChanged": true,
+  "actualAmazonCode": 7,
+  "premiumVisualResult": "PASS: Premium active and exports enabled after offline process restart; refresh correctly unavailable"
+}

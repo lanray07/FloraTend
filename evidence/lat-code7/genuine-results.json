@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-01",
+  "actualAmazonCode": 7,
+  "freshFreeLATPurchase": "PASS",
+  "automaticPremiumActivationBeforeRestore": "PASS observed actual UI with purchase confirmed; strict server verification gate",
+  "landscapeCheckoutAfterReboot": "PASS delayed presentation; cancelled",
+  "portraitCheckoutAfterReboot": "PASS; authorized free purchase completed",
+  "explicitOwnedRestore": "PASS under exclusive tablet access: Premium active and history checked",
+  "offlineProcessRestart": "PASS: no default network, different PID, Premium active and exports enabled",
+  "uiAutomatorDuringCheckout": false,
+  "postPurchaseUiAutomatorRead": "FAILED null root; no assertion obtained",
+  "fixturesUsed": false,
+  "dataCleared": false,
+  "originalStorePresentationCause": "Unisolated; pre-reboot failures retained",
+  "exclusiveTabletRequestPending": false,
+  "identifiersRecorded": false,
+  "onlineRestoreAfterOffline": "PASS",
+  "earlierInactiveObservation": "INCONCLUSIVE under concurrent tablet activity; not reproduced in isolated checks",
+  "finalWifiOn": true,
+  "finalRotation": "accelerometer1/user0"
+}
