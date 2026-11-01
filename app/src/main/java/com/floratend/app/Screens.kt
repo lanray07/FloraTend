@@ -17,6 +17,8 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.viewinterop.AndroidView
+import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.semantics.semantics
@@ -53,7 +55,7 @@ import java.time.LocalDate
     Column(Modifier.verticalScroll(rememberScrollState())) {
         Text(s(R.string.voice_privacy)); if(activity.speechOutputSupported==false) Text(s(R.string.voice_output_unavailable));if(!SpeechRecognizer.isRecognitionAvailable(activity)) Text(s(R.string.voice_unavailable),modifier=Modifier.padding(vertical=16.dp))
         Button(onClick={if(ContextCompat.checkSelfPermission(activity,Manifest.permission.RECORD_AUDIO)==PackageManager.PERMISSION_GRANTED) activity.listen() else permission.launch(Manifest.permission.RECORD_AUDIO)},enabled=!activity.listening && SpeechRecognizer.isRecognitionAvailable(activity)) {Icon(FloraIcons.Mic,null);Text(s(if(activity.listening) R.string.listening else R.string.push_to_talk))}
-        Field(activity.transcript,R.string.command,{activity.transcript=it},3)
+        NativeCommandEditor(activity)
         Button(onClick={
             focusManager.clearFocus()
             response=when(val command=VoiceParser.parse(activity.transcript)) {
@@ -68,6 +70,52 @@ import java.time.LocalDate
         Text(response,modifier=Modifier.padding(vertical=16.dp));Text(s(R.string.voice_examples))
     }
     pending?.let { schedule -> AlertDialog(onDismissRequest={pending=null},title={Text(s(R.string.confirm_water))},text={Text(s(R.string.check_first))},confirmButton={TextButton(onClick={vm.complete(schedule,activity.getString(R.string.watered));pending=null;response=activity.getString(R.string.care_saved);activity.speak(response)}){Text(s(R.string.confirm))}},dismissButton={TextButton(onClick={pending=null}){Text(s(R.string.cancel))}}) }
+}
+
+@Composable private fun NativeCommandEditor(activity:MainActivity) {
+    val label=s(R.string.command)
+    val foreground=MaterialTheme.colorScheme.onSurface.toArgb()
+    val outline=MaterialTheme.colorScheme.outline.toArgb()
+    Column {
+    Text(label,style=MaterialTheme.typography.labelLarge,color=MaterialTheme.colorScheme.onSurfaceVariant)
+    Spacer(Modifier.height(4.dp))
+    AndroidView(
+        modifier=Modifier.fillMaxWidth(),
+        factory={ context ->
+            android.widget.EditText(context).apply {
+                id=R.id.voice_command
+                hint=label
+                minLines=3
+                gravity=android.view.Gravity.TOP or android.view.Gravity.START
+                inputType=android.text.InputType.TYPE_CLASS_TEXT or android.text.InputType.TYPE_TEXT_FLAG_MULTI_LINE or android.text.InputType.TYPE_TEXT_FLAG_CAP_SENTENCES
+                textDirection=android.view.View.TEXT_DIRECTION_LOCALE
+                textSize=16f
+                val inset=(16*resources.displayMetrics.density).toInt()
+                setPadding(inset,inset,inset,inset)
+                background=android.graphics.drawable.GradientDrawable().apply {
+                    setColor(android.graphics.Color.TRANSPARENT)
+                    setStroke(resources.displayMetrics.density.toInt().coerceAtLeast(1),outline)
+                    cornerRadius=4*resources.displayMetrics.density
+                }
+                addTextChangedListener(object:android.text.TextWatcher {
+                    override fun beforeTextChanged(s:CharSequence?,start:Int,count:Int,after:Int) {}
+                    override fun onTextChanged(s:CharSequence?,start:Int,before:Int,count:Int) { activity.transcript=s?.toString().orEmpty() }
+                    override fun afterTextChanged(s:android.text.Editable?) {}
+                })
+            }
+        },
+        update={ editor ->
+            editor.hint=label
+            editor.setTextColor(foreground)
+            // Keep the platform accessibility hint without duplicating the visible static label.
+            editor.setHintTextColor(android.graphics.Color.TRANSPARENT)
+            if(editor.text.toString()!=activity.transcript) {
+                editor.setText(activity.transcript)
+                editor.setSelection(editor.text.length)
+            }
+        }
+    )
+    }
 }
 
 @Composable fun SettingsScreen(app:FloraApp,vm:PlantViewModel) {
@@ -98,6 +146,7 @@ import java.time.LocalDate
         Toggle(s(R.string.imperial),imperial){scope.launch{app.settings.set("imperial",it)}}
         Toggle(s(R.string.care_reminders),reminders){if(it && Build.VERSION.SDK_INT>=33) notificationPermission.launch(Manifest.permission.POST_NOTIFICATIONS) else scope.launch{app.settings.set("reminders",it);Reminders.refresh(app)}}
         HorizontalDivider();Image(androidx.compose.ui.res.painterResource(R.drawable.art_premium),null,Modifier.fillMaxWidth().height(104.dp));Text(s(R.string.premium),style=MaterialTheme.typography.headlineSmall,modifier=Modifier.padding(top=20.dp));Text(s(if(premium) R.string.premium_active else R.string.premium_intro))
+        Text(s(R.string.purchase_verification_privacy),modifier=Modifier.padding(vertical=12.dp))
         Button(onClick={app.billing.purchase()},enabled=available && !premium){Text(price?.let { s(R.string.unlock_price).format(it) } ?: s(R.string.store_unavailable))}
         TextButton(onClick={app.billing.restore()}){Text(s(R.string.restore))};if(message.isNotEmpty()) Text(message)
         Text(s(R.string.export_notice));Row{TextButton(enabled=premium,onClick={pendingExport="json";exporter.launch("floratend.json")}){Text(s(R.string.export_json))};TextButton(enabled=premium,onClick={pendingExport="csv";exporter.launch("floratend.csv")}){Text(s(R.string.export_csv))}}

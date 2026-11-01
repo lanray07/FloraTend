@@ -1,0 +1,3 @@
+<resources>
+  <string name="purchase_verification_privacy">"Premium-verifieringen skickar ditt Amazon-användar-ID för den här appen och inköpskvittots ID via HTTPS till FloraTends server hos Cloudflare, som kontrollerar dem med Amazon. Växtuppgifter, anteckningar och foton skickas inte med."</string>
+</resources>

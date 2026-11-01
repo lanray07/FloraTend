@@ -1,0 +1,21 @@
+{
+  "execution_date": "2026-11-01",
+  "versionCode": 14,
+  "canonicalProductionInputs": 134,
+  "sourceManifestSha256": "6408058b27502f4abe6f880e499500422c62c460fdf2ccad7e6abaeacbaa3505",
+  "benchmarkApkSha256": "770ce3bfd4f50b51e4962df24660c7e3bd95ae831e4d9c9085eb94bb23a29342",
+  "rebuiltAfterFailedCalendarExperimentReverted": true,
+  "rebuiltArtifactMatchesFiveTrialArtifact": false,
+  "measuredBenchmarkApkSha256": "bf8e37bb699379039bd49915fa662f59b2d6e59bab249af81b0bfcedbb48d19d",
+  "gradleVerification": {
+    "result": "PASS",
+    "tasks": 149,
+    "executed": 21,
+    "upToDate": 128,
+    "jvmResults": "verification.json",
+    "lintErrors": 0,
+    "lintWarningsPerVariant": 46
+  },
+  "signedProduction": "code14-signed-production.json",
+  "scope": "Current source14 inputs and rebuilt artifact recorded after full experiment reversion. Rebuilt APK differs from measured APK; same version is not asserted as byte-identical or a new device execution. Measured artifact identity remains in each trial. Signed and benchmark configurations differ; signed source14 artifact is separate."
+}

@@ -1,4 +1,4 @@
-> Current development: **0.1.12 / code13**, with [scoped Pl@ntNet live/native evidence](docs/PLANTNET_LIVE_TEST_20261101.md). Actual Amazon code11 remains the last verified installed build. The acceptance ledger records178/204 scoped passes and26 incomplete criteria; it does not certify the new candidate.
+> Current development: **0.1.13 / code14**, with [rendering/native results and remaining work](docs/RELEASE_REMAINING_20261101.md). Actual Amazon code11 remains the verified installed build. The ledger records182/204 scoped passes and22 incomplete criteria. Calendar entry stalls and external approvals keep release BLOCKED.
 
 > Current checkout work: [cold-start diagnosis and code8 regression](docs/CHECKOUT_DELAY_DIAGNOSIS_20261101.md).
 
@@ -26,7 +26,7 @@ On macOS/Linux use `bash gradlew` in place of `.\gradlew.bat`. The debug APK is 
 .\tools\test_localized_fire.ps1
 ```
 
-Tests can modify the app's local records and preferences; use a dedicated test installation/device profile. No production account or plant data should be used. The app requires Android API 26 or higher, targets API 36, and currently has development version `0.1.12` / code `13`. A minimum SDK declaration is not a verified device-compatibility promise. The exact submitted signed code-5 APK also passed 15 physical-tablet tests; see [signed tablet results and reproduction](docs/SIGNED_TABLET_TEST_20261030.md). The later Amazon-delivered LAT build now retrieves the Â£3.73 regional price; [live LAT evidence](docs/LAT_LIVE_TEST_20261030.md) records a successful LAT purchase, restart persistence and owned-entitlement restoration after a clean Amazon reinstall. Other release gates remain open. Stateful App Tester and store capture tests require explicit opt-in; do not run the entire instrumentation package blindly.
+Tests can modify the app's local records and preferences; use a dedicated test installation/device profile. No production account or plant data should be used. The app requires Android API 26 or higher, targets API 36, and currently has development version `0.1.13` / code `14`. A minimum SDK declaration is not a verified device-compatibility promise. The exact submitted signed code-5 APK also passed 15 physical-tablet tests; see [signed tablet results and reproduction](docs/SIGNED_TABLET_TEST_20261030.md). The later Amazon-delivered LAT build now retrieves the Â£3.73 regional price; [live LAT evidence](docs/LAT_LIVE_TEST_20261030.md) records a successful LAT purchase, restart persistence and owned-entitlement restoration after a clean Amazon reinstall. Other release gates remain open. Stateful App Tester and store capture tests require explicit opt-in; do not run the entire instrumentation package blindly.
 
 ## Supporting checks
 

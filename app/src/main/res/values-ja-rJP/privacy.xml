@@ -1,0 +1,3 @@
+<resources>
+  <string name="purchase_verification_privacy">"Premiumの確認では、このアプリ用のAmazonユーザーIDと購入レシートIDをHTTPSでCloudflare上のFloraTendサーバーに送り、Amazonに照会します。植物の記録、メモ、写真は送信しません。"</string>
+</resources>

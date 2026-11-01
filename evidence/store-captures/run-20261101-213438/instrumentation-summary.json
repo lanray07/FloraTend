@@ -1,0 +1,7 @@
+{
+  "test": "StoreScreenshotTest.captureEightScenesInEveryAppLocale",
+  "testCount": 1,
+  "result": "PASS",
+  "rawOutputRetainedPrivately": true,
+  "realAmazonPurchase": false
+}

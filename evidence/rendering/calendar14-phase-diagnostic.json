@@ -1,0 +1,87 @@
+{
+  "versionCode": 14,
+  "result": "DIAGNOSTIC_ONLY",
+  "releaseGateApproved": false,
+  "phases": [
+    {
+      "phase": "navigation",
+      "appMarkerCount": 1915,
+      "slices": {
+        "worker/other": {
+          "count": 1846,
+          "inclusiveMillis": 1232.7149999910034,
+          "maxMillis": 19.648000001325272
+        },
+        "worker/draw": {
+          "count": 35,
+          "inclusiveMillis": 204.1910000043572,
+          "maxMillis": 17.896000004839152
+        },
+        "worker/layout": {
+          "count": 18,
+          "inclusiveMillis": 59.17500000214204,
+          "maxMillis": 16.11399999819696
+        },
+        "worker/measure": {
+          "count": 12,
+          "inclusiveMillis": 55.0140000123065,
+          "maxMillis": 16.560999996727332
+        },
+        "worker/gc": {
+          "count": 4,
+          "inclusiveMillis": 9.57199999538716,
+          "maxMillis": 3.0520000000251457
+        }
+      },
+      "scope": "Inclusive nested slice durations, not exclusive CPU time; trace overhead applies."
+    },
+    {
+      "phase": "scroll",
+      "appMarkerCount": 7440,
+      "slices": {
+        "main/other": {
+          "count": 443,
+          "inclusiveMillis": 349.01599997101584,
+          "maxMillis": 7.546000000729691
+        },
+        "main/doFrame": {
+          "count": 221,
+          "inclusiveMillis": 722.0129999550409,
+          "maxMillis": 9.316999996372033
+        },
+        "worker/other": {
+          "count": 5851,
+          "inclusiveMillis": 5458.993000342161,
+          "maxMillis": 37.24800000054529
+        },
+        "main/draw": {
+          "count": 434,
+          "inclusiveMillis": 497.16700000863057,
+          "maxMillis": 5.583000005572103
+        },
+        "main/traversals": {
+          "count": 217,
+          "inclusiveMillis": 356.7880000555306,
+          "maxMillis": 5.706000003556255
+        },
+        "worker/draw": {
+          "count": 222,
+          "inclusiveMillis": 1889.2910000577103,
+          "maxMillis": 11.524999994435348
+        },
+        "worker/layout": {
+          "count": 22,
+          "inclusiveMillis": 119.01699999725679,
+          "maxMillis": 19.05800000531599
+        },
+        "worker/measure": {
+          "count": 30,
+          "inclusiveMillis": 173.3099999910337,
+          "maxMillis": 38.359999998647254
+        }
+      },
+      "scope": "Inclusive nested slice durations, not exclusive CPU time; trace overhead applies."
+    }
+  ],
+  "scope": "Tracing overhead applies. Calendar navigation and four swipes after original Garden workload; raw traces private."
+}

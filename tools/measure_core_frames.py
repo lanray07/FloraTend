@@ -5,6 +5,7 @@ import hashlib
 import json
 import re
 import subprocess
+import struct
 import time
 
 ADB = Path.home() / 'AppData/Local/Android/Sdk/platform-tools/adb.exe'
@@ -12,11 +13,24 @@ PACKAGE = 'com.floratend.app.perf'
 EXPECTED_SCREENS={'garden','calendar','journal','voice','insights','settings'}
 BOUNDS={'frameP95Ms':32,'jankyPercent':10}
 
-def frame_verdict(rows,manual_speed=False):
-    passed=(len(rows)==6 and {r['screen'] for r in rows}==EXPECTED_SCREENS
+def assert_detached(processes):
+    assert 'ACTIVITY MANAGER RUNNING PROCESSES' in processes,'Readable ActivityManager process inventory required'
+    assert 'ActiveInstrumentation{' not in processes,'Detach instrumentation before measurement'
+
+def frame_histogram(raw,frames):
+    match=re.search(r'HISTOGRAM: ([^\r\n]+)',raw)
+    assert match,'Observed frame-duration histogram required'
+    pairs=[(int(duration),int(count)) for duration,count in re.findall(r'(\d+)ms=(\d+)',match.group(1))]
+    assert pairs and len(dict(pairs))==len(pairs) and sum(count for _,count in pairs)==frames,'Histogram must account for every frame'
+    return dict(pairs)
+
+def frame_verdict(rows,manual_speed=False,focused_screen=None):
+    expected={focused_screen} if focused_screen else EXPECTED_SCREENS
+    diagnostic=manual_speed or focused_screen is not None
+    passed=(len(rows)==len(expected) and {r['screen'] for r in rows}==expected
             and all(r['frames']>0 and r['frameP95Ms']<=BOUNDS['frameP95Ms'] and r['jankyPercent']<=BOUNDS['jankyPercent'] for r in rows))
-    return {'result':('DIAGNOSTIC_THRESHOLDS_MET' if passed else 'DIAGNOSTIC_THRESHOLDS_MISSED') if manual_speed else ('PASS' if passed else 'FAIL'),
-            'releaseGateApproved':passed and not manual_speed}
+    return {'result':('DIAGNOSTIC_THRESHOLDS_MET' if passed else 'DIAGNOSTIC_THRESHOLDS_MISSED') if diagnostic else ('PASS' if passed else 'FAIL'),
+            'releaseGateApproved':passed and not diagnostic}
 
 
 def adb(*args):
@@ -27,16 +41,29 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--populated',action='store_true',help='Require the controlled 120-row care/journal/history workload and exercise typed voice review')
     parser.add_argument('--manual-speed-diagnostic',action='store_true',help='Explicitly label a shell full-speed compilation experiment; never approves the release gate')
+    parser.add_argument('--version-code',type=int,required=True,help='Exact isolated candidate version expected on the device')
+    parser.add_argument('--output',type=Path,required=True,help='New report path; historical evidence is never overwritten')
+    parser.add_argument('--only-screen',choices=sorted(EXPECTED_SCREENS),help='Focused diagnostic only; cannot approve the six-screen release gate')
     args=parser.parse_args()
+    configuration={'fontScale':float(adb('shell','settings','get','system','font_scale').decode().strip()),
+                   'accelerometerRotation':adb('shell','settings','get','system','accelerometer_rotation').decode().strip(),
+                   'userRotation':adb('shell','settings','get','system','user_rotation').decode().strip()}
+    assert configuration=={'fontScale':1.0,'accelerometerRotation':'0','userRotation':'1'},'Restore the declared physical landscape/font configuration first'
     metadata = adb('shell', 'dumpsys', 'package', PACKAGE).decode()
-    assert 'versionCode=12' in metadata and 'DEBUGGABLE' not in metadata
+    assert re.search(r'\bversionCode='+str(args.version_code)+r'\b',metadata) and 'DEBUGGABLE' not in metadata
+    apk_paths=adb('shell','pm','path',PACKAGE).decode().splitlines()
+    assert len(apk_paths)==1 and apk_paths[0].startswith('package:/data/app/') and apk_paths[0].endswith('/base.apk')
+    apk_hash=adb('shell','sha256sum',apk_paths[0].removeprefix('package:')).decode().split()[0]
+    assert re.fullmatch('[a-f0-9]{64}',apk_hash)
+    assert not args.output.exists(),'Choose a fresh evidence path'
     compiler=[{'abi':abi,'status':status,'reason':reason} for abi,status,reason in re.findall(r'^\s*(arm64|arm): \[status=(\S+)\] \[reason=(\S+)\]',metadata,re.M)]
     assert compiler,'Compiler state must be observable'
     if args.manual_speed_diagnostic:
         assert any(row['status']=='speed' for row in compiler),'Expected the explicit full-speed experiment'
     else:
         assert not any(row['status']=='speed' for row in compiler),'Full-speed compilation requires an explicitly labelled diagnostic run'
-    assert 'ActiveInstrumentation{' not in adb('shell', 'dumpsys', 'activity', 'instrumentation').decode()
+    processes=adb('shell','dumpsys','activity','processes').decode()
+    assert_detached(processes)
     installed=adb('shell','pm','list','packages','com.floratend.app').decode().splitlines()
     assert 'package:com.floratend.app.qa' not in installed,'QA speech fixtures must be removed before standalone rendering measurements'
     workload=None
@@ -49,8 +76,10 @@ def main():
     adb('shell', 'am', 'start', '-W', '-n', PACKAGE + '/com.floratend.app.MainActivity',
         '-a', 'android.intent.action.MAIN', '-c', 'android.intent.category.LAUNCHER')
     time.sleep(3)
+    assert struct.unpack('>II',adb('exec-out','screencap','-p')[16:24])==(1920,1200),'Expected physical HD10 landscape dimensions'
     rows = []
     for name, y in [('garden', 230), ('calendar', 315), ('journal', 400), ('voice', 485), ('insights', 565), ('settings', 650)]:
+        if args.only_screen and name!=args.only_screen: continue
         adb('shell', 'dumpsys', 'gfxinfo', PACKAGE, 'reset')
         adb('shell', 'input', 'tap', '78', str(y))
         time.sleep(1)
@@ -73,8 +102,9 @@ def main():
         p95 = int(re.search(r'95th percentile: (\d+)ms', raw).group(1))
         rows.append({'screen': name, 'frames': frames, 'jankyFrames': int(janky), 'jankyPercent': float(percent),
                      'frameP95Ms': p95, 'captureSha256': hashlib.sha256(capture).hexdigest(),
+                     'frameHistogram':frame_histogram(raw,frames),
                      'thresholdPassed': frames > 0 and p95 <= 32 and float(percent) <= 10})
-    report = {'versionCode': 12, 'package': PACKAGE, 'debuggable': False, 'instrumentationDetached': True,'qaPackageAbsent':True,
+    report = {'versionCode': args.version_code, 'apkSha256':apk_hash, 'deviceConfiguration':configuration, 'package': PACKAGE, 'debuggable': False, 'instrumentationDetached': True,'qaPackageAbsent':True,
               'compileStateReset': False, 'compileState': 'Explicit shell full-speed diagnostic' if args.manual_speed_diagnostic else 'Natural install/update compiler state; Fire rejects shell profile reset as system-only',
               'compilerState':compiler,'manualSpeedDiagnostic':args.manual_speed_diagnostic,
               'seededPlantPhotos': 120, 'screens': rows,
@@ -82,8 +112,10 @@ def main():
               'thresholds': BOUNDS,
               'result': 'PASS' if all(row['thresholdPassed'] for row in rows) else 'FAIL',
               'scope': 'Controlled ordinary core navigation/scrolling on physical Fire HD10 API28. OS gesture input; raw traces/captures private. Not Amazon billing, other hardware, battery or worst-case performance certification.'}
-    report.update(frame_verdict(rows,args.manual_speed_diagnostic))
-    Path('evidence/release-followup/code12-core-frames.json').write_text(json.dumps(report, indent=2) + '\n')
+    report.update(frame_verdict(rows,args.manual_speed_diagnostic,args.only_screen))
+    report['focusedDiagnosticScreen']=args.only_screen
+    args.output.parent.mkdir(parents=True,exist_ok=True)
+    args.output.write_text(json.dumps(report, indent=2) + '\n',encoding='utf-8')
     print(json.dumps(report, indent=2))
     return 0 if report['result'] in {'PASS','DIAGNOSTIC_THRESHOLDS_MET'} else 1
 

@@ -1,0 +1,122 @@
+{
+  "execution_date": "2026-11-01",
+  "versionCode": 14,
+  "jvm": {
+    "core": {
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "debug": {
+      "tests": 34,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "release": {
+      "tests": 34,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "lint": {
+    "debug": {
+      "errors": 0,
+      "warnings": 46
+    },
+    "release": {
+      "errors": 0,
+      "warnings": 46
+    }
+  },
+  "nativeSuites": [
+    {
+      "suite": "code14-native-policy",
+      "result": "PASS",
+      "tests": 3,
+      "scope": "Controlled isolated QA/perf app; synthetic speech fixture where applicable, not Amazon-signed app instrumentation"
+    },
+    {
+      "suite": "code14-final-native-policy",
+      "result": "PASS",
+      "tests": 3,
+      "scope": "Controlled isolated QA/perf app; synthetic speech fixture where applicable, not Amazon-signed app instrumentation"
+    },
+    {
+      "suite": "code14-qa-core",
+      "result": "FAIL",
+      "tests": null,
+      "scope": "Controlled isolated QA/perf app; synthetic speech fixture where applicable, not Amazon-signed app instrumentation"
+    },
+    {
+      "suite": "code14-qa-workflows",
+      "result": "PASS",
+      "tests": 9,
+      "scope": "Controlled isolated QA/perf app; synthetic speech fixture where applicable, not Amazon-signed app instrumentation"
+    },
+    {
+      "suite": "code14-qa-policy-green",
+      "result": "PASS",
+      "tests": 1,
+      "scope": "Controlled isolated QA/perf app; synthetic speech fixture where applicable, not Amazon-signed app instrumentation"
+    },
+    {
+      "suite": "code14-qa-policy-restart",
+      "result": "PASS",
+      "tests": 1,
+      "scope": "Controlled isolated QA/perf app; synthetic speech fixture where applicable, not Amazon-signed app instrumentation"
+    },
+    {
+      "suite": "code14-font-landscape",
+      "result": "PASS",
+      "tests": 1,
+      "scope": "Controlled isolated QA/perf app; synthetic speech fixture where applicable, not Amazon-signed app instrumentation"
+    },
+    {
+      "suite": "code14-font-compact",
+      "result": "PASS",
+      "tests": 2,
+      "scope": "Controlled isolated QA/perf app; synthetic speech fixture where applicable, not Amazon-signed app instrumentation"
+    },
+    {
+      "suite": "reference13-upgrade-backup",
+      "result": "PASS",
+      "tests": 1,
+      "scope": "Controlled isolated QA/perf app; synthetic speech fixture where applicable, not Amazon-signed app instrumentation"
+    },
+    {
+      "suite": "code14-upgrade-data-check",
+      "result": "PASS",
+      "tests": 1,
+      "scope": "Controlled isolated QA/perf app; synthetic speech fixture where applicable, not Amazon-signed app instrumentation"
+    },
+    {
+      "suite": "code14-final-perf-cleanup",
+      "result": "PASS",
+      "tests": 1,
+      "scope": "Fresh native backup and empty-data guard for isolated fixture; host SQLite/photo transport validation completed before uninstall."
+    }
+  ],
+  "retainedFailure": {
+    "suite": "code14-qa-core",
+    "reason": "Scheduling test read ENQUEUED immediately before legitimate RUNNING transition; harness corrected to assert live count and actual 12-hour periodicity. Both corrected scheduling and real restart then pass."
+  },
+  "supportingPython": {
+    "tests": 68,
+    "failures": 0,
+    "errors": 0,
+    "retainedPriorFailure": "Screenshot checker expected old raw instrumentation log. Corrected to validate sanitized PASS/count/private-retention summary; full suite rerun green."
+  },
+  "scope": "Execution summaries parsed from private build logs/results. Earlier suites can exercise intermediate source14 artifacts. Final production build and source binding are recorded separately. No qualified linguistic, legal, other-hardware or production-store approval.",
+  "serverContracts": {
+    "tests": 28,
+    "pass": 28,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "command": "node --test server/receipt-verifier.test.mjs server/plant-identification.test.mjs server/plantnet-budget.test.mjs",
+    "scope": "Local contract/SQLite tests; not genuine Amazon receipts or a new live provider photo request."
+  }
+}

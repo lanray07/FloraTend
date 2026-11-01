@@ -1,0 +1,3 @@
+<resources>
+  <string name="purchase_verification_privacy">"يرسل التحقق من Premium معرّف مستخدم Amazon الخاص بهذا التطبيق ومعرّف إيصال الشراء عبر HTTPS إلى خادم FloraTend المستضاف لدى Cloudflare للتحقق منهما لدى Amazon. لا تُرسل سجلات النباتات أو الملاحظات أو الصور."</string>
+</resources>

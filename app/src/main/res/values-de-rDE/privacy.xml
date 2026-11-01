@@ -1,0 +1,3 @@
+<resources>
+  <string name="purchase_verification_privacy">"Zur Premium-Prüfung werden deine Amazon-Nutzerkennung für diese App und die Kennung des Kaufbelegs per HTTPS an den bei Cloudflare gehosteten FloraTend-Server gesendet und bei Amazon geprüft. Pflanzenaufzeichnungen, Notizen und Fotos werden nicht mitgesendet."</string>
+</resources>

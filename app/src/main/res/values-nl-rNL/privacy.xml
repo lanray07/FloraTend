@@ -1,0 +1,3 @@
+<resources>
+  <string name="purchase_verification_privacy">"Voor Premium-verificatie worden je Amazon-gebruikers-ID voor deze app en de ID van je aankoopbewijs via HTTPS naar de FloraTend-server bij Cloudflare gestuurd en bij Amazon gecontroleerd. Plantgegevens, notities en foto’s worden niet meegestuurd."</string>
+</resources>

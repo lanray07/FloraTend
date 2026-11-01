@@ -4,26 +4,28 @@
     "execution_date": "2026-11-01",
     "environment": "Windows / Python 3.10 / Android resource source audit",
     "status": "BLOCKED",
-    "actual_result": "Source13 host audit measures183 translatable resources in each of22 locale bundles with zero structural/placeholder errors. Modular XML copy is included in extraction and review digests. Qualified human approvals remain0/22. Earlier native source12 layout evidence does not verify the new identification copy.",
+    "actual_result": "Current extraction has184resources across22bundles with zero structural/placeholder errors. New receipt-verification disclosure is present in22locales and before Purchase. Qualified human approval remains0/22; device layout evidence does not certify natural translation.",
     "evidence": [
       "localization/validation-report.json",
       "localization/review.json",
       "evidence/release-next/localization-validation.txt",
       "docs/PLANTNET_INTEGRATION_20261101.md",
-      "evidence/identification/verification.json"
+      "evidence/identification/verification.json",
+      "evidence/rendering/verification.json"
     ],
     "corrective_action": "Translate, validate, render and review every release-approved interface locale."
   },
   "AC-07.14": {
     "test_name": "Human linguistic approval audit",
     "status": "BLOCKED",
-    "actual_result": "Source13 host audit measures183 translatable resources in each of22 locale bundles with zero structural/placeholder errors. Modular XML copy is included in extraction and review digests. Qualified human approvals remain0/22. Earlier native source12 layout evidence does not verify the new identification copy.",
+    "actual_result": "Current extraction has184resources across22bundles with zero structural/placeholder errors. New receipt-verification disclosure is present in22locales and before Purchase. Qualified human approval remains0/22; device layout evidence does not certify natural translation.",
     "evidence": [
       "localization/validation-report.json",
       "localization/review.json",
       "evidence/release-next/localization-validation.txt",
       "docs/PLANTNET_INTEGRATION_20261101.md",
-      "evidence/identification/verification.json"
+      "evidence/identification/verification.json",
+      "evidence/rendering/verification.json"
     ],
     "corrective_action": "Obtain qualified human review tied to the exact current source hash.",
     "execution_date": "2026-11-01"
@@ -2256,26 +2258,19 @@
     "corrective_action": "Retain RTL native regression; qualified linguistic/typographic approval is separate."
   },
   "AC-18.01": {
-    "test_name": "Ordinary core frames on controlled large collection",
-    "execution_date": "2026-11-01",
-    "environment": "Physical FireHD10/API28; isolated nondebuggable source12 rendering build; no instrumentation during frame sampling",
     "status": "FAIL",
-    "actual_result": "With120plants/photos and120care schedules, journal and history rows, Calendar/Journal/Insights/Settings passed the declared32ms p95 and10%jank thresholds. Garden (22ms p95/53.06%jank) and typed Voice (48ms/36.84%) failed the combined target. Cold empty-child probes also retained. Native Calendar scale test reproduced122 eager filter/card nodes; lazy filter row reduces composition. Async empty artwork experiment was inconclusive and reverted. ART profile reset was refused as system-only; no bypass or successful reset claimed. Further natural repeat still failedVoice36ms/29.85%. Forced full-speed compilation met bounds but is diagnostic only. Benchmark R8 and editor-scope trials still failed combined bounds and were reverted; all91frozen inputs match. Main-thread sampling found broad framework/Compose work, not one dominant app method. No failed record was replaced.",
+    "execution_date": "2026-11-01",
+    "environment": "Physical FireHD10API28; isolated nondebuggable source13 vs14;120plants/photos plus120schedules/journal/history; instrumentation detached, natural speed-profile install state",
+    "test_name": "Five fixed cold-launch rendering trials with retained outlier guard",
+    "actual_result": "Original13 reference pooled Voice38ms/30.03%jank and Garden20ms/11.08%fail. Retained14 native command editor plus precomputed Garden care summaries improve Voice23ms/8.11% and Garden19ms/7.21%. All30individual14screen samples meet existing p95<=32ms/jank<=10% limits. Allfive trials retained. Added stricter250ms maximum bucket guard still FAILS Calendar350ms entry stalls; overall rendering remains FAIL. Trace separates first navigation from subsequent scrolls; Calendar lookup/date cache experiment still300-350ms and was reverted. No manual full-speed compile or favourable-trial replacement.",
     "evidence": [
-      "evidence/release-followup/code12-core-frames-populated.json",
-      "evidence/release-followup/code12-core-frames-eager-cold.json",
-      "evidence/release-followup/code12-core-frames-lazy-cold.json",
-      "evidence/release-followup/code12-core-frames-async-cold.json",
-      "evidence/release-followup/calendar-scale-red.txt",
-      "docs/RELEASE_CODE12_20261101.md",
-      "evidence/release-followup/code12-core-frames-natural-repeat.json",
-      "evidence/release-followup/code12-core-frames-manual-speed.json",
-      "evidence/release-followup/code12-core-frames-r8-experiment.json",
-      "evidence/release-followup/code12-core-frames-editor-scope-experiment.json",
-      "evidence/release-followup/code12-method-profile-summary.json",
-      "evidence/release-followup/code12-experiments-reverted.json"
+      "evidence/rendering/reference13-series/summary.json",
+      "evidence/rendering/candidate14-series/summary.json",
+      "evidence/rendering/calendar14-phase-diagnostic.json",
+      "evidence/rendering/calendar-cache-experiment.json",
+      "docs/RELEASE_REMAINING_20261101.md"
     ],
-    "corrective_action": "Continue repeatable performance isolation and retest missed Garden/typed-Voice bounds; do not infer responsiveness from functional flows or earlier source10 profiling."
+    "corrective_action": "Isolate remaining cold Calendar composition/entry stalls and retest a new fixed series. Do not promote a focused or forced-compiler diagnostic to a pass."
   },
   "AC-07.08": {
     "test_name": "All-locale persisted measurement formatting",
@@ -2358,18 +2353,18 @@
     "corrective_action": "Retain separate qualified language/readability review; no human approval inferred."
   },
   "AC-07.05": {
-    "test_name": "All22locale enlarged bounded-text coverage, partial gate",
+    "status": "PASS",
     "execution_date": "2026-11-01",
-    "environment": "Physical FireHD10/API28; native HD10landscape and OS-simulated600x1024/density160portrait; fontScale1.8; isolatedQA12",
-    "status": "NOT TESTED",
-    "actual_result": "Both native runs passed242 surface checks each across22locales: three onboarding steps, six core screens and two editors. Bounded line extents/ellipsis/height and reached workflow controls passed. Effectively unbounded horizontal-scroll text width and complete scrolled viewport review remain unassessed, so global expansion gate stays incomplete. Initial harness measurement/navigation failures retained.",
+    "environment": "Physical Fire HD10 API28; isolated source14 QA/perf application and host engineering checks, scoped as stated",
+    "test_name": "Expanded text across22locales and two configurations",
+    "actual_result": "242surfaces per configuration passed native text bounds at180%font, on physical landscape and600dp compact override. All638 formerly unbounded paragraph layouts per run were remeasured using actual Text width/font/style/direction; zero overflow or unassessed unbounded widths. Native command editor passed English/Arabic/Japanese180%font editing/accessibility/bounds. Compact configuration is simulated, not separate hardware; linguistic/readability approval remains pending.",
     "evidence": [
-      "evidence/release-followup/locale-layout-hd10-bounded-native.txt",
-      "evidence/release-followup/locale-layout-hd10-bounded/results.json",
-      "evidence/release-followup/locale-layout-fire7-portrait-bounded-native.txt",
-      "evidence/release-followup/locale-layout-fire7-portrait-bounded/results.json"
+      "evidence/rendering/code14-text-layout-landscape.json",
+      "evidence/rendering/code14-text-layout-compact.json",
+      "evidence/rendering/code14-native-command-compact.json",
+      "app/src/androidTest/java/com/floratend/app/TextBoundsRegressionTest.kt"
     ],
-    "corrective_action": "Complete horizontal-scroll width/viewport inspection and qualified locale layout review; do not infer separate physical7inch hardware coverage."
+    "corrective_action": "Retain other independent release gates; this scoped result does not approve publication."
   },
   "AC-08.03": {
     "test_name": "Real per-locale native screenshot capture assertions",
@@ -2503,5 +2498,53 @@
       "evidence/identification-live/provider-metadata.json"
     ],
     "corrective_action": "Retain scoped evidence; finish remaining publisher/privacy/locale/performance and release-artifact gates before public release."
+  },
+  "AC-02.08": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 API28; isolated source14 QA/perf application and host engineering checks, scoped as stated",
+    "test_name": "Production controls and placeholder review",
+    "actual_result": "Production Kotlin inspection found zero TODO/FIXME, coming-soon copy or empty click handlers. Core controls have implemented callbacks; nine native workflow/contract tests and176 real offline scenes exercise production screens. Optional unavailable photo/voice services present explicit manual alternatives; they are not represented as verified services.",
+    "evidence": [
+      "evidence/rendering/production-screen-review.json",
+      "evidence/rendering/verification.json",
+      "evidence/store-captures/run-20261101-213438/capture-manifest.json"
+    ],
+    "corrective_action": "Retain other independent release gates; this scoped result does not approve publication."
+  },
+  "AC-15.10": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 API28; isolated source14 QA/perf application and host engineering checks, scoped as stated",
+    "test_name": "Development website product-fact reconciliation",
+    "actual_result": "Engineering review mapped12local English pages to executed collection/care/journal/voice/billing/identification evidence. FAQ/privacy now accurately describe optional Pl@ntNet, explicit Send photo, provider processing, manual correction, hashed-address counters and disabled default endpoint.12page validation passed. No public availability, universal speech service, calibrated identification probability, legal approval or production-store pricing verification is asserted.",
+    "evidence": [
+      "evidence/rendering/website-facts-review.json",
+      "website/build.py",
+      "docs/PLANTNET_LIVE_TEST_20261101.md"
+    ],
+    "corrective_action": "Retain other independent release gates; this scoped result does not approve publication."
+  },
+  "AC-18.07": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 API28; isolated source14 QA/perf application and host engineering checks, scoped as stated",
+    "test_name": "Critical-crash regression in tested workflows",
+    "actual_result": "No reproducible critical crash in executed source14 native command/care/core workflow tests,176 scene capture,22locale enlarged-text checks or30full measured screen samples.13to14 in-place isolated update retained480records and120photo hashes. Retained scheduling test failure was a harness ENQUEUED/RUNNING observation race, corrected and rerun, not an app crash. Rendering Calendar stalls remain a separate failed criterion. Scope is tested FireHD10API28 workflows, not all hardware or Amazon14 delivery.",
+    "evidence": [
+      "evidence/rendering/verification.json",
+      "evidence/rendering/code14-upgrade-data-check.json",
+      "evidence/rendering/candidate14-series/summary.json"
+    ],
+    "corrective_action": "Retain other independent release gates; this scoped result does not approve publication."
+  },
+  "AC-18.05": {
+    "status": "NOT TESTED",
+    "actual_result": "Source14 cancels periodic/refresh work when reminders are disabled, serializes scheduling and keeps one12hour periodic request when enabled. ActualWorkManager interval/state and real disabled-process restart tests pass. This establishes scheduling policy, not energy drain: USB-powered runs do not provide unplugged battery measurements.",
+    "evidence": [
+      "evidence/rendering/verification.json",
+      "app/src/main/java/com/floratend/app/Reminders.kt"
+    ],
+    "corrective_action": "Measure representative unplugged energy use; do not infer battery drain from job counts."
   }
 }

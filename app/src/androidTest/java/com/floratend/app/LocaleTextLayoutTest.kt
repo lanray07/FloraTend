@@ -61,27 +61,20 @@ class LocaleTextLayoutTest {
                 node.config[SemanticsActions.GetTextLayoutResult].action?.invoke(layouts)
                 for(layout in layouts) {
                     measured++
-                    // Horizontal scroll containers use effectively unbounded paragraphs.
-                    // RTL coordinates there lose float precision; record this limitation.
+                    // Bound only the diagnostic recomputation, preserving the real view size.
                     val boundedWidth=layout.multiParagraph.width<1_000_000f
                     if(!boundedWidth) unboundedWidths++
-                    // Paragraph width can retain the maximum constraint after Text shrinks to
-                    // intrinsic width. Compare actual line ink bounds instead of that box.
-                    val clipped=(0 until layout.lineCount).any { line ->
-                        layout.isLineEllipsized(line) ||
-                            (boundedWidth && layout.getLineRight(line)-layout.getLineLeft(line)>layout.size.width+1f) ||
-                            layout.getLineBottom(line)>layout.size.height+1f
-                    }
-                    if(clipped || layout.multiParagraph.didExceedMaxLines) failures+=layout.layoutInput.text.text
+                    if(textExceedsActualBounds(layout)) failures+=layout.layoutInput.text.text
                 }
             }
         }
         val config=rule.activity.resources.configuration
         rows.put(JSONObject().put("locale",locale).put("surface",surface).put("fontScale",config.fontScale)
             .put("widthDp",config.screenWidthDp).put("heightDp",config.screenHeightDp)
-            .put("measuredTextLayouts",measured).put("unboundedWidthsNotAssessed",unboundedWidths).put("overflowTexts",JSONArray(failures)))
+            .put("measuredTextLayouts",measured).put("unboundedWidthsRecomputedAtActualSize",unboundedWidths)
+            .put("unboundedWidthsNotAssessed",0).put("overflowTexts",JSONArray(failures)))
         File(folder,"results.json").writeText(JSONObject().put("variant",variant).put("surfaces",rows)
-            .put("humanApproval",false).put("scope","Internal text-layout overflow and reachable actions; scrollable viewport clipping is separately inspected").toString(2))
+            .put("humanApproval",false).put("scope","Internal text bounds and reachable actions; unbounded horizontal paragraphs are remeasured using the actual Text size and native font/style/density/direction. Not pixel or linguistic approval.").toString(2))
         if(failures.isNotEmpty() || (locale in listOf("en-GB","de-DE","ar") && surface in listOf("garden","settings"))) {
             val image=InstrumentationRegistry.getInstrumentation().uiAutomation.takeScreenshot()!!
             File(folder,"$locale-$surface.png").outputStream().use { image.compress(Bitmap.CompressFormat.PNG,100,it) };image.recycle()

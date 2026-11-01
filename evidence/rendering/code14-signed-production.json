@@ -1,0 +1,10 @@
+{
+  "versionCode": 14,
+  "versionName": "0.1.13",
+  "sha256": "04d6e7483055de1b93d353f2ca13908596cfa6106633c728c084f2f6b67f1e35",
+  "certificateSha256": "c08b2dd3462a14be0351a87c0da7afd83a4efd64ea6ff168aa83853692ff3a94",
+  "signatureVerified": true,
+  "debuggable": false,
+  "installedOnAmazonPackage": false,
+  "configuration": "Default production receipt verifier; optional photo identification endpoint disabled pending release configuration. No LAT or production-store submission performed."
+}

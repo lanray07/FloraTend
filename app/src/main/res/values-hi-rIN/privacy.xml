@@ -1,0 +1,3 @@
+<resources>
+  <string name="purchase_verification_privacy">"Premium के सत्यापन के लिए इस ऐप का आपका Amazon उपयोगकर्ता आईडी और खरीद रसीद आईडी HTTPS के ज़रिए Cloudflare पर होस्ट किए गए FloraTend सर्वर को भेजे जाते हैं, जो Amazon से उनकी जाँच करता है। पौधों के रिकॉर्ड, नोट्स और फ़ोटो इसमें शामिल नहीं होते।"</string>
+</resources>

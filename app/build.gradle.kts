@@ -13,8 +13,8 @@ android {
         applicationId = "com.floratend.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 13
-        versionName = "0.1.12"
+        versionCode = 14
+        versionName = "0.1.13"
         // Empty until the privately configured, free-only identification server is verified.
         val identifierUrl = providers.gradleProperty("floratend.plantIdentifierUrl").getOrElse("")
         require(identifierUrl.isEmpty() || identifierUrl.matches(Regex("https://[a-zA-Z0-9.-]+/identify"))) { "Invalid plant identifier HTTPS URL" }

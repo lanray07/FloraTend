@@ -337,10 +337,17 @@ private val Clay = Color(0xFFC8795B)
 
                                     val translatedCategories = mapOf("Indoor" to s(R.string.indoor),"Outdoor" to s(R.string.outdoor),"Succulent" to s(R.string.succulents),"Cactus" to s(R.string.cacti),"Herb" to s(R.string.herbs),"Flowering" to s(R.string.flowering),"Tree" to s(R.string.trees),"Other" to s(R.string.other))
                                     val visible = PlantLibraryQuery.apply(plants,query,category,descending,translatedCategories)
+                                    val dateLocale=Locale.getDefault()
+                                    val nextChecks=remember(schedules,dateLocale) {
+                                        val dates=schedules.filterNot { it.paused }.groupBy { it.plantId }
+                                            .mapValues { (_,care) -> care.minOf { it.nextDate } }
+                                        val formatted=dates.values.distinct().associateWith(::formatDate)
+                                        dates.mapValues { (_,date) -> formatted.getValue(date) }
+                                    }
 
                                     if (plants.isEmpty()) Empty(s(R.string.empty_garden),s(R.string.empty_garden_body))
 
-                                    else LazyVerticalGrid(modifier=Modifier.testTag("plant-grid"),columns=GridCells.Adaptive(340.dp),verticalArrangement=Arrangement.spacedBy(12.dp),horizontalArrangement=Arrangement.spacedBy(12.dp),contentPadding=PaddingValues(bottom=24.dp)) { items(visible,key={it.id}) { plant -> PlantCard(plant,schedules.filter { it.plantId == plant.id }) { selected = plant } } }
+                                    else LazyVerticalGrid(modifier=Modifier.testTag("plant-grid"),columns=GridCells.Adaptive(340.dp),verticalArrangement=Arrangement.spacedBy(12.dp),horizontalArrangement=Arrangement.spacedBy(12.dp),contentPadding=PaddingValues(bottom=24.dp)) { items(visible,key={it.id}) { plant -> PlantCard(plant,nextChecks[plant.id]) { selected = plant } } }
 
                                 }
 
@@ -448,7 +455,7 @@ fun formatMonth(value:String):String = runCatching { java.time.YearMonth.parse(v
 
 @Composable fun Stat(label:String,count:Int) { Row(Modifier.fillMaxWidth().padding(vertical=12.dp)) { Text(label,Modifier.weight(1f));Text(java.text.NumberFormat.getIntegerInstance().format(count),color=MaterialTheme.colorScheme.primary,style=MaterialTheme.typography.titleLarge) }; HorizontalDivider() }
 
-@Composable fun PlantCard(plant:Plant,schedules:List<CareSchedule>,click:()->Unit) {
+@Composable fun PlantCard(plant:Plant,nextCheck:String?,click:()->Unit) {
 
     val accessibleName = listOf(plant.name,plant.species,categoryLabel(plant.category),plant.location).filter { it.isNotBlank() }.joinToString(". ")
     Card(onClick=click,modifier=Modifier.fillMaxWidth().semantics { contentDescription=accessibleName;role=Role.Button },shape=RoundedCornerShape(20.dp),colors=CardDefaults.cardColors(containerColor=MaterialTheme.colorScheme.surfaceVariant.copy(alpha=.45f))) {
@@ -457,7 +464,7 @@ fun formatMonth(value:String):String = runCatching { java.time.YearMonth.parse(v
 
             if(plant.photo != null) AsyncImage(File(plant.photo),null,Modifier.size(88.dp)) else Image(painterResource(categoryArtwork(plant.category)),null,Modifier.size(68.dp))
 
-            Column(Modifier.padding(start=20.dp).weight(1f)) { Text(plant.name,fontFamily=FontFamily.Serif,fontSize=25.sp); Text(plant.species, color=MaterialTheme.colorScheme.onSurfaceVariant); Text(plant.location,modifier=Modifier.padding(top=6.dp)); schedules.filter { !it.paused }.minByOrNull { it.nextDate }?.let { Text(s(R.string.next_check).format(formatDate(it.nextDate)),color=MaterialTheme.colorScheme.primary) } }
+            Column(Modifier.padding(start=20.dp).weight(1f)) { Text(plant.name,fontFamily=FontFamily.Serif,fontSize=25.sp); Text(plant.species, color=MaterialTheme.colorScheme.onSurfaceVariant); Text(plant.location,modifier=Modifier.padding(top=6.dp)); nextCheck?.let { Text(s(R.string.next_check).format(it),color=MaterialTheme.colorScheme.primary) } }
 
             Icon(FloraIcons.Detail,null)
 

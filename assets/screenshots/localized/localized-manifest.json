@@ -1,6 +1,6 @@
 {
-  "version_code": 12,
-  "version_name": "0.1.11-qa",
+  "version_code": 14,
+  "version_name": "0.1.13-qa",
   "raw_app_locales": 22,
   "store_locales": 15,
   "images": 120,
@@ -19,10 +19,10 @@
         "Your plants, beautifully organised"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-GB/01-hero.png",
-      "capture_sha256": "d2e9ef662a6f39c2a1025c93c91b64c4a860100e4928f629c37d3811686dd538",
+      "capture": "evidence/store-captures/run-20261101-213438/en-GB/01-hero.png",
+      "capture_sha256": "3578853a90e5a9cf6e202afb648999e48f03e6dc44ead95f34c646c75917c852",
       "export": "assets/screenshots/localized/en-GB/01-hero.png",
-      "export_sha256": "cb903bb38e60207477f11d1a320e232e5108279f460c2f5ab0930a5b5f1ab950",
+      "export_sha256": "a8d476ac4fbe258ddd5a4c683b5c5e8250b2991c062970087149f194271a871c",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -45,6 +45,7 @@
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
       "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -54,8 +55,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-GB",
@@ -66,10 +66,10 @@
         "Build a calmer care routine"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-GB/02-watering.png",
-      "capture_sha256": "49024165fc272b7df1a5d3b3b10c9b5bdc49a6d6a3425e799c3ba2f99467ce68",
+      "capture": "evidence/store-captures/run-20261101-213438/en-GB/02-watering.png",
+      "capture_sha256": "5276e05fd48217ac1eebbcb5e3fe3ec761948393dcee76c829587d5cc8ef8560",
       "export": "assets/screenshots/localized/en-GB/02-watering.png",
-      "export_sha256": "1115662c6c0354152243adb340a767a7cb3748ee3ed6c8a2fb9542cf2fa9f017",
+      "export_sha256": "3a95194bc32cb6da79b00bb4ebab02485cdf73bd21328933396c5d2d97c01d69",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -92,6 +92,7 @@
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
       "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -101,8 +102,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-GB",
@@ -113,10 +113,10 @@
         "Give every plant a place"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-GB/03-library.png",
-      "capture_sha256": "d232f4952762976b465084db11eb491f99930dbb21965f6dc180071431770c86",
+      "capture": "evidence/store-captures/run-20261101-213438/en-GB/03-library.png",
+      "capture_sha256": "c20010756cf1248166946e1281f8d7097ba4e4da7241620b5ba02047730c2936",
       "export": "assets/screenshots/localized/en-GB/03-library.png",
-      "export_sha256": "ffe2100a6cfe8efc85e3b8f048378180ef5f0060c720eb655efdceffe87e3282",
+      "export_sha256": "4cd6a994766eaebdcd99de4079ddab43951bcc907b711477b252a1bd60abaef6",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -139,6 +139,7 @@
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
       "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -148,8 +149,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-GB",
@@ -160,10 +160,10 @@
         "See the care ahead"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-GB/04-calendar.png",
-      "capture_sha256": "a0c07f5f37e043d49e854c592b77b763ddc4c18d42d2334e2c46dde2c1f44270",
+      "capture": "evidence/store-captures/run-20261101-213438/en-GB/04-calendar.png",
+      "capture_sha256": "5957a8252b4cd8635b220ea916e8f59cf58d0d72ae3245a5b573289845040dcc",
       "export": "assets/screenshots/localized/en-GB/04-calendar.png",
-      "export_sha256": "e2d925a12bb5279ff465fcf23648235dd8730d97685bf235458fa46b4392ddee",
+      "export_sha256": "cc6f8a723fdd4be218ed4a3c985aa92e7fec49ae3afdf9815b61e5608e8c0458",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -186,6 +186,7 @@
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
       "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -195,8 +196,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-GB",
@@ -207,10 +207,10 @@
         "Keep a journal of new growth"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-GB/05-growth.png",
-      "capture_sha256": "9c39c20a29140818f17294143eb63795d2e326d4e815ca35f0544b46b84f7640",
+      "capture": "evidence/store-captures/run-20261101-213438/en-GB/05-growth.png",
+      "capture_sha256": "34378e8ae523164dbcc932733b17b2a02b713627b4eb0a76eb3896cd4ca98060",
       "export": "assets/screenshots/localized/en-GB/05-growth.png",
-      "export_sha256": "2a05655e6f8f2806c756c75fe42a18c002e1509741c28d35e8d9f7a94ba13e58",
+      "export_sha256": "6f575cdb6e66483ae6b1807ed876de807e06dc0943ef9d47084131c6dc49dc6a",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -233,6 +233,7 @@
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
       "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -242,8 +243,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-GB",
@@ -254,10 +254,10 @@
         "Type a command. Keep caring."
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-GB/06-voice.png",
-      "capture_sha256": "bfdcbd349e75d031431eca28b60815c100ff3eb0f34d330f9f94c6e73e82a42e",
+      "capture": "evidence/store-captures/run-20261101-213438/en-GB/06-voice.png",
+      "capture_sha256": "317b0652d49c083e53b7e8fd2e12c194d7bc66c6f4d26107af2c7186090c012d",
       "export": "assets/screenshots/localized/en-GB/06-voice.png",
-      "export_sha256": "66f5888a863cfd96945f086797b10030c77976bda54b1ee6d583a0845909c8d2",
+      "export_sha256": "f7adf06cf10af9880b412f20abd679d7416e6d168b4d0891b867f24e2c990dd2",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -280,6 +280,7 @@
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
       "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -289,8 +290,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-GB",
@@ -301,10 +301,10 @@
         "Your plant records, even offline"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-GB/07-offline.png",
-      "capture_sha256": "e0fec0c40807897cc847f79660df0e4ae1695564a62da667bfa9ae1495cd1c87",
+      "capture": "evidence/store-captures/run-20261101-213438/en-GB/07-offline.png",
+      "capture_sha256": "6ec15d3e81cacfff9ba8fea08896e22a7e0e895ed130b9f265bc88bf10092851",
       "export": "assets/screenshots/localized/en-GB/07-offline.png",
-      "export_sha256": "5ca092004355d71c439cb54c18b514e93622ec542ddb18112c7bd17bc9a99a77",
+      "export_sha256": "d74e8fe55353a311bf94c3c7a29ae55f3098584ad8d89a83082c136815032291",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -327,6 +327,7 @@
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
       "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -336,8 +337,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-GB",
@@ -348,10 +348,10 @@
         "See your care take shape"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-GB/08-insights.png",
-      "capture_sha256": "4a55b54e558253a4dccd36d1083a2797fd015e5351717aba0387e22f1a3ec934",
+      "capture": "evidence/store-captures/run-20261101-213438/en-GB/08-insights.png",
+      "capture_sha256": "e703c32e6f830169d5fa00e3c5d8ff7cf69469582bbb91b4388b08ef092c55c7",
       "export": "assets/screenshots/localized/en-GB/08-insights.png",
-      "export_sha256": "1d53fe3c1c3c63f6dd5a8310629baf599f8a3fd95e7929fe9ea744244f736392",
+      "export_sha256": "f14053e77ed072a0545b4aca6b58216cc5169728222aa494020d8aca4db08bda",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -374,6 +374,7 @@
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
       "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -383,8 +384,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-US",
@@ -395,10 +395,10 @@
         "Your plants, beautifully organized"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-US/01-hero.png",
-      "capture_sha256": "0f2832cd40f2ef8c5cf6f2262efb81fa73c7bfa348bd92663930d022a63571b2",
+      "capture": "evidence/store-captures/run-20261101-213438/en-US/01-hero.png",
+      "capture_sha256": "96445925d8909fb8c60304a9490301b8cc01bb64c4374e59dfd1572d40e8b1d1",
       "export": "assets/screenshots/localized/en-US/01-hero.png",
-      "export_sha256": "1b8020e3f586ebf7dca5792a3e910dfcc9a316eb9931cb808023846ce65b9ab5",
+      "export_sha256": "6fc230d498b6b490baad464b9551e3010908b7c8c7b83f5b333c11a2e710b84d",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -421,6 +421,7 @@
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
       "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -430,8 +431,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-US",
@@ -442,10 +442,10 @@
         "Build a calmer care routine"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-US/02-watering.png",
-      "capture_sha256": "7eb648b67c728ac8310bfb59f5171ac18319ff169510dc9ede3b59272634d7b5",
+      "capture": "evidence/store-captures/run-20261101-213438/en-US/02-watering.png",
+      "capture_sha256": "a101b5bc38ed1998691350cd6752ac2f85d94d22b322e55195c7c99ebbff0bb8",
       "export": "assets/screenshots/localized/en-US/02-watering.png",
-      "export_sha256": "8bb860c4c31d3d35abce2152d8bc69d19c67dd04588f36e1b7a61b8c05f8210b",
+      "export_sha256": "066831b433fcb6edeac5ff967903485c87248914b8ea10d2bb0aa612113a0c10",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -468,6 +468,7 @@
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
       "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -477,8 +478,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-US",
@@ -489,10 +489,10 @@
         "Give every plant a place"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-US/03-library.png",
-      "capture_sha256": "2f8c73960185df43c1616b6d8211d7f553c4488be67ceb5578fccd90cc17272f",
+      "capture": "evidence/store-captures/run-20261101-213438/en-US/03-library.png",
+      "capture_sha256": "b27728a0fbb3628d84fa1160bbf51c9916065a52fe83778a3c43cc8dd9af51d5",
       "export": "assets/screenshots/localized/en-US/03-library.png",
-      "export_sha256": "c119acb4be809a911078690e85675a20aa1dc8472eb850b893f377a086d5d45e",
+      "export_sha256": "1e8ed467725b316fe21458e2f39ed495d432cd6729f6c36317b1ac5cfd0d7dcd",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -515,6 +515,7 @@
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
       "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -524,8 +525,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-US",
@@ -536,10 +536,10 @@
         "See the care ahead"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-US/04-calendar.png",
-      "capture_sha256": "b3c03bb970f21b6aded997fea6e00abbaa19aea7d5d96cc8631d40b92123e742",
+      "capture": "evidence/store-captures/run-20261101-213438/en-US/04-calendar.png",
+      "capture_sha256": "a77f75251d7d3678ea682896a1b8a6cb0819ac8f64deb687d0ab3e32a0916e28",
       "export": "assets/screenshots/localized/en-US/04-calendar.png",
-      "export_sha256": "b55cc18d659981065dd70b8a85b726baa555bf13b4eb7b650c53695e31a2b1a3",
+      "export_sha256": "f1c58cbb0e0429e8519531e23b09db01bb2311c92daf9109bcd0a1183880e6c1",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -562,6 +562,7 @@
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
       "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -571,8 +572,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-US",
@@ -583,10 +583,10 @@
         "Keep a journal of new growth"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-US/05-growth.png",
-      "capture_sha256": "631dfdc4550681c382216920c551bc28fe96709bb737ae0b3ce690a8b6a20974",
+      "capture": "evidence/store-captures/run-20261101-213438/en-US/05-growth.png",
+      "capture_sha256": "2c086cb7c957b27e017327f065f5b36d94b7d950941423d8757439034cc7c63f",
       "export": "assets/screenshots/localized/en-US/05-growth.png",
-      "export_sha256": "d11f94b2fc8c3493ec83a74ed7590e8eae1051aaeb1cf2232a82fd9d9137c52e",
+      "export_sha256": "0e14d497e9f1e3534e7b6f47f8cf7282478660df32d8788e74d6d961ef04c795",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -609,6 +609,7 @@
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
       "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -618,8 +619,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-US",
@@ -630,10 +630,10 @@
         "Type a command. Keep caring."
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-US/06-voice.png",
-      "capture_sha256": "bfdcbd349e75d031431eca28b60815c100ff3eb0f34d330f9f94c6e73e82a42e",
+      "capture": "evidence/store-captures/run-20261101-213438/en-US/06-voice.png",
+      "capture_sha256": "317b0652d49c083e53b7e8fd2e12c194d7bc66c6f4d26107af2c7186090c012d",
       "export": "assets/screenshots/localized/en-US/06-voice.png",
-      "export_sha256": "66f5888a863cfd96945f086797b10030c77976bda54b1ee6d583a0845909c8d2",
+      "export_sha256": "f7adf06cf10af9880b412f20abd679d7416e6d168b4d0891b867f24e2c990dd2",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -656,6 +656,7 @@
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
       "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -665,8 +666,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-US",
@@ -677,10 +677,10 @@
         "Your plant records, even offline"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-US/07-offline.png",
-      "capture_sha256": "30ad622853972975f8f3afdc5664661dd34a39652362c9301433326f728a1b5b",
+      "capture": "evidence/store-captures/run-20261101-213438/en-US/07-offline.png",
+      "capture_sha256": "56dadc9c8263a93b8366dac535c521f76da9881467b2e5e81fee236369f8a2db",
       "export": "assets/screenshots/localized/en-US/07-offline.png",
-      "export_sha256": "853535068f83d1c102e75313294e42e82dfe1f8a2db8cd215984c2e2668d995f",
+      "export_sha256": "5455e506b5e125792c154957fc013e6d59547f46bf1a5432990dee40f69610d5",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -703,6 +703,7 @@
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
       "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -712,8 +713,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-US",
@@ -724,10 +724,10 @@
         "See your care take shape"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-US/08-insights.png",
-      "capture_sha256": "1ec97ac1f95568b6f73797716d1dd0d6f068a11af1307cd24911f95c4aceddd3",
+      "capture": "evidence/store-captures/run-20261101-213438/en-US/08-insights.png",
+      "capture_sha256": "b490bc426537241c8022d3a1446685b0792ac1a0f2c846bc07e6d566b87af12c",
       "export": "assets/screenshots/localized/en-US/08-insights.png",
-      "export_sha256": "146bff0511f831c85526ab20ed77f00beb190c23bc812959cb2e4816298c6908",
+      "export_sha256": "3ff00a7069cbe7fb34f15e65699d117d1751100fca3e48f14782164e0085111f",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -750,6 +750,7 @@
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
       "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -759,8 +760,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-AU",
@@ -771,10 +771,10 @@
         "Your plants, beautifully organised"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-AU/01-hero.png",
-      "capture_sha256": "4b6a4a47e15d0fe7397c8f5bc06582438af6db0278bcf683a95b508480ab7c0c",
+      "capture": "evidence/store-captures/run-20261101-213438/en-AU/01-hero.png",
+      "capture_sha256": "13517503931865b61a1119bfcb3955f461ce8ad72b6225b58d183509e0fcb282",
       "export": "assets/screenshots/localized/en-AU/01-hero.png",
-      "export_sha256": "ed7de64129e52f5bccd7f7b28ccf3839ea686cf0d2e3654aea1f72f47f88f8bc",
+      "export_sha256": "bd90e73dcfdd72605a919a2f15d12830f347bcccc52aea3600f729e2b2e5324f",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -797,6 +797,7 @@
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
       "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -806,8 +807,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-AU",
@@ -818,10 +818,10 @@
         "Build a calmer care routine"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-AU/02-watering.png",
-      "capture_sha256": "49024165fc272b7df1a5d3b3b10c9b5bdc49a6d6a3425e799c3ba2f99467ce68",
+      "capture": "evidence/store-captures/run-20261101-213438/en-AU/02-watering.png",
+      "capture_sha256": "5276e05fd48217ac1eebbcb5e3fe3ec761948393dcee76c829587d5cc8ef8560",
       "export": "assets/screenshots/localized/en-AU/02-watering.png",
-      "export_sha256": "1115662c6c0354152243adb340a767a7cb3748ee3ed6c8a2fb9542cf2fa9f017",
+      "export_sha256": "3a95194bc32cb6da79b00bb4ebab02485cdf73bd21328933396c5d2d97c01d69",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -844,6 +844,7 @@
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
       "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -853,8 +854,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-AU",
@@ -865,10 +865,10 @@
         "Give every plant a place"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-AU/03-library.png",
-      "capture_sha256": "d232f4952762976b465084db11eb491f99930dbb21965f6dc180071431770c86",
+      "capture": "evidence/store-captures/run-20261101-213438/en-AU/03-library.png",
+      "capture_sha256": "c20010756cf1248166946e1281f8d7097ba4e4da7241620b5ba02047730c2936",
       "export": "assets/screenshots/localized/en-AU/03-library.png",
-      "export_sha256": "ffe2100a6cfe8efc85e3b8f048378180ef5f0060c720eb655efdceffe87e3282",
+      "export_sha256": "4cd6a994766eaebdcd99de4079ddab43951bcc907b711477b252a1bd60abaef6",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -891,6 +891,7 @@
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
       "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -900,8 +901,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-AU",
@@ -912,10 +912,10 @@
         "See the care ahead"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-AU/04-calendar.png",
-      "capture_sha256": "a0c07f5f37e043d49e854c592b77b763ddc4c18d42d2334e2c46dde2c1f44270",
+      "capture": "evidence/store-captures/run-20261101-213438/en-AU/04-calendar.png",
+      "capture_sha256": "5957a8252b4cd8635b220ea916e8f59cf58d0d72ae3245a5b573289845040dcc",
       "export": "assets/screenshots/localized/en-AU/04-calendar.png",
-      "export_sha256": "e2d925a12bb5279ff465fcf23648235dd8730d97685bf235458fa46b4392ddee",
+      "export_sha256": "cc6f8a723fdd4be218ed4a3c985aa92e7fec49ae3afdf9815b61e5608e8c0458",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -938,6 +938,7 @@
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
       "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -947,8 +948,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-AU",
@@ -959,10 +959,10 @@
         "Keep a journal of new growth"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-AU/05-growth.png",
-      "capture_sha256": "9c39c20a29140818f17294143eb63795d2e326d4e815ca35f0544b46b84f7640",
+      "capture": "evidence/store-captures/run-20261101-213438/en-AU/05-growth.png",
+      "capture_sha256": "34378e8ae523164dbcc932733b17b2a02b713627b4eb0a76eb3896cd4ca98060",
       "export": "assets/screenshots/localized/en-AU/05-growth.png",
-      "export_sha256": "2a05655e6f8f2806c756c75fe42a18c002e1509741c28d35e8d9f7a94ba13e58",
+      "export_sha256": "6f575cdb6e66483ae6b1807ed876de807e06dc0943ef9d47084131c6dc49dc6a",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -985,6 +985,7 @@
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
       "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -994,8 +995,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-AU",
@@ -1006,10 +1006,10 @@
         "Type a command. Keep caring."
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-AU/06-voice.png",
-      "capture_sha256": "bfdcbd349e75d031431eca28b60815c100ff3eb0f34d330f9f94c6e73e82a42e",
+      "capture": "evidence/store-captures/run-20261101-213438/en-AU/06-voice.png",
+      "capture_sha256": "317b0652d49c083e53b7e8fd2e12c194d7bc66c6f4d26107af2c7186090c012d",
       "export": "assets/screenshots/localized/en-AU/06-voice.png",
-      "export_sha256": "66f5888a863cfd96945f086797b10030c77976bda54b1ee6d583a0845909c8d2",
+      "export_sha256": "f7adf06cf10af9880b412f20abd679d7416e6d168b4d0891b867f24e2c990dd2",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1032,6 +1032,7 @@
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
       "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1041,8 +1042,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-AU",
@@ -1053,10 +1053,10 @@
         "Your plant records, even offline"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-AU/07-offline.png",
-      "capture_sha256": "e0fec0c40807897cc847f79660df0e4ae1695564a62da667bfa9ae1495cd1c87",
+      "capture": "evidence/store-captures/run-20261101-213438/en-AU/07-offline.png",
+      "capture_sha256": "6ec15d3e81cacfff9ba8fea08896e22a7e0e895ed130b9f265bc88bf10092851",
       "export": "assets/screenshots/localized/en-AU/07-offline.png",
-      "export_sha256": "5ca092004355d71c439cb54c18b514e93622ec542ddb18112c7bd17bc9a99a77",
+      "export_sha256": "d74e8fe55353a311bf94c3c7a29ae55f3098584ad8d89a83082c136815032291",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1079,6 +1079,7 @@
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
       "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1088,8 +1089,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-AU",
@@ -1100,10 +1100,10 @@
         "See your care take shape"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-AU/08-insights.png",
-      "capture_sha256": "4a55b54e558253a4dccd36d1083a2797fd015e5351717aba0387e22f1a3ec934",
+      "capture": "evidence/store-captures/run-20261101-213438/en-AU/08-insights.png",
+      "capture_sha256": "e703c32e6f830169d5fa00e3c5d8ff7cf69469582bbb91b4388b08ef092c55c7",
       "export": "assets/screenshots/localized/en-AU/08-insights.png",
-      "export_sha256": "1d53fe3c1c3c63f6dd5a8310629baf599f8a3fd95e7929fe9ea744244f736392",
+      "export_sha256": "f14053e77ed072a0545b4aca6b58216cc5169728222aa494020d8aca4db08bda",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1126,6 +1126,7 @@
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
       "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1135,8 +1136,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-IN",
@@ -1147,10 +1147,10 @@
         "Your plants, beautifully organised"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-GB/01-hero.png",
-      "capture_sha256": "d2e9ef662a6f39c2a1025c93c91b64c4a860100e4928f629c37d3811686dd538",
+      "capture": "evidence/store-captures/run-20261101-213438/en-GB/01-hero.png",
+      "capture_sha256": "3578853a90e5a9cf6e202afb648999e48f03e6dc44ead95f34c646c75917c852",
       "export": "assets/screenshots/localized/en-IN/01-hero.png",
-      "export_sha256": "cb903bb38e60207477f11d1a320e232e5108279f460c2f5ab0930a5b5f1ab950",
+      "export_sha256": "a8d476ac4fbe258ddd5a4c683b5c5e8250b2991c062970087149f194271a871c",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1173,6 +1173,7 @@
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
       "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1182,8 +1183,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-IN",
@@ -1194,10 +1194,10 @@
         "Build a calmer care routine"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-GB/02-watering.png",
-      "capture_sha256": "49024165fc272b7df1a5d3b3b10c9b5bdc49a6d6a3425e799c3ba2f99467ce68",
+      "capture": "evidence/store-captures/run-20261101-213438/en-GB/02-watering.png",
+      "capture_sha256": "5276e05fd48217ac1eebbcb5e3fe3ec761948393dcee76c829587d5cc8ef8560",
       "export": "assets/screenshots/localized/en-IN/02-watering.png",
-      "export_sha256": "1115662c6c0354152243adb340a767a7cb3748ee3ed6c8a2fb9542cf2fa9f017",
+      "export_sha256": "3a95194bc32cb6da79b00bb4ebab02485cdf73bd21328933396c5d2d97c01d69",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1220,6 +1220,7 @@
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
       "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1229,8 +1230,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-IN",
@@ -1241,10 +1241,10 @@
         "Give every plant a place"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-GB/03-library.png",
-      "capture_sha256": "d232f4952762976b465084db11eb491f99930dbb21965f6dc180071431770c86",
+      "capture": "evidence/store-captures/run-20261101-213438/en-GB/03-library.png",
+      "capture_sha256": "c20010756cf1248166946e1281f8d7097ba4e4da7241620b5ba02047730c2936",
       "export": "assets/screenshots/localized/en-IN/03-library.png",
-      "export_sha256": "ffe2100a6cfe8efc85e3b8f048378180ef5f0060c720eb655efdceffe87e3282",
+      "export_sha256": "4cd6a994766eaebdcd99de4079ddab43951bcc907b711477b252a1bd60abaef6",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1267,6 +1267,7 @@
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
       "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1276,8 +1277,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-IN",
@@ -1288,10 +1288,10 @@
         "See the care ahead"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-GB/04-calendar.png",
-      "capture_sha256": "a0c07f5f37e043d49e854c592b77b763ddc4c18d42d2334e2c46dde2c1f44270",
+      "capture": "evidence/store-captures/run-20261101-213438/en-GB/04-calendar.png",
+      "capture_sha256": "5957a8252b4cd8635b220ea916e8f59cf58d0d72ae3245a5b573289845040dcc",
       "export": "assets/screenshots/localized/en-IN/04-calendar.png",
-      "export_sha256": "e2d925a12bb5279ff465fcf23648235dd8730d97685bf235458fa46b4392ddee",
+      "export_sha256": "cc6f8a723fdd4be218ed4a3c985aa92e7fec49ae3afdf9815b61e5608e8c0458",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1314,6 +1314,7 @@
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
       "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1323,8 +1324,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-IN",
@@ -1335,10 +1335,10 @@
         "Keep a journal of new growth"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-GB/05-growth.png",
-      "capture_sha256": "9c39c20a29140818f17294143eb63795d2e326d4e815ca35f0544b46b84f7640",
+      "capture": "evidence/store-captures/run-20261101-213438/en-GB/05-growth.png",
+      "capture_sha256": "34378e8ae523164dbcc932733b17b2a02b713627b4eb0a76eb3896cd4ca98060",
       "export": "assets/screenshots/localized/en-IN/05-growth.png",
-      "export_sha256": "2a05655e6f8f2806c756c75fe42a18c002e1509741c28d35e8d9f7a94ba13e58",
+      "export_sha256": "6f575cdb6e66483ae6b1807ed876de807e06dc0943ef9d47084131c6dc49dc6a",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1361,6 +1361,7 @@
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
       "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1370,8 +1371,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-IN",
@@ -1382,10 +1382,10 @@
         "Type a command. Keep caring."
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-GB/06-voice.png",
-      "capture_sha256": "bfdcbd349e75d031431eca28b60815c100ff3eb0f34d330f9f94c6e73e82a42e",
+      "capture": "evidence/store-captures/run-20261101-213438/en-GB/06-voice.png",
+      "capture_sha256": "317b0652d49c083e53b7e8fd2e12c194d7bc66c6f4d26107af2c7186090c012d",
       "export": "assets/screenshots/localized/en-IN/06-voice.png",
-      "export_sha256": "66f5888a863cfd96945f086797b10030c77976bda54b1ee6d583a0845909c8d2",
+      "export_sha256": "f7adf06cf10af9880b412f20abd679d7416e6d168b4d0891b867f24e2c990dd2",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1408,6 +1408,7 @@
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
       "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1417,8 +1418,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-IN",
@@ -1429,10 +1429,10 @@
         "Your plant records, even offline"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-GB/07-offline.png",
-      "capture_sha256": "e0fec0c40807897cc847f79660df0e4ae1695564a62da667bfa9ae1495cd1c87",
+      "capture": "evidence/store-captures/run-20261101-213438/en-GB/07-offline.png",
+      "capture_sha256": "6ec15d3e81cacfff9ba8fea08896e22a7e0e895ed130b9f265bc88bf10092851",
       "export": "assets/screenshots/localized/en-IN/07-offline.png",
-      "export_sha256": "5ca092004355d71c439cb54c18b514e93622ec542ddb18112c7bd17bc9a99a77",
+      "export_sha256": "d74e8fe55353a311bf94c3c7a29ae55f3098584ad8d89a83082c136815032291",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1455,6 +1455,7 @@
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
       "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1464,8 +1465,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "en-IN",
@@ -1476,10 +1476,10 @@
         "See your care take shape"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/en-GB/08-insights.png",
-      "capture_sha256": "4a55b54e558253a4dccd36d1083a2797fd015e5351717aba0387e22f1a3ec934",
+      "capture": "evidence/store-captures/run-20261101-213438/en-GB/08-insights.png",
+      "capture_sha256": "e703c32e6f830169d5fa00e3c5d8ff7cf69469582bbb91b4388b08ef092c55c7",
       "export": "assets/screenshots/localized/en-IN/08-insights.png",
-      "export_sha256": "1d53fe3c1c3c63f6dd5a8310629baf599f8a3fd95e7929fe9ea744244f736392",
+      "export_sha256": "f14053e77ed072a0545b4aca6b58216cc5169728222aa494020d8aca4db08bda",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1502,6 +1502,7 @@
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
       "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1511,8 +1512,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "es-ES",
@@ -1523,10 +1523,10 @@
         "Tus plantas, bien organizadas"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/es-ES/01-hero.png",
-      "capture_sha256": "d7496013268486a4e6ba28b7ac4485fa79d563e4007f2be6b49c510bcfa41d58",
+      "capture": "evidence/store-captures/run-20261101-213438/es-ES/01-hero.png",
+      "capture_sha256": "064fde2138c3fac4c90bcce252d712c41068524ff047d1c481e60c70be8b6958",
       "export": "assets/screenshots/localized/es-ES/01-hero.png",
-      "export_sha256": "daefeda71d7c20bb190875999d0e7c541162550aab49e151a8593e7de311a10c",
+      "export_sha256": "412706afcd9132ffbd107147126df995c27c88d83108d7a51b84f804aa42c463",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1549,6 +1549,7 @@
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
       "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1558,8 +1559,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "es-ES",
@@ -1570,10 +1570,10 @@
         "Cuida con más calma"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/es-ES/02-watering.png",
-      "capture_sha256": "1ac55206d92f9a7437c59e0b93eb53c8bed31a210c0652309c41a5effbba18eb",
+      "capture": "evidence/store-captures/run-20261101-213438/es-ES/02-watering.png",
+      "capture_sha256": "4994272cd1049784fdb42334511c3d77e8619c8cb20c31fdded44bc5052ac628",
       "export": "assets/screenshots/localized/es-ES/02-watering.png",
-      "export_sha256": "259017645bbcf020fb0689355e285fc489a417ad66146e648c30dbcd1dadaa30",
+      "export_sha256": "cf3973c228230f055454f710f83a79840673831ae2aa393d36f6095c425cd712",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1596,6 +1596,7 @@
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
       "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1605,8 +1606,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "es-ES",
@@ -1617,10 +1617,10 @@
         "Un lugar para cada planta"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/es-ES/03-library.png",
-      "capture_sha256": "8e21d58c2519e87dff30c666a26a349778b4bc429f21eec31ebafc183e56a36f",
+      "capture": "evidence/store-captures/run-20261101-213438/es-ES/03-library.png",
+      "capture_sha256": "f45af3a109b8aba4da0039933a761d211ddec0c151294d7e318e1752eeb68d3a",
       "export": "assets/screenshots/localized/es-ES/03-library.png",
-      "export_sha256": "967f038f9542a2ca8d142aab4fd60f5a3052666a9b84e9692eaa9de739be23bb",
+      "export_sha256": "04dd35a85e0426124797f8237401ebb480f3671ed1baa62d21dfff0f81ab6ac0",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1643,6 +1643,7 @@
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
       "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1652,8 +1653,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "es-ES",
@@ -1664,10 +1664,10 @@
         "Prepara los próximos cuidados"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/es-ES/04-calendar.png",
-      "capture_sha256": "49ea2d68b56e3a9bea939c70a5a71e7a705a5581e5eaa22608ca5292999f66c6",
+      "capture": "evidence/store-captures/run-20261101-213438/es-ES/04-calendar.png",
+      "capture_sha256": "8c7ac55f52065f2fd64503a8ed5a282fee1cd4d7670678498ca65492a4f02d8d",
       "export": "assets/screenshots/localized/es-ES/04-calendar.png",
-      "export_sha256": "e3494bec21e6cd3cc1173682c07cd5c43d39a6b81363491d02ceb0182519db6d",
+      "export_sha256": "eb60e3251b50859239f4cafb45faf3662e62afbcb92ea3eafa17e8ca8fbd14de",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1690,6 +1690,7 @@
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
       "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1699,8 +1700,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "es-ES",
@@ -1711,10 +1711,10 @@
         "Lleva un diario de crecimiento"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/es-ES/05-growth.png",
-      "capture_sha256": "c116af1b06482933fa37bede0a684b5c6f6ded53d485d9a36c074effe85082be",
+      "capture": "evidence/store-captures/run-20261101-213438/es-ES/05-growth.png",
+      "capture_sha256": "011eeb4d4804dfa40c7a6d2d7dda186edfd85dd215b9128b62122d68bea2fc87",
       "export": "assets/screenshots/localized/es-ES/05-growth.png",
-      "export_sha256": "ffd3000a81ff06311789032f8e763b136ea44f6b77878af57e8a2dd67217420b",
+      "export_sha256": "7c218bf11755f66c3609ccfdfe7d4e194d45f4db36372360971bf96a27d910d3",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1737,6 +1737,7 @@
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
       "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1746,8 +1747,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "es-ES",
@@ -1758,10 +1758,10 @@
         "Escribe una orden y sigue cuidando"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/es-ES/06-voice.png",
-      "capture_sha256": "4dbbc08496e3ec57e6476ef6b7fb15c39a52854aeca88c5b9baa3ff895aad08d",
+      "capture": "evidence/store-captures/run-20261101-213438/es-ES/06-voice.png",
+      "capture_sha256": "25f049bdd576ea746b116a803598ca14d2410a102ee963a0cf1f98094630cd25",
       "export": "assets/screenshots/localized/es-ES/06-voice.png",
-      "export_sha256": "27b941a144e285b4a6f63ed225a66370a4916dfbf3c7a560db90c09bda0afe18",
+      "export_sha256": "a445a374953923bca9ba6093a9c9f131a687412b42cdcd4a63248cc2bdec80bf",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1784,6 +1784,7 @@
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
       "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1793,8 +1794,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "es-ES",
@@ -1805,10 +1805,10 @@
         "Tus plantas, también sin conexión"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/es-ES/07-offline.png",
-      "capture_sha256": "fdb64562050c2f6f6dd6d3b1daaa33a77d9028343548bfd24028c1901685c831",
+      "capture": "evidence/store-captures/run-20261101-213438/es-ES/07-offline.png",
+      "capture_sha256": "a14dbc704eb00107788774d392d2027dbebb471e3c8c652d8a6de2b32177aa24",
       "export": "assets/screenshots/localized/es-ES/07-offline.png",
-      "export_sha256": "6064eb9d2dba857f16fe281b27b9a218be4a0fab85ec77f5cb619d90d911062b",
+      "export_sha256": "a4b5b4a6119996899d19be851abcee0b257de5bde9a72190d76911bb46d05a2b",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1831,6 +1831,7 @@
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
       "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1840,8 +1841,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "es-ES",
@@ -1852,10 +1852,10 @@
         "Consulta los cuidados que registras"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/es-ES/08-insights.png",
-      "capture_sha256": "48fb38d52e343ddaa6926e7e3400b74f357fe4dd2f1c665499549741b6680b7e",
+      "capture": "evidence/store-captures/run-20261101-213438/es-ES/08-insights.png",
+      "capture_sha256": "463425184336a575563450b66db61ea20ba67853c3e5da01539825c497ca4b5c",
       "export": "assets/screenshots/localized/es-ES/08-insights.png",
-      "export_sha256": "a6d59269730d13b864e5d4ec6afcab746548712cee0e81e459fbabeec997c8a0",
+      "export_sha256": "491ffa3ab9dcbfbaafa03e95183b4a65ad2c32d3690c42dace696b45c5a59232",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1878,6 +1878,7 @@
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
       "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1887,8 +1888,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "es-MX",
@@ -1899,10 +1899,10 @@
         "Tus plantas, bien organizadas"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/es-419/01-hero.png",
-      "capture_sha256": "c947c22f800b971d221e01c0b1b1b688aad77ce1c04741d79b5b067b7bec7564",
+      "capture": "evidence/store-captures/run-20261101-213438/es-419/01-hero.png",
+      "capture_sha256": "3511b2dc13df69048345a7d3401a80d8a0fb83c8021407cfb2acc8fb8ad91393",
       "export": "assets/screenshots/localized/es-MX/01-hero.png",
-      "export_sha256": "a996775ac5729c20d07ac877c7c31e2038bc28bc226ded05341602b87298b3c8",
+      "export_sha256": "601471436948053fcf55d27fd7ee7b2430e5dc1940bc71735c54efa32cb23dc7",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1925,6 +1925,7 @@
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
       "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1934,8 +1935,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "es-MX",
@@ -1946,10 +1946,10 @@
         "Cuida con más calma"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/es-419/02-watering.png",
-      "capture_sha256": "430f531d67f8f2ab171d61b6c3b2196810f6da91ffc490c2a78dfa76cb639927",
+      "capture": "evidence/store-captures/run-20261101-213438/es-419/02-watering.png",
+      "capture_sha256": "d9dbeb3d5001a907e59beaee314fcafc1d7fb1ec274bc43a1de026ed9ab19876",
       "export": "assets/screenshots/localized/es-MX/02-watering.png",
-      "export_sha256": "af88b84e5db6373139f2916eef944b74fcbcc7ad4b13b75310bb8b0d15671c68",
+      "export_sha256": "e45ed6595a82d2a769f15498a0bbb876791eee011b0b794f7574aa3bcf953f45",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -1972,6 +1972,7 @@
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
       "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -1981,8 +1982,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "es-MX",
@@ -1993,10 +1993,10 @@
         "Un lugar para cada planta"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/es-419/03-library.png",
-      "capture_sha256": "fd7f7c111c4706949824591ec7f248b3e4972e8f29f8f4e8892b64018a36ff9d",
+      "capture": "evidence/store-captures/run-20261101-213438/es-419/03-library.png",
+      "capture_sha256": "55ad6ebabde479477e534eabd41223df7813bd244174773cf2955585fe76497c",
       "export": "assets/screenshots/localized/es-MX/03-library.png",
-      "export_sha256": "3738c56415a738ffbf605a42c9b86b1ca6fdc1df5fc5475ce77ef97a81bde571",
+      "export_sha256": "4abfda761474c01ecfd71efadc8ad74cce37764d3638df3dbefbab1a5da03ef3",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2019,6 +2019,7 @@
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
       "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2028,8 +2029,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "es-MX",
@@ -2040,10 +2040,10 @@
         "Planea los próximos cuidados"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/es-419/04-calendar.png",
-      "capture_sha256": "9b854c22735024c7685a4cfd810aeb79ccb90f816818011baaf320a3608b7ee1",
+      "capture": "evidence/store-captures/run-20261101-213438/es-419/04-calendar.png",
+      "capture_sha256": "82f0b99709496b6834db92c4d03152f923dac310fac80bf5f385c52a88097b2c",
       "export": "assets/screenshots/localized/es-MX/04-calendar.png",
-      "export_sha256": "0168cc6bc4805f42fa18cbdadb65ebea0ee8d0a787e59f88f1dd66fddb3f6441",
+      "export_sha256": "ac5caf6ed03af6e8014b3e0598aa7ef42c5ea9ed95a0c8f28ac5d91277395b42",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2066,6 +2066,7 @@
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
       "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2075,8 +2076,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "es-MX",
@@ -2087,10 +2087,10 @@
         "Lleva una bitácora de crecimiento"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/es-419/05-growth.png",
-      "capture_sha256": "c5a0d4875b3e8feff96942b066613d2bcbfe731d03e0aea19f8832a49fd68a59",
+      "capture": "evidence/store-captures/run-20261101-213438/es-419/05-growth.png",
+      "capture_sha256": "7125b1d15047505f239dcfb18ddd63b2bf715a1f864e98071a7264ae76e53604",
       "export": "assets/screenshots/localized/es-MX/05-growth.png",
-      "export_sha256": "d7784b8768e51a1436e8f9326d93b6378819e87b858024e98c166695695b8726",
+      "export_sha256": "86e6a45aae776dbf10c8fc4c7f358d4c01ac8638f3d651183e5621c2e7426304",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2113,6 +2113,7 @@
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
       "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2122,8 +2123,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "es-MX",
@@ -2134,10 +2134,10 @@
         "Escribe un comando y sigue cuidando"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/es-419/06-voice.png",
-      "capture_sha256": "7d86ea0082bbe4a6461db78170ac9aa5232e7551b6e113c2f7bce2937368828c",
+      "capture": "evidence/store-captures/run-20261101-213438/es-419/06-voice.png",
+      "capture_sha256": "ffcc8b4c7af1eb49d1fd2c85b1811f0b14c271d057eee36c8a182d4b5e9939c5",
       "export": "assets/screenshots/localized/es-MX/06-voice.png",
-      "export_sha256": "5af5d268294340c729f9049bac4b70f345d7a2d906231b004fdb9b5b9d8f7295",
+      "export_sha256": "fe3a54311fd45a80818a467c57e281bababdb294bfb0dc3c6a82aab9d8bf5017",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2160,6 +2160,7 @@
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
       "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2169,8 +2170,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "es-MX",
@@ -2181,10 +2181,10 @@
         "Tus plantas, también sin conexión"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/es-419/07-offline.png",
-      "capture_sha256": "a562a49eb8df9a5df3858630f4eadfea37c8c25f81dfa0d23f00b4f551b68875",
+      "capture": "evidence/store-captures/run-20261101-213438/es-419/07-offline.png",
+      "capture_sha256": "db08af1cc7feb39ac72c68395b09d8d3266b6cd3650730a6809b79bcc5c3df85",
       "export": "assets/screenshots/localized/es-MX/07-offline.png",
-      "export_sha256": "21f28ab813b4d96b9218f645d9001e5d11b9d55011e33a78ae0d55074fd2e5e9",
+      "export_sha256": "7dc8f3e3c46c4f5aa532732c5e28087b23e241385002af96f41389f0dfd0b10e",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2207,6 +2207,7 @@
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
       "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2216,8 +2217,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "es-MX",
@@ -2228,10 +2228,10 @@
         "Consulta los cuidados que registras"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/es-419/08-insights.png",
-      "capture_sha256": "08c1c91cb281fd5d7d9d64f6b164d393a6f8401774fbd0584375ea0983bd83a5",
+      "capture": "evidence/store-captures/run-20261101-213438/es-419/08-insights.png",
+      "capture_sha256": "358a9cdcd1bda8fea09b90ea9bab2d9805e8227bb927233b2936f42d18b9bc4e",
       "export": "assets/screenshots/localized/es-MX/08-insights.png",
-      "export_sha256": "9e1b4a25cc79157ad2837238ce159860b8f83e080c95717e30b05e956214d6a9",
+      "export_sha256": "2e0f0884cafdf11d0a7516d780cb04a85f3eb35f5e3e1eaa2f80c8083e5bc68a",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2254,6 +2254,7 @@
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
       "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2263,8 +2264,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "fr-FR",
@@ -2275,10 +2275,10 @@
         "Vos plantes, bien organisées"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/fr-FR/01-hero.png",
-      "capture_sha256": "92c028c5dd4ab3999c8995f094c9b14a679d9248c19932798f3984b9d11e3168",
+      "capture": "evidence/store-captures/run-20261101-213438/fr-FR/01-hero.png",
+      "capture_sha256": "c002f4f167d2297ac435de3b6776eb4935341936b6511a47fdc643d1fb996972",
       "export": "assets/screenshots/localized/fr-FR/01-hero.png",
-      "export_sha256": "89da29594acb7c8a9f6285fc9c6a46be2350e6283416a6b8ade3eca9afeaa873",
+      "export_sha256": "2d9269bfec677279db58337a5663797ef05485599089968e457b2ce670e737d8",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2301,6 +2301,7 @@
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
       "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2310,8 +2311,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "fr-FR",
@@ -2322,10 +2322,10 @@
         "Une routine de soins plus sereine"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/fr-FR/02-watering.png",
-      "capture_sha256": "53b5897e5a04c24010a576496b614b4e301057e8294b8ab1e44215dddf914907",
+      "capture": "evidence/store-captures/run-20261101-213438/fr-FR/02-watering.png",
+      "capture_sha256": "89df1f8e752e398a55b9c287d6d82d6894171ba53598c21f8c24f69189ebcd76",
       "export": "assets/screenshots/localized/fr-FR/02-watering.png",
-      "export_sha256": "0951517329c98b12ac4917f99e81bdd40c91f43ecd061031a2fec2bd1ef300c4",
+      "export_sha256": "17b045e61a4b55008efcd2c2634b6cdba0c4416e14db1ae7a247b56fba0e5774",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2348,6 +2348,7 @@
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
       "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2357,8 +2358,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "fr-FR",
@@ -2369,10 +2369,10 @@
         "Une place pour chaque plante"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/fr-FR/03-library.png",
-      "capture_sha256": "35aa956c31f7f6cf8673b7108fddff21655f6a06db2ed0ffa6a11de593f47721",
+      "capture": "evidence/store-captures/run-20261101-213438/fr-FR/03-library.png",
+      "capture_sha256": "552943b60fa2edd9a3f165bc27fcc19232fbfed270c392325cd2ce4386c2b441",
       "export": "assets/screenshots/localized/fr-FR/03-library.png",
-      "export_sha256": "c0995a15fa86d44c1540a4fa5ba27197586f26757618d4b99dade69c9d9271c8",
+      "export_sha256": "46163dbd020930a9b12d0e28034948ebc26fc9c8f339732025d5f9534a6ec2db",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2395,6 +2395,7 @@
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
       "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2404,8 +2405,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "fr-FR",
@@ -2416,10 +2416,10 @@
         "Anticipez les prochains soins"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/fr-FR/04-calendar.png",
-      "capture_sha256": "94bd83577962b6acf0fa1c53d817a724049f8721a2f78c294754c43330c14fa8",
+      "capture": "evidence/store-captures/run-20261101-213438/fr-FR/04-calendar.png",
+      "capture_sha256": "6d285fe81086f65e77aeed9ff3646c3da2e0e6af7cbc9a86c7135ba7b9e61a0e",
       "export": "assets/screenshots/localized/fr-FR/04-calendar.png",
-      "export_sha256": "548732b2ef5c0311bef0336c03fda4491e5fb88c64d9b277bd000cfe187f43d7",
+      "export_sha256": "f85b32d753838075abe1e138743ab0754168c30a3be55f2977bcc2eb2e0382ec",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2442,6 +2442,7 @@
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
       "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2451,8 +2452,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "fr-FR",
@@ -2463,10 +2463,10 @@
         "Gardez une trace de la croissance"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/fr-FR/05-growth.png",
-      "capture_sha256": "8125315568842e79585573ba4411c7d72b8dcf4a96628af8b4f085fac474ec6c",
+      "capture": "evidence/store-captures/run-20261101-213438/fr-FR/05-growth.png",
+      "capture_sha256": "db98e2ba10439d089511bba132450c17e334ff91b87e261827e8d51e4e29ea18",
       "export": "assets/screenshots/localized/fr-FR/05-growth.png",
-      "export_sha256": "37b3c17c8abe1fe3a8b95c4cc28fb52f94c11fe69818a65ef994ebe2e011df41",
+      "export_sha256": "60a03c321b037f03713fa6ef6852ec3e4e13aa1b1acb3c74ca2133a3910194f5",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2489,6 +2489,7 @@
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
       "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2498,8 +2499,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "fr-FR",
@@ -2510,10 +2510,10 @@
         "Saisissez une commande, tout simplement"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/fr-FR/06-voice.png",
-      "capture_sha256": "1663f3b3b6ffcc7f49b1779c814f64f4cdc11e97f8aa2e3fa4c15e0e983ffbf4",
+      "capture": "evidence/store-captures/run-20261101-213438/fr-FR/06-voice.png",
+      "capture_sha256": "d200afe6488276c504ba6b3db2040f801d4036bb5b64f0623a113b8e0a5a9cc2",
       "export": "assets/screenshots/localized/fr-FR/06-voice.png",
-      "export_sha256": "2f7b8fc6ea7577bb69024533a31007380375a1e96d17d87d3eaec63793e5b631",
+      "export_sha256": "f906fdb6bcfe2d45eb8cca1f39eda3280629e542c1322ce469dea5ed4f82e880",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2536,6 +2536,7 @@
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
       "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2545,8 +2546,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "fr-FR",
@@ -2557,10 +2557,10 @@
         "Vos plantes, même hors connexion"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/fr-FR/07-offline.png",
-      "capture_sha256": "71b0a715537cfef01aa5b31fcd72893eee83f5989f98d5bf52ffe52942a35479",
+      "capture": "evidence/store-captures/run-20261101-213438/fr-FR/07-offline.png",
+      "capture_sha256": "ca0d548804adbb79305e5552f592326a58fd4199f7df98fd1e1a004202b474b9",
       "export": "assets/screenshots/localized/fr-FR/07-offline.png",
-      "export_sha256": "1c7d5e178e81bea117311ad229986e5ac8406a99665c8166beb4cd17e58911ac",
+      "export_sha256": "9af79c9221aae94dd724aa83380ddfbfc2e33e9a8c13b2401108c1ac4c106619",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2583,6 +2583,7 @@
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
       "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2592,8 +2593,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "fr-FR",
@@ -2604,10 +2604,10 @@
         "Retrouvez les soins enregistrés"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/fr-FR/08-insights.png",
-      "capture_sha256": "4b4f26e7ef2e1d34b7130a3e8dd594e35128ec0682c5eaa37c7b3d9d6cb84ac8",
+      "capture": "evidence/store-captures/run-20261101-213438/fr-FR/08-insights.png",
+      "capture_sha256": "6af7bc5b60c3a453b51fb79b8848c6496c8cdb69909d9ee5c34240ab1a0a46aa",
       "export": "assets/screenshots/localized/fr-FR/08-insights.png",
-      "export_sha256": "56a66c1dcaaa3a2f726f73b0894f0444ea35c9e0282ee11032907ab3adb7cf70",
+      "export_sha256": "a1c0eb474d05095c6297cfceaab83cbb529a27fa566f61816ae1d25d1dfade99",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2630,6 +2630,7 @@
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
       "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2639,8 +2640,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "de-DE",
@@ -2651,10 +2651,10 @@
         "Deine Pflanzen, schön geordnet"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/de-DE/01-hero.png",
-      "capture_sha256": "92ae0329fab6906d58bc909c1069ced4c7e1ce7223298fd79fb9069621f9aad6",
+      "capture": "evidence/store-captures/run-20261101-213438/de-DE/01-hero.png",
+      "capture_sha256": "c54da98e2789297e2d21139d0072a5791d1efb4130dd8c4d6b58e4fce1b1686c",
       "export": "assets/screenshots/localized/de-DE/01-hero.png",
-      "export_sha256": "31b04e270d878b18623e5a70c1527d2b14e620f541abfdbd22f2a58b3126e2b5",
+      "export_sha256": "96d4ce820b7eb2d167912a30c0daf2906826172e739b22e8357284c35d437526",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2677,6 +2677,7 @@
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
       "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2686,8 +2687,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "de-DE",
@@ -2698,10 +2698,10 @@
         "Mehr Ruhe bei der Pflanzenpflege"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/de-DE/02-watering.png",
-      "capture_sha256": "d9ec0a679fb3928499996c47426cada3de9546759dc179101fbd44fa5ea8c5d2",
+      "capture": "evidence/store-captures/run-20261101-213438/de-DE/02-watering.png",
+      "capture_sha256": "6e493ff3c7b243524817fb30ff57d15d171ee4c3e4df1d05a134f03eebcbdbe0",
       "export": "assets/screenshots/localized/de-DE/02-watering.png",
-      "export_sha256": "a77d98289187fdfc8600fa224b212dcb1668c088ca9ca2703bc0c0d73c5a0af8",
+      "export_sha256": "72ee829fe3113389b38185213d36f07f9ce7f7510b0f84567038e417aeb956fb",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2731,6 +2731,7 @@
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
       "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2740,8 +2741,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "de-DE",
@@ -2752,10 +2752,10 @@
         "Ein Platz für jede Pflanze"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/de-DE/03-library.png",
-      "capture_sha256": "0055ab6483187f60b8fad004b270136e9d619bc3cad134072a6fc1b4af32f154",
+      "capture": "evidence/store-captures/run-20261101-213438/de-DE/03-library.png",
+      "capture_sha256": "70f7f36030bcaba6d7832c576dad6220d6822e6bbf141143abca82f0d4267c2c",
       "export": "assets/screenshots/localized/de-DE/03-library.png",
-      "export_sha256": "bc0ca76479340dcbf9e535ec42488fb0a50c487b9daa3d99148ec947781c4828",
+      "export_sha256": "22bcb16d345812234508cef188e934b1369fbcfa09fe6d03010556d26272069c",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2778,6 +2778,7 @@
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
       "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2787,8 +2788,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "de-DE",
@@ -2799,10 +2799,10 @@
         "Die nächste Pflege im Blick"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/de-DE/04-calendar.png",
-      "capture_sha256": "5cda1ef69416f6a66e54d1e1e7b30176edfd8a89604563e849de17c3bf3941dc",
+      "capture": "evidence/store-captures/run-20261101-213438/de-DE/04-calendar.png",
+      "capture_sha256": "91650e0ce271532da8f1e3864ac2c5367d822fab04dc4411b4ee8d79c7692d82",
       "export": "assets/screenshots/localized/de-DE/04-calendar.png",
-      "export_sha256": "ff2ffeac943831b5f014fd782c53de51ee62fc83882464960482f0d538e2f5c5",
+      "export_sha256": "c39516259d973c95cefb4846a5c3090f39092b143fe107feb0a3d7544cd35a3b",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2825,6 +2825,7 @@
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
       "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2834,8 +2835,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "de-DE",
@@ -2846,10 +2846,10 @@
         "Halte neues Wachstum fest"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/de-DE/05-growth.png",
-      "capture_sha256": "110556bc43c5fe08eb6877e5ca4c514eaf61316f36a6f51642741cecc2ffd6ec",
+      "capture": "evidence/store-captures/run-20261101-213438/de-DE/05-growth.png",
+      "capture_sha256": "4aacf2a6cae8874439717219712e3a19f3c60e809cfc45bd457279c548a17953",
       "export": "assets/screenshots/localized/de-DE/05-growth.png",
-      "export_sha256": "c6965725a5a8308f815db8e9679282faa685b57aa10d2156110d8a9d1a3a47e9",
+      "export_sha256": "2218c8f7d5fb1ec09b9ba37d895e231fada301615e579daa7a17c705334002d7",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2872,6 +2872,7 @@
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
       "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2881,8 +2882,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "de-DE",
@@ -2893,10 +2893,10 @@
         "Befehl eingeben. Pflanzen pflegen."
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/de-DE/06-voice.png",
-      "capture_sha256": "6f0b96575fd06f6845832cdea80dae8fb6049b51fc2ca1a66e075ffad1cc48df",
+      "capture": "evidence/store-captures/run-20261101-213438/de-DE/06-voice.png",
+      "capture_sha256": "23d8773c961cc67e03726ffe1bb0957cde9a72d1a37207f86d552250cecbdaf3",
       "export": "assets/screenshots/localized/de-DE/06-voice.png",
-      "export_sha256": "124edc89f19d74150d90af0db5100db701fed3519af5fa2a1619abcfa35cdeef",
+      "export_sha256": "0234b5e1f239c7498abc7cf5c281c1aa4f18170657417c8ec6f7a0d3005ee74e",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2919,6 +2919,7 @@
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
       "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2928,8 +2929,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "de-DE",
@@ -2940,10 +2940,10 @@
         "Deine Pflanzendaten, auch offline"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/de-DE/07-offline.png",
-      "capture_sha256": "ad4413b6dbd59e9b7e9364fc2f0c71c9b5132e6269210faf27e2b60285955e65",
+      "capture": "evidence/store-captures/run-20261101-213438/de-DE/07-offline.png",
+      "capture_sha256": "cc5e2764f39fc6bed56e946648b95fcbdb6dc433910cf11008815381bb4f3740",
       "export": "assets/screenshots/localized/de-DE/07-offline.png",
-      "export_sha256": "4231d7bba5c86d6de336061fc4767727f2677f81daa0cff192f9e49a213fc707",
+      "export_sha256": "50d2d4b83a8285e22029aad37b4a86fd09ac6568a6669d9a1e795f8dbdea4727",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -2966,6 +2966,7 @@
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
       "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -2975,8 +2976,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "de-DE",
@@ -2987,10 +2987,10 @@
         "Deine dokumentierte Pflege im Blick"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/de-DE/08-insights.png",
-      "capture_sha256": "4a3b36b73616b613b15845728b7f9cd6b3050fb21e19c2f1834a778df0e63014",
+      "capture": "evidence/store-captures/run-20261101-213438/de-DE/08-insights.png",
+      "capture_sha256": "79dd97c7c4c5cf40bfa4df5efa34d7055257b05805a5144c6922bc4e28383ca9",
       "export": "assets/screenshots/localized/de-DE/08-insights.png",
-      "export_sha256": "2fd9ae9a64ba71fa3bf451d2326736618f4a272e86786456cee6ebf376064188",
+      "export_sha256": "782556542da4bbbcf33689554825f098772b5119144389fd4fb1318501de35f2",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3013,6 +3013,7 @@
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
       "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3022,8 +3023,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "it-IT",
@@ -3034,10 +3034,10 @@
         "Le tue piante, ben organizzate"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/it-IT/01-hero.png",
-      "capture_sha256": "16c3eb16f1d3d43bbaf252c874f20889d0ef4d98b80e1a7b327d097ef4f152cb",
+      "capture": "evidence/store-captures/run-20261101-213438/it-IT/01-hero.png",
+      "capture_sha256": "dbfcdbaaffee71795a1d63fac06689d419dd8de0f586c182df3dee1b2ca0fb25",
       "export": "assets/screenshots/localized/it-IT/01-hero.png",
-      "export_sha256": "ee4d71efa0d16a10cf5e20f527794e848b7ec66653407430be8af8dfef119915",
+      "export_sha256": "619ca23b09676d14971c0cefa8e231fc9be8a3546dc17f1f8be86359c2624947",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3060,6 +3060,7 @@
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
       "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3069,8 +3070,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "it-IT",
@@ -3081,10 +3081,10 @@
         "Una cura più serena, ogni giorno"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/it-IT/02-watering.png",
-      "capture_sha256": "8bb437bf9847d7dee869c9fb4f57bf1375138a854b7a684ae6bd924454bb79cd",
+      "capture": "evidence/store-captures/run-20261101-213438/it-IT/02-watering.png",
+      "capture_sha256": "341fe18c757d3028aa48c36bc0c3a2c4d4928bce1bbb330ff50e8d2fb660b4ba",
       "export": "assets/screenshots/localized/it-IT/02-watering.png",
-      "export_sha256": "0f8f3a1051d67e399eacd031867e252163a48bda8cac56f6c2ee88e1bf5bf11c",
+      "export_sha256": "be4b48af04405dca08ba868a9d6d6467da22c757c087686e4a6047be92370b80",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3107,6 +3107,7 @@
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
       "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3116,8 +3117,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "it-IT",
@@ -3128,10 +3128,10 @@
         "Un posto per ogni pianta"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/it-IT/03-library.png",
-      "capture_sha256": "c08679bea7c51cdab201fc6663a95c31ce78e6ed2e5c10dfb42eace29ab8f6c4",
+      "capture": "evidence/store-captures/run-20261101-213438/it-IT/03-library.png",
+      "capture_sha256": "02890dce8a5e43f072591adb9caf753c5d77a1a7e972d44c39595002290c9618",
       "export": "assets/screenshots/localized/it-IT/03-library.png",
-      "export_sha256": "ceed9f957135ba07a87fb1d15d57f69939a0972f7a65e6661a3bb17d5a6b4316",
+      "export_sha256": "c59d9ad3cd57af895f5ca145f4a4ebbe8ff0c5840820edef5b7f714b96d87b1c",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3154,6 +3154,7 @@
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
       "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3163,8 +3164,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "it-IT",
@@ -3175,10 +3175,10 @@
         "Organizza le prossime cure"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/it-IT/04-calendar.png",
-      "capture_sha256": "561734d3d9b0ff926b73946b356e56f568d129e7deff689dd7ecec81cfc11ab1",
+      "capture": "evidence/store-captures/run-20261101-213438/it-IT/04-calendar.png",
+      "capture_sha256": "6cb41ee96f71ddc19c6d82c64e31aaa1fe0e77054ffa0f9c650c43b87ca81011",
       "export": "assets/screenshots/localized/it-IT/04-calendar.png",
-      "export_sha256": "1ff8b06c6458722887bd1cab4a63a6abe670db018125fd901c9fa4b3fea673a9",
+      "export_sha256": "87765f0bb9244302cc99c52947d3beefd2f2b86350df81d8f8a64ebc906b4a59",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3201,6 +3201,7 @@
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
       "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3210,8 +3211,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "it-IT",
@@ -3222,10 +3222,10 @@
         "Tieni un diario della crescita"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/it-IT/05-growth.png",
-      "capture_sha256": "1a73c418902ba3473710dc956c15a820667486abfed94cc8f5748659f4896bc0",
+      "capture": "evidence/store-captures/run-20261101-213438/it-IT/05-growth.png",
+      "capture_sha256": "06856ce2f0ac52dab56dc2f5482158f04b5d85bbc9ba47b16a0a3bf9d8b05466",
       "export": "assets/screenshots/localized/it-IT/05-growth.png",
-      "export_sha256": "3a73c1918351ba33de336d3747aac4e68dfc84f83706a764e9ad5b8862352053",
+      "export_sha256": "abde53032162e71fe1d1fd5165b4ec6e2be4d5209ae24a8504828358586bafe8",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3248,6 +3248,7 @@
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
       "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3257,8 +3258,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "it-IT",
@@ -3269,10 +3269,10 @@
         "Scrivi un comando e continua a curare"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/it-IT/06-voice.png",
-      "capture_sha256": "470ae0101e85e02c48d7fd90745634b512b2c2ee096810a432c964d86bc22772",
+      "capture": "evidence/store-captures/run-20261101-213438/it-IT/06-voice.png",
+      "capture_sha256": "ac4c4d087c303152c2ebed4a79e62fe0ec29ca837eca3647662ab8b5a62a0f17",
       "export": "assets/screenshots/localized/it-IT/06-voice.png",
-      "export_sha256": "e06feb5e6d094b2b95b70eb1b8529cc5f4e571298fc36287cdb9f3443b266b3b",
+      "export_sha256": "0cb551ae6c3d03d0ab74c5d40d445c34e43087e4bce4ca6f8455ad91a1df0dd6",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3295,6 +3295,7 @@
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
       "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3304,8 +3305,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "it-IT",
@@ -3316,10 +3316,10 @@
         "Le tue piante, anche senza rete"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/it-IT/07-offline.png",
-      "capture_sha256": "09fcea97d6d72aa140e5b9fdfd85859fc112b6030c15cd8c5fb36d440fdba599",
+      "capture": "evidence/store-captures/run-20261101-213438/it-IT/07-offline.png",
+      "capture_sha256": "92af64c94a7f9e02ad42d2609dd53d0f3a63519d8540818367759f16082661f0",
       "export": "assets/screenshots/localized/it-IT/07-offline.png",
-      "export_sha256": "de0a8c8c6fabcbfbb18315965b70203458d859098ce90b635add21aa00c0db07",
+      "export_sha256": "a3eb5678a27226fdba7f9e6a37b6e01447a21f8e0c3831b7427e718ff9dd8b7d",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3342,6 +3342,7 @@
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
       "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3351,8 +3352,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "it-IT",
@@ -3363,10 +3363,10 @@
         "Ritrova le cure che hai registrato"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/it-IT/08-insights.png",
-      "capture_sha256": "36e486dfb4da973cdf33836cc4ef860b89658c3d6befecda5b27a5eac41d7a67",
+      "capture": "evidence/store-captures/run-20261101-213438/it-IT/08-insights.png",
+      "capture_sha256": "a537b424f5cd51bd466cd75f09fd01177733299d26ff5a58d91a2a673a75a393",
       "export": "assets/screenshots/localized/it-IT/08-insights.png",
-      "export_sha256": "88c50ecde1bba000d71614e0e23cb7496ae1c66925a3ed96cb05a201160999a6",
+      "export_sha256": "0061193380e089927910bb5bb49687b2f6562c2df69ac01b8729f6163f6b3486",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3389,6 +3389,7 @@
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
       "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3398,8 +3399,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "ja-JP",
@@ -3410,10 +3410,10 @@
         "植物をすっきり、ひとまとめに"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/ja-JP/01-hero.png",
-      "capture_sha256": "9b6a2ea68fb3cec81511a3434e37925de3f25dfd780d3c1a3aeedf77bd95fb46",
+      "capture": "evidence/store-captures/run-20261101-213438/ja-JP/01-hero.png",
+      "capture_sha256": "564034c05f685b0ab63c92866121b3e104f2a6d6f0f779b9d1df10b68c3f3c77",
       "export": "assets/screenshots/localized/ja-JP/01-hero.png",
-      "export_sha256": "81493e3676b60504302b612e7e4dda4034be3ddcc6f5d021da7a1914543f8670",
+      "export_sha256": "fc2f93de59485f82a37ab9661a8e99d247bf100a1689f2ed021c07bcc9d95682",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3436,6 +3436,7 @@
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
       "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3445,8 +3446,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "ja-JP",
@@ -3457,10 +3457,10 @@
         "無理なく続く、お手入れ習慣"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/ja-JP/02-watering.png",
-      "capture_sha256": "7569c36f5d3ae260db1d8c17defac6eecb736572547e6a0d7e631b94074f881b",
+      "capture": "evidence/store-captures/run-20261101-213438/ja-JP/02-watering.png",
+      "capture_sha256": "ced01f600be8671da685998fdcfa422b53aaa287f6f4cf7e018fbabd0361ea83",
       "export": "assets/screenshots/localized/ja-JP/02-watering.png",
-      "export_sha256": "5c2dc3e4fae190f5ba4123388a8744691e9337cb418f4cfd87004281f36c019d",
+      "export_sha256": "ce3892b9103ef7b7435dfeba52070e7bd07b84e3fd0fefa85532fcde96512601",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3483,6 +3483,7 @@
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
       "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3492,8 +3493,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "ja-JP",
@@ -3504,10 +3504,10 @@
         "一鉢ずつ、大切に記録"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/ja-JP/03-library.png",
-      "capture_sha256": "aa4fa187b67adeaea7fea80d33d5f41346a920cd3dadf8925e6c0a22aa02dfd1",
+      "capture": "evidence/store-captures/run-20261101-213438/ja-JP/03-library.png",
+      "capture_sha256": "062287e57af3a74f5f8668fa44b4ef4e9fa9543c6396f5628ce32e9578d7d88b",
       "export": "assets/screenshots/localized/ja-JP/03-library.png",
-      "export_sha256": "177c328cd38ed47a2af31359328524c27b6869c851a3f422fbb54524f27cefbc",
+      "export_sha256": "a7121f84b00ce3cdd2628c13e5462674851728c6aacbc3225715bd736f5286df",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3530,6 +3530,7 @@
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
       "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3539,8 +3540,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "ja-JP",
@@ -3551,10 +3551,10 @@
         "これからのお手入れを確認"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/ja-JP/04-calendar.png",
-      "capture_sha256": "8833ccf1a0ea0ec1d936ce53af4e14deba0e077ad45d34de99697832077d1d27",
+      "capture": "evidence/store-captures/run-20261101-213438/ja-JP/04-calendar.png",
+      "capture_sha256": "5e22c6f2571ca8e4e856f7298746bce4d5101b0f545d7a85473e27982ebbbc45",
       "export": "assets/screenshots/localized/ja-JP/04-calendar.png",
-      "export_sha256": "0836666e7280da1f968959dd9b4cb85113f45952a73c6de858637827198444bf",
+      "export_sha256": "6243c24a44e02c197c8d221f1e0d9f14276d7bde25d70314f1bb86e193020405",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3577,6 +3577,7 @@
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
       "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3586,8 +3587,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "ja-JP",
@@ -3598,10 +3598,10 @@
         "小さな成長を日記に残す"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/ja-JP/05-growth.png",
-      "capture_sha256": "5a73c37e23b2fec919d5c84ef1f9610fcaede1ed9b992fdf36ecf2ff439c7601",
+      "capture": "evidence/store-captures/run-20261101-213438/ja-JP/05-growth.png",
+      "capture_sha256": "a64611848ac67396cf4174a15ffea84b66b6267f0aaa5d436aad01af0eb674af",
       "export": "assets/screenshots/localized/ja-JP/05-growth.png",
-      "export_sha256": "1947347a12ecd26fec0b45d26d4265b0cb56ff96dcfce6ad37720314a0872677",
+      "export_sha256": "7422fdced0435c58a2f4523df89e7b4a7d8dbea989c7405f6344b63005c1950d",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3624,6 +3624,7 @@
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
       "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3633,8 +3634,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "ja-JP",
@@ -3645,10 +3645,10 @@
         "文字のコマンドで、手軽に操作"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/ja-JP/06-voice.png",
-      "capture_sha256": "4ac6797a97c0e53bc635ab641a975c004796e515fc437569fc86285dd113912e",
+      "capture": "evidence/store-captures/run-20261101-213438/ja-JP/06-voice.png",
+      "capture_sha256": "b3a1e04655bf35bf28143a1878e2ba317e3e0eb18703422893190b1cc6704ec5",
       "export": "assets/screenshots/localized/ja-JP/06-voice.png",
-      "export_sha256": "2b84e07026ae7fd5eb80803dffc9c15d2dc9c9c1d177e3666a1a98ae06fbaeef",
+      "export_sha256": "7ef09f22c91d5f975a252e221d458c8795a13ea092e9f7041844b9ac2a264b8e",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3671,6 +3671,7 @@
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
       "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3680,8 +3681,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "ja-JP",
@@ -3692,10 +3692,10 @@
         "オフラインでも、植物の記録を"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/ja-JP/07-offline.png",
-      "capture_sha256": "4ce81ee2481add07342a33b4c5fd8b79706d92ce3104125aa0a12e432177efd9",
+      "capture": "evidence/store-captures/run-20261101-213438/ja-JP/07-offline.png",
+      "capture_sha256": "f04822a04e913a56294f01e4285cc216dca5a0013d70dc16427cabcf335d627f",
       "export": "assets/screenshots/localized/ja-JP/07-offline.png",
-      "export_sha256": "280df74cfd5f12b0521e8c86e8d1d019e82a513feb73806aa9e3901178728d97",
+      "export_sha256": "fbeb20b900c96d2eaa1640067730cf8768c00c9b0a1da9ec601c4a387d11b47a",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3718,6 +3718,7 @@
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
       "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3727,8 +3728,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "ja-JP",
@@ -3739,10 +3739,10 @@
         "記録したお手入れを振り返る"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/ja-JP/08-insights.png",
-      "capture_sha256": "3bacf4baa4f344febc7d72fbb576233aa152732df0266fae4fa3428dc838be6f",
+      "capture": "evidence/store-captures/run-20261101-213438/ja-JP/08-insights.png",
+      "capture_sha256": "b51f62d1e6057b57da271d928a74c8c608215a8a536489c76e10a25688972d81",
       "export": "assets/screenshots/localized/ja-JP/08-insights.png",
-      "export_sha256": "61652b7ba190b51e425389a1c9707c5b062aa4fd08a66f280477a75bb86970f6",
+      "export_sha256": "5a94731c97f5106b7754caabc518061753631ff80eb59f3020714bdee266a819",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3765,6 +3765,7 @@
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
       "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3774,8 +3775,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "nl-NL",
@@ -3786,10 +3786,10 @@
         "Je planten, mooi op orde"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/nl-NL/01-hero.png",
-      "capture_sha256": "089e9dd8fbf6305bd616babc11f87148d46005e01a721fe427ed96fe02059411",
+      "capture": "evidence/store-captures/run-20261101-213438/nl-NL/01-hero.png",
+      "capture_sha256": "e069fe94b0b8b6def6dc18dba3ea83c26f80cfffbc4dc418513703b8189feccd",
       "export": "assets/screenshots/localized/nl-NL/01-hero.png",
-      "export_sha256": "21f26dd2ed7047de004f0a9c2edfb3ef7a1b13d6a8c9f15df606aa2ed9304da7",
+      "export_sha256": "e787d0c0a7039a3b526d3924fc1fc95ed88c5165f6764494a4cc63cd747b1010",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3812,6 +3812,7 @@
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
       "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3821,8 +3822,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "nl-NL",
@@ -3833,10 +3833,10 @@
         "Meer rust in je plantenverzorging"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/nl-NL/02-watering.png",
-      "capture_sha256": "df5948f18b065b7b877764aa524ca3e532ff8134acdfad41989622399653be4f",
+      "capture": "evidence/store-captures/run-20261101-213438/nl-NL/02-watering.png",
+      "capture_sha256": "873a8649f980f95d67fbb9dde0f614e9440a80133644efc6c7fdeba8637c0b53",
       "export": "assets/screenshots/localized/nl-NL/02-watering.png",
-      "export_sha256": "e995f303f9fd6b3a7bb18340819eb295d32bfa88da4080933d24b752bf1d0e27",
+      "export_sha256": "4d4a522af76da190d6d144ab746fd09897e16a0f6c8daf5bfdef137aa0c1af48",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3866,6 +3866,7 @@
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
       "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3875,8 +3876,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "nl-NL",
@@ -3887,10 +3887,10 @@
         "Een plek voor elke plant"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/nl-NL/03-library.png",
-      "capture_sha256": "c9e980d56cde1ace51bff5c8c9ddb408730c51d479401b73f7405ffc5c1c12fc",
+      "capture": "evidence/store-captures/run-20261101-213438/nl-NL/03-library.png",
+      "capture_sha256": "2aa0bfb3287b8f517be03784ce9a8cae5addc45a085f73eea45e6e17d5c0425f",
       "export": "assets/screenshots/localized/nl-NL/03-library.png",
-      "export_sha256": "22bed772395dc6719dfb97ac02f042bb9584505c4072029a7356abd1fb07927d",
+      "export_sha256": "2d4b908d0b6269d7111200cde984025a13ea8ceb2cc72c828663864fea2aac62",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3913,6 +3913,7 @@
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
       "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3922,8 +3923,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "nl-NL",
@@ -3934,10 +3934,10 @@
         "Plan de volgende verzorging"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/nl-NL/04-calendar.png",
-      "capture_sha256": "dfa6f0c9a2b8ca9a3868acc73c451a72e94b3f1b4eb45bc42da5a63a04d1975f",
+      "capture": "evidence/store-captures/run-20261101-213438/nl-NL/04-calendar.png",
+      "capture_sha256": "65e711d9588d88ca267d48612e0006b6a99e9a23f394e0513fa11d69468cd10f",
       "export": "assets/screenshots/localized/nl-NL/04-calendar.png",
-      "export_sha256": "a31567b84f89f092b07500445d15daa7a083ecf4c185bd32c834b63b65bea716",
+      "export_sha256": "998ee8693a37e079224953a07c2acbc19713d8ca924bea83a1b2c07be4d13d6e",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -3960,6 +3960,7 @@
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
       "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -3969,8 +3970,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "nl-NL",
@@ -3981,10 +3981,10 @@
         "Leg nieuwe groei vast"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/nl-NL/05-growth.png",
-      "capture_sha256": "e92f8e9f4e5bfab18d52be3eb4dbfb24cab5a5579fd5310b41794f52c3890b35",
+      "capture": "evidence/store-captures/run-20261101-213438/nl-NL/05-growth.png",
+      "capture_sha256": "71a0be07459c79c3780e32326e85714b5b3fb7d4c0fbf63562f1aa36bbcd9d4c",
       "export": "assets/screenshots/localized/nl-NL/05-growth.png",
-      "export_sha256": "13d2dee8fa24e4edb2e11b55223c82e2b7a65e5caef21b5d46056a2da1f5e153",
+      "export_sha256": "036ce2682a6dc1c5c11aa3935376e277f9debe99c7a730d4ceee49d8dda9a42d",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4007,6 +4007,7 @@
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
       "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4016,8 +4017,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "nl-NL",
@@ -4028,10 +4028,10 @@
         "Typ een opdracht en verzorg verder"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/nl-NL/06-voice.png",
-      "capture_sha256": "40822c6559fd0677e8209f0a6933257ec42bdb46175c292acd10384e8fb4b7c4",
+      "capture": "evidence/store-captures/run-20261101-213438/nl-NL/06-voice.png",
+      "capture_sha256": "4c5c867682b7c0812990d82aee74a7492a07d19de86fde0e533f2507c3604c30",
       "export": "assets/screenshots/localized/nl-NL/06-voice.png",
-      "export_sha256": "ceaf1a184b820969fbbfed81f4da0f6f45f7969973a9c9e7f5b04b65f2c18f98",
+      "export_sha256": "06f5728ee8f450b60c9b306b3291828dcaae70648556b9f55b88b930b272c8e3",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4054,6 +4054,7 @@
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
       "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4063,8 +4064,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "nl-NL",
@@ -4075,10 +4075,10 @@
         "Je plantgegevens, ook zonder internet"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/nl-NL/07-offline.png",
-      "capture_sha256": "d1423d006842c965020236820eebf39d7b4ccab7860a87629320e9098d73d1c6",
+      "capture": "evidence/store-captures/run-20261101-213438/nl-NL/07-offline.png",
+      "capture_sha256": "cadbfa05d603f7dcd95bed41ed9c7cc49688c3feda243cbbbabb9ff47fe438a8",
       "export": "assets/screenshots/localized/nl-NL/07-offline.png",
-      "export_sha256": "bf27c8bc4d6019fdcd8213efbac6d449a861dd8771cef39b5a8fd1a3360a7a0c",
+      "export_sha256": "5ed7d26330ce9f49749c9f03645d57f6fda4e3832677262bbb84e9e4394c2bc3",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4101,6 +4101,7 @@
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
       "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4110,8 +4111,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "nl-NL",
@@ -4122,10 +4122,10 @@
         "Bekijk je vastgelegde verzorging"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/nl-NL/08-insights.png",
-      "capture_sha256": "82a71213c93b18765c9f714281bf8354d3a305c994e88cbe99718ca15328917b",
+      "capture": "evidence/store-captures/run-20261101-213438/nl-NL/08-insights.png",
+      "capture_sha256": "eb2f7cca326d6355810fab9dc5ee7d0e4dd8f3d4b1328ce198cfc8816c6376ae",
       "export": "assets/screenshots/localized/nl-NL/08-insights.png",
-      "export_sha256": "13c2c182c9f83f2e2899d4c6e0a99601d368c0332304793c263cd3341b23be91",
+      "export_sha256": "a2ce439a11c522f684293b34903962ba2e352b595b7a26e40c4538cd26b12762",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4148,6 +4148,7 @@
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
       "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4157,8 +4158,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pl-PL",
@@ -4169,10 +4169,10 @@
         "Twoje rośliny, pięknie uporządkowane"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pl-PL/01-hero.png",
-      "capture_sha256": "5641d3ae76954fbcaef1900968ab91b0d047ccf4cc88cefc0aef03778267a621",
+      "capture": "evidence/store-captures/run-20261101-213438/pl-PL/01-hero.png",
+      "capture_sha256": "84ebe01e3e3a9d493a98a054cccc456d1d08d26252fcfb7d5f60f0890f78a15d",
       "export": "assets/screenshots/localized/pl-PL/01-hero.png",
-      "export_sha256": "1ac022db8b76e5e58772ad9002d65b40ba696d714301e07d6087f3fac46fd51e",
+      "export_sha256": "c4d0743d053e3c8575fe391dda9dd7e9af1d9f0ad94f3b48a080860feee2fc69",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4195,6 +4195,7 @@
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
       "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4204,8 +4205,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pl-PL",
@@ -4216,10 +4216,10 @@
         "Spokojniejsza codzienna pielęgnacja"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pl-PL/02-watering.png",
-      "capture_sha256": "824714e9e2ff647cceb323b949dcd7f66806ba8e6fa4ebb61fb90ebf37794c9d",
+      "capture": "evidence/store-captures/run-20261101-213438/pl-PL/02-watering.png",
+      "capture_sha256": "7062b355625ee5fcc501c3cda9ee70f8a84248b369efd04974805e66d7e34a34",
       "export": "assets/screenshots/localized/pl-PL/02-watering.png",
-      "export_sha256": "2a9b0e346f0b1b6ce5628f9efe0c001cbd2907ad058b2c270b2961a37eb3370a",
+      "export_sha256": "b06a3f9b689e695e2c559c444e2dce25a712fc657b86ef7fb74620cd5a6e4447",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4242,6 +4242,7 @@
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
       "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4251,8 +4252,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pl-PL",
@@ -4263,10 +4263,10 @@
         "Miejsce dla każdej rośliny"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pl-PL/03-library.png",
-      "capture_sha256": "3747e1c7d825a3901d633210cc2c000d7eac1bf8099eac7c828f8a016d7d24f0",
+      "capture": "evidence/store-captures/run-20261101-213438/pl-PL/03-library.png",
+      "capture_sha256": "bf58844fc3f1d643c853fcb80bd23e6b348d95f477a69633667477f37a3b83f1",
       "export": "assets/screenshots/localized/pl-PL/03-library.png",
-      "export_sha256": "8101f24add64883c2f392011afc23e9a987027a4df1394c28b77a37809684f36",
+      "export_sha256": "c07cd6b64d1dcd0bd8821915bf4e1be0ba8e595fd30c26d4813855ee42aaa67e",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4289,6 +4289,7 @@
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
       "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4298,8 +4299,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pl-PL",
@@ -4310,10 +4310,10 @@
         "Zaplanuj kolejne zabiegi"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pl-PL/04-calendar.png",
-      "capture_sha256": "cfef3f2cd4598ee10c2b740535dddc7d5f05146ec5a75f5faf67508043066092",
+      "capture": "evidence/store-captures/run-20261101-213438/pl-PL/04-calendar.png",
+      "capture_sha256": "b6178ef3d4af18b665cb38f8629c9539f3c4ab265e83c9b49d10edf6520e04b2",
       "export": "assets/screenshots/localized/pl-PL/04-calendar.png",
-      "export_sha256": "cff6bf53379b2064f5872e38320512ff4ed5d7d87d52e67aab9655a51132a5a2",
+      "export_sha256": "17ded1dccc7e3655eb4d9c18a487cffad44199a02952a4fae88977d11f66391d",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4336,6 +4336,7 @@
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
       "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4345,8 +4346,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pl-PL",
@@ -4357,10 +4357,10 @@
         "Zapisuj oznaki nowego wzrostu"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pl-PL/05-growth.png",
-      "capture_sha256": "9aa18cdd943bf95c4ec43c6a68f83489b64362617863356699a3902064baf47c",
+      "capture": "evidence/store-captures/run-20261101-213438/pl-PL/05-growth.png",
+      "capture_sha256": "b0fa3a53f747ce10a17e950c004e2f7684b8fb13a67b626caebaf628369f9d71",
       "export": "assets/screenshots/localized/pl-PL/05-growth.png",
-      "export_sha256": "dc541361e050ae039b0c85d3b5b68d9344caaa8496784aa50d54200d594662a8",
+      "export_sha256": "6762aea6e4964f929d719cd938b009548fbe6a6583c8d45c9368c0db496228e4",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4383,6 +4383,7 @@
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
       "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4392,8 +4393,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pl-PL",
@@ -4404,10 +4404,10 @@
         "Wpisz polecenie i dbaj dalej"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pl-PL/06-voice.png",
-      "capture_sha256": "ada166dbccb45163e845939e01dfd43d73aa7e6c682d1d26cd7f6eb4f98a2895",
+      "capture": "evidence/store-captures/run-20261101-213438/pl-PL/06-voice.png",
+      "capture_sha256": "d3dd90263a45dede447ba422e85506e81b71bd7a1af3e74e4e692c5db56db7d7",
       "export": "assets/screenshots/localized/pl-PL/06-voice.png",
-      "export_sha256": "2a05b0e630ad6c6963ace54fdbd6f72c1c65f0545b3f953af3f3af6b59236ff9",
+      "export_sha256": "61b9f0c54a4f1e767bf0203cdd23b7a4aab3a89f87767978ad1f1d364b749169",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4430,6 +4430,7 @@
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
       "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4439,8 +4440,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pl-PL",
@@ -4451,10 +4451,10 @@
         "Dane roślin także bez internetu"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pl-PL/07-offline.png",
-      "capture_sha256": "1ba9c907e0480bb80d518befc8a62e978d5feba75b3972f26d071d853c132e61",
+      "capture": "evidence/store-captures/run-20261101-213438/pl-PL/07-offline.png",
+      "capture_sha256": "214860fd22adc7eb4fd5848ae88951b03603dab8bfa8245bb6479da22c343b19",
       "export": "assets/screenshots/localized/pl-PL/07-offline.png",
-      "export_sha256": "807cf556eb0731f714ea62366f069e825eddc9015aff461aaaee22113c1fda4e",
+      "export_sha256": "e482fa4be36243ad0e5037ef1c59f970f7371590a6bcbca0c7ec4d7e0e58a695",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4477,6 +4477,7 @@
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
       "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4486,8 +4487,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pl-PL",
@@ -4498,10 +4498,10 @@
         "Przeglądaj zapisaną pielęgnację"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pl-PL/08-insights.png",
-      "capture_sha256": "2431a80b4a7445b5538fb34df33e026381db86075b7140a068ba2deb6cdd6559",
+      "capture": "evidence/store-captures/run-20261101-213438/pl-PL/08-insights.png",
+      "capture_sha256": "3ef3cad8c6703be787278cbce3c457d36781a0ea907059d4982134484c6defb5",
       "export": "assets/screenshots/localized/pl-PL/08-insights.png",
-      "export_sha256": "80a06e5fc5dd8df4c5539c4f92b48bdd0d6accb15366708a0e1250c4125cb6e7",
+      "export_sha256": "80e2f103bb15115f2bdaa9a029d76634b4168b6ed38ac8f4cb074341a13fd9ab",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4524,6 +4524,7 @@
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
       "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4533,8 +4534,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pt-BR",
@@ -4545,10 +4545,10 @@
         "Suas plantas, bem organizadas"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pt-BR/01-hero.png",
-      "capture_sha256": "95df10b8b3c338f5b45eeeb8dcefbb8c808eb6b87f00b22d051b76450fd5f00c",
+      "capture": "evidence/store-captures/run-20261101-213438/pt-BR/01-hero.png",
+      "capture_sha256": "d57288e1e3a52bfae3abfd1d68bf299407d83c35d45732bff38d2d753ddf5a7f",
       "export": "assets/screenshots/localized/pt-BR/01-hero.png",
-      "export_sha256": "2d0ba0e4e3e93d42a3ecfb1d0c4492a7a3001351417291d6332db3d76b4dd92d",
+      "export_sha256": "e3fcf153cf09857fcef1eaa421ef985f5c9b5303ac58987f05cc228220352905",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4571,6 +4571,7 @@
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
       "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4580,8 +4581,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pt-BR",
@@ -4592,10 +4592,10 @@
         "Uma rotina de cuidados mais tranquila"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pt-BR/02-watering.png",
-      "capture_sha256": "88926c4626af7c4e028442b6e45f903440b6c3b5755885f7d0f9a20f25a58f59",
+      "capture": "evidence/store-captures/run-20261101-213438/pt-BR/02-watering.png",
+      "capture_sha256": "111a22cb3427139510466378d5e1a290f4af5a4eedc12bbe7417981d09cc2dd8",
       "export": "assets/screenshots/localized/pt-BR/02-watering.png",
-      "export_sha256": "46151feeb8bb50b2ad27fd783185b69b9fcb75932266d63538c6824e90a01440",
+      "export_sha256": "f4ecc9759d460295a9f6f7a7c38b54c48de6742bfdb3a481db3becfb1e027daa",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4618,6 +4618,7 @@
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
       "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4627,8 +4628,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pt-BR",
@@ -4639,10 +4639,10 @@
         "Um lugar para cada planta"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pt-BR/03-library.png",
-      "capture_sha256": "90f6e3f87ace267875b7fecce1a505a34a20a21c0b9693d467db5cc04234c222",
+      "capture": "evidence/store-captures/run-20261101-213438/pt-BR/03-library.png",
+      "capture_sha256": "9c535f775927dba4815d50bb56ba7363002ef32e276c3783b64b3c7f69b70ec4",
       "export": "assets/screenshots/localized/pt-BR/03-library.png",
-      "export_sha256": "a472785133dd0c09da6c509c86868fe782c47c38bea94731678c549c594e2c18",
+      "export_sha256": "f3ccb17484d2d069e6372c87903f31fce671bcd95e6dfb7b4688bf3a0c672b0e",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4665,6 +4665,7 @@
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
       "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4674,8 +4675,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pt-BR",
@@ -4686,10 +4686,10 @@
         "Planeje os próximos cuidados"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pt-BR/04-calendar.png",
-      "capture_sha256": "12639b8d4b8b630b109549e34a7a2de53929986b5c06ae72547438c4b77b860e",
+      "capture": "evidence/store-captures/run-20261101-213438/pt-BR/04-calendar.png",
+      "capture_sha256": "517dc55ab08ddd8b8c4300861750dc11e3937f32e06745673afbef45fe57bc6e",
       "export": "assets/screenshots/localized/pt-BR/04-calendar.png",
-      "export_sha256": "c4f29034e9e739095f5488318e7d32d98f5513dd6137279ca01332231df470eb",
+      "export_sha256": "915b7348eba97150e0187fda5b2445ef52add133d7be189991f20304fc742053",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4712,6 +4712,7 @@
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
       "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4721,8 +4722,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pt-BR",
@@ -4733,10 +4733,10 @@
         "Registre cada sinal de crescimento"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pt-BR/05-growth.png",
-      "capture_sha256": "7d79f22212df034c5bab0f1c0b76e074af76d2d7109ae4c5b2b21dec01a95d9d",
+      "capture": "evidence/store-captures/run-20261101-213438/pt-BR/05-growth.png",
+      "capture_sha256": "349bd9fffa59fb6deab55d0b533f8e2fcc583e73cba5688cd4277ded241ba76a",
       "export": "assets/screenshots/localized/pt-BR/05-growth.png",
-      "export_sha256": "b7d9464090c9217155d88f36ff31593d2ee317d811eacfc5529853d7cb537217",
+      "export_sha256": "3a4fcaa44a37dd77a03d7c7e37e682d412cfe32b28f3b7068b5f4d3a553522bb",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4759,6 +4759,7 @@
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
       "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4768,8 +4769,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pt-BR",
@@ -4780,10 +4780,10 @@
         "Digite um comando e continue cuidando"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pt-BR/06-voice.png",
-      "capture_sha256": "a29e4f31ecaad76c0a0476392913d42e57d0063da9da52b00a3f36fa7b8bea64",
+      "capture": "evidence/store-captures/run-20261101-213438/pt-BR/06-voice.png",
+      "capture_sha256": "f068f6b5241a606fac74af2c83d4d9531448c56152c15144f55a5b8d36282fca",
       "export": "assets/screenshots/localized/pt-BR/06-voice.png",
-      "export_sha256": "fe002764b3415a7751b1644d0f25ae36c286c21757939935c40dbfc4435c1c5c",
+      "export_sha256": "5fb9cb1b73887131cc1e8077d9d0773fc1d10523215827f861a9eed4656727e4",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4806,6 +4806,7 @@
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
       "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4815,8 +4816,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pt-BR",
@@ -4827,10 +4827,10 @@
         "Suas plantas, mesmo sem internet"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pt-BR/07-offline.png",
-      "capture_sha256": "0a1c431222636039cfe61a712ae30b596e08661334dff442bad0a627c762cbc7",
+      "capture": "evidence/store-captures/run-20261101-213438/pt-BR/07-offline.png",
+      "capture_sha256": "a023ac9f5e91239225ac3eb1437a4db99481289293b35a9878e8ec43166afcee",
       "export": "assets/screenshots/localized/pt-BR/07-offline.png",
-      "export_sha256": "24a9d3d23f255c3b18e58b3e1c87d96e59f9f5508dba1e3f97a79cf2e831ee7d",
+      "export_sha256": "cabe7b0dcb7be9162eda248258110814f4d632f637e2f1528773e31c5d47aa29",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4853,6 +4853,7 @@
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
       "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4862,8 +4863,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pt-BR",
@@ -4874,10 +4874,10 @@
         "Veja os cuidados que você registrou"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pt-BR/08-insights.png",
-      "capture_sha256": "d76854f90d78bbae0f15f42d15d0d65904471c42486151fe315669cc473be14d",
+      "capture": "evidence/store-captures/run-20261101-213438/pt-BR/08-insights.png",
+      "capture_sha256": "cec73a77fe0072a6da655c153673480cb0b74b0acf49005ea0adc2dcab0e4463",
       "export": "assets/screenshots/localized/pt-BR/08-insights.png",
-      "export_sha256": "9ca928abfad901e2a740c8efdbb23bac14ba3602e14d946753990628e98030c6",
+      "export_sha256": "343a6a0de006069c2ca6010ac6cf13de85e1fb7cfa8530b75c9586f1e698c8e5",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4900,6 +4900,7 @@
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
       "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4909,8 +4910,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pt-PT",
@@ -4921,10 +4921,10 @@
         "As suas plantas, bem organizadas"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pt-PT/01-hero.png",
-      "capture_sha256": "259511469b345ba2a53705bd2f051a1bddf5bb6b66f374d905c76c9b7709c804",
+      "capture": "evidence/store-captures/run-20261101-213438/pt-PT/01-hero.png",
+      "capture_sha256": "707ae46eeccb41da46ba70dc844bab6991a89cb1054b4b978cb8de166e4c49ed",
       "export": "assets/screenshots/localized/pt-PT/01-hero.png",
-      "export_sha256": "5e53899fb35b92bd0fe9d316ddfca3599452d92784b66243ce3be4162b5824e5",
+      "export_sha256": "7f00408ddadbf3093738c5fa94730903a10e7af58d6c7907f1f47b88e8d20c5d",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4947,6 +4947,7 @@
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
       "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -4956,8 +4957,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pt-PT",
@@ -4968,10 +4968,10 @@
         "Uma rotina de cuidados mais tranquila"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pt-PT/02-watering.png",
-      "capture_sha256": "5b0bced85b30aa8e86e28352572a29769e9a3243c6e4d7252525d4edbf2932bd",
+      "capture": "evidence/store-captures/run-20261101-213438/pt-PT/02-watering.png",
+      "capture_sha256": "8089738b60b7ca178eea084419ff4b785717b94a9d6e7e91d5fc660d6321f77f",
       "export": "assets/screenshots/localized/pt-PT/02-watering.png",
-      "export_sha256": "b6d84a2d9eb3599dbce44aa4d8a7b47954de928ae644aaade610aa0e188b7aee",
+      "export_sha256": "d3803d43f7d60307e6dbe2e408f5b5dfa00a9da7967a3088c9915a54ebcad446",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -4994,6 +4994,7 @@
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
       "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -5003,8 +5004,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pt-PT",
@@ -5015,10 +5015,10 @@
         "Um lugar para cada planta"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pt-PT/03-library.png",
-      "capture_sha256": "ebba87bec448c4448eac8976077173a9fe15a92925aa0cdce207b28c633b9053",
+      "capture": "evidence/store-captures/run-20261101-213438/pt-PT/03-library.png",
+      "capture_sha256": "5219136929545c43f2facac2738e2bcb98a19781f00e6086bc6c2da58092805d",
       "export": "assets/screenshots/localized/pt-PT/03-library.png",
-      "export_sha256": "02ab9119d330b01be3ecf6678ce9a58548754aa6774892afebba3965a869ab04",
+      "export_sha256": "24a5f9dd95a623b3da5573c74811abafc34e2b7603842315d40c89d2bccffeea",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -5041,6 +5041,7 @@
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
       "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -5050,8 +5051,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pt-PT",
@@ -5062,10 +5062,10 @@
         "Planeie os próximos cuidados"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pt-PT/04-calendar.png",
-      "capture_sha256": "e7d6638a9965dd3ceef0be568db2da6da09f7a8eeaeb9eb74b452ccb5b328bd0",
+      "capture": "evidence/store-captures/run-20261101-213438/pt-PT/04-calendar.png",
+      "capture_sha256": "6e75a5e33c906cbb618d7bf3878882746d28d9635e00f1dfd6614437418b5b07",
       "export": "assets/screenshots/localized/pt-PT/04-calendar.png",
-      "export_sha256": "6fa8e5aae77e1dfdfbcc04012909f7ff16bf576e71afb734bdf75ea848b40af8",
+      "export_sha256": "bcac54bd1daac54dbc66314490d15d8a2a2dda9251698dd00bb09e9e03387143",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -5088,6 +5088,7 @@
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
       "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -5097,8 +5098,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pt-PT",
@@ -5109,10 +5109,10 @@
         "Registe cada sinal de crescimento"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pt-PT/05-growth.png",
-      "capture_sha256": "b5c4351638b5952333b3b36858a1459590005245308c9d5823b8e7f3b10306a5",
+      "capture": "evidence/store-captures/run-20261101-213438/pt-PT/05-growth.png",
+      "capture_sha256": "394787fe7d58724685110a613cc00f93969208254579d85b1a0eaebc487d5803",
       "export": "assets/screenshots/localized/pt-PT/05-growth.png",
-      "export_sha256": "3e3a3fbba857b1a6770a8489f440f5d5cc3a7097f19040127c5e73c3051cd1e3",
+      "export_sha256": "45c9875b7ad1cfafcf1cca573ade5a733c6dbeef1b6981562de4ab2b2e2cf7c2",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -5135,6 +5135,7 @@
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
       "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -5144,8 +5145,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pt-PT",
@@ -5156,10 +5156,10 @@
         "Escreva um comando e continue a cuidar"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pt-PT/06-voice.png",
-      "capture_sha256": "c271e1c5453c00695ad6dcd0a40d316c9c2c1387bb4df3be2f6547d6d1bc53fa",
+      "capture": "evidence/store-captures/run-20261101-213438/pt-PT/06-voice.png",
+      "capture_sha256": "5532a28b64b60a7cf0abfccaf6aa2f6c7f1323bfbe19fec817882104086fd72d",
       "export": "assets/screenshots/localized/pt-PT/06-voice.png",
-      "export_sha256": "f1d192033c1f267cb3c25274d46dfe62b8f82b1f2ca94c8786104f78a2ae6955",
+      "export_sha256": "c953aac53d9123288f858a684aca28994d789ce304400f81d70470d37aa26f28",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -5182,6 +5182,7 @@
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
       "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -5191,8 +5192,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pt-PT",
@@ -5203,10 +5203,10 @@
         "As suas plantas, mesmo sem internet"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pt-PT/07-offline.png",
-      "capture_sha256": "d0508f45aa63b6ac169fa54f0158536b4730ab28652c0c83df42bd704fef3a58",
+      "capture": "evidence/store-captures/run-20261101-213438/pt-PT/07-offline.png",
+      "capture_sha256": "77b6f56c0e74bd6ec2f5a1888547a01f625c1edb77bbe06b652e8b152c0a9886",
       "export": "assets/screenshots/localized/pt-PT/07-offline.png",
-      "export_sha256": "c6080196a4601a7e9e58b9fbab43068c8cb85f6d3758eb6c15e0fa2a8d05b4fe",
+      "export_sha256": "06f5aafbea6f7935b11ffe82b8a561e5be22339ae52ceec24d3323f0b091ae86",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -5229,6 +5229,7 @@
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
       "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -5238,8 +5239,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "pt-PT",
@@ -5250,10 +5250,10 @@
         "Consulte os cuidados que registou"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/pt-PT/08-insights.png",
-      "capture_sha256": "ff59ff316e8ec40fcc7207b32dc492ba77edb4b79c17fe406c8294180f51cda0",
+      "capture": "evidence/store-captures/run-20261101-213438/pt-PT/08-insights.png",
+      "capture_sha256": "f59a55af5ef082f2f97fd4806cae5575ccc2aac4b9a1e66fbed45a66ce1df861",
       "export": "assets/screenshots/localized/pt-PT/08-insights.png",
-      "export_sha256": "fe6a6bcf638b7171a56c18f03759dfe24690e5d352d10070211299cce4f9bd7b",
+      "export_sha256": "9a4a1f713b369eb802dc8d7a276335f535335702ab31f2e9d857942fd382e564",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -5276,6 +5276,7 @@
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
       "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -5285,8 +5286,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "sv-SE",
@@ -5297,10 +5297,10 @@
         "Dina växter, fint samlade"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/sv-SE/01-hero.png",
-      "capture_sha256": "978f99c8b02960f093f7cabf2378f7da2cd2b1febbf26176805f21d2cb231aac",
+      "capture": "evidence/store-captures/run-20261101-213438/sv-SE/01-hero.png",
+      "capture_sha256": "8f258cf19873c93307e258e02dca0fe8e51bd7c388088c852c7a8bd82cfb3573",
       "export": "assets/screenshots/localized/sv-SE/01-hero.png",
-      "export_sha256": "89ed0c255e5a9f66d097c9d829fcfced0a607c497ddeb9641e3db6c54b21f2a8",
+      "export_sha256": "6cd840df4d2d8c4074c3df3cf7f88d61c9aadc1e02176fd816e22eb8a44d56e7",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -5323,6 +5323,7 @@
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
       "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -5332,8 +5333,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "sv-SE",
@@ -5344,10 +5344,10 @@
         "En lugnare rutin för växtskötsel"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/sv-SE/02-watering.png",
-      "capture_sha256": "6c4c2af7d638cc87d7307507177c83dca208ce4a325e67ec275392e1dd7f18e5",
+      "capture": "evidence/store-captures/run-20261101-213438/sv-SE/02-watering.png",
+      "capture_sha256": "b849f163c0a8e61dae78d78338a33b9787b6acaf818516344da595f218d56c26",
       "export": "assets/screenshots/localized/sv-SE/02-watering.png",
-      "export_sha256": "2f1d1b109846fafabac31329f37933aee8bb7c01d26123e675b7b88f1e0db5bd",
+      "export_sha256": "fe9b1a124a4865a91e1ee29539dd28c1154874ebef1dc66daa5288340bc697ca",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -5370,6 +5370,7 @@
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
       "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -5379,8 +5380,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "sv-SE",
@@ -5391,10 +5391,10 @@
         "En plats för varje växt"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/sv-SE/03-library.png",
-      "capture_sha256": "06934e98270afb5841c27016d5f725047dab2cfa352b3335aae236ffaee40319",
+      "capture": "evidence/store-captures/run-20261101-213438/sv-SE/03-library.png",
+      "capture_sha256": "3d56d076dd6006a398200fb301f94fa3786ea4ef0941d95ac5de97dc09231786",
       "export": "assets/screenshots/localized/sv-SE/03-library.png",
-      "export_sha256": "c0e489439fad480c14de76815bcdc69b4f463d5ccf3d57c79c77f94eeac1e1a9",
+      "export_sha256": "5141754669c8df557a1216acf898010d91a5496023467272e027f88b469d14c9",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -5417,6 +5417,7 @@
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
       "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -5426,8 +5427,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "sv-SE",
@@ -5438,10 +5438,10 @@
         "Planera kommande skötsel"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/sv-SE/04-calendar.png",
-      "capture_sha256": "2bd97001c9ffdc98883152be188de83f0555abf0aa60bd8a0b154e19d1807ac3",
+      "capture": "evidence/store-captures/run-20261101-213438/sv-SE/04-calendar.png",
+      "capture_sha256": "08d1037f6676db523eb49ee22e057a12a7c127b4b992b6f58ce1a9dc43ed82e6",
       "export": "assets/screenshots/localized/sv-SE/04-calendar.png",
-      "export_sha256": "a8c3f2f5c8d3dc496b1954e983b159332ca2dd539ede53149c29a8fa088258e9",
+      "export_sha256": "c2484ce9196d0308bb47e1e3e651d20e2f653327651d7e054515dd2ac1d0615b",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -5464,6 +5464,7 @@
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
       "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -5473,8 +5474,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "sv-SE",
@@ -5485,10 +5485,10 @@
         "Spara små tecken på tillväxt"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/sv-SE/05-growth.png",
-      "capture_sha256": "ac006eb38875e21069d2970944418bce3be7bce93471a01d830c1cdd9db43bed",
+      "capture": "evidence/store-captures/run-20261101-213438/sv-SE/05-growth.png",
+      "capture_sha256": "9a9b7e810a9a4ca262076eb76181eb2a7aefebc83cd788d5a20822141a136db3",
       "export": "assets/screenshots/localized/sv-SE/05-growth.png",
-      "export_sha256": "8b34781addd05e9fba13ed7383b762e6a48e976581fbd4a757fd8b819ac3aed2",
+      "export_sha256": "f4e176d5140c742c936a147adbf92f1b28b55c1dd7cea1fc248b63935d24c7c7",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -5511,6 +5511,7 @@
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
       "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -5520,8 +5521,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "sv-SE",
@@ -5532,10 +5532,10 @@
         "Skriv ett kommando och fortsätt sköta"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/sv-SE/06-voice.png",
-      "capture_sha256": "41b0771413086cdd209fd543d5395854533764a00be6373d9035b68478cbf00e",
+      "capture": "evidence/store-captures/run-20261101-213438/sv-SE/06-voice.png",
+      "capture_sha256": "160d624f0a277721c497b6ca06d9df878ba8a5a38cbd4f13f39890f4381ae687",
       "export": "assets/screenshots/localized/sv-SE/06-voice.png",
-      "export_sha256": "015673887e607e578c289d72850bbf9f364a7e82ef5c583482bfc64314b0c79a",
+      "export_sha256": "665b40b2946e0c45e6acf1711787c4832df9761c5eb7cdd398508908438c0ec3",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -5558,6 +5558,7 @@
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
       "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -5567,8 +5568,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "sv-SE",
@@ -5579,10 +5579,10 @@
         "Dina växtuppgifter, även utan internet"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/sv-SE/07-offline.png",
-      "capture_sha256": "359371b7b6ed6c25757b2bd137c8554d70e13d7cb21584d8ecc164948ae73f1c",
+      "capture": "evidence/store-captures/run-20261101-213438/sv-SE/07-offline.png",
+      "capture_sha256": "558a1fc947684874c6da36934da21cdf39e023d022da882da202be3c019c458c",
       "export": "assets/screenshots/localized/sv-SE/07-offline.png",
-      "export_sha256": "ac944bbf089f74a5543d08616a6575d6121e494ee10bd6286f4451b4601431ca",
+      "export_sha256": "fa33bb86faacc531bbe814ad61b249640d0d5fa57be9a582f2e4cc0636a69ba3",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -5605,6 +5605,7 @@
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
       "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -5614,8 +5615,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     },
     {
       "listing_locale": "sv-SE",
@@ -5626,10 +5626,10 @@
         "Se den skötsel du har registrerat"
       ],
       "headline_font_px": 84,
-      "capture": "evidence/store-captures/run-20261101-170304/sv-SE/08-insights.png",
-      "capture_sha256": "272c7e6f4098bb91ab9ea021b17c352e0232bd35fc4582f6381d39cabd61fb51",
+      "capture": "evidence/store-captures/run-20261101-213438/sv-SE/08-insights.png",
+      "capture_sha256": "e9b9812f014c25a0dfe4d7ceee07ac5af2dea04f3f174d26c81625564bdc6319",
       "export": "assets/screenshots/localized/sv-SE/08-insights.png",
-      "export_sha256": "8c2675cba51c87f06d96dd09af338bbc3d4bea87a6df37931f4c118bd9361525",
+      "export_sha256": "e1ae9d5b65778095986d86fc64aff136e95c85094de72cd5c7c03abf96553b60",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
@@ -5652,6 +5652,7 @@
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
       "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
+      "caption_resource_hash_encoding": "utf8-lf",
       "native_frame_bounds": [
         440,
         480,
@@ -5661,8 +5662,7 @@
       "native_frame_max_size": [
         2360,
         1050
-      ],
-      "caption_resource_hash_encoding": "utf8-lf"
+      ]
     }
   ],
   "device": {

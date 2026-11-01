@@ -1,0 +1,23 @@
+{
+  "execution_date": "2026-11-01",
+  "package": "com.floratend.app.perf",
+  "backupIntegrity": "ok",
+  "beforeCounts": {
+    "plants": 120,
+    "schedules": 120,
+    "journal": 120,
+    "history": 120
+  },
+  "afterCounts": {
+    "plants": 0,
+    "schedules": 0,
+    "journal": 0,
+    "history": 0
+  },
+  "hostPhotoTransportHashesVerified": 120,
+  "freshBackupBeforeUninstall": true,
+  "emptyDataGuardPassed": true,
+  "onlyControlledFixtureRemoved": true,
+  "packageRemoved": true,
+  "mainAmazonPackageTouched": false
+}

@@ -1,0 +1,3 @@
+<resources>
+  <string name="purchase_verification_privacy">"Premium verification sends your Amazon app user ID and purchase receipt ID over HTTPS to the FloraTend server hosted by Cloudflare, which checks them with Amazon. Plant records, notes and photos are not included."</string>
+</resources>

@@ -86,7 +86,7 @@ class UiSmokeTest {
         waitText("Demonstration journal note; no growth measurement.");rule.onNodeWithText("Demonstration journal note; no growth measurement.").assertExists();shot("03-journal")
         nav("Voice")
         rule.onNodeWithText("A helping voice").assertIsDisplayed();shot("04-voice")
-        rule.onNodeWithText("Review or type a command").performTextInput("Read my reminders.")
+        enterCommand("Read my reminders.")
         rule.onNodeWithText("Run command").performScrollTo().performClick()
         rule.onNodeWithText("1 plant-care check to review. $fixture").performScrollTo().assertIsDisplayed()
         nav("Insights")
@@ -110,7 +110,7 @@ class UiSmokeTest {
         rule.onNodeWithText("Date (YYYY-MM-DD)").performTextReplacement(LocalDate.now().toString())
         rule.onNodeWithText("Save",substring=false).performClick()
         nav("Voice")
-        rule.onNodeWithText("Review or type a command").performTextInput("Mark my $fixture as watered.")
+        enterCommand("Mark my $fixture as watered.")
         rule.onNodeWithText("Run command").performScrollTo().performClick()
         shot("14-water-confirmation")
         val state=org.json.JSONObject().put("transcript",rule.activity.transcript).put("parsedCommand",VoiceParser.parse(rule.activity.transcript).toString()).put("plantMatches",runBlocking { app.database.dao().plants().first().count { it.name.equals(fixture,true) } }).put("schedules",runBlocking { app.database.dao().schedules().first().filter { it.plantId==plant.id }.toString() })
@@ -154,8 +154,8 @@ class UiSmokeTest {
             rule.onNodeWithText("Speech recognition is unavailable on this device.",substring=true).assertIsDisplayed()
         }
         assertEquals(PackageManager.PERMISSION_DENIED,rule.activity.checkSelfPermission(android.Manifest.permission.RECORD_AUDIO))
-        rule.onNodeWithText("Review or type a command").performTextInput("Add a new plant.")
-        rule.onNodeWithText("Review or type a command").assertTextContains("Add a new plant.")
+        enterCommand("Add a new plant.")
+        assertCommand("Add a new plant.")
         // IME resize/scroll animation can move the touch target on Fire display overrides.
         // Close the keyboard through Espresso's normal user-facing dismissal first.
         androidx.test.espresso.Espresso.closeSoftKeyboard()

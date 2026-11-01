@@ -1,0 +1,35 @@
+{
+  "versionCode": 14,
+  "locales": [
+    {
+      "locale": "en-GB",
+      "fontScale": 1.8,
+      "screenWidthDp": 600,
+      "screenHeightDp": 952,
+      "nativeEditableAccessibilityNode": true,
+      "hintMatchesLocale": true,
+      "textLayoutWithinContentBounds": true
+    },
+    {
+      "locale": "ar",
+      "fontScale": 1.8,
+      "screenWidthDp": 600,
+      "screenHeightDp": 952,
+      "nativeEditableAccessibilityNode": true,
+      "hintMatchesLocale": true,
+      "textLayoutWithinContentBounds": true
+    },
+    {
+      "locale": "ja-JP",
+      "fontScale": 1.8,
+      "screenWidthDp": 600,
+      "screenHeightDp": 952,
+      "nativeEditableAccessibilityNode": true,
+      "hintMatchesLocale": true,
+      "textLayoutWithinContentBounds": true
+    }
+  ],
+  "reviewBeforeExplicitRun": true,
+  "unknownCommandPreservesInput": true,
+  "realMicrophoneRecognition": false
+}

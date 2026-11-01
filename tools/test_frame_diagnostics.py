@@ -1,10 +1,14 @@
 """Diagnostic tools must never promote forced compilation or missing frame samples."""
 import json
 import unittest
-from measure_core_frames import frame_verdict, EXPECTED_SCREENS
+from measure_core_frames import frame_verdict, EXPECTED_SCREENS,assert_detached
 from trace_core_frames import summarize
 
 class FrameEvidenceTests(unittest.TestCase):
+    def test_detachment_guard_rejects_unsupported_output_and_running_instrumentation(self):
+        for text in ['', 'Unknown command: instrumentation', 'ACTIVITY MANAGER RUNNING PROCESSES\nActiveInstrumentation{123}']:
+            with self.assertRaises(AssertionError): assert_detached(text)
+        assert_detached('ACTIVITY MANAGER RUNNING PROCESSES\nAll known processes:')
     def rows(self):
         return [{'screen':name,'frames':100,'frameP95Ms':16,'jankyPercent':1.0} for name in EXPECTED_SCREENS]
     def test_forced_compilation_cannot_approve_release_even_when_all_bounds_pass(self):
@@ -20,6 +24,12 @@ class FrameEvidenceTests(unittest.TestCase):
         self.assertEqual('FAIL',frame_verdict(rows)['result'])
     def test_all_valid_natural_samples_can_pass(self):
         self.assertEqual({'result':'PASS','releaseGateApproved':True},frame_verdict(self.rows()))
+    def test_focused_diagnostic_cannot_approve_release_or_accept_wrong_screen(self):
+        rows=[row for row in self.rows() if row['screen']=='voice']
+        self.assertEqual({'result':'DIAGNOSTIC_THRESHOLDS_MET','releaseGateApproved':False},frame_verdict(rows,focused_screen='voice'))
+        self.assertEqual('DIAGNOSTIC_THRESHOLDS_MISSED',frame_verdict(rows,focused_screen='garden')['result'])
+        rows[0]['frames']=0
+        self.assertEqual('DIAGNOSTIC_THRESHOLDS_MISSED',frame_verdict(rows,focused_screen='voice')['result'])
     def test_trace_filters_other_processes_and_never_exports_arbitrary_names(self):
         raw='\n'.join([
             'app-42 [000] ...1 1.000: tracing_mark_write: B|42|Choreographer#doFrame',

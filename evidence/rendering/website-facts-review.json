@@ -1,0 +1,256 @@
+{
+  "execution_date": "2026-11-01",
+  "scope": "English local-development product facts, engineering review; not publisher legal, translation, public availability, signed-candidate or global policy approval",
+  "reviewed_pages": [
+    "index",
+    "features",
+    "plant-watering-reminders",
+    "houseplant-tracker",
+    "plant-care-calendar",
+    "growth-journal",
+    "voice-features",
+    "fire-tablet-compatibility",
+    "pricing",
+    "faq",
+    "privacy",
+    "support"
+  ],
+  "page_count": 12,
+  "site_source_sha256": "c592c52bc4fd588cd9a4ac96cb482b719be01a045522e8fe5adbb4abddb2bcd4",
+  "website_validation": {
+    "checked_pages": 12,
+    "production": false,
+    "errors": [],
+    "status": "PASS"
+  },
+  "production_configured": false,
+  "factual_evidence": [
+    {
+      "criterion": "AC-03.01",
+      "status": "PASS",
+      "execution_date": "2026-10-30",
+      "evidence": [
+        "evidence/device/physical-hd10.txt",
+        "evidence/device/offline-hd10.txt",
+        "docs/FIRE_TEST_PLAN.md",
+        "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt"
+      ]
+    },
+    {
+      "criterion": "AC-03.04",
+      "status": "PASS",
+      "execution_date": "2026-11-01",
+      "evidence": [
+        "evidence/release-next/photo-regression.txt",
+        "app/src/androidTest/java/com/floratend/app/PhotoAttachmentTest.kt"
+      ]
+    },
+    {
+      "criterion": "AC-03.06",
+      "status": "PASS",
+      "execution_date": "2026-11-01",
+      "evidence": [
+        "evidence/release-sweep/workflow-native.txt",
+        "app/src/androidTest/java/com/floratend/app/ReleaseWorkflowTest.kt"
+      ]
+    },
+    {
+      "criterion": "AC-03.10",
+      "status": "PASS",
+      "execution_date": "2026-10-30",
+      "evidence": [
+        "evidence/device/physical-hd10.txt",
+        "evidence/device/offline-hd10.txt",
+        "docs/FIRE_TEST_PLAN.md",
+        "app/src/androidTest/java/com/floratend/app/PersistenceTest.kt"
+      ]
+    },
+    {
+      "criterion": "AC-04.02",
+      "status": "PASS",
+      "execution_date": "2026-10-30",
+      "evidence": [
+        "evidence/device/physical-hd10.txt",
+        "evidence/device/offline-hd10.txt",
+        "docs/FIRE_TEST_PLAN.md",
+        "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt"
+      ]
+    },
+    {
+      "criterion": "AC-04.04",
+      "status": "PASS",
+      "execution_date": "2026-10-30",
+      "evidence": [
+        "evidence/device/physical-hd10.txt",
+        "evidence/device/offline-hd10.txt",
+        "docs/FIRE_TEST_PLAN.md",
+        "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt"
+      ]
+    },
+    {
+      "criterion": "AC-04.07",
+      "status": "PASS",
+      "execution_date": "2026-10-30",
+      "evidence": [
+        "evidence/device/physical-hd10.txt",
+        "evidence/device/offline-hd10.txt",
+        "docs/FIRE_TEST_PLAN.md",
+        "app/src/androidTest/java/com/floratend/app/PersistenceTest.kt",
+        "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt"
+      ]
+    },
+    {
+      "criterion": "AC-05.01",
+      "status": "PASS",
+      "execution_date": "2026-10-30",
+      "evidence": [
+        "evidence/device/physical-hd10.txt",
+        "evidence/device/offline-hd10.txt",
+        "docs/FIRE_TEST_PLAN.md",
+        "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt",
+        "app/src/androidTest/java/com/floratend/app/PersistenceTest.kt"
+      ]
+    },
+    {
+      "criterion": "AC-05.03",
+      "status": "PASS",
+      "execution_date": "2026-11-01",
+      "evidence": [
+        "evidence/release-next/decimal-editor-red.txt",
+        "evidence/release-next/decimal-editor-green.txt",
+        "evidence/release-next/schema2-card-label-green.txt",
+        "evidence/release-next/final-validation.log"
+      ]
+    },
+    {
+      "criterion": "AC-05.06",
+      "status": "PASS",
+      "execution_date": "2026-11-01",
+      "evidence": [
+        "evidence/release-next/native-suite.txt",
+        "evidence/release-next/offline-process/verified.json"
+      ]
+    },
+    {
+      "criterion": "AC-06.03",
+      "status": "PASS",
+      "execution_date": "2026-11-01",
+      "evidence": [
+        "evidence/release-next/speech-contract.txt"
+      ]
+    },
+    {
+      "criterion": "AC-10.08",
+      "status": "PASS",
+      "execution_date": "2026-10-30",
+      "evidence": [
+        "evidence/device/physical-hd10.txt",
+        "evidence/device/offline-hd10.txt",
+        "docs/FIRE_TEST_PLAN.md",
+        "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt",
+        "evidence/device/offline-network-state.txt"
+      ]
+    },
+    {
+      "criterion": "AC-11.03",
+      "status": "PASS",
+      "execution_date": "2026-11-01",
+      "evidence": [
+        "docs/PLANTNET_LIVE_TEST_20261101.md",
+        "evidence/identification-live/device/genuine-result.json",
+        "evidence/identification-live/native-genuine.txt",
+        "evidence/identification-live/device/restart-result.json",
+        "evidence/identification-live/device/offline-error-result.json",
+        "evidence/identification-live/device/offline-manual-restart.json",
+        "evidence/identification-live/provider-metadata.json"
+      ]
+    },
+    {
+      "criterion": "AC-11.04",
+      "status": "PASS",
+      "execution_date": "2026-11-01",
+      "evidence": [
+        "docs/PLANTNET_LIVE_TEST_20261101.md",
+        "evidence/identification-live/device/genuine-result.json",
+        "evidence/identification-live/native-genuine.txt",
+        "evidence/identification-live/device/restart-result.json",
+        "evidence/identification-live/device/offline-error-result.json",
+        "evidence/identification-live/device/offline-manual-restart.json",
+        "evidence/identification-live/provider-metadata.json"
+      ]
+    },
+    {
+      "criterion": "AC-11.05",
+      "status": "PASS",
+      "execution_date": "2026-11-01",
+      "evidence": [
+        "docs/PLANTNET_LIVE_TEST_20261101.md",
+        "evidence/identification-live/device/genuine-result.json",
+        "evidence/identification-live/native-genuine.txt",
+        "evidence/identification-live/device/restart-result.json",
+        "evidence/identification-live/device/offline-error-result.json",
+        "evidence/identification-live/device/offline-manual-restart.json",
+        "evidence/identification-live/provider-metadata.json"
+      ]
+    },
+    {
+      "criterion": "AC-11.06",
+      "status": "PASS",
+      "execution_date": "2026-11-01",
+      "evidence": [
+        "docs/PLANTNET_LIVE_TEST_20261101.md",
+        "evidence/identification-live/device/genuine-result.json",
+        "evidence/identification-live/native-genuine.txt",
+        "evidence/identification-live/device/restart-result.json",
+        "evidence/identification-live/device/offline-error-result.json",
+        "evidence/identification-live/device/offline-manual-restart.json",
+        "evidence/identification-live/provider-metadata.json"
+      ]
+    },
+    {
+      "criterion": "AC-11.07",
+      "status": "PASS",
+      "execution_date": "2026-11-01",
+      "evidence": [
+        "docs/PLANTNET_LIVE_TEST_20261101.md",
+        "evidence/identification-live/device/genuine-result.json",
+        "evidence/identification-live/native-genuine.txt",
+        "evidence/identification-live/device/restart-result.json",
+        "evidence/identification-live/device/offline-error-result.json",
+        "evidence/identification-live/device/offline-manual-restart.json",
+        "evidence/identification-live/provider-metadata.json"
+      ]
+    },
+    {
+      "criterion": "AC-12.03",
+      "status": "PASS",
+      "execution_date": "2026-11-01",
+      "evidence": [
+        "evidence/billing/catalogue-probe.txt",
+        "evidence/billing/catalogue-probe.json",
+        "evidence/release-followup/code11-genuine-results.json",
+        "evidence/release-followup/amazon-code11-dex-provenance.json",
+        "docs/RELEASE_FOLLOWUP_20261101.md"
+      ]
+    },
+    {
+      "criterion": "AC-12.07",
+      "status": "PASS",
+      "execution_date": "2026-11-01",
+      "evidence": [
+        "evidence/billing/restore-receipt.txt",
+        "evidence/billing/restore-receipt.json",
+        "evidence/release-followup/code11-genuine-results.json",
+        "evidence/release-followup/amazon-code11-dex-provenance.json",
+        "docs/RELEASE_FOLLOWUP_20261101.md"
+      ]
+    }
+  ],
+  "identification": "Tested optional configuration; disabled by default pending release review. Consent, Cloudflare forwarding, Pl@ntNet processing and uncertainty described.",
+  "pending": [
+    "Publisher identity/contact, legal basis, rights and final privacy approval",
+    "Approved public origin and listing URL",
+    "Translated pages and qualified human review"
+  ],
+  "result": "PASS_SCOPED_PRODUCT_FACTS"
+}

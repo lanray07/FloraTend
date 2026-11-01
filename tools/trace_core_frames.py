@@ -38,7 +38,8 @@ def summarize(raw,pid):
 def main():
     metadata=adb('shell','dumpsys','package',PACKAGE).decode()
     assert 'versionCode=12' in metadata and 'DEBUGGABLE' not in metadata
-    assert 'ActiveInstrumentation{' not in adb('shell','dumpsys','activity','instrumentation').decode()
+    from measure_core_frames import assert_detached
+    assert_detached(adb('shell','dumpsys','activity','processes').decode())
     assert 'package:com.floratend.app.qa' not in adb('shell','pm','list','packages','com.floratend.app').decode().splitlines()
     workload=json.loads(adb('exec-out','cat',f'/sdcard/Android/data/{PACKAGE}/files/performance-workload.json'))
     assert workload['controlledFixture'] and all(workload[k]==120 for k in ['plants','schedules','journal','history'])

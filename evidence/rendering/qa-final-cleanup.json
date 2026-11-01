@@ -1,0 +1,17 @@
+{
+  "execution_date": "2026-11-01",
+  "package": "com.floratend.app.qa",
+  "freshPrivateBackup": true,
+  "backupArchiveSha256": "a3233cd00ebb93a115167bc9e27725b081281ae5ee31588fabdba83e07ce3914",
+  "databaseIntegrity": "ok",
+  "domainCounts": {
+    "plants": 0,
+    "schedules": 0,
+    "journal": 0,
+    "history": 0
+  },
+  "privatePhotoCount": 0,
+  "emptyDataGuardPassed": true,
+  "qaAndTestPackagesRemoved": true,
+  "mainAmazonPackageTouched": false
+}

@@ -198,7 +198,7 @@ class LocalizedUiTest {
     }
 
     private fun submit(command: String) {
-        rule.onNodeWithText(text(R.string.command),substring=false).performScrollTo().performTextReplacement(command)
+        rule.onNodeWithText(text(R.string.command),substring=false).performScrollTo();enterCommand(command)
         rule.onNodeWithText(text(R.string.run_command),substring=false).performScrollTo().performClick()
     }
 

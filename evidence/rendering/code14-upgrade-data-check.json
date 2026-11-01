@@ -1,0 +1,13 @@
+{
+  "beforeVersionCode": 13,
+  "afterVersionCode": 14,
+  "domainCounts": {
+    "plants": 120,
+    "schedules": 120,
+    "journal": 120,
+    "history": 120
+  },
+  "photosPreservedAndHashVerified": 120,
+  "instrumentationHasNoActivityRule": true,
+  "mainPackageAccessed": false
+}

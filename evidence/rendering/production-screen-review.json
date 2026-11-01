@@ -1,0 +1,16 @@
+{
+  "execution_date": "2026-11-01",
+  "versionCode": 14,
+  "checks": {
+    "todoOrFixme": 0,
+    "comingSoon": 0,
+    "emptyClickHandler": 0
+  },
+  "nativeEvidence": [
+    "evidence/rendering/verification.json",
+    "evidence/rendering/code14-native-command-compact.json",
+    "evidence/store-captures/run-20261101-213438/capture-manifest.json"
+  ],
+  "review": "Core collection, care actions, journal, text-command review/run, insights and settings controls have implemented callbacks. Identification default explicitly reports unavailable configuration with manual entry; voice service absence has a tested fallback. Neither unavailable configuration nor translated draft review is represented as working provider/recognition support.",
+  "scope": "Static production callback/placeholder inspection plus executed isolated native core flows and 176 captured scenes; not proof that every locale or external service is approved."
+}

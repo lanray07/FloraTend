@@ -9,6 +9,12 @@ import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
 import androidx.work.*
 import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import java.time.LocalDate
@@ -16,12 +22,33 @@ import java.util.concurrent.TimeUnit
 
 object Reminders {
     val lock = Mutex()
+    private val schedulingLock=Mutex()
+    private val scope=CoroutineScope(SupervisorJob()+Dispatchers.IO)
     fun refresh(context: Context) {
-        WorkManager.getInstance(context).enqueueUniqueWork("care-refresh", ExistingWorkPolicy.REPLACE, OneTimeWorkRequestBuilder<ReminderWorker>().build())
+        val app=context.applicationContext as FloraApp
+        scope.launch { synchronize(app,refresh=true) }
     }
     fun schedule(context: Context) {
-        val request = PeriodicWorkRequestBuilder<ReminderWorker>(12, TimeUnit.HOURS).build()
-        WorkManager.getInstance(context).enqueueUniquePeriodicWork("care-checks", ExistingPeriodicWorkPolicy.KEEP, request)
+        val app=context.applicationContext as FloraApp
+        scope.launch {
+            app.settings.reminders.distinctUntilChanged().collect { synchronize(app,refresh=false) }
+        }
+    }
+    private suspend fun synchronize(app:FloraApp,refresh:Boolean)=schedulingLock.withLock {
+        val work=WorkManager.getInstance(app)
+        // Read inside the scheduling lock: a queued refresh must not resurrect disabled work.
+        if(!app.settings.reminders.first()) {
+            lock.withLock {
+                work.cancelUniqueWork("care-checks")
+                work.cancelUniqueWork("care-refresh")
+                app.getSystemService(NotificationManager::class.java).cancel(100)
+            }
+        } else {
+            work.enqueueUniquePeriodicWork("care-checks",ExistingPeriodicWorkPolicy.KEEP,
+                PeriodicWorkRequestBuilder<ReminderWorker>(12,TimeUnit.HOURS).build())
+            if(refresh) work.enqueueUniqueWork("care-refresh",ExistingWorkPolicy.REPLACE,
+                OneTimeWorkRequestBuilder<ReminderWorker>().build())
+        }
     }
 }
 class ReminderWorker(context: Context, params: WorkerParameters) : CoroutineWorker(context, params) {

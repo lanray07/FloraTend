@@ -23,9 +23,13 @@ try {
  $network | Set-Content -LiteralPath (Join-Path $runFolder 'network-state.txt') -Encoding utf8
  if(($network -join '') -notmatch 'none'){throw 'Offline capture requires no active network'}
  $result=Adb @('shell','am','instrument','-w','-e','class','com.floratend.app.StoreScreenshotTest','com.floratend.app.qa.test/androidx.test.runner.AndroidJUnitRunner')
- $result | Set-Content -LiteralPath (Join-Path $runFolder 'instrumentation.txt') -Encoding utf8
+ $privateLogs=Join-Path $env:USERPROFILE '.android/floratend-store-capture-logs'
+ [IO.Directory]::CreateDirectory($privateLogs)|Out-Null
+ $result | Set-Content -LiteralPath (Join-Path $privateLogs ((Split-Path -Leaf $runFolder)+'-instrumentation.txt')) -Encoding utf8
+ $passed=($result -join "`n") -match 'OK \(1 test\)' -and ($result -join "`n") -notmatch 'Error in |FAILURES!!!|Process crashed'
+ @{test='StoreScreenshotTest.captureEightScenesInEveryAppLocale';testCount=1;result=$(if($passed){'PASS'}else{'FAIL'});rawOutputRetainedPrivately=$true;realAmazonPurchase=$false}|ConvertTo-Json|Set-Content -LiteralPath (Join-Path $runFolder 'instrumentation-summary.json') -Encoding utf8
  Adb @('pull','/sdcard/Android/data/com.floratend.app.qa/files/store-captures/.',$runFolder) | Out-Null
- if(($result -join "`n") -notmatch 'OK \(1 test\)' -or ($result -join "`n") -match 'Error in |FAILURES!!!|Process crashed'){throw 'Store capture failed; partial evidence retained'}
+ if(!$passed){throw 'Store capture failed; partial evidence retained'}
  $manifest=Get-Content -LiteralPath (Join-Path $runFolder 'capture-manifest.json') -Raw | ConvertFrom-Json
  $expected=(Get-Content localization/locales.json -Raw | ConvertFrom-Json).Count
  if($manifest.locales.Count -ne $expected){throw 'Incomplete locale capture matrix'}

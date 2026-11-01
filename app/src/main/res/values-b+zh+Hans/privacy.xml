@@ -1,0 +1,3 @@
+<resources>
+  <string name="purchase_verification_privacy">"Premium验证会通过HTTPS将此应用的Amazon用户ID和购买收据ID发送至由Cloudflare托管的FloraTend服务器，再由服务器向Amazon核验。不会发送植物记录、笔记或照片。"</string>
+</resources>

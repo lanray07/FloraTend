@@ -65,6 +65,12 @@
       "value": "\"Optional photo identification uses Pl@ntNet only after you choose Send photo. You can enter the species manually.\""
     }
   },
+  "purchase_verification_privacy": {
+    "type": "string",
+    "values": {
+      "value": "\"Premium verification sends your Amazon app user ID and purchase receipt ID over HTTPS to the FloraTend server hosted by Cloudflare, which checks them with Amazon. Plant records, notes and photos are not included.\""
+    }
+  },
   "acquired": {
     "type": "string",
     "values": {

@@ -74,7 +74,7 @@ class LocaleBoundaryTest {
             rule.activityRule.scenario.onActivity { activity -> activity.setContent {
                 MaterialTheme { Column {
                     Photo(image.absolutePath)
-                    PlantCard(Plant(id=id,name="Controlled herb",species="Scientific identifier",category="Herb",location="Controlled room"),emptyList()) {}
+                    PlantCard(Plant(id=id,name="Controlled herb",species="Scientific identifier",category="Herb",location="Controlled room"),null) {}
                 } }
             } }
             rule.waitForIdle()

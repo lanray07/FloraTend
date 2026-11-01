@@ -1,0 +1,38 @@
+{
+  "versionCode": 13,
+  "phases": [
+    {
+      "phase": "navigation",
+      "frames": 15,
+      "jankyFrames": 6,
+      "jankyPercent": 40.0,
+      "frameP95Ms": 150
+    },
+    {
+      "phase": "focus",
+      "frames": 5,
+      "jankyFrames": 2,
+      "jankyPercent": 40.0,
+      "frameP95Ms": 38
+    },
+    {
+      "phase": "typing",
+      "frames": 13,
+      "jankyFrames": 0,
+      "jankyPercent": 0.0,
+      "frameP95Ms": 10
+    },
+    {
+      "phase": "dismissal",
+      "frames": 6,
+      "jankyFrames": 2,
+      "jankyPercent": 33.33,
+      "frameP95Ms": 32
+    }
+  ],
+  "captureSha256": "44981776e524007e79e2dd5446b6bd2cfeb08b4810d4fffe219aab339e4c775d",
+  "instrumentationDetached": true,
+  "result": "DIAGNOSTIC_ONLY",
+  "releaseGateApproved": false,
+  "scope": "Physical FireHD10 API28, isolated nondebuggable app; phase isolation changes the aggregate workload and cannot approve rendering."
+}

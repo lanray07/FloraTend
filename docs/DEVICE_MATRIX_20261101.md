@@ -1,5 +1,7 @@
 # Device coverage matrix — 1 November 2026
 
+Latest source14 follow-up: [rendering and native verification](RELEASE_REMAINING_20261101.md). New isolated tests cover native command editing, reminder policy/restart,22locale180%text bounds in physical landscape and compact override, and a fixed five-launch rendering comparison. Calendar maximum-frame guard still fails. Earlier rows below remain historical; compact overrides are not new hardware and scheduling policy is not unplugged energy evidence.
+
 This matrix separates declared targets, physical execution and simulated dimensions. It does not certify all devices accepted by an APK manifest. Source candidate:0.1.9/code10, minAPI26, targetAPI36. Actual Amazon-installed build:0.1.7/code8; new code10 genuine store regression is pending delivery.
 
 | Configuration | Executed scope | Result / evidence |

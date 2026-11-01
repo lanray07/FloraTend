@@ -1,0 +1,47 @@
+{
+  "versionCode": 13,
+  "apkSha256": "54ae06b25296c4042f24ee67d968bb536b4552bfc59c003d2aeb074dda925501",
+  "package": "com.floratend.app.perf",
+  "debuggable": false,
+  "instrumentationDetached": true,
+  "qaPackageAbsent": true,
+  "compileStateReset": false,
+  "compileState": "Natural install/update compiler state; Fire rejects shell profile reset as system-only",
+  "compilerState": [
+    {
+      "abi": "arm64",
+      "status": "speed-profile",
+      "reason": "install"
+    }
+  ],
+  "manualSpeedDiagnostic": false,
+  "seededPlantPhotos": 120,
+  "screens": [
+    {
+      "screen": "voice",
+      "frames": 64,
+      "jankyFrames": 19,
+      "jankyPercent": 29.69,
+      "frameP95Ms": 53,
+      "captureSha256": "d5b531ec46960f61b1917cbb9d75384f6c234953f27c85e1141a83fdd18e9b21",
+      "thresholdPassed": false
+    }
+  ],
+  "populatedWorkload": {
+    "plants": 120,
+    "schedules": 120,
+    "journal": 120,
+    "history": 120,
+    "controlledFixture": true,
+    "genuineAmazonPurchase": false
+  },
+  "voiceInteraction": "Typed review only; command not executed",
+  "thresholds": {
+    "frameP95Ms": 32,
+    "jankyPercent": 10
+  },
+  "result": "DIAGNOSTIC_THRESHOLDS_MISSED",
+  "scope": "Controlled ordinary core navigation/scrolling on physical Fire HD10 API28. OS gesture input; raw traces/captures private. Not Amazon billing, other hardware, battery or worst-case performance certification.",
+  "releaseGateApproved": false,
+  "focusedDiagnosticScreen": "voice"
+}

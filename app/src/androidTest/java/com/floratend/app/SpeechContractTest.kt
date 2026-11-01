@@ -65,7 +65,7 @@ class SpeechContractTest {
         rule.onNodeWithText(rule.activity.getString(R.string.mic_denied)).assertExists()
         assertEquals(PackageManager.PERMISSION_DENIED,app.checkSelfPermission(Manifest.permission.RECORD_AUDIO))
         assertEquals(0,prefs.getInt("starts",0))
-        rule.onNodeWithText("Review or type a command").performTextInput("Read my reminders.")
+        enterCommand("Read my reminders.")
         rule.onNodeWithText("Run command").performScrollTo().performClick()
         rule.onNodeWithText(rule.activity.resources.getQuantityString(R.plurals.reminder_count,0,0),substring=true).assertExists()
         report("permission-denial",JSONObject().put("permissionRequestedAfterTap",true).put("denialHandled",true).put("typedCommandStillWorks",true))
@@ -75,7 +75,7 @@ class SpeechContractTest {
         rule.onNodeWithText("Push to talk").performScrollTo().performClick()
         rule.onNodeWithText("Listening…").assertExists()
         rule.waitUntil(10000) { rule.activity.transcript=="Add a new plant." }
-        rule.onNodeWithText("Review or type a command").assertTextContains("Add a new plant.")
+        assertCommand("Add a new plant.")
         rule.onNodeWithText("Plant details",substring=false).assertDoesNotExist()
         rule.onNodeWithText("Run command").performScrollTo().performClick()
         rule.onNodeWithText("Plant details",substring=false).assertExists()

@@ -1,0 +1,3 @@
+<resources>
+  <string name="purchase_verification_privacy">"Verifikasi Premium mengirim ID pengguna Amazon untuk aplikasi ini dan ID bukti pembelian Anda melalui HTTPS ke server FloraTend yang dihosting oleh Cloudflare, lalu memverifikasinya dengan Amazon. Catatan tanaman, catatan pribadi, dan foto tidak disertakan."</string>
+</resources>

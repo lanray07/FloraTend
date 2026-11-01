@@ -46,6 +46,7 @@ class LocalizedSurfaceContractTest {
             for(id in listOf(R.string.dark_theme,R.string.spoken_feedback,R.string.imperial,R.string.care_reminders)) {
                 rule.onNodeWithContentDescription(rule.activity.getString(id),substring=false).performScrollTo().assertIsDisplayed()
             }
+            rule.onNodeWithText(rule.activity.getString(R.string.purchase_verification_privacy),substring=false).performScrollTo().assertIsDisplayed()
             nav(R.string.voice)
             rule.onNodeWithText(rule.activity.getString(R.string.voice_intro),substring=false).assertIsDisplayed()
             for(id in listOf(R.string.voice_privacy,R.string.command,R.string.voice_examples)) {

@@ -104,7 +104,15 @@ class LocalizedScreenshotAssets(unittest.TestCase):
             catalogue=json.loads((ROOT/'localization/locales.json').read_text(encoding='utf-8'))
             self.assertEqual({r['locale'] for r in catalogue},{r['locale'] for r in manifest['locales']})
         self.assertIn('none', (run / 'network-state.txt').read_text(encoding='utf-8-sig'))
-        self.assertIn('OK (1 test)', (run / 'instrumentation.txt').read_text(encoding='utf-8-sig'))
+        summary=run / 'instrumentation-summary.json'
+        if summary.exists():
+            result=json.loads(summary.read_text(encoding='utf-8-sig'))
+            self.assertEqual('PASS',result['result'])
+            self.assertEqual(1,result['testCount'])
+            self.assertTrue(result['rawOutputRetainedPrivately'])
+            self.assertFalse(result['realAmazonPurchase'])
+        else:
+            self.assertIn('OK (1 test)', (run / 'instrumentation.txt').read_text(encoding='utf-8-sig'))
         for locale in manifest['locales']:
             self.assertEqual(SCENES, {s['scene'] for s in locale['scenes']})
             for scene in locale['scenes']:

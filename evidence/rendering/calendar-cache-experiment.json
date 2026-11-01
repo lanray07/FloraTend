@@ -1,0 +1,30 @@
+{
+  "result": "DIAGNOSTIC_ONLY",
+  "releaseGateApproved": false,
+  "experiment": "Remember Calendar plant names, distinct formatted dates and filtered schedules",
+  "apkSha256": "72ac28becfd7ed041764c47589dd02a5a8ec6c17e2e8aa5ebdc1a29d13c0020b",
+  "rows": [
+    {
+      "trial": 1,
+      "frames": 36,
+      "p95Ms": 350,
+      "maxBucketMs": 350
+    },
+    {
+      "trial": 2,
+      "frames": 32,
+      "p95Ms": 300,
+      "maxBucketMs": 350
+    },
+    {
+      "trial": 3,
+      "frames": 31,
+      "p95Ms": 300,
+      "maxBucketMs": 300
+    }
+  ],
+  "sourceSha256": "ebf270a38c9f88896820c976ca8727500070b081b2dbed765721b8e9c11fa427",
+  "retained": false,
+  "conclusion": "Three focused entry diagnostics still have 300-350ms buckets; caching did not resolve the cold entry stall. Reverted, no promotion to release evidence.",
+  "patch": "--- retained/Screens.kt\n+++ experiment/Screens.kt\n@@ -41,9 +41,12 @@\n     LazyRow { item { FilterChip(selected=filter.isEmpty(),onClick={filter=\"\"},label={Text(s(R.string.all))}) };items(plants,key={it.id}) { p -> FilterChip(selected=filter==p.id,onClick={filter=p.id},label={Text(p.name)}) } }\n     Row(Modifier.horizontalScroll(rememberScrollState())) { FilterChip(selected=type.isEmpty(),onClick={type=\"\"},label={Text(s(R.string.all))});listOf(\"soil\",\"water\",\"fertilise\",\"prune\",\"repot\",\"clean\",\"pest\",\"custom\").forEach { key -> FilterChip(selected=type==key,onClick={type=key},label={Text(careLabel(key))}) } }\n     val until=LocalDate.now().plusDays(when(view){0->0;1->7;else->30}).toString()\n-    val visible=schedules.filter { (filter.isEmpty() || it.plantId==filter) && (type.isEmpty() || it.type==type) && it.nextDate<=until }\n+    val visible=remember(schedules,filter,type,until) { schedules.filter { (filter.isEmpty() || it.plantId==filter) && (type.isEmpty() || it.type==type) && it.nextDate<=until } }\n+    val plantNames=remember(plants) { plants.associate { it.id to it.name } }\n+    val dateLocale=Locale.getDefault()\n+    val dates=remember(schedules,dateLocale) { schedules.map { it.nextDate }.distinct().associateWith(::formatDate) }\n     if(visible.isEmpty()) Empty(s(R.string.no_tasks),s(R.string.no_tasks_body))\n-    LazyColumn(verticalArrangement=Arrangement.spacedBy(12.dp)) { items(visible,key={it.id}) { schedule -> Card(Modifier.fillMaxWidth()) { Column(Modifier.padding(16.dp)) { Text(plants.find { it.id==schedule.plantId }?.name.orEmpty(),style=MaterialTheme.typography.titleLarge);Text(careLabel(schedule.type));Text(formatDate(schedule.nextDate));if(schedule.paused) Text(s(R.string.paused));FlowRow(horizontalArrangement=Arrangement.spacedBy(4.dp)) {TextButton(enabled=!schedule.paused,onClick={onComplete(schedule)}){Text(s(R.string.record_care))};TextButton(onClick={vm.schedule(schedule.copy(nextDate=LocalDate.now().plusDays(1).toString()))}){Text(s(R.string.snooze))};TextButton(onClick={vm.schedule(schedule.copy(paused=!schedule.paused))}){Text(s(if(schedule.paused) R.string.resume else R.string.pause))};TextButton(onClick={newDate=schedule.nextDate;reschedule=schedule}){Text(s(R.string.reschedule))}} } } } }\n+    LazyColumn(verticalArrangement=Arrangement.spacedBy(12.dp)) { items(visible,key={it.id}) { schedule -> Card(Modifier.fillMaxWidth()) { Column(Modifier.padding(16.dp)) { Text(plantNames[schedule.plantId].orEmpty(),style=MaterialTheme.typography.titleLarge);Text(careLabel(schedule.type));Text(dates.getValue(schedule.nextDate));if(schedule.paused) Text(s(R.string.paused));FlowRow(horizontalArrangement=Arrangement.spacedBy(4.dp)) {TextButton(enabled=!schedule.paused,onClick={onComplete(schedule)}){Text(s(R.string.record_care))};TextButton(onClick={vm.schedule(schedule.copy(nextDate=LocalDate.now().plusDays(1).toString()))}){Text(s(R.string.snooze))};TextButton(onClick={vm.schedule(schedule.copy(paused=!schedule.paused))}){Text(s(if(schedule.paused) R.string.resume else R.string.pause))};TextButton(onClick={newDate=schedule.nextDate;reschedule=schedule}){Text(s(R.string.reschedule))}} } } } }\n     reschedule?.let { schedule -> AlertDialog(onDismissRequest={reschedule=null},title={Text(s(R.string.reschedule))},text={Field(newDate,R.string.date_iso,{newDate=it})},confirmButton={TextButton(enabled=runCatching { LocalDate.parse(newDate) }.isSuccess,onClick={vm.schedule(schedule.copy(nextDate=newDate));reschedule=null}){Text(s(R.string.save))}},dismissButton={TextButton(onClick={reschedule=null}){Text(s(R.string.cancel))}}) }\n }\n \n"
+}

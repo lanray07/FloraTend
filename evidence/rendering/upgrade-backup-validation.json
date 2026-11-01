@@ -1,0 +1,14 @@
+{
+  "execution_date": "2026-11-01",
+  "versionCode": 13,
+  "databaseIntegrity": "ok",
+  "domainCounts": {
+    "plants": 120,
+    "schedules": 120,
+    "journal": 120,
+    "history": 120
+  },
+  "photosHostHashVerified": 120,
+  "recordsRetainedForInPlaceUpdate": true,
+  "mainPackageAccessed": false
+}

@@ -1,0 +1,3 @@
+<resources>
+  <string name="purchase_verification_privacy">"La verificación de Premium envía tu identificador de usuario de Amazon para esta aplicación y el identificador del recibo de compra mediante HTTPS al servidor de FloraTend alojado en Cloudflare, que los verifica con Amazon. No se incluyen registros de plantas, notas ni fotos."</string>
+</resources>

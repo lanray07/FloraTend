@@ -1,0 +1,3 @@
+<resources>
+  <string name="purchase_verification_privacy">"Premium doğrulaması, bu uygulamaya ait Amazon kullanıcı kimliğinizi ve satın alma makbuzu kimliğinizi HTTPS üzerinden Cloudflare üzerinde barındırılan FloraTend sunucusuna gönderir. Sunucu bunları Amazon ile doğrular. Bitki kayıtları, notlar ve fotoğraflar gönderilmez."</string>
+</resources>
