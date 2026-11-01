@@ -2341,7 +2341,8 @@
       "evidence/release-followup/screenshot-full-frame-native-pixels.txt",
       "assets/screenshots/localized/localized-manifest.json",
       "tools/test_localized_screenshot_assets.py",
-      "evidence/release-followup/supporting-captions-xml-decoding-final-validation.txt"
+      "evidence/release-followup/supporting-captions-xml-decoding-final-validation.txt",
+      "evidence/release-followup/supporting-captions-portable-provenance-validation.txt"
     ],
     "corrective_action": "Retain separate qualified language/readability review; no human approval inferred."
   },
@@ -2370,7 +2371,8 @@
       "evidence/store-captures/run-20261101-170304/capture-manifest.json",
       "app/src/androidTest/java/com/floratend/app/StoreScreenshotTest.kt",
       "evidence/release-followup/screenshot-full-frame-native-pixels.txt",
-      "evidence/release-followup/supporting-captions-xml-decoding-final-validation.txt"
+      "evidence/release-followup/supporting-captions-xml-decoding-final-validation.txt",
+      "evidence/release-followup/supporting-captions-portable-provenance-validation.txt"
     ],
     "corrective_action": "Obtain qualified language/region review; no wording approval inferred from correct resource selection."
   },
@@ -2379,13 +2381,14 @@
     "execution_date": "2026-11-01",
     "environment": "Windows/Pillow; source12real native offline capture set;120finalcompositions",
     "status": "PASS",
-    "actual_result": "All120draft store images now render supporting captions sourced from the matching native locale resource bundle, with resource-key/hash provenance. Tests verify exact resource text, nonempty captions, at most2lines, reserved-space bounds, export hashes and full native-frame pixel preservation. All15contact sheets rebuilt using final helper. Qualified translation/naturalness/readability/claims approval remains pending. Visual Japanese review exposed Android XML wrapper quotes in56captions; decoded resource semantics and regenerated all120drafts. The corrected caption/provenance/full-frame suite passed;48supporting tests passed overall. The failing pre-regeneration comparison is retained.",
+    "actual_result": "All120draft store images now render supporting captions sourced from the matching native locale resource bundle, with resource-key/hash provenance. Tests verify exact resource text, nonempty captions, at most2lines, reserved-space bounds, export hashes and full native-frame pixel preservation. All15contact sheets rebuilt using final helper. Qualified translation/naturalness/readability/claims approval remains pending. Visual Japanese review exposed Android XML wrapper quotes in56captions; decoded resource semantics and regenerated all120drafts. The corrected caption/provenance/full-frame suite passed;48supporting tests passed overall. The failing pre-regeneration comparison is retained. Caption-source hashes explicitly useUTF8/LF so WindowsCRLF and LinuxLF checkouts preserve provenance; content changes still fail.49supporting tests pass locally; exact-head CI remains required.",
     "evidence": [
       "evidence/release-followup/supporting-captions-xml-decoding-final-validation.txt",
       "evidence/release-followup/supporting-captions-contact-sheet-final.txt",
       "assets/screenshots/localized/localized-manifest.json",
       "tools/compose_localized_screenshots.py",
-      "evidence/release-followup/supporting-captions-xml-decoding-compose.txt"
+      "evidence/release-followup/supporting-captions-xml-decoding-compose.txt",
+      "evidence/release-followup/supporting-captions-portable-provenance-validation.txt"
     ],
     "corrective_action": "Keep all captions and listings marked drafts until qualified human review; no market-language approval inferred."
   },
@@ -2394,13 +2397,14 @@
     "execution_date": "2026-11-01",
     "environment": "Windows/Pillow; source12real native offline capture set;120finalcompositions",
     "status": "PASS",
-    "actual_result": "All120draft store images now render supporting captions sourced from the matching native locale resource bundle, with resource-key/hash provenance. Tests verify exact resource text, nonempty captions, at most2lines, reserved-space bounds, export hashes and full native-frame pixel preservation. All15contact sheets rebuilt using final helper. Qualified translation/naturalness/readability/claims approval remains pending. Visual Japanese review exposed Android XML wrapper quotes in56captions; decoded resource semantics and regenerated all120drafts. The corrected caption/provenance/full-frame suite passed;48supporting tests passed overall. The failing pre-regeneration comparison is retained.",
+    "actual_result": "All120draft store images now render supporting captions sourced from the matching native locale resource bundle, with resource-key/hash provenance. Tests verify exact resource text, nonempty captions, at most2lines, reserved-space bounds, export hashes and full native-frame pixel preservation. All15contact sheets rebuilt using final helper. Qualified translation/naturalness/readability/claims approval remains pending. Visual Japanese review exposed Android XML wrapper quotes in56captions; decoded resource semantics and regenerated all120drafts. The corrected caption/provenance/full-frame suite passed;48supporting tests passed overall. The failing pre-regeneration comparison is retained. Caption-source hashes explicitly useUTF8/LF so WindowsCRLF and LinuxLF checkouts preserve provenance; content changes still fail.49supporting tests pass locally; exact-head CI remains required.",
     "evidence": [
       "evidence/release-followup/supporting-captions-xml-decoding-final-validation.txt",
       "evidence/release-followup/supporting-captions-contact-sheet-final.txt",
       "assets/screenshots/localized/localized-manifest.json",
       "tools/compose_localized_screenshots.py",
-      "evidence/release-followup/supporting-captions-xml-decoding-compose.txt"
+      "evidence/release-followup/supporting-captions-xml-decoding-compose.txt",
+      "evidence/release-followup/supporting-captions-portable-provenance-validation.txt"
     ],
     "corrective_action": "Keep all captions and listings marked drafts until qualified human review; no market-language approval inferred."
   }

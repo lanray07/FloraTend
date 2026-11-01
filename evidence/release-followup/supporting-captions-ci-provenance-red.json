@@ -1,0 +1,10 @@
+{
+  "ciRun": 41334322434,
+  "head": "f2bdb6269dd3bc96cf8280c4f85dfc04e15465e6",
+  "result": "FAIL",
+  "failedStep": "Supporting regression tests",
+  "failedContract": "caption_resource_sha256 raw resource bytes",
+  "failureCount": 104,
+  "diagnosis": "CRLF Windows checkout vs LF Linux checkout; source characters unchanged. Image pixel preservation tests passed.",
+  "correctiveAction": "Explicit UTF8/LF canonical source hash, with Windows/Linux equivalence and content-change detection regression; no image or source-content change required."
+}

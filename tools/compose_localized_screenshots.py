@@ -11,6 +11,11 @@ MAPPING={'en-IN':'en-GB','es-MX':'es-419'}
 CAPTION_KEYS=['tagline','check_first','search','care_reminders','journal_intro','command','local_records','insights_intro']
 def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 
+def resource_sha(path):
+    # Git checkouts may use CRLF on Windows and LF on CI. Hash the documented
+    # UTF-8/LF representation; preserve every other character of the source.
+    return hashlib.sha256(path.read_text(encoding='utf-8-sig').encode('utf-8')).hexdigest()
+
 def caption_text(value):
     # Android's outer XML string quotes preserve whitespace; they are not UI ink.
     if len(value)>=2 and value.startswith('"') and value.endswith('"'):
@@ -105,7 +110,7 @@ def compose(captures,out):
             canvas.save(destination,optimize=True)
             exported=validate_png(destination);assert exported['store_dimensions_valid']
             rows.append({'listing_locale':locale,'native_app_locale':native,'scene':scene,'headline':title,'headline_lines':lines,'headline_font_px':face.size,'capture':str(raw.relative_to(ROOT)).replace('\\','/'),'capture_sha256':sha(raw),'export':str(destination.relative_to(ROOT)).replace('\\','/'),'export_sha256':sha(destination),'width':2560,'height':1600,'status':'DRAFT_PENDING_HUMAN_REVIEW','actual_rendered_ui':True,'offline_capture':True,'demonstration_records':True})
-            rows[-1].update({'supporting_caption':caption,'caption_lines':caption_lines,'caption_line_bounds':caption_bounds,'caption_font_px':36,'caption_resource_key':caption_key,'caption_resource_source':caption_source.relative_to(ROOT).as_posix(),'caption_resource_sha256':sha(caption_source),'native_frame_bounds':[x,y,x+screen.width,y+screen.height],'native_frame_max_size':[2360,1050]})
+            rows[-1].update({'supporting_caption':caption,'caption_lines':caption_lines,'caption_line_bounds':caption_bounds,'caption_font_px':36,'caption_resource_key':caption_key,'caption_resource_source':caption_source.relative_to(ROOT).as_posix(),'caption_resource_sha256':resource_sha(caption_source),'caption_resource_hash_encoding':'utf8-lf','native_frame_bounds':[x,y,x+screen.width,y+screen.height],'native_frame_max_size':[2360,1050]})
     report={'version_code':source['versionCode'],'version_name':source['versionName'],'raw_app_locales':len(source['locales']),'store_locales':len(headlines),'images':len(rows),'human_language_approval':False,'region_mapping':MAPPING,'screenshots':rows}
     report['device']={'model':'KFTRWI','name':'Fire HD 10 (2021)','api':28,'capture_width':1920,'capture_height':1200}
     (out/'localized-manifest.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

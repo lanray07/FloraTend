@@ -44,7 +44,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
-      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
       "native_frame_bounds": [
         440,
         480,
@@ -54,7 +54,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-GB",
@@ -90,7 +91,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
-      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
       "native_frame_bounds": [
         440,
         480,
@@ -100,7 +101,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-GB",
@@ -136,7 +138,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
-      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
       "native_frame_bounds": [
         440,
         480,
@@ -146,7 +148,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-GB",
@@ -182,7 +185,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
-      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
       "native_frame_bounds": [
         440,
         480,
@@ -192,7 +195,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-GB",
@@ -228,7 +232,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
-      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
       "native_frame_bounds": [
         440,
         480,
@@ -238,7 +242,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-GB",
@@ -274,7 +279,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
-      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
       "native_frame_bounds": [
         440,
         480,
@@ -284,7 +289,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-GB",
@@ -320,7 +326,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
-      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
       "native_frame_bounds": [
         440,
         480,
@@ -330,7 +336,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-GB",
@@ -366,7 +373,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
-      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
       "native_frame_bounds": [
         440,
         480,
@@ -376,7 +383,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-US",
@@ -412,7 +420,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
-      "caption_resource_sha256": "65068dbf0adf910a0250168d1a069aaa9e0328d7dd34a52a146404a34305fd41",
+      "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
       "native_frame_bounds": [
         440,
         480,
@@ -422,7 +430,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-US",
@@ -458,7 +467,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
-      "caption_resource_sha256": "65068dbf0adf910a0250168d1a069aaa9e0328d7dd34a52a146404a34305fd41",
+      "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
       "native_frame_bounds": [
         440,
         480,
@@ -468,7 +477,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-US",
@@ -504,7 +514,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
-      "caption_resource_sha256": "65068dbf0adf910a0250168d1a069aaa9e0328d7dd34a52a146404a34305fd41",
+      "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
       "native_frame_bounds": [
         440,
         480,
@@ -514,7 +524,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-US",
@@ -550,7 +561,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
-      "caption_resource_sha256": "65068dbf0adf910a0250168d1a069aaa9e0328d7dd34a52a146404a34305fd41",
+      "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
       "native_frame_bounds": [
         440,
         480,
@@ -560,7 +571,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-US",
@@ -596,7 +608,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
-      "caption_resource_sha256": "65068dbf0adf910a0250168d1a069aaa9e0328d7dd34a52a146404a34305fd41",
+      "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
       "native_frame_bounds": [
         440,
         480,
@@ -606,7 +618,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-US",
@@ -642,7 +655,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
-      "caption_resource_sha256": "65068dbf0adf910a0250168d1a069aaa9e0328d7dd34a52a146404a34305fd41",
+      "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
       "native_frame_bounds": [
         440,
         480,
@@ -652,7 +665,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-US",
@@ -688,7 +702,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
-      "caption_resource_sha256": "65068dbf0adf910a0250168d1a069aaa9e0328d7dd34a52a146404a34305fd41",
+      "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
       "native_frame_bounds": [
         440,
         480,
@@ -698,7 +712,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-US",
@@ -734,7 +749,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
-      "caption_resource_sha256": "65068dbf0adf910a0250168d1a069aaa9e0328d7dd34a52a146404a34305fd41",
+      "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
       "native_frame_bounds": [
         440,
         480,
@@ -744,7 +759,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-AU",
@@ -780,7 +796,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
-      "caption_resource_sha256": "350efcb29ebd91bb1a5d10ed5de3f6e0b65a21f59fdf98681fb027c150fe593a",
+      "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
       "native_frame_bounds": [
         440,
         480,
@@ -790,7 +806,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-AU",
@@ -826,7 +843,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
-      "caption_resource_sha256": "350efcb29ebd91bb1a5d10ed5de3f6e0b65a21f59fdf98681fb027c150fe593a",
+      "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
       "native_frame_bounds": [
         440,
         480,
@@ -836,7 +853,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-AU",
@@ -872,7 +890,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
-      "caption_resource_sha256": "350efcb29ebd91bb1a5d10ed5de3f6e0b65a21f59fdf98681fb027c150fe593a",
+      "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
       "native_frame_bounds": [
         440,
         480,
@@ -882,7 +900,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-AU",
@@ -918,7 +937,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
-      "caption_resource_sha256": "350efcb29ebd91bb1a5d10ed5de3f6e0b65a21f59fdf98681fb027c150fe593a",
+      "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
       "native_frame_bounds": [
         440,
         480,
@@ -928,7 +947,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-AU",
@@ -964,7 +984,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
-      "caption_resource_sha256": "350efcb29ebd91bb1a5d10ed5de3f6e0b65a21f59fdf98681fb027c150fe593a",
+      "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
       "native_frame_bounds": [
         440,
         480,
@@ -974,7 +994,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-AU",
@@ -1010,7 +1031,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
-      "caption_resource_sha256": "350efcb29ebd91bb1a5d10ed5de3f6e0b65a21f59fdf98681fb027c150fe593a",
+      "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
       "native_frame_bounds": [
         440,
         480,
@@ -1020,7 +1041,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-AU",
@@ -1056,7 +1078,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
-      "caption_resource_sha256": "350efcb29ebd91bb1a5d10ed5de3f6e0b65a21f59fdf98681fb027c150fe593a",
+      "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
       "native_frame_bounds": [
         440,
         480,
@@ -1066,7 +1088,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-AU",
@@ -1102,7 +1125,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
-      "caption_resource_sha256": "350efcb29ebd91bb1a5d10ed5de3f6e0b65a21f59fdf98681fb027c150fe593a",
+      "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
       "native_frame_bounds": [
         440,
         480,
@@ -1112,7 +1135,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-IN",
@@ -1148,7 +1172,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
-      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
       "native_frame_bounds": [
         440,
         480,
@@ -1158,7 +1182,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-IN",
@@ -1194,7 +1219,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
-      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
       "native_frame_bounds": [
         440,
         480,
@@ -1204,7 +1229,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-IN",
@@ -1240,7 +1266,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
-      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
       "native_frame_bounds": [
         440,
         480,
@@ -1250,7 +1276,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-IN",
@@ -1286,7 +1313,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
-      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
       "native_frame_bounds": [
         440,
         480,
@@ -1296,7 +1323,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-IN",
@@ -1332,7 +1360,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
-      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
       "native_frame_bounds": [
         440,
         480,
@@ -1342,7 +1370,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-IN",
@@ -1378,7 +1407,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
-      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
       "native_frame_bounds": [
         440,
         480,
@@ -1388,7 +1417,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-IN",
@@ -1424,7 +1454,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
-      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
       "native_frame_bounds": [
         440,
         480,
@@ -1434,7 +1464,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "en-IN",
@@ -1470,7 +1501,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values/strings.xml",
-      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
       "native_frame_bounds": [
         440,
         480,
@@ -1480,7 +1511,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "es-ES",
@@ -1516,7 +1548,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
-      "caption_resource_sha256": "c6df93caa7cba9d704ba50eb12f4fcf5fd4ca354b4d178b177ef94cfaa51c550",
+      "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
       "native_frame_bounds": [
         440,
         480,
@@ -1526,7 +1558,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "es-ES",
@@ -1562,7 +1595,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
-      "caption_resource_sha256": "c6df93caa7cba9d704ba50eb12f4fcf5fd4ca354b4d178b177ef94cfaa51c550",
+      "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
       "native_frame_bounds": [
         440,
         480,
@@ -1572,7 +1605,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "es-ES",
@@ -1608,7 +1642,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
-      "caption_resource_sha256": "c6df93caa7cba9d704ba50eb12f4fcf5fd4ca354b4d178b177ef94cfaa51c550",
+      "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
       "native_frame_bounds": [
         440,
         480,
@@ -1618,7 +1652,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "es-ES",
@@ -1654,7 +1689,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
-      "caption_resource_sha256": "c6df93caa7cba9d704ba50eb12f4fcf5fd4ca354b4d178b177ef94cfaa51c550",
+      "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
       "native_frame_bounds": [
         440,
         480,
@@ -1664,7 +1699,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "es-ES",
@@ -1700,7 +1736,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
-      "caption_resource_sha256": "c6df93caa7cba9d704ba50eb12f4fcf5fd4ca354b4d178b177ef94cfaa51c550",
+      "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
       "native_frame_bounds": [
         440,
         480,
@@ -1710,7 +1746,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "es-ES",
@@ -1746,7 +1783,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
-      "caption_resource_sha256": "c6df93caa7cba9d704ba50eb12f4fcf5fd4ca354b4d178b177ef94cfaa51c550",
+      "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
       "native_frame_bounds": [
         440,
         480,
@@ -1756,7 +1793,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "es-ES",
@@ -1792,7 +1830,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
-      "caption_resource_sha256": "c6df93caa7cba9d704ba50eb12f4fcf5fd4ca354b4d178b177ef94cfaa51c550",
+      "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
       "native_frame_bounds": [
         440,
         480,
@@ -1802,7 +1840,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "es-ES",
@@ -1838,7 +1877,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
-      "caption_resource_sha256": "c6df93caa7cba9d704ba50eb12f4fcf5fd4ca354b4d178b177ef94cfaa51c550",
+      "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
       "native_frame_bounds": [
         440,
         480,
@@ -1848,7 +1887,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "es-MX",
@@ -1884,7 +1924,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
-      "caption_resource_sha256": "b80da49305e0c226cd0e0312d30b7666520eb89711da4d9e19a13db21fd51715",
+      "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
       "native_frame_bounds": [
         440,
         480,
@@ -1894,7 +1934,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "es-MX",
@@ -1930,7 +1971,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
-      "caption_resource_sha256": "b80da49305e0c226cd0e0312d30b7666520eb89711da4d9e19a13db21fd51715",
+      "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
       "native_frame_bounds": [
         440,
         480,
@@ -1940,7 +1981,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "es-MX",
@@ -1976,7 +2018,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
-      "caption_resource_sha256": "b80da49305e0c226cd0e0312d30b7666520eb89711da4d9e19a13db21fd51715",
+      "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
       "native_frame_bounds": [
         440,
         480,
@@ -1986,7 +2028,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "es-MX",
@@ -2022,7 +2065,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
-      "caption_resource_sha256": "b80da49305e0c226cd0e0312d30b7666520eb89711da4d9e19a13db21fd51715",
+      "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
       "native_frame_bounds": [
         440,
         480,
@@ -2032,7 +2075,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "es-MX",
@@ -2068,7 +2112,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
-      "caption_resource_sha256": "b80da49305e0c226cd0e0312d30b7666520eb89711da4d9e19a13db21fd51715",
+      "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
       "native_frame_bounds": [
         440,
         480,
@@ -2078,7 +2122,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "es-MX",
@@ -2114,7 +2159,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
-      "caption_resource_sha256": "b80da49305e0c226cd0e0312d30b7666520eb89711da4d9e19a13db21fd51715",
+      "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
       "native_frame_bounds": [
         440,
         480,
@@ -2124,7 +2169,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "es-MX",
@@ -2160,7 +2206,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
-      "caption_resource_sha256": "b80da49305e0c226cd0e0312d30b7666520eb89711da4d9e19a13db21fd51715",
+      "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
       "native_frame_bounds": [
         440,
         480,
@@ -2170,7 +2216,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "es-MX",
@@ -2206,7 +2253,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
-      "caption_resource_sha256": "b80da49305e0c226cd0e0312d30b7666520eb89711da4d9e19a13db21fd51715",
+      "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
       "native_frame_bounds": [
         440,
         480,
@@ -2216,7 +2263,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "fr-FR",
@@ -2252,7 +2300,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
-      "caption_resource_sha256": "4c7ee61dd3c6bd3e8ffb453cbe4bf6ca3d699e50ce9e148e6aa01b6271c1ab37",
+      "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
       "native_frame_bounds": [
         440,
         480,
@@ -2262,7 +2310,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "fr-FR",
@@ -2298,7 +2347,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
-      "caption_resource_sha256": "4c7ee61dd3c6bd3e8ffb453cbe4bf6ca3d699e50ce9e148e6aa01b6271c1ab37",
+      "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
       "native_frame_bounds": [
         440,
         480,
@@ -2308,7 +2357,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "fr-FR",
@@ -2344,7 +2394,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
-      "caption_resource_sha256": "4c7ee61dd3c6bd3e8ffb453cbe4bf6ca3d699e50ce9e148e6aa01b6271c1ab37",
+      "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
       "native_frame_bounds": [
         440,
         480,
@@ -2354,7 +2404,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "fr-FR",
@@ -2390,7 +2441,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
-      "caption_resource_sha256": "4c7ee61dd3c6bd3e8ffb453cbe4bf6ca3d699e50ce9e148e6aa01b6271c1ab37",
+      "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
       "native_frame_bounds": [
         440,
         480,
@@ -2400,7 +2451,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "fr-FR",
@@ -2436,7 +2488,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
-      "caption_resource_sha256": "4c7ee61dd3c6bd3e8ffb453cbe4bf6ca3d699e50ce9e148e6aa01b6271c1ab37",
+      "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
       "native_frame_bounds": [
         440,
         480,
@@ -2446,7 +2498,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "fr-FR",
@@ -2482,7 +2535,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
-      "caption_resource_sha256": "4c7ee61dd3c6bd3e8ffb453cbe4bf6ca3d699e50ce9e148e6aa01b6271c1ab37",
+      "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
       "native_frame_bounds": [
         440,
         480,
@@ -2492,7 +2545,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "fr-FR",
@@ -2528,7 +2582,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
-      "caption_resource_sha256": "4c7ee61dd3c6bd3e8ffb453cbe4bf6ca3d699e50ce9e148e6aa01b6271c1ab37",
+      "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
       "native_frame_bounds": [
         440,
         480,
@@ -2538,7 +2592,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "fr-FR",
@@ -2574,7 +2629,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
-      "caption_resource_sha256": "4c7ee61dd3c6bd3e8ffb453cbe4bf6ca3d699e50ce9e148e6aa01b6271c1ab37",
+      "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
       "native_frame_bounds": [
         440,
         480,
@@ -2584,7 +2639,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "de-DE",
@@ -2620,7 +2676,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
-      "caption_resource_sha256": "6d94f8ec0ce2c8ac0044a06194a398167b3c16db85b0ff7eadbafa1fb9313ba8",
+      "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
       "native_frame_bounds": [
         440,
         480,
@@ -2630,7 +2686,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "de-DE",
@@ -2673,7 +2730,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
-      "caption_resource_sha256": "6d94f8ec0ce2c8ac0044a06194a398167b3c16db85b0ff7eadbafa1fb9313ba8",
+      "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
       "native_frame_bounds": [
         440,
         480,
@@ -2683,7 +2740,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "de-DE",
@@ -2719,7 +2777,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
-      "caption_resource_sha256": "6d94f8ec0ce2c8ac0044a06194a398167b3c16db85b0ff7eadbafa1fb9313ba8",
+      "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
       "native_frame_bounds": [
         440,
         480,
@@ -2729,7 +2787,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "de-DE",
@@ -2765,7 +2824,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
-      "caption_resource_sha256": "6d94f8ec0ce2c8ac0044a06194a398167b3c16db85b0ff7eadbafa1fb9313ba8",
+      "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
       "native_frame_bounds": [
         440,
         480,
@@ -2775,7 +2834,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "de-DE",
@@ -2811,7 +2871,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
-      "caption_resource_sha256": "6d94f8ec0ce2c8ac0044a06194a398167b3c16db85b0ff7eadbafa1fb9313ba8",
+      "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
       "native_frame_bounds": [
         440,
         480,
@@ -2821,7 +2881,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "de-DE",
@@ -2857,7 +2918,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
-      "caption_resource_sha256": "6d94f8ec0ce2c8ac0044a06194a398167b3c16db85b0ff7eadbafa1fb9313ba8",
+      "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
       "native_frame_bounds": [
         440,
         480,
@@ -2867,7 +2928,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "de-DE",
@@ -2903,7 +2965,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
-      "caption_resource_sha256": "6d94f8ec0ce2c8ac0044a06194a398167b3c16db85b0ff7eadbafa1fb9313ba8",
+      "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
       "native_frame_bounds": [
         440,
         480,
@@ -2913,7 +2975,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "de-DE",
@@ -2949,7 +3012,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
-      "caption_resource_sha256": "6d94f8ec0ce2c8ac0044a06194a398167b3c16db85b0ff7eadbafa1fb9313ba8",
+      "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
       "native_frame_bounds": [
         440,
         480,
@@ -2959,7 +3022,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "it-IT",
@@ -2995,7 +3059,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
-      "caption_resource_sha256": "de18428087947555ad881a7743f2e3ba85b0d6dbe83ac81d93905d0f905e1dec",
+      "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
       "native_frame_bounds": [
         440,
         480,
@@ -3005,7 +3069,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "it-IT",
@@ -3041,7 +3106,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
-      "caption_resource_sha256": "de18428087947555ad881a7743f2e3ba85b0d6dbe83ac81d93905d0f905e1dec",
+      "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
       "native_frame_bounds": [
         440,
         480,
@@ -3051,7 +3116,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "it-IT",
@@ -3087,7 +3153,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
-      "caption_resource_sha256": "de18428087947555ad881a7743f2e3ba85b0d6dbe83ac81d93905d0f905e1dec",
+      "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
       "native_frame_bounds": [
         440,
         480,
@@ -3097,7 +3163,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "it-IT",
@@ -3133,7 +3200,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
-      "caption_resource_sha256": "de18428087947555ad881a7743f2e3ba85b0d6dbe83ac81d93905d0f905e1dec",
+      "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
       "native_frame_bounds": [
         440,
         480,
@@ -3143,7 +3210,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "it-IT",
@@ -3179,7 +3247,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
-      "caption_resource_sha256": "de18428087947555ad881a7743f2e3ba85b0d6dbe83ac81d93905d0f905e1dec",
+      "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
       "native_frame_bounds": [
         440,
         480,
@@ -3189,7 +3257,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "it-IT",
@@ -3225,7 +3294,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
-      "caption_resource_sha256": "de18428087947555ad881a7743f2e3ba85b0d6dbe83ac81d93905d0f905e1dec",
+      "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
       "native_frame_bounds": [
         440,
         480,
@@ -3235,7 +3304,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "it-IT",
@@ -3271,7 +3341,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
-      "caption_resource_sha256": "de18428087947555ad881a7743f2e3ba85b0d6dbe83ac81d93905d0f905e1dec",
+      "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
       "native_frame_bounds": [
         440,
         480,
@@ -3281,7 +3351,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "it-IT",
@@ -3317,7 +3388,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
-      "caption_resource_sha256": "de18428087947555ad881a7743f2e3ba85b0d6dbe83ac81d93905d0f905e1dec",
+      "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
       "native_frame_bounds": [
         440,
         480,
@@ -3327,7 +3398,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "ja-JP",
@@ -3363,7 +3435,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
-      "caption_resource_sha256": "005401ff5b004a2cf9da0136f0202a1a4e39f0351079a28568f13acb0dc5a538",
+      "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
       "native_frame_bounds": [
         440,
         480,
@@ -3373,7 +3445,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "ja-JP",
@@ -3409,7 +3482,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
-      "caption_resource_sha256": "005401ff5b004a2cf9da0136f0202a1a4e39f0351079a28568f13acb0dc5a538",
+      "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
       "native_frame_bounds": [
         440,
         480,
@@ -3419,7 +3492,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "ja-JP",
@@ -3455,7 +3529,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
-      "caption_resource_sha256": "005401ff5b004a2cf9da0136f0202a1a4e39f0351079a28568f13acb0dc5a538",
+      "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
       "native_frame_bounds": [
         440,
         480,
@@ -3465,7 +3539,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "ja-JP",
@@ -3501,7 +3576,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
-      "caption_resource_sha256": "005401ff5b004a2cf9da0136f0202a1a4e39f0351079a28568f13acb0dc5a538",
+      "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
       "native_frame_bounds": [
         440,
         480,
@@ -3511,7 +3586,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "ja-JP",
@@ -3547,7 +3623,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
-      "caption_resource_sha256": "005401ff5b004a2cf9da0136f0202a1a4e39f0351079a28568f13acb0dc5a538",
+      "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
       "native_frame_bounds": [
         440,
         480,
@@ -3557,7 +3633,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "ja-JP",
@@ -3593,7 +3670,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
-      "caption_resource_sha256": "005401ff5b004a2cf9da0136f0202a1a4e39f0351079a28568f13acb0dc5a538",
+      "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
       "native_frame_bounds": [
         440,
         480,
@@ -3603,7 +3680,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "ja-JP",
@@ -3639,7 +3717,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
-      "caption_resource_sha256": "005401ff5b004a2cf9da0136f0202a1a4e39f0351079a28568f13acb0dc5a538",
+      "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
       "native_frame_bounds": [
         440,
         480,
@@ -3649,7 +3727,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "ja-JP",
@@ -3685,7 +3764,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
-      "caption_resource_sha256": "005401ff5b004a2cf9da0136f0202a1a4e39f0351079a28568f13acb0dc5a538",
+      "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
       "native_frame_bounds": [
         440,
         480,
@@ -3695,7 +3774,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "nl-NL",
@@ -3731,7 +3811,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
-      "caption_resource_sha256": "0a83fb38e12bf5f0754c88118ab8f80bd0e582844b8c07d1012f2581f7ec888b",
+      "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
       "native_frame_bounds": [
         440,
         480,
@@ -3741,7 +3821,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "nl-NL",
@@ -3784,7 +3865,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
-      "caption_resource_sha256": "0a83fb38e12bf5f0754c88118ab8f80bd0e582844b8c07d1012f2581f7ec888b",
+      "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
       "native_frame_bounds": [
         440,
         480,
@@ -3794,7 +3875,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "nl-NL",
@@ -3830,7 +3912,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
-      "caption_resource_sha256": "0a83fb38e12bf5f0754c88118ab8f80bd0e582844b8c07d1012f2581f7ec888b",
+      "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
       "native_frame_bounds": [
         440,
         480,
@@ -3840,7 +3922,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "nl-NL",
@@ -3876,7 +3959,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
-      "caption_resource_sha256": "0a83fb38e12bf5f0754c88118ab8f80bd0e582844b8c07d1012f2581f7ec888b",
+      "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
       "native_frame_bounds": [
         440,
         480,
@@ -3886,7 +3969,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "nl-NL",
@@ -3922,7 +4006,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
-      "caption_resource_sha256": "0a83fb38e12bf5f0754c88118ab8f80bd0e582844b8c07d1012f2581f7ec888b",
+      "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
       "native_frame_bounds": [
         440,
         480,
@@ -3932,7 +4016,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "nl-NL",
@@ -3968,7 +4053,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
-      "caption_resource_sha256": "0a83fb38e12bf5f0754c88118ab8f80bd0e582844b8c07d1012f2581f7ec888b",
+      "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
       "native_frame_bounds": [
         440,
         480,
@@ -3978,7 +4063,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "nl-NL",
@@ -4014,7 +4100,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
-      "caption_resource_sha256": "0a83fb38e12bf5f0754c88118ab8f80bd0e582844b8c07d1012f2581f7ec888b",
+      "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
       "native_frame_bounds": [
         440,
         480,
@@ -4024,7 +4110,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "nl-NL",
@@ -4060,7 +4147,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
-      "caption_resource_sha256": "0a83fb38e12bf5f0754c88118ab8f80bd0e582844b8c07d1012f2581f7ec888b",
+      "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
       "native_frame_bounds": [
         440,
         480,
@@ -4070,7 +4157,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pl-PL",
@@ -4106,7 +4194,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
-      "caption_resource_sha256": "ac6877f9340a27ab7e2479337cac807ec2abc8ce6bd2c23ce2a61339c9208fd1",
+      "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
       "native_frame_bounds": [
         440,
         480,
@@ -4116,7 +4204,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pl-PL",
@@ -4152,7 +4241,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
-      "caption_resource_sha256": "ac6877f9340a27ab7e2479337cac807ec2abc8ce6bd2c23ce2a61339c9208fd1",
+      "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
       "native_frame_bounds": [
         440,
         480,
@@ -4162,7 +4251,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pl-PL",
@@ -4198,7 +4288,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
-      "caption_resource_sha256": "ac6877f9340a27ab7e2479337cac807ec2abc8ce6bd2c23ce2a61339c9208fd1",
+      "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
       "native_frame_bounds": [
         440,
         480,
@@ -4208,7 +4298,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pl-PL",
@@ -4244,7 +4335,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
-      "caption_resource_sha256": "ac6877f9340a27ab7e2479337cac807ec2abc8ce6bd2c23ce2a61339c9208fd1",
+      "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
       "native_frame_bounds": [
         440,
         480,
@@ -4254,7 +4345,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pl-PL",
@@ -4290,7 +4382,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
-      "caption_resource_sha256": "ac6877f9340a27ab7e2479337cac807ec2abc8ce6bd2c23ce2a61339c9208fd1",
+      "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
       "native_frame_bounds": [
         440,
         480,
@@ -4300,7 +4392,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pl-PL",
@@ -4336,7 +4429,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
-      "caption_resource_sha256": "ac6877f9340a27ab7e2479337cac807ec2abc8ce6bd2c23ce2a61339c9208fd1",
+      "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
       "native_frame_bounds": [
         440,
         480,
@@ -4346,7 +4439,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pl-PL",
@@ -4382,7 +4476,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
-      "caption_resource_sha256": "ac6877f9340a27ab7e2479337cac807ec2abc8ce6bd2c23ce2a61339c9208fd1",
+      "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
       "native_frame_bounds": [
         440,
         480,
@@ -4392,7 +4486,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pl-PL",
@@ -4428,7 +4523,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
-      "caption_resource_sha256": "ac6877f9340a27ab7e2479337cac807ec2abc8ce6bd2c23ce2a61339c9208fd1",
+      "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
       "native_frame_bounds": [
         440,
         480,
@@ -4438,7 +4533,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pt-BR",
@@ -4474,7 +4570,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
-      "caption_resource_sha256": "cc62f3d455ffcb3acac4d15d4464c098cd0e277b57f42f60127f9c92a3fdb494",
+      "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
       "native_frame_bounds": [
         440,
         480,
@@ -4484,7 +4580,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pt-BR",
@@ -4520,7 +4617,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
-      "caption_resource_sha256": "cc62f3d455ffcb3acac4d15d4464c098cd0e277b57f42f60127f9c92a3fdb494",
+      "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
       "native_frame_bounds": [
         440,
         480,
@@ -4530,7 +4627,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pt-BR",
@@ -4566,7 +4664,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
-      "caption_resource_sha256": "cc62f3d455ffcb3acac4d15d4464c098cd0e277b57f42f60127f9c92a3fdb494",
+      "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
       "native_frame_bounds": [
         440,
         480,
@@ -4576,7 +4674,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pt-BR",
@@ -4612,7 +4711,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
-      "caption_resource_sha256": "cc62f3d455ffcb3acac4d15d4464c098cd0e277b57f42f60127f9c92a3fdb494",
+      "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
       "native_frame_bounds": [
         440,
         480,
@@ -4622,7 +4721,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pt-BR",
@@ -4658,7 +4758,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
-      "caption_resource_sha256": "cc62f3d455ffcb3acac4d15d4464c098cd0e277b57f42f60127f9c92a3fdb494",
+      "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
       "native_frame_bounds": [
         440,
         480,
@@ -4668,7 +4768,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pt-BR",
@@ -4704,7 +4805,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
-      "caption_resource_sha256": "cc62f3d455ffcb3acac4d15d4464c098cd0e277b57f42f60127f9c92a3fdb494",
+      "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
       "native_frame_bounds": [
         440,
         480,
@@ -4714,7 +4815,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pt-BR",
@@ -4750,7 +4852,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
-      "caption_resource_sha256": "cc62f3d455ffcb3acac4d15d4464c098cd0e277b57f42f60127f9c92a3fdb494",
+      "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
       "native_frame_bounds": [
         440,
         480,
@@ -4760,7 +4862,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pt-BR",
@@ -4796,7 +4899,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
-      "caption_resource_sha256": "cc62f3d455ffcb3acac4d15d4464c098cd0e277b57f42f60127f9c92a3fdb494",
+      "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
       "native_frame_bounds": [
         440,
         480,
@@ -4806,7 +4909,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pt-PT",
@@ -4842,7 +4946,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
-      "caption_resource_sha256": "fff72971234914ca715312cbd89b858b24469c2d05a0ada7cc6e662ab0ed2d95",
+      "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
       "native_frame_bounds": [
         440,
         480,
@@ -4852,7 +4956,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pt-PT",
@@ -4888,7 +4993,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
-      "caption_resource_sha256": "fff72971234914ca715312cbd89b858b24469c2d05a0ada7cc6e662ab0ed2d95",
+      "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
       "native_frame_bounds": [
         440,
         480,
@@ -4898,7 +5003,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pt-PT",
@@ -4934,7 +5040,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
-      "caption_resource_sha256": "fff72971234914ca715312cbd89b858b24469c2d05a0ada7cc6e662ab0ed2d95",
+      "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
       "native_frame_bounds": [
         440,
         480,
@@ -4944,7 +5050,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pt-PT",
@@ -4980,7 +5087,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
-      "caption_resource_sha256": "fff72971234914ca715312cbd89b858b24469c2d05a0ada7cc6e662ab0ed2d95",
+      "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
       "native_frame_bounds": [
         440,
         480,
@@ -4990,7 +5097,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pt-PT",
@@ -5026,7 +5134,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
-      "caption_resource_sha256": "fff72971234914ca715312cbd89b858b24469c2d05a0ada7cc6e662ab0ed2d95",
+      "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
       "native_frame_bounds": [
         440,
         480,
@@ -5036,7 +5144,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pt-PT",
@@ -5072,7 +5181,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
-      "caption_resource_sha256": "fff72971234914ca715312cbd89b858b24469c2d05a0ada7cc6e662ab0ed2d95",
+      "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
       "native_frame_bounds": [
         440,
         480,
@@ -5082,7 +5191,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pt-PT",
@@ -5118,7 +5228,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
-      "caption_resource_sha256": "fff72971234914ca715312cbd89b858b24469c2d05a0ada7cc6e662ab0ed2d95",
+      "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
       "native_frame_bounds": [
         440,
         480,
@@ -5128,7 +5238,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "pt-PT",
@@ -5164,7 +5275,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
-      "caption_resource_sha256": "fff72971234914ca715312cbd89b858b24469c2d05a0ada7cc6e662ab0ed2d95",
+      "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
       "native_frame_bounds": [
         440,
         480,
@@ -5174,7 +5285,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "sv-SE",
@@ -5210,7 +5322,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "tagline",
       "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
-      "caption_resource_sha256": "4e1f1d0bbdf0d4f28b1d3716d1e2235d5d16966df8c4d5b448498b7d5ed15e4d",
+      "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
       "native_frame_bounds": [
         440,
         480,
@@ -5220,7 +5332,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "sv-SE",
@@ -5256,7 +5369,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "check_first",
       "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
-      "caption_resource_sha256": "4e1f1d0bbdf0d4f28b1d3716d1e2235d5d16966df8c4d5b448498b7d5ed15e4d",
+      "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
       "native_frame_bounds": [
         440,
         480,
@@ -5266,7 +5379,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "sv-SE",
@@ -5302,7 +5416,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "search",
       "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
-      "caption_resource_sha256": "4e1f1d0bbdf0d4f28b1d3716d1e2235d5d16966df8c4d5b448498b7d5ed15e4d",
+      "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
       "native_frame_bounds": [
         440,
         480,
@@ -5312,7 +5426,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "sv-SE",
@@ -5348,7 +5463,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "care_reminders",
       "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
-      "caption_resource_sha256": "4e1f1d0bbdf0d4f28b1d3716d1e2235d5d16966df8c4d5b448498b7d5ed15e4d",
+      "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
       "native_frame_bounds": [
         440,
         480,
@@ -5358,7 +5473,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "sv-SE",
@@ -5394,7 +5510,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "journal_intro",
       "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
-      "caption_resource_sha256": "4e1f1d0bbdf0d4f28b1d3716d1e2235d5d16966df8c4d5b448498b7d5ed15e4d",
+      "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
       "native_frame_bounds": [
         440,
         480,
@@ -5404,7 +5520,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "sv-SE",
@@ -5440,7 +5557,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "command",
       "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
-      "caption_resource_sha256": "4e1f1d0bbdf0d4f28b1d3716d1e2235d5d16966df8c4d5b448498b7d5ed15e4d",
+      "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
       "native_frame_bounds": [
         440,
         480,
@@ -5450,7 +5567,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "sv-SE",
@@ -5486,7 +5604,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "local_records",
       "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
-      "caption_resource_sha256": "4e1f1d0bbdf0d4f28b1d3716d1e2235d5d16966df8c4d5b448498b7d5ed15e4d",
+      "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
       "native_frame_bounds": [
         440,
         480,
@@ -5496,7 +5614,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     },
     {
       "listing_locale": "sv-SE",
@@ -5532,7 +5651,7 @@
       "caption_font_px": 36,
       "caption_resource_key": "insights_intro",
       "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
-      "caption_resource_sha256": "4e1f1d0bbdf0d4f28b1d3716d1e2235d5d16966df8c4d5b448498b7d5ed15e4d",
+      "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
       "native_frame_bounds": [
         440,
         480,
@@ -5542,7 +5661,8 @@
       "native_frame_max_size": [
         2360,
         1050
-      ]
+      ],
+      "caption_resource_hash_encoding": "utf8-lf"
     }
   ],
   "device": {

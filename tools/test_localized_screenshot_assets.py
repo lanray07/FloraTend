@@ -9,7 +9,7 @@ from unittest.mock import patch
 from PIL import Image, ImageChops, ImageOps
 
 from screenshots import validate_png
-from compose_localized_screenshots import write_contact_sheets, caption_text
+from compose_localized_screenshots import write_contact_sheets, caption_text, resource_sha
 
 ROOT = Path(__file__).resolve().parents[1]
 SCENES = {'01-hero', '02-watering', '03-library', '04-calendar',
@@ -17,6 +17,16 @@ SCENES = {'01-hero', '02-watering', '03-library', '04-calendar',
 
 
 class ContactSheetWriteTests(unittest.TestCase):
+    def test_resource_provenance_is_checkout_independent_but_content_sensitive(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            windows=Path(tmp)/'windows.xml';linux=Path(tmp)/'linux.xml'
+            content='<resources>\n<string name="x">日本語</string>\n</resources>\n'
+            windows.write_bytes(content.replace('\n','\r\n').encode('utf-8'))
+            linux.write_bytes(content.encode('utf-8'))
+            self.assertEqual(hashlib.sha256(content.encode('utf-8')).hexdigest(),resource_sha(windows))
+            self.assertEqual(resource_sha(windows),resource_sha(linux))
+            linux.write_bytes(content.replace('日本語','Different content').encode('utf-8'))
+            self.assertNotEqual(resource_sha(windows),resource_sha(linux))
     def test_android_quote_wrappers_are_not_rendered_but_escaped_quotes_survive(self):
         self.assertEqual('コマンドを確認または入力',caption_text('"コマンドを確認または入力"'))
         self.assertEqual('"Literal quotes"',caption_text('\\"Literal quotes\\"'))
@@ -119,7 +129,9 @@ class LocalizedScreenshotAssets(unittest.TestCase):
         for row in self.manifest['screenshots']:
             with self.subTest(locale=row['listing_locale'], scene=row['scene']):
                 source=ROOT / row['caption_resource_source']
-                self.assertEqual(row['caption_resource_sha256'], hashlib.sha256(source.read_bytes()).hexdigest())
+                self.assertEqual('utf8-lf',row['caption_resource_hash_encoding'])
+                canonical=source.read_text(encoding='utf-8-sig').encode('utf-8')
+                self.assertEqual(row['caption_resource_sha256'], hashlib.sha256(canonical).hexdigest())
                 strings={n.attrib['name']:caption_text(''.join(n.itertext())) for n in ET.parse(source).getroot() if n.tag=='string'}
                 self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
                 self.assertTrue(row['supporting_caption'].strip())
