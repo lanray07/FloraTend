@@ -79,6 +79,7 @@ open class FloraApp : Application() {
     val database by lazy { Room.databaseBuilder(this, FloraDatabase::class.java, "floratend.db").addMigrations(FloraDatabase.MIGRATION_1_2).build() }
     val settings by lazy { FloraSettings(this) }
     val billing by lazy { AmazonBilling(this, settings) }
+    open val plantIdentifier:PlantIdentifier by lazy { ServerPlantIdentifier(this) }
     open fun createSpeechRecognizer(context: Context): android.speech.SpeechRecognizer = android.speech.SpeechRecognizer.createSpeechRecognizer(context)
     override fun onCreate() { super.onCreate(); Reminders.schedule(this) }
 }

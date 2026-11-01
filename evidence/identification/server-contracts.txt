@@ -1,0 +1,35 @@
+✔ successful consented upload uses fixed origin, stripped filename, safe output and release (122.9133ms)
+✔ missing consent never calls provider or budget (1.4842ms)
+✔ browser origin never calls provider or budget (1.1726ms)
+✔ wrong content type never calls provider or budget (1.1806ms)
+✔ bad JPEG never calls provider or budget (1.8103ms)
+✔ too large never calls provider or budget (4.6223ms)
+✔ missing edge IP never calls provider or budget (0.8235ms)
+✔ query destinations and invalid locales cannot influence upstream (4.3153ms)
+✔ absent credentials/budget fail closed (2.9131ms)
+✔ exhaustion and concurrency return bounded errors before fetch (14.1444ms)
+✔ missing reservation ticket fails closed (2.1822ms)
+✔ paid, malformed or exhausted quota cannot submit a photo (6.5444ms)
+✔ redirects and provider errors never expose provider bodies or credentials (9.4812ms)
+✔ unsupported common-name locale omits English names (3.1315ms)
+✔ identify-route rejection is no-match, unlike quota-route 404 (2.8203ms)
+✔ timeout bounds even an uncooperative transport (17.1947ms)
+✔ bounded result stream and malformed JSON fail closed (3.7294ms)
+✔ release failures cannot override a safe response (1.8383ms)
+✔ candidate bounds, sorting, deduplication and no-match (1.0651ms)
+✔ configured cap cannot exceed free safety budget (0.1426ms)
+✔ SQLite actor atomically enforces per-owner/global/concurrency budgets (2865.9222ms)
+✔ Amazon fields bind exact SKU, type, receipt and environment (2.292ms)
+✔ successful HTTP flow returns minimal non-cacheable result (90.1898ms)
+✔ bad input, query strings, missing configuration and rate limits cannot call RVS (9.9443ms)
+✔ only definitive Amazon answers revoke; outages never fabricate success (11.9959ms)
+✔ bearer identifiers are URL encoded, never interpreted as an upstream host (0.7137ms)
+✔ Workers-compatible manual redirects never forward the shared secret (0.7235ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9129.2338

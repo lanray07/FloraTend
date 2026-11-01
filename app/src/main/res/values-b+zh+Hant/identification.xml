@@ -1,0 +1,12 @@
+<resources>
+  <string name="identify_photo">"辨識照片"</string>
+  <string name="send_photo">"傳送照片"</string>
+  <string name="identifying_photo">"正在尋找相似植物…"</string>
+  <string name="identification_suggestions">"建議可能有誤。選擇物種後會填入可編輯欄位，請在儲存前核對。"</string>
+  <string name="identification_score">"比對分數：%1$s"</string>
+  <string name="identification_no_match">"找不到符合結果。請嘗試更清晰的照片或手動輸入物種。"</string>
+  <string name="identification_limit">"每日額度已用完。請明天再試或手動輸入物種。"</string>
+  <string name="identification_error">"暫時無法辨識。請重試或手動輸入物種。"</string>
+  <string name="identification_terms">"Pl@ntNet · 條款與私隱"</string>
+  <string name="identification_consent">"將這張照片傳送至Pl@ntNet以取得建議？FloraTend透過自己的伺服器轉發照片，但不會在伺服器上儲存。Pl@ntNet會處理影像並保留請求中繼資料。只有選擇「傳送照片」後才會上傳。"</string>
+</resources>

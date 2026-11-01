@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
+  "name": "floratend-plant-identification",
+  "main": "plantnet-worker.mjs",
+  "compatibility_date": "2026-10-30",
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": {"enabled": false},
+  "vars": {"IDENTIFICATION_DAILY_CAP": "480"},
+  "durable_objects": {"bindings": [{"name": "IDENTIFICATION_BUDGET", "class_name": "IdentificationBudget"}]},
+  "migrations": [{"tag": "v1", "new_sqlite_classes": ["IdentificationBudget"]}]
+}

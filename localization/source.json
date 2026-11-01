@@ -1,4 +1,64 @@
 {
+  "identify_photo": {
+    "type": "string",
+    "values": {
+      "value": "\"Identify photo\""
+    }
+  },
+  "send_photo": {
+    "type": "string",
+    "values": {
+      "value": "\"Send photo\""
+    }
+  },
+  "identifying_photo": {
+    "type": "string",
+    "values": {
+      "value": "\"Looking for plant matches…\""
+    }
+  },
+  "identification_suggestions": {
+    "type": "string",
+    "values": {
+      "value": "\"Suggestions can be wrong. Choose a species to fill the editable field, then check it before saving.\""
+    }
+  },
+  "identification_score": {
+    "type": "string",
+    "values": {
+      "value": "\"Match score: %1$s\""
+    }
+  },
+  "identification_no_match": {
+    "type": "string",
+    "values": {
+      "value": "\"No match found. Try a clearer plant photo or enter the species manually.\""
+    }
+  },
+  "identification_limit": {
+    "type": "string",
+    "values": {
+      "value": "\"The daily identification allowance is used up. Try tomorrow or enter the species manually.\""
+    }
+  },
+  "identification_error": {
+    "type": "string",
+    "values": {
+      "value": "\"Identification is unavailable. Try again or enter the species manually.\""
+    }
+  },
+  "identification_terms": {
+    "type": "string",
+    "values": {
+      "value": "\"Pl@ntNet · Terms and privacy\""
+    }
+  },
+  "identification_consent": {
+    "type": "string",
+    "values": {
+      "value": "\"Send this selected photo to Pl@ntNet for suggestions? FloraTend forwards it through its server without saving it there. Pl@ntNet processes the image and retains request metadata. No upload occurs until you choose Send photo.\""
+    }
+  },
   "acquired": {
     "type": "string",
     "values": {

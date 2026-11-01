@@ -1,0 +1,12 @@
+<resources>
+  <string name="identify_photo">"사진으로 식별"</string>
+  <string name="send_photo">"사진 보내기"</string>
+  <string name="identifying_photo">"비슷한 식물을 찾는 중…"</string>
+  <string name="identification_suggestions">"추천 결과는 틀릴 수 있습니다. 종을 선택하면 수정 가능한 입력란에 채워집니다. 저장하기 전에 확인하세요."</string>
+  <string name="identification_score">"일치 점수: %1$s"</string>
+  <string name="identification_no_match">"일치 결과가 없습니다. 선명한 사진으로 다시 시도하거나 종을 직접 입력하세요."</string>
+  <string name="identification_limit">"일일 한도에 도달했습니다. 내일 다시 시도하거나 종을 직접 입력하세요."</string>
+  <string name="identification_error">"식별할 수 없습니다. 다시 시도하거나 종을 직접 입력하세요."</string>
+  <string name="identification_terms">"Pl@ntNet · 약관 및 개인정보"</string>
+  <string name="identification_consent">"추천을 받기 위해 이 사진을 Pl@ntNet에 보낼까요? FloraTend는 서버를 통해 사진을 전달하며 그곳에 저장하지 않습니다. Pl@ntNet는 이미지를 처리하고 요청 메타데이터를 보관합니다. 사진 보내기를 선택하기 전에는 업로드되지 않습니다."</string>
+</resources>

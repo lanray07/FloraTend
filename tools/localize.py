@@ -178,13 +178,38 @@ def validate(source, candidate, terms, locale, allowed_unchanged=()):
     return errors
 
 
+def extract_bundle(path: Path):
+    """Include modular Android copy; duplicate names fail before translation/build."""
+    records = {}
+    for resource in sorted(path.parent.glob('*.xml')):
+        current = extract(resource)
+        duplicate = records.keys() & current.keys()
+        if duplicate:
+            raise ValueError(f'Duplicate resource names across files: {sorted(duplicate)}')
+        records.update(current)
+    if not path.exists():
+        raise ValueError('Resource file does not exist')
+    return records
+
+
+def bundle_digest(path: Path):
+    digest = hashlib.sha256()
+    for resource in sorted(path.parent.glob('*.xml')):
+        # Only translatable resources determine linguistic review validity.
+        records = extract(resource)
+        if records:
+            digest.update(resource.name.encode());digest.update(b'\0')
+            digest.update(json.dumps(records, ensure_ascii=False, sort_keys=True).encode('utf-8'))
+    return digest.hexdigest()
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('action', choices=['extract', 'translate', 'validate'])
     parser.add_argument('--locale')
     parser.add_argument('--source', type=Path, default=ROOT / 'app/src/main/res/values/strings.xml')
     args = parser.parse_args(argv)
-    source = extract(args.source)
+    source = extract_bundle(args.source)
     directory = ROOT / 'localization'
     write_json(directory / 'source.json', source)
     config = read_json(directory / 'locales.json', [])
@@ -211,8 +236,16 @@ def main(argv=None):
             finally:
                 write_json(cache_path, cache)
             path = ROOT / 'app/src/main/res' / locale['android_folder'] / 'strings.xml'
-            emit_resources(records, path)
-            review[locale['locale']] = {'status': 'machine_pending_human_review', 'source_sha256': hashlib.sha256(args.source.read_bytes()).hexdigest(), 'reviewer': None, 'reviewed_at': None}
+            extra_keys = set()
+            for supplemental in sorted(args.source.parent.glob('*.xml')):
+                if supplemental == args.source:
+                    continue
+                keys = extract(supplemental).keys()
+                if keys:
+                    emit_resources({key: records[key] for key in keys}, path.parent / supplemental.name)
+                    extra_keys.update(keys)
+            emit_resources({key:value for key,value in records.items() if key not in extra_keys}, path)
+            review[locale['locale']] = {'status': 'machine_pending_human_review', 'source_sha256': bundle_digest(args.source), 'reviewer': None, 'reviewed_at': None}
             write_json(directory / 'review.json', review)
         print('Generated resources; human linguistic and UI review required before approval')
         return 0
@@ -220,11 +253,11 @@ def main(argv=None):
     for locale in selected:
         path = ROOT / 'app/src/main/res' / locale['android_folder'] / 'strings.xml'
         try:
-            errors = validate(source, extract(path), terms, locale['locale'], glossary.get('branded_values', [])) if path.exists() else ['Resource file does not exist']
+            errors = validate(source, extract_bundle(path), terms, locale['locale'], glossary.get('branded_values', [])) if path.exists() else ['Resource file does not exist']
         except (ValueError, ET.ParseError) as error:
             errors = [str(error)]
         status = review.get(locale['locale'], {}).get('status', 'pending')
-        digest = hashlib.sha256(args.source.read_bytes()).hexdigest()
+        digest = bundle_digest(args.source)
         review_record = review.get(locale['locale'], {})
         approved = (status == 'human_approved' and review_record.get('reviewer') and review_record.get('reviewed_at') and review_record.get('source_sha256') == digest)
         results.append({'locale': locale['locale'], 'errors': errors, 'review_status': status,

@@ -1,0 +1,12 @@
+<resources>
+  <string name="identify_photo">"Identificar foto"</string>
+  <string name="send_photo">"Enviar foto"</string>
+  <string name="identifying_photo">"Buscando plantas similares…"</string>
+  <string name="identification_suggestions">"Las sugerencias pueden ser incorrectas. Elige una especie para rellenar el campo editable y revísala antes de guardar."</string>
+  <string name="identification_score">"Puntuación de coincidencia: %1$s"</string>
+  <string name="identification_no_match">"Sin coincidencias. Prueba una foto más clara o introduce la especie."</string>
+  <string name="identification_limit">"Se agotó el cupo diario. Vuelve mañana o introduce la especie."</string>
+  <string name="identification_error">"Identificación no disponible. Inténtalo de nuevo o introduce la especie."</string>
+  <string name="identification_terms">"Pl@ntNet · Condiciones y privacidad"</string>
+  <string name="identification_consent">"¿Enviar esta foto a Pl@ntNet para obtener sugerencias? FloraTend la transmite mediante su servidor sin guardarla allí. Pl@ntNet procesa la imagen y conserva metadatos de la solicitud. No se envía nada hasta que elijas Enviar foto."</string>
+</resources>

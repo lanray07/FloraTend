@@ -1,0 +1,12 @@
+<resources>
+  <string name="identify_photo">"फ़ोटो पहचानें"</string>
+  <string name="send_photo">"फ़ोटो भेजें"</string>
+  <string name="identifying_photo">"मिलते-जुलते पौधे खोजे जा रहे हैं…"</string>
+  <string name="identification_suggestions">"सुझाव गलत हो सकते हैं। संपादन योग्य फ़ील्ड भरने के लिए प्रजाति चुनें और सहेजने से पहले जाँचें।"</string>
+  <string name="identification_score">"मिलान स्कोर: %1$s"</string>
+  <string name="identification_no_match">"कोई मिलान नहीं मिला। साफ़ फ़ोटो आज़माएँ या प्रजाति स्वयं लिखें।"</string>
+  <string name="identification_limit">"दैनिक सीमा पूरी हो गई है। कल कोशिश करें या प्रजाति स्वयं लिखें।"</string>
+  <string name="identification_error">"पहचान उपलब्ध नहीं है। फिर कोशिश करें या प्रजाति स्वयं लिखें।"</string>
+  <string name="identification_terms">"Pl@ntNet · शर्तें और गोपनीयता"</string>
+  <string name="identification_consent">"सुझावों के लिए यह फ़ोटो Pl@ntNet को भेजें? FloraTend इसे अपने सर्वर से बिना वहाँ सहेजे आगे भेजता है। Pl@ntNet चित्र को संसाधित करता है और अनुरोध का मेटाडेटा रखता है। फ़ोटो भेजें चुनने तक कोई अपलोड नहीं होता।"</string>
+</resources>

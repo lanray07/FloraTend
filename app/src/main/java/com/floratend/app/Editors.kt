@@ -52,6 +52,7 @@ import java.time.LocalDate
     AlertDialog(onDismissRequest=onDismiss,title={Text(s(R.string.plant_details))},text={Column(Modifier.verticalScroll(rememberScrollState()),verticalArrangement=Arrangement.spacedBy(8.dp)) {
         Field(name,R.string.nickname,{name=it});Field(species,R.string.species,{species=it});Field(location,R.string.location,{location=it});Field(acquired,R.string.acquired,{acquired=it});Field(pot,R.string.pot_size,{pot=it});Field(soil,R.string.soil_type,{soil=it});Field(light,R.string.light,{light=it});Field(notes,R.string.notes,{notes=it},3)
         listOf("Indoor","Outdoor","Succulent","Cactus","Herb","Flowering","Tree","Other").forEach { key -> FilterChip(selected=category==key,onClick={category=key},label={Text(categoryLabel(key))}) }; PhotoPicker(photo,onBusy={photoBusy=it}){photo=it}
+        IdentificationPanel(photo,photoBusy){species=it}
         if(!valid) Text(s(R.string.valid_plant))
     }},confirmButton={TextButton(onClick={onSave(plant.copy(name=name.trim(),species=species.trim(),location=location.trim(),category=category,acquired=acquired,potCm=DecimalInput.number(pot),soil=soil,light=light,notes=notes,photo=photo))},enabled=valid && !photoBusy){Text(s(R.string.save))}},dismissButton={TextButton(onClick=onDismiss){Text(s(R.string.cancel))}})
 }

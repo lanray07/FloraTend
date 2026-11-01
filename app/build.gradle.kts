@@ -13,8 +13,12 @@ android {
         applicationId = "com.floratend.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 12
-        versionName = "0.1.11"
+        versionCode = 13
+        versionName = "0.1.12"
+        // Empty until the privately configured, free-only identification server is verified.
+        val identifierUrl = providers.gradleProperty("floratend.plantIdentifierUrl").getOrElse("")
+        require(identifierUrl.isEmpty() || identifierUrl.matches(Regex("https://[a-zA-Z0-9.-]+/identify"))) { "Invalid plant identifier HTTPS URL" }
+        buildConfigField("String", "PLANT_IDENTIFIER_URL", "\"$identifierUrl\"")
         val verifierUrl = providers.gradleProperty("floratend.receiptVerifierUrl")
             .orElse(providers.environmentVariable("FLORATEND_RECEIPT_VERIFIER_URL"))
             .getOrElse("https://floratend-receipt-verifier-production.lanraybanks.workers.dev/verify")
@@ -72,7 +76,10 @@ dependencies {
     implementation("androidx.work:work-runtime-ktx:2.10.1")
     implementation("com.amazon.device:amazon-appstore-sdk:3.0.9")
     implementation("io.coil-kt:coil-compose:2.7.0")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
     testImplementation("junit:junit:4.13.2")
+    testImplementation("org.json:json:20240303")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.9.0")
     androidTestImplementation("androidx.room:room-testing:2.7.1")
     androidTestImplementation("androidx.test.uiautomator:uiautomator:2.3.0")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")

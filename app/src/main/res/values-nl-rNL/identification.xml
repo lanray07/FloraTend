@@ -1,0 +1,12 @@
+<resources>
+  <string name="identify_photo">"Foto herkennen"</string>
+  <string name="send_photo">"Foto verzenden"</string>
+  <string name="identifying_photo">"Vergelijkbare planten zoeken…"</string>
+  <string name="identification_suggestions">"Suggesties kunnen onjuist zijn. Kies een soort voor het bewerkbare veld en controleer deze voordat je opslaat."</string>
+  <string name="identification_score">"Overeenkomstscore: %1$s"</string>
+  <string name="identification_no_match">"Geen resultaat. Probeer een scherpere foto of voer de soort zelf in."</string>
+  <string name="identification_limit">"Het dagquotum is op. Probeer morgen opnieuw of voer de soort zelf in."</string>
+  <string name="identification_error">"Herkenning niet beschikbaar. Probeer opnieuw of voer de soort zelf in."</string>
+  <string name="identification_terms">"Pl@ntNet · Voorwaarden en privacy"</string>
+  <string name="identification_consent">"Deze foto naar Pl@ntNet sturen voor suggesties? FloraTend stuurt deze via zijn server door zonder deze daar op te slaan. Pl@ntNet verwerkt de afbeelding en bewaart verzoekmetadata. Er wordt pas geüpload als je Foto verzenden kiest."</string>
+</resources>

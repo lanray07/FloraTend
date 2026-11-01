@@ -1,4 +1,4 @@
-> Current development work: [release criteria progress](docs/RELEASE_CRITERIA_PROGRESS_20261101.md). Amazon code8 remains installed; development code10 is not yet Amazon-verified.
+> Current development: **0.1.12 / code13**, with [Pl@ntNet integration and pending verification](docs/PLANTNET_INTEGRATION_20261101.md). Actual Amazon code11 remains the last verified installed build. The acceptance ledger records173/204 scoped passes and31 incomplete criteria; it does not certify the new candidate.
 
 > Current checkout work: [cold-start diagnosis and code8 regression](docs/CHECKOUT_DELAY_DIAGNOSIS_20261101.md).
 
@@ -16,8 +16,8 @@ Use Java 17 and Android SDK Platform 36. Gradle 8.13 is pinned by the wrapper. C
 
 ```powershell
 .\gradlew.bat :core:test :app:assembleDebug :app:testDebugUnitTest :app:testReleaseUnitTest :app:lintDebug :app:lintRelease
-.\gradlew.bat :app:installDebug
-adb shell am start -n com.floratend.app/.MainActivity
+.\gradlew.bat :app:installQa
+adb shell am start -n com.floratend.app.qa/com.floratend.app.MainActivity
 ```
 
 On macOS/Linux use `bash gradlew` in place of `.\gradlew.bat`. The debug APK is `app/build/outputs/apk/debug/app-debug.apk`. Instrumented tests require a connected, authorised compatible device or emulator:
@@ -26,7 +26,7 @@ On macOS/Linux use `bash gradlew` in place of `.\gradlew.bat`. The debug APK is 
 .\tools\test_localized_fire.ps1
 ```
 
-Tests can modify the app's local records and preferences; use a dedicated test installation/device profile. No production account or plant data should be used. The app requires Android API 26 or higher, targets API 36, and currently has development version `0.1.9` / code `10`. A minimum SDK declaration is not a verified device-compatibility promise. The exact submitted signed code-5 APK also passed 15 physical-tablet tests; see [signed tablet results and reproduction](docs/SIGNED_TABLET_TEST_20261030.md). The later Amazon-delivered LAT build now retrieves the Â£3.73 regional price; [live LAT evidence](docs/LAT_LIVE_TEST_20261030.md) records a successful LAT purchase, restart persistence and owned-entitlement restoration after a clean Amazon reinstall. Other release gates remain open. Stateful App Tester and store capture tests require explicit opt-in; do not run the entire instrumentation package blindly.
+Tests can modify the app's local records and preferences; use a dedicated test installation/device profile. No production account or plant data should be used. The app requires Android API 26 or higher, targets API 36, and currently has development version `0.1.12` / code `13`. A minimum SDK declaration is not a verified device-compatibility promise. The exact submitted signed code-5 APK also passed 15 physical-tablet tests; see [signed tablet results and reproduction](docs/SIGNED_TABLET_TEST_20261030.md). The later Amazon-delivered LAT build now retrieves the Â£3.73 regional price; [live LAT evidence](docs/LAT_LIVE_TEST_20261030.md) records a successful LAT purchase, restart persistence and owned-entitlement restoration after a clean Amazon reinstall. Other release gates remain open. Stateful App Tester and store capture tests require explicit opt-in; do not run the entire instrumentation package blindly.
 
 ## Supporting checks
 

@@ -26,7 +26,7 @@ $secure=Read-Host 'Enter the API key from your existing/free Pl@ntNet account (h
 $pointer=[Runtime.InteropServices.Marshal]::SecureStringToBSTR($secure)
 try {
     $apiKey=[Runtime.InteropServices.Marshal]::PtrToStringBSTR($pointer)
-    if([string]::IsNullOrWhiteSpace($apiKey) -or $apiKey.Length -gt 512 -or $apiKey -match '\s') {throw 'The key must be nonempty and contain no whitespace; no value was saved'}
+    if([string]::IsNullOrWhiteSpace($apiKey) -or $apiKey.Length -lt 8 -or $apiKey.Length -gt 512 -or $apiKey -match '\s') {throw 'The key must contain 8–512 characters and no whitespace; no value was saved'}
     $salt=[byte[]]::new(32);[Security.Cryptography.RandomNumberGenerator]::Fill($salt)
     $configuration=@{provider='plantnet';plan='free';apiKey=$apiKey;rateLimitSecret=[Convert]::ToBase64String($salt);dailyAppCap=480;createdAtUtc=[DateTime]::UtcNow.ToString('o')}
     $cipher=Protect-PlantNetConfiguration ($configuration|ConvertTo-Json -Compress)

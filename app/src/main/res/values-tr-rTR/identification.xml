@@ -1,0 +1,12 @@
+<resources>
+  <string name="identify_photo">"Fotoğrafı tanımla"</string>
+  <string name="send_photo">"Fotoğrafı gönder"</string>
+  <string name="identifying_photo">"Benzer bitkiler aranıyor…"</string>
+  <string name="identification_suggestions">"Öneriler yanlış olabilir. Düzenlenebilir alanı doldurmak için bir tür seçin ve kaydetmeden önce kontrol edin."</string>
+  <string name="identification_score">"Eşleşme puanı: %1$s"</string>
+  <string name="identification_no_match">"Eşleşme bulunamadı. Daha net bir fotoğraf deneyin veya türü elle girin."</string>
+  <string name="identification_limit">"Günlük kota doldu. Yarın deneyin veya türü elle girin."</string>
+  <string name="identification_error">"Tanımlama kullanılamıyor. Yeniden deneyin veya türü elle girin."</string>
+  <string name="identification_terms">"Pl@ntNet · Koşullar ve gizlilik"</string>
+  <string name="identification_consent">"Öneriler için bu fotoğraf Pl@ntNet’e gönderilsin mi? FloraTend fotoğrafı sunucusunda kaydetmeden iletir. Pl@ntNet görüntüyü işler ve istek meta verilerini saklar. Fotoğrafı gönder seçilene kadar yükleme yapılmaz."</string>
+</resources>

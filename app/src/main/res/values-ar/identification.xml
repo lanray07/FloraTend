@@ -1,0 +1,12 @@
+<resources>
+  <string name="identify_photo">"التعرّف على الصورة"</string>
+  <string name="send_photo">"إرسال الصورة"</string>
+  <string name="identifying_photo">"جارٍ البحث عن نباتات مشابهة…"</string>
+  <string name="identification_suggestions">"قد تكون الاقتراحات خاطئة. اختر نوعًا لملء الحقل القابل للتعديل وتحقّق منه قبل الحفظ."</string>
+  <string name="identification_score">"درجة التطابق: %1$s"</string>
+  <string name="identification_no_match">"لم يُعثر على تطابق. جرّب صورة أوضح أو أدخل النوع يدويًا."</string>
+  <string name="identification_limit">"نفدت الحصة اليومية. حاول غدًا أو أدخل النوع يدويًا."</string>
+  <string name="identification_error">"التعرّف غير متاح. حاول مجددًا أو أدخل النوع يدويًا."</string>
+  <string name="identification_terms">"Pl@ntNet · الشروط والخصوصية"</string>
+  <string name="identification_consent">"هل تريد إرسال هذه الصورة إلى Pl@ntNet للحصول على اقتراحات؟ يمرّرها FloraTend عبر خادمه دون حفظها فيه. يعالج Pl@ntNet الصورة ويحتفظ بالبيانات الوصفية للطلب. لن تُرفع الصورة حتى تختار إرسال الصورة."</string>
+</resources>

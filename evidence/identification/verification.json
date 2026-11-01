@@ -1,0 +1,48 @@
+{
+  "version": "0.1.12/code13",
+  "recordedAtUtc": "2026-11-01T19:24:32.663251+00:00",
+  "jvmSuites": {
+    "test": {
+      "tests": 6,
+      "failures": 0,
+      "errors": 0
+    },
+    "testDebugUnitTest": {
+      "tests": 33,
+      "failures": 0,
+      "errors": 0
+    },
+    "testReleaseUnitTest": {
+      "tests": 33,
+      "failures": 0,
+      "errors": 0
+    }
+  },
+  "serverContracts": {
+    "passed": 27,
+    "scope": "20 synthetic identification contracts, one local workerd/SQLite budget/cleanup test, six unchanged receipt contracts; not live provider evidence"
+  },
+  "supportingTests": {
+    "passed": 60
+  },
+  "localeBundles": 22,
+  "translatableEntriesPerLocale": 182,
+  "structuralErrors": 0,
+  "qualifiedLocaleApprovals": 0,
+  "debugApk": "BUILT",
+  "debugInstrumentationApk": "BUILT; not executed",
+  "lint": "IN PROGRESS",
+  "firstCompileLintAttempt": "Exited1 without a final result; no lint pass inferred",
+  "identifierEndpointDefault": "empty; uploads disabled",
+  "serverDeployed": false,
+  "privateKeyConfigured": false,
+  "genuineProviderTest": "NOT TESTED",
+  "nativeConsentAndCorrection": "NOT TESTED: ADB reports no device",
+  "acceptanceLedger": {
+    "pass": 173,
+    "incomplete": 31,
+    "scope": "Historical scoped component evidence; not new candidate certification"
+  },
+  "amazonPackage": "Actual Amazon code11 left intact; no new submission, install, clear or uninstall",
+  "performanceGate": "FAIL retained; no experimental optimization promoted"
+}

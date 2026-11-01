@@ -32,6 +32,11 @@ jobs:
       - name: Validate Cloudflare Worker bundle
         working-directory: server
         run: npx wrangler deploy --dry-run --outdir ../build/receipt-worker
+      - name: Identification server contracts and SQLite budget
+        working-directory: server
+        run: |
+          node --test plant-identification.test.mjs plantnet-budget.test.mjs
+          npx wrangler deploy --config wrangler.plantnet.jsonc --dry-run --outdir ../build/identification-worker
       - uses: android-actions/setup-android@v4
       - name: Install Android SDK components
         run: sdkmanager 'platforms;android-36' 'build-tools;35.0.0' 'platform-tools'

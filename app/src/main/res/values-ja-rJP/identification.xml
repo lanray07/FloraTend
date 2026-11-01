@@ -1,0 +1,12 @@
+<resources>
+  <string name="identify_photo">"写真から調べる"</string>
+  <string name="send_photo">"写真を送信"</string>
+  <string name="identifying_photo">"似ている植物を検索中…"</string>
+  <string name="identification_suggestions">"候補は正確とは限りません。選ぶと編集可能な種名欄に入力されます。保存前に確認してください。"</string>
+  <string name="identification_score">"一致スコア：%1$s"</string>
+  <string name="identification_no_match">"候補が見つかりません。鮮明な写真で再試行するか、種名を入力してください。"</string>
+  <string name="identification_limit">"本日の利用上限に達しました。明日再試行するか、種名を入力してください。"</string>
+  <string name="identification_error">"識別できません。再試行するか、種名を入力してください。"</string>
+  <string name="identification_terms">"Pl@ntNet · 利用規約とプライバシー"</string>
+  <string name="identification_consent">"候補を調べるため、この写真をPl@ntNetに送信しますか？FloraTendのサーバーを経由しますが、そこで写真は保存されません。Pl@ntNetは画像を処理し、リクエストのメタデータを保持します。「写真を送信」を選ぶまでアップロードされません。"</string>
+</resources>
