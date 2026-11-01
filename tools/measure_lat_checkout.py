@@ -2,7 +2,7 @@
 
 Open Settings, verify an inactive LAT entitlement and its Amazon price, then
 provide the observed Unlock button centre. Never presses Pay or clears data.
-Raw screenshots/logcat stay in the private Android directory.
+Raw screenshots and optional diagnostic logcat stay in the private Android directory.
 """
 import argparse
 from io import BytesIO
@@ -12,7 +12,7 @@ from pathlib import Path
 import subprocess
 import time
 
-from PIL import Image
+from PIL import Image, ImageChops
 
 ADB = str(Path(os.environ.get('LOCALAPPDATA', '')) / 'Android/Sdk/platform-tools/adb.exe')
 
@@ -25,8 +25,12 @@ def checkout_pixels(capture):
     picture = Image.open(BytesIO(capture)).convert('RGB')
     # Screenshots are retained for human review; this is a presentation signal,
     # not receipt verification or proof that a payment completed.
-    pixels = getattr(picture, 'get_flattened_data', picture.getdata)()
-    return sum(r > 210 and 125 < g < 220 and b < 75 for r, g, b in pixels)
+    red, green, blue = picture.split()
+    red_mask = red.point([255 if value > 210 else 0 for value in range(256)])
+    green_mask = green.point([255 if 125 < value < 220 else 0 for value in range(256)])
+    blue_mask = blue.point([255 if value < 75 else 0 for value in range(256)])
+    # C-backed masks preserve the exact original predicate without a Python loop per pixel.
+    return ImageChops.multiply(ImageChops.multiply(red_mask, green_mask), blue_mask).histogram()[255]
 
 
 def main():
@@ -37,6 +41,7 @@ def main():
     parser.add_argument('--limit', type=float, default=5)
     parser.add_argument('--cancel-visible', action='store_true')
     parser.add_argument('--name', required=True)
+    parser.add_argument('--capture-private-logcat', action='store_true', help='Opt in only when raw diagnostic logs are needed; never publish them')
     args = parser.parse_args()
     if not args.name.replace('-', '').isalnum() or not 5 <= args.timeout <= 120:
         parser.error('Use an alphanumeric run name and a timeout from 5 to 120 seconds')
@@ -55,11 +60,16 @@ def main():
     samples = []
     visible = None
     while time.monotonic() - started < args.timeout:
+        capture_started = round(time.monotonic() - started, 3)
         capture = adb('exec-out', 'screencap', '-p')
         elapsed = round(time.monotonic() - started, 3)
+        detector_started = time.monotonic()
         pixels = checkout_pixels(capture)
+        detector_seconds = round(time.monotonic() - detector_started, 3)
         (folder / f'{len(samples):03d}.png').write_bytes(capture)
-        samples.append({'elapsedSeconds': elapsed, 'amazonButtonPixels': pixels})
+        samples.append({'elapsedSeconds': elapsed, 'captureStartedSeconds': capture_started,
+                        'captureDurationSeconds': round(elapsed-capture_started,3),
+                        'detectorSeconds': detector_seconds, 'amazonButtonPixels': pixels})
         if pixels >= 8000:
             activity = adb('shell', 'dumpsys', 'activity', 'activities').decode()
             resumed = next((line for line in activity.splitlines() if 'mResumedActivity:' in line), '')
@@ -67,7 +77,8 @@ def main():
                 visible = elapsed
                 break
         time.sleep(.5)
-    (folder / 'logcat.txt').write_bytes(adb('logcat', '-d', '-v', 'threadtime'))
+    if args.capture_private_logcat:
+        (folder / 'logcat.txt').write_bytes(adb('logcat', '-d', '-v', 'threadtime'))
     if visible is not None and args.cancel_visible:
         adb('shell', 'input', 'keyevent', '4')
     report = {'presentationSeconds': visible, 'limitSeconds': args.limit,
@@ -76,7 +87,8 @@ def main():
               'scope': 'Actual LAT checkout presentation only; no payment or receipt verification',
               'uiAutomationAttached': False, 'payPressed': False,
               'canceled': visible is not None and args.cancel_visible,
-              'rawArtifactsPrivate': True}
+              'rawArtifactsPrivate': True, 'rawLogcatCaptured': args.capture_private_logcat,
+              'measurement': 'Screenshot-return upper bound; capture and detector costs recorded separately'}
     (folder / 'result.json').write_text(json.dumps(report, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(report, indent=2))
     return 0 if report['result'] == 'PASS' else 1

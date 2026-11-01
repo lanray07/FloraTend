@@ -1,0 +1,7 @@
+test_actual_checkout_and_waiting_states_are_distinguished (test_checkout_timing.CheckoutTimingTest) ... ok
+test_optimized_counter_preserves_exact_retained_frame_counts (test_checkout_timing.CheckoutTimingTest) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.381s
+
+OK

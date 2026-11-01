@@ -1,0 +1,29 @@
+{
+  "presentationSeconds": 2.735,
+  "limitSeconds": 5.0,
+  "observationTimeoutSeconds": 60,
+  "samples": [
+    {
+      "elapsedSeconds": 1.219,
+      "captureStartedSeconds": 0.594,
+      "captureDurationSeconds": 0.625,
+      "detectorSeconds": 0.188,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 2.735,
+      "captureStartedSeconds": 1.907,
+      "captureDurationSeconds": 0.828,
+      "detectorSeconds": 0.094,
+      "amazonButtonPixels": 45305
+    }
+  ],
+  "result": "PASS",
+  "scope": "Actual LAT checkout presentation only; no payment or receipt verification",
+  "uiAutomationAttached": false,
+  "payPressed": false,
+  "canceled": false,
+  "rawArtifactsPrivate": true,
+  "rawLogcatCaptured": false,
+  "measurement": "Screenshot-return upper bound; capture and detector costs recorded separately"
+}

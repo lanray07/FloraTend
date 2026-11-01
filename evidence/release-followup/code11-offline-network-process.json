@@ -1,0 +1,11 @@
+{
+  "versionCode": 11,
+  "wifiFlag": "0",
+  "defaultNetworkBeforeRestart": "Active default network: none",
+  "defaultNetworkAfterSettling": "Active default network: none",
+  "beforePid": "7746",
+  "afterPid": "8163",
+  "pidChanged": true,
+  "uiAutomationAttached": false,
+  "scope": "Actual Amazon11 no-network process restart. Premium UI observation recorded separately; no raw RVS response or developer instrumentation."
+}

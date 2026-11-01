@@ -21,7 +21,7 @@
   "invitation_accepted": true,
   "amazon_installed_version_code": 6,
   "amazon_apk_sha256": "2e647a22019aefb67be951a58086a13deb535b40934b2665a3009ce86e8a332d",
-  "latest_check": "docs/LAT_SERVER_TEST_20261031.md",
+  "latest_check": "docs/RELEASE_FOLLOWUP_20261101.md",
   "verification_scope": "Actual Amazon code6 genuine purchase followed by server-gated owned Restore; strict installed client gate plus UI, no raw RVS payload captured",
   "automatic_purchase_activation": "FAIL on code6; fixed source7 awaiting genuine regression",
   "explicit_owned_restore": "PASS code6",
@@ -63,5 +63,17 @@
     "code11_release_id": "amzn1.devportal.apprelease.5a6ea3a6b65c4c989a3fa76abdd9115b",
     "code11_upload_sha256": "f4c549e09be5a8bb5852f0bb6e043a5ca100116c81f22aab9fb4d15bf40665c7",
     "code11_submission_evidence": "evidence/release-followup/lat-code11-submitted.png"
+  },
+  "latest_code11": {
+    "version_code": 11,
+    "version_name": "0.1.10",
+    "amazon_apk_sha256": "fb765d78dfef3f7ea67482d456e44e90a8f1d086bd640c34a25d16b359dfbf86",
+    "automatic_premium": "PASS",
+    "owned_restore": "PASS",
+    "offline_restart": "PASS",
+    "final_online_restore": "PASS",
+    "scope": "Genuine private free LAT; strict installed-client gate plus UI/DEX provenance, no raw RVS response. Historical code6 fields retained.",
+    "evidence": "evidence/release-followup/code11-genuine-results.json",
+    "checkout_delays_fully_resolved": false
   }
 }

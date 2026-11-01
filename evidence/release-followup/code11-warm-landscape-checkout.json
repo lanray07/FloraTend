@@ -1,0 +1,24 @@
+{
+  "versionCode": 11,
+  "orientation": "landscape",
+  "processStart": "warm",
+  "presentationSeconds": 3.25,
+  "limitSeconds": 5,
+  "result": "PASS",
+  "canceled": true,
+  "payPressed": false,
+  "uiAutomationAttached": false,
+  "rawArtifactsPrivate": true,
+  "rawLogcatCaptured": false,
+  "samples": [
+    {
+      "elapsedSeconds": 1.188,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 3.25,
+      "amazonButtonPixels": 45294
+    }
+  ],
+  "scope": "Actual Amazon checkout presentation and cancellation; no purchase or receipt proof. Five seconds is the investigation threshold, not an Amazon SLA."
+}

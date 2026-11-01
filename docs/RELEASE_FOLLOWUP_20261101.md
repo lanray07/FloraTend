@@ -1,6 +1,6 @@
 # Release follow-up — 1 November 2026
 
-Source0.1.10/code11 supersedes the frozen code10 candidate. Code10 entered Test2 in-progress; code11 was submitted to the same private Test2 track after local verification; console status Test submitted. Actual Amazon-delivered application remains code8. No developer build replaced that installed package.
+Source0.1.10/code11 supersedes the frozen code10 candidate. Code10 entered Test2 in-progress; code11 was submitted to the same private Test2 track after local verification; console status Test submitted. Actual Amazon-delivered code11 was installed in place through Appstore Update, preserving records. The genuine code11 results below supersede the earlier distribution checkpoint; no developer build replaced the main package.
 
 ## Reproduced defects and results
 
@@ -53,3 +53,21 @@ A first-party data-flow review combined with actual offline records/private-imag
 The export host read initially used the test filename entered before DocumentsUI rotation; that path did not exist even though the app reported Save success. The harness now chooses the final unique destination name after picker rotation, then separately verifies the actual UTF-8 payload. This does not assert that external DocumentsUI preserves its filename edits across rotation.
 
 The final real DocumentsUI export rerun passed; a separate private host read verified all4collections, the exact controlled Unicode name and quoted note in UTF-8. The destination payload stays private; only counts/hash/booleans are retained in `evidence/release-followup/export-destination-verification.json`.
+
+## Genuine Amazon code11 regression completed
+
+Actual nondebuggable Amazon code11 installed in place, installer `com.amazon.venezia`, APK SHA256 `fb765d78dfef3f7ea67482d456e44e90a8f1d086bd640c34a25d16b359dfbf86`, matching Amazon certificate. Both uploaded DEX files are byte-identical in the installed APK; the LAT endpoint is present and production endpoint absent. [Installed provenance](../evidence/release-followup/amazon-code11-installed.json), [DEX comparison](../evidence/release-followup/amazon-code11-dex-provenance.json).
+
+Amazon acknowledged the authorized entitlement reset for exactly one tester in FloraTend Premium LAT. The app returned to inactive status. Warm landscape checkout appeared at3.250s and cold landscape at3.266s; both cancelled. First cold portrait appeared at5.844s, exceeding the internal5s investigation target: this FAIL remains retained. After reducing host detector overhead without changing its pixel predicate, a fresh cold portrait repeat appeared at2.735s. Measurements are screenshot-return upper bounds, not an Amazon SLA or isolated store latency; the original intermittent delay cause remains unisolated. The timing tool now records capture/detector costs separately and raw logcat is opt-in private diagnostics. All43 supporting Python tests passed.
+
+The authorized genuine free LAT purchase then completed. Premium became active with Amazon purchase-confirmed text **before any Restore**. Explicit owned Restore passed. Wi-Fi was disabled, no default network was verified, process PID changed7746→8163, and Premium remained active after settling; unavailable refresh correctly reported that verification required connection. Wi-Fi was restored and final online Restore passed. [Scoped results](../evidence/release-followup/code11-genuine-results.json), [automatic grant](../evidence/release-followup/code11-automatic-premium.png), [owned Restore](../evidence/release-followup/code11-owned-restore.png), [offline state](../evidence/release-followup/code11-offline-network-process.json), [offline UI](../evidence/release-followup/code11-offline-premium.png), [final online Restore](../evidence/release-followup/code11-final-online-restore.png).
+
+Positive evidence is the actual installed strict client gate plus real UI and unchanged uploaded DEX. No raw RVS response was captured; no developer instrumentation attached to Amazon's signed app. No UiAutomator attached during checkout. Historical code6 automatic-grant failure and later presentation/setup failures remain retained. An initial Restore immediately after server reset reported unavailable verification; normal cold history refresh recovered before checkout. Its cause is not isolated and it is not counted as a successful purchase.
+
+Source/evidence head69f8d3a passed exact CI41323215215. Subsequent evidence/tool-only changes require their own exact-head CI. Full release remains incomplete; genuine LAT success does not certify paid production receipts or unresolved human/provider/publication requirements.
+
+## Additional native localization contracts
+
+The isolated code11 QA package passed2new native cases:572plural comparisons across all22locales, using Android ICU category selection against source forms, plus actual selected-language rendering of3Premium texts,4voice prompts and4toggle accessibility labels per locale. This verifies compiled resource selection/rendering, not human grammar approval or real speech recognition. The first harness run tried to scroll a fixed heading; its failure is retained as `localized-surfaces-harness-scroll-failure.txt`; only the test was corrected. Initial Gradle invocation also needed its dotted property quoted in PowerShell; that setup log is retained. The successful run is `localized-surface-contracts.txt`. The matrix now records162/204PASS,42incomplete:62of the original104closed.
+
+Final device readback confirms Wi-Fi on/default network present, font1.0, physical size/density without overrides, original rotation1/0 and only the actual Amazon package installed. A fresh private QA tar backup was validated and all4record tables were empty before uninstalling the disposable QA packages. The original main package and records were not cleared. [Final state](../evidence/release-followup/code11-final-device-state.json).

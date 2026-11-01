@@ -1,0 +1,21 @@
+
+com.floratend.app.LocalizedSurfaceContractTest:
+Error in allLocalePaywallsVoicePromptsAndToggleLabelsUseSelectedResources(com.floratend.app.LocalizedSurfaceContractTest):
+java.lang.AssertionError: Semantic Node has no parent layout with a Scroll SemanticsAction
+	at androidx.compose.ui.test.ActionsKt.scrollToNode(Actions.kt:92)
+	at androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:77)
+	at com.floratend.app.LocalizedSurfaceContractTest.allLocalePaywallsVoicePromptsAndToggleLabelsUseSelectedResources(LocalizedSurfaceContractTest.kt:51)
+.
+
+Time: 10.86
+There was 1 failure:
+1) allLocalePaywallsVoicePromptsAndToggleLabelsUseSelectedResources(com.floratend.app.LocalizedSurfaceContractTest)
+java.lang.AssertionError: Semantic Node has no parent layout with a Scroll SemanticsAction
+	at androidx.compose.ui.test.ActionsKt.scrollToNode(Actions.kt:92)
+	at androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:77)
+	at com.floratend.app.LocalizedSurfaceContractTest.allLocalePaywallsVoicePromptsAndToggleLabelsUseSelectedResources(LocalizedSurfaceContractTest.kt:51)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1
+
+

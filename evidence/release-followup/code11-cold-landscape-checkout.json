@@ -1,0 +1,23 @@
+{
+  "installedVersionCode": 11,
+  "rawLogcatCaptured": false,
+  "presentationSeconds": 3.266,
+  "limitSeconds": 5.0,
+  "observationTimeoutSeconds": 60,
+  "samples": [
+    {
+      "elapsedSeconds": 1.204,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 3.266,
+      "amazonButtonPixels": 45294
+    }
+  ],
+  "result": "PASS",
+  "scope": "Actual LAT checkout presentation only; no payment or receipt verification",
+  "uiAutomationAttached": false,
+  "payPressed": false,
+  "canceled": true,
+  "rawArtifactsPrivate": true
+}

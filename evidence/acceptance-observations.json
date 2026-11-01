@@ -145,13 +145,16 @@
   },
   "AC-12.02": {
     "test_name": "Real sandbox product lookup",
-    "execution_date": "2026-10-30",
-    "environment": "Physical Fire HD 10 KFTRWI API 28 / real Amazon App Tester where applicable / Python asset integrity checks",
+    "execution_date": "2026-11-01",
+    "environment": "Actual nondebug Amazon Test2 code11; physical Fire HD10/API28; no developer instrumentation",
     "status": "PASS",
-    "actual_result": "The SDK returned the entitled Flora SKU and US$4.99 fixture price; no live price claimed.",
+    "actual_result": "Actual Amazon11 catalogue returned GBP3.73; price was displayed in Settings and genuine LAT checkout. Earlier App Tester US$4.99 evidence retains its fixture scope.",
     "evidence": [
       "evidence/billing/catalogue-probe.txt",
-      "evidence/billing/catalogue-probe.json"
+      "evidence/billing/catalogue-probe.json",
+      "evidence/release-followup/code11-genuine-results.json",
+      "evidence/release-followup/amazon-code11-dex-provenance.json",
+      "docs/RELEASE_FOLLOWUP_20261101.md"
     ],
     "corrective_action": "Keep human review and other untested release gates separate."
   },
@@ -955,49 +958,61 @@
   },
   "AC-12.03": {
     "test_name": "Store-provided price rendered",
-    "execution_date": "2026-10-30",
-    "environment": "Physical Fire HD 10 KFTRWI API 28 / real Amazon App Tester where applicable / Python asset integrity checks",
+    "execution_date": "2026-11-01",
+    "environment": "Actual nondebug Amazon Test2 code11; physical Fire HD10/API28; no developer instrumentation",
     "status": "PASS",
-    "actual_result": "Compose Settings displayed the exact returned SDK price.",
+    "actual_result": "Actual installed Amazon11 Settings and checkout displayed the returned GBP3.73 catalogue price. Genuine LAT is free to testers; this is not evidence of a paid transaction.",
     "evidence": [
       "evidence/billing/catalogue-probe.txt",
-      "evidence/billing/catalogue-probe.json"
+      "evidence/billing/catalogue-probe.json",
+      "evidence/release-followup/code11-genuine-results.json",
+      "evidence/release-followup/amazon-code11-dex-provenance.json",
+      "docs/RELEASE_FOLLOWUP_20261101.md"
     ],
     "corrective_action": "Keep human review and other untested release gates separate."
   },
   "AC-12.04": {
     "test_name": "Real sandbox purchase entitlement",
-    "execution_date": "2026-10-30",
-    "environment": "Physical Fire HD 10 KFTRWI API 28 / real Amazon App Tester where applicable / Python asset integrity checks",
+    "execution_date": "2026-11-01",
+    "environment": "Actual nondebug Amazon Test2 code11; physical Fire HD10/API28; no developer instrumentation",
     "status": "PASS",
-    "actual_result": "Get Item / Close delivered a genuine SDK receipt, persisted it and granted Premium. Other feature gates remain separate.",
+    "actual_result": "After authorized reset for one disposable LAT tester and inactive precondition, actual Amazon11 completed genuine free LAT purchase and automatically granted Premium through the strict server gate before Restore. Both uploaded DEX files are unchanged in the installed APK. No raw RVS response captured.",
     "evidence": [
       "evidence/billing/purchase-and-cancel.txt",
-      "evidence/billing/purchase-and-cancel.json"
+      "evidence/billing/purchase-and-cancel.json",
+      "evidence/release-followup/code11-genuine-results.json",
+      "evidence/release-followup/amazon-code11-dex-provenance.json",
+      "docs/RELEASE_FOLLOWUP_20261101.md"
     ],
     "corrective_action": "Keep human review and other untested release gates separate."
   },
   "AC-12.05": {
     "test_name": "Actual purchase dialog cancellation",
-    "execution_date": "2026-10-30",
-    "environment": "Physical Fire HD 10 KFTRWI API 28 / real Amazon App Tester where applicable / Python asset integrity checks",
+    "execution_date": "2026-11-01",
+    "environment": "Actual nondebug Amazon Test2 code11; physical Fire HD10/API28; no developer instrumentation",
     "status": "PASS",
-    "actual_result": "Cancel returned billing-incomplete and Premium remained false before a separate successful purchase.",
+    "actual_result": "Actual Amazon11 warm and cold landscape checkout were cancelled without payment; no new grant before later genuine portrait purchase. Historical SDK cancellation evidence remains retained.",
     "evidence": [
       "evidence/billing/purchase-and-cancel.txt",
-      "evidence/billing/purchase-and-cancel.json"
+      "evidence/billing/purchase-and-cancel.json",
+      "evidence/release-followup/code11-genuine-results.json",
+      "evidence/release-followup/amazon-code11-dex-provenance.json",
+      "docs/RELEASE_FOLLOWUP_20261101.md"
     ],
     "corrective_action": "Keep human review and other untested release gates separate."
   },
   "AC-12.07": {
     "test_name": "Real SDK purchase restoration",
-    "execution_date": "2026-10-30",
-    "environment": "Physical Fire HD 10 KFTRWI API 28 / real Amazon App Tester where applicable / Python asset integrity checks",
+    "execution_date": "2026-11-01",
+    "environment": "Actual nondebug Amazon Test2 code11; physical Fire HD10/API28; no developer instrumentation",
     "status": "PASS",
-    "actual_result": "After removing only the local grant, full SDK history restored Premium from the actual tester receipt.",
+    "actual_result": "Actual Amazon11 explicit owned Restore passed after the fresh purchase and again after re-enabling Wi-Fi. UI Premium active/history checked; strict installed-client gate and unchanged DEX, not captured raw RVS response.",
     "evidence": [
       "evidence/billing/restore-receipt.txt",
-      "evidence/billing/restore-receipt.json"
+      "evidence/billing/restore-receipt.json",
+      "evidence/release-followup/code11-genuine-results.json",
+      "evidence/release-followup/amazon-code11-dex-provenance.json",
+      "docs/RELEASE_FOLLOWUP_20261101.md"
     ],
     "corrective_action": "Keep human review and other untested release gates separate."
   },
@@ -1040,15 +1055,18 @@
   },
   "AC-12.08": {
     "test_name": "Real offline relaunch plus interrupted-cache recovery",
-    "execution_date": "2026-10-30",
-    "environment": "Physical KFTRWI API28 / actual Amazon App Tester where stated / compiled debug and release JVM variants / signed APK audit",
+    "execution_date": "2026-11-01",
+    "environment": "Actual nondebug Amazon Test2 code11; physical Fire HD10/API28; no developer instrumentation",
     "status": "PASS",
-    "actual_result": "A genuine sandbox grant survived a force-stop and relaunch with no active network (code 4). Controlled code-5 startup/store tests recover grants and revocations after interrupted projection writes; these fixtures are not purchases.",
+    "actual_result": "Actual Amazon11 fresh validated grant survived Wi-Fi-disabled/no-default-network process restart with PID7746 to8163; Premium/export controls remained active. Offline verification unavailability text correctly shown; final online Restore passed.",
     "evidence": [
       "evidence/billing-production/offline-restart.txt",
       "evidence/billing-production/offline-restart.json",
       "evidence/billing-production/final-privacy-startup-store.txt",
-      "evidence/billing-startup-red.txt"
+      "evidence/billing-startup-red.txt",
+      "evidence/release-followup/code11-genuine-results.json",
+      "evidence/release-followup/amazon-code11-dex-provenance.json",
+      "docs/RELEASE_FOLLOWUP_20261101.md"
     ],
     "corrective_action": "Keep production/LAT, human review and broader integration gates separate."
   },
@@ -1143,7 +1161,7 @@
   "AC-19.10": {
     "test_name": "Production billing verification dependency",
     "status": "BLOCKED",
-    "actual_result": "Actual Amazon-delivered code7 fresh free LAT purchase automatically activated Premium through the strict server gate; explicit owned Restore and offline no-network process restart PASSED under exclusive tablet access. Both checkout orientations rendered after reboot; initial dialog-absent/delayed attempts and code6 automatic-activation failure retained. Original store presentation cause remains unisolated; production receipt edge cases and privacy review remain open. No public promotion, real charge or paid hosting.",
+    "actual_result": "Actual Amazon11 genuine free LAT purchase automatically activated Premium through strict server gating; explicit Restore, offline no-network process restart and final online Restore passed. Both uploaded DEX files unchanged. First cold portrait screenshot-return bound5.844s exceeded internal5s target; repeat2.735s. Historical failures retained; original intermittent store-delay cause unisolated. Paid production receipt edge cases and publisher privacy review remain open.",
     "evidence": [
       "submission/production-iap-readback.json",
       "docs/PRODUCTION_BILLING_RELEASE_CHECKS.md",
@@ -1168,11 +1186,14 @@
       "evidence/lat-code7/pre-reboot-checks.json",
       "evidence/lat-code7/genuine-results.json",
       "evidence/lat-code7/exclusive-owned-restore.png",
-      "evidence/lat-code7/offline-process-state.json"
+      "evidence/lat-code7/offline-process-state.json",
+      "evidence/release-followup/code11-genuine-results.json",
+      "evidence/release-followup/code11-cold-portrait-checkout.json",
+      "evidence/release-followup/code11-cold-portrait-repeat.json"
     ],
     "corrective_action": "Investigate retained checkout delay and finish production receipt edge cases, publisher privacy review and broader acceptance gates.",
     "execution_date": "2026-11-01",
-    "environment": "Physical Fire HD10 API28; actual Amazon Test2 code7; strict LAT verifier"
+    "environment": "Actual Amazon Test2 code11; physical Fire HD10/API28"
   },
   "AC-02.05": {
     "test_name": "Physical light/dark UI regression",
@@ -2153,5 +2174,44 @@
       "evidence/release-followup/server-tests.txt"
     ],
     "corrective_action": "Re-evaluate before enabling any photo provider; final publisher/privacy/legal approval remains pending."
+  },
+  "AC-07.04": {
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10/API28; isolated code11 QA package; compiled Android resources",
+    "status": "PASS",
+    "corrective_action": "Keep qualified human wording approval and real multilingual speech-engine verification separate.",
+    "test_name": "Compiled plural selection across all22 locales",
+    "actual_result": "572 comparisons (22locales ×2plurals ×13counts) matched Android ICU selected categories and the exact source form. Includes Arabic zero/one/two/few/many/other and Polish categories. Grammar itself remains unapproved draft wording.",
+    "evidence": [
+      "app/src/androidTest/java/com/floratend/app/LocalizedSurfaceContractTest.kt",
+      "evidence/release-followup/localized-surface-contracts.txt",
+      "evidence/release-followup/surface-contracts/plurals.json"
+    ]
+  },
+  "AC-07.10": {
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10/API28; isolated code11 QA package; compiled Android resources",
+    "status": "PASS",
+    "corrective_action": "Keep qualified human wording approval and real multilingual speech-engine verification separate.",
+    "test_name": "All-locale native Premium copy rendering",
+    "actual_result": "In each of22 selected-language recreated Activities, Premium heading, inactive offer explanation and Restore rendered using selected resources. No purchase occurred in this disposable QA test; genuine Amazon11 billing is recorded separately. Human copy approval remains pending.",
+    "evidence": [
+      "app/src/androidTest/java/com/floratend/app/LocalizedSurfaceContractTest.kt",
+      "evidence/release-followup/localized-surface-contracts.txt",
+      "evidence/release-followup/surface-contracts/surfaces.json"
+    ]
+  },
+  "AC-07.12": {
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10/API28; isolated code11 QA package; compiled Android resources",
+    "status": "PASS",
+    "corrective_action": "Keep qualified human wording approval and real multilingual speech-engine verification separate.",
+    "test_name": "All-locale native written voice prompts",
+    "actual_result": "In each of22 selected-language recreated Activities, voice introduction, privacy prompt, command label and examples rendered using selected resources. Four toggle accessibility labels also matched their localized resource in every locale. No real recognition or multilingual TTS capability inferred.",
+    "evidence": [
+      "app/src/androidTest/java/com/floratend/app/LocalizedSurfaceContractTest.kt",
+      "evidence/release-followup/localized-surface-contracts.txt",
+      "evidence/release-followup/surface-contracts/surfaces.json"
+    ]
   }
 }

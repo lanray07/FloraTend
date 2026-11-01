@@ -1,0 +1,27 @@
+{
+  "versionCode": 11,
+  "freshQaBackupValidated": true,
+  "qaBackupSha256": "f3adf1e8a87a5c1d83dd9058e3cd3c90317289f4d450c2f9d249a03a9be009dc",
+  "qaRecordCounts": {
+    "plants": 0,
+    "schedules": 0,
+    "journal": 0,
+    "history": 0
+  },
+  "onlyFloraTendPackage": [
+    "package:com.floratend.app"
+  ],
+  "wifiOn": "1",
+  "network": [
+    "Active default network: 110"
+  ],
+  "accelerometerRotation": "1",
+  "userRotation": "0",
+  "fontScale": "1.0",
+  "windowSize": "Physical size: 1200x1920",
+  "windowDensity": "Physical density: 240",
+  "mainPackageClearedOrUninstalled": false,
+  "appstoreForceStopped": false,
+  "librarySort": "By Title; unchanged",
+  "scope": "After genuine Amazon11 billing and isolated QA localization contracts; fresh private validated backup and empty-data guard before QA uninstall."
+}

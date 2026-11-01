@@ -1,0 +1,9 @@
+{
+  "versionCode": 11,
+  "apkSha256": "fb765d78dfef3f7ea67482d456e44e90a8f1d086bd640c34a25d16b359dfbf86",
+  "versionName": "0.1.10",
+  "scope": "Actual in-place Amazon Appstore Update for same Test2 ASIN. No developer APK installed over Amazon package. Genuine regression completed separately in code11-genuine-results.json.",
+  "installer": "com.amazon.venezia",
+  "nondebuggable": true,
+  "certificateSha256": "8e35b165d5a1dc14c10820cee25ed2c24e9c543ceb2f059b9f5bc93baa672297"
+}

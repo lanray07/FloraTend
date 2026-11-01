@@ -2,14 +2,14 @@
 
 **BLOCKED**
 
-Verified acceptance rate: **159 / 204 = 77.94%**. BLOCKED and NOT TESTED criteria count as incomplete.
+Verified acceptance rate: **162 / 204 = 79.41%**. BLOCKED and NOT TESTED criteria count as incomplete.
 
 | Status | Mandatory criteria |
 |---|---:|
 | BLOCKED | 9 |
 | FAIL | 0 |
-| NOT TESTED | 36 |
-| PASS | 159 |
+| NOT TESTED | 33 |
+| PASS | 162 |
 
 The criterion-level evidence, expected behaviour and corrective actions are in [ACCEPTANCE_TEST_RESULTS.csv](ACCEPTANCE_TEST_RESULTS.csv) and [ACCEPTANCE_CRITERIA.md](ACCEPTANCE_CRITERIA.md). This decision is conservative: no release is approved while any mandatory criterion remains unverified. Publication additionally requires explicit user authorisation.
 
@@ -17,7 +17,7 @@ The criterion-level evidence, expected behaviour and corrective actions are in [
 
 - AC-02 — Premium UI and Fire Tablet Compatibility: 1 criteria incomplete.
 - AC-06 — Voice Input and Output: 2 criteria incomplete.
-- AC-07 — Worldwide Application Localisation: 10 criteria incomplete.
+- AC-07 — Worldwide Application Localisation: 7 criteria incomplete.
 - AC-08 — Localised Amazon Appstore Screenshots: 7 criteria incomplete.
 - AC-09 — Automatic Translation Pipeline: 1 criteria incomplete.
 - AC-11 — Plant Identification: 7 criteria incomplete.

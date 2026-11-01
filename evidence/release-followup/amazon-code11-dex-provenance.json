@@ -1,0 +1,10 @@
+{
+  "actualAmazonVersion": 11,
+  "latEndpointPresent": true,
+  "productionEndpointAbsent": true,
+  "uploadDexCount": 2,
+  "amazonDexCount": 2,
+  "unchangedUploadedDexCount": 2,
+  "allUploadedDexContainedUnchanged": true,
+  "scope": "Static inspection of actual Amazon-delivered APK, no developer instrumentation or captured raw RVS response."
+}

@@ -1,0 +1,25 @@
+{
+  "versionName": "0.1.10",
+  "versionCode": 11,
+  "installer": "com.amazon.venezia",
+  "nondebuggable": true,
+  "allUploadedDexUnchanged": true,
+  "dedicatedSingleTesterResetAcknowledged": true,
+  "freshGenuineFreeLatPurchase": "PASS",
+  "automaticStrictServerGatedPremiumBeforeRestore": "PASS",
+  "explicitOwnedRestore": "PASS",
+  "offlineNoNetworkProcessRestart": "PASS",
+  "finalOnlineRestore": "PASS",
+  "rawRvsResponseCaptured": false,
+  "developerInstrumentationOnAmazonApp": false,
+  "uiAutomatorAttachedDuringCheckout": false,
+  "checkoutPresentationUpperBoundsSeconds": [
+    3.25,
+    3.266,
+    5.844,
+    2.735
+  ],
+  "internalInvestigationTargetSeconds": 5,
+  "retainedFailure": "First cold portrait screenshot-return bound 5.844s exceeded target; repeat 2.735s. Original store delay cause unisolated. Capture/detector overhead is not store latency.",
+  "scope": "Actual Amazon-delivered code11; genuine free private LAT only. Strict installed-client gate plus real UI and identical uploaded DEX, not raw RVS payload evidence. No real charge or public promotion."
+}

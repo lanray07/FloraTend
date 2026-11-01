@@ -1,0 +1,19 @@
+{
+  "qaBackupValidated": true,
+  "backupSha256": "8b066531dd882bb1de8d76cdd32a9ed762aa5e817f4085fa4b2b84b91c32cb4e",
+  "qaRecordCountsBeforeUninstall": {
+    "plants": 0,
+    "schedules": 0,
+    "journal": 0,
+    "history": 0
+  },
+  "controlledPrivatePhotoFilesBackedUp": 1,
+  "removedOnlyDisposablePackages": [
+    "com.floratend.app.qa",
+    "com.floratend.app.qa.test"
+  ],
+  "controlledExportBackedUpAndRemoved": true,
+  "controlledPickerPngExactHashMatchedAndRemoved": true,
+  "mainAmazonPackageUninstalledOrCleared": false,
+  "scope": "Fresh private QA tar backup and empty four-table guard before disposable harness removal. Main Amazon application and records untouched."
+}

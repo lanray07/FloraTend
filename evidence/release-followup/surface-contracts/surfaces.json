@@ -1,0 +1,139 @@
+{
+  "locales": [
+    {
+      "locale": "en-GB",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "en-US",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "en-AU",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "es-ES",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "es-419",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "fr-FR",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "fr-CA",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "de-DE",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "it-IT",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "pt-BR",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "pt-PT",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "nl-NL",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "pl-PL",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "sv-SE",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "ja-JP",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "hi-IN",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "ar",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "tr-TR",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "id-ID",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "ko-KR",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "zh-CN",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    },
+    {
+      "locale": "zh-TW",
+      "paywallTexts": 3,
+      "toggleAccessibilityLabels": 4,
+      "voicePrompts": 4
+    }
+  ],
+  "humanApproval": false,
+  "realSpeechRecognition": false,
+  "amazonPurchase": false
+}

@@ -1,0 +1,228 @@
+{
+  "en-GB": {
+    "reminder_count": {
+      "one": "%1$d plant-care check to review.",
+      "other": "%1$d plant-care checks to review."
+    },
+    "collection_count": {
+      "one": "Your collection · %1$d plant",
+      "other": "Your collection · %1$d plants"
+    }
+  },
+  "en-US": {
+    "reminder_count": {
+      "one": "%1$d plant-care check to review.",
+      "other": "%1$d plant-care checks to review."
+    },
+    "collection_count": {
+      "one": "Your collection · %1$d plant",
+      "other": "Your collection · %1$d plants"
+    }
+  },
+  "en-AU": {
+    "reminder_count": {
+      "one": "%1$d plant-care check to review.",
+      "other": "%1$d plant-care checks to review."
+    },
+    "collection_count": {
+      "one": "Your collection · %1$d plant",
+      "other": "Your collection · %1$d plants"
+    }
+  },
+  "es-ES": {
+    "reminder_count": {
+      "one": "%1$d revisión de plantas pendiente.",
+      "other": "%1$d revisiones de plantas pendientes."
+    },
+    "collection_count": {
+      "one": "Tu colección · %1$d planta",
+      "other": "Tu colección · %1$d plantas"
+    }
+  },
+  "es-419": {
+    "reminder_count": {
+      "one": "%1$d revisión de plantas pendiente.",
+      "other": "%1$d revisiones de plantas pendientes."
+    },
+    "collection_count": {
+      "one": "Tu colección · %1$d planta",
+      "other": "Tu colección · %1$d plantas"
+    }
+  },
+  "fr-FR": {
+    "reminder_count": {
+      "one": "%1$d vérification de plante à consulter.",
+      "other": "%1$d vérifications de plantes à consulter."
+    },
+    "collection_count": {
+      "one": "Votre collection · %1$d plante",
+      "other": "Votre collection · %1$d plantes"
+    }
+  },
+  "fr-CA": {
+    "reminder_count": {
+      "one": "%1$d vérification de plante à consulter.",
+      "other": "%1$d vérifications de plantes à consulter."
+    },
+    "collection_count": {
+      "one": "Votre collection · %1$d plante",
+      "other": "Votre collection · %1$d plantes"
+    }
+  },
+  "de-DE": {
+    "reminder_count": {
+      "one": "%1$d Pflanzenkontrolle zum Prüfen.",
+      "other": "%1$d Pflanzenkontrollen zum Prüfen."
+    },
+    "collection_count": {
+      "one": "Deine Sammlung · %1$d Pflanze",
+      "other": "Deine Sammlung · %1$d Pflanzen"
+    }
+  },
+  "it-IT": {
+    "reminder_count": {
+      "one": "%1$d controllo di cura da esaminare.",
+      "other": "%1$d controlli di cura da esaminare."
+    },
+    "collection_count": {
+      "one": "La tua collezione · %1$d pianta",
+      "other": "La tua collezione · %1$d piante"
+    }
+  },
+  "pt-BR": {
+    "reminder_count": {
+      "one": "%1$d verificação de cuidados para revisar.",
+      "other": "%1$d verificações de cuidados para revisar."
+    },
+    "collection_count": {
+      "one": "Sua coleção · %1$d planta",
+      "other": "Sua coleção · %1$d plantas"
+    }
+  },
+  "pt-PT": {
+    "reminder_count": {
+      "one": "%1$d verificação de cuidados para rever.",
+      "other": "%1$d verificações de cuidados para rever."
+    },
+    "collection_count": {
+      "one": "A sua coleção · %1$d planta",
+      "other": "A sua coleção · %1$d plantas"
+    }
+  },
+  "nl-NL": {
+    "reminder_count": {
+      "one": "%1$d verzorgingscontrole om te bekijken.",
+      "other": "%1$d verzorgingscontroles om te bekijken."
+    },
+    "collection_count": {
+      "one": "Je verzameling · %1$d plant",
+      "other": "Je verzameling · %1$d planten"
+    }
+  },
+  "pl-PL": {
+    "reminder_count": {
+      "one": "%1$d kontrola pielęgnacji do przejrzenia.",
+      "few": "%1$d kontrole pielęgnacji do przejrzenia.",
+      "many": "%1$d kontroli pielęgnacji do przejrzenia.",
+      "other": "%1$d kontroli pielęgnacji do przejrzenia."
+    },
+    "collection_count": {
+      "one": "Twoja kolekcja · %1$d roślina",
+      "few": "Twoja kolekcja · %1$d rośliny",
+      "many": "Twoja kolekcja · %1$d roślin",
+      "other": "Twoja kolekcja · %1$d rośliny"
+    }
+  },
+  "sv-SE": {
+    "reminder_count": {
+      "one": "%1$d skötselkontroll att granska.",
+      "other": "%1$d skötselkontroller att granska."
+    },
+    "collection_count": {
+      "one": "Din samling · %1$d växt",
+      "other": "Din samling · %1$d växter"
+    }
+  },
+  "ja-JP": {
+    "reminder_count": {
+      "one": "確認する植物のお手入れが%1$d件あります。",
+      "other": "確認する植物のお手入れが%1$d件あります。"
+    },
+    "collection_count": {
+      "one": "コレクション · 植物%1$d件",
+      "other": "コレクション · 植物%1$d件"
+    }
+  },
+  "hi-IN": {
+    "reminder_count": {
+      "one": "पौधों की देखभाल की %1$d जाँच पर ध्यान दें।",
+      "other": "पौधों की देखभाल की %1$d जाँचों पर ध्यान दें।"
+    },
+    "collection_count": {
+      "one": "आपका संग्रह · %1$d पौधा",
+      "other": "आपका संग्रह · %1$d पौधे"
+    }
+  },
+  "ar": {
+    "reminder_count": {
+      "zero": "لا توجد فحوص عناية بالنباتات لمراجعتها (%1$d).",
+      "one": "يلزم مراجعة فحص واحد للعناية بالنباتات (%1$d).",
+      "two": "يلزم مراجعة فحصين للعناية بالنباتات (%1$d).",
+      "few": "يلزم مراجعة %1$d فحوص للعناية بالنباتات.",
+      "many": "يلزم مراجعة %1$d فحصا للعناية بالنباتات.",
+      "other": "يلزم مراجعة %1$d من فحوص العناية بالنباتات."
+    },
+    "collection_count": {
+      "zero": "مجموعتك · لا توجد نباتات (%1$d)",
+      "one": "مجموعتك · نبات واحد (%1$d)",
+      "two": "مجموعتك · نباتان (%1$d)",
+      "few": "مجموعتك · %1$d نباتات",
+      "many": "مجموعتك · %1$d نباتا",
+      "other": "مجموعتك · %1$d من النباتات"
+    }
+  },
+  "tr-TR": {
+    "reminder_count": {
+      "one": "Gözden geçirilecek %1$d bitki bakım kontrolü var.",
+      "other": "Gözden geçirilecek %1$d bitki bakım kontrolü var."
+    },
+    "collection_count": {
+      "one": "Koleksiyonunuz · %1$d bitki",
+      "other": "Koleksiyonunuz · %1$d bitki"
+    }
+  },
+  "id-ID": {
+    "reminder_count": {
+      "one": "Ada %1$d pemeriksaan perawatan tanaman untuk ditinjau.",
+      "other": "Ada %1$d pemeriksaan perawatan tanaman untuk ditinjau."
+    },
+    "collection_count": {
+      "one": "Koleksi Anda · %1$d tanaman",
+      "other": "Koleksi Anda · %1$d tanaman"
+    }
+  },
+  "ko-KR": {
+    "reminder_count": {
+      "other": "확인할 식물 관리 항목 %1$d개."
+    },
+    "collection_count": {
+      "other": "내 식물 · %1$d개"
+    }
+  },
+  "zh-CN": {
+    "reminder_count": {
+      "other": "有 %1$d 项植物养护检查待查看。"
+    },
+    "collection_count": {
+      "other": "你的植物 · %1$d 株"
+    }
+  },
+  "zh-TW": {
+    "reminder_count": {
+      "other": "有 %1$d 項植物照護檢查待查看。"
+    },
+    "collection_count": {
+      "other": "你的植物 · %1$d 株"
+    }
+  }
+}

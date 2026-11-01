@@ -1,0 +1,33 @@
+{
+  "actualPrivatePortraitFrame": true,
+  "exactPixelCountsEqual": true,
+  "measurements": [
+    {
+      "function": "checkout_pixels",
+      "counts": [
+        45305,
+        45305,
+        45305
+      ],
+      "seconds": [
+        0.5630277000018395,
+        0.5074527999968268,
+        0.5223144000046887
+      ]
+    },
+    {
+      "function": "fast",
+      "counts": [
+        45305,
+        45305,
+        45305
+      ],
+      "seconds": [
+        0.04640500003006309,
+        0.041833899973426014,
+        0.03910589998122305
+      ]
+    }
+  ],
+  "scope": "Host screenshot classification cost only; not Amazon/app latency or a root-cause conclusion."
+}
