@@ -1,4 +1,4 @@
-> Current development: **0.1.13 / code14**, with [rendering/native results and remaining work](docs/RELEASE_REMAINING_20261101.md). Actual Amazon code11 remains the verified installed build. The ledger records182/204 scoped passes and22 incomplete criteria. Calendar entry stalls and external approvals keep release BLOCKED.
+> Current development: **0.1.14 / code15**, [Calendar fix and private Test2 submission](docs/RELEASE_CODE15_20261101.md). Ledger:184/204 scoped passes,20incomplete. Optimized accessibility and other release gates remain open; public release is BLOCKED.
 
 > Current checkout work: [cold-start diagnosis and code8 regression](docs/CHECKOUT_DELAY_DIAGNOSIS_20261101.md).
 

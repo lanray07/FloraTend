@@ -1,0 +1,12 @@
+{
+  "result": "FAIL",
+  "optimizedApkSha256": "719760861f4b58ea7389fbfee73a06e7ba95a9d3b9a3afdd9e401a44b587a881",
+  "steps": [
+    {
+      "action": "Calendar",
+      "observedTarget": true
+    }
+  ],
+  "failure": "Missing resulting text: Your care calendar",
+  "rawUiPrivate": true
+}

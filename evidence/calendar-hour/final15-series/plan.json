@@ -1,0 +1,12 @@
+{
+  "protocol": "fixed-five-launch-histogram-v1",
+  "trials": 5,
+  "versionCode": 15,
+  "minimumFramesPerScreen": 100,
+  "thresholds": {
+    "frameP95Ms": 32,
+    "jankyPercent": 10,
+    "maxDurationBucketMs": 250
+  },
+  "selection": "All trials in order; no replacement or extra favourable trials"
+}

@@ -13,8 +13,8 @@ android {
         applicationId = "com.floratend.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 14
-        versionName = "0.1.13"
+        versionCode = 15
+        versionName = "0.1.14"
         // Empty until the privately configured, free-only identification server is verified.
         val identifierUrl = providers.gradleProperty("floratend.plantIdentifierUrl").getOrElse("")
         require(identifierUrl.isEmpty() || identifierUrl.matches(Regex("https://[a-zA-Z0-9.-]+/identify"))) { "Invalid plant identifier HTTPS URL" }
@@ -37,7 +37,7 @@ android {
             }
         }
     }
-    buildTypes { release { isMinifyEnabled = false; signingConfig = if (!System.getenv("FLORATEND_KEYSTORE").isNullOrBlank()) signingConfigs.getByName("store") else null } }
+    buildTypes { release { isMinifyEnabled = true; proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"),"proguard-rules.pro"); testProguardFiles("test-proguard-rules.pro"); signingConfig = if (!System.getenv("FLORATEND_KEYSTORE").isNullOrBlank()) signingConfigs.getByName("store") else null } }
     buildTypes.create("qa") {
         initWith(buildTypes.getByName("debug"))
         applicationIdSuffix = ".qa"
@@ -47,6 +47,8 @@ android {
     // Isolated, non-debuggable rendering verification; never the Amazon package.
     buildTypes.create("benchmark") {
         initWith(buildTypes.getByName("release"))
+        // Recovery/diagnostics only; production release optimization cannot be disabled by this flag.
+        isMinifyEnabled = providers.gradleProperty("floratend.perfOptimization").getOrElse("true").toBooleanStrict()
         applicationIdSuffix = ".perf"
         signingConfig = signingConfigs.getByName("debug")
         matchingFallbacks += "release"

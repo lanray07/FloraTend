@@ -1,4 +1,4 @@
-param([switch]$BuildDeviceTests)
+param([switch]$BuildDeviceTests,[string]$PlantIdentifierUrl="")
 $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path -Parent $PSScriptRoot
 Set-Location -LiteralPath $projectRoot
@@ -39,6 +39,10 @@ try {
         $env:FLORATEND_RECEIPT_VERIFIER_URL = 'https://floratend-receipt-verifier-production.lanraybanks.workers.dev/verify'
     }
     $gradleArgs = @(':app:assembleRelease','--console=plain')
+    if($PlantIdentifierUrl) {
+        if($PlantIdentifierUrl -notmatch '^https://[a-zA-Z0-9.-]+/identify$'){throw 'Invalid identification HTTPS endpoint'}
+        $gradleArgs += ('-Pfloratend.plantIdentifierUrl='+$PlantIdentifierUrl)
+    }
     $buildLog = 'evidence/signed-release-build.log'
     if ($BuildDeviceTests) {
         $gradleArgs += @('-Pfloratend.testBuildType=release', ':app:assembleReleaseAndroidTest')
@@ -52,12 +56,14 @@ try {
     $apk = [IO.Compression.ZipFile]::OpenRead((Join-Path $projectRoot 'app/build/outputs/apk/release/app-release.apk'))
     $expectedFound = $false
     $unexpectedFound = $false
+    $identifierFound = !$PlantIdentifierUrl
     $knownVerifiers = @('https://floratend-receipt-verifier-production.lanraybanks.workers.dev/verify','https://floratend-receipt-verifier.lanraybanks.workers.dev/verify')
     try {
         foreach ($entry in $apk.Entries | Where-Object { $_.FullName -match '^classes\d*\.dex$' }) {
             $reader = [IO.StreamReader]::new($entry.Open(),[Text.Encoding]::UTF8)
             try {
                 $dex = $reader.ReadToEnd()
+                if($PlantIdentifierUrl -and $dex.Contains($PlantIdentifierUrl)) { $identifierFound = $true }
                 if ($dex.Contains($env:FLORATEND_RECEIPT_VERIFIER_URL)) { $expectedFound = $true }
                 foreach ($knownVerifier in $knownVerifiers) {
                     if ($knownVerifier -ne $env:FLORATEND_RECEIPT_VERIFIER_URL -and $dex.Contains($knownVerifier)) { $unexpectedFound = $true }
@@ -65,6 +71,7 @@ try {
             } finally { $reader.Dispose() }
         }
     } finally { $apk.Dispose() }
+    if(!$identifierFound){throw 'Signed APK identification endpoint does not match requested configuration'}
     if (!$expectedFound -or $unexpectedFound) { throw 'Signed APK verifier does not match the requested environment; candidate rejected.' }
     Write-Output 'Signed release APK built. Signing secrets remain outside the repository in Windows-protected local configuration.'
 } finally {

@@ -1,0 +1,16 @@
+{
+  "observedAtUtc": "2026-11-01T23:25:52.881015+00:00",
+  "versionCode": 15,
+  "versionName": "0.1.14",
+  "channel": "Existing private Amazon Test2",
+  "status": "Test submitted",
+  "testerGroupsSelected": 1,
+  "fireTabletTargets": 12,
+  "fireTvTargets": 0,
+  "automotiveTargets": 0,
+  "drmApplied": true,
+  "uploadedApkSha256": "124821287c2d8a0c54b5bee56f919670df595fffcc16c5da1cce9c7e5f3977c3",
+  "publicReleaseSubmitted": false,
+  "amazonDeliveredClientRegression": "PENDING Amazon processing/delivery",
+  "confirmationImageSha256": "d04e6fc628ec15c296156b67ef574871580699f8405eae339da4d739b6df2830"
+}

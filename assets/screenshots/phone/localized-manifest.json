@@ -1,0 +1,5877 @@
+{
+  "version_code": 15,
+  "version_name": "0.1.14-qa",
+  "raw_app_locales": 18,
+  "store_locales": 15,
+  "images": 120,
+  "human_language_approval": false,
+  "region_mapping": {
+    "en-IN": "en-GB",
+    "es-MX": "es-419"
+  },
+  "screenshots": [
+    {
+      "listing_locale": "en-GB",
+      "native_app_locale": "en-GB",
+      "scene": "01-hero",
+      "headline": "Your plants, beautifully organised",
+      "headline_lines": [
+        "Your plants, beautifully",
+        "organised"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-GB/01-hero.png",
+      "capture_sha256": "a1953403508e9ce6ea3be49689fee4712b98224794d2cb94ace56a795afdcd29",
+      "export": "assets/screenshots/phone/en-GB/01-hero.png",
+      "export_sha256": "490d3ee6f2d59b749795b74f5f011dfd2d272004752ee19d742ba06c88d698a2",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Every plant deserves a little attention.",
+      "caption_lines": [
+        "Every plant deserves a little attention."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          703,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-GB",
+      "native_app_locale": "en-GB",
+      "scene": "02-watering",
+      "headline": "Build a calmer care routine",
+      "headline_lines": [
+        "Build a calmer care routine"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-GB/02-watering.png",
+      "capture_sha256": "6741767a9bd3564240e3b7852e1dc5bf564cb5889a5ac0eddc25626d0f413ffe",
+      "export": "assets/screenshots/phone/en-GB/02-watering.png",
+      "export_sha256": "88703988cc7dff4ed87301c5223aaee526b3b3d010ba9a354a76bcc2006df90e",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "A reminder to check, not an instruction to water. Check soil moisture, drainage and your plant’s condition first.",
+      "caption_lines": [
+        "A reminder to check, not an instruction to water. Check soil moisture, drainage",
+        "and your plant’s condition first."
+      ],
+      "caption_line_bounds": [
+        [
+          103,
+          507,
+          1355,
+          542
+        ],
+        [
+          104,
+          553,
+          606,
+          588
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-GB",
+      "native_app_locale": "en-GB",
+      "scene": "03-library",
+      "headline": "Give every plant a place",
+      "headline_lines": [
+        "Give every plant a place"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-GB/03-library.png",
+      "capture_sha256": "fb429a43d7666866c1204cbb1e658f5737849e8df80c69e634f33864da527ce7",
+      "export": "assets/screenshots/phone/en-GB/03-library.png",
+      "export_sha256": "27436555bd8dab578acbda5e6182a3ceb26699eaa831f7243a209613c91eb233",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Search plants, species or locations",
+      "caption_lines": [
+        "Search plants, species or locations"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          645,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-GB",
+      "native_app_locale": "en-GB",
+      "scene": "04-calendar",
+      "headline": "See the care ahead",
+      "headline_lines": [
+        "See the care ahead"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-GB/04-calendar.png",
+      "capture_sha256": "87a276f06a4fdf66ef8a7d84d821bd82ea52ef21f8e3228a89b95cdb98b32e86",
+      "export": "assets/screenshots/phone/en-GB/04-calendar.png",
+      "export_sha256": "e8830656f2eaa0d6f57baeaac9ebfa65c4a9aa1b506d04e453d186eaa350f192",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Care check reminders",
+      "caption_lines": [
+        "Care check reminders"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          449,
+          534
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-GB",
+      "native_app_locale": "en-GB",
+      "scene": "05-growth",
+      "headline": "Keep a journal of new growth",
+      "headline_lines": [
+        "Keep a journal of new growth"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-GB/05-growth.png",
+      "capture_sha256": "dbbf5b9d3635e9df972ca8b06c31d6d558db6bf2aa3872e2c9d7f92e34972270",
+      "export": "assets/screenshots/phone/en-GB/05-growth.png",
+      "export_sha256": "7d856a2fb3dfdef5efff94d27aa2ebf104241a93281f6a4200bf4513bc645b52",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Photos, observations and small signs of growth.",
+      "caption_lines": [
+        "Photos, observations and small signs of growth."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          860,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-GB",
+      "native_app_locale": "en-GB",
+      "scene": "06-voice",
+      "headline": "Type a command. Keep caring.",
+      "headline_lines": [
+        "Type a command. Keep",
+        "caring."
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-GB/06-voice.png",
+      "capture_sha256": "49226b5c71b69c4efae187270c0148c5c50eaa6c72ef30719d0bdbc9c2f0e993",
+      "export": "assets/screenshots/phone/en-GB/06-voice.png",
+      "export_sha256": "0b20e5f5463e26fe892d9b39c7bea9502bb23fdff215d25de3529b3e1ae831a2",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Review or type a command",
+      "caption_lines": [
+        "Review or type a command"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          534,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-GB",
+      "native_app_locale": "en-GB",
+      "scene": "07-offline",
+      "headline": "Your plant records, even offline",
+      "headline_lines": [
+        "Your plant records, even",
+        "offline"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-GB/07-offline.png",
+      "capture_sha256": "76620885b954d1a22c61496696c9f091c768b3d0fa47a4aa3b47bec1cdc19a7c",
+      "export": "assets/screenshots/phone/en-GB/07-offline.png",
+      "export_sha256": "689dc6b19d68c2bb3fa18bb13551d191529e5614704422c07f5f8d4fa93a6e83",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Saved on this device",
+      "caption_lines": [
+        "Saved on this device"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          425,
+          534
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-GB",
+      "native_app_locale": "en-GB",
+      "scene": "08-insights",
+      "headline": "See your care take shape",
+      "headline_lines": [
+        "See your care take shape"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-GB/08-insights.png",
+      "capture_sha256": "cbddec820128e6f08941fd6d4b99804f850490875375dde941e20b8f599bf0a4",
+      "export": "assets/screenshots/phone/en-GB/08-insights.png",
+      "export_sha256": "1fefdc2afc5c13bf16bf91721f9671c516e0f3e966a1d201534290a9ebb70a38",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Your records at a glance. Activity does not prove plant health.",
+      "caption_lines": [
+        "Your records at a glance. Activity does not prove plant health."
+      ],
+      "caption_line_bounds": [
+        [
+          103,
+          507,
+          1076,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-US",
+      "native_app_locale": "en-US",
+      "scene": "01-hero",
+      "headline": "Your plants, beautifully organized",
+      "headline_lines": [
+        "Your plants, beautifully",
+        "organized"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-US/01-hero.png",
+      "capture_sha256": "a1953403508e9ce6ea3be49689fee4712b98224794d2cb94ace56a795afdcd29",
+      "export": "assets/screenshots/phone/en-US/01-hero.png",
+      "export_sha256": "c260069bf8a755507b163929ebfada30b04eeb4365dcad3b04b2177c4458a3fd",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Every plant deserves a little attention.",
+      "caption_lines": [
+        "Every plant deserves a little attention."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          703,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
+      "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-US",
+      "native_app_locale": "en-US",
+      "scene": "02-watering",
+      "headline": "Build a calmer care routine",
+      "headline_lines": [
+        "Build a calmer care routine"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-US/02-watering.png",
+      "capture_sha256": "c3e0526cdda546a955a3fecd0f35e4775ed6f0d23b1ca11ea3993af2cc77018c",
+      "export": "assets/screenshots/phone/en-US/02-watering.png",
+      "export_sha256": "2fe287bc39e5338dc9101c250a48057bef9a217a05ea19547f1f890bba7dc59a",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "A reminder to check, not an instruction to water. Check soil moisture, drainage and your plant’s condition first.",
+      "caption_lines": [
+        "A reminder to check, not an instruction to water. Check soil moisture, drainage",
+        "and your plant’s condition first."
+      ],
+      "caption_line_bounds": [
+        [
+          103,
+          507,
+          1355,
+          542
+        ],
+        [
+          104,
+          553,
+          606,
+          588
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
+      "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-US",
+      "native_app_locale": "en-US",
+      "scene": "03-library",
+      "headline": "Give every plant a place",
+      "headline_lines": [
+        "Give every plant a place"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-US/03-library.png",
+      "capture_sha256": "117673426588d97609670c75d33df1db7e44fcf3dc96264fadcb844dcad6c87f",
+      "export": "assets/screenshots/phone/en-US/03-library.png",
+      "export_sha256": "2676c85efef7d44e39d4715b164f351e43f964fab560563d7035288114c3c786",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Search plants, species or locations",
+      "caption_lines": [
+        "Search plants, species or locations"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          645,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
+      "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-US",
+      "native_app_locale": "en-US",
+      "scene": "04-calendar",
+      "headline": "See the care ahead",
+      "headline_lines": [
+        "See the care ahead"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-US/04-calendar.png",
+      "capture_sha256": "b60545e23e911566002ce4b171279da8654e3a2ce7faf9ce05125f6f322dbd4b",
+      "export": "assets/screenshots/phone/en-US/04-calendar.png",
+      "export_sha256": "dc04eaf768ab1278ed8bf58dca65b79ecf80d93d3a1c3ade12eb1258a635f656",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Care check reminders",
+      "caption_lines": [
+        "Care check reminders"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          449,
+          534
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
+      "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-US",
+      "native_app_locale": "en-US",
+      "scene": "05-growth",
+      "headline": "Keep a journal of new growth",
+      "headline_lines": [
+        "Keep a journal of new growth"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-US/05-growth.png",
+      "capture_sha256": "8e7336f5fc97f729efa80923e11d4c2d82697aa4ad9f9cae9f2743e2b34bc360",
+      "export": "assets/screenshots/phone/en-US/05-growth.png",
+      "export_sha256": "26addee3f454b917123f31177a0028ae535019da75b7fa250d9f1eeef68b9b89",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Photos, observations and small signs of growth.",
+      "caption_lines": [
+        "Photos, observations and small signs of growth."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          860,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
+      "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-US",
+      "native_app_locale": "en-US",
+      "scene": "06-voice",
+      "headline": "Type a command. Keep caring.",
+      "headline_lines": [
+        "Type a command. Keep",
+        "caring."
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-US/06-voice.png",
+      "capture_sha256": "49226b5c71b69c4efae187270c0148c5c50eaa6c72ef30719d0bdbc9c2f0e993",
+      "export": "assets/screenshots/phone/en-US/06-voice.png",
+      "export_sha256": "0b20e5f5463e26fe892d9b39c7bea9502bb23fdff215d25de3529b3e1ae831a2",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Review or type a command",
+      "caption_lines": [
+        "Review or type a command"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          534,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
+      "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-US",
+      "native_app_locale": "en-US",
+      "scene": "07-offline",
+      "headline": "Your plant records, even offline",
+      "headline_lines": [
+        "Your plant records, even",
+        "offline"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-US/07-offline.png",
+      "capture_sha256": "76620885b954d1a22c61496696c9f091c768b3d0fa47a4aa3b47bec1cdc19a7c",
+      "export": "assets/screenshots/phone/en-US/07-offline.png",
+      "export_sha256": "689dc6b19d68c2bb3fa18bb13551d191529e5614704422c07f5f8d4fa93a6e83",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Saved on this device",
+      "caption_lines": [
+        "Saved on this device"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          425,
+          534
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
+      "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-US",
+      "native_app_locale": "en-US",
+      "scene": "08-insights",
+      "headline": "See your care take shape",
+      "headline_lines": [
+        "See your care take shape"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-US/08-insights.png",
+      "capture_sha256": "cbddec820128e6f08941fd6d4b99804f850490875375dde941e20b8f599bf0a4",
+      "export": "assets/screenshots/phone/en-US/08-insights.png",
+      "export_sha256": "1fefdc2afc5c13bf16bf91721f9671c516e0f3e966a1d201534290a9ebb70a38",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Your records at a glance. Activity does not prove plant health.",
+      "caption_lines": [
+        "Your records at a glance. Activity does not prove plant health."
+      ],
+      "caption_line_bounds": [
+        [
+          103,
+          507,
+          1076,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
+      "caption_resource_sha256": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-AU",
+      "native_app_locale": "en-AU",
+      "scene": "01-hero",
+      "headline": "Your plants, beautifully organised",
+      "headline_lines": [
+        "Your plants, beautifully",
+        "organised"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-AU/01-hero.png",
+      "capture_sha256": "a1953403508e9ce6ea3be49689fee4712b98224794d2cb94ace56a795afdcd29",
+      "export": "assets/screenshots/phone/en-AU/01-hero.png",
+      "export_sha256": "490d3ee6f2d59b749795b74f5f011dfd2d272004752ee19d742ba06c88d698a2",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Every plant deserves a little attention.",
+      "caption_lines": [
+        "Every plant deserves a little attention."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          703,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
+      "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-AU",
+      "native_app_locale": "en-AU",
+      "scene": "02-watering",
+      "headline": "Build a calmer care routine",
+      "headline_lines": [
+        "Build a calmer care routine"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-AU/02-watering.png",
+      "capture_sha256": "6741767a9bd3564240e3b7852e1dc5bf564cb5889a5ac0eddc25626d0f413ffe",
+      "export": "assets/screenshots/phone/en-AU/02-watering.png",
+      "export_sha256": "88703988cc7dff4ed87301c5223aaee526b3b3d010ba9a354a76bcc2006df90e",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "A reminder to check, not an instruction to water. Check soil moisture, drainage and your plant’s condition first.",
+      "caption_lines": [
+        "A reminder to check, not an instruction to water. Check soil moisture, drainage",
+        "and your plant’s condition first."
+      ],
+      "caption_line_bounds": [
+        [
+          103,
+          507,
+          1355,
+          542
+        ],
+        [
+          104,
+          553,
+          606,
+          588
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
+      "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-AU",
+      "native_app_locale": "en-AU",
+      "scene": "03-library",
+      "headline": "Give every plant a place",
+      "headline_lines": [
+        "Give every plant a place"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-AU/03-library.png",
+      "capture_sha256": "72bbbed7b4462178fcf52cb3e06c83810bcbcb93f06b6a6196bb791dd778dee9",
+      "export": "assets/screenshots/phone/en-AU/03-library.png",
+      "export_sha256": "ab014524cefb89840db3f3c075bf9c4d3290db41ddabe7c92a5d2377b847b519",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Search plants, species or locations",
+      "caption_lines": [
+        "Search plants, species or locations"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          645,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
+      "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-AU",
+      "native_app_locale": "en-AU",
+      "scene": "04-calendar",
+      "headline": "See the care ahead",
+      "headline_lines": [
+        "See the care ahead"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-AU/04-calendar.png",
+      "capture_sha256": "87a276f06a4fdf66ef8a7d84d821bd82ea52ef21f8e3228a89b95cdb98b32e86",
+      "export": "assets/screenshots/phone/en-AU/04-calendar.png",
+      "export_sha256": "e8830656f2eaa0d6f57baeaac9ebfa65c4a9aa1b506d04e453d186eaa350f192",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Care check reminders",
+      "caption_lines": [
+        "Care check reminders"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          449,
+          534
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
+      "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-AU",
+      "native_app_locale": "en-AU",
+      "scene": "05-growth",
+      "headline": "Keep a journal of new growth",
+      "headline_lines": [
+        "Keep a journal of new growth"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-AU/05-growth.png",
+      "capture_sha256": "70883e0c65abfe30832a41500441a211d980812c0cd26777ad1139546c632f0b",
+      "export": "assets/screenshots/phone/en-AU/05-growth.png",
+      "export_sha256": "244453754388a588f2c3631efc821de1bc0106cbfe0a2221448297b2c41fc901",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Photos, observations and small signs of growth.",
+      "caption_lines": [
+        "Photos, observations and small signs of growth."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          860,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
+      "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-AU",
+      "native_app_locale": "en-AU",
+      "scene": "06-voice",
+      "headline": "Type a command. Keep caring.",
+      "headline_lines": [
+        "Type a command. Keep",
+        "caring."
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-AU/06-voice.png",
+      "capture_sha256": "f6e9b7dd76fcaaecaa755f6052c3e8f857ca41d89c56867732df37f7f7a07a3f",
+      "export": "assets/screenshots/phone/en-AU/06-voice.png",
+      "export_sha256": "30f113f025f15dc97c67891b502e77f20bd74232823b20c7aba1ed9742194caa",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Review or type a command",
+      "caption_lines": [
+        "Review or type a command"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          534,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
+      "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-AU",
+      "native_app_locale": "en-AU",
+      "scene": "07-offline",
+      "headline": "Your plant records, even offline",
+      "headline_lines": [
+        "Your plant records, even",
+        "offline"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-AU/07-offline.png",
+      "capture_sha256": "d875d894ec726b7567d5aaffe6fa2b3cd31ec2c37edf2970b4c9a680283e0f64",
+      "export": "assets/screenshots/phone/en-AU/07-offline.png",
+      "export_sha256": "d520de807076b536a210cf8e531921707377332824ebec6fcbebe31109b18bf0",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Saved on this device",
+      "caption_lines": [
+        "Saved on this device"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          425,
+          534
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
+      "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-AU",
+      "native_app_locale": "en-AU",
+      "scene": "08-insights",
+      "headline": "See your care take shape",
+      "headline_lines": [
+        "See your care take shape"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-AU/08-insights.png",
+      "capture_sha256": "521877fdedc04f45b673fb07fe5dc347b716e8b91b9fcb743ac64ddbe2eb3c9a",
+      "export": "assets/screenshots/phone/en-AU/08-insights.png",
+      "export_sha256": "ebdf356f16db72ed9c9aeef41f9f24cb712b7838df131ca919bf6dca9e5f925c",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Your records at a glance. Activity does not prove plant health.",
+      "caption_lines": [
+        "Your records at a glance. Activity does not prove plant health."
+      ],
+      "caption_line_bounds": [
+        [
+          103,
+          507,
+          1076,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
+      "caption_resource_sha256": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-IN",
+      "native_app_locale": "en-GB",
+      "scene": "01-hero",
+      "headline": "Your plants, beautifully organised",
+      "headline_lines": [
+        "Your plants, beautifully",
+        "organised"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-GB/01-hero.png",
+      "capture_sha256": "a1953403508e9ce6ea3be49689fee4712b98224794d2cb94ace56a795afdcd29",
+      "export": "assets/screenshots/phone/en-IN/01-hero.png",
+      "export_sha256": "490d3ee6f2d59b749795b74f5f011dfd2d272004752ee19d742ba06c88d698a2",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Every plant deserves a little attention.",
+      "caption_lines": [
+        "Every plant deserves a little attention."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          703,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-IN",
+      "native_app_locale": "en-GB",
+      "scene": "02-watering",
+      "headline": "Build a calmer care routine",
+      "headline_lines": [
+        "Build a calmer care routine"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-GB/02-watering.png",
+      "capture_sha256": "6741767a9bd3564240e3b7852e1dc5bf564cb5889a5ac0eddc25626d0f413ffe",
+      "export": "assets/screenshots/phone/en-IN/02-watering.png",
+      "export_sha256": "88703988cc7dff4ed87301c5223aaee526b3b3d010ba9a354a76bcc2006df90e",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "A reminder to check, not an instruction to water. Check soil moisture, drainage and your plant’s condition first.",
+      "caption_lines": [
+        "A reminder to check, not an instruction to water. Check soil moisture, drainage",
+        "and your plant’s condition first."
+      ],
+      "caption_line_bounds": [
+        [
+          103,
+          507,
+          1355,
+          542
+        ],
+        [
+          104,
+          553,
+          606,
+          588
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-IN",
+      "native_app_locale": "en-GB",
+      "scene": "03-library",
+      "headline": "Give every plant a place",
+      "headline_lines": [
+        "Give every plant a place"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-GB/03-library.png",
+      "capture_sha256": "fb429a43d7666866c1204cbb1e658f5737849e8df80c69e634f33864da527ce7",
+      "export": "assets/screenshots/phone/en-IN/03-library.png",
+      "export_sha256": "27436555bd8dab578acbda5e6182a3ceb26699eaa831f7243a209613c91eb233",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Search plants, species or locations",
+      "caption_lines": [
+        "Search plants, species or locations"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          645,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-IN",
+      "native_app_locale": "en-GB",
+      "scene": "04-calendar",
+      "headline": "See the care ahead",
+      "headline_lines": [
+        "See the care ahead"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-GB/04-calendar.png",
+      "capture_sha256": "87a276f06a4fdf66ef8a7d84d821bd82ea52ef21f8e3228a89b95cdb98b32e86",
+      "export": "assets/screenshots/phone/en-IN/04-calendar.png",
+      "export_sha256": "e8830656f2eaa0d6f57baeaac9ebfa65c4a9aa1b506d04e453d186eaa350f192",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Care check reminders",
+      "caption_lines": [
+        "Care check reminders"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          449,
+          534
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-IN",
+      "native_app_locale": "en-GB",
+      "scene": "05-growth",
+      "headline": "Keep a journal of new growth",
+      "headline_lines": [
+        "Keep a journal of new growth"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-GB/05-growth.png",
+      "capture_sha256": "dbbf5b9d3635e9df972ca8b06c31d6d558db6bf2aa3872e2c9d7f92e34972270",
+      "export": "assets/screenshots/phone/en-IN/05-growth.png",
+      "export_sha256": "7d856a2fb3dfdef5efff94d27aa2ebf104241a93281f6a4200bf4513bc645b52",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Photos, observations and small signs of growth.",
+      "caption_lines": [
+        "Photos, observations and small signs of growth."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          860,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-IN",
+      "native_app_locale": "en-GB",
+      "scene": "06-voice",
+      "headline": "Type a command. Keep caring.",
+      "headline_lines": [
+        "Type a command. Keep",
+        "caring."
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-GB/06-voice.png",
+      "capture_sha256": "49226b5c71b69c4efae187270c0148c5c50eaa6c72ef30719d0bdbc9c2f0e993",
+      "export": "assets/screenshots/phone/en-IN/06-voice.png",
+      "export_sha256": "0b20e5f5463e26fe892d9b39c7bea9502bb23fdff215d25de3529b3e1ae831a2",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Review or type a command",
+      "caption_lines": [
+        "Review or type a command"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          534,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-IN",
+      "native_app_locale": "en-GB",
+      "scene": "07-offline",
+      "headline": "Your plant records, even offline",
+      "headline_lines": [
+        "Your plant records, even",
+        "offline"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-GB/07-offline.png",
+      "capture_sha256": "76620885b954d1a22c61496696c9f091c768b3d0fa47a4aa3b47bec1cdc19a7c",
+      "export": "assets/screenshots/phone/en-IN/07-offline.png",
+      "export_sha256": "689dc6b19d68c2bb3fa18bb13551d191529e5614704422c07f5f8d4fa93a6e83",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Saved on this device",
+      "caption_lines": [
+        "Saved on this device"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          425,
+          534
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "en-IN",
+      "native_app_locale": "en-GB",
+      "scene": "08-insights",
+      "headline": "See your care take shape",
+      "headline_lines": [
+        "See your care take shape"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/en-GB/08-insights.png",
+      "capture_sha256": "cbddec820128e6f08941fd6d4b99804f850490875375dde941e20b8f599bf0a4",
+      "export": "assets/screenshots/phone/en-IN/08-insights.png",
+      "export_sha256": "1fefdc2afc5c13bf16bf91721f9671c516e0f3e966a1d201534290a9ebb70a38",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Your records at a glance. Activity does not prove plant health.",
+      "caption_lines": [
+        "Your records at a glance. Activity does not prove plant health."
+      ],
+      "caption_line_bounds": [
+        [
+          103,
+          507,
+          1076,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "es-ES",
+      "native_app_locale": "es-ES",
+      "scene": "01-hero",
+      "headline": "Tus plantas, bien organizadas",
+      "headline_lines": [
+        "Tus plantas, bien",
+        "organizadas"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/es-ES/01-hero.png",
+      "capture_sha256": "23b8d7f4bfb238cdc99c24686eeccdf1574dd70fa33d70ea267ead284d17fb53",
+      "export": "assets/screenshots/phone/es-ES/01-hero.png",
+      "export_sha256": "6db4bae4fa30ef437284c6c8e7ab5ed3893f573481f7272bd357bb9164d6260e",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Cada planta merece un poco de atención.",
+      "caption_lines": [
+        "Cada planta merece un poco de atención."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          752,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
+      "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "es-ES",
+      "native_app_locale": "es-ES",
+      "scene": "02-watering",
+      "headline": "Cuida con más calma",
+      "headline_lines": [
+        "Cuida con más calma"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/es-ES/02-watering.png",
+      "capture_sha256": "aacce3e53531eb260d836020e1887e5d93b26bf0c7036f08bd3aa7c9f95e993d",
+      "export": "assets/screenshots/phone/es-ES/02-watering.png",
+      "export_sha256": "d41f3ae2f6df08f91f2fd39f1523f625d42a389240a5b985e3276d9915ac4bbf",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Es un recordatorio para revisar, no una orden de regar. Comprueba primero la humedad del sustrato, el drenaje y el estado de la planta.",
+      "caption_lines": [
+        "Es un recordatorio para revisar, no una orden de regar. Comprueba primero la",
+        "humedad del sustrato, el drenaje y el estado de la planta."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          1351,
+          542
+        ],
+        [
+          104,
+          553,
+          1003,
+          588
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
+      "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "es-ES",
+      "native_app_locale": "es-ES",
+      "scene": "03-library",
+      "headline": "Un lugar para cada planta",
+      "headline_lines": [
+        "Un lugar para cada planta"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/es-ES/03-library.png",
+      "capture_sha256": "55e121660e1bb671fd493b330dc11451e4cb6c490478267ab45a961c41ef8c7d",
+      "export": "assets/screenshots/phone/es-ES/03-library.png",
+      "export_sha256": "718bc397f71d402f13d996460506558b19d64d44b12e32590c556c48f4eefb4d",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Buscar plantas, especies o ubicaciones",
+      "caption_lines": [
+        "Buscar plantas, especies o ubicaciones"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          712,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
+      "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "es-ES",
+      "native_app_locale": "es-ES",
+      "scene": "04-calendar",
+      "headline": "Prepara los próximos cuidados",
+      "headline_lines": [
+        "Prepara los próximos",
+        "cuidados"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/es-ES/04-calendar.png",
+      "capture_sha256": "c4d3bf6f1ecf7d79e718f184be63f737d2969a7ddf70eb4837d9853ac5baebe5",
+      "export": "assets/screenshots/phone/es-ES/04-calendar.png",
+      "export_sha256": "80eff3b52e89fb07dae1d270bcf9afe5d35399f59d3e6606d135840efc3b92a8",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Recordatorios para revisar las plantas",
+      "caption_lines": [
+        "Recordatorios para revisar las plantas"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          705,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
+      "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "es-ES",
+      "native_app_locale": "es-ES",
+      "scene": "05-growth",
+      "headline": "Lleva un diario de crecimiento",
+      "headline_lines": [
+        "Lleva un diario de",
+        "crecimiento"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/es-ES/05-growth.png",
+      "capture_sha256": "c956eef3ba19c2c9a80618610dc3f03cff54232192ed3c95429c6bb82e8a29b3",
+      "export": "assets/screenshots/phone/es-ES/05-growth.png",
+      "export_sha256": "2b4917cdd8aba7ce3aba3be16f11da817736840fb8d946d889a7182a2016f15d",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Fotos, observaciones y pequeñas señales de crecimiento.",
+      "caption_lines": [
+        "Fotos, observaciones y pequeñas señales de crecimiento."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          998,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
+      "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "es-ES",
+      "native_app_locale": "es-ES",
+      "scene": "06-voice",
+      "headline": "Escribe una orden y sigue cuidando",
+      "headline_lines": [
+        "Escribe una orden y sigue",
+        "cuidando"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/es-ES/06-voice.png",
+      "capture_sha256": "3a67cd6121e1f2b940b58c6b6bf5d5f819f88c12753296261a58104fa2c993bf",
+      "export": "assets/screenshots/phone/es-ES/06-voice.png",
+      "export_sha256": "ad5acb39aa307c32eac55352687b73056876d2e1caa5e4e3b2e1ef69bb04ccf4",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Revisa o escribe una orden",
+      "caption_lines": [
+        "Revisa o escribe una orden"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          529,
+          534
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
+      "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "es-ES",
+      "native_app_locale": "es-ES",
+      "scene": "07-offline",
+      "headline": "Tus plantas, también sin conexión",
+      "headline_lines": [
+        "Tus plantas, también sin",
+        "conexión"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/es-ES/07-offline.png",
+      "capture_sha256": "b39814393cbe1b019113f39bb530d069ded244a815c47895e91a62f33f6dafe6",
+      "export": "assets/screenshots/phone/es-ES/07-offline.png",
+      "export_sha256": "514c78f05cb4be2994a4e40b27d31d0896373bed715d90cf31364cecbc5961e0",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Guardado en este dispositivo",
+      "caption_lines": [
+        "Guardado en este dispositivo"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          565,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
+      "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "es-ES",
+      "native_app_locale": "es-ES",
+      "scene": "08-insights",
+      "headline": "Consulta los cuidados que registras",
+      "headline_lines": [
+        "Consulta los cuidados que",
+        "registras"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/es-ES/08-insights.png",
+      "capture_sha256": "e76f457b68bcbc427ed111395f73a356bdc94678b6a4a79535438430a363b7f7",
+      "export": "assets/screenshots/phone/es-ES/08-insights.png",
+      "export_sha256": "a1b6d790553a44a0c2d8b9a24f02ceb0e7a76df7d80ab88f2528d528130ac4b4",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Tus registros de un vistazo. La actividad no demuestra que las plantas estén sanas.",
+      "caption_lines": [
+        "Tus registros de un vistazo. La actividad no demuestra que las plantas estén",
+        "sanas."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          1306,
+          542
+        ],
+        [
+          104,
+          563,
+          203,
+          580
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
+      "caption_resource_sha256": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "es-MX",
+      "native_app_locale": "es-419",
+      "scene": "01-hero",
+      "headline": "Tus plantas, bien organizadas",
+      "headline_lines": [
+        "Tus plantas, bien",
+        "organizadas"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/es-419/01-hero.png",
+      "capture_sha256": "809f548e711f4431299b087c3a774f462e353af8b71ac627c14833c6e386cad4",
+      "export": "assets/screenshots/phone/es-MX/01-hero.png",
+      "export_sha256": "1f9a7a16b9e1b567eb818bad7ca1577ab5bd4cbac9f18fd196a755bc39d3d6a7",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Cada planta merece un poco de atención.",
+      "caption_lines": [
+        "Cada planta merece un poco de atención."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          752,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
+      "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "es-MX",
+      "native_app_locale": "es-419",
+      "scene": "02-watering",
+      "headline": "Cuida con más calma",
+      "headline_lines": [
+        "Cuida con más calma"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/es-419/02-watering.png",
+      "capture_sha256": "7e00c08fd2e17fb43bbd3a3f39032d92b9ac2c34c3830384296315776f7ce0f4",
+      "export": "assets/screenshots/phone/es-MX/02-watering.png",
+      "export_sha256": "9cbaf32d39ec974cb14254712ea058f326e03e0b796a9b25e7e5b24b1a8e987c",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Es un recordatorio para revisar, no una orden de regar. Comprueba primero la humedad del sustrato, el drenaje y el estado de la planta.",
+      "caption_lines": [
+        "Es un recordatorio para revisar, no una orden de regar. Comprueba primero la",
+        "humedad del sustrato, el drenaje y el estado de la planta."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          1351,
+          542
+        ],
+        [
+          104,
+          553,
+          1003,
+          588
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
+      "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "es-MX",
+      "native_app_locale": "es-419",
+      "scene": "03-library",
+      "headline": "Un lugar para cada planta",
+      "headline_lines": [
+        "Un lugar para cada planta"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/es-419/03-library.png",
+      "capture_sha256": "1942c3c6f1981e5b0b4613da7a47f243a212e86795e4c77ade0e2dd6e25520dc",
+      "export": "assets/screenshots/phone/es-MX/03-library.png",
+      "export_sha256": "a7c5b2862b107d22cd788930dae4b712467aed0823a2e52965618bc22b50f484",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Buscar plantas, especies o ubicaciones",
+      "caption_lines": [
+        "Buscar plantas, especies o ubicaciones"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          712,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
+      "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "es-MX",
+      "native_app_locale": "es-419",
+      "scene": "04-calendar",
+      "headline": "Planea los próximos cuidados",
+      "headline_lines": [
+        "Planea los próximos",
+        "cuidados"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/es-419/04-calendar.png",
+      "capture_sha256": "0e05ba358a38fd4fbf96cec10ec21dd6379060d2835cc299d515d23e4e0a14d8",
+      "export": "assets/screenshots/phone/es-MX/04-calendar.png",
+      "export_sha256": "d4aa3a6d2f459a41d3e45327967ff570747a79a7ce5e370baab54c7fd129af19",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Recordatorios para revisar las plantas",
+      "caption_lines": [
+        "Recordatorios para revisar las plantas"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          705,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
+      "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "es-MX",
+      "native_app_locale": "es-419",
+      "scene": "05-growth",
+      "headline": "Lleva una bitácora de crecimiento",
+      "headline_lines": [
+        "Lleva una bitácora de",
+        "crecimiento"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/es-419/05-growth.png",
+      "capture_sha256": "b4a0fdd2b7cc452bcfb9d7f714163af82a3f20be3a8eb922463c2b8c7295d012",
+      "export": "assets/screenshots/phone/es-MX/05-growth.png",
+      "export_sha256": "abced2d52a3a6d569c5739f235adc3e6b2341303edc8ecf1491740b4c1ba1879",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Fotos, observaciones y pequeñas señales de crecimiento.",
+      "caption_lines": [
+        "Fotos, observaciones y pequeñas señales de crecimiento."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          998,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
+      "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "es-MX",
+      "native_app_locale": "es-419",
+      "scene": "06-voice",
+      "headline": "Escribe un comando y sigue cuidando",
+      "headline_lines": [
+        "Escribe un comando y sigue",
+        "cuidando"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/es-419/06-voice.png",
+      "capture_sha256": "82ea0609425dbe44dd08d761d8aa81d9f0f316311247056614fdc22c7f94c0c4",
+      "export": "assets/screenshots/phone/es-MX/06-voice.png",
+      "export_sha256": "40b89cd09550db1a07f7e5212debd1fce14e05385fe0d0ef61213a5c2f6ab866",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Revisa o escribe una orden",
+      "caption_lines": [
+        "Revisa o escribe una orden"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          529,
+          534
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
+      "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "es-MX",
+      "native_app_locale": "es-419",
+      "scene": "07-offline",
+      "headline": "Tus plantas, también sin conexión",
+      "headline_lines": [
+        "Tus plantas, también sin",
+        "conexión"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/es-419/07-offline.png",
+      "capture_sha256": "c9e6a8e529505024098a0ba812dcc4645a0d3223c87ddfa4cf669507e6f70800",
+      "export": "assets/screenshots/phone/es-MX/07-offline.png",
+      "export_sha256": "a3b94ded11ec1bf40154538c22cf3cabe8284297ba07ca984f130d2c50cde553",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Guardado en este dispositivo",
+      "caption_lines": [
+        "Guardado en este dispositivo"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          565,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
+      "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "es-MX",
+      "native_app_locale": "es-419",
+      "scene": "08-insights",
+      "headline": "Consulta los cuidados que registras",
+      "headline_lines": [
+        "Consulta los cuidados que",
+        "registras"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/es-419/08-insights.png",
+      "capture_sha256": "b80f33f45bb9882d68c6b9a6f4c9e297fcf6474ca6e52ff8f74791ffde647368",
+      "export": "assets/screenshots/phone/es-MX/08-insights.png",
+      "export_sha256": "f29f704cc71328028ed739b4c32e813ae92f36f1e8865251d5caf75409bf47c9",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Tus registros de un vistazo. La actividad no demuestra que las plantas estén sanas.",
+      "caption_lines": [
+        "Tus registros de un vistazo. La actividad no demuestra que las plantas estén",
+        "sanas."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          1306,
+          542
+        ],
+        [
+          104,
+          563,
+          203,
+          580
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
+      "caption_resource_sha256": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "fr-FR",
+      "native_app_locale": "fr-FR",
+      "scene": "01-hero",
+      "headline": "Vos plantes, bien organisées",
+      "headline_lines": [
+        "Vos plantes, bien organisées"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/fr-FR/01-hero.png",
+      "capture_sha256": "2b28b2da3f319b4df23609072531340ca282c159f22720eec97a4fe832c6aa22",
+      "export": "assets/screenshots/phone/fr-FR/01-hero.png",
+      "export_sha256": "7157ebcf51f998875e61c75adf0dcc56682a3ce8af58bf6fb1a4d10910906c4d",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Chaque plante mérite un peu d’attention.",
+      "caption_lines": [
+        "Chaque plante mérite un peu d’attention."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          755,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
+      "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "fr-FR",
+      "native_app_locale": "fr-FR",
+      "scene": "02-watering",
+      "headline": "Une routine de soins plus sereine",
+      "headline_lines": [
+        "Une routine de soins plus",
+        "sereine"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/fr-FR/02-watering.png",
+      "capture_sha256": "e695655d5d228e2cbe6e4cd4861b21881c7f0d8853361446a81d67fa44a6acec",
+      "export": "assets/screenshots/phone/fr-FR/02-watering.png",
+      "export_sha256": "e71ee991b9b8517c5f677b888b33c096fb1ce0cb28725eb0980df566f065a880",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Un rappel pour vérifier, pas une consigne d’arrosage. Vérifiez d’abord l’humidité du terreau, le drainage et l’état de la plante.",
+      "caption_lines": [
+        "Un rappel pour vérifier, pas une consigne d’arrosage. Vérifiez d’abord l’humidité",
+        "du terreau, le drainage et l’état de la plante."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          1383,
+          542
+        ],
+        [
+          104,
+          552,
+          790,
+          588
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
+      "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "fr-FR",
+      "native_app_locale": "fr-FR",
+      "scene": "03-library",
+      "headline": "Une place pour chaque plante",
+      "headline_lines": [
+        "Une place pour chaque plante"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/fr-FR/03-library.png",
+      "capture_sha256": "b9c4d32cb885a1f10527df9058449d352073030c173aaa50b4ca53e2a9804540",
+      "export": "assets/screenshots/phone/fr-FR/03-library.png",
+      "export_sha256": "bac5564d57b088d78243feab0f13def8bef4e8382e4fff35f79d428ee6780e62",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Rechercher des plantes, espèces ou emplacements",
+      "caption_lines": [
+        "Rechercher des plantes, espèces ou emplacements"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          897,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
+      "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "fr-FR",
+      "native_app_locale": "fr-FR",
+      "scene": "04-calendar",
+      "headline": "Anticipez les prochains soins",
+      "headline_lines": [
+        "Anticipez les prochains soins"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/fr-FR/04-calendar.png",
+      "capture_sha256": "ad4cb3953aea1de27bd19337323e8317100bdf0666527efa0e06e58d11987253",
+      "export": "assets/screenshots/phone/fr-FR/04-calendar.png",
+      "export_sha256": "b18622deedcd12965fcbcfde4b8ccff9f5725b56869c2b75339776b4904adb15",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Rappels de vérification des plantes",
+      "caption_lines": [
+        "Rappels de vérification des plantes"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          656,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
+      "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "fr-FR",
+      "native_app_locale": "fr-FR",
+      "scene": "05-growth",
+      "headline": "Gardez une trace de la croissance",
+      "headline_lines": [
+        "Gardez une trace de la",
+        "croissance"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/fr-FR/05-growth.png",
+      "capture_sha256": "b20f25668635611992c0f62d833651ed3036c295cdaf67107f641fa854a14ae6",
+      "export": "assets/screenshots/phone/fr-FR/05-growth.png",
+      "export_sha256": "c614af67a64c2b8a9426b2841246b6808292ed07890ad22e4731a3c5db50f53a",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Photos, observations et petits signes de croissance.",
+      "caption_lines": [
+        "Photos, observations et petits signes de croissance."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          909,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
+      "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "fr-FR",
+      "native_app_locale": "fr-FR",
+      "scene": "06-voice",
+      "headline": "Saisissez une commande, tout simplement",
+      "headline_lines": [
+        "Saisissez une commande,",
+        "tout simplement"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/fr-FR/06-voice.png",
+      "capture_sha256": "fddb82aff0743e973d8dca557de23e138c6b600d400ef27de6bf7bef80fed01e",
+      "export": "assets/screenshots/phone/fr-FR/06-voice.png",
+      "export_sha256": "1b35a4c506a6f59f902a7b45daaf210b5e61e7dccdcfe8faada1a72a1471cea4",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Vérifiez ou saisissez une commande",
+      "caption_lines": [
+        "Vérifiez ou saisissez une commande"
+      ],
+      "caption_line_bounds": [
+        [
+          103,
+          506,
+          675,
+          534
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
+      "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "fr-FR",
+      "native_app_locale": "fr-FR",
+      "scene": "07-offline",
+      "headline": "Vos plantes, même hors connexion",
+      "headline_lines": [
+        "Vos plantes, même hors",
+        "connexion"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/fr-FR/07-offline.png",
+      "capture_sha256": "02d32c174700f9bace7d8f1e8b97895a81053e614f6368d10dd3c92cf7b62b3f",
+      "export": "assets/screenshots/phone/fr-FR/07-offline.png",
+      "export_sha256": "45855ce66506a30a4b82218010859e5e8bc5e1130b57068eeb86ff5dea867826",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Enregistré sur cet appareil",
+      "caption_lines": [
+        "Enregistré sur cet appareil"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          525,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
+      "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "fr-FR",
+      "native_app_locale": "fr-FR",
+      "scene": "08-insights",
+      "headline": "Retrouvez les soins enregistrés",
+      "headline_lines": [
+        "Retrouvez les soins",
+        "enregistrés"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/fr-FR/08-insights.png",
+      "capture_sha256": "b830e34329c2acacb817c7800c6753efc97dbe8bbcadaaaec62e629cc66f41e6",
+      "export": "assets/screenshots/phone/fr-FR/08-insights.png",
+      "export_sha256": "314d09f61b8da4e2a268570617be67207ad002337fa00cd39ceb35ca0c213fac",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Vos données en un coup d’œil. L’activité ne prouve pas la bonne santé des plantes.",
+      "caption_lines": [
+        "Vos données en un coup d’œil. L’activité ne prouve pas la bonne santé des",
+        "plantes."
+      ],
+      "caption_line_bounds": [
+        [
+          103,
+          506,
+          1271,
+          542
+        ],
+        [
+          104,
+          553,
+          229,
+          588
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
+      "caption_resource_sha256": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "de-DE",
+      "native_app_locale": "de-DE",
+      "scene": "01-hero",
+      "headline": "Deine Pflanzen, schön geordnet",
+      "headline_lines": [
+        "Deine Pflanzen, schön",
+        "geordnet"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/de-DE/01-hero.png",
+      "capture_sha256": "e4af6dbe83fadd98a898ff4c4c8af10ef1d21f30010a612b80ac4ab4fbd0eb65",
+      "export": "assets/screenshots/phone/de-DE/01-hero.png",
+      "export_sha256": "69a27ed9067cbe3d72944f2e3bf49cf1cedbe592bd3f06d01beb739c3fa21e65",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Jede Pflanze verdient ein wenig Aufmerksamkeit.",
+      "caption_lines": [
+        "Jede Pflanze verdient ein wenig Aufmerksamkeit."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          889,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
+      "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "de-DE",
+      "native_app_locale": "de-DE",
+      "scene": "02-watering",
+      "headline": "Mehr Ruhe bei der Pflanzenpflege",
+      "headline_lines": [
+        "Mehr Ruhe bei der",
+        "Pflanzenpflege"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/de-DE/02-watering.png",
+      "capture_sha256": "2c32b47ec74c7dbf0ebd454c5ffaee86f82e57347d3cdc92398a0c97a7175e3e",
+      "export": "assets/screenshots/phone/de-DE/02-watering.png",
+      "export_sha256": "88613cefeb7266f613434276fbd8f407e6f182831c007eb4bc5192044fc78f2d",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Eine Erinnerung zum Prüfen, keine Aufforderung zum Gießen. Prüfe zuerst die Bodenfeuchte, den Wasserabfluss und den Zustand deiner Pflanze.",
+      "caption_lines": [
+        "Eine Erinnerung zum Prüfen, keine Aufforderung zum Gießen. Prüfe zuerst die",
+        "Bodenfeuchte, den Wasserabfluss und den Zustand deiner Pflanze."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          1363,
+          542
+        ],
+        [
+          104,
+          553,
+          1165,
+          586
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
+      "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "de-DE",
+      "native_app_locale": "de-DE",
+      "scene": "03-library",
+      "headline": "Ein Platz für jede Pflanze",
+      "headline_lines": [
+        "Ein Platz für jede Pflanze"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/de-DE/03-library.png",
+      "capture_sha256": "d9aa84ef13340d897e3583797f54c2728974071c5e8781cf16148b693a7dc151",
+      "export": "assets/screenshots/phone/de-DE/03-library.png",
+      "export_sha256": "d6daeb39c132d0c0c5190e3206333849ad92ccbd3ba23f3ae61f863c327540b0",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Pflanzen, Arten oder Standorte suchen",
+      "caption_lines": [
+        "Pflanzen, Arten oder Standorte suchen"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          715,
+          540
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
+      "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "de-DE",
+      "native_app_locale": "de-DE",
+      "scene": "04-calendar",
+      "headline": "Die nächste Pflege im Blick",
+      "headline_lines": [
+        "Die nächste Pflege im Blick"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/de-DE/04-calendar.png",
+      "capture_sha256": "60a61eb6be038cc8b56c4deb15edb38927847e3e5990987586278bb8033f7c7e",
+      "export": "assets/screenshots/phone/de-DE/04-calendar.png",
+      "export_sha256": "00a5c62ec389689731f145ad9455a4254d2702682a795470fd5ce600833be26b",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Erinnerungen an Pflegekontrollen",
+      "caption_lines": [
+        "Erinnerungen an Pflegekontrollen"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          642,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
+      "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "de-DE",
+      "native_app_locale": "de-DE",
+      "scene": "05-growth",
+      "headline": "Halte neues Wachstum fest",
+      "headline_lines": [
+        "Halte neues Wachstum fest"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/de-DE/05-growth.png",
+      "capture_sha256": "5d284ef79174d77b5246dbf9236c743ecd27c36276ae2ce13da9ad213192e047",
+      "export": "assets/screenshots/phone/de-DE/05-growth.png",
+      "export_sha256": "c89e7494b5c6d502e52dc8d441a29eb6c6192132e63d8846ef92573cadc47d21",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Fotos, Beobachtungen und kleine Zeichen des Wachstums.",
+      "caption_lines": [
+        "Fotos, Beobachtungen und kleine Zeichen des Wachstums."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          1035,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
+      "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "de-DE",
+      "native_app_locale": "de-DE",
+      "scene": "06-voice",
+      "headline": "Befehl eingeben. Pflanzen pflegen.",
+      "headline_lines": [
+        "Befehl eingeben. Pflanzen",
+        "pflegen."
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/de-DE/06-voice.png",
+      "capture_sha256": "5bb73a26d7e739fa92f42bfeb52de1e5f0f260b02ab024bae8646b40b391887d",
+      "export": "assets/screenshots/phone/de-DE/06-voice.png",
+      "export_sha256": "cb1827e8700530bee8c2fda1e1c6ad07ea7faeeb31f8c129f9edfa5dfb4d8a5d",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Befehl prüfen oder eingeben",
+      "caption_lines": [
+        "Befehl prüfen oder eingeben"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          553,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
+      "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "de-DE",
+      "native_app_locale": "de-DE",
+      "scene": "07-offline",
+      "headline": "Deine Pflanzendaten, auch offline",
+      "headline_lines": [
+        "Deine Pflanzendaten, auch",
+        "offline"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/de-DE/07-offline.png",
+      "capture_sha256": "f671b620ddde7c0ec28166b7493218a2c1701f56fff94d5ee8eb8caf09c578c8",
+      "export": "assets/screenshots/phone/de-DE/07-offline.png",
+      "export_sha256": "53a94c41d13306f36227b728eeb569ee618924c604a6c9e06103a412e53a072a",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Auf diesem Gerät gespeichert",
+      "caption_lines": [
+        "Auf diesem Gerät gespeichert"
+      ],
+      "caption_line_bounds": [
+        [
+          103,
+          507,
+          571,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
+      "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "de-DE",
+      "native_app_locale": "de-DE",
+      "scene": "08-insights",
+      "headline": "Deine dokumentierte Pflege im Blick",
+      "headline_lines": [
+        "Deine dokumentierte Pflege",
+        "im Blick"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/de-DE/08-insights.png",
+      "capture_sha256": "9381ab851f73d369dbc6410d5f413d67508c53dda106543f0d901063dc3c53a8",
+      "export": "assets/screenshots/phone/de-DE/08-insights.png",
+      "export_sha256": "441da5cdf2ab530e428c207f07a3cc59a9b2065fd5df983433399e51a5f4282a",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Deine Einträge auf einen Blick. Aktivität ist kein Beleg für Pflanzengesundheit.",
+      "caption_lines": [
+        "Deine Einträge auf einen Blick. Aktivität ist kein Beleg für Pflanzengesundheit."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          1351,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
+      "caption_resource_sha256": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "it-IT",
+      "native_app_locale": "it-IT",
+      "scene": "01-hero",
+      "headline": "Le tue piante, ben organizzate",
+      "headline_lines": [
+        "Le tue piante, ben",
+        "organizzate"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/it-IT/01-hero.png",
+      "capture_sha256": "6047bcff4944e204bd1e40771cfa6e2ba6201a99a406fbb8be0624f371e7d575",
+      "export": "assets/screenshots/phone/it-IT/01-hero.png",
+      "export_sha256": "b5282aede1162b4aa03a5aefa932f77265500b7aeb35db760caa7c578d630242",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Ogni pianta merita un po’ di attenzione.",
+      "caption_lines": [
+        "Ogni pianta merita un po’ di attenzione."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          737,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
+      "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "it-IT",
+      "native_app_locale": "it-IT",
+      "scene": "02-watering",
+      "headline": "Una cura più serena, ogni giorno",
+      "headline_lines": [
+        "Una cura più serena, ogni",
+        "giorno"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/it-IT/02-watering.png",
+      "capture_sha256": "cbb9677f42c4704d4fa7a6edd0c22d6a025b221bb3e92b2e40343d36d75b67b2",
+      "export": "assets/screenshots/phone/it-IT/02-watering.png",
+      "export_sha256": "bd7b9268b447c0040b40cf32527eb33c8b5742ceb0701bd04a0263f5a9a458fe",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Un promemoria per controllare, non un invito ad annaffiare. Verifica prima l’umidità del terreno, il drenaggio e le condizioni della pianta.",
+      "caption_lines": [
+        "Un promemoria per controllare, non un invito ad annaffiare. Verifica prima",
+        "l’umidità del terreno, il drenaggio e le condizioni della pianta."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          1304,
+          542
+        ],
+        [
+          104,
+          552,
+          1079,
+          588
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
+      "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "it-IT",
+      "native_app_locale": "it-IT",
+      "scene": "03-library",
+      "headline": "Un posto per ogni pianta",
+      "headline_lines": [
+        "Un posto per ogni pianta"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/it-IT/03-library.png",
+      "capture_sha256": "379aca412fb44bfed4d2da3b0471f9de1104f3b3a511b2295887148f0ffbed19",
+      "export": "assets/screenshots/phone/it-IT/03-library.png",
+      "export_sha256": "c056c254037191d3949548507e6ef0f9ca4e84c7b5b9473ab5af35e3ec517c8f",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Cerca piante, specie o posizioni",
+      "caption_lines": [
+        "Cerca piante, specie o posizioni"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          508,
+          601,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
+      "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "it-IT",
+      "native_app_locale": "it-IT",
+      "scene": "04-calendar",
+      "headline": "Organizza le prossime cure",
+      "headline_lines": [
+        "Organizza le prossime cure"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/it-IT/04-calendar.png",
+      "capture_sha256": "bab1e17aeddf8351cf75187c46cea2b5c5bdf7a9eea6505c6796973dfeb6256b",
+      "export": "assets/screenshots/phone/it-IT/04-calendar.png",
+      "export_sha256": "5d02348185db05a0a90b613b72336e626d2b941d72e060e5547275284e9e0156",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Promemoria per i controlli",
+      "caption_lines": [
+        "Promemoria per i controlli"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          528,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
+      "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "it-IT",
+      "native_app_locale": "it-IT",
+      "scene": "05-growth",
+      "headline": "Tieni un diario della crescita",
+      "headline_lines": [
+        "Tieni un diario della crescita"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/it-IT/05-growth.png",
+      "capture_sha256": "f6d0dc6b99331d344db1727b0b72415bf41f0e5dba3b5af9556b74d747918bb9",
+      "export": "assets/screenshots/phone/it-IT/05-growth.png",
+      "export_sha256": "44d220f81c79dd2d8d7d88e1e950711858c6b0b8507596e57ad55d83db2b29d6",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Foto, osservazioni e piccoli segni di crescita.",
+      "caption_lines": [
+        "Foto, osservazioni e piccoli segni di crescita."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          804,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
+      "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "it-IT",
+      "native_app_locale": "it-IT",
+      "scene": "06-voice",
+      "headline": "Scrivi un comando e continua a curare",
+      "headline_lines": [
+        "Scrivi un comando e",
+        "continua a curare"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/it-IT/06-voice.png",
+      "capture_sha256": "8a3406150cefc19da9158d98e5df3747382c5e9cb9ac14548a85efad6248c8d3",
+      "export": "assets/screenshots/phone/it-IT/06-voice.png",
+      "export_sha256": "fdd6721e382f8f0291d5c9e77cc80b3bc5ff230ad22edba18a5ad72848103c29",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Controlla o digita un comando",
+      "caption_lines": [
+        "Controlla o digita un comando"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          585,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
+      "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "it-IT",
+      "native_app_locale": "it-IT",
+      "scene": "07-offline",
+      "headline": "Le tue piante, anche senza rete",
+      "headline_lines": [
+        "Le tue piante, anche senza",
+        "rete"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/it-IT/07-offline.png",
+      "capture_sha256": "b42b0ef84496db1da6503bcbc06ea6d5e29ddc809c0289b30a9280eca98d5a52",
+      "export": "assets/screenshots/phone/it-IT/07-offline.png",
+      "export_sha256": "6c2d0846dcb03bbe0c35247d8094a167813b0bfaf8fb8f1cbc7bfaa61801bfcb",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Salvato su questo dispositivo",
+      "caption_lines": [
+        "Salvato su questo dispositivo"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          563,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
+      "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "it-IT",
+      "native_app_locale": "it-IT",
+      "scene": "08-insights",
+      "headline": "Ritrova le cure che hai registrato",
+      "headline_lines": [
+        "Ritrova le cure che hai",
+        "registrato"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/it-IT/08-insights.png",
+      "capture_sha256": "13296e9dcb865fda514fc419ba89973eecd5a6b7bdc98b58abaf95e3bde32bf5",
+      "export": "assets/screenshots/phone/it-IT/08-insights.png",
+      "export_sha256": "5d6c01440f9a60ba087fb18093d152caecdcb1e09ebb611e42596fe52efc8345",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "I tuoi dati a colpo d’occhio. Le attività svolte non dimostrano la salute delle piante.",
+      "caption_lines": [
+        "I tuoi dati a colpo d’occhio. Le attività svolte non dimostrano la salute delle",
+        "piante."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          1289,
+          542
+        ],
+        [
+          104,
+          554,
+          214,
+          588
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
+      "caption_resource_sha256": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "ja-JP",
+      "native_app_locale": "ja-JP",
+      "scene": "01-hero",
+      "headline": "植物をすっきり、ひとまとめに",
+      "headline_lines": [
+        "植物をすっきり、ひとまとめに"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/ja-JP/01-hero.png",
+      "capture_sha256": "959dca19a3d0ac52b37fb9f1aefada5688efc88cb491cd63c9f9a99492f6e980",
+      "export": "assets/screenshots/phone/ja-JP/01-hero.png",
+      "export_sha256": "3b74de9217616f91ce17237ab09794d49d17d83bcc6ba6fbf0bf6825dbfc14b9",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "どんな植物にも、少しの気づかいを。",
+      "caption_lines": [
+        "どんな植物にも、少しの気づかいを。"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          500,
+          716,
+          536
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
+      "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "ja-JP",
+      "native_app_locale": "ja-JP",
+      "scene": "02-watering",
+      "headline": "無理なく続く、お手入れ習慣",
+      "headline_lines": [
+        "無理なく続く、お手入れ習慣"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/ja-JP/02-watering.png",
+      "capture_sha256": "64b691dbf21c604b7851b31efc48d9e041b713e991c3e6acb699679610937c85",
+      "export": "assets/screenshots/phone/ja-JP/02-watering.png",
+      "export_sha256": "c094d9b4e1b0cd389f0a21712db72213cf091d2122b93d5e935d9c29879e7176",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "水やりの指示ではなく、状態を確認するためのリマインダーです。まず土の湿り具合、水はけ、植物の状態を確認してください。",
+      "caption_lines": [
+        "水やりの指示ではなく、状態を確認するためのリマインダーです。まず土の湿",
+        "り具合、水はけ、植物の状態を確認してください。"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          500,
+          1364,
+          535
+        ],
+        [
+          104,
+          547,
+          932,
+          581
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
+      "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "ja-JP",
+      "native_app_locale": "ja-JP",
+      "scene": "03-library",
+      "headline": "一鉢ずつ、大切に記録",
+      "headline_lines": [
+        "一鉢ずつ、大切に記録"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/ja-JP/03-library.png",
+      "capture_sha256": "c71b968e9d26325edd684534a749903a1bf0d6e18c3becc805def210eaff1cb5",
+      "export": "assets/screenshots/phone/ja-JP/03-library.png",
+      "export_sha256": "33831abeb7b9e35cf17af92fbcf3f33f3b6450ac84add85beed3143386f07d3e",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "植物、種類、置き場所を検索",
+      "caption_lines": [
+        "植物、種類、置き場所を検索"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          501,
+          572,
+          535
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
+      "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "ja-JP",
+      "native_app_locale": "ja-JP",
+      "scene": "04-calendar",
+      "headline": "これからのお手入れを確認",
+      "headline_lines": [
+        "これからのお手入れを確認"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/ja-JP/04-calendar.png",
+      "capture_sha256": "b6dcb48155f813f96d1b59ee55e50496cfb3ba166f8fa174d8293524f3b0590c",
+      "export": "assets/screenshots/phone/ja-JP/04-calendar.png",
+      "export_sha256": "be858c2ce893cef2f1cc13b2f33fb956be2e69cc7774bffc4bf2c8b2f18c1ba1",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "お手入れ確認のリマインダー",
+      "caption_lines": [
+        "お手入れ確認のリマインダー"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          500,
+          572,
+          535
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
+      "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "ja-JP",
+      "native_app_locale": "ja-JP",
+      "scene": "05-growth",
+      "headline": "小さな成長を日記に残す",
+      "headline_lines": [
+        "小さな成長を日記に残す"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/ja-JP/05-growth.png",
+      "capture_sha256": "2c03f260d7e7c1ccc344c0b3a6aef2649d1d87bd48aae94222a1ec7d56d22868",
+      "export": "assets/screenshots/phone/ja-JP/05-growth.png",
+      "export_sha256": "56fab71c94689eb5373e1353658e24eb4411c0816776e913e5c87ea07541691d",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "写真や観察、成長の小さな兆しを残しましょう。",
+      "caption_lines": [
+        "写真や観察、成長の小さな兆しを残しましょう。"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          501,
+          896,
+          536
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
+      "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "ja-JP",
+      "native_app_locale": "ja-JP",
+      "scene": "06-voice",
+      "headline": "文字のコマンドで、手軽に操作",
+      "headline_lines": [
+        "文字のコマンドで、手軽に操作"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/ja-JP/06-voice.png",
+      "capture_sha256": "a38cc019de5259744282ec2dd38703f1fdb49b1e82dc1970082ef5e02094cc5a",
+      "export": "assets/screenshots/phone/ja-JP/06-voice.png",
+      "export_sha256": "ecc925e481ac9fd9a102eac8a6d397ea423ffa2b038a46bfc0ab4d70b177252c",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "コマンドを確認または入力",
+      "caption_lines": [
+        "コマンドを確認または入力"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          501,
+          536,
+          535
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
+      "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "ja-JP",
+      "native_app_locale": "ja-JP",
+      "scene": "07-offline",
+      "headline": "オフラインでも、植物の記録を",
+      "headline_lines": [
+        "オフラインでも、植物の記録を"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/ja-JP/07-offline.png",
+      "capture_sha256": "3e385c409362599383bc1268cec475708f59fb1c450a9e0f87933615eb95ca59",
+      "export": "assets/screenshots/phone/ja-JP/07-offline.png",
+      "export_sha256": "1908825603036d38f4aa332ea6bebdbab2a75eb46ded17e888a12001e4097665",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "この端末に保存済み",
+      "caption_lines": [
+        "この端末に保存済み"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          501,
+          428,
+          535
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
+      "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "ja-JP",
+      "native_app_locale": "ja-JP",
+      "scene": "08-insights",
+      "headline": "記録したお手入れを振り返る",
+      "headline_lines": [
+        "記録したお手入れを振り返る"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/ja-JP/08-insights.png",
+      "capture_sha256": "569dc5089ee380709de16f43230779a636a2d62522ce563cf755cc1b826b6ce2",
+      "export": "assets/screenshots/phone/ja-JP/08-insights.png",
+      "export_sha256": "e71778ad26aed9c1464a71c73cb0e2cf2840660a21972ae62ec25cfc07b22f4f",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "記録をひと目で確認。お手入れの実施は植物の健康を証明するものではありません。",
+      "caption_lines": [
+        "記録をひと目で確認。お手入れの実施は植物の健康を証明するものではありま",
+        "せん。"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          501,
+          1364,
+          535
+        ],
+        [
+          104,
+          549,
+          212,
+          581
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
+      "caption_resource_sha256": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "nl-NL",
+      "native_app_locale": "nl-NL",
+      "scene": "01-hero",
+      "headline": "Je planten, mooi op orde",
+      "headline_lines": [
+        "Je planten, mooi op orde"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/nl-NL/01-hero.png",
+      "capture_sha256": "07c2d174e76de089769da9411884ebe51f1d145f4be24171f81ec6535846308b",
+      "export": "assets/screenshots/phone/nl-NL/01-hero.png",
+      "export_sha256": "0ef52aa4e12d90e1f609d242a758d6d2f0d5119a9845cea4dc4ad083a98ee318",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Elke plant verdient een beetje aandacht.",
+      "caption_lines": [
+        "Elke plant verdient een beetje aandacht."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          737,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
+      "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "nl-NL",
+      "native_app_locale": "nl-NL",
+      "scene": "02-watering",
+      "headline": "Meer rust in je plantenverzorging",
+      "headline_lines": [
+        "Meer rust in je",
+        "plantenverzorging"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/nl-NL/02-watering.png",
+      "capture_sha256": "21cd0b44fb47360e2ba6c3ccda1fc01f44fbd8e9d1f005681eb7440563dc7119",
+      "export": "assets/screenshots/phone/nl-NL/02-watering.png",
+      "export_sha256": "47b7782f4cffbcd53f14c0989c5ad01fb248873aaa606c7b38598b93c6391477",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Een herinnering om te controleren, geen opdracht om water te geven. Controleer eerst de bodemvochtigheid, afwatering en conditie van je plant.",
+      "caption_lines": [
+        "Een herinnering om te controleren, geen opdracht om water te geven. Controleer",
+        "eerst de bodemvochtigheid, afwatering en conditie van je plant."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          1379,
+          542
+        ],
+        [
+          104,
+          553,
+          1107,
+          588
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
+      "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "nl-NL",
+      "native_app_locale": "nl-NL",
+      "scene": "03-library",
+      "headline": "Een plek voor elke plant",
+      "headline_lines": [
+        "Een plek voor elke plant"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/nl-NL/03-library.png",
+      "capture_sha256": "692c69e7f9da8d757ae733af0b8666345f3cf7b4e882032a38ab0fb4be129f8e",
+      "export": "assets/screenshots/phone/nl-NL/03-library.png",
+      "export_sha256": "38ed2b01a49d40b22a9bff49d13e3d4159dd92148e7c2dd4552e56030af0a9cf",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Zoek planten, soorten of locaties",
+      "caption_lines": [
+        "Zoek planten, soorten of locaties"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          616,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
+      "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "nl-NL",
+      "native_app_locale": "nl-NL",
+      "scene": "04-calendar",
+      "headline": "Plan de volgende verzorging",
+      "headline_lines": [
+        "Plan de volgende verzorging"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/nl-NL/04-calendar.png",
+      "capture_sha256": "a0dc405b4c8bf3b8b4b7ae2cd4886699ea0a0952f453653daba02f6b59e1d1cc",
+      "export": "assets/screenshots/phone/nl-NL/04-calendar.png",
+      "export_sha256": "621132ee38097e3944d4f9fa780dc44ae035c680c85fd9e084d17f9f9be6d2a6",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Herinneringen voor verzorgingscontroles",
+      "caption_lines": [
+        "Herinneringen voor verzorgingscontroles"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          756,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
+      "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "nl-NL",
+      "native_app_locale": "nl-NL",
+      "scene": "05-growth",
+      "headline": "Leg nieuwe groei vast",
+      "headline_lines": [
+        "Leg nieuwe groei vast"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/nl-NL/05-growth.png",
+      "capture_sha256": "4dec23997d574fe7964c99d1b16804ea6bb7eb453248745799dec456107a25f4",
+      "export": "assets/screenshots/phone/nl-NL/05-growth.png",
+      "export_sha256": "de37e59d340b19d9d74a5e21cf1c211e4bcd4e412c8662ba5e0b1b9e391f2d7b",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Foto’s, observaties en kleine tekenen van groei.",
+      "caption_lines": [
+        "Foto’s, observaties en kleine tekenen van groei."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          847,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
+      "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "nl-NL",
+      "native_app_locale": "nl-NL",
+      "scene": "06-voice",
+      "headline": "Typ een opdracht en verzorg verder",
+      "headline_lines": [
+        "Typ een opdracht en verzorg",
+        "verder"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/nl-NL/06-voice.png",
+      "capture_sha256": "1e4d5573f42f3ce4d4bde35e090792d0d71f5467ef64f3f1fb9502c08719bf2f",
+      "export": "assets/screenshots/phone/nl-NL/06-voice.png",
+      "export_sha256": "5388d0bb4a4cc670989482096230ab02d3440829c2115b74e5c06ceda1e05cf5",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Controleer of typ een opdracht",
+      "caption_lines": [
+        "Controleer of typ een opdracht"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          588,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
+      "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "nl-NL",
+      "native_app_locale": "nl-NL",
+      "scene": "07-offline",
+      "headline": "Je plantgegevens, ook zonder internet",
+      "headline_lines": [
+        "Je plantgegevens, ook zonder",
+        "internet"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/nl-NL/07-offline.png",
+      "capture_sha256": "62d7150ecb95d17c4004bf73128e4eccea7f5da1c080ebe67ae9cf4b2d010756",
+      "export": "assets/screenshots/phone/nl-NL/07-offline.png",
+      "export_sha256": "c49a7432f5ed180f867624fe44e9ebc86171b5683110615a58af1a186fef6009",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Opgeslagen op dit apparaat",
+      "caption_lines": [
+        "Opgeslagen op dit apparaat"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          539,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
+      "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "nl-NL",
+      "native_app_locale": "nl-NL",
+      "scene": "08-insights",
+      "headline": "Bekijk je vastgelegde verzorging",
+      "headline_lines": [
+        "Bekijk je vastgelegde",
+        "verzorging"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/nl-NL/08-insights.png",
+      "capture_sha256": "79c26276eb140002123ae3359776b77c3eaf9520d3a3bbb038e71e092e5c5775",
+      "export": "assets/screenshots/phone/nl-NL/08-insights.png",
+      "export_sha256": "3cb4b78f31a5aa1d0bec803a9010bf22fc7ddbcda1c4623ffc1263cd97181bc2",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Je gegevens in één oogopslag. Activiteit bewijst niet dat planten gezond zijn.",
+      "caption_lines": [
+        "Je gegevens in één oogopslag. Activiteit bewijst niet dat planten gezond zijn."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          1307,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
+      "caption_resource_sha256": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pl-PL",
+      "native_app_locale": "pl-PL",
+      "scene": "01-hero",
+      "headline": "Twoje rośliny, pięknie uporządkowane",
+      "headline_lines": [
+        "Twoje rośliny, pięknie",
+        "uporządkowane"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pl-PL/01-hero.png",
+      "capture_sha256": "fe3cf3c156474be0ec9882f76576433d2c5852a7537d4c681c04840e0c58b2ca",
+      "export": "assets/screenshots/phone/pl-PL/01-hero.png",
+      "export_sha256": "a880e8766fd183731c63da2e8789746214ece32774fb731712cef6bf65b762b8",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Każda roślina zasługuje na odrobinę uwagi.",
+      "caption_lines": [
+        "Każda roślina zasługuje na odrobinę uwagi."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          792,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
+      "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pl-PL",
+      "native_app_locale": "pl-PL",
+      "scene": "02-watering",
+      "headline": "Spokojniejsza codzienna pielęgnacja",
+      "headline_lines": [
+        "Spokojniejsza codzienna",
+        "pielęgnacja"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pl-PL/02-watering.png",
+      "capture_sha256": "1474f34bc9de5d82d1ed56085a75a6fe53064d9f07cd7197c30b3297e1d61255",
+      "export": "assets/screenshots/phone/pl-PL/02-watering.png",
+      "export_sha256": "a2f0b822bbfab425c5ad6361255d7c964abeb9d6193172b1156643ac350397af",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "To przypomnienie o kontroli, a nie polecenie podlewania. Najpierw sprawdź wilgotność podłoża, odpływ wody i stan rośliny.",
+      "caption_lines": [
+        "To przypomnienie o kontroli, a nie polecenie podlewania. Najpierw sprawdź",
+        "wilgotność podłoża, odpływ wody i stan rośliny."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          1312,
+          542
+        ],
+        [
+          103,
+          552,
+          860,
+          588
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
+      "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pl-PL",
+      "native_app_locale": "pl-PL",
+      "scene": "03-library",
+      "headline": "Miejsce dla każdej rośliny",
+      "headline_lines": [
+        "Miejsce dla każdej rośliny"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pl-PL/03-library.png",
+      "capture_sha256": "c33cf313d09bac94f0acd148dc39758ca220ecbdf6940ea49af77065767c38c9",
+      "export": "assets/screenshots/phone/pl-PL/03-library.png",
+      "export_sha256": "3d12d5ae9a6eb03e0a2101fd4f82f2be649646878d8cef13403eb93e71df4666",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Szukaj roślin, gatunków lub lokalizacji",
+      "caption_lines": [
+        "Szukaj roślin, gatunków lub lokalizacji"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          712,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
+      "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pl-PL",
+      "native_app_locale": "pl-PL",
+      "scene": "04-calendar",
+      "headline": "Zaplanuj kolejne zabiegi",
+      "headline_lines": [
+        "Zaplanuj kolejne zabiegi"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pl-PL/04-calendar.png",
+      "capture_sha256": "08cf551cbf3cac1768b6f771003a82e365b322cea42232c87397f2f768dfb2ff",
+      "export": "assets/screenshots/phone/pl-PL/04-calendar.png",
+      "export_sha256": "209165787cce168c8c7c3d075011ace62fdd2319c117cfe86c94c9e01d125485",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Przypomnienia o kontroli roślin",
+      "caption_lines": [
+        "Przypomnienia o kontroli roślin"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          610,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
+      "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pl-PL",
+      "native_app_locale": "pl-PL",
+      "scene": "05-growth",
+      "headline": "Zapisuj oznaki nowego wzrostu",
+      "headline_lines": [
+        "Zapisuj oznaki nowego",
+        "wzrostu"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pl-PL/05-growth.png",
+      "capture_sha256": "e55517985022ab9dfeaf3094ac05199e41e1090f9f254111958c2830f75375cd",
+      "export": "assets/screenshots/phone/pl-PL/05-growth.png",
+      "export_sha256": "b17ba57a36bb4fcd99ca7e416976c9498e397a5e6ad9f948dca2cc32ff42335d",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Zdjęcia, obserwacje i drobne oznaki wzrostu.",
+      "caption_lines": [
+        "Zdjęcia, obserwacje i drobne oznaki wzrostu."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          815,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
+      "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pl-PL",
+      "native_app_locale": "pl-PL",
+      "scene": "06-voice",
+      "headline": "Wpisz polecenie i dbaj dalej",
+      "headline_lines": [
+        "Wpisz polecenie i dbaj dalej"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pl-PL/06-voice.png",
+      "capture_sha256": "ba34fea151f27089d69d596fcdd6f98d0173a166ecd0dc5637bd4fcde566d4aa",
+      "export": "assets/screenshots/phone/pl-PL/06-voice.png",
+      "export_sha256": "4442c52a648618a4af2aeb250a32cf3c02c33fb1b5f979ca25eed8b380e7de73",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Sprawdź lub wpisz polecenie",
+      "caption_lines": [
+        "Sprawdź lub wpisz polecenie"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          560,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
+      "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pl-PL",
+      "native_app_locale": "pl-PL",
+      "scene": "07-offline",
+      "headline": "Dane roślin także bez internetu",
+      "headline_lines": [
+        "Dane roślin także bez",
+        "internetu"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pl-PL/07-offline.png",
+      "capture_sha256": "7271a7cad67cfaa3fb4d08de327667a958fef86dd1d757ae628d9637657e184e",
+      "export": "assets/screenshots/phone/pl-PL/07-offline.png",
+      "export_sha256": "090e4a297c1c2583cd1cf46d718615fb02610d4fac1d9259cc8f10c69deb4842",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Zapisano na tym urządzeniu",
+      "caption_lines": [
+        "Zapisano na tym urządzeniu"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          555,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
+      "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pl-PL",
+      "native_app_locale": "pl-PL",
+      "scene": "08-insights",
+      "headline": "Przeglądaj zapisaną pielęgnację",
+      "headline_lines": [
+        "Przeglądaj zapisaną",
+        "pielęgnację"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pl-PL/08-insights.png",
+      "capture_sha256": "2e8ccb1281874c97a611a541690f7deb76d6b80396e106661f306d7d9ea92670",
+      "export": "assets/screenshots/phone/pl-PL/08-insights.png",
+      "export_sha256": "c627a952de1d854026dcb1fdf6aeb1c60f0cba1b16ebfdcf75b541fdb2f5b6f3",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Twoje dane w skrócie. Wykonana pielęgnacja nie dowodzi zdrowia roślin.",
+      "caption_lines": [
+        "Twoje dane w skrócie. Wykonana pielęgnacja nie dowodzi zdrowia roślin."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          1267,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
+      "caption_resource_sha256": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pt-BR",
+      "native_app_locale": "pt-BR",
+      "scene": "01-hero",
+      "headline": "Suas plantas, bem organizadas",
+      "headline_lines": [
+        "Suas plantas, bem",
+        "organizadas"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pt-BR/01-hero.png",
+      "capture_sha256": "1ca4a9c51c7d05721f093b80adff0a5eb2c8d6116bae24fdab17d300582669b5",
+      "export": "assets/screenshots/phone/pt-BR/01-hero.png",
+      "export_sha256": "4f6cee3c5ace441a75dc15efedc5afe102005fd3b8d180a6311dd69b153efb55",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Toda planta merece um pouco de atenção.",
+      "caption_lines": [
+        "Toda planta merece um pouco de atenção."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          770,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
+      "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pt-BR",
+      "native_app_locale": "pt-BR",
+      "scene": "02-watering",
+      "headline": "Uma rotina de cuidados mais tranquila",
+      "headline_lines": [
+        "Uma rotina de cuidados mais",
+        "tranquila"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pt-BR/02-watering.png",
+      "capture_sha256": "e87107ab2dc7d76083db9b2290915b02c8fe486ebcf717ebe8ca1a94511e344e",
+      "export": "assets/screenshots/phone/pt-BR/02-watering.png",
+      "export_sha256": "06d142c2c95864ae42afd7bc3f4aff809a52a7673ddb0b9aeb52445b1a60b74c",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Um lembrete para verificar, não uma instrução para regar. Confira primeiro a umidade do solo, a drenagem e o estado da planta.",
+      "caption_lines": [
+        "Um lembrete para verificar, não uma instrução para regar. Confira primeiro a",
+        "umidade do solo, a drenagem e o estado da planta."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          1338,
+          542
+        ],
+        [
+          104,
+          553,
+          905,
+          588
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
+      "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pt-BR",
+      "native_app_locale": "pt-BR",
+      "scene": "03-library",
+      "headline": "Um lugar para cada planta",
+      "headline_lines": [
+        "Um lugar para cada planta"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pt-BR/03-library.png",
+      "capture_sha256": "6058a68df569da1badc3c773964bde03a2471b4f785f6d703c4ae0fc79500f2f",
+      "export": "assets/screenshots/phone/pt-BR/03-library.png",
+      "export_sha256": "f78c9f8c6063883a8edfe3da0dc0619de29c89650cd9db01e7676c31d9222313",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Buscar plantas, espécies ou locais",
+      "caption_lines": [
+        "Buscar plantas, espécies ou locais"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          637,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
+      "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pt-BR",
+      "native_app_locale": "pt-BR",
+      "scene": "04-calendar",
+      "headline": "Planeje os próximos cuidados",
+      "headline_lines": [
+        "Planeje os próximos",
+        "cuidados"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pt-BR/04-calendar.png",
+      "capture_sha256": "cade237370c1d62dee4bdc3b8f28390080a948b2c2bfe287901687bda7d1d467",
+      "export": "assets/screenshots/phone/pt-BR/04-calendar.png",
+      "export_sha256": "ca3dfc68e58633e1b6e14dc2ac69a5f822660bbdbc8042e20f05f08c74c04493",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Lembretes de verificação dos cuidados",
+      "caption_lines": [
+        "Lembretes de verificação dos cuidados"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          716,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
+      "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pt-BR",
+      "native_app_locale": "pt-BR",
+      "scene": "05-growth",
+      "headline": "Registre cada sinal de crescimento",
+      "headline_lines": [
+        "Registre cada sinal de",
+        "crescimento"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pt-BR/05-growth.png",
+      "capture_sha256": "d0c6fdb055b0f159b4fa28fcba87387a489bc939f3c2c767bfa22f24884d320d",
+      "export": "assets/screenshots/phone/pt-BR/05-growth.png",
+      "export_sha256": "14fc950cdc455841de09cd9b45acac2f22da11b29e78e9896c128e2f3c7c562f",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Fotos, observações e pequenos sinais de crescimento.",
+      "caption_lines": [
+        "Fotos, observações e pequenos sinais de crescimento."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          949,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
+      "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pt-BR",
+      "native_app_locale": "pt-BR",
+      "scene": "06-voice",
+      "headline": "Digite um comando e continue cuidando",
+      "headline_lines": [
+        "Digite um comando e",
+        "continue cuidando"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pt-BR/06-voice.png",
+      "capture_sha256": "3150be516bf99e871a2e7d4dd685f9fe4e5a98352665d5b451c9cef8cb570d5a",
+      "export": "assets/screenshots/phone/pt-BR/06-voice.png",
+      "export_sha256": "ab9276a51981ec1979462f5392dfca4b1246907422e319ffe492cafc3559629e",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Revise ou digite um comando",
+      "caption_lines": [
+        "Revise ou digite um comando"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          573,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
+      "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pt-BR",
+      "native_app_locale": "pt-BR",
+      "scene": "07-offline",
+      "headline": "Suas plantas, mesmo sem internet",
+      "headline_lines": [
+        "Suas plantas, mesmo sem",
+        "internet"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pt-BR/07-offline.png",
+      "capture_sha256": "ca4e692b40a3af5d57d17428bb81379758bef5dda1406ad328793dc35b9f4f66",
+      "export": "assets/screenshots/phone/pt-BR/07-offline.png",
+      "export_sha256": "c8212f298e69c1d73b755121a0469b23e6fa074d0ada24edac8fdfa8394e0f44",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Salvo neste dispositivo",
+      "caption_lines": [
+        "Salvo neste dispositivo"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          465,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
+      "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pt-BR",
+      "native_app_locale": "pt-BR",
+      "scene": "08-insights",
+      "headline": "Veja os cuidados que você registrou",
+      "headline_lines": [
+        "Veja os cuidados que você",
+        "registrou"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pt-BR/08-insights.png",
+      "capture_sha256": "d3741f9cacf38354080bc1458f59a279ad81ef62793dcc525d6a7554fb99000f",
+      "export": "assets/screenshots/phone/pt-BR/08-insights.png",
+      "export_sha256": "b9241322ed6d4c4a4988c406926e18f8f4c19be6e7ad9275069972a91919214d",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Seus registros em resumo. A atividade não comprova a saúde das plantas.",
+      "caption_lines": [
+        "Seus registros em resumo. A atividade não comprova a saúde das plantas."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          1274,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
+      "caption_resource_sha256": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pt-PT",
+      "native_app_locale": "pt-PT",
+      "scene": "01-hero",
+      "headline": "As suas plantas, bem organizadas",
+      "headline_lines": [
+        "As suas plantas, bem",
+        "organizadas"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pt-PT/01-hero.png",
+      "capture_sha256": "e2106191b63dbc74feabd4e49ac00364c6275bbe266dfa13a6384d494a77baac",
+      "export": "assets/screenshots/phone/pt-PT/01-hero.png",
+      "export_sha256": "5b904c61617ef608a674514cceebb73bee28ca656daacfd46678a95f85cd4443",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Todas as plantas merecem um pouco de atenção.",
+      "caption_lines": [
+        "Todas as plantas merecem um pouco de atenção."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          877,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
+      "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pt-PT",
+      "native_app_locale": "pt-PT",
+      "scene": "02-watering",
+      "headline": "Uma rotina de cuidados mais tranquila",
+      "headline_lines": [
+        "Uma rotina de cuidados mais",
+        "tranquila"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pt-PT/02-watering.png",
+      "capture_sha256": "607ac34bd419e5dcb12d337422a1664859a03b4575b3dc5ee996bbbb6cb835f5",
+      "export": "assets/screenshots/phone/pt-PT/02-watering.png",
+      "export_sha256": "83c16705e811f82613d7042c2df65ce6342c989251fb8e44cabefc1786a61b49",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Um lembrete para verificar, não uma instrução para regar. Verifique primeiro a humidade do solo, a drenagem e o estado da planta.",
+      "caption_lines": [
+        "Um lembrete para verificar, não uma instrução para regar. Verifique primeiro a",
+        "humidade do solo, a drenagem e o estado da planta."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          1367,
+          542
+        ],
+        [
+          104,
+          553,
+          926,
+          588
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
+      "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pt-PT",
+      "native_app_locale": "pt-PT",
+      "scene": "03-library",
+      "headline": "Um lugar para cada planta",
+      "headline_lines": [
+        "Um lugar para cada planta"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pt-PT/03-library.png",
+      "capture_sha256": "e7f87d87435d49f9e04d774d9a8eb412b120c68eb52662e73e59f8fda4a9adfc",
+      "export": "assets/screenshots/phone/pt-PT/03-library.png",
+      "export_sha256": "1559564ab87a90a2862ed8eaf08652493cd29f67fa6787c8a5a8222acc003455",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Pesquisar plantas, espécies ou locais",
+      "caption_lines": [
+        "Pesquisar plantas, espécies ou locais"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          683,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
+      "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pt-PT",
+      "native_app_locale": "pt-PT",
+      "scene": "04-calendar",
+      "headline": "Planeie os próximos cuidados",
+      "headline_lines": [
+        "Planeie os próximos",
+        "cuidados"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pt-PT/04-calendar.png",
+      "capture_sha256": "56891fc277888214c073ea7df0201a7aa6442786e61d489bb4e483a218469144",
+      "export": "assets/screenshots/phone/pt-PT/04-calendar.png",
+      "export_sha256": "411a5c1748d7751957d21c814e95033de066e710c0e6c28048d5b115de093520",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Lembretes de verificação dos cuidados",
+      "caption_lines": [
+        "Lembretes de verificação dos cuidados"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          716,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
+      "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pt-PT",
+      "native_app_locale": "pt-PT",
+      "scene": "05-growth",
+      "headline": "Registe cada sinal de crescimento",
+      "headline_lines": [
+        "Registe cada sinal de",
+        "crescimento"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pt-PT/05-growth.png",
+      "capture_sha256": "b1c5546abef47113f94553d0a3badc949228e5789a3551f493b8d3032cb5a116",
+      "export": "assets/screenshots/phone/pt-PT/05-growth.png",
+      "export_sha256": "c7323ee42895a8ecb893c2c727592c91cfe7d266ab6bfbeab99ca634c0c4cdf7",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Fotografias, observações e pequenos sinais de crescimento.",
+      "caption_lines": [
+        "Fotografias, observações e pequenos sinais de crescimento."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          1041,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
+      "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pt-PT",
+      "native_app_locale": "pt-PT",
+      "scene": "06-voice",
+      "headline": "Escreva um comando e continue a cuidar",
+      "headline_lines": [
+        "Escreva um comando e",
+        "continue a cuidar"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pt-PT/06-voice.png",
+      "capture_sha256": "5ded366eb78c5bc5a60ee4f444b6ece365c2a5c0b6e7f4fbf7c14e5dda0701eb",
+      "export": "assets/screenshots/phone/pt-PT/06-voice.png",
+      "export_sha256": "30c879744077b7160506ece57dc20b58a1d037a84addd2ed7c8b69d3709dc59d",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Reveja ou escreva um comando",
+      "caption_lines": [
+        "Reveja ou escreva um comando"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          602,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
+      "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pt-PT",
+      "native_app_locale": "pt-PT",
+      "scene": "07-offline",
+      "headline": "As suas plantas, mesmo sem internet",
+      "headline_lines": [
+        "As suas plantas, mesmo sem",
+        "internet"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pt-PT/07-offline.png",
+      "capture_sha256": "51a28a7caf637d9f9bfae7cd7d71975435b19f77e0d3c7a5866ae83e20e30498",
+      "export": "assets/screenshots/phone/pt-PT/07-offline.png",
+      "export_sha256": "063f71353f46a9f9a3aefedf5b9548ceb6b707a9adea9bcd8065f2a106ce4af7",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Guardado neste dispositivo",
+      "caption_lines": [
+        "Guardado neste dispositivo"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          539,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
+      "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "pt-PT",
+      "native_app_locale": "pt-PT",
+      "scene": "08-insights",
+      "headline": "Consulte os cuidados que registou",
+      "headline_lines": [
+        "Consulte os cuidados que",
+        "registou"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/pt-PT/08-insights.png",
+      "capture_sha256": "33c678a5f327e335fea4dcf5a22979e0ab0db2938eb71fa4b9bc85217a301444",
+      "export": "assets/screenshots/phone/pt-PT/08-insights.png",
+      "export_sha256": "22bcd63a50d2b6ba8a8ec294edc95d86a7de7ffd24d26bc53f849f6bfb1e3c0e",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Os seus registos em resumo. A atividade não comprova a saúde das plantas.",
+      "caption_lines": [
+        "Os seus registos em resumo. A atividade não comprova a saúde das plantas."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          1307,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
+      "caption_resource_sha256": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "sv-SE",
+      "native_app_locale": "sv-SE",
+      "scene": "01-hero",
+      "headline": "Dina växter, fint samlade",
+      "headline_lines": [
+        "Dina växter, fint samlade"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/sv-SE/01-hero.png",
+      "capture_sha256": "146abf757c8774029d6771363f16ca628d06437e65fc0ca9d2788a4bd5607b07",
+      "export": "assets/screenshots/phone/sv-SE/01-hero.png",
+      "export_sha256": "5bcff6179c9290fe1fe12ca90e928a5406ea5565554e0d9ff19f3c97e1a6c6d9",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Varje växt förtjänar lite omsorg.",
+      "caption_lines": [
+        "Varje växt förtjänar lite omsorg."
+      ],
+      "caption_line_bounds": [
+        [
+          103,
+          507,
+          611,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
+      "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "sv-SE",
+      "native_app_locale": "sv-SE",
+      "scene": "02-watering",
+      "headline": "En lugnare rutin för växtskötsel",
+      "headline_lines": [
+        "En lugnare rutin för",
+        "växtskötsel"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/sv-SE/02-watering.png",
+      "capture_sha256": "c5dba24dfd79a3660a346e422ded1a61c02609c5ed32b0196d8a0b781f3c3be8",
+      "export": "assets/screenshots/phone/sv-SE/02-watering.png",
+      "export_sha256": "90b6281e651bdf70c0a9d9965b8d716f19c546d4a14fd61f5e8ff62aad36fd43",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "En påminnelse om att kontrollera, inte en uppmaning att vattna. Kontrollera först jordens fuktighet, dräneringen och växtens skick.",
+      "caption_lines": [
+        "En påminnelse om att kontrollera, inte en uppmaning att vattna. Kontrollera",
+        "först jordens fuktighet, dräneringen och växtens skick."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          1316,
+          542
+        ],
+        [
+          104,
+          553,
+          967,
+          588
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
+      "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "sv-SE",
+      "native_app_locale": "sv-SE",
+      "scene": "03-library",
+      "headline": "En plats för varje växt",
+      "headline_lines": [
+        "En plats för varje växt"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/sv-SE/03-library.png",
+      "capture_sha256": "20c8df3478932170e3f757097756de00fb4120d5fc8052e7170b29ed59375645",
+      "export": "assets/screenshots/phone/sv-SE/03-library.png",
+      "export_sha256": "8200d53ddea3b3701411b5ce43fd176ebac8231b5b489d48d5b210aebb3dae31",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Sök växter, arter eller platser",
+      "caption_lines": [
+        "Sök växter, arter eller platser"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          561,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
+      "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "sv-SE",
+      "native_app_locale": "sv-SE",
+      "scene": "04-calendar",
+      "headline": "Planera kommande skötsel",
+      "headline_lines": [
+        "Planera kommande skötsel"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/sv-SE/04-calendar.png",
+      "capture_sha256": "baeb8eeecf8eb2f31bfaac1fd73350e8255c07023593a5d74aa29a1b9801292f",
+      "export": "assets/screenshots/phone/sv-SE/04-calendar.png",
+      "export_sha256": "b63d826c6011ce10a59c6b9f712ed67b53071ea8a9077cb34a18cd0580e6e326",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Påminnelser om skötselkontroller",
+      "caption_lines": [
+        "Påminnelser om skötselkontroller"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          639,
+          534
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
+      "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "sv-SE",
+      "native_app_locale": "sv-SE",
+      "scene": "05-growth",
+      "headline": "Spara små tecken på tillväxt",
+      "headline_lines": [
+        "Spara små tecken på tillväxt"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/sv-SE/05-growth.png",
+      "capture_sha256": "77ac8bbdd5092a640214736715b97cef13f9a7fe072933b2b6c1f2f7e5f61b94",
+      "export": "assets/screenshots/phone/sv-SE/05-growth.png",
+      "export_sha256": "18678cd71dcf2cf084438d0e973783016658a43d354ef7daac00e1474031862d",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Foton, observationer och små tecken på tillväxt.",
+      "caption_lines": [
+        "Foton, observationer och små tecken på tillväxt."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          861,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
+      "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "sv-SE",
+      "native_app_locale": "sv-SE",
+      "scene": "06-voice",
+      "headline": "Skriv ett kommando och fortsätt sköta",
+      "headline_lines": [
+        "Skriv ett kommando och",
+        "fortsätt sköta"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/sv-SE/06-voice.png",
+      "capture_sha256": "7142f074ad8d309401401d929a0ec3a3a92ffa42314ae0b464111739b07e9ee7",
+      "export": "assets/screenshots/phone/sv-SE/06-voice.png",
+      "export_sha256": "f114b9510df5ca234597c2264681c10da335427f7f9fe4126ad4913db5b4faa3",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Granska eller skriv ett kommando",
+      "caption_lines": [
+        "Granska eller skriv ett kommando"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          643,
+          534
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
+      "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "sv-SE",
+      "native_app_locale": "sv-SE",
+      "scene": "07-offline",
+      "headline": "Dina växtuppgifter, även utan internet",
+      "headline_lines": [
+        "Dina växtuppgifter, även",
+        "utan internet"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/sv-SE/07-offline.png",
+      "capture_sha256": "ed128f2c7efce1ddd12c2476c2325ed33020b41dc6e657b32db2a7ab4d5a3365",
+      "export": "assets/screenshots/phone/sv-SE/07-offline.png",
+      "export_sha256": "301746aad2e578a2366a252e05ac7e3b4bb146c0cb852a13586bcdc0da66203a",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Sparat på denna enhet",
+      "caption_lines": [
+        "Sparat på denna enhet"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          506,
+          460,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
+      "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    },
+    {
+      "listing_locale": "sv-SE",
+      "native_app_locale": "sv-SE",
+      "scene": "08-insights",
+      "headline": "Se den skötsel du har registrerat",
+      "headline_lines": [
+        "Se den skötsel du har",
+        "registrerat"
+      ],
+      "headline_font_px": 84,
+      "capture": "evidence/store-captures/run-20261101-231611/sv-SE/08-insights.png",
+      "capture_sha256": "28d4302728c5824864c75fe1cd01d132925c6c267118a5cc380048185b619a0c",
+      "export": "assets/screenshots/phone/sv-SE/08-insights.png",
+      "export_sha256": "4032bd2d1175118d799f9e75d143ecaf0538c8cc8071e5ed7a52295ad7d61cb0",
+      "width": 1600,
+      "height": 2560,
+      "status": "DRAFT_PENDING_HUMAN_REVIEW",
+      "actual_rendered_ui": true,
+      "offline_capture": true,
+      "demonstration_records": true,
+      "supporting_caption": "Dina anteckningar i korthet. Aktivitet bevisar inte växthälsa.",
+      "caption_lines": [
+        "Dina anteckningar i korthet. Aktivitet bevisar inte växthälsa."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          507,
+          1058,
+          542
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
+      "caption_resource_sha256": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f",
+      "caption_resource_hash_encoding": "utf8-lf",
+      "native_frame_bounds": [
+        316,
+        760,
+        1284,
+        2480
+      ],
+      "native_frame_max_size": [
+        1400,
+        1720
+      ]
+    }
+  ],
+  "full_app_locale_capture_complete": false,
+  "source_capture_suite_result": "FAIL",
+  "device_kind": "phone",
+  "capture_configuration": {
+    "screenWidthDp": 411,
+    "screenHeightDp": 659,
+    "fontScale": 1,
+    "densityDpi": 420
+  },
+  "device": {
+    "model": "KFTRWI",
+    "name": "Fire HD 10 (2021)",
+    "api": 28,
+    "capture_width": 1080,
+    "capture_height": 1920,
+    "simulated_phone_configuration": true
+  }
+}

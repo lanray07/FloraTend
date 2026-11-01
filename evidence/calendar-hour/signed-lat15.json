@@ -1,0 +1,20 @@
+{
+  "execution_date": "2026-11-01",
+  "versionCode": 15,
+  "versionName": "0.1.14",
+  "applicationId": "com.floratend.app",
+  "sha256": "124821287c2d8a0c54b5bee56f919670df595fffcc16c5da1cce9c7e5f3977c3",
+  "bytes": 4819363,
+  "certificateSha256": "c08b2dd3462a14be0351a87c0da7afd83a4efd64ea6ff168aa83853692ff3a94",
+  "signatureVerified": true,
+  "debuggable": false,
+  "r8Enabled": true,
+  "amazonSdkNamesAndAnnotationsPreserved": true,
+  "latReceiptEndpointConfirmedInDex": true,
+  "productionReceiptEndpointAbsent": true,
+  "photoIdentificationEndpointConfirmedInDex": true,
+  "providerKeyEmbedded": false,
+  "sourceDefaultsChangedToLat": false,
+  "installedOverAmazonPackage": false,
+  "scope": "Signed private Test2 candidate configuration. Not Amazon delivery or a genuine purchase regression of this candidate."
+}

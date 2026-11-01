@@ -1,0 +1,19 @@
+{
+  "execution_date": "2026-11-01",
+  "installedAmazonVersionCode": 11,
+  "installer": "com.amazon.venezia",
+  "debuggable": false,
+  "installedApkSha256": "fb765d78dfef3f7ea67482d456e44e90a8f1d086bd640c34a25d16b359dfbf86",
+  "certificateSha256": "8e35b165d5a1dc14c10820cee25ed2c24e9c543ceb2f059b9f5bc93baa672297",
+  "certificateProof": "Current device APK hash equals private cached APK; apksigner verification and certificate check passed on that exact cached artifact.",
+  "qaPerfAndHarnessPackagesAbsent": true,
+  "instrumentationDetached": true,
+  "physicalSizeAndDensityReset": true,
+  "fontScale": "1.0",
+  "accelerometerRotation": "1",
+  "userRotation": "0",
+  "wifiOn": "1",
+  "mainActivityReopened": true,
+  "mainAppDataClearedOrUninstalled": false,
+  "scope": "Original Amazon application preserved. Isolated fixture backups remain private. No new Amazon15 delivery or purchase claimed."
+}

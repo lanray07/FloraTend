@@ -1,0 +1,27 @@
+{
+  "execution_date": "2026-11-01",
+  "review": "Engineering data-category/trigger reconciliation",
+  "receiptIdentifiersDisclosed": true,
+  "selectedPhotoConsentDisclosed": true,
+  "providerMetadataAndRateCountersDisclosed": true,
+  "plantNotesExcludedFromVerificationAndIdentification": true,
+  "humanTranslationOrLegalApproval": false,
+  "publicPrivacyUrlApproved": false,
+  "sourceHashes": {
+    "app/src/main/res/values/privacy.xml": "9b6cb480344dfbefe7fe22117eaffb658a48dcc6d92cac27a8ef67413d71f9d9",
+    "app/src/main/res/values/identification.xml": "2c7bd41dbf2df5e5ceeaa1099ec8cdf52789ed01e9740bb4263951b227ecc095",
+    "app/src/main/java/com/floratend/app/ReceiptVerifier.kt": "2ca968dfd430a096da87ce5c5023e9d58258bb821abb884ee8ef8942ba097990",
+    "app/src/main/java/com/floratend/app/PlantIdentification.kt": "dab297e128e537fb2376137f54575ec863675076f77dd2c7936d180f5159c575",
+    "app/src/main/java/com/floratend/app/Editors.kt": "f7915b6ecba74589be53e8d240eb4f455c09b5995cb9eabdf6a775d092e3efea",
+    "server/receipt-verifier.mjs": "ea4b8be51a2647dfa5be90b216b9d137909cb470140a6e1fae5597e63edd4895",
+    "server/plant-identification.mjs": "84eaae3a2e4dda9d8f14d1e4f0c1fd718f0150c9515a21204516eb044834948b",
+    "server/plantnet-worker.mjs": "67fcb0169caca6b51b6e43d9469bf3957eda5f8b28c93edd0c6e239e453469e4",
+    "website/build.py": "c592c52bc4fd588cd9a4ac96cb482b719be01a045522e8fe5adbb4abddb2bcd4"
+  },
+  "evidence": [
+    "docs/PRIVACY_DATA_FLOW_20261101.md",
+    "docs/PLANTNET_LIVE_TEST_20261101.md",
+    "evidence/rendering/website-facts-review.json"
+  ],
+  "scope": "Technical content reconciliation, not legal compliance or natural translation certification."
+}

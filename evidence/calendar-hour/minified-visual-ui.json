@@ -1,0 +1,16 @@
+{
+  "result": "PASS_WITH_SCOPE_LIMITATION",
+  "optimizedApkSha256": "719760861f4b58ea7389fbfee73a06e7ba95a9d3b9a3afdd9e401a44b587a881",
+  "observed": [
+    "Month and plant filters selected",
+    "Pause changes task to Paused/Resume and disables Record care visually",
+    "Resume re-enables Record care",
+    "Snooze updates selected task date to2November",
+    "Reschedule dialog opens with2026-11-02",
+    "Real force-stop/restart preserves next check2November on Garden"
+  ],
+  "pausedCaptureSha256": "e0768c4dcedb6e1bb4dbd1851992dd19cf44187dd2583f1e6dbf1debb89a3a8b",
+  "scope": "AI inspection of real OS screenshots, not an automated semantic assertion or screen-reader approval. Raw capture private.",
+  "restartCaptureSha256": "d00f85169ef884ed3421de98b4e66de8b22480a46fc12e3f87080e2e793fdff3",
+  "accessibilityRootCertified": false
+}

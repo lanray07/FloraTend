@@ -1,0 +1,27 @@
+# Source15 release follow-up — 1 November 2026
+
+Development0.1.14/code15 was submitted to the existing private Amazon Test2 channel. Amazon shows **Test submitted**, DRM applied,12Fire tablet targets,0TV/automotive and one dedicated tester group. Public production release remains BLOCKED. Uploaded APK SHA256: `124821287c2d8a0c54b5bee56f919670df595fffcc16c5da1cce9c7e5f3977c3`. Signing/configuration and sanitized confirmation are in `evidence/calendar-hour/`.
+
+## Calendar fix and measured limits
+
+Calendar now commits its heading, period filters, plant filters, care-type filters, task summaries and actions over consecutive frames, showing an honest loading state while sections prepare. Final controls and semantics are unchanged. Release R8 optimization removes framework/app overhead; Amazon SDK names and annotations are preserved using [Amazon's documented rules](https://developer.amazon.com/docs/in-app-purchasing/iap-obfuscate-the-code.html). Resource shrinking is not enabled. The benchmark-only recovery switch defaults to optimized and cannot disable production release optimization.
+
+Focused three-entry baseline14maxima were500/500/500ms. Smaller buttons and an equal-width action row failed and were reverted. Three-section composition still reached350ms; five sections reached250/250/300ms. Five sections plus R8 reached200/121/150ms in the same focused protocol. A sampled CPU trace showed broad Compose/framework work rather than one dominant app lookup; tracing overhead is explicitly diagnostic.
+
+The predeclared full five-launch series retains every trial and uses the unchanged32ms p95/10%jank limits plus250ms maximum bucket and100pooled frames/screen minimum. All six pooled screens PASS. Calendar:12ms p95,2.2241%jank,max113ms versus prior14full-series350ms. Garden:18ms/8.3024%, Voice:21ms/7.0796%; other pooled p95s are11–12ms. The first post-update Garden trial FAILED its individual jank limit at26.05%; the remaining four individual runs passed. This cold outlier is retained, not replaced or described as universal smoothness. No forced full-speed compilation was used. The tested optimized APK is archived privately and its hash is recorded in every trial.
+
+## Native checks, assets and remaining limitations
+
+Eight QA native core/Calendar-scale/identification-contract tests passed. Genuine code15 QA photo identification used the real configured Cloudflare/Pl@ntNet service with the licensed CC0 daisy, explicit consent and manual review. Its offline process-restart/failure/manual-save checks and guarded cleanup are summarized separately. This is not instrumentation of an Amazon-signed app or a new genuine15Amazon purchase.
+
+Optimized-app instrumentation could not initialize because `androidx.tracing.Trace` was stripped. OS accessibility-root dumping also failed after navigation; both failures remain. Actual optimized UI screenshots/input verified month/plant filters, pause/disabled Record care, resume, snooze, reschedule dialog and persisted next-check date after a real process stop. These visual checks do not approve screen-reader support. AC-17.01 was conservatively reopened for the optimized candidate. An unoptimized same-version in-place **isolated** recovery build was used only to back up/check/delete the controlled fixture, never to approve optimized performance. Main Amazon11 was preserved.
+
+Tablet capture passed176scenes/22locales. Phone capture at411dp completed144scenes/18locales, then timed out awaiting Garden/fixture in Indonesian; cause remains unisolated and later locales were not executed. The completed set covers every one of the15current listing locales.120tablet and120portrait phone draft compositions preserve full native frames, validated pixels and hashes. Unlisted/stale images from the failed phone run were retained privately rather than presented as phone evidence. Full-phone coverage, actual phone hardware and human language/readability approval are not claimed.
+
+Local JVM reports contain6core,34debug and34release passes; lint has0errors. All70supporting tests passed, including both asset variants. Failed harness and online-invoked offline-precondition attempts remain recorded; corrected no-network runs are separate. Exact private-value scanning covers protected provider/server/signing/session values and all candidate archives; no key is committed or embedded.
+
+The technical privacy-data review was reconciled with receipt identifiers, consented photos, provider metadata and hashed allowance counters. It does not approve translated meaning, publisher legal identity, retention/legal basis or a public policy URL. Production defaults remain production RVS with identification disabled; submitted Test2 explicitly uses LAT RVS and the consented identification endpoint.
+
+## Outstanding work and input dependencies
+
+The generated ledger is authoritative:184/204scoped passes,20incomplete. Qualified UI/store language and market reviewers, recognition-capable test hardware/engine, separate private translation-provider credentials, publisher/contact/privacy approval and production origin/public listing details need user input. The saved Pl@ntNet key is available. Engineering follow-ups include optimized accessibility/test-runner behavior, the full-phone capture timeout, the retained cold Garden outlier and unplugged energy measurement. Amazon delivery/processing and genuine15billing checks remain pending; submission is not approval. No real charge, public promotion, paid hosting or weakened server gate was introduced.

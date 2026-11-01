@@ -100,7 +100,7 @@ class StoreScreenshotTest {
             runBlocking{app.settings.set("dark",false)}
             nav(R.string.insights);waitText(text(R.string.total_plants));scenes.put(shot(tag,"08-insights"))
             all.put(JSONObject().put("locale",tag).put("scenes",scenes))
-            File(folder,"capture-manifest.json").writeText(JSONObject().put("versionCode",BuildConfig.VERSION_CODE).put("versionName",BuildConfig.VERSION_NAME).put("createdAtEpochMs",System.currentTimeMillis()).put("demonstrationRecords",true).put("humanLanguageApproval",false).put("locales",all).toString(2))
+            File(folder,"capture-manifest.json").writeText(JSONObject().put("versionCode",BuildConfig.VERSION_CODE).put("versionName",BuildConfig.VERSION_NAME).put("captureConfiguration",JSONObject().put("screenWidthDp",rule.activity.resources.configuration.screenWidthDp).put("screenHeightDp",rule.activity.resources.configuration.screenHeightDp).put("fontScale",rule.activity.resources.configuration.fontScale).put("densityDpi",rule.activity.resources.displayMetrics.densityDpi)).put("createdAtEpochMs",System.currentTimeMillis()).put("demonstrationRecords",true).put("humanLanguageApproval",false).put("locales",all).toString(2))
         }
         assertEquals(22,all.length())
     }

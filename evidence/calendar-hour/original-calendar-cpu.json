@@ -1,0 +1,139 @@
+{
+  "formatVersion": 3,
+  "samplingElapsedMillis": 1368.046,
+  "mainThreadCpuMillis": 780.212,
+  "mainThreadRecords": 24159,
+  "unmatchedExits": 0,
+  "openSlicesAtEnd": 17,
+  "topExclusiveCpuMethods": [
+    {
+      "method": "kotlin.jvm.internal.Intrinsics.checkNotNullParameter",
+      "cpuMillis": 19.068,
+      "percentOfObservedMainCpu": 2.44
+    },
+    {
+      "method": "kotlin.jvm.internal.Intrinsics.areEqual",
+      "cpuMillis": 15.114,
+      "percentOfObservedMainCpu": 1.94
+    },
+    {
+      "method": "kotlin.jvm.internal.Intrinsics.checkNotNull",
+      "cpuMillis": 11.247,
+      "percentOfObservedMainCpu": 1.44
+    },
+    {
+      "method": "android.graphics.Paint.nGetRunAdvance",
+      "cpuMillis": 10.048,
+      "percentOfObservedMainCpu": 1.29
+    },
+    {
+      "method": "androidx.compose.ui.util.MathHelpersKt.fastCbrt",
+      "cpuMillis": 7.856,
+      "percentOfObservedMainCpu": 1.01
+    },
+    {
+      "method": "android.os.MessageQueue.nativePollOnce",
+      "cpuMillis": 6.818,
+      "percentOfObservedMainCpu": 0.87
+    },
+    {
+      "method": "androidx.collection.ScatterMap.get",
+      "cpuMillis": 6.789,
+      "percentOfObservedMainCpu": 0.87
+    },
+    {
+      "method": "kotlin.coroutines.CombinedContext.get",
+      "cpuMillis": 5.629,
+      "percentOfObservedMainCpu": 0.72
+    },
+    {
+      "method": "androidx.compose.runtime.ComposerKt.isTraceInProgress",
+      "cpuMillis": 4.678,
+      "percentOfObservedMainCpu": 0.6
+    },
+    {
+      "method": "java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl.get",
+      "cpuMillis": 4.617,
+      "percentOfObservedMainCpu": 0.59
+    },
+    {
+      "method": "kotlin.collections.ArraysKt___ArraysJvmKt.copyInto",
+      "cpuMillis": 4.544,
+      "percentOfObservedMainCpu": 0.58
+    },
+    {
+      "method": "java.util.ArrayList.add",
+      "cpuMillis": 4.518,
+      "percentOfObservedMainCpu": 0.58
+    },
+    {
+      "method": "androidx.compose.ui.graphics.ReusableGraphicsLayerScope.setRotationY",
+      "cpuMillis": 4.472,
+      "percentOfObservedMainCpu": 0.57
+    },
+    {
+      "method": "androidx.compose.runtime.ComposerKt.sourceInformationMarkerStart",
+      "cpuMillis": 4.413,
+      "percentOfObservedMainCpu": 0.57
+    },
+    {
+      "method": "java.util.ArrayList.get",
+      "cpuMillis": 3.917,
+      "percentOfObservedMainCpu": 0.5
+    },
+    {
+      "method": "androidx.compose.runtime.snapshots.TransparentObserverMutableSnapshot.getCurrentSnapshot",
+      "cpuMillis": 3.494,
+      "percentOfObservedMainCpu": 0.45
+    },
+    {
+      "method": "java.lang.System.arraycopy",
+      "cpuMillis": 3.477,
+      "percentOfObservedMainCpu": 0.45
+    },
+    {
+      "method": "androidx.compose.runtime.ComposerImpl.startReplaceGroup",
+      "cpuMillis": 3.456,
+      "percentOfObservedMainCpu": 0.44
+    },
+    {
+      "method": "androidx.compose.ui.unit.IntOffset.constructor-impl",
+      "cpuMillis": 3.399,
+      "percentOfObservedMainCpu": 0.44
+    },
+    {
+      "method": "androidx.compose.foundation.lazy.LazyListIntervalContent.getIntervals",
+      "cpuMillis": 3.386,
+      "percentOfObservedMainCpu": 0.43
+    },
+    {
+      "method": "kotlin.collections.EmptyList.isEmpty",
+      "cpuMillis": 3.383,
+      "percentOfObservedMainCpu": 0.43
+    },
+    {
+      "method": "androidx.compose.runtime.snapshots.Snapshot.getInvalid$runtime_release",
+      "cpuMillis": 3.381,
+      "percentOfObservedMainCpu": 0.43
+    },
+    {
+      "method": "androidx.compose.ui.graphics.colorspace.RenderIntent.access$getPerceptual$cp",
+      "cpuMillis": 3.366,
+      "percentOfObservedMainCpu": 0.43
+    },
+    {
+      "method": "androidx.compose.ui.node.NodeCoordinator.getDensity",
+      "cpuMillis": 3.36,
+      "percentOfObservedMainCpu": 0.43
+    },
+    {
+      "method": "androidx.compose.ui.test.FrameDeferringContinuationInterceptor.access$getLock$p",
+      "cpuMillis": 3.352,
+      "percentOfObservedMainCpu": 0.43
+    }
+  ],
+  "releaseFrameGateApproved": false,
+  "scope": "Sampled main-thread CPU estimates with instrumentation attached; not ordinary frame latency or a release approval.",
+  "versionCode": 15,
+  "productionChange": "None; original Calendar implementation, version increment only"
+}

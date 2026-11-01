@@ -1,0 +1,21 @@
+{
+  "execution_date": "2026-11-01",
+  "backupDatabaseIntegrity": "ok",
+  "backupDomainCounts": {
+    "plants": 120,
+    "schedules": 120,
+    "journal": 120,
+    "history": 120
+  },
+  "transportedPhotoHashesVerified": 120,
+  "nativeAfterCounts": {
+    "plants": 0,
+    "schedules": 0,
+    "journal": 0,
+    "history": 0
+  },
+  "onlyControlledFixtureRemoved": true,
+  "perfAndTestPackagesRemoved": true,
+  "mainAmazonPackageTouched": false,
+  "scope": "Fresh native DB/photo backup, native and host checks completed before isolated package uninstall. Backup remains private."
+}

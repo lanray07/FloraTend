@@ -35,15 +35,25 @@ import java.time.LocalDate
 @OptIn(ExperimentalLayoutApi::class)
 @Composable fun CareScreen(plants:List<Plant>,schedules:List<CareSchedule>,vm:PlantViewModel,onAdd:()->Unit,onComplete:(CareSchedule)->Unit) {
     var view by remember { mutableIntStateOf(0) };var filter by remember { mutableStateOf("") };var type by remember { mutableStateOf("") };var reschedule by remember { mutableStateOf<CareSchedule?>(null) };var newDate by remember { mutableStateOf("") }
+    // Keep cold entry responsive: commit the heading before the independent filter/list sections.
+    var prepared by remember { mutableIntStateOf(0) }
+    LaunchedEffect(Unit) { repeat(5) { stage -> withFrameNanos { };prepared=stage+1 } }
     Heading(s(R.string.care_calendar),s(R.string.check_first))
     Button(onClick=onAdd,enabled=plants.isNotEmpty()){Text(s(R.string.add_schedule))}
+    if(prepared>=1) {
     Row { listOf(R.string.day,R.string.week,R.string.month).forEachIndexed { i,id -> FilterChip(selected=view==i,onClick={view=i},label={Text(s(id))},modifier=Modifier.padding(end=8.dp)) } }
-    LazyRow { item { FilterChip(selected=filter.isEmpty(),onClick={filter=""},label={Text(s(R.string.all))}) };items(plants,key={it.id}) { p -> FilterChip(selected=filter==p.id,onClick={filter=p.id},label={Text(p.name)}) } }
-    Row(Modifier.horizontalScroll(rememberScrollState())) { FilterChip(selected=type.isEmpty(),onClick={type=""},label={Text(s(R.string.all))});listOf("soil","water","fertilise","prune","repot","clean","pest","custom").forEach { key -> FilterChip(selected=type==key,onClick={type=key},label={Text(careLabel(key))}) } }
+    } else Spacer(Modifier.height(48.dp))
+    if(prepared>=2) LazyRow { item { FilterChip(selected=filter.isEmpty(),onClick={filter=""},label={Text(s(R.string.all))}) };items(plants,key={it.id}) { p -> FilterChip(selected=filter==p.id,onClick={filter=p.id},label={Text(p.name)}) } }
+    else Spacer(Modifier.height(48.dp))
+    if(prepared>=3) Row(Modifier.horizontalScroll(rememberScrollState())) { FilterChip(selected=type.isEmpty(),onClick={type=""},label={Text(s(R.string.all))});listOf("soil","water","fertilise","prune","repot","clean","pest","custom").forEach { key -> FilterChip(selected=type==key,onClick={type=key},label={Text(careLabel(key))}) } }
+    else Spacer(Modifier.height(48.dp))
     val until=LocalDate.now().plusDays(when(view){0->0;1->7;else->30}).toString()
     val visible=schedules.filter { (filter.isEmpty() || it.plantId==filter) && (type.isEmpty() || it.type==type) && it.nextDate<=until }
+    if(prepared<4) Text(s(R.string.loading_records))
+    else {
     if(visible.isEmpty()) Empty(s(R.string.no_tasks),s(R.string.no_tasks_body))
-    LazyColumn(verticalArrangement=Arrangement.spacedBy(12.dp)) { items(visible,key={it.id}) { schedule -> Card(Modifier.fillMaxWidth()) { Column(Modifier.padding(16.dp)) { Text(plants.find { it.id==schedule.plantId }?.name.orEmpty(),style=MaterialTheme.typography.titleLarge);Text(careLabel(schedule.type));Text(formatDate(schedule.nextDate));if(schedule.paused) Text(s(R.string.paused));FlowRow(horizontalArrangement=Arrangement.spacedBy(4.dp)) {TextButton(enabled=!schedule.paused,onClick={onComplete(schedule)}){Text(s(R.string.record_care))};TextButton(onClick={vm.schedule(schedule.copy(nextDate=LocalDate.now().plusDays(1).toString()))}){Text(s(R.string.snooze))};TextButton(onClick={vm.schedule(schedule.copy(paused=!schedule.paused))}){Text(s(if(schedule.paused) R.string.resume else R.string.pause))};TextButton(onClick={newDate=schedule.nextDate;reschedule=schedule}){Text(s(R.string.reschedule))}} } } } }
+    LazyColumn(verticalArrangement=Arrangement.spacedBy(12.dp)) { items(visible,key={it.id}) { schedule -> Card(Modifier.fillMaxWidth()) { Column(Modifier.padding(16.dp)) { Text(plants.find { it.id==schedule.plantId }?.name.orEmpty(),style=MaterialTheme.typography.titleLarge);Text(careLabel(schedule.type));Text(formatDate(schedule.nextDate));if(schedule.paused) Text(s(R.string.paused));if(prepared>=5) FlowRow(horizontalArrangement=Arrangement.spacedBy(4.dp)) {TextButton(enabled=!schedule.paused,onClick={onComplete(schedule)}){Text(s(R.string.record_care))};TextButton(onClick={vm.schedule(schedule.copy(nextDate=LocalDate.now().plusDays(1).toString()))}){Text(s(R.string.snooze))};TextButton(onClick={vm.schedule(schedule.copy(paused=!schedule.paused))}){Text(s(if(schedule.paused) R.string.resume else R.string.pause))};TextButton(onClick={newDate=schedule.nextDate;reschedule=schedule}){Text(s(R.string.reschedule))}} else Text(s(R.string.loading_records),Modifier.heightIn(min=48.dp)) } } } }
+    }
     reschedule?.let { schedule -> AlertDialog(onDismissRequest={reschedule=null},title={Text(s(R.string.reschedule))},text={Field(newDate,R.string.date_iso,{newDate=it})},confirmButton={TextButton(enabled=runCatching { LocalDate.parse(newDate) }.isSuccess,onClick={vm.schedule(schedule.copy(nextDate=newDate));reschedule=null}){Text(s(R.string.save))}},dismissButton={TextButton(onClick={reschedule=null}){Text(s(R.string.cancel))}}) }
 }
 

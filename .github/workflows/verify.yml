@@ -41,7 +41,7 @@ jobs:
       - name: Install Android SDK components
         run: sdkmanager 'platforms;android-36' 'build-tools;35.0.0' 'platform-tools'
       - name: Build, JVM tests and Android lint
-        run: bash gradlew --no-daemon :core:test :app:assembleDebug :app:assembleDebugAndroidTest :app:testDebugUnitTest :app:testReleaseUnitTest :app:lintDebug :app:lintRelease
+        run: bash gradlew --no-daemon :core:test :app:assembleDebug :app:assembleDebugAndroidTest :app:assembleBenchmark :app:testDebugUnitTest :app:testReleaseUnitTest :app:lintDebug :app:lintRelease
       - name: Supporting regression tests
         # The checkout timing detector validates retained actual Fire captures.
         # Pin the same image decoder used for its local regression run.
@@ -70,6 +70,7 @@ jobs:
             core/build/test-results/
             app/build/reports/
             app/build/test-results/
+            app/build/outputs/apk/benchmark/*.apk
             app/build/outputs/apk/debug/*.apk
             app/build/outputs/apk/androidTest/debug/*.apk
             website/dist/build-report.json

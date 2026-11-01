@@ -1,0 +1,9 @@
+{
+  "completedAppLocales": 18,
+  "expectedAppLocales": 22,
+  "fullSuiteResult": "FAIL",
+  "failure": "Timeout awaiting Garden heading or fixture on Indonesian phone configuration; cause unisolated. Later locales not executed.",
+  "all15ListingLocaleCapturesPresent": true,
+  "unlistedOrStaleImagesPreservedPrivately": true,
+  "humanApproval": false
+}

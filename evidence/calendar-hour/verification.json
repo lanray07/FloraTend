@@ -1,0 +1,67 @@
+{
+  "execution_date": "2026-11-01",
+  "jvm": {
+    "core": {
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "debug": {
+      "tests": 34,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "release": {
+      "tests": 34,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "lint": {
+    "debug": {
+      "errors": 0,
+      "warnings": 46
+    },
+    "release": {
+      "errors": 0,
+      "warnings": 46
+    }
+  },
+  "nativeQaCore": {
+    "tests": 8,
+    "result": "PASS"
+  },
+  "tabletCapture": {
+    "scenes": 176,
+    "locales": 22,
+    "result": "PASS"
+  },
+  "phoneCapture": {
+    "completedScenes": 144,
+    "completedLocales": 18,
+    "expectedLocales": 22,
+    "result": "FAIL",
+    "current15ListingLocalesCovered": true
+  },
+  "genuineIdentification": {
+    "result": "PASS",
+    "realRequest": true,
+    "rawResponseOrApiKeyPublished": false,
+    "offlineRestart": "PASS",
+    "offlineFailureManualSaveAndRestart": "PASS",
+    "guardedBackupCleanup": "PASS"
+  },
+  "retainedHarnessFailures": [
+    "Optimized AndroidJUnitRunner missing androidx.tracing.Trace; no native instrumentation pass asserted.",
+    "OS accessibility root dump failed after navigation; visual OS input checks are separate and screen-reader approval is not inferred.",
+    "Saved-choice restart was first invoked online although it requires no network; corrected offline invocation retained separately."
+  ],
+  "scope": "Source15 controlled isolated QA/perf tests. Genuine Amazon delivery and billing of15 remain pending; no whole-release approval.",
+  "supportingPython": {
+    "tests": 70,
+    "result": "PASS"
+  }
+}
