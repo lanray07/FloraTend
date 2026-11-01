@@ -39,6 +39,7 @@ class StoreScreenshotTest {
         app.database.dao().plants().first().filter{it.id.startsWith("qa-store-")}.forEach{app.database.dao().delete(it)}
     }
     @Before fun prepare() {
+        check(BuildConfig.APPLICATION_ID.endsWith(".qa")) { "Disposable QA capture package required" }
         oldTag=AppLocales.selected(context);oldLocale=Locale.getDefault()
         runBlocking {
             oldOnboarded=app.settings.onboarded.first();oldDark=app.settings.dark.first();oldReminders=app.settings.reminders.first()
@@ -77,6 +78,7 @@ class StoreScreenshotTest {
             AppLocales.choose(context,tag)
             runBlocking { app.settings.set("dark",false) }
             rule.activityRule.scenario.onActivity{it.recreate()}
+            waitText(text(R.string.garden));nav(R.string.garden)
             waitText(text(R.string.your_garden));waitText("Monstera deliciosa")
             rule.activityRule.scenario.onActivity{assertEquals(Locale.forLanguageTag(tag).toLanguageTag(),it.resources.configuration.locales[0].toLanguageTag())}
             val scenes=JSONArray()
@@ -100,6 +102,6 @@ class StoreScreenshotTest {
             all.put(JSONObject().put("locale",tag).put("scenes",scenes))
             File(folder,"capture-manifest.json").writeText(JSONObject().put("versionCode",BuildConfig.VERSION_CODE).put("versionName",BuildConfig.VERSION_NAME).put("createdAtEpochMs",System.currentTimeMillis()).put("demonstrationRecords",true).put("humanLanguageApproval",false).put("locales",all).toString(2))
         }
-        assertEquals(19,all.length())
+        assertEquals(22,all.length())
     }
 }

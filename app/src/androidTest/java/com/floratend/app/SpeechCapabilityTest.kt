@@ -32,7 +32,7 @@ class SpeechCapabilityTest {
             if(initFinished && initStatus==TextToSpeech.SUCCESS) {
                 val tts=engine!!
                 report.put("defaultTtsEngine",tts.defaultEngine)
-                val locales=listOf("en-GB","en-US","en-AU","es-ES","es-419","fr-FR","fr-CA","de-DE","it-IT","pt-BR","pt-PT","nl-NL","pl-PL","sv-SE","ja-JP","hi-IN","ar","tr-TR","id-ID")
+                val locales=listOf("en-GB","en-US","en-AU","es-ES","es-419","fr-FR","fr-CA","de-DE","it-IT","pt-BR","pt-PT","nl-NL","pl-PL","sv-SE","ja-JP","hi-IN","ar","tr-TR","id-ID","ko-KR","zh-CN","zh-TW")
                 report.put("ttsLocaleCapabilities",JSONArray().apply { locales.forEach { put(JSONObject().put("locale",it).put("availabilityCode",tts.isLanguageAvailable(Locale.forLanguageTag(it)))) } })
                 val languageStatus=tts.setLanguage(Locale.getDefault())
                 report.put("currentLanguageStatus",languageStatus)

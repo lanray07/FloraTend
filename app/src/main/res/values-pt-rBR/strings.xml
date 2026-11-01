@@ -174,4 +174,8 @@
   <string name="language">Idioma</string>
   <string name="system_language">Idioma do dispositivo</string>
   <string name="voice_output_unavailable">Nenhuma voz instalada é compatível com este idioma. As respostas por escrito continuam disponíveis.</string>
+  <string name="spoken_feedback">Respostas faladas</string>
+  <string name="loading_records">A carregar os seus registos…</string>
+  <string name="load_error">Não foi possível carregar os seus registos. Tente novamente.</string>
+  <string name="retry">Tentar novamente</string>
 </resources>

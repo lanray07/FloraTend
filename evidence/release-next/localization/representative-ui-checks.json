@@ -1,0 +1,61 @@
+{
+  "locales": [
+    {
+      "locale": "es-ES",
+      "selectedTagPersisted": true,
+      "activityRecreated": true,
+      "activityLayoutDirection": 0,
+      "gardenScreenshot": "es-ES-garden.png",
+      "voiceScreenshot": "es-ES-voice.png"
+    },
+    {
+      "locale": "de-DE",
+      "selectedTagPersisted": true,
+      "activityRecreated": true,
+      "activityLayoutDirection": 0,
+      "gardenScreenshot": "de-DE-garden.png",
+      "voiceScreenshot": "de-DE-voice.png"
+    },
+    {
+      "locale": "ja-JP",
+      "selectedTagPersisted": true,
+      "activityRecreated": true,
+      "activityLayoutDirection": 0,
+      "gardenScreenshot": "ja-JP-garden.png",
+      "voiceScreenshot": "ja-JP-voice.png"
+    },
+    {
+      "locale": "ar",
+      "selectedTagPersisted": true,
+      "activityRecreated": true,
+      "activityLayoutDirection": 1,
+      "gardenScreenshot": "ar-garden.png",
+      "voiceScreenshot": "ar-voice.png"
+    },
+    {
+      "locale": "ko-KR",
+      "selectedTagPersisted": true,
+      "activityRecreated": true,
+      "activityLayoutDirection": 0,
+      "gardenScreenshot": "ko-KR-garden.png",
+      "voiceScreenshot": "ko-KR-voice.png"
+    },
+    {
+      "locale": "zh-CN",
+      "selectedTagPersisted": true,
+      "activityRecreated": true,
+      "activityLayoutDirection": 0,
+      "gardenScreenshot": "zh-CN-garden.png",
+      "voiceScreenshot": "zh-CN-voice.png"
+    },
+    {
+      "locale": "zh-TW",
+      "selectedTagPersisted": true,
+      "activityRecreated": true,
+      "activityLayoutDirection": 0,
+      "gardenScreenshot": "zh-TW-garden.png",
+      "voiceScreenshot": "zh-TW-voice.png"
+    }
+  ],
+  "humanTypographyOrTranslationApproval": false
+}

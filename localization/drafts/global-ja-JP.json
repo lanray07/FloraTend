@@ -149,7 +149,10 @@
   "welcome": "FloraTendへようこそ",
   "wet": "土を確認：水分が多い",
   "your_garden": "少しのお手入れで、緑のある暮らしを。",
-  "reminder_count": {"one": "確認する植物のお手入れが%1$d件あります。", "other": "確認する植物のお手入れが%1$d件あります。"},
+  "reminder_count": {
+    "one": "確認する植物のお手入れが%1$d件あります。",
+    "other": "確認する植物のお手入れが%1$d件あります。"
+  },
   "billing_unconfigured": "Amazonストアの設定が完了するまで購入は利用できません。",
   "billing_environment": "この環境ではAmazonでの購入は利用できません。",
   "billing_history_loading": "Amazonの購入履歴を読み込み中です。しばらくしてからお試しください。",
@@ -163,5 +166,15 @@
   "billing_restore_failed": "Amazonでの購入の復元を確認できませんでした。接続後にもう一度お試しください。",
   "billing_history_checked": "Amazonの購入履歴を確認しました。",
   "billing_unavailable": "Amazonでの購入は利用できません。ストアへの接続を確認し、もう一度お試しください。",
-  "collection_count": {"one": "コレクション · 植物%1$d件", "other": "コレクション · 植物%1$d件"}
+  "collection_count": {
+    "one": "コレクション · 植物%1$d件",
+    "other": "コレクション · 植物%1$d件"
+  },
+  "language": "言語",
+  "system_language": "端末の言語",
+  "voice_output_unavailable": "この言語に対応した音声がインストールされていません。文字による応答は引き続き利用できます。",
+  "spoken_feedback": "音声での応答",
+  "loading_records": "記録を読み込み中…",
+  "load_error": "記録を読み込めませんでした。もう一度お試しください。",
+  "retry": "再試行"
 }

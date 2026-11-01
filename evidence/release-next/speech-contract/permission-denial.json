@@ -1,0 +1,8 @@
+{
+  "permissionRequestedAfterTap": true,
+  "denialHandled": true,
+  "typedCommandStillWorks": true,
+  "syntheticProviderOutput": true,
+  "realAudioRecognitionTested": false,
+  "microphoneAudioCaptured": false
+}

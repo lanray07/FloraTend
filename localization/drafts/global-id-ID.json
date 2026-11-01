@@ -149,7 +149,10 @@
   "welcome": "Selamat datang di FloraTend",
   "wet": "Tanah diperiksa: basah",
   "your_garden": "Sedikit perawatan. Rumah yang lebih hijau.",
-  "reminder_count": {"one": "Ada %1$d pemeriksaan perawatan tanaman untuk ditinjau.", "other": "Ada %1$d pemeriksaan perawatan tanaman untuk ditinjau."},
+  "reminder_count": {
+    "one": "Ada %1$d pemeriksaan perawatan tanaman untuk ditinjau.",
+    "other": "Ada %1$d pemeriksaan perawatan tanaman untuk ditinjau."
+  },
   "billing_unconfigured": "Pembelian tidak tersedia sampai konfigurasi toko Amazon selesai.",
   "billing_environment": "Pembelian Amazon tidak tersedia di lingkungan ini.",
   "billing_history_loading": "Riwayat pembelian Amazon masih dimuat. Coba lagi sebentar.",
@@ -163,5 +166,15 @@
   "billing_restore_failed": "Pemulihan pembelian Amazon tidak dapat diverifikasi. Coba lagi saat terhubung.",
   "billing_history_checked": "Riwayat pembelian Amazon telah diperiksa.",
   "billing_unavailable": "Pembelian Amazon tidak tersedia. Periksa koneksi toko Anda dan coba lagi.",
-  "collection_count": {"one": "Koleksi Anda · %1$d tanaman", "other": "Koleksi Anda · %1$d tanaman"}
+  "collection_count": {
+    "one": "Koleksi Anda · %1$d tanaman",
+    "other": "Koleksi Anda · %1$d tanaman"
+  },
+  "language": "Bahasa",
+  "system_language": "Bahasa perangkat",
+  "voice_output_unavailable": "Tidak ada suara terpasang yang mendukung bahasa ini. Tanggapan tertulis tetap tersedia.",
+  "spoken_feedback": "Tanggapan suara",
+  "loading_records": "Memuat catatanmu…",
+  "load_error": "Catatanmu tidak dapat dimuat. Coba lagi.",
+  "retry": "Coba lagi"
 }

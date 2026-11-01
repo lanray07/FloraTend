@@ -1,0 +1,37 @@
+[
+  {
+    "label": "Add plant",
+    "widthDp": 177,
+    "heightDp": 51
+  },
+  {
+    "label": "Garden",
+    "widthDp": 80,
+    "heightDp": 69
+  },
+  {
+    "label": "Calendar",
+    "widthDp": 92,
+    "heightDp": 69
+  },
+  {
+    "label": "Journal",
+    "widthDp": 80,
+    "heightDp": 69
+  },
+  {
+    "label": "Voice",
+    "widthDp": 80,
+    "heightDp": 69
+  },
+  {
+    "label": "Insights",
+    "widthDp": 85,
+    "heightDp": 69
+  },
+  {
+    "label": "Settings",
+    "widthDp": 87,
+    "heightDp": 69
+  }
+]

@@ -1,0 +1,8 @@
+
+com.floratend.app.OfflineProcessTest:.
+
+Time: 6.749
+
+OK (1 test)
+
+

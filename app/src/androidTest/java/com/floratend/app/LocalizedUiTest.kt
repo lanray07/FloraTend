@@ -23,7 +23,7 @@ class LocalizedUiTest {
     private val context: Context
         get() = InstrumentationRegistry.getInstrumentation().targetContext.applicationContext
     private val app: FloraApp get() = context as FloraApp
-    private val representatives = listOf("es-ES", "de-DE", "ja-JP", "ar")
+    private val representatives = listOf("es-ES", "de-DE", "ja-JP", "ar", "ko-KR", "zh-CN", "zh-TW")
     private val fixtureId = "qa-localization-plant"
     private val fixtureName = "FloraTend QA Monstera"
     private var originalTag = ""
@@ -102,6 +102,7 @@ class LocalizedUiTest {
             }.getOrDefault(false)
         }
         dictionary(tag)
+        nav(R.string.garden)
         waitText(text(R.string.your_garden))
         rule.waitForIdle()
     }
@@ -128,8 +129,8 @@ class LocalizedUiTest {
         File(folder,name).writeText(value.toString(2))
     }
 
-    @Test fun allNineteenResourceBundlesAndCommandDictionariesLoad() {
-        assertEquals(19, AppLocales.supported.size)
+    @Test fun allSupportedResourceBundlesAndCommandDictionariesLoad() {
+        assertEquals(22, AppLocales.supported.size)
         AppLocales.choose(context,"en-GB")
         val sourceHeading = localizedContext().getString(R.string.your_garden)
         val stringIds = R.string::class.java.fields.filter { it.type == Int::class.javaPrimitiveType }

@@ -1,0 +1,8 @@
+
+com.floratend.app.RecordLoadingTest:..
+
+Time: 11.015
+
+OK (2 tests)
+
+

@@ -1,0 +1,8 @@
+{
+  "listeningIndicatorDisplayed": true,
+  "transcriptDisplayed": true,
+  "commandRequiredExplicitRun": true,
+  "syntheticProviderOutput": true,
+  "realAudioRecognitionTested": false,
+  "microphoneAudioCaptured": false
+}

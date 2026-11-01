@@ -112,5 +112,23 @@
     "errors": [],
     "review_status": "assistant_draft_pending_human_review",
     "status": "NOT TESTED"
+  },
+  {
+    "locale": "ko-KR",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "zh-CN",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
+  },
+  {
+    "locale": "zh-TW",
+    "errors": [],
+    "review_status": "assistant_draft_pending_human_review",
+    "status": "NOT TESTED"
   }
 ]

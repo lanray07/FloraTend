@@ -1,0 +1,62 @@
+{
+  "voiceViewServiceEnabled": true,
+  "dontSuppressAccessibilityServices": true,
+  "nativeNodeActions": [
+    {
+      "label": "Add plant",
+      "class": "android.view.View",
+      "focus": true,
+      "click": true
+    },
+    {
+      "label": "Save",
+      "class": "android.view.View",
+      "focus": true,
+      "click": true
+    },
+    {
+      "label": "Calendar",
+      "class": "android.view.View",
+      "focus": true,
+      "click": true
+    },
+    {
+      "label": "Journal",
+      "class": "android.view.View",
+      "focus": true,
+      "click": true
+    },
+    {
+      "label": "Voice",
+      "class": "android.view.View",
+      "focus": true,
+      "click": true
+    },
+    {
+      "label": "Insights",
+      "class": "android.view.View",
+      "focus": true,
+      "click": true
+    },
+    {
+      "label": "Settings",
+      "class": "android.view.View",
+      "focus": true,
+      "click": true
+    },
+    {
+      "label": "Language: English (United Kingdom)",
+      "class": "android.view.View",
+      "focus": true,
+      "click": true
+    },
+    {
+      "label": "Close",
+      "class": "android.view.View",
+      "focus": true,
+      "click": true
+    }
+  ],
+  "editableTextSetAndPersisted": true,
+  "scope": "Physical Fire HD10 API28; real VoiceView active, native accessibility focus\/click\/set-text; no audio recording or claim of multilingual pronunciation\/manual touch-gesture review."
+}

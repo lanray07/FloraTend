@@ -1,0 +1,14 @@
+{
+  "journal": [
+    "SCAN TABLE journal",
+    "USE TEMP B-TREE FOR ORDER BY"
+  ],
+  "history": [
+    "SCAN TABLE history",
+    "USE TEMP B-TREE FOR ORDER BY"
+  ],
+  "schedules": [
+    "SCAN TABLE schedules",
+    "USE TEMP B-TREE FOR ORDER BY"
+  ]
+}

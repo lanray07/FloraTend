@@ -1,0 +1,23 @@
+
+com.floratend.app.OrderedQueryIndexTest:
+Error in chronologicalQueriesAvoidTemporarySorts(com.floratend.app.OrderedQueryIndexTest):
+java.lang.AssertionError: journal: ["SCAN TABLE journal","USE TEMP B-TREE FOR ORDER BY"]
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at com.floratend.app.OrderedQueryIndexTest.chronologicalQueriesAvoidTemporarySorts(OrderedQueryIndexTest.kt:26)
+
+
+Time: 0.075
+There was 1 failure:
+1) chronologicalQueriesAvoidTemporarySorts(com.floratend.app.OrderedQueryIndexTest)
+java.lang.AssertionError: journal: ["SCAN TABLE journal","USE TEMP B-TREE FOR ORDER BY"]
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at com.floratend.app.OrderedQueryIndexTest.chronologicalQueriesAvoidTemporarySorts(OrderedQueryIndexTest.kt:26)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+

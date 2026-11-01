@@ -1,0 +1,15 @@
+{
+  "fixturePhotoCount": 120,
+  "variant": "photos",
+  "debuggable": false,
+  "cardUsesPrivateThumbnail": true,
+  "sourceDimensions": "3200x2400",
+  "privateCopyMaxEdge": 1600,
+  "allPrivateFilesPresent": true,
+  "pssBeforeKiB": 83288,
+  "pssAfterKiB": 97417,
+  "scrollTestSeconds": 8.284477155,
+  "observedFrameCount": 299,
+  "frameP95Millis": 125.064627,
+  "scope": "Physical HD10 API28 QA fixture collection; instrumentation and image setup excluded from startup claims."
+}

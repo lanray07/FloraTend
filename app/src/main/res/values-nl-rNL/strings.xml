@@ -174,4 +174,8 @@
   <string name="language">Taal</string>
   <string name="system_language">Apparaattaal</string>
   <string name="voice_output_unavailable">Geen geïnstalleerde stem ondersteunt deze taal. Geschreven feedback blijft beschikbaar.</string>
+  <string name="spoken_feedback">Gesproken feedback</string>
+  <string name="loading_records">Je gegevens laden…</string>
+  <string name="load_error">Je gegevens konden niet worden geladen. Probeer het opnieuw.</string>
+  <string name="retry">Opnieuw proberen</string>
 </resources>

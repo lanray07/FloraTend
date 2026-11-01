@@ -1,0 +1,7 @@
+<resources>
+    <color name="floratend_launch_background">#FAF8F2</color>
+    <style name="Theme.FloraTend.Base" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/floratend_launch</item>
+    </style>
+    <style name="Theme.FloraTend" parent="Theme.FloraTend.Base" />
+</resources>

@@ -174,4 +174,8 @@
   <string name="language">Langue</string>
   <string name="system_language">Langue de l’appareil</string>
   <string name="voice_output_unavailable">Aucune voix installée ne prend en charge cette langue. Les réponses écrites restent disponibles.</string>
+  <string name="spoken_feedback">Réponses vocales</string>
+  <string name="loading_records">Chargement de vos données…</string>
+  <string name="load_error">Vos données n’ont pas pu être chargées. Réessayez.</string>
+  <string name="retry">Réessayer</string>
 </resources>

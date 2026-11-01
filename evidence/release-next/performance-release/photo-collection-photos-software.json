@@ -1,0 +1,4059 @@
+{
+  "fixturePhotoCount": 120,
+  "variant": "photos",
+  "debuggable": false,
+  "loaderMode": "software",
+  "decodes": [
+    {
+      "millis": 25.205,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 16.833308,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 14.961231,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 17.563154,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 17.529615,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 17.237846,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 14.754231,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 15.136077,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 11.794231,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 7.414384,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.012461,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 8.832769,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 15.021077,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 14.450923,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 14.470384,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 17.233846,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 17.641769,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 17.132,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.678923,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.545616,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.641692,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.517231,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 7.739616,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.527307,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.566,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.455693,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.847461,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.671693,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 7.316616,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 7.553385,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.723693,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 5.451538,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.859615,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 7.757,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.603308,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 5.338692,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.475924,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.245615,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.206693,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.178384,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.35023,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.181384,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.226231,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.305462,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.338846,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.162,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.821308,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.192,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.480846,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 5.959461,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 5.297692,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 7.574923,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 6.366539,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.274154,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 5.206462,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 10.842769,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 12.510308,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.547231,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.491,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.202231,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.107,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.645154,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.55,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 6.157692,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 6.124769,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 5.370384,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.451231,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.371384,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.720385,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 5.115462,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.826,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 5.622615,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.597769,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.473461,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 5.216384,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 6.687,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 8.178154,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 6.287692,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.530385,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.594692,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.372307,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.40423,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.440538,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.506385,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.556384,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.46523,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.920539,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.976616,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.444,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.712385,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 5.008077,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.547231,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.446923,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 7.588462,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.442692,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.612693,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.516846,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.509231,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.623769,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 7.275692,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 5.089923,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.429461,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.466846,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 5.528615,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 5.498615,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.226,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.099231,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.124077,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 6.779154,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.08223,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.197769,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 8.672,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 7.48977,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.112846,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.794231,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 7.484231,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 7.735077,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 4.548692,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 7.522,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    },
+    {
+      "millis": 7.985539,
+      "width": 132,
+      "height": 99,
+      "onMain": false,
+      "bitmapConfig": "ARGB_8888"
+    }
+  ],
+  "frameDetails": [
+    {
+      "unknown": 317.238313,
+      "input": 0.021231,
+      "animation": 0.015153,
+      "layout": 0.088539,
+      "draw": 23.307461,
+      "sync": 1.121231,
+      "commands": 6.576616,
+      "swap": 2.424076
+    },
+    {
+      "unknown": 194.61793,
+      "input": 0.021923,
+      "animation": 0.014692,
+      "layout": 0.082,
+      "draw": 10.373616,
+      "sync": 0.279846,
+      "commands": 3.466538,
+      "swap": 1.343616
+    },
+    {
+      "unknown": 0.497823,
+      "input": 0.031308,
+      "animation": 0.042154,
+      "layout": 0.110308,
+      "draw": 2.41323,
+      "sync": 0.569615,
+      "commands": 8.309385,
+      "swap": 1.488153
+    },
+    {
+      "unknown": 3.47191,
+      "input": 0.021308,
+      "animation": 0.015385,
+      "layout": 0.096769,
+      "draw": 3.672692,
+      "sync": 0.462154,
+      "commands": 3.545538,
+      "swap": 1.467692
+    },
+    {
+      "unknown": 226.409213,
+      "input": 0.020231,
+      "animation": 0.01723,
+      "layout": 0.087385,
+      "draw": 24.454769,
+      "sync": 0.780308,
+      "commands": 3.875077,
+      "swap": 1.43323
+    },
+    {
+      "unknown": 148.139188,
+      "input": 0.020923,
+      "animation": 0.017462,
+      "layout": 0.085692,
+      "draw": 9.030692,
+      "sync": 0.384154,
+      "commands": 4.547846,
+      "swap": 1.66323
+    },
+    {
+      "unknown": 0.389844,
+      "input": 0.02377,
+      "animation": 0.025384,
+      "layout": 0.076154,
+      "draw": 1.512462,
+      "sync": 0.201154,
+      "commands": 2.782,
+      "swap": 3.38923
+    },
+    {
+      "unknown": 1.029385,
+      "input": 0.021,
+      "animation": 0.016693,
+      "layout": 0.091307,
+      "draw": 0.460308,
+      "sync": 0.191616,
+      "commands": 2.665615,
+      "swap": 1.307923
+    },
+    {
+      "unknown": 0.911418,
+      "input": 0.028846,
+      "animation": 0.145539,
+      "layout": 0.096846,
+      "draw": 0.422308,
+      "sync": 0.498692,
+      "commands": 3.594462,
+      "swap": 3.168692
+    },
+    {
+      "unknown": 156.642961,
+      "input": 0.019846,
+      "animation": 0.013077,
+      "layout": 0.082384,
+      "draw": 18.157462,
+      "sync": 0.315923,
+      "commands": 2.610462,
+      "swap": 1.041769
+    },
+    {
+      "unknown": 138.549964,
+      "input": 0.022846,
+      "animation": 0.016154,
+      "layout": 0.088076,
+      "draw": 13.401154,
+      "sync": 0.338616,
+      "commands": 2.454846,
+      "swap": 1.217615
+    },
+    {
+      "unknown": 0.345061,
+      "input": 0.020616,
+      "animation": 0.023153,
+      "layout": 0.069693,
+      "draw": 1.657231,
+      "sync": 0.514077,
+      "commands": 2.537077,
+      "swap": 1.146384
+    },
+    {
+      "unknown": 3.703212,
+      "input": 0.020769,
+      "animation": 0.013769,
+      "layout": 0.086924,
+      "draw": 0.416846,
+      "sync": 0.236,
+      "commands": 2.725231,
+      "swap": 2.138231
+    },
+    {
+      "unknown": 0.382146,
+      "input": 0.021692,
+      "animation": 0.024462,
+      "layout": 0.070923,
+      "draw": 0.386692,
+      "sync": 0.247692,
+      "commands": 3.688462,
+      "swap": 3.091538
+    },
+    {
+      "unknown": 0.588099,
+      "input": 0.024,
+      "animation": 0.028769,
+      "layout": 0.091,
+      "draw": 0.440385,
+      "sync": 0.570153,
+      "commands": 3.563693,
+      "swap": 1.913769
+    },
+    {
+      "unknown": 0.578626,
+      "input": 0.029307,
+      "animation": 0.028462,
+      "layout": 0.075,
+      "draw": 0.443384,
+      "sync": 0.546616,
+      "commands": 3.798461,
+      "swap": 1.397077
+    },
+    {
+      "unknown": 0.496686,
+      "input": 0.023384,
+      "animation": 0.026308,
+      "layout": 0.099154,
+      "draw": 0.419,
+      "sync": 0.225923,
+      "commands": 2.593692,
+      "swap": 1.475615
+    },
+    {
+      "unknown": 0.512363,
+      "input": 0.022231,
+      "animation": 0.001076,
+      "layout": 0.092231,
+      "draw": 0.433923,
+      "sync": 0.516923,
+      "commands": 3.672077,
+      "swap": 1.367384
+    },
+    {
+      "unknown": 84.564447,
+      "input": 0.019616,
+      "animation": 9.23E-4,
+      "layout": 0.088461,
+      "draw": 13.338539,
+      "sync": 0.400077,
+      "commands": 3.992307,
+      "swap": 1.860077
+    },
+    {
+      "unknown": 145.282999,
+      "input": 0.018923,
+      "animation": 0.013,
+      "layout": 0.078538,
+      "draw": 12.370308,
+      "sync": 0.355923,
+      "commands": 2.805,
+      "swap": 1.003923
+    },
+    {
+      "unknown": 0.288789,
+      "input": 0.018769,
+      "animation": 0.013461,
+      "layout": 0.067923,
+      "draw": 1.640462,
+      "sync": 0.284846,
+      "commands": 2.606461,
+      "swap": 2.24877
+    },
+    {
+      "unknown": 0.352664,
+      "input": 0.022231,
+      "animation": 0.021308,
+      "layout": 0.089846,
+      "draw": 0.459538,
+      "sync": 0.213385,
+      "commands": 2.333385,
+      "swap": 1.26723
+    },
+    {
+      "unknown": 0.339673,
+      "input": 0.024308,
+      "animation": 0.018923,
+      "layout": 0.094231,
+      "draw": 0.511154,
+      "sync": 0.236615,
+      "commands": 2.280462,
+      "swap": 1.319846
+    },
+    {
+      "unknown": 0.471281,
+      "input": 0.023,
+      "animation": 0.028846,
+      "layout": 0.093231,
+      "draw": 3.567,
+      "sync": 0.563461,
+      "commands": 3.569846,
+      "swap": 1.168308
+    },
+    {
+      "unknown": 90.545664,
+      "input": 0.020846,
+      "animation": 9.23E-4,
+      "layout": 0.094,
+      "draw": 11.368923,
+      "sync": 0.395,
+      "commands": 2.963308,
+      "swap": 1.387154
+    },
+    {
+      "unknown": 123.44644,
+      "input": 0.020307,
+      "animation": 0.018693,
+      "layout": 0.090846,
+      "draw": 12.033077,
+      "sync": 0.640846,
+      "commands": 2.535923,
+      "swap": 1.095231
+    },
+    {
+      "unknown": 0.324821,
+      "input": 0.021846,
+      "animation": 0.020616,
+      "layout": 0.072615,
+      "draw": 1.435769,
+      "sync": 0.241769,
+      "commands": 3.685539,
+      "swap": 1.414846
+    },
+    {
+      "unknown": 0.399618,
+      "input": 0.022539,
+      "animation": 0.022461,
+      "layout": 0.106385,
+      "draw": 0.370769,
+      "sync": 0.226693,
+      "commands": 2.307307,
+      "swap": 1.194846
+    },
+    {
+      "unknown": 0.370714,
+      "input": 0.021693,
+      "animation": 0.018384,
+      "layout": 0.087462,
+      "draw": 0.362231,
+      "sync": 0.226692,
+      "commands": 2.600077,
+      "swap": 1.168154
+    },
+    {
+      "unknown": 0.387592,
+      "input": 0.021769,
+      "animation": 0.001077,
+      "layout": 0.098538,
+      "draw": 0.379077,
+      "sync": 0.236846,
+      "commands": 2.348,
+      "swap": 1.129923
+    },
+    {
+      "unknown": 90.168541,
+      "input": 0.020308,
+      "animation": 9.23E-4,
+      "layout": 0.089692,
+      "draw": 10.861616,
+      "sync": 0.350693,
+      "commands": 2.926538,
+      "swap": 1.082692
+    },
+    {
+      "unknown": 110.205821,
+      "input": 0.022384,
+      "animation": 0.023231,
+      "layout": 0.112231,
+      "draw": 10.274308,
+      "sync": 0.320231,
+      "commands": 2.756846,
+      "swap": 1.074384
+    },
+    {
+      "unknown": 0.327372,
+      "input": 0.020385,
+      "animation": 0.024,
+      "layout": 0.088538,
+      "draw": 0.702923,
+      "sync": 0.267384,
+      "commands": 3.505,
+      "swap": 1.238693
+    },
+    {
+      "unknown": 0.928954,
+      "input": 0.021692,
+      "animation": 0.021231,
+      "layout": 0.106385,
+      "draw": 0.369307,
+      "sync": 0.220616,
+      "commands": 2.302615,
+      "swap": 1.174385
+    },
+    {
+      "unknown": 0.654157,
+      "input": 0.028154,
+      "animation": 0.021,
+      "layout": 0.102307,
+      "draw": 0.365616,
+      "sync": 0.524846,
+      "commands": 2.500077,
+      "swap": 1.173923
+    },
+    {
+      "unknown": 0.299062,
+      "input": 0.022154,
+      "animation": 0.001231,
+      "layout": 0.108461,
+      "draw": 0.396154,
+      "sync": 0.394077,
+      "commands": 2.566846,
+      "swap": 1.186384
+    },
+    {
+      "unknown": 81.763077,
+      "input": 0.020462,
+      "animation": 9.23E-4,
+      "layout": 0.096461,
+      "draw": 8.388385,
+      "sync": 0.447154,
+      "commands": 2.437231,
+      "swap": 1.111154
+    },
+    {
+      "unknown": 97.191448,
+      "input": 0.020923,
+      "animation": 0.020154,
+      "layout": 0.153307,
+      "draw": 9.892539,
+      "sync": 0.342308,
+      "commands": 2.453539,
+      "swap": 0.969692
+    },
+    {
+      "unknown": 0.393858,
+      "input": 0.025462,
+      "animation": 0.042461,
+      "layout": 0.093693,
+      "draw": 1.844077,
+      "sync": 0.523539,
+      "commands": 2.499692,
+      "swap": 1.219539
+    },
+    {
+      "unknown": 0.573533,
+      "input": 0.020923,
+      "animation": 0.170615,
+      "layout": 0.09777,
+      "draw": 0.280384,
+      "sync": 0.519615,
+      "commands": 2.562846,
+      "swap": 1.417077
+    },
+    {
+      "unknown": 1.024915,
+      "input": 0.021,
+      "animation": 0.019615,
+      "layout": 0.090385,
+      "draw": 0.301846,
+      "sync": 0.234693,
+      "commands": 2.594461,
+      "swap": 1.189
+    },
+    {
+      "unknown": 0.339511,
+      "input": 0.020923,
+      "animation": 0.001,
+      "layout": 0.096616,
+      "draw": 0.297846,
+      "sync": 0.238153,
+      "commands": 2.374616,
+      "swap": 1.106769
+    },
+    {
+      "unknown": 95.81569,
+      "input": 0.021616,
+      "animation": 9.23E-4,
+      "layout": 0.125154,
+      "draw": 11.766769,
+      "sync": 0.458923,
+      "commands": 4.961462,
+      "swap": 1.083692
+    },
+    {
+      "unknown": 56.776299,
+      "input": 0.019385,
+      "animation": 0.016538,
+      "layout": 0.078,
+      "draw": 3.505308,
+      "sync": 0.602462,
+      "commands": 2.246692,
+      "swap": 0.812154
+    },
+    {
+      "unknown": 0.228655,
+      "input": 0.020923,
+      "animation": 0.025616,
+      "layout": 0.074077,
+      "draw": 0.564,
+      "sync": 0.443385,
+      "commands": 3.408,
+      "swap": 4.463
+    },
+    {
+      "unknown": 0.305842,
+      "input": 0.019539,
+      "animation": 0.015846,
+      "layout": 0.086461,
+      "draw": 0.246,
+      "sync": 0.577385,
+      "commands": 4.574539,
+      "swap": 1.185615
+    },
+    {
+      "unknown": 0.366086,
+      "input": 0.019462,
+      "animation": 0.019538,
+      "layout": 0.081231,
+      "draw": 0.294,
+      "sync": 0.680693,
+      "commands": 2.504153,
+      "swap": 8.858308
+    },
+    {
+      "unknown": 0.301313,
+      "input": 0.019615,
+      "animation": 0.001,
+      "layout": 0.098231,
+      "draw": 0.337077,
+      "sync": 0.569615,
+      "commands": 3.001462,
+      "swap": 8.177153
+    },
+    {
+      "unknown": 77.04718,
+      "input": 0.02,
+      "animation": 9.23E-4,
+      "layout": 0.086615,
+      "draw": 11.020385,
+      "sync": 0.731462,
+      "commands": 2.238846,
+      "swap": 1.181
+    },
+    {
+      "unknown": 75.928739,
+      "input": 0.020923,
+      "animation": 0.020923,
+      "layout": 0.099385,
+      "draw": 4.806615,
+      "sync": 0.72,
+      "commands": 3.863308,
+      "swap": 1.201769
+    },
+    {
+      "unknown": 0.493569,
+      "input": 0.022693,
+      "animation": 0.001076,
+      "layout": 0.086693,
+      "draw": 0.500307,
+      "sync": 0.466154,
+      "commands": 3.460846,
+      "swap": 7.972231
+    },
+    {
+      "unknown": 0.345299,
+      "input": 0.019461,
+      "animation": 0.001,
+      "layout": 0.090231,
+      "draw": 0.492231,
+      "sync": 0.586769,
+      "commands": 14.129539,
+      "swap": 1.502385
+    },
+    {
+      "unknown": 0.38791,
+      "input": 0.023769,
+      "animation": 0.001,
+      "layout": 0.081539,
+      "draw": 0.437077,
+      "sync": 0.699846,
+      "commands": 3.094539,
+      "swap": 7.409154
+    },
+    {
+      "unknown": 0.409685,
+      "input": 0.022,
+      "animation": 0.001231,
+      "layout": 0.094,
+      "draw": 0.631077,
+      "sync": 0.445462,
+      "commands": 3.258769,
+      "swap": 2.067846
+    },
+    {
+      "unknown": 0.593534,
+      "input": 0.029385,
+      "animation": 0.002461,
+      "layout": 0.116616,
+      "draw": 0.651692,
+      "sync": 0.443,
+      "commands": 3.456076,
+      "swap": 7.37677
+    },
+    {
+      "unknown": 0.53911,
+      "input": 0.027846,
+      "animation": 0.001693,
+      "layout": 0.124769,
+      "draw": 0.742385,
+      "sync": 0.628385,
+      "commands": 2.567384,
+      "swap": 7.705616
+    },
+    {
+      "unknown": 0.502732,
+      "input": 0.042308,
+      "animation": 0.001538,
+      "layout": 0.103462,
+      "draw": 0.642538,
+      "sync": 0.505,
+      "commands": 3.343231,
+      "swap": 7.323769
+    },
+    {
+      "unknown": 0.446742,
+      "input": 0.027384,
+      "animation": 0.001693,
+      "layout": 0.125461,
+      "draw": 1.110308,
+      "sync": 0.839154,
+      "commands": 4.155692,
+      "swap": 5.502308
+    },
+    {
+      "unknown": 1.56881,
+      "input": 0.025077,
+      "animation": 0.001385,
+      "layout": 0.106769,
+      "draw": 0.672692,
+      "sync": 0.460307,
+      "commands": 3.414231,
+      "swap": 6.526923
+    },
+    {
+      "unknown": 0.446967,
+      "input": 0.032153,
+      "animation": 0.001847,
+      "layout": 0.157615,
+      "draw": 1.003615,
+      "sync": 0.702846,
+      "commands": 5.063769,
+      "swap": 5.344769
+    },
+    {
+      "unknown": 0.886194,
+      "input": 0.033308,
+      "animation": 0.002,
+      "layout": 0.129384,
+      "draw": 0.862693,
+      "sync": 0.587462,
+      "commands": 3.853231,
+      "swap": 5.530692
+    },
+    {
+      "unknown": 0.57551,
+      "input": 0.033846,
+      "animation": 0.002692,
+      "layout": 0.148154,
+      "draw": 0.937923,
+      "sync": 0.627,
+      "commands": 4.408616,
+      "swap": 6.022846
+    },
+    {
+      "unknown": 0.58346,
+      "input": 0.034307,
+      "animation": 0.002846,
+      "layout": 0.148308,
+      "draw": 0.947846,
+      "sync": 0.672231,
+      "commands": 4.814692,
+      "swap": 8.610154
+    },
+    {
+      "unknown": 0.637848,
+      "input": 0.043462,
+      "animation": 0.002,
+      "layout": 0.137846,
+      "draw": 0.981923,
+      "sync": 0.626538,
+      "commands": 4.505923,
+      "swap": 5.727385
+    },
+    {
+      "unknown": 0.711254,
+      "input": 0.031153,
+      "animation": 0.002616,
+      "layout": 0.136,
+      "draw": 1.168077,
+      "sync": 0.586539,
+      "commands": 4.373461,
+      "swap": 5.406923
+    },
+    {
+      "unknown": 0.820947,
+      "input": 0.030231,
+      "animation": 0.001846,
+      "layout": 0.133231,
+      "draw": 0.797384,
+      "sync": 0.576923,
+      "commands": 4.181846,
+      "swap": 5.884231
+    },
+    {
+      "unknown": 0.57306,
+      "input": 0.033,
+      "animation": 0.002154,
+      "layout": 0.135923,
+      "draw": 0.840769,
+      "sync": 0.607538,
+      "commands": 4.530385,
+      "swap": 6.061846
+    },
+    {
+      "unknown": 0.626975,
+      "input": 0.034,
+      "animation": 0.001769,
+      "layout": 0.135539,
+      "draw": 0.851231,
+      "sync": 0.624923,
+      "commands": 5.725538,
+      "swap": 4.782615
+    },
+    {
+      "unknown": 0.802937,
+      "input": 0.041154,
+      "animation": 0.002231,
+      "layout": 0.201154,
+      "draw": 1.035846,
+      "sync": 0.696615,
+      "commands": 5.49277,
+      "swap": 4.291923
+    },
+    {
+      "unknown": 0.850773,
+      "input": 0.033769,
+      "animation": 0.002615,
+      "layout": 0.180385,
+      "draw": 1.013308,
+      "sync": 0.659615,
+      "commands": 5.116385,
+      "swap": 4.537461
+    },
+    {
+      "unknown": 0.855042,
+      "input": 0.034616,
+      "animation": 0.002769,
+      "layout": 0.157154,
+      "draw": 1.021846,
+      "sync": 0.649616,
+      "commands": 5.564692,
+      "swap": 4.141231
+    },
+    {
+      "unknown": 0.584581,
+      "input": 0.096231,
+      "animation": 0.002461,
+      "layout": 0.196,
+      "draw": 0.912231,
+      "sync": 0.647539,
+      "commands": 5.635461,
+      "swap": 4.873846
+    },
+    {
+      "unknown": 0.757304,
+      "input": 0.033846,
+      "animation": 0.002692,
+      "layout": 0.160077,
+      "draw": 0.908692,
+      "sync": 0.667923,
+      "commands": 6.190461,
+      "swap": 3.897462
+    },
+    {
+      "unknown": 0.612186,
+      "input": 0.034461,
+      "animation": 0.002308,
+      "layout": 0.144923,
+      "draw": 0.873923,
+      "sync": 0.634,
+      "commands": 5.280769,
+      "swap": 4.825923
+    },
+    {
+      "unknown": 0.845007,
+      "input": 0.035231,
+      "animation": 0.002692,
+      "layout": 0.167769,
+      "draw": 0.932846,
+      "sync": 0.726693,
+      "commands": 5.734923,
+      "swap": 4.077923
+    },
+    {
+      "unknown": 0.707375,
+      "input": 0.030308,
+      "animation": 0.002308,
+      "layout": 0.140692,
+      "draw": 0.944692,
+      "sync": 0.670077,
+      "commands": 5.65577,
+      "swap": 4.09623
+    },
+    {
+      "unknown": 0.707198,
+      "input": 0.020308,
+      "animation": 0.001923,
+      "layout": 0.115231,
+      "draw": 0.882538,
+      "sync": 0.591,
+      "commands": 5.585615,
+      "swap": 4.311385
+    },
+    {
+      "unknown": 0.446546,
+      "input": 0.030616,
+      "animation": 0.00223,
+      "layout": 0.162385,
+      "draw": 0.861077,
+      "sync": 0.552,
+      "commands": 4.84277,
+      "swap": 6.32623
+    },
+    {
+      "unknown": 0.725645,
+      "input": 0.038154,
+      "animation": 0.002538,
+      "layout": 0.150385,
+      "draw": 0.986154,
+      "sync": 0.678308,
+      "commands": 4.948077,
+      "swap": 4.908615
+    },
+    {
+      "unknown": 0.59197,
+      "input": 0.033307,
+      "animation": 0.002462,
+      "layout": 0.142231,
+      "draw": 0.963,
+      "sync": 0.639692,
+      "commands": 5.135692,
+      "swap": 4.685462
+    },
+    {
+      "unknown": 0.659536,
+      "input": 0.034077,
+      "animation": 0.002846,
+      "layout": 0.144462,
+      "draw": 0.919461,
+      "sync": 0.713307,
+      "commands": 5.654769,
+      "swap": 4.096231
+    },
+    {
+      "unknown": 0.454676,
+      "input": 0.071923,
+      "animation": 0.002539,
+      "layout": 0.176,
+      "draw": 0.935077,
+      "sync": 0.751308,
+      "commands": 6.092692,
+      "swap": 3.91
+    },
+    {
+      "unknown": 0.598768,
+      "input": 0.038,
+      "animation": 0.002846,
+      "layout": 0.164385,
+      "draw": 1.644692,
+      "sync": 0.644846,
+      "commands": 5.051693,
+      "swap": 4.02123
+    },
+    {
+      "unknown": 1.26296,
+      "input": 0.036769,
+      "animation": 0.002847,
+      "layout": 0.169,
+      "draw": 0.954538,
+      "sync": 0.682539,
+      "commands": 5.895231,
+      "swap": 3.324154
+    },
+    {
+      "unknown": 0.655218,
+      "input": 0.037538,
+      "animation": 0.002846,
+      "layout": 0.163462,
+      "draw": 0.736461,
+      "sync": 0.690154,
+      "commands": 5.136154,
+      "swap": 4.888846
+    },
+    {
+      "unknown": 0.906593,
+      "input": 0.035924,
+      "animation": 0.002923,
+      "layout": 0.161077,
+      "draw": 0.719846,
+      "sync": 0.635385,
+      "commands": 5.130307,
+      "swap": 4.811231
+    },
+    {
+      "unknown": 0.614252,
+      "input": 0.087077,
+      "animation": 0.002615,
+      "layout": 0.158769,
+      "draw": 0.803231,
+      "sync": 1.201384,
+      "commands": 5.430616,
+      "swap": 3.941461
+    },
+    {
+      "unknown": 0.613575,
+      "input": 0.032,
+      "animation": 0.002308,
+      "layout": 0.151077,
+      "draw": 0.725538,
+      "sync": 0.681846,
+      "commands": 5.052538,
+      "swap": 5.554308
+    },
+    {
+      "unknown": 1.529585,
+      "input": 0.035308,
+      "animation": 0.002461,
+      "layout": 0.158,
+      "draw": 0.440154,
+      "sync": 0.66423,
+      "commands": 5.770693,
+      "swap": 7.970538
+    },
+    {
+      "unknown": 5.816305,
+      "input": 0.031308,
+      "animation": 0.002077,
+      "layout": 0.135384,
+      "draw": 0.661847,
+      "sync": 0.59877,
+      "commands": 5.286615,
+      "swap": 1.814615
+    },
+    {
+      "unknown": 0.687544,
+      "input": 0.032308,
+      "animation": 0.002231,
+      "layout": 0.189692,
+      "draw": 0.686,
+      "sync": 0.680769,
+      "commands": 4.059,
+      "swap": 3.031847
+    },
+    {
+      "unknown": 0.503037,
+      "input": 0.030846,
+      "animation": 0.001923,
+      "layout": 0.103,
+      "draw": 0.646847,
+      "sync": 0.595077,
+      "commands": 4.747846,
+      "swap": 1.802077
+    },
+    {
+      "unknown": 0.525591,
+      "input": 0.032,
+      "animation": 0.002154,
+      "layout": 0.103,
+      "draw": 0.759769,
+      "sync": 0.630846,
+      "commands": 4.615847,
+      "swap": 1.472538
+    },
+    {
+      "unknown": 0.678124,
+      "input": 0.036769,
+      "animation": 0.002847,
+      "layout": 0.114846,
+      "draw": 0.751538,
+      "sync": 0.598077,
+      "commands": 4.835231,
+      "swap": 1.695
+    },
+    {
+      "unknown": 0.659206,
+      "input": 0.033077,
+      "animation": 0.002385,
+      "layout": 0.111538,
+      "draw": 0.736923,
+      "sync": 0.656539,
+      "commands": 5.970692,
+      "swap": 2.142615
+    },
+    {
+      "unknown": 0.642076,
+      "input": 0.033308,
+      "animation": 0.002077,
+      "layout": 0.111231,
+      "draw": 0.706538,
+      "sync": 0.629077,
+      "commands": 5.190923,
+      "swap": 1.814462
+    },
+    {
+      "unknown": 0.625876,
+      "input": 0.036616,
+      "animation": 0.002769,
+      "layout": 0.112769,
+      "draw": 0.731846,
+      "sync": 0.652385,
+      "commands": 5.83,
+      "swap": 1.994538
+    },
+    {
+      "unknown": 0.621896,
+      "input": 0.035,
+      "animation": 0.002847,
+      "layout": 0.113692,
+      "draw": 0.743154,
+      "sync": 0.595077,
+      "commands": 5.085385,
+      "swap": 1.754615
+    },
+    {
+      "unknown": 0.621192,
+      "input": 0.035231,
+      "animation": 0.002769,
+      "layout": 0.110231,
+      "draw": 0.679539,
+      "sync": 0.696154,
+      "commands": 5.400385,
+      "swap": 1.987077
+    },
+    {
+      "unknown": 0.761334,
+      "input": 0.034308,
+      "animation": 0.002615,
+      "layout": 0.11,
+      "draw": 0.818923,
+      "sync": 0.641923,
+      "commands": 5.919923,
+      "swap": 2.234
+    },
+    {
+      "unknown": 0.613284,
+      "input": 0.034077,
+      "animation": 0.002461,
+      "layout": 0.109539,
+      "draw": 0.721615,
+      "sync": 0.583,
+      "commands": 4.981461,
+      "swap": 1.873923
+    },
+    {
+      "unknown": 0.55611,
+      "input": 0.034385,
+      "animation": 0.002769,
+      "layout": 0.109616,
+      "draw": 0.731846,
+      "sync": 0.618462,
+      "commands": 4.766154,
+      "swap": 1.839
+    },
+    {
+      "unknown": 0.642459,
+      "input": 0.036923,
+      "animation": 0.002769,
+      "layout": 0.115461,
+      "draw": 0.798847,
+      "sync": 0.762308,
+      "commands": 6.121846,
+      "swap": 1.986846
+    },
+    {
+      "unknown": 0.686686,
+      "input": 0.036385,
+      "animation": 0.002923,
+      "layout": 0.111769,
+      "draw": 0.720231,
+      "sync": 0.779846,
+      "commands": 5.578,
+      "swap": 1.818538
+    },
+    {
+      "unknown": 0.600258,
+      "input": 0.035231,
+      "animation": 0.002769,
+      "layout": 0.109539,
+      "draw": 0.749615,
+      "sync": 0.997923,
+      "commands": 4.672538,
+      "swap": 1.770231
+    },
+    {
+      "unknown": 3.409432,
+      "input": 0.042,
+      "animation": 0.002769,
+      "layout": 0.111769,
+      "draw": 0.771923,
+      "sync": 0.72177,
+      "commands": 5.894307,
+      "swap": 2.043847
+    },
+    {
+      "unknown": 0.752589,
+      "input": 0.037923,
+      "animation": 0.002539,
+      "layout": 0.112769,
+      "draw": 0.814692,
+      "sync": 0.692923,
+      "commands": 6.795308,
+      "swap": 1.788154
+    },
+    {
+      "unknown": 0.724291,
+      "input": 0.035384,
+      "animation": 0.002539,
+      "layout": 0.109923,
+      "draw": 0.725461,
+      "sync": 0.634616,
+      "commands": 4.931461,
+      "swap": 1.554693
+    },
+    {
+      "unknown": 0.510607,
+      "input": 0.034153,
+      "animation": 0.002154,
+      "layout": 0.107231,
+      "draw": 0.709385,
+      "sync": 0.611,
+      "commands": 4.777,
+      "swap": 1.891231
+    },
+    {
+      "unknown": 0.612223,
+      "input": 0.035462,
+      "animation": 0.002692,
+      "layout": 0.117846,
+      "draw": 0.784693,
+      "sync": 0.689538,
+      "commands": 5.90877,
+      "swap": 2.04623
+    },
+    {
+      "unknown": 0.55499,
+      "input": 0.038615,
+      "animation": 0.001846,
+      "layout": 0.103462,
+      "draw": 1.056231,
+      "sync": 0.595462,
+      "commands": 4.977692,
+      "swap": 1.760693
+    },
+    {
+      "unknown": 0.716124,
+      "input": 0.037,
+      "animation": 0.00277,
+      "layout": 0.114615,
+      "draw": 0.851846,
+      "sync": 0.642539,
+      "commands": 4.938307,
+      "swap": 1.802846
+    },
+    {
+      "unknown": 0.639058,
+      "input": 0.033539,
+      "animation": 0.002308,
+      "layout": 0.105846,
+      "draw": 0.678692,
+      "sync": 0.601615,
+      "commands": 4.845769,
+      "swap": 1.716385
+    },
+    {
+      "unknown": 0.609136,
+      "input": 0.031923,
+      "animation": 0.001923,
+      "layout": 0.112231,
+      "draw": 0.704385,
+      "sync": 0.604615,
+      "commands": 4.705154,
+      "swap": 1.731462
+    },
+    {
+      "unknown": 0.555715,
+      "input": 0.036462,
+      "animation": 0.002692,
+      "layout": 0.114231,
+      "draw": 0.872231,
+      "sync": 0.666385,
+      "commands": 5.587,
+      "swap": 2.040384
+    },
+    {
+      "unknown": 0.63454,
+      "input": 0.036615,
+      "animation": 0.002769,
+      "layout": 0.118231,
+      "draw": 0.778077,
+      "sync": 0.720231,
+      "commands": 5.602539,
+      "swap": 1.875692
+    },
+    {
+      "unknown": 0.587912,
+      "input": 0.036538,
+      "animation": 0.002616,
+      "layout": 0.132846,
+      "draw": 0.778538,
+      "sync": 0.694077,
+      "commands": 5.950846,
+      "swap": 2.016693
+    },
+    {
+      "unknown": 0.648413,
+      "input": 0.036154,
+      "animation": 0.002846,
+      "layout": 0.112923,
+      "draw": 0.796616,
+      "sync": 0.640462,
+      "commands": 4.488692,
+      "swap": 1.594769
+    },
+    {
+      "unknown": 0.555703,
+      "input": 0.033154,
+      "animation": 0.002077,
+      "layout": 0.104692,
+      "draw": 0.693769,
+      "sync": 0.592308,
+      "commands": 4.72,
+      "swap": 2.096846
+    },
+    {
+      "unknown": 0.646829,
+      "input": 0.033461,
+      "animation": 0.002308,
+      "layout": 0.103846,
+      "draw": 0.705462,
+      "sync": 0.610308,
+      "commands": 4.731923,
+      "swap": 2.007153
+    },
+    {
+      "unknown": 0.729618,
+      "input": 0.036154,
+      "animation": 0.002846,
+      "layout": 0.114308,
+      "draw": 0.764307,
+      "sync": 0.683693,
+      "commands": 6.335077,
+      "swap": 2.570769
+    },
+    {
+      "unknown": 0.632383,
+      "input": 0.036077,
+      "animation": 0.002692,
+      "layout": 0.112616,
+      "draw": 0.703846,
+      "sync": 0.588461,
+      "commands": 4.642,
+      "swap": 1.646
+    },
+    {
+      "unknown": 0.599043,
+      "input": 0.035385,
+      "animation": 0.002538,
+      "layout": 0.108462,
+      "draw": 0.698769,
+      "sync": 0.684539,
+      "commands": 4.448154,
+      "swap": 1.769154
+    },
+    {
+      "unknown": 0.515455,
+      "input": 0.032385,
+      "animation": 0.002307,
+      "layout": 0.101616,
+      "draw": 0.705769,
+      "sync": 1.148,
+      "commands": 5.371,
+      "swap": 1.568615
+    },
+    {
+      "unknown": 0.61277,
+      "input": 0.032,
+      "animation": 0.001923,
+      "layout": 0.103539,
+      "draw": 0.710384,
+      "sync": 0.648231,
+      "commands": 4.910923,
+      "swap": 1.593615
+    },
+    {
+      "unknown": 0.467384,
+      "input": 0.030923,
+      "animation": 0.001615,
+      "layout": 0.100308,
+      "draw": 0.641154,
+      "sync": 0.554461,
+      "commands": 4.410308,
+      "swap": 1.574846
+    },
+    {
+      "unknown": 0.490089,
+      "input": 0.029615,
+      "animation": 0.001538,
+      "layout": 0.098308,
+      "draw": 0.424154,
+      "sync": 0.726615,
+      "commands": 4.729077,
+      "swap": 1.395385
+    },
+    {
+      "unknown": 6.528209,
+      "input": 0.023461,
+      "animation": 0.001231,
+      "layout": 0.082,
+      "draw": 0.450692,
+      "sync": 0.456308,
+      "commands": 8.871769,
+      "swap": 1.546231
+    },
+    {
+      "unknown": 0.926699,
+      "input": 0.02577,
+      "animation": 0.00123,
+      "layout": 0.089231,
+      "draw": 1.066539,
+      "sync": 0.206538,
+      "commands": 2.694539,
+      "swap": 7.192923
+    },
+    {
+      "unknown": 0.448887,
+      "input": 0.020539,
+      "animation": 0.001,
+      "layout": 0.065923,
+      "draw": 0.406615,
+      "sync": 0.307538,
+      "commands": 2.874077,
+      "swap": 2.315539
+    },
+    {
+      "unknown": 0.414922,
+      "input": 0.021308,
+      "animation": 0.001,
+      "layout": 0.066461,
+      "draw": 0.503,
+      "sync": 0.552154,
+      "commands": 3.611846,
+      "swap": 6.892924
+    },
+    {
+      "unknown": 0.571624,
+      "input": 0.025615,
+      "animation": 0.001462,
+      "layout": 0.084692,
+      "draw": 0.580308,
+      "sync": 0.474769,
+      "commands": 3.139461,
+      "swap": 6.91677
+    },
+    {
+      "unknown": 0.510711,
+      "input": 0.032385,
+      "animation": 0.001538,
+      "layout": 0.098385,
+      "draw": 0.692538,
+      "sync": 0.553769,
+      "commands": 3.574308,
+      "swap": 7.111077
+    },
+    {
+      "unknown": 0.687393,
+      "input": 0.033846,
+      "animation": 0.002385,
+      "layout": 0.107692,
+      "draw": 0.877,
+      "sync": 0.626,
+      "commands": 3.631077,
+      "swap": 6.471231
+    },
+    {
+      "unknown": 0.444146,
+      "input": 0.02577,
+      "animation": 0.001538,
+      "layout": 0.110846,
+      "draw": 0.602923,
+      "sync": 0.518,
+      "commands": 4.163077,
+      "swap": 6.863154
+    },
+    {
+      "unknown": 0.599216,
+      "input": 0.032769,
+      "animation": 0.002308,
+      "layout": 0.111308,
+      "draw": 0.821307,
+      "sync": 0.623462,
+      "commands": 5.004154,
+      "swap": 5.763077
+    },
+    {
+      "unknown": 1.023232,
+      "input": 0.035077,
+      "animation": 0.002461,
+      "layout": 0.108846,
+      "draw": 0.712693,
+      "sync": 0.598385,
+      "commands": 4.824231,
+      "swap": 5.406615
+    },
+    {
+      "unknown": 1.021059,
+      "input": 0.036615,
+      "animation": 0.002616,
+      "layout": 0.112154,
+      "draw": 0.774692,
+      "sync": 0.653461,
+      "commands": 4.730077,
+      "swap": 5.231231
+    },
+    {
+      "unknown": 0.64278,
+      "input": 0.033154,
+      "animation": 0.002077,
+      "layout": 0.110384,
+      "draw": 0.695923,
+      "sync": 0.656077,
+      "commands": 5.149384,
+      "swap": 5.676462
+    },
+    {
+      "unknown": 0.96032,
+      "input": 0.033154,
+      "animation": 0.002308,
+      "layout": 0.10523,
+      "draw": 0.677154,
+      "sync": 0.651462,
+      "commands": 4.843461,
+      "swap": 5.291154
+    },
+    {
+      "unknown": 0.68777,
+      "input": 0.032077,
+      "animation": 0.001923,
+      "layout": 0.111923,
+      "draw": 0.722,
+      "sync": 0.631384,
+      "commands": 4.527462,
+      "swap": 5.804923
+    },
+    {
+      "unknown": 0.5029,
+      "input": 0.066462,
+      "animation": 0.002384,
+      "layout": 0.102539,
+      "draw": 0.669923,
+      "sync": 0.597308,
+      "commands": 4.765538,
+      "swap": 5.935846
+    },
+    {
+      "unknown": 0.624223,
+      "input": 0.03523,
+      "animation": 0.002462,
+      "layout": 0.109154,
+      "draw": 0.745,
+      "sync": 0.683,
+      "commands": 6.457693,
+      "swap": 5.226461
+    },
+    {
+      "unknown": 0.650319,
+      "input": 0.033,
+      "animation": 0.002154,
+      "layout": 0.101769,
+      "draw": 0.67377,
+      "sync": 0.575538,
+      "commands": 4.837846,
+      "swap": 5.749846
+    },
+    {
+      "unknown": 0.871592,
+      "input": 0.036307,
+      "animation": 0.00277,
+      "layout": 0.116615,
+      "draw": 0.858539,
+      "sync": 0.639615,
+      "commands": 5.623846,
+      "swap": 4.283769
+    },
+    {
+      "unknown": 0.726352,
+      "input": 0.036538,
+      "animation": 0.002846,
+      "layout": 0.113692,
+      "draw": 0.736,
+      "sync": 1.307308,
+      "commands": 5.559923,
+      "swap": 3.911462
+    },
+    {
+      "unknown": 0.696069,
+      "input": 0.032538,
+      "animation": 0.002308,
+      "layout": 0.103692,
+      "draw": 0.868462,
+      "sync": 0.599154,
+      "commands": 4.767307,
+      "swap": 5.426154
+    },
+    {
+      "unknown": 0.684309,
+      "input": 0.031769,
+      "animation": 0.002307,
+      "layout": 0.099154,
+      "draw": 0.678154,
+      "sync": 0.597462,
+      "commands": 5.861307,
+      "swap": 4.372385
+    },
+    {
+      "unknown": 0.573398,
+      "input": 0.036461,
+      "animation": 0.003,
+      "layout": 0.11,
+      "draw": 0.784308,
+      "sync": 0.665308,
+      "commands": 6.744076,
+      "swap": 3.909077
+    },
+    {
+      "unknown": 0.654773,
+      "input": 0.037461,
+      "animation": 0.003,
+      "layout": 0.116539,
+      "draw": 0.761154,
+      "sync": 0.756231,
+      "commands": 6.136692,
+      "swap": 4.053615
+    },
+    {
+      "unknown": 0.539688,
+      "input": 0.035385,
+      "animation": 0.002692,
+      "layout": 0.108231,
+      "draw": 0.69323,
+      "sync": 0.680231,
+      "commands": 5.267153,
+      "swap": 6.052154
+    },
+    {
+      "unknown": 0.572154,
+      "input": 0.030384,
+      "animation": 0.002077,
+      "layout": 0.121231,
+      "draw": 0.648538,
+      "sync": 0.650385,
+      "commands": 6.312384,
+      "swap": 3.892846
+    },
+    {
+      "unknown": 0.57637,
+      "input": 0.034538,
+      "animation": 0.00277,
+      "layout": 0.110538,
+      "draw": 0.759385,
+      "sync": 0.67077,
+      "commands": 5.833077,
+      "swap": 4.595307
+    },
+    {
+      "unknown": 0.567662,
+      "input": 0.035385,
+      "animation": 0.002692,
+      "layout": 0.110385,
+      "draw": 0.819538,
+      "sync": 0.674231,
+      "commands": 5.459538,
+      "swap": 5.797385
+    },
+    {
+      "unknown": 0.722004,
+      "input": 0.03523,
+      "animation": 0.00277,
+      "layout": 0.114923,
+      "draw": 0.775077,
+      "sync": 0.624154,
+      "commands": 6.269615,
+      "swap": 6.886077
+    },
+    {
+      "unknown": 0.72968,
+      "input": 0.037,
+      "animation": 0.002769,
+      "layout": 0.116462,
+      "draw": 0.738538,
+      "sync": 0.676692,
+      "commands": 6.082077,
+      "swap": 4.060077
+    },
+    {
+      "unknown": 0.555533,
+      "input": 0.037077,
+      "animation": 0.002769,
+      "layout": 0.110924,
+      "draw": 0.837615,
+      "sync": 0.708,
+      "commands": 5.815538,
+      "swap": 4.572308
+    },
+    {
+      "unknown": 0.628144,
+      "input": 0.03677,
+      "animation": 0.003077,
+      "layout": 0.113307,
+      "draw": 0.799154,
+      "sync": 0.615769,
+      "commands": 4.596231,
+      "swap": 6.143231
+    },
+    {
+      "unknown": 0.777131,
+      "input": 0.034385,
+      "animation": 0.002308,
+      "layout": 0.104846,
+      "draw": 0.750154,
+      "sync": 0.630308,
+      "commands": 5.164923,
+      "swap": 6.604385
+    },
+    {
+      "unknown": 0.705626,
+      "input": 0.033692,
+      "animation": 0.002308,
+      "layout": 0.108692,
+      "draw": 0.915231,
+      "sync": 0.622308,
+      "commands": 5.884538,
+      "swap": 4.751
+    },
+    {
+      "unknown": 0.774802,
+      "input": 0.036308,
+      "animation": 0.002769,
+      "layout": 0.184923,
+      "draw": 0.746616,
+      "sync": 0.676154,
+      "commands": 4.756307,
+      "swap": 5.513539
+    },
+    {
+      "unknown": 0.671732,
+      "input": 0.031769,
+      "animation": 0.002077,
+      "layout": 0.102923,
+      "draw": 0.693846,
+      "sync": 0.582846,
+      "commands": 4.668846,
+      "swap": 5.673385
+    },
+    {
+      "unknown": 0.606839,
+      "input": 0.05777,
+      "animation": 0.002846,
+      "layout": 0.108384,
+      "draw": 0.681385,
+      "sync": 0.599923,
+      "commands": 5.073308,
+      "swap": 5.373846
+    },
+    {
+      "unknown": 0.65757,
+      "input": 0.039077,
+      "animation": 0.002692,
+      "layout": 0.116846,
+      "draw": 0.759385,
+      "sync": 0.725308,
+      "commands": 7.223077,
+      "swap": 3.016923
+    },
+    {
+      "unknown": 0.697817,
+      "input": 0.035308,
+      "animation": 0.002615,
+      "layout": 0.110308,
+      "draw": 0.495308,
+      "sync": 0.676231,
+      "commands": 6.008308,
+      "swap": 4.596308
+    },
+    {
+      "unknown": 0.333571,
+      "input": 0.029,
+      "animation": 0.001615,
+      "layout": 0.088846,
+      "draw": 0.601846,
+      "sync": 0.552615,
+      "commands": 4.331692,
+      "swap": 1.887923
+    },
+    {
+      "unknown": 0.51212,
+      "input": 0.03077,
+      "animation": 0.001923,
+      "layout": 0.101,
+      "draw": 0.651077,
+      "sync": 0.599616,
+      "commands": 4.657769,
+      "swap": 1.779846
+    },
+    {
+      "unknown": 0.644872,
+      "input": 0.031154,
+      "animation": 0.002154,
+      "layout": 0.098615,
+      "draw": 0.645539,
+      "sync": 0.567923,
+      "commands": 4.384385,
+      "swap": 2.116154
+    },
+    {
+      "unknown": 0.695013,
+      "input": 0.036,
+      "animation": 0.002847,
+      "layout": 0.111846,
+      "draw": 0.664154,
+      "sync": 0.607385,
+      "commands": 4.84423,
+      "swap": 1.891924
+    },
+    {
+      "unknown": 0.577312,
+      "input": 0.035,
+      "animation": 0.002847,
+      "layout": 0.109923,
+      "draw": 0.700769,
+      "sync": 0.650154,
+      "commands": 4.956461,
+      "swap": 1.736847
+    },
+    {
+      "unknown": 0.576836,
+      "input": 0.030153,
+      "animation": 0.001924,
+      "layout": 0.102923,
+      "draw": 0.694307,
+      "sync": 0.564923,
+      "commands": 4.785231,
+      "swap": 1.839692
+    },
+    {
+      "unknown": 0.547115,
+      "input": 0.033769,
+      "animation": 0.002461,
+      "layout": 0.108154,
+      "draw": 0.752308,
+      "sync": 0.656,
+      "commands": 5.89,
+      "swap": 2.011616
+    },
+    {
+      "unknown": 0.534531,
+      "input": 0.030539,
+      "animation": 0.00223,
+      "layout": 0.103923,
+      "draw": 0.651693,
+      "sync": 0.624308,
+      "commands": 5.654923,
+      "swap": 1.925615
+    },
+    {
+      "unknown": 0.628619,
+      "input": 0.033384,
+      "animation": 0.002077,
+      "layout": 0.108,
+      "draw": 0.721769,
+      "sync": 0.734385,
+      "commands": 5.111231,
+      "swap": 1.850231
+    },
+    {
+      "unknown": 0.535558,
+      "input": 0.032693,
+      "animation": 0.002153,
+      "layout": 0.104077,
+      "draw": 0.751539,
+      "sync": 0.650462,
+      "commands": 5.099154,
+      "swap": 1.797846
+    },
+    {
+      "unknown": 0.63827,
+      "input": 0.036231,
+      "animation": 0.002923,
+      "layout": 0.114769,
+      "draw": 1.741154,
+      "sync": 0.641385,
+      "commands": 5.263307,
+      "swap": 2.09377
+    },
+    {
+      "unknown": 3.563541,
+      "input": 0.037308,
+      "animation": 0.002846,
+      "layout": 0.112923,
+      "draw": 0.775539,
+      "sync": 0.737231,
+      "commands": 5.764,
+      "swap": 1.977462
+    },
+    {
+      "unknown": 0.675231,
+      "input": 0.032308,
+      "animation": 0.002077,
+      "layout": 0.109538,
+      "draw": 0.844462,
+      "sync": 0.674077,
+      "commands": 4.929539,
+      "swap": 1.924384
+    },
+    {
+      "unknown": 0.580921,
+      "input": 0.032846,
+      "animation": 0.002077,
+      "layout": 0.106462,
+      "draw": 0.819153,
+      "sync": 0.647154,
+      "commands": 4.610307,
+      "swap": 1.557154
+    },
+    {
+      "unknown": 0.634297,
+      "input": 0.028923,
+      "animation": 0.002077,
+      "layout": 0.089769,
+      "draw": 0.657385,
+      "sync": 0.629846,
+      "commands": 4.107,
+      "swap": 1.480539
+    },
+    {
+      "unknown": 0.840754,
+      "input": 0.026,
+      "animation": 0.002077,
+      "layout": 0.082077,
+      "draw": 1.057154,
+      "sync": 0.517692,
+      "commands": 4.313693,
+      "swap": 1.456307
+    },
+    {
+      "unknown": 0.758743,
+      "input": 0.030693,
+      "animation": 0.001538,
+      "layout": 0.098308,
+      "draw": 0.687,
+      "sync": 0.540154,
+      "commands": 3.74323,
+      "swap": 1.453847
+    },
+    {
+      "unknown": 0.412068,
+      "input": 0.028077,
+      "animation": 0.001462,
+      "layout": 0.099692,
+      "draw": 0.648462,
+      "sync": 0.473615,
+      "commands": 3.602692,
+      "swap": 1.466077
+    },
+    {
+      "unknown": 0.504924,
+      "input": 0.028692,
+      "animation": 0.001462,
+      "layout": 0.095538,
+      "draw": 0.675615,
+      "sync": 0.61477,
+      "commands": 4.215692,
+      "swap": 1.772461
+    },
+    {
+      "unknown": 0.621037,
+      "input": 0.042846,
+      "animation": 0.002,
+      "layout": 0.143077,
+      "draw": 1.002538,
+      "sync": 0.839923,
+      "commands": 6.022,
+      "swap": 2.759615
+    },
+    {
+      "unknown": 0.658861,
+      "input": 0.045384,
+      "animation": 0.003077,
+      "layout": 0.141308,
+      "draw": 0.949692,
+      "sync": 0.845231,
+      "commands": 5.369077,
+      "swap": 2.110385
+    },
+    {
+      "unknown": 0.656905,
+      "input": 0.044308,
+      "animation": 0.002385,
+      "layout": 0.137615,
+      "draw": 0.917616,
+      "sync": 0.850538,
+      "commands": 5.777693,
+      "swap": 2.236769
+    },
+    {
+      "unknown": 0.663241,
+      "input": 0.043538,
+      "animation": 0.002385,
+      "layout": 0.139846,
+      "draw": 0.964616,
+      "sync": 0.882692,
+      "commands": 5.911154,
+      "swap": 2.273539
+    },
+    {
+      "unknown": 0.638541,
+      "input": 0.031769,
+      "animation": 0.001462,
+      "layout": 0.154231,
+      "draw": 0.624769,
+      "sync": 0.560846,
+      "commands": 4.475462,
+      "swap": 1.840384
+    },
+    {
+      "unknown": 0.493538,
+      "input": 0.024538,
+      "animation": 0.001385,
+      "layout": 0.074692,
+      "draw": 0.484461,
+      "sync": 0.211385,
+      "commands": 2.434462,
+      "swap": 1.129769
+    },
+    {
+      "unknown": 0.385065,
+      "input": 0.025616,
+      "animation": 0.00223,
+      "layout": 0.087385,
+      "draw": 0.461077,
+      "sync": 0.279384,
+      "commands": 2.646385,
+      "swap": 1.336231
+    },
+    {
+      "unknown": 0.606081,
+      "input": 0.025846,
+      "animation": 0.001924,
+      "layout": 0.084923,
+      "draw": 0.570153,
+      "sync": 0.470924,
+      "commands": 3.358846,
+      "swap": 1.534538
+    },
+    {
+      "unknown": 0.541435,
+      "input": 0.029308,
+      "animation": 0.001923,
+      "layout": 0.098308,
+      "draw": 0.637077,
+      "sync": 0.535923,
+      "commands": 4.201077,
+      "swap": 1.744231
+    },
+    {
+      "unknown": 0.74527,
+      "input": 0.037538,
+      "animation": 0.002846,
+      "layout": 0.119847,
+      "draw": 0.925307,
+      "sync": 0.632616,
+      "commands": 4.514692,
+      "swap": 1.754
+    },
+    {
+      "unknown": 0.573701,
+      "input": 0.035769,
+      "animation": 0.002308,
+      "layout": 0.145384,
+      "draw": 0.795308,
+      "sync": 0.68277,
+      "commands": 5.995769,
+      "swap": 2.150615
+    },
+    {
+      "unknown": 0.637749,
+      "input": 0.034077,
+      "animation": 0.002154,
+      "layout": 0.110308,
+      "draw": 0.732923,
+      "sync": 0.633538,
+      "commands": 5.287308,
+      "swap": 1.902846
+    },
+    {
+      "unknown": 0.904236,
+      "input": 0.037461,
+      "animation": 0.002539,
+      "layout": 0.117307,
+      "draw": 0.717231,
+      "sync": 0.751308,
+      "commands": 6.605461,
+      "swap": 2.049539
+    },
+    {
+      "unknown": 0.59255,
+      "input": 0.027,
+      "animation": 0.001461,
+      "layout": 0.092539,
+      "draw": 0.559307,
+      "sync": 0.544077,
+      "commands": 3.963462,
+      "swap": 1.589
+    },
+    {
+      "unknown": 0.494715,
+      "input": 0.032384,
+      "animation": 0.001924,
+      "layout": 0.104,
+      "draw": 0.694076,
+      "sync": 0.706462,
+      "commands": 4.428154,
+      "swap": 1.756308
+    },
+    {
+      "unknown": 0.760173,
+      "input": 0.031154,
+      "animation": 0.001769,
+      "layout": 0.105,
+      "draw": 0.707769,
+      "sync": 0.603538,
+      "commands": 4.783693,
+      "swap": 1.520461
+    },
+    {
+      "unknown": 0.751231,
+      "input": 0.031077,
+      "animation": 0.001847,
+      "layout": 0.100384,
+      "draw": 0.662154,
+      "sync": 0.831846,
+      "commands": 4.069462,
+      "swap": 1.613231
+    },
+    {
+      "unknown": 0.68531,
+      "input": 0.029461,
+      "animation": 0.001539,
+      "layout": 0.097615,
+      "draw": 0.626692,
+      "sync": 1.036615,
+      "commands": 4.026077,
+      "swap": 1.822692
+    },
+    {
+      "unknown": 0.738148,
+      "input": 0.029693,
+      "animation": 0.001538,
+      "layout": 0.099,
+      "draw": 0.367154,
+      "sync": 0.515539,
+      "commands": 4.437923,
+      "swap": 1.636308
+    },
+    {
+      "unknown": 0.539766,
+      "input": 0.02723,
+      "animation": 0.001539,
+      "layout": 0.086692,
+      "draw": 0.614923,
+      "sync": 0.477231,
+      "commands": 4.968769,
+      "swap": 1.799847
+    },
+    {
+      "unknown": 0.535769,
+      "input": 0.034308,
+      "animation": 0.002077,
+      "layout": 0.107,
+      "draw": 0.70223,
+      "sync": 0.634077,
+      "commands": 5.539,
+      "swap": 2.198
+    },
+    {
+      "unknown": 0.702161,
+      "input": 0.029615,
+      "animation": 0.001385,
+      "layout": 0.096384,
+      "draw": 0.582539,
+      "sync": 0.465307,
+      "commands": 3.452077,
+      "swap": 1.372693
+    },
+    {
+      "unknown": 0.371318,
+      "input": 0.023615,
+      "animation": 0.001616,
+      "layout": 0.081076,
+      "draw": 0.443,
+      "sync": 0.207231,
+      "commands": 2.258077,
+      "swap": 1.125769
+    },
+    {
+      "unknown": 0.687482,
+      "input": 0.027692,
+      "animation": 0.001539,
+      "layout": 0.085923,
+      "draw": 0.467769,
+      "sync": 0.677308,
+      "commands": 3.852,
+      "swap": 1.646077
+    },
+    {
+      "unknown": 0.845885,
+      "input": 0.034307,
+      "animation": 0.001923,
+      "layout": 0.110077,
+      "draw": 0.690846,
+      "sync": 0.532615,
+      "commands": 3.837539,
+      "swap": 1.607615
+    },
+    {
+      "unknown": 0.569417,
+      "input": 0.028846,
+      "animation": 0.001384,
+      "layout": 0.092077,
+      "draw": 0.566154,
+      "sync": 0.515616,
+      "commands": 3.865692,
+      "swap": 1.499308
+    },
+    {
+      "unknown": 0.650328,
+      "input": 0.028923,
+      "animation": 0.001462,
+      "layout": 0.097231,
+      "draw": 0.740538,
+      "sync": 0.524923,
+      "commands": 3.657308,
+      "swap": 1.258769
+    },
+    {
+      "unknown": 0.387584,
+      "input": 0.024846,
+      "animation": 0.001385,
+      "layout": 0.089231,
+      "draw": 0.526769,
+      "sync": 0.448231,
+      "commands": 3.202769,
+      "swap": 1.278231
+    },
+    {
+      "unknown": 0.830381,
+      "input": 0.051,
+      "animation": 0.002769,
+      "layout": 0.150154,
+      "draw": 0.920308,
+      "sync": 0.817462,
+      "commands": 6.303462,
+      "swap": 2.390769
+    },
+    {
+      "unknown": 0.793618,
+      "input": 0.033077,
+      "animation": 0.001846,
+      "layout": 0.105923,
+      "draw": 0.703846,
+      "sync": 0.619769,
+      "commands": 4.548,
+      "swap": 1.963538
+    },
+    {
+      "unknown": 0.754793,
+      "input": 0.033077,
+      "animation": 0.001769,
+      "layout": 0.104154,
+      "draw": 0.668154,
+      "sync": 0.549077,
+      "commands": 4.196923,
+      "swap": 1.878923
+    },
+    {
+      "unknown": 0.781185,
+      "input": 0.031,
+      "animation": 0.001539,
+      "layout": 0.098769,
+      "draw": 0.664077,
+      "sync": 0.593769,
+      "commands": 4.899769,
+      "swap": 1.990846
+    },
+    {
+      "unknown": 0.654908,
+      "input": 0.03123,
+      "animation": 0.002,
+      "layout": 0.103231,
+      "draw": 0.723769,
+      "sync": 0.596308,
+      "commands": 4.440384,
+      "swap": 1.885539
+    },
+    {
+      "unknown": 0.71443,
+      "input": 0.031462,
+      "animation": 0.001615,
+      "layout": 0.099,
+      "draw": 0.621923,
+      "sync": 0.566538,
+      "commands": 4.774077,
+      "swap": 2.083154
+    },
+    {
+      "unknown": 0.620042,
+      "input": 0.02977,
+      "animation": 0.001384,
+      "layout": 0.094,
+      "draw": 0.683385,
+      "sync": 0.585693,
+      "commands": 4.482077,
+      "swap": 1.667461
+    },
+    {
+      "unknown": 0.495783,
+      "input": 0.025615,
+      "animation": 0.001385,
+      "layout": 0.077923,
+      "draw": 0.469923,
+      "sync": 0.261154,
+      "commands": 2.448616,
+      "swap": 1.19623
+    },
+    {
+      "unknown": 0.389237,
+      "input": 0.029769,
+      "animation": 0.001693,
+      "layout": 0.106,
+      "draw": 0.577384,
+      "sync": 0.621692,
+      "commands": 4.228693,
+      "swap": 1.76923
+    },
+    {
+      "unknown": 0.612872,
+      "input": 0.035308,
+      "animation": 0.003,
+      "layout": 0.109076,
+      "draw": 0.629308,
+      "sync": 0.72477,
+      "commands": 5.289076,
+      "swap": 1.725924
+    },
+    {
+      "unknown": 0.691605,
+      "input": 0.032539,
+      "animation": 0.001923,
+      "layout": 0.115307,
+      "draw": 1.018847,
+      "sync": 0.622846,
+      "commands": 5.224077,
+      "swap": 2.093692
+    },
+    {
+      "unknown": 0.703535,
+      "input": 0.038384,
+      "animation": 0.002846,
+      "layout": 0.127308,
+      "draw": 0.738308,
+      "sync": 0.61477,
+      "commands": 4.530692,
+      "swap": 1.579538
+    },
+    {
+      "unknown": 0.491275,
+      "input": 0.030154,
+      "animation": 0.001308,
+      "layout": 0.095846,
+      "draw": 0.575462,
+      "sync": 0.587,
+      "commands": 3.567461,
+      "swap": 1.438846
+    },
+    {
+      "unknown": 2.092859,
+      "input": 0.026539,
+      "animation": 0.001923,
+      "layout": 0.086307,
+      "draw": 0.555847,
+      "sync": 0.544308,
+      "commands": 4.134154,
+      "swap": 1.370462
+    },
+    {
+      "unknown": 1.986,
+      "input": 0.030154,
+      "animation": 0.002308,
+      "layout": 0.090769,
+      "draw": 0.639769,
+      "sync": 0.578461,
+      "commands": 4.858693,
+      "swap": 1.722923
+    },
+    {
+      "unknown": 0.624881,
+      "input": 0.027923,
+      "animation": 0.001846,
+      "layout": 0.091539,
+      "draw": 0.531615,
+      "sync": 0.47077,
+      "commands": 3.256,
+      "swap": 1.161615
+    },
+    {
+      "unknown": 0.470931,
+      "input": 0.028847,
+      "animation": 0.001923,
+      "layout": 0.088384,
+      "draw": 0.602846,
+      "sync": 0.494615,
+      "commands": 3.799692,
+      "swap": 1.55
+    },
+    {
+      "unknown": 0.467274,
+      "input": 0.029539,
+      "animation": 0.002077,
+      "layout": 0.128308,
+      "draw": 0.578307,
+      "sync": 0.627538,
+      "commands": 5.134539,
+      "swap": 1.69823
+    },
+    {
+      "unknown": 0.392826,
+      "input": 0.028077,
+      "animation": 0.001308,
+      "layout": 0.095923,
+      "draw": 0.566923,
+      "sync": 0.619461,
+      "commands": 4.640077,
+      "swap": 1.556923
+    },
+    {
+      "unknown": 0.524249,
+      "input": 0.033154,
+      "animation": 0.002384,
+      "layout": 0.102539,
+      "draw": 0.625769,
+      "sync": 0.609769,
+      "commands": 4.016923,
+      "swap": 1.446615
+    },
+    {
+      "unknown": 0.565715,
+      "input": 0.031769,
+      "animation": 0.002,
+      "layout": 0.101923,
+      "draw": 0.786385,
+      "sync": 0.564769,
+      "commands": 4.946231,
+      "swap": 1.700308
+    },
+    {
+      "unknown": 0.510844,
+      "input": 0.033385,
+      "animation": 0.002,
+      "layout": 0.101308,
+      "draw": 0.618307,
+      "sync": 0.623539,
+      "commands": 4.560077,
+      "swap": 1.920692
+    },
+    {
+      "unknown": 0.563702,
+      "input": 0.034846,
+      "animation": 0.002692,
+      "layout": 0.114308,
+      "draw": 0.706539,
+      "sync": 0.701538,
+      "commands": 5.315769,
+      "swap": 1.942462
+    },
+    {
+      "unknown": 0.624375,
+      "input": 0.038385,
+      "animation": 0.002769,
+      "layout": 0.114231,
+      "draw": 0.672077,
+      "sync": 0.654076,
+      "commands": 5.668385,
+      "swap": 2.084308
+    },
+    {
+      "unknown": 0.647506,
+      "input": 0.033153,
+      "animation": 0.002231,
+      "layout": 0.103923,
+      "draw": 0.599,
+      "sync": 0.605615,
+      "commands": 4.830847,
+      "swap": 1.813769
+    },
+    {
+      "unknown": 0.5976,
+      "input": 0.034692,
+      "animation": 0.002462,
+      "layout": 0.113308,
+      "draw": 0.664461,
+      "sync": 1.416231,
+      "commands": 4.915538,
+      "swap": 1.849923
+    },
+    {
+      "unknown": 0.618447,
+      "input": 0.034462,
+      "animation": 0.002,
+      "layout": 0.103153,
+      "draw": 0.608847,
+      "sync": 0.58123,
+      "commands": 4.489231,
+      "swap": 1.627154
+    },
+    {
+      "unknown": 0.499252,
+      "input": 0.030615,
+      "animation": 0.002,
+      "layout": 0.101077,
+      "draw": 0.592462,
+      "sync": 0.803231,
+      "commands": 4.081077,
+      "swap": 1.509846
+    },
+    {
+      "unknown": 0.607424,
+      "input": 0.031154,
+      "animation": 0.001384,
+      "layout": 0.094693,
+      "draw": 0.360923,
+      "sync": 0.562846,
+      "commands": 3.871231,
+      "swap": 2.172692
+    },
+    {
+      "unknown": 0.465012,
+      "input": 0.025077,
+      "animation": 0.001308,
+      "layout": 0.077153,
+      "draw": 0.446231,
+      "sync": 0.429308,
+      "commands": 3.432846,
+      "swap": 1.242154
+    },
+    {
+      "unknown": 0.471067,
+      "input": 0.025693,
+      "animation": 0.001384,
+      "layout": 0.079693,
+      "draw": 0.568384,
+      "sync": 0.446308,
+      "commands": 3.602615,
+      "swap": 1.291692
+    },
+    {
+      "unknown": 0.643592,
+      "input": 0.027231,
+      "animation": 0.001846,
+      "layout": 0.085,
+      "draw": 0.503615,
+      "sync": 0.495846,
+      "commands": 4.249307,
+      "swap": 1.433693
+    },
+    {
+      "unknown": 0.403304,
+      "input": 0.025923,
+      "animation": 0.002153,
+      "layout": 0.095385,
+      "draw": 0.512077,
+      "sync": 0.543692,
+      "commands": 4.692462,
+      "swap": 1.567923
+    },
+    {
+      "unknown": 2.705422,
+      "input": 0.033538,
+      "animation": 0.002,
+      "layout": 0.105539,
+      "draw": 0.630923,
+      "sync": 0.568,
+      "commands": 4.298,
+      "swap": 1.876923
+    },
+    {
+      "unknown": 0.628702,
+      "input": 0.036769,
+      "animation": 0.002231,
+      "layout": 0.108769,
+      "draw": 0.662539,
+      "sync": 0.623231,
+      "commands": 5.60523,
+      "swap": 1.978
+    },
+    {
+      "unknown": 0.589512,
+      "input": 0.037077,
+      "animation": 0.002769,
+      "layout": 0.118,
+      "draw": 0.739538,
+      "sync": 0.647923,
+      "commands": 4.677,
+      "swap": 1.620384
+    },
+    {
+      "unknown": 0.603054,
+      "input": 0.040307,
+      "animation": 0.001924,
+      "layout": 0.107769,
+      "draw": 0.693461,
+      "sync": 0.599385,
+      "commands": 5.263538,
+      "swap": 1.727385
+    },
+    {
+      "unknown": 0.749332,
+      "input": 0.031308,
+      "animation": 0.001769,
+      "layout": 0.098538,
+      "draw": 0.611385,
+      "sync": 0.576231,
+      "commands": 4.500385,
+      "swap": 1.558
+    },
+    {
+      "unknown": 0.586632,
+      "input": 0.037539,
+      "animation": 0.002692,
+      "layout": 0.113846,
+      "draw": 0.710539,
+      "sync": 0.739462,
+      "commands": 5.441308,
+      "swap": 2.139615
+    },
+    {
+      "unknown": 0.742367,
+      "input": 0.037923,
+      "animation": 0.002847,
+      "layout": 0.117692,
+      "draw": 1.381077,
+      "sync": 0.330847,
+      "commands": 2.358461,
+      "swap": 1.406462
+    },
+    {
+      "unknown": 0.583246,
+      "input": 0.033308,
+      "animation": 0.002077,
+      "layout": 0.105846,
+      "draw": 0.653461,
+      "sync": 0.593,
+      "commands": 3.961769,
+      "swap": 1.400846
+    },
+    {
+      "unknown": 0.674105,
+      "input": 0.024384,
+      "animation": 0.001539,
+      "layout": 0.081538,
+      "draw": 0.456231,
+      "sync": 0.461462,
+      "commands": 3.400384,
+      "swap": 1.299154
+    },
+    {
+      "unknown": 0.407374,
+      "input": 0.026308,
+      "animation": 0.001538,
+      "layout": 0.088692,
+      "draw": 0.512616,
+      "sync": 0.483616,
+      "commands": 3.758231,
+      "swap": 1.36423
+    },
+    {
+      "unknown": 0.570906,
+      "input": 0.031692,
+      "animation": 0.002538,
+      "layout": 0.101693,
+      "draw": 0.604538,
+      "sync": 0.581385,
+      "commands": 4.261461,
+      "swap": 1.735615
+    },
+    {
+      "unknown": 0.552968,
+      "input": 0.032154,
+      "animation": 0.002077,
+      "layout": 0.099308,
+      "draw": 0.581384,
+      "sync": 0.595077,
+      "commands": 4.227615,
+      "swap": 1.623154
+    },
+    {
+      "unknown": 0.685107,
+      "input": 0.031846,
+      "animation": 0.002077,
+      "layout": 0.092846,
+      "draw": 1.041,
+      "sync": 0.530615,
+      "commands": 4.416923,
+      "swap": 1.625077
+    },
+    {
+      "unknown": 0.608816,
+      "input": 0.032308,
+      "animation": 0.001923,
+      "layout": 0.107539,
+      "draw": 0.630076,
+      "sync": 0.615154,
+      "commands": 5.162693,
+      "swap": 1.991538
+    },
+    {
+      "unknown": 0.601723,
+      "input": 0.036308,
+      "animation": 0.002692,
+      "layout": 0.111308,
+      "draw": 0.656461,
+      "sync": 0.650385,
+      "commands": 6.156846,
+      "swap": 2.088461
+    },
+    {
+      "unknown": 0.606462,
+      "input": 0.034539,
+      "animation": 0.002231,
+      "layout": 0.104923,
+      "draw": 0.601307,
+      "sync": 0.598769,
+      "commands": 4.879462,
+      "swap": 1.879077
+    },
+    {
+      "unknown": 0.555324,
+      "input": 0.033846,
+      "animation": 0.002308,
+      "layout": 0.106385,
+      "draw": 0.630692,
+      "sync": 0.629077,
+      "commands": 5.449077,
+      "swap": 2.005462
+    },
+    {
+      "unknown": 0.515856,
+      "input": 0.034847,
+      "animation": 0.002846,
+      "layout": 0.112846,
+      "draw": 0.634769,
+      "sync": 0.714385,
+      "commands": 4.766538,
+      "swap": 1.769385
+    },
+    {
+      "unknown": 0.430069,
+      "input": 0.048153,
+      "animation": 0.003,
+      "layout": 0.110231,
+      "draw": 0.671308,
+      "sync": 0.577769,
+      "commands": 4.853384,
+      "swap": 1.65777
+    },
+    {
+      "unknown": 0.68903,
+      "input": 0.036154,
+      "animation": 0.002846,
+      "layout": 0.117692,
+      "draw": 0.643077,
+      "sync": 0.594154,
+      "commands": 5.059077,
+      "swap": 1.940307
+    },
+    {
+      "unknown": 0.615866,
+      "input": 0.034,
+      "animation": 0.002461,
+      "layout": 0.110923,
+      "draw": 0.623924,
+      "sync": 0.684692,
+      "commands": 6.213077,
+      "swap": 2.038384
+    },
+    {
+      "unknown": 0.600532,
+      "input": 0.035077,
+      "animation": 0.002615,
+      "layout": 0.107692,
+      "draw": 0.634077,
+      "sync": 0.650539,
+      "commands": 5.571538,
+      "swap": 2.049462
+    },
+    {
+      "unknown": 0.460006,
+      "input": 0.025923,
+      "animation": 0.001154,
+      "layout": 0.075077,
+      "draw": 0.380615,
+      "sync": 0.270923,
+      "commands": 2.862154,
+      "swap": 1.041153
+    },
+    {
+      "unknown": 0.851707,
+      "input": 0.037231,
+      "animation": 0.002846,
+      "layout": 0.113385,
+      "draw": 0.543154,
+      "sync": 0.616923,
+      "commands": 3.617385,
+      "swap": 1.315846
+    },
+    {
+      "unknown": 0.540727,
+      "input": 0.027307,
+      "animation": 0.001308,
+      "layout": 0.082231,
+      "draw": 0.569923,
+      "sync": 0.521308,
+      "commands": 3.942308,
+      "swap": 1.432692
+    },
+    {
+      "unknown": 0.371565,
+      "input": 0.025231,
+      "animation": 0.001307,
+      "layout": 0.091693,
+      "draw": 0.479692,
+      "sync": 0.457077,
+      "commands": 3.464769,
+      "swap": 1.396923
+    },
+    {
+      "unknown": 0.560736,
+      "input": 0.033462,
+      "animation": 0.002769,
+      "layout": 0.099308,
+      "draw": 0.581076,
+      "sync": 0.710462,
+      "commands": 5.013923,
+      "swap": 1.853462
+    },
+    {
+      "unknown": 0.559587,
+      "input": 0.032923,
+      "animation": 0.001923,
+      "layout": 0.102923,
+      "draw": 0.661,
+      "sync": 0.598692,
+      "commands": 4.223385,
+      "swap": 1.582692
+    },
+    {
+      "unknown": 0.583783,
+      "input": 0.034693,
+      "animation": 0.002461,
+      "layout": 0.110616,
+      "draw": 0.657923,
+      "sync": 0.584616,
+      "commands": 4.004461,
+      "swap": 1.748693
+    },
+    {
+      "unknown": 0.579626,
+      "input": 0.035308,
+      "animation": 0.002538,
+      "layout": 0.110539,
+      "draw": 1.096846,
+      "sync": 0.632615,
+      "commands": 4.928231,
+      "swap": 1.738615
+    },
+    {
+      "unknown": 0.645644,
+      "input": 0.035,
+      "animation": 0.002538,
+      "layout": 0.119154,
+      "draw": 0.720154,
+      "sync": 0.632385,
+      "commands": 5.797846,
+      "swap": 2.061539
+    },
+    {
+      "unknown": 0.692607,
+      "input": 0.038384,
+      "animation": 0.002693,
+      "layout": 0.116,
+      "draw": 0.696154,
+      "sync": 0.667154,
+      "commands": 6.174385,
+      "swap": 2.010923
+    },
+    {
+      "unknown": 0.605997,
+      "input": 0.038,
+      "animation": 0.002693,
+      "layout": 0.113692,
+      "draw": 0.648154,
+      "sync": 0.649923,
+      "commands": 4.659461,
+      "swap": 1.666462
+    },
+    {
+      "unknown": 0.533664,
+      "input": 0.032847,
+      "animation": 0.002076,
+      "layout": 0.104,
+      "draw": 0.382154,
+      "sync": 0.582307,
+      "commands": 4.676616,
+      "swap": 2.122384
+    },
+    {
+      "unknown": 0.888478,
+      "input": 0.029461,
+      "animation": 0.001616,
+      "layout": 0.097769,
+      "draw": 0.531539,
+      "sync": 0.563462,
+      "commands": 4.579307,
+      "swap": 1.577769
+    },
+    {
+      "unknown": 0.472044,
+      "input": 0.041615,
+      "animation": 0.001692,
+      "layout": 0.102846,
+      "draw": 0.955693,
+      "sync": 0.472615,
+      "commands": 3.457308,
+      "swap": 1.196
+    },
+    {
+      "unknown": 0.444938,
+      "input": 0.029,
+      "animation": 0.001538,
+      "layout": 0.10077,
+      "draw": 0.56023,
+      "sync": 0.559308,
+      "commands": 3.422769,
+      "swap": 1.507692
+    },
+    {
+      "unknown": 0.599772,
+      "input": 0.032615,
+      "animation": 0.002,
+      "layout": 0.105231,
+      "draw": 0.639769,
+      "sync": 0.588077,
+      "commands": 4.457,
+      "swap": 1.828846
+    },
+    {
+      "unknown": 0.645784,
+      "input": 0.032,
+      "animation": 0.001923,
+      "layout": 0.102384,
+      "draw": 0.631154,
+      "sync": 0.607462,
+      "commands": 5.145769,
+      "swap": 1.797846
+    },
+    {
+      "unknown": 0.48938,
+      "input": 0.044538,
+      "animation": 0.002308,
+      "layout": 0.108154,
+      "draw": 0.622615,
+      "sync": 0.608307,
+      "commands": 5.16677,
+      "swap": 1.941846
+    },
+    {
+      "unknown": 0.647164,
+      "input": 0.036693,
+      "animation": 0.002769,
+      "layout": 0.110846,
+      "draw": 0.693,
+      "sync": 0.654539,
+      "commands": 5.744308,
+      "swap": 2.047153
+    },
+    {
+      "unknown": 0.452004,
+      "input": 0.035154,
+      "animation": 0.002846,
+      "layout": 0.126308,
+      "draw": 0.740385,
+      "sync": 0.618308,
+      "commands": 5.53323,
+      "swap": 2.010462
+    },
+    {
+      "unknown": 0.434962,
+      "input": 0.030923,
+      "animation": 0.001923,
+      "layout": 0.114923,
+      "draw": 0.606846,
+      "sync": 0.592538,
+      "commands": 5.525,
+      "swap": 1.820846
+    },
+    {
+      "unknown": 0.948954,
+      "input": 0.033923,
+      "animation": 0.002539,
+      "layout": 0.115076,
+      "draw": 0.623616,
+      "sync": 0.698615,
+      "commands": 5.734616,
+      "swap": 1.814615
+    },
+    {
+      "unknown": 0.746945,
+      "input": 0.035461,
+      "animation": 0.002308,
+      "layout": 0.108461,
+      "draw": 0.644077,
+      "sync": 0.647384,
+      "commands": 5.526462,
+      "swap": 1.823923
+    },
+    {
+      "unknown": 0.466999,
+      "input": 0.050077,
+      "animation": 0.002923,
+      "layout": 0.110616,
+      "draw": 0.671,
+      "sync": 0.634,
+      "commands": 4.68177,
+      "swap": 1.612
+    },
+    {
+      "unknown": 0.584926,
+      "input": 0.035077,
+      "animation": 0.002769,
+      "layout": 0.117539,
+      "draw": 0.624692,
+      "sync": 0.622154,
+      "commands": 4.494384,
+      "swap": 1.480154
+    },
+    {
+      "unknown": 1.621253,
+      "input": 0.03677,
+      "animation": 0.002769,
+      "layout": 0.119846,
+      "draw": 0.685,
+      "sync": 0.646154,
+      "commands": 5.118384,
+      "swap": 1.887539
+    },
+    {
+      "unknown": 0.676317,
+      "input": 0.038154,
+      "animation": 0.002846,
+      "layout": 0.111385,
+      "draw": 0.751692,
+      "sync": 0.671385,
+      "commands": 5.074538,
+      "swap": 1.699462
+    },
+    {
+      "unknown": 3.676471,
+      "input": 0.039385,
+      "animation": 0.003077,
+      "layout": 0.116769,
+      "draw": 0.704692,
+      "sync": 0.616769,
+      "commands": 4.594154,
+      "swap": 1.681
+    },
+    {
+      "unknown": 0.49012,
+      "input": 0.041462,
+      "animation": 0.002,
+      "layout": 0.106923,
+      "draw": 0.671923,
+      "sync": 0.596693,
+      "commands": 4.572,
+      "swap": 1.784615
+    },
+    {
+      "unknown": 2.255066,
+      "input": 0.038846,
+      "animation": 0.002846,
+      "layout": 0.114616,
+      "draw": 0.73823,
+      "sync": 0.660923,
+      "commands": 5.386538,
+      "swap": 1.865
+    },
+    {
+      "unknown": 0.756964,
+      "input": 0.035538,
+      "animation": 0.002616,
+      "layout": 0.109846,
+      "draw": 0.680538,
+      "sync": 1.214307,
+      "commands": 4.793154,
+      "swap": 1.524308
+    },
+    {
+      "unknown": 0.484424,
+      "input": 0.052077,
+      "animation": 0.002154,
+      "layout": 0.107538,
+      "draw": 0.705769,
+      "sync": 0.603077,
+      "commands": 4.796077,
+      "swap": 1.791692
+    },
+    {
+      "unknown": 0.671837,
+      "input": 0.036231,
+      "animation": 0.002846,
+      "layout": 0.108923,
+      "draw": 0.641846,
+      "sync": 0.649616,
+      "commands": 5.722615,
+      "swap": 2.017615
+    },
+    {
+      "unknown": 0.610123,
+      "input": 0.037077,
+      "animation": 0.002692,
+      "layout": 0.114231,
+      "draw": 0.697692,
+      "sync": 0.636461,
+      "commands": 4.493231,
+      "swap": 1.539538
+    },
+    {
+      "unknown": 0.657542,
+      "input": 0.033615,
+      "animation": 0.002077,
+      "layout": 0.104231,
+      "draw": 0.610308,
+      "sync": 0.649231,
+      "commands": 4.214538,
+      "swap": 1.684769
+    },
+    {
+      "unknown": 0.478945,
+      "input": 0.038385,
+      "animation": 0.002154,
+      "layout": 0.10423,
+      "draw": 0.622154,
+      "sync": 0.581847,
+      "commands": 4.393846,
+      "swap": 1.666538
+    },
+    {
+      "unknown": 0.707527,
+      "input": 0.034077,
+      "animation": 0.002308,
+      "layout": 0.108769,
+      "draw": 0.649462,
+      "sync": 0.932,
+      "commands": 4.920231,
+      "swap": 1.844384
+    },
+    {
+      "unknown": 0.541648,
+      "input": 0.033462,
+      "animation": 0.002461,
+      "layout": 0.109154,
+      "draw": 0.704615,
+      "sync": 0.641231,
+      "commands": 4.389615,
+      "swap": 1.549692
+    },
+    {
+      "unknown": 0.630899,
+      "input": 0.030154,
+      "animation": 0.001769,
+      "layout": 0.103077,
+      "draw": 0.575231,
+      "sync": 0.599692,
+      "commands": 4.239692,
+      "swap": 1.996693
+    },
+    {
+      "unknown": 0.644616,
+      "input": 0.036616,
+      "animation": 0.002769,
+      "layout": 0.111923,
+      "draw": 0.840846,
+      "sync": 0.668538,
+      "commands": 5.791231,
+      "swap": 2.003
+    },
+    {
+      "unknown": 0.649545,
+      "input": 0.035769,
+      "animation": 0.00277,
+      "layout": 0.111307,
+      "draw": 0.732308,
+      "sync": 0.675,
+      "commands": 5.560538,
+      "swap": 2.070923
+    },
+    {
+      "unknown": 0.558241,
+      "input": 0.036308,
+      "animation": 0.002769,
+      "layout": 0.112231,
+      "draw": 0.676846,
+      "sync": 0.688231,
+      "commands": 5.646616,
+      "swap": 2.072
+    },
+    {
+      "unknown": 0.50882,
+      "input": 0.035616,
+      "animation": 0.002692,
+      "layout": 0.110462,
+      "draw": 0.682461,
+      "sync": 0.669923,
+      "commands": 5.806693,
+      "swap": 2.074
+    },
+    {
+      "unknown": 0.450895,
+      "input": 0.034,
+      "animation": 0.002538,
+      "layout": 0.127308,
+      "draw": 0.675846,
+      "sync": 0.639846,
+      "commands": 5.876923,
+      "swap": 2.050385
+    },
+    {
+      "unknown": 0.543933,
+      "input": 0.034846,
+      "animation": 0.002769,
+      "layout": 0.112693,
+      "draw": 0.69623,
+      "sync": 0.639615,
+      "commands": 5.405154,
+      "swap": 2.204846
+    },
+    {
+      "unknown": 0.645815,
+      "input": 0.036538,
+      "animation": 0.002692,
+      "layout": 0.115616,
+      "draw": 0.656923,
+      "sync": 0.706077,
+      "commands": 5.265615,
+      "swap": 1.880693
+    },
+    {
+      "unknown": 0.443318,
+      "input": 0.032923,
+      "animation": 0.002846,
+      "layout": 0.116923,
+      "draw": 0.651539,
+      "sync": 0.650231,
+      "commands": 5.882923,
+      "swap": 1.860307
+    },
+    {
+      "unknown": 0.498349,
+      "input": 0.032692,
+      "animation": 0.002154,
+      "layout": 0.105846,
+      "draw": 0.719461,
+      "sync": 0.733924,
+      "commands": 5.005153,
+      "swap": 1.816847
+    },
+    {
+      "unknown": 2.908086,
+      "input": 0.037539,
+      "animation": 0.002154,
+      "layout": 0.109307,
+      "draw": 0.621616,
+      "sync": 0.584538,
+      "commands": 4.403385,
+      "swap": 1.699384
+    },
+    {
+      "unknown": 0.636933,
+      "input": 0.034923,
+      "animation": 0.002462,
+      "layout": 0.169692,
+      "draw": 0.431,
+      "sync": 0.726616,
+      "commands": 5.498,
+      "swap": 1.779461
+    },
+    {
+      "unknown": 168.623427,
+      "input": 0.021539,
+      "animation": 9.23E-4,
+      "layout": 0.078,
+      "draw": 12.882615,
+      "sync": 1.218462,
+      "commands": 5.755538,
+      "swap": 2.089
+    },
+    {
+      "unknown": 0.448467,
+      "input": 0.020077,
+      "animation": 9.23E-4,
+      "layout": 0.064,
+      "draw": 0.079154,
+      "sync": 0.591077,
+      "commands": 6.793769,
+      "swap": 3.779231
+    },
+    {
+      "unknown": 1.384476,
+      "input": 0.021461,
+      "animation": 0.001154,
+      "layout": 0.068308,
+      "draw": 0.175154,
+      "sync": 0.63,
+      "commands": 6.884154,
+      "swap": 3.876231
+    }
+  ],
+  "sourceDimensions": "3200x2400",
+  "privateCopyMaxEdge": 1600,
+  "allPrivateFilesPresent": true,
+  "pssBeforeKiB": 84848,
+  "pssAfterKiB": 99051,
+  "scrollTestSeconds": 8.452433462,
+  "observedFrameCount": 320,
+  "frameP95Millis": 94.561616,
+  "scope": "Physical HD10 API28 QA fixture collection; instrumentation and image setup excluded from startup claims."
+}

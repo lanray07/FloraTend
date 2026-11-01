@@ -178,4 +178,8 @@
   <string name="language">Język</string>
   <string name="system_language">Język urządzenia</string>
   <string name="voice_output_unavailable">Żaden zainstalowany głos nie obsługuje tego języka. Odpowiedzi tekstowe pozostają dostępne.</string>
+  <string name="spoken_feedback">Odpowiedzi głosowe</string>
+  <string name="loading_records">Wczytywanie Twoich danych…</string>
+  <string name="load_error">Nie udało się wczytać danych. Spróbuj ponownie.</string>
+  <string name="retry">Spróbuj ponownie</string>
 </resources>

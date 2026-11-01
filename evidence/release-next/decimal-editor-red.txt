@@ -1,0 +1,43 @@
+
+com.floratend.app.MeasurementEditorTest:
+Error in germanDecimalCanBeSavedAndReopenedWithoutChangingMagnitude(com.floratend.app.MeasurementEditorTest):
+java.lang.AssertionError: Failed to assert the following: (is enabled)
+Semantics of the node:
+Node #359 at (l=673.0, t=792.0, r=804.0, b=852.0)px
+Role = 'Button'
+Text = '[Speichern]'
+[Disabled]
+Actions = [OnClick, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 3 siblings
+Selector used: (Text + EditableText contains 'Speichern' (ignoreCase: false))
+
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:265)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:255)
+	at androidx.compose.ui.test.AssertionsKt.assertIsEnabled(Assertions.kt:56)
+	at com.floratend.app.MeasurementEditorTest.germanDecimalCanBeSavedAndReopenedWithoutChangingMagnitude(MeasurementEditorTest.kt:41)
+
+
+Time: 8.307
+There was 1 failure:
+1) germanDecimalCanBeSavedAndReopenedWithoutChangingMagnitude(com.floratend.app.MeasurementEditorTest)
+java.lang.AssertionError: Failed to assert the following: (is enabled)
+Semantics of the node:
+Node #359 at (l=673.0, t=792.0, r=804.0, b=852.0)px
+Role = 'Button'
+Text = '[Speichern]'
+[Disabled]
+Actions = [OnClick, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 3 siblings
+Selector used: (Text + EditableText contains 'Speichern' (ignoreCase: false))
+
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:265)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:255)
+	at androidx.compose.ui.test.AssertionsKt.assertIsEnabled(Assertions.kt:56)
+	at com.floratend.app.MeasurementEditorTest.germanDecimalCanBeSavedAndReopenedWithoutChangingMagnitude(MeasurementEditorTest.kt:41)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+

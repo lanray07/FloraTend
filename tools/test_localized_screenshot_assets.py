@@ -49,7 +49,10 @@ class LocalizedScreenshotAssets(unittest.TestCase):
         source = ROOT / self.manifest['screenshots'][0]['capture']
         run = source.parent.parent
         manifest = json.loads((run / 'capture-manifest.json').read_text(encoding='utf-8-sig'))
-        self.assertEqual(19, len(manifest['locales']))
+        self.assertEqual(self.manifest['raw_app_locales'], len(manifest['locales']))
+        if manifest['versionCode']>=10:
+            catalogue=json.loads((ROOT/'localization/locales.json').read_text(encoding='utf-8'))
+            self.assertEqual({r['locale'] for r in catalogue},{r['locale'] for r in manifest['locales']})
         self.assertIn('none', (run / 'network-state.txt').read_text(encoding='utf-8-sig'))
         self.assertIn('OK (1 test)', (run / 'instrumentation.txt').read_text(encoding='utf-8-sig'))
         for locale in manifest['locales']:

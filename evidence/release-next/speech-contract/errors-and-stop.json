@@ -1,0 +1,9 @@
+{
+  "errorHandled": true,
+  "errorAllowsRetry": true,
+  "onStopCanceledService": true,
+  "listeningStateCleared": true,
+  "syntheticProviderOutput": true,
+  "realAudioRecognitionTested": false,
+  "microphoneAudioCaptured": false
+}

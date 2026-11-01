@@ -14,6 +14,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalFocusManager
@@ -71,20 +72,34 @@ import java.time.LocalDate
 @Composable fun SettingsScreen(app:FloraApp,vm:PlantViewModel) {
     val context=LocalContext.current;val scope=rememberCoroutineScope()
     val dark by app.settings.dark.collectAsState(false);val imperial by app.settings.imperial.collectAsState(false);val reminders by app.settings.reminders.collectAsState(false);val premium by vm.premium.collectAsState()
+    val spokenFeedback by app.settings.spokenFeedback.collectAsState(true)
     val price by app.billing.price.collectAsState();val message by app.billing.message.collectAsState();val available by app.billing.available.collectAsState()
-    var wipe by remember { mutableStateOf(false) };var status by remember { mutableStateOf("") };var payload by remember { mutableStateOf("") }
-    val exporter=rememberLauncherForActivityResult(ActivityResultContracts.CreateDocument("application/octet-stream")) { uri -> if(uri!=null) scope.launch { runCatching { withContext(Dispatchers.IO) { context.contentResolver.openOutputStream(uri)?.use { it.write(payload.toByteArray(Charsets.UTF_8)) } ?: error("Unavailable") } }.onSuccess { status=context.getString(R.string.export_saved) }.onFailure { status=context.getString(R.string.export_error) } } }
+    var wipe by remember { mutableStateOf(false) };var status by remember { mutableStateOf("") };var pendingExport by rememberSaveable { mutableStateOf("") }
+    val exporter=rememberLauncherForActivityResult(ActivityResultContracts.CreateDocument("application/octet-stream")) { uri ->
+        val kind = pendingExport
+        pendingExport = ""
+        if(uri!=null) scope.launch {
+            runCatching {
+                val payload = vm.exportPayload(kind)
+                withContext(Dispatchers.IO) {
+                    context.contentResolver.openOutputStream(uri,"wt")?.use { it.write(payload.toByteArray(Charsets.UTF_8)) } ?: error("Unavailable")
+                }
+            }.onSuccess { status=context.getString(R.string.export_saved) }
+                .onFailure { status=context.getString(R.string.export_error) }
+        }
+    }
     val notificationPermission=rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted -> scope.launch { app.settings.set("reminders",granted);Reminders.refresh(app) } }
     Heading(s(R.string.settings),s(R.string.settings_intro))
     Column(Modifier.verticalScroll(rememberScrollState())) {
         LocalActivity.current?.let { LanguageSelector(it) }
         Toggle(s(R.string.dark_theme),dark){scope.launch{app.settings.set("dark",it)}}
+        Toggle(s(R.string.spoken_feedback),spokenFeedback){scope.launch{app.settings.set("spoken_feedback",it)}}
         Toggle(s(R.string.imperial),imperial){scope.launch{app.settings.set("imperial",it)}}
         Toggle(s(R.string.care_reminders),reminders){if(it && Build.VERSION.SDK_INT>=33) notificationPermission.launch(Manifest.permission.POST_NOTIFICATIONS) else scope.launch{app.settings.set("reminders",it);Reminders.refresh(app)}}
-        HorizontalDivider();Text(s(R.string.premium),style=MaterialTheme.typography.headlineSmall,modifier=Modifier.padding(top=20.dp));Text(s(if(premium) R.string.premium_active else R.string.premium_intro))
+        HorizontalDivider();Image(androidx.compose.ui.res.painterResource(R.drawable.art_premium),null,Modifier.fillMaxWidth().height(104.dp));Text(s(R.string.premium),style=MaterialTheme.typography.headlineSmall,modifier=Modifier.padding(top=20.dp));Text(s(if(premium) R.string.premium_active else R.string.premium_intro))
         Button(onClick={app.billing.purchase()},enabled=available && !premium){Text(price?.let { s(R.string.unlock_price).format(it) } ?: s(R.string.store_unavailable))}
         TextButton(onClick={app.billing.restore()}){Text(s(R.string.restore))};if(message.isNotEmpty()) Text(message)
-        Text(s(R.string.export_notice));Row{TextButton(enabled=premium,onClick={payload=Export.json(vm.plants.value,vm.schedules.value,vm.journal.value,vm.history.value);exporter.launch("floratend.json")}){Text(s(R.string.export_json))};TextButton(enabled=premium,onClick={payload=Export.csv(vm.plants.value);exporter.launch("floratend.csv")}){Text(s(R.string.export_csv))}}
+        Text(s(R.string.export_notice));Row{TextButton(enabled=premium,onClick={pendingExport="json";exporter.launch("floratend.json")}){Text(s(R.string.export_json))};TextButton(enabled=premium,onClick={pendingExport="csv";exporter.launch("floratend.csv")}){Text(s(R.string.export_csv))}}
         Text(status)
         Text(s(R.string.identification_unavailable),modifier=Modifier.padding(vertical=16.dp));Text(s(R.string.language_pending));Text(s(R.string.privacy_intro),modifier=Modifier.padding(vertical=16.dp));Text(s(R.string.backup_unavailable));TextButton(onClick={wipe=true}){Text(s(R.string.delete_all))}
     }

@@ -1,5 +1,11 @@
 package com.floratend.app
 
+import androidx.compose.ui.platform.testTag
+
+import androidx.compose.runtime.saveable.rememberSaveable
+
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+
 
 
 import android.Manifest
@@ -61,6 +67,10 @@ import androidx.compose.ui.res.pluralStringResource
 
 import androidx.compose.ui.text.font.FontFamily
 
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.role
+import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
 
 import androidx.compose.ui.unit.sp
@@ -68,6 +78,9 @@ import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat
 
 import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.Lifecycle
+import kotlinx.coroutines.flow.first
 
 import coil.compose.AsyncImage
 
@@ -123,13 +136,17 @@ class MainActivity : ComponentActivity() {
 
         }
 
+        lifecycleScope.launch { (application as FloraApp).settings.spokenFeedback.collect { enabled -> if(!enabled) tts?.stop() } }
         setContent { FloraRoot(this) }
 
     }
 
     override fun onResume() { super.onResume(); (application as FloraApp).billing.refresh() }
 
-    fun speak(text: String) { if (canSpeak) tts?.speak(text, TextToSpeech.QUEUE_FLUSH, null, "response") }
+    fun speak(text: String) { lifecycleScope.launch {
+        if ((application as FloraApp).settings.spokenFeedback.first() && canSpeak && lifecycle.currentState.isAtLeast(Lifecycle.State.STARTED))
+            tts?.speak(text, TextToSpeech.QUEUE_FLUSH, null, "response")
+    } }
 
     fun listen() {
 
@@ -137,7 +154,7 @@ class MainActivity : ComponentActivity() {
 
         recognizer?.destroy()
 
-        recognizer = SpeechRecognizer.createSpeechRecognizer(this).also { speech ->
+        recognizer = (application as FloraApp).createSpeechRecognizer(this).also { speech ->
 
             speech.setRecognitionListener(object : RecognitionListener {
 
@@ -208,17 +225,16 @@ private val Clay = Color(0xFFC8795B)
 
     val scope = rememberCoroutineScope()
 
-    val plants by vm.plants.collectAsState()
-
-    val schedules by vm.schedules.collectAsState()
-
-    val journal by vm.journal.collectAsState()
-
-    val history by vm.history.collectAsState()
+    val recordsState by vm.records.collectAsStateWithLifecycle()
+    val ready = recordsState as? RecordsState.Ready
+    val plants = ready?.plants.orEmpty()
+    val schedules = ready?.schedules.orEmpty()
+    val journal = ready?.journal.orEmpty()
+    val history = ready?.history.orEmpty()
 
     val error by vm.error.collectAsState()
 
-    var tab by remember { mutableIntStateOf(0) }
+    var tab by rememberSaveable { mutableIntStateOf(0) }
 
     var editor by remember { mutableStateOf<Plant?>(null) }
 
@@ -280,11 +296,19 @@ private val Clay = Color(0xFFC8795B)
 
                                 Text("FloraTend", fontFamily = FontFamily.Serif, fontSize = 23.sp, color = MaterialTheme.colorScheme.primary, modifier = Modifier.weight(1f))
 
-                                Icon(Icons.Outlined.CheckCircle, s(R.string.local_records), modifier = Modifier.size(18.dp)); Spacer(Modifier.width(8.dp)); Text(s(R.string.local_records), fontSize = 12.sp)
+                                Icon(Icons.Outlined.CheckCircle, null, modifier = Modifier.size(18.dp)); Spacer(Modifier.width(8.dp)); Text(s(R.string.local_records), fontSize = 12.sp)
 
                             }
 
-                            when(tab) {
+                            if (recordsState == RecordsState.Loading) {
+                                Column(Modifier.fillMaxWidth().padding(vertical=32.dp),horizontalAlignment=Alignment.CenterHorizontally) {
+                                    CircularProgressIndicator()
+                                    Text(s(R.string.loading_records),Modifier.padding(top=16.dp))
+                                }
+                            } else if (recordsState == RecordsState.Unavailable) {
+                                Text(s(R.string.load_error),Modifier.padding(vertical=24.dp))
+                                Button(onClick=vm::retryLoading) { Text(s(R.string.retry)) }
+                            } else when(tab) {
 
                                 0 -> {
 
@@ -308,11 +332,12 @@ private val Clay = Color(0xFFC8795B)
 
                                     TextButton(onClick = { descending = !descending }) { Text(s(if(descending) R.string.sort_desc else R.string.sort_asc)) }
 
-                                    val visible = plants.filter { (it.name.contains(query,true) || it.species.contains(query,true) || it.category.contains(query,true) || it.location.contains(query,true)) && (category.isEmpty() || category == it.category) }.let { if(descending) it.reversed() else it }
+                                    val translatedCategories = mapOf("Indoor" to s(R.string.indoor),"Outdoor" to s(R.string.outdoor),"Succulent" to s(R.string.succulents),"Cactus" to s(R.string.cacti),"Herb" to s(R.string.herbs),"Flowering" to s(R.string.flowering),"Tree" to s(R.string.trees),"Other" to s(R.string.other))
+                                    val visible = PlantLibraryQuery.apply(plants,query,category,descending,translatedCategories)
 
                                     if (plants.isEmpty()) Empty(s(R.string.empty_garden),s(R.string.empty_garden_body))
 
-                                    else LazyVerticalGrid(columns=GridCells.Adaptive(340.dp),verticalArrangement=Arrangement.spacedBy(12.dp),horizontalArrangement=Arrangement.spacedBy(12.dp),contentPadding=PaddingValues(bottom=24.dp)) { items(visible,key={it.id}) { plant -> PlantCard(plant,schedules.filter { it.plantId == plant.id }) { selected = plant } } }
+                                    else LazyVerticalGrid(modifier=Modifier.testTag("plant-grid"),columns=GridCells.Adaptive(340.dp),verticalArrangement=Arrangement.spacedBy(12.dp),horizontalArrangement=Arrangement.spacedBy(12.dp),contentPadding=PaddingValues(bottom=24.dp)) { items(visible,key={it.id}) { plant -> PlantCard(plant,schedules.filter { it.plantId == plant.id }) { selected = plant } } }
 
                                 }
 
@@ -420,15 +445,16 @@ fun formatDate(value:String):String = runCatching { LocalDate.parse(value).forma
 
 @Composable fun PlantCard(plant:Plant,schedules:List<CareSchedule>,click:()->Unit) {
 
-    Card(onClick=click,modifier=Modifier.fillMaxWidth(),shape=RoundedCornerShape(20.dp),colors=CardDefaults.cardColors(containerColor=MaterialTheme.colorScheme.surfaceVariant.copy(alpha=.45f))) {
+    val accessibleName = listOf(plant.name,plant.species,categoryLabel(plant.category),plant.location).filter { it.isNotBlank() }.joinToString(". ")
+    Card(onClick=click,modifier=Modifier.fillMaxWidth().semantics { contentDescription=accessibleName;role=Role.Button },shape=RoundedCornerShape(20.dp),colors=CardDefaults.cardColors(containerColor=MaterialTheme.colorScheme.surfaceVariant.copy(alpha=.45f))) {
 
         Row(Modifier.padding(20.dp),verticalAlignment=Alignment.CenterVertically) {
 
-            if(plant.photo != null) AsyncImage(File(plant.photo),s(R.string.plant_photo),Modifier.size(88.dp)) else Icon(FloraIcons.Leaf,null,Modifier.size(52.dp),tint=MaterialTheme.colorScheme.primary)
+            if(plant.photo != null) AsyncImage(File(plant.photo),null,Modifier.size(88.dp)) else Image(painterResource(categoryArtwork(plant.category)),null,Modifier.size(68.dp))
 
             Column(Modifier.padding(start=20.dp).weight(1f)) { Text(plant.name,fontFamily=FontFamily.Serif,fontSize=25.sp); Text(plant.species, color=MaterialTheme.colorScheme.onSurfaceVariant); Text(plant.location,modifier=Modifier.padding(top=6.dp)); schedules.filter { !it.paused }.minByOrNull { it.nextDate }?.let { Text(s(R.string.next_check).format(formatDate(it.nextDate)),color=MaterialTheme.colorScheme.primary) } }
 
-            Icon(Icons.Outlined.KeyboardArrowRight,s(R.string.open_plant))
+            Icon(Icons.Outlined.KeyboardArrowRight,null)
 
         }
 
@@ -438,3 +464,14 @@ fun formatDate(value:String):String = runCatching { LocalDate.parse(value).forma
 
 @Composable fun Confirm(title:String,cancel:()->Unit,confirm:()->Unit) { AlertDialog(onDismissRequest=cancel,title={Text(title)},text={Text(s(R.string.delete_warning))},confirmButton={TextButton(onClick=confirm){Text(s(R.string.delete))}},dismissButton={TextButton(onClick=cancel){Text(s(R.string.cancel))}}) }
 
+
+fun categoryArtwork(key:String):Int = when(key) {
+    "Indoor" -> R.drawable.art_indoor
+    "Outdoor" -> R.drawable.art_outdoor
+    "Succulent" -> R.drawable.art_succulent
+    "Cactus" -> R.drawable.art_cactus
+    "Herb" -> R.drawable.art_herb
+    "Flowering" -> R.drawable.art_flowering
+    "Tree" -> R.drawable.art_tree
+    else -> R.drawable.art_other
+}

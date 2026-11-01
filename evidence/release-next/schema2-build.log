@@ -1,0 +1,171 @@
+> Task :core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:compileKotlin UP-TO-DATE
+> Task :core:compileJava NO-SOURCE
+> Task :core:processResources NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar UP-TO-DATE
+> Task :core:compileTestKotlin UP-TO-DATE
+> Task :core:compileTestJava NO-SOURCE
+> Task :core:processTestResources UP-TO-DATE
+> Task :core:testClasses UP-TO-DATE
+> Task :core:test UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preQaBuild UP-TO-DATE
+> Task :app:mergeQaNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateQaBuildConfig
+> Task :app:checkQaAarMetadata UP-TO-DATE
+> Task :app:generateQaResValues UP-TO-DATE
+> Task :app:mapQaSourceSetPaths UP-TO-DATE
+> Task :app:generateQaResources UP-TO-DATE
+> Task :app:mergeQaResources UP-TO-DATE
+> Task :app:packageQaResources UP-TO-DATE
+> Task :app:parseQaLocalResources UP-TO-DATE
+> Task :app:createQaCompatibleScreenManifests
+> Task :app:extractDeepLinksQa UP-TO-DATE
+> Task :app:processQaMainManifest
+> Task :app:processQaManifest
+> Task :app:javaPreCompileQa UP-TO-DATE
+> Task :app:mergeQaShaders UP-TO-DATE
+> Task :app:compileQaShaders NO-SOURCE
+> Task :app:generateQaAssets UP-TO-DATE
+> Task :app:mergeQaAssets UP-TO-DATE
+> Task :app:compressQaAssets UP-TO-DATE
+> Task :app:checkQaDuplicateClasses UP-TO-DATE
+> Task :app:desugarQaFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexQa UP-TO-DATE
+> Task :app:mergeLibDexQa UP-TO-DATE
+> Task :app:mergeQaJniLibFolders UP-TO-DATE
+> Task :app:mergeQaNativeLibs UP-TO-DATE
+> Task :app:stripQaDebugSymbols UP-TO-DATE
+> Task :app:validateSigningQa UP-TO-DATE
+> Task :app:writeQaAppMetadata UP-TO-DATE
+> Task :app:writeQaSigningConfigVersions UP-TO-DATE
+> Task :app:preQaAndroidTestBuild SKIPPED
+> Task :app:processQaAndroidTestManifest
+> Task :app:generateQaAndroidTestBuildConfig UP-TO-DATE
+> Task :app:checkQaAndroidTestAarMetadata
+> Task :app:processQaManifestForPackage
+> Task :app:generateQaAndroidTestResValues UP-TO-DATE
+> Task :app:mapQaAndroidTestSourceSetPaths
+> Task :app:generateQaAndroidTestResources UP-TO-DATE
+> Task :app:processQaResources
+> Task :app:mergeQaAndroidTestResources
+> Task :app:processQaAndroidTestResources
+> Task :app:javaPreCompileQaAndroidTest UP-TO-DATE
+> Task :app:mergeQaAndroidTestShaders UP-TO-DATE
+> Task :app:compileQaAndroidTestShaders NO-SOURCE
+> Task :app:generateQaAndroidTestAssets UP-TO-DATE
+> Task :app:mergeQaAndroidTestAssets
+> Task :app:compressQaAndroidTestAssets
+> Task :app:checkQaAndroidTestDuplicateClasses
+> Task :app:desugarQaAndroidTestFileDependencies UP-TO-DATE
+> Task :app:kspQaKotlin
+> Task :app:mergeExtDexQaAndroidTest
+> Task :app:mergeLibDexQaAndroidTest UP-TO-DATE
+> Task :app:mergeQaAndroidTestJniLibFolders UP-TO-DATE
+> Task :app:mergeQaAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripQaAndroidTestDebugSymbols NO-SOURCE
+> Task :app:validateSigningQaAndroidTest UP-TO-DATE
+> Task :app:writeQaAndroidTestSigningConfigVersions UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugBuildConfig
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugResources
+> Task :app:kspDebugKotlin
+
+> Task :app:compileQaKotlin
+w: file:///D:/App%20Projects/FloraTend/app/src/main/java/com/floratend/app/MainActivity.kt:444:33 'val Icons.Outlined.KeyboardArrowRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.KeyboardArrowRight.
+w: file:///D:/App%20Projects/FloraTend/app/src/main/java/com/floratend/app/MainActivity.kt:444:33 'val Icons.Outlined.KeyboardArrowRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.KeyboardArrowRight.
+
+> Task :app:compileQaJavaWithJavac
+
+> Task :app:compileDebugKotlin
+w: file:///D:/App%20Projects/FloraTend/app/src/main/java/com/floratend/app/MainActivity.kt:444:33 'val Icons.Outlined.KeyboardArrowRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.KeyboardArrowRight.
+w: file:///D:/App%20Projects/FloraTend/app/src/main/java/com/floratend/app/MainActivity.kt:444:33 'val Icons.Outlined.KeyboardArrowRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.KeyboardArrowRight.
+
+> Task :app:dexBuilderQa
+> Task :app:mergeProjectDexQa
+> Task :app:mergeQaGlobalSynthetics UP-TO-DATE
+> Task :app:processQaJavaRes UP-TO-DATE
+> Task :app:mergeQaJavaResource UP-TO-DATE
+> Task :app:bundleQaClassesToCompileJar
+> Task :app:packageQa
+> Task :app:createQaApkListingFileRedirect
+> Task :app:assembleQa
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac
+> Task :app:bundleDebugClassesToRuntimeJar
+> Task :app:kspQaAndroidTestKotlin
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:kspDebugUnitTestKotlin
+> Task :app:compileDebugUnitTestKotlin
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:testDebugUnitTest
+> Task :app:buildKotlinToolingMetadata UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:generateReleaseBuildConfig
+> Task :app:checkReleaseAarMetadata UP-TO-DATE
+> Task :app:generateReleaseResValues UP-TO-DATE
+> Task :app:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :app:generateReleaseResources UP-TO-DATE
+> Task :app:mergeReleaseResources UP-TO-DATE
+> Task :app:packageReleaseResources UP-TO-DATE
+> Task :app:parseReleaseLocalResources UP-TO-DATE
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease UP-TO-DATE
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :app:processReleaseManifestForPackage
+> Task :app:processReleaseResources
+
+> Task :app:compileQaAndroidTestKotlin
+w: file:///D:/App%20Projects/FloraTend/app/src/androidTest/java/com/floratend/app/SchemaMigrationTest.kt:25:76 Type argument for reified type parameter 'T' was inferred to the intersection of ['Comparable<*>' & 'Serializable']. Reification of an intersection type results in the common supertype being used. This may lead to subtle issues and an explicit type argument is encouraged. This will become an error in a future release.
+w: file:///D:/App%20Projects/FloraTend/app/src/androidTest/java/com/floratend/app/SchemaMigrationTest.kt:27:71 Type argument for reified type parameter 'T' was inferred to the intersection of ['Comparable<*>' & 'Serializable']. Reification of an intersection type results in the common supertype being used. This may lead to subtle issues and an explicit type argument is encouraged. This will become an error in a future release.
+w: file:///D:/App%20Projects/FloraTend/app/src/androidTest/java/com/floratend/app/SchemaMigrationTest.kt:28:69 Type argument for reified type parameter 'T' was inferred to the intersection of ['Comparable<*>' & 'Serializable']. Reification of an intersection type results in the common supertype being used. This may lead to subtle issues and an explicit type argument is encouraged. This will become an error in a future release.
+
+> Task :app:compileQaAndroidTestJavaWithJavac UP-TO-DATE
+> Task :app:dexBuilderQaAndroidTest
+> Task :app:mergeProjectDexQaAndroidTest
+> Task :app:mergeQaAndroidTestGlobalSynthetics UP-TO-DATE
+> Task :app:processQaAndroidTestJavaRes UP-TO-DATE
+> Task :app:mergeQaAndroidTestJavaResource
+> Task :app:packageQaAndroidTest
+> Task :app:createQaAndroidTestApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleQaAndroidTest
+> Task :app:javaPreCompileRelease UP-TO-DATE
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :app:kspReleaseKotlin
+
+> Task :app:compileReleaseKotlin
+w: file:///D:/App%20Projects/FloraTend/app/src/main/java/com/floratend/app/MainActivity.kt:444:33 'val Icons.Outlined.KeyboardArrowRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.KeyboardArrowRight.
+w: file:///D:/App%20Projects/FloraTend/app/src/main/java/com/floratend/app/MainActivity.kt:444:33 'val Icons.Outlined.KeyboardArrowRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.KeyboardArrowRight.
+
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:bundleReleaseClassesToCompileJar
+> Task :app:bundleReleaseClassesToRuntimeJar
+> Task :app:processReleaseJavaRes UP-TO-DATE
+> Task :app:kspReleaseUnitTestKotlin
+> Task :app:compileReleaseUnitTestKotlin
+> Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processReleaseUnitTestJavaRes UP-TO-DATE
+> Task :app:testReleaseUnitTest
+
+BUILD SUCCESSFUL in 1m 16s
+126 actionable tasks: 57 executed, 69 up-to-date

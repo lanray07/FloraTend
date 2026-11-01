@@ -1,0 +1,18 @@
+{
+  "version_name": "0.1.9",
+  "version_code": 10,
+  "application_id": "com.floratend.app",
+  "debuggable": false,
+  "sha256": "ced8ec74943380d10054cdc6cb24a4caac637a012a15a14e8734afedc8c18226",
+  "min_sdk": 26,
+  "target_sdk": 36,
+  "verifier_environment": "PRODUCTION default",
+  "production_endpoint_in_dex": true,
+  "qa_classes_absent": {
+    "FixtureRecognitionService": true,
+    "QaFloraApp": true,
+    "qa.fixtures": true
+  },
+  "scope": "Developer-signed candidate inspection; not Amazon delivery, installed-client or genuine code10 billing evidence.",
+  "source_manifest_sha256": "6b6793c85c1866efbbe98c894a45895f5307add1f913a26cfd2e1bd7d0815f4e"
+}

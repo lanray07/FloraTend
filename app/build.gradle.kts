@@ -13,8 +13,8 @@ android {
         applicationId = "com.floratend.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 8
-        versionName = "0.1.7"
+        versionCode = 10
+        versionName = "0.1.9"
         val verifierUrl = providers.gradleProperty("floratend.receiptVerifierUrl")
             .orElse(providers.environmentVariable("FLORATEND_RECEIPT_VERIFIER_URL"))
             .getOrElse("https://floratend-receipt-verifier-production.lanraybanks.workers.dev/verify")
@@ -40,14 +40,23 @@ android {
         versionNameSuffix = "-qa"
         matchingFallbacks += "debug"
     }
+    // Isolated, non-debuggable rendering verification; never the Amazon package.
+    buildTypes.create("benchmark") {
+        initWith(buildTypes.getByName("release"))
+        applicationIdSuffix = ".perf"
+        signingConfig = signingConfigs.getByName("debug")
+        matchingFallbacks += "release"
+    }
     buildFeatures { compose = true; buildConfig = true }
     compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
     kotlinOptions { jvmTarget = "17" }
     testOptions { unitTests.isReturnDefaultValues = true }
     sourceSets.getByName("test").resources.srcDir("src/main/assets")
+    sourceSets.getByName("androidTest").assets.srcDir("$projectDir/schemas")
 }
 ksp { arg("room.schemaLocation", "$projectDir/schemas") }
 dependencies {
+    implementation(project(":core"))
     implementation("androidx.core:core-ktx:1.15.0")
     implementation("androidx.activity:activity-compose:1.10.1")
     implementation("androidx.compose.ui:ui:1.7.8")
@@ -64,9 +73,20 @@ dependencies {
     implementation("com.amazon.device:amazon-appstore-sdk:3.0.9")
     implementation("io.coil-kt:coil-compose:2.7.0")
     testImplementation("junit:junit:4.13.2")
+    androidTestImplementation("androidx.room:room-testing:2.7.1")
+    androidTestImplementation("androidx.test.uiautomator:uiautomator:2.3.0")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation("androidx.test:runner:1.6.2")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
     androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.7.8")
     debugImplementation("androidx.compose.ui:ui-test-manifest:1.7.8")
+}
+
+// Newly exported schemas must exist before test assets are snapshotted, including
+// the first build after a schema increment (not just subsequent incremental builds).
+tasks.configureEach {
+    if (name.startsWith("merge") && name.endsWith("AndroidTestAssets")) {
+        val variant = name.removePrefix("merge").removeSuffix("AndroidTestAssets")
+        dependsOn("ksp${variant}Kotlin")
+    }
 }

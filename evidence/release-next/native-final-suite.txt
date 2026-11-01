@@ -1,0 +1,26 @@
+
+com.floratend.app.PrivacyReleaseTest:.
+com.floratend.app.PersistenceTest:..
+com.floratend.app.ReminderWorkerTest:.
+com.floratend.app.SpeechCapabilityTest:.
+com.floratend.app.UiSmokeTest:....
+com.floratend.app.BillingStartupTest:..
+com.floratend.app.EntitlementStoreTest:.....
+com.floratend.app.LocalizedUiTest:...
+com.floratend.app.ReleaseWorkflowTest:..
+com.floratend.app.MeasurementEditorTest:..
+com.floratend.app.SpokenFeedbackTest:.
+com.floratend.app.BotanicalAssetTest:.
+com.floratend.app.SchemaMigrationTest:..
+com.floratend.app.OrderedQueryIndexTest:.
+com.floratend.app.AccessibilityLayoutTest:...
+com.floratend.app.RecordLoadingTest:..
+com.floratend.app.PhotoAttachmentTest:..
+com.floratend.app.SpeechContractTest:...
+com.floratend.app.ExportDestinationTest:.
+
+Time: 172.008
+
+OK (39 tests)
+
+

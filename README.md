@@ -1,3 +1,5 @@
+> Current development work: [release criteria progress](docs/RELEASE_CRITERIA_PROGRESS_20261101.md). Amazon code8 remains installed; development code10 is not yet Amazon-verified.
+
 > Current checkout work: [cold-start diagnosis and code8 regression](docs/CHECKOUT_DELAY_DIAGNOSIS_20261101.md).
 
 # FloraTend
@@ -6,14 +8,14 @@ Native Android plant collection, care-check scheduler and growth journal, primar
 
 **Development build â€” release status BLOCKED.** The authoritative executed verification is [RELEASE_READINESS.md](RELEASE_READINESS.md), with individual results in [ACCEPTANCE_TEST_RESULTS.csv](ACCEPTANCE_TEST_RESULTS.csv). Compilation, source implementation and a small set of device tests do not establish production readiness.
 
-Current candidate: [server verification and LAT Test 2](docs/SERVER_RECEIPT_RELEASE_CHECK_20261030.md). Free Cloudflare LAT and production verifiers are deployed; Amazon code 6 passed genuine server-gated Restore and offline restart, but automatic purchase activation failed. Amazon-delivered code 7 passed fresh free LAT purchase with automatic server-gated Premium activation, explicit owned Restore and offline process restart. Code 8 fixes the reproduced cold-start checkout delay; four actual Amazon presentations completed in 3.125–3.391 seconds. Fresh purchase, owned Restore and offline restart passed again. [Current release sweep](docs/RELEASE_SWEEP_20261101.md) records 100/204 criteria verified, with 104 still incomplete. See [latest code-7 checks](docs/LAT_CODE7_TEST_20261101.md). See [actual code-6 results](docs/LAT_SERVER_TEST_20261031.md). See [.env.example](.env.example) and [backend setup](server/README.md).
+Current candidate: [server verification and LAT Test 2](docs/SERVER_RECEIPT_RELEASE_CHECK_20261030.md). Free Cloudflare LAT and production verifiers are deployed; Amazon code 6 passed genuine server-gated Restore and offline restart, but automatic purchase activation failed. Amazon-delivered code 7 passed fresh free LAT purchase with automatic server-gated Premium activation, explicit owned Restore and offline process restart. Code 8 fixes the reproduced cold-start checkout delay; four actual Amazon presentations completed in 3.125–3.391 seconds. Fresh purchase, owned Restore and offline restart passed again. [Historical code-8 sweep](docs/RELEASE_SWEEP_20261101.md) recorded 100/204 criteria verified. [Current development progress](docs/RELEASE_CRITERIA_PROGRESS_20261101.md) records 143/204 scoped passes, with 61 still incomplete. See [latest code-7 checks](docs/LAT_CODE7_TEST_20261101.md). See [actual code-6 results](docs/LAT_SERVER_TEST_20261031.md). See [.env.example](.env.example) and [backend setup](server/README.md).
 
 ## Build and run
 
 Use Java 17 and Android SDK Platform 36. Gradle 8.13 is pinned by the wrapper. Configure `ANDROID_HOME` or an ignored `local.properties` containing `sdk.dir=<your SDK path>`; install appropriate SDK build tools and platform tools. Dependencies require network access on a fresh machine.
 
 ```powershell
-.\gradlew.bat :app:assembleDebug :app:testDebugUnitTest :app:testReleaseUnitTest :app:lintDebug :app:lintRelease
+.\gradlew.bat :core:test :app:assembleDebug :app:testDebugUnitTest :app:testReleaseUnitTest :app:lintDebug :app:lintRelease
 .\gradlew.bat :app:installDebug
 adb shell am start -n com.floratend.app/.MainActivity
 ```
@@ -24,7 +26,7 @@ On macOS/Linux use `bash gradlew` in place of `.\gradlew.bat`. The debug APK is 
 .\tools\test_localized_fire.ps1
 ```
 
-Tests can modify the app's local records and preferences; use a dedicated test installation/device profile. No production account or plant data should be used. The app requires Android API 26 or higher, targets API 36, and currently has version `0.1.7` / code `8`. A minimum SDK declaration is not a verified device-compatibility promise. The exact submitted signed code-5 APK also passed 15 physical-tablet tests; see [signed tablet results and reproduction](docs/SIGNED_TABLET_TEST_20261030.md). The later Amazon-delivered LAT build now retrieves the Â£3.73 regional price; [live LAT evidence](docs/LAT_LIVE_TEST_20261030.md) records a successful LAT purchase, restart persistence and owned-entitlement restoration after a clean Amazon reinstall. Other release gates remain open. Stateful App Tester and store capture tests require explicit opt-in; do not run the entire instrumentation package blindly.
+Tests can modify the app's local records and preferences; use a dedicated test installation/device profile. No production account or plant data should be used. The app requires Android API 26 or higher, targets API 36, and currently has development version `0.1.9` / code `10`. A minimum SDK declaration is not a verified device-compatibility promise. The exact submitted signed code-5 APK also passed 15 physical-tablet tests; see [signed tablet results and reproduction](docs/SIGNED_TABLET_TEST_20261030.md). The later Amazon-delivered LAT build now retrieves the Â£3.73 regional price; [live LAT evidence](docs/LAT_LIVE_TEST_20261030.md) records a successful LAT purchase, restart persistence and owned-entitlement restoration after a clean Amazon reinstall. Other release gates remain open. Stateful App Tester and store capture tests require explicit opt-in; do not run the entire instrumentation package blindly.
 
 ## Supporting checks
 
@@ -57,7 +59,7 @@ Native Amazon Appstore SDK 3.0.9 is integrated. Billing is unavailable until the
 
 Implemented source includes local plant CRUD/search/categories, configurable recurring care checks/history, journal notes/measurements/photos, touch/text command entry, push-to-talk and TTS capability handling, a tablet navigation rail, settings, basic summaries, and export code. Refer to test evidence before treating any workflow as verified.
 
-- All 19 requested app locale bundles and voice dictionaries are packaged as assistant-authored drafts. Current resource validation has zero errors. Spanish, German, Japanese and Arabic native UI/actions have executed Fire tests. Real captures cover 19 locales; 120 composed screenshot drafts cover 15 metadata locales, with 88 uploaded across all 11 available Amazon image channels. Human language review and website translations remain pending. All 15 available Amazon description locales are saved as drafts.
+- All 22 app locale bundles and voice dictionaries are packaged as assistant-authored drafts. Current resource validation has zero errors. Spanish, German, Japanese, Arabic, Korean and both Chinese scripts’ native UI/actions have executed Fire tests. Real captures cover 19 locales; 120 composed screenshot drafts cover 15 metadata locales, with 88 uploaded across all 11 available Amazon image channels. Human language review and website translations remain pending. All 15 available Amazon description locales are saved as drafts.
 - Locale command parsing has JVM and physical-device coverage. Recognition/TTS depend on installed engines and device/language capability; offline recognition is not claimed. This Fire has no speech recognition service and its default TTS supports the three English tags, not the other 16 requested tags.
 - Photo import copies downsampled images to private app storage. Camera capture currently uses an external camera preview thumbnail, not full-resolution CameraX capture.
 - Optional identification has no configured engine. Cloud sync and encrypted backup are unavailable. JSON export excludes image binaries; CSV exports plant records only. There is no backup-restore import workflow.

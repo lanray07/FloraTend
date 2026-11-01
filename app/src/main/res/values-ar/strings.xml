@@ -182,4 +182,8 @@
   <string name="language">اللغة</string>
   <string name="system_language">لغة الجهاز</string>
   <string name="voice_output_unavailable">لا يدعم أي صوت مثبت هذه اللغة. تظل الردود النصية متاحة.</string>
+  <string name="spoken_feedback">الردود المنطوقة</string>
+  <string name="loading_records">جارٍ تحميل سجلاتك…</string>
+  <string name="load_error">تعذر تحميل سجلاتك. حاول مرة أخرى.</string>
+  <string name="retry">حاول مرة أخرى</string>
 </resources>

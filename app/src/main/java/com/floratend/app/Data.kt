@@ -3,10 +3,10 @@ package com.floratend.app
 import android.app.Application
 import android.content.Context
 import androidx.room.*
+import androidx.room.migration.Migration
+import androidx.sqlite.db.SupportSQLiteDatabase
 import kotlinx.coroutines.flow.Flow
 import java.time.LocalDate
-import java.time.ZoneId
-import java.time.ZonedDateTime
 import java.util.UUID
 
 @Entity(tableName = "plants")
@@ -17,19 +17,26 @@ data class Plant(
     val potCm: Double? = null, val soil: String = "", val light: String = "",
     val notes: String = "", val photo: String? = null
 )
-@Entity(tableName = "schedules", foreignKeys = [ForeignKey(entity = Plant::class, parentColumns = ["id"], childColumns = ["plantId"], onDelete = ForeignKey.CASCADE)], indices = [Index("plantId")])
+@Entity(tableName = "schedules", foreignKeys = [ForeignKey(entity = Plant::class, parentColumns = ["id"], childColumns = ["plantId"], onDelete = ForeignKey.CASCADE)], indices = [Index("plantId"), Index("nextDate")])
 data class CareSchedule(
     @PrimaryKey val id: String = UUID.randomUUID().toString(), val plantId: String,
     val type: String = "soil", val intervalDays: Int = 7,
     val nextDate: String = LocalDate.now().toString(), val paused: Boolean = false,
     val lastCompleted: String? = null
 )
-@Entity(tableName = "history", foreignKeys = [ForeignKey(entity = Plant::class, parentColumns = ["id"], childColumns = ["plantId"], onDelete = ForeignKey.CASCADE)], indices = [Index("plantId")])
+@Entity(tableName = "history", foreignKeys = [ForeignKey(entity = Plant::class, parentColumns = ["id"], childColumns = ["plantId"], onDelete = ForeignKey.CASCADE)], indices = [Index("plantId"), Index("date")])
 data class CareRecord(@PrimaryKey val id: String = UUID.randomUUID().toString(), val plantId: String, val type: String, val date: String, val observation: String = "")
-@Entity(tableName = "journal", foreignKeys = [ForeignKey(entity = Plant::class, parentColumns = ["id"], childColumns = ["plantId"], onDelete = ForeignKey.CASCADE)], indices = [Index("plantId")])
+@Entity(tableName = "journal", foreignKeys = [ForeignKey(entity = Plant::class, parentColumns = ["id"], childColumns = ["plantId"], onDelete = ForeignKey.CASCADE)], indices = [Index("plantId"), Index("date")])
 data class JournalEntry(@PrimaryKey val id: String = UUID.randomUUID().toString(), val plantId: String, val date: String = LocalDate.now().toString(), val note: String, val heightCm: Double? = null, val leaves: Int? = null, val photo: String? = null)
 
+data class LocalRecords(val plants: List<Plant>, val schedules: List<CareSchedule>, val journal: List<JournalEntry>, val history: List<CareRecord>)
+
 @Dao interface FloraDao {
+    @Query("SELECT * FROM plants ORDER BY name COLLATE NOCASE") suspend fun exportPlants(): List<Plant>
+    @Query("SELECT * FROM schedules ORDER BY nextDate") suspend fun exportSchedules(): List<CareSchedule>
+    @Query("SELECT * FROM journal ORDER BY date DESC, rowid DESC") suspend fun exportJournal(): List<JournalEntry>
+    @Query("SELECT * FROM history ORDER BY date DESC") suspend fun exportHistory(): List<CareRecord>
+    @Transaction suspend fun snapshot() = LocalRecords(exportPlants(), exportSchedules(), exportJournal(), exportHistory())
     @Query("SELECT * FROM plants ORDER BY name COLLATE NOCASE") fun plants(): Flow<List<Plant>>
     @Query("SELECT * FROM schedules ORDER BY nextDate") fun schedules(): Flow<List<CareSchedule>>
     @Query("SELECT * FROM journal ORDER BY date DESC, rowid DESC") fun journal(): Flow<List<JournalEntry>>
@@ -55,16 +62,24 @@ data class JournalEntry(@PrimaryKey val id: String = UUID.randomUUID().toString(
     }
     @Transaction suspend fun wipe() { deletePlants() }
 }
-@Database(entities = [Plant::class, CareSchedule::class, JournalEntry::class, CareRecord::class], version = 1, exportSchema = true)
-abstract class FloraDatabase : RoomDatabase() { abstract fun dao(): FloraDao }
-object Recurrence {
-    fun next(completed: LocalDate, interval: Int): LocalDate { require(interval in 1..3650); return completed.plusDays(interval.toLong()) }
-    fun reminder(date: LocalDate, zone: ZoneId): ZonedDateTime = date.atTime(9, 0).atZone(zone)
+@Database(entities = [Plant::class, CareSchedule::class, JournalEntry::class, CareRecord::class], version = 2, exportSchema = true)
+abstract class FloraDatabase : RoomDatabase() {
+    abstract fun dao(): FloraDao
+    companion object {
+        val MIGRATION_1_2 = object : Migration(1,2) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL("CREATE INDEX IF NOT EXISTS index_journal_date ON journal(date)")
+                db.execSQL("CREATE INDEX IF NOT EXISTS index_history_date ON history(date)")
+                db.execSQL("CREATE INDEX IF NOT EXISTS index_schedules_nextDate ON schedules(nextDate)")
+            }
+        }
+    }
 }
-class FloraApp : Application() {
-    val database by lazy { Room.databaseBuilder(this, FloraDatabase::class.java, "floratend.db").build() }
+open class FloraApp : Application() {
+    val database by lazy { Room.databaseBuilder(this, FloraDatabase::class.java, "floratend.db").addMigrations(FloraDatabase.MIGRATION_1_2).build() }
     val settings by lazy { FloraSettings(this) }
     val billing by lazy { AmazonBilling(this, settings) }
+    open fun createSpeechRecognizer(context: Context): android.speech.SpeechRecognizer = android.speech.SpeechRecognizer.createSpeechRecognizer(context)
     override fun onCreate() { super.onCreate(); Reminders.schedule(this) }
 }
 

@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <application android:name="com.floratend.app.QaFloraApp" tools:replace="android:name">
+        <!-- Disabled except during explicit QA speech-contract tests; absent from release. -->
+        <service android:name="com.floratend.app.FixtureRecognitionService" android:exported="true" android:enabled="false">
+            <intent-filter><action android:name="android.speech.RecognitionService" /></intent-filter>
+        </service>
+        <provider android:name="androidx.core.content.FileProvider" android:authorities="${applicationId}.qa.fixtures" android:exported="false" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/qa_fixture_paths" />
+        </provider>
+    </application>
+</manifest>

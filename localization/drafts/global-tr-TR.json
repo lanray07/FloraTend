@@ -149,7 +149,10 @@
   "welcome": "FloraTend uygulamasına hoş geldiniz",
   "wet": "Toprak kontrolü: ıslak",
   "your_garden": "Biraz bakım. Daha yeşil bir ev.",
-  "reminder_count": {"one": "Gözden geçirilecek %1$d bitki bakım kontrolü var.", "other": "Gözden geçirilecek %1$d bitki bakım kontrolü var."},
+  "reminder_count": {
+    "one": "Gözden geçirilecek %1$d bitki bakım kontrolü var.",
+    "other": "Gözden geçirilecek %1$d bitki bakım kontrolü var."
+  },
   "billing_unconfigured": "Amazon mağaza yapılandırması tamamlanana kadar satın alma kullanılamaz.",
   "billing_environment": "Bu ortamda Amazon satın alma kullanılamıyor.",
   "billing_history_loading": "Amazon satın alma geçmişi hâlâ yükleniyor. Kısa süre sonra tekrar deneyin.",
@@ -163,5 +166,15 @@
   "billing_restore_failed": "Amazon satın alımının geri yüklenmesi doğrulanamadı. Bağlandığınızda tekrar deneyin.",
   "billing_history_checked": "Amazon satın alma geçmişi kontrol edildi.",
   "billing_unavailable": "Amazon satın alma kullanılamıyor. Mağaza bağlantınızı kontrol edip tekrar deneyin.",
-  "collection_count": {"one": "Koleksiyonunuz · %1$d bitki", "other": "Koleksiyonunuz · %1$d bitki"}
+  "collection_count": {
+    "one": "Koleksiyonunuz · %1$d bitki",
+    "other": "Koleksiyonunuz · %1$d bitki"
+  },
+  "language": "Dil",
+  "system_language": "Cihaz dili",
+  "voice_output_unavailable": "Yüklü hiçbir ses bu dili desteklemiyor. Yazılı yanıtlar kullanılabilir.",
+  "spoken_feedback": "Sesli yanıtlar",
+  "loading_records": "Kayıtların yükleniyor…",
+  "load_error": "Kayıtların yüklenemedi. Lütfen tekrar dene.",
+  "retry": "Tekrar dene"
 }

@@ -1,0 +1,8 @@
+
+com.floratend.app.MeasurementEditorTest:.
+
+Time: 9.028
+
+OK (1 test)
+
+

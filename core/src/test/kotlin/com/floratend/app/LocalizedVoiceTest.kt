@@ -5,7 +5,7 @@ import org.junit.Test
 import java.util.Locale
 
 class LocalizedVoiceTest {
-    private val tags=listOf("en-GB","en-US","en-AU","es-ES","es-419","fr-FR","fr-CA","de-DE","it-IT","pt-BR","pt-PT","nl-NL","pl-PL","sv-SE","ja-JP","hi-IN","ar","tr-TR","id-ID")
+    private val tags=listOf("en-GB","en-US","en-AU","es-ES","es-419","fr-FR","fr-CA","de-DE","it-IT","pt-BR","pt-PT","nl-NL","pl-PL","sv-SE","ja-JP","hi-IN","ar","tr-TR","id-ID","ko-KR","zh-CN","zh-TW")
     private fun load(tag:String):VoiceDictionary {
         val input=javaClass.classLoader!!.getResourceAsStream("voice/$tag.properties") ?: error("Missing bundled dictionary $tag")
         return input.use { VoiceDictionary.read(it) }.also { VoiceParser.install(tag,it) }

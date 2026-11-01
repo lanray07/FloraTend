@@ -1,0 +1,10 @@
+{
+  "from": 1,
+  "to": 2,
+  "roomSchemaValidation": true,
+  "unicodeAndMeasurementsPreserved": true,
+  "photosPreserved": true,
+  "childRecordsPreserved": true,
+  "cascadesStillWork": true,
+  "unrelatedPlantPreserved": true
+}

@@ -27,7 +27,8 @@ def wrap(draw,text,face,width,locale):
 
 def compose(captures,out):
     source=json.loads((captures/'capture-manifest.json').read_text(encoding='utf-8-sig'))
-    assert len(source['locales'])==19,'All app locales must be captured successfully first'
+    expected=len(json.loads((ROOT/'localization/locales.json').read_text(encoding='utf-8'))) if source['versionCode']>=10 else 19
+    assert len(source['locales'])==expected,'All app locales must be captured successfully first'
     network=(captures/'network-state.txt').read_text(encoding='utf-8-sig')
     assert 'none' in network,'Offline claims require the recorded no-network condition'
     captured={r['locale']:{s['scene']:s for s in r['scenes']} for r in source['locales']}
@@ -58,7 +59,7 @@ def compose(captures,out):
             canvas.save(destination,optimize=True)
             exported=validate_png(destination);assert exported['store_dimensions_valid']
             rows.append({'listing_locale':locale,'native_app_locale':native,'scene':scene,'headline':title,'headline_lines':lines,'headline_font_px':face.size,'capture':str(raw.relative_to(ROOT)).replace('\\','/'),'capture_sha256':sha(raw),'export':str(destination.relative_to(ROOT)).replace('\\','/'),'export_sha256':sha(destination),'width':2560,'height':1600,'status':'DRAFT_PENDING_HUMAN_REVIEW','actual_rendered_ui':True,'offline_capture':True,'demonstration_records':True})
-    report={'version_code':source['versionCode'],'version_name':source['versionName'],'raw_app_locales':19,'store_locales':len(headlines),'images':len(rows),'human_language_approval':False,'region_mapping':MAPPING,'screenshots':rows}
+    report={'version_code':source['versionCode'],'version_name':source['versionName'],'raw_app_locales':len(source['locales']),'store_locales':len(headlines),'images':len(rows),'human_language_approval':False,'region_mapping':MAPPING,'screenshots':rows}
     report['device']={'model':'KFTRWI','name':'Fire HD 10 (2021)','api':28,'capture_width':1920,'capture_height':1200}
     (out/'localized-manifest.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     # Contact sheets retain all eight exported scenes for visual review of each locale.

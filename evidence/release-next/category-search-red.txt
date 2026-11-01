@@ -1,0 +1,29 @@
+
+com.floratend.app.MeasurementEditorTest:
+Error in translatedCategoryNameCanBeSearched(com.floratend.app.MeasurementEditorTest):
+java.lang.AssertionError: Failed: assertExists.
+Reason: Expected exactly '1' node but could not find any node that satisfies: (Text + EditableText contains 'Decimal fern' (ignoreCase: false))
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.assertExists(SemanticsNodeInteraction.kt:125)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.assertExists$default(SemanticsNodeInteraction.kt:124)
+	at com.floratend.app.MeasurementEditorTest.translatedCategoryNameCanBeSearched(MeasurementEditorTest.kt:50)
+
+
+Time: 7.123
+There was 1 failure:
+1) translatedCategoryNameCanBeSearched(com.floratend.app.MeasurementEditorTest)
+java.lang.AssertionError: Failed: assertExists.
+Reason: Expected exactly '1' node but could not find any node that satisfies: (Text + EditableText contains 'Decimal fern' (ignoreCase: false))
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.assertExists(SemanticsNodeInteraction.kt:125)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.assertExists$default(SemanticsNodeInteraction.kt:124)
+	at com.floratend.app.MeasurementEditorTest.translatedCategoryNameCanBeSearched(MeasurementEditorTest.kt:50)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+

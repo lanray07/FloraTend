@@ -174,4 +174,8 @@
   <string name="language">भाषा</string>
   <string name="system_language">डिवाइस की भाषा</string>
   <string name="voice_output_unavailable">इंस्टॉल की गई कोई आवाज़ इस भाषा का समर्थन नहीं करती। लिखित जवाब उपलब्ध रहेंगे।</string>
+  <string name="spoken_feedback">बोली गई प्रतिक्रियाएँ</string>
+  <string name="loading_records">आपके रिकॉर्ड लोड हो रहे हैं…</string>
+  <string name="load_error">आपके रिकॉर्ड लोड नहीं हो सके। फिर से प्रयास करें।</string>
+  <string name="retry">फिर से प्रयास करें</string>
 </resources>

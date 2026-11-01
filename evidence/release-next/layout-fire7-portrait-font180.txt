@@ -1,0 +1,8 @@
+
+com.floratend.app.AccessibilityLayoutTest:...
+
+Time: 15.566
+
+OK (3 tests)
+
+

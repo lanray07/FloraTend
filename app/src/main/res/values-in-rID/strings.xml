@@ -174,4 +174,8 @@
   <string name="language">Bahasa</string>
   <string name="system_language">Bahasa perangkat</string>
   <string name="voice_output_unavailable">Tidak ada suara terpasang yang mendukung bahasa ini. Tanggapan tertulis tetap tersedia.</string>
+  <string name="spoken_feedback">Tanggapan suara</string>
+  <string name="loading_records">Memuat catatanmu…</string>
+  <string name="load_error">Catatanmu tidak dapat dimuat. Coba lagi.</string>
+  <string name="retry">Coba lagi</string>
 </resources>

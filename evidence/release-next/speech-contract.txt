@@ -1,0 +1,8 @@
+
+com.floratend.app.SpeechContractTest:...
+
+Time: 22.758
+
+OK (3 tests)
+
+

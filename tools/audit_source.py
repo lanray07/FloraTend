@@ -12,13 +12,16 @@ application = manifest.find('application')
 gradle = (ROOT / 'app/build.gradle.kts').read_text()
 resources = ET.parse(main / 'res/values/strings.xml').getroot()
 names = [e.attrib['name'] for e in resources if e.tag == 'string']
-sources = '\n'.join(p.read_text(encoding='utf-8-sig') for p in main.glob('java/**/*.kt'))
+core_sources = '\n'.join(p.read_text(encoding='utf-8-sig') for p in (ROOT / 'core/src/main/kotlin').rglob('*.kt'))
+sources = '\n'.join(p.read_text(encoding='utf-8-sig') for p in main.glob('java/**/*.kt')) + '\n' + core_sources
 refs = set(re.findall(r'R\.string\.(\w+)', sources))
 patterns = [r'sk-proj-[A-Za-z0-9_-]{20,}', r'AKIA[A-Z0-9]{16}', r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----']
 product = json.loads((ROOT / 'billing/product-metadata.json').read_text(encoding='utf-8-sig'))
 fixture = json.loads((ROOT / 'billing/amazon.sdktester.json').read_text(encoding='utf-8-sig'))
 sdk_sku = re.search(r'const val PREMIUM_SKU = "([^"]+)"', sources).group(1)
 checks = {
+    'core_logic_has_no_android_or_store_dependency': not re.search(r'import (?:android|androidx|com\.amazon)\.', core_sources),
+    'app_depends_on_core': 'implementation(project(":core"))' in gradle,
     'all_referenced_strings_exist': not (refs - set(names)),
     'source_string_names_unique': len(names) == len(set(names)),
     'android_backup_disabled': application.get(android + 'allowBackup') == 'false',
@@ -30,7 +33,7 @@ checks = {
     'iap_metadata_fields_within_console_limits': all(0 < len(m['title']) <= 128 and 0 < len(m['description']) <= 1200 for m in product['locales'].values()),
     'google_play_services_and_billing_not_declared': not re.search(r'com\.google\.android\.(?:gms|play)|com\.android\.billingclient', gradle),
     'package_identifier_configured': 'applicationId = "com.floratend.app"' in gradle,
-        'version_configured': 'versionCode = 8' in gradle and 'versionName = "0.1.7"' in gradle,
+    'version_configured': 'versionCode = 10' in gradle and 'versionName = "0.1.9"' in gradle,
     'fire_os_16_target_api': 'compileSdk = 36' in gradle and 'targetSdk = 36' in gradle,
     'no_recognised_source_secret_patterns': not any(re.search(pattern, sources + gradle) for pattern in patterns),
     'authentication_assets_are_public_keys': all(b'BEGIN PUBLIC KEY' in p.read_bytes() and b'PRIVATE KEY' not in p.read_bytes() for p in main.glob('assets/*.pem')),

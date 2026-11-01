@@ -1,0 +1,8 @@
+
+com.floratend.app.PhotoCollectionTest:.
+
+Time: 20.044
+
+OK (1 test)
+
+

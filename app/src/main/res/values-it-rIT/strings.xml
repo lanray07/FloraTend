@@ -174,4 +174,8 @@
   <string name="language">Lingua</string>
   <string name="system_language">Lingua del dispositivo</string>
   <string name="voice_output_unavailable">Nessuna voce installata supporta questa lingua. Le risposte scritte restano disponibili.</string>
+  <string name="spoken_feedback">Risposte vocali</string>
+  <string name="loading_records">Caricamento dei tuoi dati…</string>
+  <string name="load_error">Impossibile caricare i tuoi dati. Riprova.</string>
+  <string name="retry">Riprova</string>
 </resources>

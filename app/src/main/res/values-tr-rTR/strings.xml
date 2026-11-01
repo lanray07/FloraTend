@@ -174,4 +174,8 @@
   <string name="language">Dil</string>
   <string name="system_language">Cihaz dili</string>
   <string name="voice_output_unavailable">Yüklü hiçbir ses bu dili desteklemiyor. Yazılı yanıtlar kullanılabilir.</string>
+  <string name="spoken_feedback">Sesli yanıtlar</string>
+  <string name="loading_records">Kayıtların yükleniyor…</string>
+  <string name="load_error">Kayıtların yüklenemedi. Lütfen tekrar dene.</string>
+  <string name="retry">Tekrar dene</string>
 </resources>

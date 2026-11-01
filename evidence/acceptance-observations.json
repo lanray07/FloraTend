@@ -4,20 +4,22 @@
     "execution_date": "2026-10-30",
     "environment": "Windows / Python 3.10 / Android resource source audit",
     "status": "BLOCKED",
-    "actual_result": "All 19 requested Android locale bundles contain 168 resources with zero resource-validation errors. Native resource/dictionary loading passed for all 19; representative Spanish, German, Japanese and Arabic UI/actions passed. Human release approval remains pending for every locale.",
+    "actual_result": "All22 packaged locale bundles contain172 translatable resources with zero structural/placeholder validation errors. All remain assistant drafts without qualified human approval tied to current source hash. Real engine availability is separate.",
     "evidence": [
-      "evidence/localization-validation.txt",
-      "localization/validation-report.json"
+      "localization/validation-report.json",
+      "localization/review.json",
+      "evidence/release-next/localization-validation.txt"
     ],
     "corrective_action": "Translate, validate, render and review every release-approved interface locale."
   },
   "AC-07.14": {
     "test_name": "Human linguistic approval audit",
     "status": "BLOCKED",
-    "actual_result": "All 19 locale review records explicitly remain assistant_draft_pending_human_review; no reviewer or approval date is claimed.",
+    "actual_result": "All22 packaged locale bundles contain172 translatable resources with zero structural/placeholder validation errors. All remain assistant drafts without qualified human approval tied to current source hash. Real engine availability is separate.",
     "evidence": [
+      "localization/validation-report.json",
       "localization/review.json",
-      "localization/validation-report.json"
+      "evidence/release-next/localization-validation.txt"
     ],
     "corrective_action": "Obtain qualified human review tied to the exact current source hash."
   },
@@ -849,7 +851,7 @@
     "evidence": [
       "evidence/localized-device/screens/resource-and-dictionary-checks.json",
       "evidence/api36-build.log",
-      "app/src/test/java/com/floratend/app/LocalizedVoiceTest.kt"
+      "core/src/test/kotlin/com/floratend/app/LocalizedVoiceTest.kt"
     ],
     "corrective_action": "Retain this evidence scope; complete remaining release gates separately."
   },
@@ -1412,5 +1414,530 @@
       "assets/ASSET_PROVENANCE.md"
     ],
     "corrective_action": ""
+  },
+  "AC-01.05": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Core module boundary",
+    "actual_result": "Android-independent recurrence, decimal input and voice parser/dictionaries now build and test in :core. Android/Room/store/service code stays in :app; source audit rejects Android imports in core.",
+    "evidence": [
+      "evidence/release-next/final-validation.log",
+      "core/README.md"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-01.08": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Exported-schema migration preservation",
+    "actual_result": "Real exported Room v1 upgraded to v2. Unicode records, plant relationships, schedules, journal measurements/history and private photograph survived; cascade isolation verified.",
+    "evidence": [
+      "evidence/release-next/schema2-card-label-green.txt",
+      "evidence/release-next/migration-preservation.json"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-02.03": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Primary target bounds",
+    "actual_result": "Actual Compose semantics touch bounds for Add plant and six primary navigation controls are at least 48dp on HD10 and simulated 7/8-inch configurations at 180% font.",
+    "evidence": [
+      "evidence/release-next/layout-fire7-portrait-font180.txt",
+      "evidence/release-next/accessibility/fire7-portrait-font180/primary-touch-bounds.json"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-02.04": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Enlarged-font primary workflows",
+    "actual_result": "Native garden, care, journal, typed voice and settings controls remain reachable on 7-inch portrait/landscape and 8-inch portrait/landscape at fontScale 1.8; captured actual dimensions/configuration. Physical hardware is HD10, not physical 7/8-inch certification.",
+    "evidence": [
+      "evidence/release-next/layout-fire7-portrait-font180.txt",
+      "evidence/release-next/layout-fire7-landscape-motion0-font180.txt",
+      "evidence/release-next/layout-fire8-portrait-font180.txt",
+      "evidence/release-next/layout-fire8-landscape-font180.txt"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-02.07": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Slow reads and failed reads are distinct from empty data",
+    "actual_result": "Controlled delayed DAO initially reproduced false-empty UI. Explicit Loading then Ready now passes; controlled read IOException shows localized retry, retry succeeds, stored plant count unchanged. Real offline process/photo checks separately pass.",
+    "evidence": [
+      "evidence/release-next/record-loading-red.txt",
+      "evidence/release-next/record-loading-green.txt",
+      "evidence/release-next/offline-verify.txt"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-03.04": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Plant photo picker contract and editor persistence",
+    "actual_result": "Actual PlantEditor picker callback imported a content URI through ContentResolver, downsampled 3200x2400 to private 1600x1200, saved through Room and decoded after selected source deletion. Picker output is controlled QA fixture, not a real camera capture or external permission grant.",
+    "evidence": [
+      "evidence/release-next/photo-regression.txt",
+      "app/src/androidTest/java/com/floratend/app/PhotoAttachmentTest.kt"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-03.08": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Offline process death preservation",
+    "actual_result": "Seed process 19404 and verification process 19619 differ. Explicit force-stop with Wi-Fi disabled and no default network preserved plant notes, schedule, journal order/measurements and private photograph pixels.",
+    "evidence": [
+      "evidence/release-next/offline-seed-process.json",
+      "evidence/release-next/offline-network-state.txt",
+      "evidence/release-next/offline-process/verified.json"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-05.02": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Journal photo attachment",
+    "actual_result": "JournalEditor accepted controlled content URI through actual result callback/ContentResolver, enabled Save only once imported, persisted entry and decoded its private photograph after source deletion.",
+    "evidence": [
+      "evidence/release-next/photo-regression.txt",
+      "app/src/androidTest/java/com/floratend/app/PhotoAttachmentTest.kt"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-05.03": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Localized measurement edit and persistence",
+    "actual_result": "German 25,4 initially disabled Save. Locale-aware parser now saves height25.4 and reopens25,4. Metric/imperial rendering, malformed/grouped/nonfinite values and integer overflow are covered independently.",
+    "evidence": [
+      "evidence/release-next/decimal-editor-red.txt",
+      "evidence/release-next/decimal-editor-green.txt",
+      "evidence/release-next/schema2-card-label-green.txt",
+      "evidence/release-next/final-validation.log"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-05.06": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Saved image comparison",
+    "actual_result": "Two distinct private saved images and dates were rendered by actual comparison UI, then verified by dimensions and pixels after offline process death. Controlled green/blue image fixtures are not claimed as customer growth.",
+    "evidence": [
+      "evidence/release-next/native-suite.txt",
+      "evidence/release-next/offline-process/verified.json"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-06.01": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Contextual microphone request",
+    "actual_result": "Real Android permission dialog appeared only after push-to-talk; denying left permission denied and service start count zero. Typed navigation still worked.",
+    "evidence": [
+      "evidence/release-next/speech-contract.txt",
+      "evidence/release-next/speech-contract/contextual-microphone-dialog.png"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-06.03": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Listening callback UI",
+    "actual_result": "Actual Android RecognitionService binder callbacks drove visible Listening state, then ended it after controlled results/error/background. Synthetic output, no microphone recognition claimed.",
+    "evidence": [
+      "evidence/release-next/speech-contract.txt"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-06.04": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Transcript review before action",
+    "actual_result": "Controlled Android binder result displayed Add a new plant as editable transcript. Editor opened only after Run command was pressed; no automatic execution.",
+    "evidence": [
+      "evidence/release-next/speech-contract.txt"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-06.08": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Speech errors and retry",
+    "actual_result": "Controlled ERROR_NETWORK from QA RecognitionService ended listening, displayed error and allowed retry; background canceled pending session.",
+    "evidence": [
+      "evidence/release-next/speech-contract.txt"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-06.09": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Real denied microphone permission",
+    "actual_result": "Android microphone Deny did not start recognition or crash; typed Read reminders command remained usable.",
+    "evidence": [
+      "evidence/release-next/speech-contract.txt"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-06.11": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Non-voice primary workflows",
+    "actual_result": "Native touch CRUD, care, journal, search, measurement and photo editing plus typed commands passed without an ASR engine. Recognition remains optional.",
+    "evidence": [
+      "evidence/release-next/native-suite.txt",
+      "evidence/release-next/photo-regression.txt"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-06.12": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "No background recognition session",
+    "actual_result": "Pending controlled recognition was canceled by Activity.onStop; listening false after background. Main manifest declares no microphone service. QA fixture disabled after tests and absent from release sources.",
+    "evidence": [
+      "evidence/release-next/speech-contract.txt",
+      "app/src/main/AndroidManifest.xml"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-10.06": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Private photographs survive offline process restart",
+    "actual_result": "No default network, different process PID, same persisted private photograph dimensions/pixels and comparison UI.",
+    "evidence": [
+      "evidence/release-next/offline-network-state.txt",
+      "evidence/release-next/offline-process/verified.json"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-10.07": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Offline record persistence",
+    "actual_result": "Plant, schedule, two ordered journal entries and private images survive force-stop/no-network restart.",
+    "evidence": [
+      "evidence/release-next/offline-process/verified.json"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-13.03": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Original launch artwork",
+    "actual_result": "Original native sprout vector generated and Android-rendered in contact sheet; integrated legacy launch theme and API31 splash resource. Fire API28 launch verified by device workflows; API31 runtime remains outside this pass.",
+    "evidence": [
+      "evidence/release-next/botanical-assets/native-vector-contact-sheet.png",
+      "assets/ASSET_PROVENANCE.md"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-13.04": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Eight original category vectors",
+    "actual_result": "Eight distinct original editable SVG/native Android category illustrations rendered successfully and integrated into real plant cards. Contact sheet inspected visually.",
+    "evidence": [
+      "evidence/release-next/botanical-assets/native-vector-contact-sheet.png",
+      "assets/ASSET_PROVENANCE.md"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-13.06": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Original Premium artwork",
+    "actual_result": "Native canopy Premium illustration rendered and integrated into Settings upgrade surface; all ten botanical native drawables passed render test.",
+    "evidence": [
+      "evidence/release-next/native-suite.txt",
+      "evidence/release-next/botanical-assets/native-vector-contact-sheet.png"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-13.09": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Bounded image decode and vector rendering",
+    "actual_result": "Selected 3200x2400 content decoded in two passes to1600x1200 private copies. All ten vector assets rendered. 120-photo scroll retained all files without OOM; this does not certify smooth frame timing.",
+    "evidence": [
+      "evidence/release-next/photo-regression.txt",
+      "evidence/release-next/performance/photo-collection.json"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-16.03": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Contextual microphone permission and denial",
+    "actual_result": "Actual Android permission request followed explicit push-to-talk only; denial prevented service start and retained typed alternative.",
+    "evidence": [
+      "evidence/release-next/speech-contract.txt"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-16.07": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Destination export through recreation",
+    "actual_result": "Real Android DocumentsUI rotated before destination return; app wrote complete transactional UTF-8 JSON with Unicode and quoted notes. Private data payload not saved in instance state; Premium rechecked on result. Controlled QA sandbox entitlement only.",
+    "evidence": [
+      "evidence/release-next/export-destination.txt",
+      "evidence/release-next/export-validation.json",
+      "evidence/release-next/export-rotation.json"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-17.02": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Primary 48dp controls",
+    "actual_result": "Measured primary navigation/Add targets meet48dp at enlarged font and multiple configurations.",
+    "evidence": [
+      "evidence/release-next/accessibility/fire7-portrait-font180/primary-touch-bounds.json",
+      "evidence/release-next/layout-fire8-portrait-font180.txt"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-17.03": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "System font scale reachability",
+    "actual_result": "At fontScale1.8, 7/8-inch portrait/landscape primary flows remain reachable; real captures and configuration records retained. Simulated dimensions on physical HD10.",
+    "evidence": [
+      "evidence/release-next/layout-fire7-portrait-font180.txt",
+      "evidence/release-next/layout-fire8-portrait-font180.txt",
+      "evidence/release-next/layout-fire8-landscape-font180.txt"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-17.07": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Optional voice and spoken feedback",
+    "actual_result": "Touch/typed workflows pass without recognizer. Installed real TTS speaking session stopped on spoken-feedback disable; later speak did not start, and preference survived recreation.",
+    "evidence": [
+      "evidence/release-next/spoken-feedback.json",
+      "evidence/release-next/native-suite.txt"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-18.03": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "120 saved photographs without memory failure",
+    "actual_result": "Physical HD10 scrolled120 distinct private photographs after source3200x2400 import. All120files remained, no decode/OOM/crash observed; PSS115711→128565KiB. FrameP95 in debug/instrumentation was slow and is not approved as smooth.",
+    "evidence": [
+      "evidence/release-next/photo-regression.txt",
+      "evidence/release-next/performance/photo-collection.json"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-18.04": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Memory-bounded photo import and display",
+    "actual_result": "Two-pass downsampling bounded private image dimensions and120-file scrolling completed with modest PSS increase on tested HD10. No full-resolution retention/source grant dependency.",
+    "evidence": [
+      "evidence/release-next/photo-regression.txt",
+      "evidence/release-next/performance/photo-collection.json"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-18.06": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Room main-thread guard and indexed reads",
+    "actual_result": "Actual application database rejects main-thread query. Migration adds ordered-query indexes; green explain plans use indexes instead of TEMP B-TREE for journal/history/schedule sorting.",
+    "evidence": [
+      "evidence/release-next/schema2-card-label-green.txt",
+      "evidence/release-next/ordered-query-red.txt",
+      "evidence/release-next/ordered-query-green-plans.json"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-18.08": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
+    "test_name": "Data and saved photos after real process restart",
+    "actual_result": "Explicit QA process force-stop/no-network restart preserved records, order, measurements, private file dimensions and pixels; separate schema migration also preserves relationship data.",
+    "evidence": [
+      "evidence/release-next/offline-process/verified.json",
+      "evidence/release-next/migration-preservation.json"
+    ],
+    "corrective_action": "Preserve scoped evidence; broader release approval is separate."
+  },
+  "AC-14.01": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Python3.10; local draft files; official Amazon pages rechecked1November",
+    "test_name": "Localized title draft preparation",
+    "actual_result": "All15 store locale drafts have nonempty protected-brand display titles. Numeric public title maximum is not invented; final console/name/rights approval remains separate.",
+    "evidence": [
+      "evidence/release-next/metadata-audit.json"
+    ],
+    "corrective_action": "Retain draft status pending qualified linguistic and publisher review."
+  },
+  "AC-14.02": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Python3.10; local draft files; official Amazon pages rechecked1November",
+    "test_name": "Localized product summary draft preparation",
+    "actual_result": "All15 locale drafts have nonempty short descriptions, each below documented2000UTF8bytes. Draft preparation does not grant human language approval.",
+    "evidence": [
+      "evidence/release-next/metadata-audit.json"
+    ],
+    "corrective_action": "Retain draft status pending qualified linguistic and publisher review."
+  },
+  "AC-14.03": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Python3.10; local draft files; official Amazon pages rechecked1November",
+    "test_name": "Localized full description draft preparation",
+    "actual_result": "All15 locale drafts have nonempty full descriptions below4000characters and3–5nonemptyfeaturebullets. Qualified linguistic/claims approval remains pending.",
+    "evidence": [
+      "evidence/release-next/metadata-audit.json"
+    ],
+    "corrective_action": "Retain draft status pending qualified linguistic and publisher review."
+  },
+  "AC-14.08": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Python3.10; local draft files; official Amazon pages rechecked1November",
+    "test_name": "Supported listing field schema",
+    "actual_result": "Draft schema uses documented display title, short/longdescription, featurebullets and comma-separatedKeywords. Internal locale/review_status fields are not invented store SEO fields.",
+    "evidence": [
+      "evidence/release-next/metadata-audit.json"
+    ],
+    "corrective_action": "Retain draft status pending qualified linguistic and publisher review."
+  },
+  "AC-09.02": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Python3.10; local draft files; official Amazon pages rechecked1November",
+    "test_name": "New-source-string extraction",
+    "actual_result": "Three new Loading/Error/Retry keys were extracted into current172-resource source catalog and supplied in all22draftbundles; structural/placeholder validation has zero errors. Live translation provider and human review remain separate.",
+    "evidence": [
+      "localization/source.json",
+      "evidence/release-next/localization-validation.txt"
+    ],
+    "corrective_action": "Retain draft status pending qualified linguistic and publisher review."
+  },
+  "AC-18.02": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical FireHD10/API28, nondebuggable isolated0.1.9/code10 candidate, compile reset, no attached test harness",
+    "test_name": "Normal-app120-photo scroll frame measurement",
+    "actual_result": "After isolated seeded setup and normal process launch, sixteen OS swipes produced851frames,13ms frameP95 and0.35%jank. Image/thumbnail/hardware/concurrency trials retained; slow Compose-instrumented numbers did not represent normal-app scrolling. Thumbnail experiment reverted. Other hardware remains unverified.",
+    "evidence": [
+      "evidence/release-next/performance-standalone.json",
+      "evidence/release-next/photo-standalone-seed.txt",
+      "evidence/release-next/performance-art-reset.txt"
+    ],
+    "corrective_action": "Repeat on additional release hardware; do not substitute instrumented timings for normal-app figures."
+  },
+  "AC-09.10": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Local WindowsCurrentUser DPAPI; developer-signed production/LAT0.1.9APK inspection",
+    "test_name": "Protected-configuration absence in actual candidate APKs",
+    "actual_result": "Configured DPAPI secret values were decrypted in memory locally and compared against every uncompressed entry in both signed candidate APKs; all absent. Translation credentials stay in desktop tooling, not Android sources/assets. No secret values or account identifiers emitted. Live translation-provider operation remains blocked separately.",
+    "evidence": [
+      "evidence/release-next/protected-secret-artifact-check.json",
+      "evidence/release-next/production-artifact.json",
+      "evidence/release-next/lat-artifact.json"
+    ],
+    "corrective_action": "Retain developer/server-only secret storage; never embed provider credentials in client."
+  },
+  "AC-02.09": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical HD10/API28, actual AmazonVoiceView, .qa0.1.9; no Compose clock or suppressed accessibility service",
+    "test_name": "Meaningful native accessibility labels",
+    "actual_result": "Card identity label reproduced red and fixed. Real VoiceView enabled on HD10; native accessibility nodes expose meaningful Addplant/Save/navigation/language/Close labels, support focus/click and permit edited plant text to persist. No multilingual pronunciation claim.",
+    "evidence": [
+      "evidence/release-next/voiceview-bridge.txt",
+      "evidence/release-next/voiceview/voiceview-bridge/results.json",
+      "evidence/release-next/voiceview/calendar-action.png",
+      "evidence/release-next/schema2-card-label-green.txt"
+    ],
+    "corrective_action": "Retain language/hardware scope; arrange multilingual human review separately."
+  },
+  "AC-17.01": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical HD10/API28, actual AmazonVoiceView, .qa0.1.9; no Compose clock or suppressed accessibility service",
+    "test_name": "Actual VoiceView service and native bridge",
+    "actual_result": "With real Amazon VoiceView active and UiAutomation explicitly configured not to suppress accessibility services, native focus/click/set-text actions created a plant, navigated calendar/journal/voice/insights/settings and opened/closed language selection. VoiceView restored off. Manual touch gestures and non-English pronunciation remain outside this scoped pass.",
+    "evidence": [
+      "evidence/release-next/voiceview-bridge.txt",
+      "evidence/release-next/voiceview/voiceview-bridge/results.json",
+      "evidence/release-next/voiceview/calendar-action.png",
+      "evidence/release-next/schema2-card-label-green.txt"
+    ],
+    "corrective_action": "Retain language/hardware scope; arrange multilingual human review separately."
+  },
+  "AC-17.09": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "Physical HD10/API28, actual AmazonVoiceView, .qa0.1.9; no Compose clock or suppressed accessibility service",
+    "test_name": "Navigation through accessible actions and keyboard",
+    "actual_result": "Primary navigation worked with keyboard focus/DPAD-center while VoiceView was enabled; native accessibility focus/click/set-text completed nine primary control actions without precise coordinates. Some injected touch/DPAD attempts were inconclusive and retained, not called app defects.",
+    "evidence": [
+      "evidence/release-next/voiceview-bridge.txt",
+      "evidence/release-next/voiceview/voiceview-bridge/results.json",
+      "evidence/release-next/voiceview/calendar-action.png",
+      "evidence/release-next/schema2-card-label-green.txt"
+    ],
+    "corrective_action": "Retain language/hardware scope; arrange multilingual human review separately."
+  },
+  "AC-19.11": {
+    "status": "PASS",
+    "execution_date": "2026-11-01",
+    "environment": "PhysicalHD10/API28 plus explicitly simulated7/8-inch dimensions; source/console target inspection",
+    "test_name": "Prepared declared/physical/simulated device matrix",
+    "actual_result": "Matrix distinguishes12console-declared tablet targets from one physically tested HD10, simulated7/8-inch layouts, newerOS/runtime gaps, pending unplugged battery measurements and excluded TV/automotive/other-store ports. Evidence links and actual configuration records supplied; no universal compatibility claim.",
+    "evidence": [
+      "docs/DEVICE_MATRIX_20261101.md",
+      "evidence/release-next/production-artifact.json",
+      "evidence/release-next/accessibility/fire7-portrait-font180/configuration.json",
+      "evidence/release-next/accessibility/fire8-landscape-font180/configuration.json"
+    ],
+    "corrective_action": "Execute remaining physical/newestOS and battery cases before broad device certification."
   }
 }

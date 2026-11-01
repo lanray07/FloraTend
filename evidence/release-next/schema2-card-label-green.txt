@@ -1,0 +1,10 @@
+
+com.floratend.app.SchemaMigrationTest:..
+com.floratend.app.OrderedQueryIndexTest:.
+com.floratend.app.AccessibilityLayoutTest:...
+
+Time: 17.085
+
+OK (6 tests)
+
+

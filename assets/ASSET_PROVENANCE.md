@@ -21,3 +21,15 @@ Store icon exports were visually inspected at 512×512. The original water-drop 
 # Localized screenshot package — 30 October 2026
 
 The 152 source captures in `evidence/store-captures/run-20261030-094326` are actual rendered native Fire UI with explicitly seeded demonstration records. The 120 PNGs under `assets/screenshots/localized` preserve the full screen and add original localized draft headlines. The imported demonstration image is the existing original botanical hero artwork. Native records are examples, not customer data or claimed real-world growth results. Hashes, regional mappings and review status are in `localized-manifest.json`. Windows-installed fonts were used for rendering; font files are not redistributed. Human linguistic/claims review remains pending. See `docs/RELEASE_VERIFICATION_20261030.md` for reproduction and console limitations.
+
+
+## Native botanical vectors — 1 November 2026
+
+`tools/build_botanical_vectors.py` authors original editable SVG paths for eight plant categories, a sprout splash and a Premium canopy illustration. Masters are in `assets/botanical-vectors`; matching `art_*.xml` Android vectors are generated without third-party art, stock imagery or raster image editing. Plant cards select category artwork, Settings renders Premium artwork, and the application launch theme uses the splash on legacy Android and the API31 system splash. Runtime evidence covers Fire API28; API31 launch behavior remains unverified.
+
+`BotanicalAssetTest` rendered all ten actual native resources into a contact sheet and checked non-background pixels. The sheet was visually inspected for distinctive silhouettes, colour, clipping and legibility. See `evidence/release-next/botanical-assets/native-vector-contact-sheet.png`. Vector geometry scales without large decoded bitmap allocations. This creation record does not resolve publisher name/trademark clearance or approve translated screenshot claims.
+
+
+## Refreshed screenshot drafts — 1 November 2026
+
+The current120compositions now derive from176actual offline native captures across22app locales in `evidence/store-captures/run-20261101-141237`, disposable QA version0.1.9/code10. They preserve the full captured screen and use existing original botanical demonstration imagery. All15listing locales are represented; each retains eight scenes. Native capture, crop/integrity, dimensions and hash checks passed. Linguistic, market terminology, readability and claims approval by qualified reviewers remain pending. Earlier capture directories remain historical evidence.

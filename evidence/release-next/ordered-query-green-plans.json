@@ -1,0 +1,11 @@
+{
+  "journal": [
+    "SCAN TABLE journal USING INDEX index_journal_date"
+  ],
+  "history": [
+    "SCAN TABLE history USING INDEX index_history_date"
+  ],
+  "schedules": [
+    "SCAN TABLE schedules USING INDEX index_schedules_nextDate"
+  ]
+}

@@ -10,6 +10,7 @@ class FloraSettings(private val context: Context) {
     val onboarded = context.store.data.map { it[booleanPreferencesKey("onboarded")] ?: false }
     val dark = context.store.data.map { it[booleanPreferencesKey("dark")] ?: false }
     val imperial = context.store.data.map { it[booleanPreferencesKey("imperial")] ?: false }
+    val spokenFeedback = context.store.data.map { it[booleanPreferencesKey("spoken_feedback")] ?: true }
     val reminders = context.store.data.map { it[booleanPreferencesKey("reminders")] ?: false }
     internal val premiumProjection = context.store.data.map { it[booleanPreferencesKey("premium")] ?: false }
     // A stale projection alone can never unlock a release build from sandbox state.

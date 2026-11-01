@@ -174,4 +174,8 @@
   <string name="language">Language</string>
   <string name="system_language">Device language</string>
   <string name="voice_output_unavailable">No installed voice supports this language. Written feedback is still available.</string>
+  <string name="spoken_feedback">Spoken feedback</string>
+  <string name="loading_records">Loading your records…</string>
+  <string name="load_error">Your records could not be loaded. Please try again.</string>
+  <string name="retry">Try again</string>
 </resources>

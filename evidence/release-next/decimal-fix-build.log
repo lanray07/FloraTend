@@ -1,0 +1,113 @@
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugBuildConfig
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :app:preQaBuild UP-TO-DATE
+> Task :app:mergeQaNativeDebugMetadata NO-SOURCE
+> Task :app:generateQaBuildConfig
+> Task :app:checkQaAarMetadata UP-TO-DATE
+> Task :app:generateQaResValues UP-TO-DATE
+> Task :app:mapQaSourceSetPaths UP-TO-DATE
+> Task :app:generateQaResources UP-TO-DATE
+> Task :app:mergeQaResources UP-TO-DATE
+> Task :app:packageQaResources UP-TO-DATE
+> Task :app:parseQaLocalResources UP-TO-DATE
+> Task :app:createQaCompatibleScreenManifests
+> Task :app:extractDeepLinksQa UP-TO-DATE
+> Task :app:processQaMainManifest
+> Task :app:processQaManifest
+> Task :app:processDebugManifestForPackage
+> Task :app:processQaManifestForPackage
+> Task :app:processDebugResources
+> Task :app:processQaResources
+> Task :app:kspDebugKotlin
+> Task :app:kspQaKotlin
+> Task :app:compileQaKotlin
+> Task :app:javaPreCompileQa UP-TO-DATE
+> Task :app:compileDebugKotlin
+> Task :app:compileQaJavaWithJavac
+> Task :app:compileDebugJavaWithJavac
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:bundleDebugClassesToRuntimeJar
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:mergeQaShaders UP-TO-DATE
+> Task :app:compileQaShaders NO-SOURCE
+> Task :app:generateQaAssets UP-TO-DATE
+> Task :app:mergeQaAssets UP-TO-DATE
+> Task :app:compressQaAssets UP-TO-DATE
+> Task :app:checkQaDuplicateClasses UP-TO-DATE
+> Task :app:desugarQaFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexQa UP-TO-DATE
+> Task :app:mergeLibDexQa UP-TO-DATE
+> Task :app:kspDebugUnitTestKotlin
+> Task :app:dexBuilderQa
+> Task :app:mergeProjectDexQa
+> Task :app:mergeQaGlobalSynthetics UP-TO-DATE
+> Task :app:processQaJavaRes UP-TO-DATE
+> Task :app:mergeQaJavaResource UP-TO-DATE
+> Task :app:mergeQaJniLibFolders UP-TO-DATE
+> Task :app:mergeQaNativeLibs UP-TO-DATE
+> Task :app:stripQaDebugSymbols UP-TO-DATE
+> Task :app:validateSigningQa UP-TO-DATE
+> Task :app:writeQaAppMetadata UP-TO-DATE
+> Task :app:writeQaSigningConfigVersions UP-TO-DATE
+> Task :app:compileDebugUnitTestKotlin
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:testDebugUnitTest
+> Task :app:packageQa
+> Task :app:createQaApkListingFileRedirect
+> Task :app:assembleQa
+> Task :app:preQaAndroidTestBuild SKIPPED
+> Task :app:processQaAndroidTestManifest UP-TO-DATE
+> Task :app:generateQaAndroidTestBuildConfig UP-TO-DATE
+> Task :app:checkQaAndroidTestAarMetadata UP-TO-DATE
+> Task :app:generateQaAndroidTestResValues UP-TO-DATE
+> Task :app:mapQaAndroidTestSourceSetPaths UP-TO-DATE
+> Task :app:generateQaAndroidTestResources UP-TO-DATE
+> Task :app:mergeQaAndroidTestResources UP-TO-DATE
+> Task :app:processQaAndroidTestResources UP-TO-DATE
+> Task :app:javaPreCompileQaAndroidTest UP-TO-DATE
+> Task :app:mergeQaAndroidTestShaders UP-TO-DATE
+> Task :app:compileQaAndroidTestShaders NO-SOURCE
+> Task :app:generateQaAndroidTestAssets UP-TO-DATE
+> Task :app:mergeQaAndroidTestAssets UP-TO-DATE
+> Task :app:compressQaAndroidTestAssets UP-TO-DATE
+> Task :app:checkQaAndroidTestDuplicateClasses UP-TO-DATE
+> Task :app:desugarQaAndroidTestFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexQaAndroidTest UP-TO-DATE
+> Task :app:mergeLibDexQaAndroidTest UP-TO-DATE
+> Task :app:mergeQaAndroidTestJniLibFolders UP-TO-DATE
+> Task :app:mergeQaAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripQaAndroidTestDebugSymbols NO-SOURCE
+> Task :app:validateSigningQaAndroidTest UP-TO-DATE
+> Task :app:writeQaAndroidTestSigningConfigVersions UP-TO-DATE
+> Task :app:bundleQaClassesToCompileJar
+> Task :app:kspQaAndroidTestKotlin
+> Task :app:compileQaAndroidTestKotlin
+> Task :app:compileQaAndroidTestJavaWithJavac UP-TO-DATE
+> Task :app:dexBuilderQaAndroidTest
+> Task :app:mergeQaAndroidTestGlobalSynthetics UP-TO-DATE
+> Task :app:processQaAndroidTestJavaRes UP-TO-DATE
+> Task :app:mergeQaAndroidTestJavaResource UP-TO-DATE
+> Task :app:mergeProjectDexQaAndroidTest
+> Task :app:packageQaAndroidTest
+> Task :app:createQaAndroidTestApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleQaAndroidTest
+
+BUILD SUCCESSFUL in 1m 9s
+94 actionable tasks: 33 executed, 61 up-to-date

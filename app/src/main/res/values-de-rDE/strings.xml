@@ -174,4 +174,8 @@
   <string name="language">Sprache</string>
   <string name="system_language">Gerätesprache</string>
   <string name="voice_output_unavailable">Keine installierte Stimme unterstützt diese Sprache. Schriftliche Rückmeldungen bleiben verfügbar.</string>
+  <string name="spoken_feedback">Gesprochene Rückmeldungen</string>
+  <string name="loading_records">Deine Einträge werden geladen…</string>
+  <string name="load_error">Deine Einträge konnten nicht geladen werden. Versuche es erneut.</string>
+  <string name="retry">Erneut versuchen</string>
 </resources>

@@ -1,12 +1,12 @@
 # Current architecture
 
-This describes the source currently present, not a claim that every original architectural or acceptance requirement is complete. The project is one Gradle Android application module, `:app`, with package `com.floratend.app`; the master brief's separately packaged feature modules and strict Clean Architecture layers are not yet implemented.
+This describes the source currently present, not a claim that every original architectural or acceptance requirement is complete. The project contains Android application `:app` and Android-independent Kotlin/JVM `:core`. Core owns recurrence, voice parsing/dictionaries and decimal input rules; app owns Android UI, Room, speech services, billing and network verification. Package names remain `com.floratend.app`. Feature-per-module packaging and a separate repository layer are not claimed.
 
 ## Runtime and data flow
 
 `FloraApp` lazily creates a Room database, settings and billing service. `MainActivity` synchronously registers the Amazon SDK listener in onCreate before asynchronous entitlement recovery, hosts Compose and owns Android SpeechRecognizer/TextToSpeech lifecycle. `FloraRoot` chooses onboarding or the application surface, keeps navigation/edit-dialog state in Compose, and obtains `PlantViewModel`. Wide layouts use a rail and adaptive plant grid; compact layouts use bottom navigation. Material colours, serif headings and the botanical artwork form the current design treatment.
 
-`PlantViewModel` wraps the DAO and exposes Room Flows as StateFlows. Compose collects plant, schedule, journal and history snapshots. Mutations run in `viewModelScope`; Room suspend operations perform database work off the UI thread. Photo import and export IO use `Dispatchers.IO`. There is no separate domain-repository interface, Hilt graph or navigation library at present.
+`PlantViewModel` combines all four Room streams into explicit Loading, Ready and Unavailable states. Compose collects this state with the Activity lifecycle; retry resubscribes after read failure. A slow or failed read cannot render an empty collection as if it had loaded successfully. Mutations run in `viewModelScope`; Room suspend operations perform database work off the UI thread. Photo import and export IO use `Dispatchers.IO`. There is no separate domain-repository interface, Hilt graph or navigation library at present.
 
 ## Source responsibilities
 
@@ -20,7 +20,7 @@ This describes the source currently present, not a claim that every original arc
 | `Settings.kt` | DataStore preferences for onboarding, theme, units and reminders; Premium is projected only from the verified entitlement store |
 | `Photos.kt` | Bounded image decode, JPEG conversion and private local photo copy |
 | `Reminders.kt` | Unique 12-hour periodic WorkManager job and aggregate due-task notification |
-| `Voice.kt` | Resource-backed structured command parsing for 19 draft locale dictionaries; unsupported locale returns Unknown |
+| `Voice.kt` | Resource-backed structured command parsing for 22 draft locale dictionaries; unsupported locale returns Unknown |
 | `AmazonBilling.kt` | Native Appstore SDK listener, user/product/update requests, purchase/restore callbacks and strict server-verified cached entitlement |
 | `Export.kt` | JSON record export and quoted/formula-prefixed CSV plant export |
 
@@ -32,13 +32,13 @@ Room tables: `plants`, `schedules`, `journal`, `history`. Child rows reference p
 
 Dates represent local calendar days, not instants. `Recurrence.next` validates intervals from 1 to 3,650 days and adds calendar days. `Recurrence.reminder` maps a date to 09:00 in a supplied ZoneId; current WorkManager delivery does not schedule that exact instant. The periodic worker queries unpaused due schedules against the current local date and updates one stable notification ID. WorkManager may defer execution under OS power restrictions. Exact timing and timezone/device behaviour require device testing.
 
-Schema v1 is exported under `app/schemas`. No destructive fallback is configured and no previous-version migration exists. Before any schema version increment, add a migration and preservation tests against the exported prior schema.
+Schema v2 and historical v1 are exported under `app/schemas`. Migration 1→2 adds ordered-query indexes on journal/date, history/date and schedules/nextDate, preserving all tables. Native MigrationTestHelper exercises the actual v1 export, Unicode records, care/journal/history relationships, measurements and private photo files. No destructive fallback is configured.
 
 ## Photos, export and optional network features
 
 Selected content is decoded in two passes and downsampled to a bounded size before JPEG storage in `filesDir/photos`. URI grants are not retained as the source of truth. Camera integration launches an external preview activity; it does not request the app's own camera permission or provide full-resolution CameraX capture. UI handles missing journal photo files with explanatory text. Per-record unused-photo cleanup and large-collection memory behaviour require further verification.
 
-JSON export includes all four record collections and schemaVersion, but excludes image binaries and does not implement restoration. CSV is a plant table, with quoted fields and a prefix for formula-leading cells. Android's document creation picker chooses the export destination. Premium is required for the export buttons. Cloud backup, encrypted backup and photo-identification engine integration are unavailable rather than silently simulated.
+JSON export includes all four record collections and schemaVersion, but excludes image binaries and does not implement restoration. CSV is a plant table, with quoted fields and a prefix for formula-leading cells. Android's document creation picker chooses the export destination. Premium is required for the export buttons and rechecked when the destination returns. Only the pending format is saved across Activity recreation; a fresh Room transaction reads all four collections after the document destination is chosen, then UTF-8 output is written on IO. Personal export payloads are not stored in saved-instance state. Cloud backup, encrypted backup and photo-identification engine integration are unavailable rather than silently simulated.
 
 The app requests Internet access for Amazon/service capabilities. Core DAO operations do not require a network or account. Android speech engines may use their own network services; current voice input makes no offline-recognition guarantee. Release network auditing must substantiate privacy disclosures.
 
@@ -50,8 +50,12 @@ Billing retrieves store prices rather than embedding a purchase price. It checks
 
 ## Development tooling and verification boundaries
 
-Python translation tooling extracts XML string/plural resources, protects placeholders/brand terms, caches translations by source content, validates missing resources and tracks review hashes. The live DeepL provider is not configured or verified; credentials must remain in the developer environment. Nineteen voice dictionaries, 15 store metadata drafts and 120 localized screenshot compositions exist, with human linguistic approval pending. The website is English only. Korean and Simplified/Traditional Chinese from the standing worldwide-language priorities are not packaged in the current 19-locale set.
+Python translation tooling extracts XML string/plural resources, protects placeholders/brand terms, caches translations by source content, validates missing resources and tracks review hashes. The live DeepL provider is not configured or verified; credentials must remain in the developer environment. Twenty-two voice dictionaries, 15 store metadata drafts and 120 localized screenshot compositions exist, with human linguistic approval pending. The website is English only. Korean and Simplified/Traditional Chinese now have complete draft resource bundles and dictionaries; qualified review remains pending.
 
 The static website generator emits twelve English pages. Its local build deliberately blocks indexing until a real SITE_URL is configured. Acceptance reporting has 204 source-checkbox criteria and refuses PASS/FAIL records without dated environment/result/evidence fields. It does not establish that the supplied evidence substantively proves the criterion; that remains reviewer responsibility.
 
 JUnit covers recurrence/parser behaviour; instrumented tests exercise Room and Compose flows when executed on a connected device. Supporting Python tests exercise pipeline and website/reporting failure paths. Execution logs, not test-source presence, determine acceptance status.
+
+## QA isolation
+
+The `.qa` application suffix prevents developer tests from replacing the Amazon-signed installation. QA-only application factory, disabled recognition service and private FileProvider live under `src/qa`; release artifacts must exclude them. Synthetic speech/picker contracts test software behavior and do not stand in for real microphone recognition or genuine Amazon receipts. Source 0.1.9/code10 is a new development candidate; genuine store verification of code8 does not certify this candidate.

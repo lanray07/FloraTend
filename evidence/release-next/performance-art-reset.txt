@@ -1,0 +1,14 @@
+Security exception: Only the system can clear all profile data
+
+java.lang.SecurityException: Only the system can clear all profile data
+	at com.android.server.pm.PackageManagerService.enforceSystemOrRoot(PackageManagerService.java:9092)
+	at com.android.server.pm.PackageManagerService.clearApplicationProfileData(PackageManagerService.java:19695)
+	at com.android.server.pm.PackageManagerShellCommand.runCompile(PackageManagerShellCommand.java:1250)
+	at com.android.server.pm.PackageManagerShellCommand.onCommand(PackageManagerShellCommand.java:188)
+	at android.os.ShellCommand.exec(ShellCommand.java:103)
+	at com.android.server.pm.PackageManagerService.onShellCommand(PackageManagerService.java:21839)
+	at android.os.Binder.shellCommand(Binder.java:634)
+	at android.os.Binder.onTransact(Binder.java:532)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:2796)
+	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:3975)
+	at android.os.Binder.execTransact(Binder.java:731)

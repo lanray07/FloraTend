@@ -1,0 +1,9 @@
+
+com.floratend.app.PhotoAttachmentTest:..
+com.floratend.app.PhotoCollectionTest:.
+
+Time: 31.801
+
+OK (3 tests)
+
+

@@ -1,0 +1,8 @@
+
+com.floratend.app.AccessibilityBridgeTest:.
+
+Time: 9.491
+
+OK (1 test)
+
+

@@ -1,0 +1,39 @@
+
+com.floratend.app.AccessibilityLayoutTest:
+Error in plantCardAccessibleLabelIdentifiesThePlant(com.floratend.app.AccessibilityLayoutTest):
+java.lang.AssertionError: Failed to assert the following: (ContentDescription contains 'Accessible fern' (ignoreCase: false))
+Semantics of the node:
+Node #275 at (l=204.0, t=571.0, r=748.0, b=792.0)px
+Focused = 'false'
+Text = '[Accessible fern, , , Next check: 1 Nov 2026]'
+ContentDescription = '[Open plant details]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Selector used: (Text + EditableText contains 'Accessible fern' (ignoreCase: false))
+
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:265)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:255)
+	at com.floratend.app.AccessibilityLayoutTest.plantCardAccessibleLabelIdentifiesThePlant(AccessibilityLayoutTest.kt:81)
+
+
+Time: 5.662
+There was 1 failure:
+1) plantCardAccessibleLabelIdentifiesThePlant(com.floratend.app.AccessibilityLayoutTest)
+java.lang.AssertionError: Failed to assert the following: (ContentDescription contains 'Accessible fern' (ignoreCase: false))
+Semantics of the node:
+Node #275 at (l=204.0, t=571.0, r=748.0, b=792.0)px
+Focused = 'false'
+Text = '[Accessible fern, , , Next check: 1 Nov 2026]'
+ContentDescription = '[Open plant details]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Selector used: (Text + EditableText contains 'Accessible fern' (ignoreCase: false))
+
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:265)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:255)
+	at com.floratend.app.AccessibilityLayoutTest.plantCardAccessibleLabelIdentifiesThePlant(AccessibilityLayoutTest.kt:81)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+

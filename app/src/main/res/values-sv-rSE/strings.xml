@@ -174,4 +174,8 @@
   <string name="language">Språk</string>
   <string name="system_language">Enhetens språk</string>
   <string name="voice_output_unavailable">Ingen installerad röst stöder det här språket. Skriftliga svar är fortfarande tillgängliga.</string>
+  <string name="spoken_feedback">Talade svar</string>
+  <string name="loading_records">Läser in dina uppgifter…</string>
+  <string name="load_error">Dina uppgifter kunde inte läsas in. Försök igen.</string>
+  <string name="retry">Försök igen</string>
 </resources>

@@ -1,0 +1,16 @@
+{
+  "version_name": "0.1.9",
+  "version_code": 10,
+  "application_id": "com.floratend.app",
+  "sha256": "c4a820289db814b6b2703498f7bb389186656b5635069dcfd4e34ef5871931f6",
+  "verifier_environment": "LAT explicitly overridden for Test2 only",
+  "lat_endpoint_in_dex": true,
+  "production_endpoint_absent_in_lat_artifact": true,
+  "qa_classes_absent": true,
+  "developer_credential_names_absent": true,
+  "scope": "Developer-signed LAT upload candidate; Amazon delivery and genuine code10 purchase regression remain pending.",
+  "source_manifest_sha256": "6b6793c85c1866efbbe98c894a45895f5307add1f913a26cfd2e1bd7d0815f4e",
+  "amazon_test2_status": "Test submitted",
+  "genuine_code10_regression": "PENDING Amazon delivery",
+  "installed_amazon_version_code": 8
+}

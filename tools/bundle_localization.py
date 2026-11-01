@@ -10,6 +10,9 @@ import xml.etree.ElementTree as ET
 ROOT=Path(__file__).resolve().parents[1]
 RES=ROOT/'app/src/main/res'
 LABELS={
+'ko-KR':('언어','기기 언어','이 언어를 지원하는 음성이 설치되어 있지 않습니다. 글로 된 응답은 계속 사용할 수 있습니다.'),
+'zh-CN':('语言','设备语言','没有已安装的语音支持此语言。你仍可查看文字回复。'),
+'zh-TW':('語言','裝置語言','沒有已安裝的語音支援此語言。你仍可查看文字回覆。'),
 'en-GB':('Language','Device language','No installed voice supports this language. Written feedback is still available.'),
 'en-US':('Language','Device language','No installed voice supports this language. Written feedback is still available.'),
 'en-AU':('Language','Device language','No installed voice supports this language. Written feedback is still available.'),
@@ -82,6 +85,6 @@ def main():
     glossary['protected_terms']=[x for x in glossary['protected_terms'] if x!='FloraTend Premium']
     glossary['branded_values']=['FloraTend Premium']
     glossary_path.write_text(json.dumps(glossary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print('Bundled 19 UI locales and 19 voice dictionaries; all linguistic approvals remain pending.')
+    print(f'Bundled {len(config)} UI locales and voice dictionaries; all linguistic approvals remain pending.')
 
 if __name__=='__main__':main()

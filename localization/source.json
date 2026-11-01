@@ -1008,5 +1008,29 @@
     "values": {
       "value": "No installed voice supports this language. Written feedback is still available."
     }
+  },
+  "spoken_feedback": {
+    "type": "string",
+    "values": {
+      "value": "Spoken feedback"
+    }
+  },
+  "loading_records": {
+    "type": "string",
+    "values": {
+      "value": "Loading your records…"
+    }
+  },
+  "load_error": {
+    "type": "string",
+    "values": {
+      "value": "Your records could not be loaded. Please try again."
+    }
+  },
+  "retry": {
+    "type": "string",
+    "values": {
+      "value": "Try again"
+    }
   }
 }

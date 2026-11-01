@@ -1,0 +1,43 @@
+
+com.floratend.app.SchemaMigrationTest:.
+Error in versionOneRecordsPhotosAndForeignKeysSurviveIndexMigration(com.floratend.app.SchemaMigrationTest):
+java.io.FileNotFoundException: Cannot find the schema file in the assets folder. Make sure to include the exported json schemas in your test assert inputs. See https://developer.android.com/training/data-storage/room/migrating-db-versions#export-schema for details. Missing file: com.floratend.app.FloraDatabase/2.json
+	at androidx.room.testing.AndroidMigrationTestHelper.loadSchema(MigrationTestHelper.android.kt:394)
+	at androidx.room.testing.SupportSQLiteMigrationTestHelper.runMigrationsAndValidate(MigrationTestHelper.android.kt:510)
+	at androidx.room.testing.MigrationTestHelper.runMigrationsAndValidate(MigrationTestHelper.android.kt:283)
+	at com.floratend.app.SchemaMigrationTest$versionOneRecordsPhotosAndForeignKeysSurviveIndexMigration$1.invokeSuspend(SchemaMigrationTest.kt:32)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.floratend.app.SchemaMigrationTest.versionOneRecordsPhotosAndForeignKeysSurviveIndexMigration(SchemaMigrationTest.kt:17)
+
+com.floratend.app.OrderedQueryIndexTest:.
+com.floratend.app.AccessibilityLayoutTest:...
+
+Time: 17.054
+There was 1 failure:
+1) versionOneRecordsPhotosAndForeignKeysSurviveIndexMigration(com.floratend.app.SchemaMigrationTest)
+java.io.FileNotFoundException: Cannot find the schema file in the assets folder. Make sure to include the exported json schemas in your test assert inputs. See https://developer.android.com/training/data-storage/room/migrating-db-versions#export-schema for details. Missing file: com.floratend.app.FloraDatabase/2.json
+	at androidx.room.testing.AndroidMigrationTestHelper.loadSchema(MigrationTestHelper.android.kt:394)
+	at androidx.room.testing.SupportSQLiteMigrationTestHelper.runMigrationsAndValidate(MigrationTestHelper.android.kt:510)
+	at androidx.room.testing.MigrationTestHelper.runMigrationsAndValidate(MigrationTestHelper.android.kt:283)
+	at com.floratend.app.SchemaMigrationTest$versionOneRecordsPhotosAndForeignKeysSurviveIndexMigration$1.invokeSuspend(SchemaMigrationTest.kt:32)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source:1)
+	at com.floratend.app.SchemaMigrationTest.versionOneRecordsPhotosAndForeignKeysSurviveIndexMigration(SchemaMigrationTest.kt:17)
+
+FAILURES!!!
+Tests run: 6,  Failures: 1
+
+

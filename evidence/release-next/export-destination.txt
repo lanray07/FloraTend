@@ -1,0 +1,8 @@
+
+com.floratend.app.ExportDestinationTest:.
+
+Time: 16.524
+
+OK (1 test)
+
+
