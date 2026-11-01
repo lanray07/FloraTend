@@ -1,0 +1,280 @@
+{
+  "controlledFixture": true,
+  "rawProfilesPrivate": true,
+  "phases": {
+    "garden": {
+      "formatVersion": 3,
+      "samplingElapsedMillis": 7549.014,
+      "mainThreadCpuMillis": 2483.96,
+      "mainThreadRecords": 101341,
+      "unmatchedExits": 0,
+      "openSlicesAtEnd": 7,
+      "topExclusiveCpuMethods": [
+        {
+          "method": "android.os.MessageQueue.nativePollOnce",
+          "cpuMillis": 232.637,
+          "percentOfObservedMainCpu": 9.37
+        },
+        {
+          "method": "android.view.ThreadedRenderer.nSyncAndDrawFrame",
+          "cpuMillis": 129.031,
+          "percentOfObservedMainCpu": 5.19
+        },
+        {
+          "method": "androidx.compose.ui.node.NodeCoordinator.getFontScale",
+          "cpuMillis": 44.082,
+          "percentOfObservedMainCpu": 1.77
+        },
+        {
+          "method": "kotlin.jvm.internal.Intrinsics.checkNotNull",
+          "cpuMillis": 35.463,
+          "percentOfObservedMainCpu": 1.43
+        },
+        {
+          "method": "kotlin.jvm.internal.Intrinsics.checkNotNullParameter",
+          "cpuMillis": 32.526,
+          "percentOfObservedMainCpu": 1.31
+        },
+        {
+          "method": "android.view.DisplayEventReceiver.nativeScheduleVsync",
+          "cpuMillis": 22.708,
+          "percentOfObservedMainCpu": 0.91
+        },
+        {
+          "method": "kotlin.coroutines.jvm.internal.SuspendLambda.<init>",
+          "cpuMillis": 21.537,
+          "percentOfObservedMainCpu": 0.87
+        },
+        {
+          "method": "java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl.get",
+          "cpuMillis": 20.909,
+          "percentOfObservedMainCpu": 0.84
+        },
+        {
+          "method": "kotlin.coroutines.CombinedContext.get",
+          "cpuMillis": 15.806,
+          "percentOfObservedMainCpu": 0.64
+        },
+        {
+          "method": "java.lang.Throwable.nativeFillInStackTrace",
+          "cpuMillis": 15.495,
+          "percentOfObservedMainCpu": 0.62
+        },
+        {
+          "method": "androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat.isEnabled$ui_release",
+          "cpuMillis": 15.01,
+          "percentOfObservedMainCpu": 0.6
+        },
+        {
+          "method": "kotlin.jvm.internal.Intrinsics.areEqual",
+          "cpuMillis": 14.551,
+          "percentOfObservedMainCpu": 0.59
+        },
+        {
+          "method": "java.util.ArrayList.get",
+          "cpuMillis": 13.842,
+          "percentOfObservedMainCpu": 0.56
+        },
+        {
+          "method": "kotlin.coroutines.jvm.internal.ContinuationImpl.releaseIntercepted",
+          "cpuMillis": 13.212,
+          "percentOfObservedMainCpu": 0.53
+        },
+        {
+          "method": "kotlin.collections.ArraysKt___ArraysJvmKt.fill$default",
+          "cpuMillis": 12.623,
+          "percentOfObservedMainCpu": 0.51
+        },
+        {
+          "method": "androidx.compose.runtime.SnapshotMutableStateImpl.setValue",
+          "cpuMillis": 11.317,
+          "percentOfObservedMainCpu": 0.46
+        },
+        {
+          "method": "androidx.compose.runtime.SnapshotMutableStateImpl.getValue",
+          "cpuMillis": 11.158,
+          "percentOfObservedMainCpu": 0.45
+        },
+        {
+          "method": "kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsKt.getCOROUTINE_SUSPENDED",
+          "cpuMillis": 10.665,
+          "percentOfObservedMainCpu": 0.43
+        },
+        {
+          "method": "kotlin.coroutines.jvm.internal.ContinuationImpl.<init>",
+          "cpuMillis": 10.495,
+          "percentOfObservedMainCpu": 0.42
+        },
+        {
+          "method": "androidx.compose.runtime.snapshots.SnapshotKt.readable",
+          "cpuMillis": 9.731,
+          "percentOfObservedMainCpu": 0.39
+        },
+        {
+          "method": "android.view.ThreadedRenderer.nNotifyFramePending",
+          "cpuMillis": 9.643,
+          "percentOfObservedMainCpu": 0.39
+        },
+        {
+          "method": "kotlin.coroutines.jvm.internal.ContinuationImpl.getContext",
+          "cpuMillis": 9.203,
+          "percentOfObservedMainCpu": 0.37
+        },
+        {
+          "method": "java.lang.Long.valueOf",
+          "cpuMillis": 8.989,
+          "percentOfObservedMainCpu": 0.36
+        },
+        {
+          "method": "androidx.collection.ScatterMap.get",
+          "cpuMillis": 8.968,
+          "percentOfObservedMainCpu": 0.36
+        },
+        {
+          "method": "java.lang.System.nanoTime",
+          "cpuMillis": 8.827,
+          "percentOfObservedMainCpu": 0.36
+        }
+      ],
+      "releaseFrameGateApproved": false,
+      "scope": "Sampled main-thread CPU estimates with instrumentation attached; not ordinary frame latency or a release approval."
+    },
+    "voice": {
+      "formatVersion": 3,
+      "samplingElapsedMillis": 2786.065,
+      "mainThreadCpuMillis": 667.395,
+      "mainThreadRecords": 27899,
+      "unmatchedExits": 0,
+      "openSlicesAtEnd": 7,
+      "topExclusiveCpuMethods": [
+        {
+          "method": "android.os.MessageQueue.nativePollOnce",
+          "cpuMillis": 32.509,
+          "percentOfObservedMainCpu": 4.87
+        },
+        {
+          "method": "android.view.ThreadedRenderer.nSyncAndDrawFrame",
+          "cpuMillis": 20.45,
+          "percentOfObservedMainCpu": 3.06
+        },
+        {
+          "method": "android.os.BinderProxy.transactNative",
+          "cpuMillis": 16.584,
+          "percentOfObservedMainCpu": 2.48
+        },
+        {
+          "method": "androidx.compose.runtime.SnapshotMutableStateImpl.getValue",
+          "cpuMillis": 11.436,
+          "percentOfObservedMainCpu": 1.71
+        },
+        {
+          "method": "kotlin.coroutines.jvm.internal.SuspendLambda.<init>",
+          "cpuMillis": 9.277,
+          "percentOfObservedMainCpu": 1.39
+        },
+        {
+          "method": "kotlin.jvm.internal.Intrinsics.checkNotNullParameter",
+          "cpuMillis": 8.284,
+          "percentOfObservedMainCpu": 1.24
+        },
+        {
+          "method": "kotlin.jvm.internal.Intrinsics.checkNotNull",
+          "cpuMillis": 7.842,
+          "percentOfObservedMainCpu": 1.18
+        },
+        {
+          "method": "android.text.MeasuredParagraph.nBuildNativeMeasuredParagraph",
+          "cpuMillis": 5.716,
+          "percentOfObservedMainCpu": 0.86
+        },
+        {
+          "method": "androidx.compose.runtime.ComposerImpl.startReplaceGroup",
+          "cpuMillis": 5.498,
+          "percentOfObservedMainCpu": 0.82
+        },
+        {
+          "method": "kotlin.collections.MapsKt__MapsKt.emptyMap",
+          "cpuMillis": 5.392,
+          "percentOfObservedMainCpu": 0.81
+        },
+        {
+          "method": "androidx.compose.runtime.snapshots.SnapshotKt.readable",
+          "cpuMillis": 5.211,
+          "percentOfObservedMainCpu": 0.78
+        },
+        {
+          "method": "android.graphics.Paint.nGetRunAdvance",
+          "cpuMillis": 5.004,
+          "percentOfObservedMainCpu": 0.75
+        },
+        {
+          "method": "androidx.compose.runtime.SnapshotMutableStateImpl.setValue",
+          "cpuMillis": 4.522,
+          "percentOfObservedMainCpu": 0.68
+        },
+        {
+          "method": "kotlin.ranges.RangesKt___RangesKt.coerceIn",
+          "cpuMillis": 4.485,
+          "percentOfObservedMainCpu": 0.67
+        },
+        {
+          "method": "androidx.compose.runtime.ComposerKt.sourceInformationMarkerEnd",
+          "cpuMillis": 4.343,
+          "percentOfObservedMainCpu": 0.65
+        },
+        {
+          "method": "android.view.DisplayEventReceiver.nativeScheduleVsync",
+          "cpuMillis": 4.324,
+          "percentOfObservedMainCpu": 0.65
+        },
+        {
+          "method": "androidx.compose.runtime.ComposerKt.sourceInformationMarkerStart",
+          "cpuMillis": 4.248,
+          "percentOfObservedMainCpu": 0.64
+        },
+        {
+          "method": "android.content.res.AssetManager.nativeGetResourceValue",
+          "cpuMillis": 4.207,
+          "percentOfObservedMainCpu": 0.63
+        },
+        {
+          "method": "java.util.ArrayList.get",
+          "cpuMillis": 3.773,
+          "percentOfObservedMainCpu": 0.57
+        },
+        {
+          "method": "androidx.compose.ui.node.LookaheadCapablePlaceable.layout",
+          "cpuMillis": 3.743,
+          "percentOfObservedMainCpu": 0.56
+        },
+        {
+          "method": "java.util.ArrayList.add",
+          "cpuMillis": 3.619,
+          "percentOfObservedMainCpu": 0.54
+        },
+        {
+          "method": "android.os.Parcel.nativeWriteInterfaceToken",
+          "cpuMillis": 3.49,
+          "percentOfObservedMainCpu": 0.52
+        },
+        {
+          "method": "androidx.compose.runtime.RecomposeScopeImplKt.updateChangedFlags",
+          "cpuMillis": 3.37,
+          "percentOfObservedMainCpu": 0.5
+        },
+        {
+          "method": "androidx.compose.ui.text.AndroidParagraph.paint-LG529CI",
+          "cpuMillis": 3.347,
+          "percentOfObservedMainCpu": 0.5
+        },
+        {
+          "method": "kotlin.jvm.internal.CallableReference.<init>",
+          "cpuMillis": 3.291,
+          "percentOfObservedMainCpu": 0.49
+        }
+      ],
+      "releaseFrameGateApproved": false,
+      "scope": "Sampled main-thread CPU estimates with instrumentation attached; not ordinary frame latency or a release approval."
+    }
+  }
+}

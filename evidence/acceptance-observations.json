@@ -2255,14 +2255,20 @@
     "execution_date": "2026-11-01",
     "environment": "Physical FireHD10/API28; isolated nondebuggable source12 rendering build; no instrumentation during frame sampling",
     "status": "FAIL",
-    "actual_result": "With120plants/photos and120care schedules, journal and history rows, Calendar/Journal/Insights/Settings passed the declared32ms p95 and10%jank thresholds. Garden (22ms p95/53.06%jank) and typed Voice (48ms/36.84%) failed the combined target. Cold empty-child probes also retained. Native Calendar scale test reproduced122 eager filter/card nodes; lazy filter row reduces composition. Async empty artwork experiment was inconclusive and reverted. ART profile reset was refused as system-only; no bypass or successful reset claimed.",
+    "actual_result": "With120plants/photos and120care schedules, journal and history rows, Calendar/Journal/Insights/Settings passed the declared32ms p95 and10%jank thresholds. Garden (22ms p95/53.06%jank) and typed Voice (48ms/36.84%) failed the combined target. Cold empty-child probes also retained. Native Calendar scale test reproduced122 eager filter/card nodes; lazy filter row reduces composition. Async empty artwork experiment was inconclusive and reverted. ART profile reset was refused as system-only; no bypass or successful reset claimed. Further natural repeat still failedVoice36ms/29.85%. Forced full-speed compilation met bounds but is diagnostic only. Benchmark R8 and editor-scope trials still failed combined bounds and were reverted; all91frozen inputs match. Main-thread sampling found broad framework/Compose work, not one dominant app method. No failed record was replaced.",
     "evidence": [
       "evidence/release-followup/code12-core-frames-populated.json",
       "evidence/release-followup/code12-core-frames-eager-cold.json",
       "evidence/release-followup/code12-core-frames-lazy-cold.json",
       "evidence/release-followup/code12-core-frames-async-cold.json",
       "evidence/release-followup/calendar-scale-red.txt",
-      "docs/RELEASE_CODE12_20261101.md"
+      "docs/RELEASE_CODE12_20261101.md",
+      "evidence/release-followup/code12-core-frames-natural-repeat.json",
+      "evidence/release-followup/code12-core-frames-manual-speed.json",
+      "evidence/release-followup/code12-core-frames-r8-experiment.json",
+      "evidence/release-followup/code12-core-frames-editor-scope-experiment.json",
+      "evidence/release-followup/code12-method-profile-summary.json",
+      "evidence/release-followup/code12-experiments-reverted.json"
     ],
     "corrective_action": "Continue repeatable performance isolation and retest missed Garden/typed-Voice bounds; do not infer responsiveness from functional flows or earlier source10 profiling."
   },

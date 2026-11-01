@@ -1,0 +1,13 @@
+{
+  "versionCode": 12,
+  "experimentOnly": true,
+  "package": "com.floratend.app.perf",
+  "productionReleaseChanged": false,
+  "mainAmazonPackageChanged": false,
+  "beforeBytes": 10960550,
+  "afterBytes": 4750739,
+  "beforeSha256": "6f223b06273fff513ef26953a4a670342cecd618f54474bfbceeb363d13ce0a1",
+  "afterSha256": "49d0ecba84a85928de138ca425917a6300d22542852c6a169c20945ce9fda2de",
+  "amazonSdkNamespaceKept": true,
+  "annotationsKept": true
+}

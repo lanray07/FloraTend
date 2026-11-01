@@ -1,0 +1,7 @@
+{
+  "rawProfilesOrKeysStaged": false,
+  "exactPrivateValuesChecked": 3,
+  "privateValuesAbsent": true,
+  "scope": "Memory-only DPAPI decrypt; staged worktree content checked without emitting values",
+  "stagedFilesChecked": 45
+}

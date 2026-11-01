@@ -1,0 +1,6 @@
+
+com.floratend.app.MethodSamplingTest:.
+
+Time: 16.525
+
+OK (1 test)

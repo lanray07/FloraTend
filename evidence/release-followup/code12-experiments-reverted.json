@@ -1,0 +1,9 @@
+{
+  "frozenProductionInputs": 91,
+  "allFrozenInputHashesMatch": true,
+  "r8ExperimentRetained": false,
+  "editorScopeExperimentRetained": false,
+  "productionCandidateRebuildRequired": false,
+  "actualAmazonMainCode": 11,
+  "performanceGate": "FAIL"
+}

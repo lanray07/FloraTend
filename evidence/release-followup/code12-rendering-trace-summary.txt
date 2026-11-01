@@ -1,0 +1,242 @@
+{
+  "versionCode": 12,
+  "instrumentationDetached": true,
+  "debuggable": false,
+  "workload": {
+    "plants": 120,
+    "schedules": 120,
+    "journal": 120,
+    "history": 120,
+    "controlledFixture": true,
+    "genuineAmazonPurchase": false
+  },
+  "phases": [
+    {
+      "phase": "garden-first-visible-scroll",
+      "sampleValid": true,
+      "frames": 339,
+      "jankyFrames": 109,
+      "jankyPercent": 32.15,
+      "p95Millis": 46,
+      "appMarkerCount": 18335,
+      "slices": {
+        "worker/other": {
+          "count": 15398,
+          "inclusiveMillis": 11670.267999936186,
+          "maxMillis": 35.61400000035064
+        },
+        "main/other": {
+          "count": 795,
+          "inclusiveMillis": 1289.9660000002768,
+          "maxMillis": 57.388999997783685
+        },
+        "main/draw": {
+          "count": 678,
+          "inclusiveMillis": 1778.4469999933208,
+          "maxMillis": 23.09400000012829
+        },
+        "main/traversals": {
+          "count": 339,
+          "inclusiveMillis": 1410.1640000699263,
+          "maxMillis": 23.15700000326615
+        },
+        "main/doFrame": {
+          "count": 409,
+          "inclusiveMillis": 2717.071000006399,
+          "maxMillis": 75.77500000115833
+        },
+        "worker/draw": {
+          "count": 457,
+          "inclusiveMillis": 3452.4990000099933,
+          "maxMillis": 28.275999997276813
+        },
+        "worker/layout": {
+          "count": 84,
+          "inclusiveMillis": 296.8449999971199,
+          "maxMillis": 28.725000000122236
+        },
+        "worker/decode": {
+          "count": 102,
+          "inclusiveMillis": 642.4579999948037,
+          "maxMillis": 33.90399999989313
+        },
+        "worker/measure": {
+          "count": 61,
+          "inclusiveMillis": 211.46500001486856,
+          "maxMillis": 23.799999999027932
+        },
+        "worker/gc": {
+          "count": 9,
+          "inclusiveMillis": 17.017000001942506,
+          "maxMillis": 7.1699999971315265
+        },
+        "worker/doFrame": {
+          "count": 3,
+          "inclusiveMillis": 4.208999998809304,
+          "maxMillis": 1.7789999983506277
+        }
+      },
+      "scope": "Inclusive nested slice durations, not exclusive CPU time; trace overhead applies."
+    },
+    {
+      "phase": "garden-warm-reverse-scroll",
+      "sampleValid": true,
+      "frames": 383,
+      "jankyFrames": 59,
+      "jankyPercent": 15.4,
+      "p95Millis": 20,
+      "appMarkerCount": 15328,
+      "slices": {
+        "main/other": {
+          "count": 744,
+          "inclusiveMillis": 543.8289999510744,
+          "maxMillis": 12.06599999932223
+        },
+        "main/doFrame": {
+          "count": 407,
+          "inclusiveMillis": 1836.0629999624507,
+          "maxMillis": 31.5310000005411
+        },
+        "worker/other": {
+          "count": 12513,
+          "inclusiveMillis": 9894.661999922391,
+          "maxMillis": 42.57000000143307
+        },
+        "main/draw": {
+          "count": 766,
+          "inclusiveMillis": 1645.8569999886095,
+          "maxMillis": 31.379000000015367
+        },
+        "main/traversals": {
+          "count": 383,
+          "inclusiveMillis": 1264.8469999803638,
+          "maxMillis": 31.451999999262625
+        },
+        "worker/draw": {
+          "count": 447,
+          "inclusiveMillis": 3662.2190000198316,
+          "maxMillis": 46.67200000039884
+        },
+        "worker/layout": {
+          "count": 36,
+          "inclusiveMillis": 96.88699998878292,
+          "maxMillis": 12.97599999816157
+        },
+        "worker/measure": {
+          "count": 22,
+          "inclusiveMillis": 80.65999999234919,
+          "maxMillis": 18.475999997463077
+        },
+        "worker/gc": {
+          "count": 10,
+          "inclusiveMillis": 96.14599999622442,
+          "maxMillis": 43.53199999968638
+        }
+      },
+      "scope": "Inclusive nested slice durations, not exclusive CPU time; trace overhead applies."
+    },
+    {
+      "phase": "voice-keyboard-focus",
+      "sampleValid": true,
+      "frames": 21,
+      "jankyFrames": 9,
+      "jankyPercent": 42.86,
+      "p95Millis": 42,
+      "appMarkerCount": 598,
+      "slices": {
+        "main/other": {
+          "count": 69,
+          "inclusiveMillis": 94.72299999470124,
+          "maxMillis": 30.789000000368105
+        },
+        "worker/other": {
+          "count": 422,
+          "inclusiveMillis": 197.29199994253577,
+          "maxMillis": 14.370000000781147
+        },
+        "main/draw": {
+          "count": 40,
+          "inclusiveMillis": 157.86800000205403,
+          "maxMillis": 8.424999999988358
+        },
+        "main/traversals": {
+          "count": 20,
+          "inclusiveMillis": 120.04299999898649,
+          "maxMillis": 30.994000000646338
+        },
+        "main/doFrame": {
+          "count": 22,
+          "inclusiveMillis": 212.87699998356402,
+          "maxMillis": 36.76899999845773
+        },
+        "worker/draw": {
+          "count": 20,
+          "inclusiveMillis": 113.73099999764236,
+          "maxMillis": 10.941999997157836
+        },
+        "main/measure": {
+          "count": 3,
+          "inclusiveMillis": 18.519999994168757,
+          "maxMillis": 12.671999997110106
+        },
+        "main/layout": {
+          "count": 2,
+          "inclusiveMillis": 8.036999999603722,
+          "maxMillis": 5.1970000022265594
+        }
+      },
+      "scope": "Inclusive nested slice durations, not exclusive CPU time; trace overhead applies."
+    },
+    {
+      "phase": "voice-typing",
+      "sampleValid": true,
+      "frames": 22,
+      "jankyFrames": 11,
+      "jankyPercent": 50.0,
+      "p95Millis": 26,
+      "appMarkerCount": 579,
+      "slices": {
+        "worker/other": {
+          "count": 422,
+          "inclusiveMillis": 152.5730000321346,
+          "maxMillis": 12.68500000151107
+        },
+        "main/other": {
+          "count": 52,
+          "inclusiveMillis": 100.56900001291069,
+          "maxMillis": 12.065000002621673
+        },
+        "main/draw": {
+          "count": 40,
+          "inclusiveMillis": 167.09699997954885,
+          "maxMillis": 8.098999998765066
+        },
+        "main/traversals": {
+          "count": 20,
+          "inclusiveMillis": 90.84900000743801,
+          "maxMillis": 8.208999999624211
+        },
+        "main/doFrame": {
+          "count": 24,
+          "inclusiveMillis": 191.63000000844477,
+          "maxMillis": 20.343000000139
+        },
+        "worker/draw": {
+          "count": 20,
+          "inclusiveMillis": 105.93100000551203,
+          "maxMillis": 8.590000001277076
+        },
+        "main/binder": {
+          "count": 1,
+          "inclusiveMillis": 0.2860000022337772,
+          "maxMillis": 0.2860000022337772
+        }
+      },
+      "scope": "Inclusive nested slice durations, not exclusive CPU time; trace overhead applies."
+    }
+  ],
+  "result": "DIAGNOSTIC_ONLY",
+  "releaseGateApproved": false,
+  "rawTracesAndScreenshotsPrivate": true,
+  "scope": "Controlled nondebug perf package; tracing overhead and natural compiler state. No Amazon purchase, no microphone activation and no main-package changes."
+}

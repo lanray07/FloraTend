@@ -1,0 +1,11 @@
+test_all_valid_natural_samples_can_pass (test_frame_diagnostics.FrameEvidenceTests) ... ok
+test_forced_compilation_cannot_approve_release_even_when_all_bounds_pass (test_frame_diagnostics.FrameEvidenceTests) ... ok
+test_missing_screen_or_zero_frame_sample_cannot_pass (test_frame_diagnostics.FrameEvidenceTests) ... ok
+test_one_failed_screen_fails_combined_gate (test_frame_diagnostics.FrameEvidenceTests) ... ok
+test_trace_filters_other_processes_and_never_exports_arbitrary_names (test_frame_diagnostics.FrameEvidenceTests) ... ok
+test_unclosed_trace_slice_does_not_invent_duration (test_frame_diagnostics.FrameEvidenceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+OK

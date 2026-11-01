@@ -68,3 +68,22 @@ A Japanese visual spot check then exposed structural Android XML quote wrappers 
 
 
 CI41334322434 failed104 raw caption-source hash comparisons because Windows resource checkout CRLF bytes differ from LinuxLF bytes. Native-frame pixel checks passed. The final resource provenance format is explicitly `utf8-lf`, preserving every source character apart from checkout newline/BOM representation. The WindowsCRLF/LinuxLF regression verifies equal canonical hashes and rejects changed content. Manifest metadata was updated without changing any source resource or rendered pixel. All49supporting tests passed locally. The distilled CI failure is retained in `evidence/release-followup/supporting-captions-ci-provenance-red.json`; full CI logs remain on GitHub. The previous48test Windows run did not establish Linux compatibility. Latest commit CI must still pass.
+
+
+## Further rendering diagnosis (retained, no production change)
+
+The natural-state repeat met Garden19ms/8.52%jank but still failed typedVoice36ms/29.85%; the combined gate stayedFAIL. Corrected diagnostic traces observed first-visible Garden46ms versus cached reverse-scroll20ms; tracing overhead applies. The initial reverse gesture began on a fixed header and produced no rendered warm frames, so that initial comparison is invalid and retained separately. Fire refused CPU-frequency reads; the corrected trace omitted that category. Method sampling then captured real controlled Garden/typedVoice execution with instrumentation attached. The parser validates ART-v3/dual-clock/count/overflow, aggregates main-thread CPU only and keeps raw profiles outsideGit. These samples do not certify ordinary frame times.
+
+An explicit full-speed shell compilation of only the disposable package met all six frame thresholds. Its report is diagnostic and explicitly does not approve the release gate. Natural compiler mode and actual observed compiler status are now recorded; forced full-speed cannot silently masquerade as a natural run. Tool regressions reject missing screens, zero-frame samples and diagnostic promotion.
+
+R8 was tested only in the benchmark variant, with Amazon's published SDK namespace/annotation keep rules. The APK fell from10,960,550 to4,750,739bytes; natural-state Garden15ms/2.67% improved, but Voice38ms/14.93% stillfailed. A subsequent child-scoped command editor measuredVoice34ms/33.85% and did not confirm improvement. Both changes were reverted. All91frozen production inputs match again; no new production candidate, source version or Amazon submission is claimed. The SDK stack-map warnings and all failed experiments remain recorded. Source configuration and scope of the experiments are in the retained experiment patch JSON/rules files.
+
+The controlled fixture was freshly backed up and SQLite integrity/120domain rows per table and120photo transport hashes verified. The native empty-data guard confirmed all four tables0 before package removal. Only actualAmazon11 remains; Wi-FiON, physical display/font1.0 and rotation1/0 are restored. See `rendering-followup-final-device-state.json`. Latest previously pushed head55346c1 / CI41335245045 succeeded; the additional diagnostic tools/evidence need their own exact-head CI.
+
+References: [ART source format](https://android.googlesource.com/platform/art/+/master/runtime/trace.cc), [Android baseline-profile compilation](https://developer.android.com/topic/performance/baselineprofiles/overview), [manual profile guidance](https://developer.android.com/topic/performance/baselineprofiles/manually-create-measure), [Amazon SDK optimization rules](https://developer.amazon.com/docs/in-app-purchasing/iap-obfuscate-the-code.html). No optimization benefit is inferred from these documents without executed measurements.
+
+## Identification provider selected
+
+The user selected the Pl@ntNet free tier. No private key was present in project environment/private configuration at the check. The Windows helper `tools/configure_plantnet_key.ps1` prompts without echoing the key and writes only CurrentUserDPAPI encrypted configuration outsideGit/APK. Its in-memory protection self-test passed. A private-key setup request is pending while client/proxy/consent work continues. No account, paid contract, image request or provider-positive identification result has been created by that helper. A real provider test remains blocked on private configuration and explicit photo consent.
+
+The final additional supporting suite passed58tests, including diagnostic classification, privacy filtering and ART-clock parsing guards.

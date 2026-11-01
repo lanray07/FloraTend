@@ -1,0 +1,34 @@
+{
+  "privateBackupValidated": true,
+  "backupIntegrityCheck": "ok",
+  "backedUpCounts": {
+    "plants": 120,
+    "schedules": 120,
+    "journal": 120,
+    "history": 120
+  },
+  "photosTransportHashesVerified": 120,
+  "controlledFixtureCountsAfterCleanup": {
+    "plants": 0,
+    "schedules": 0,
+    "journal": 0,
+    "history": 0
+  },
+  "mainAmazonCode": 11,
+  "mainInstaller": "com.amazon.venezia",
+  "mainNondebuggable": true,
+  "mainDataClearedOrPackageReplaced": false,
+  "packages": [
+    "package:com.floratend.app"
+  ],
+  "rotation": [
+    "1",
+    "0"
+  ],
+  "fontScale": "1.0",
+  "wifiOn": "1",
+  "wmSize": "Physical size: 1200x1920",
+  "wmDensity": "Physical density: 240",
+  "librarySort": "By Title unchanged",
+  "protectedAppstoreForceStopped": false
+}

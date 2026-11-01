@@ -1,0 +1,91 @@
+{
+  "versionCode": 12,
+  "package": "com.floratend.app.perf",
+  "debuggable": false,
+  "instrumentationDetached": true,
+  "compileStateReset": false,
+  "compileState": "Explicit shell full-speed diagnostic",
+  "compilerState": [
+    {
+      "abi": "arm64",
+      "status": "speed",
+      "reason": "unknown"
+    }
+  ],
+  "manualSpeedDiagnostic": true,
+  "seededPlantPhotos": 120,
+  "screens": [
+    {
+      "screen": "garden",
+      "frames": 921,
+      "jankyFrames": 2,
+      "jankyPercent": 0.22,
+      "frameP95Ms": 12,
+      "captureSha256": "5fef2a9be9e2b6f2d8e7188f14264f14d7c342e071f40ff45498fd5ea38dc0a9",
+      "thresholdPassed": true
+    },
+    {
+      "screen": "calendar",
+      "frames": 240,
+      "jankyFrames": 5,
+      "jankyPercent": 2.08,
+      "frameP95Ms": 13,
+      "captureSha256": "a23b1e36703e1a975afb0de3568a79e9d660d7c6a0b4221fa88c6610860132ff",
+      "thresholdPassed": true
+    },
+    {
+      "screen": "journal",
+      "frames": 258,
+      "jankyFrames": 2,
+      "jankyPercent": 0.78,
+      "frameP95Ms": 13,
+      "captureSha256": "c50be39026dcb841f61ac25850cc06f52ed290d9904d1dc2640751f3422152b9",
+      "thresholdPassed": true
+    },
+    {
+      "screen": "voice",
+      "frames": 64,
+      "jankyFrames": 6,
+      "jankyPercent": 9.38,
+      "frameP95Ms": 20,
+      "captureSha256": "1aca4f47c9fb221e9c07680792a18f0c7f04792301a41d5b8ef55faedfece2bf",
+      "thresholdPassed": true
+    },
+    {
+      "screen": "insights",
+      "frames": 244,
+      "jankyFrames": 1,
+      "jankyPercent": 0.41,
+      "frameP95Ms": 11,
+      "captureSha256": "03f87fce761e21227110c8fdfd602f8ddb0b030e96d97ca86ac376140b9d393e",
+      "thresholdPassed": true
+    },
+    {
+      "screen": "settings",
+      "frames": 256,
+      "jankyFrames": 24,
+      "jankyPercent": 9.38,
+      "frameP95Ms": 27,
+      "captureSha256": "474fe297eb4686078f9c35dd76ec6c9a8a7f8706471349aa2ab2788a2a912b5a",
+      "thresholdPassed": true
+    }
+  ],
+  "populatedWorkload": {
+    "plants": 120,
+    "schedules": 120,
+    "journal": 120,
+    "history": 120,
+    "controlledFixture": true,
+    "genuineAmazonPurchase": false
+  },
+  "voiceInteraction": "Typed review only; command not executed",
+  "thresholds": {
+    "frameP95Ms": 32,
+    "jankyPercent": 10
+  },
+  "result": "DIAGNOSTIC_THRESHOLDS_MET",
+  "scope": "Controlled ordinary core navigation/scrolling on physical Fire HD10 API28. OS gesture input; raw traces/captures private. Not Amazon billing, other hardware, battery or worst-case performance certification.",
+  "releaseGateApproved": false,
+  "experiment": "Forced full-speed diagnostic; never release approval",
+  "artifactSha256": "6f223b06273fff513ef26953a4a670342cecd618f54474bfbceeb363d13ce0a1"
+}

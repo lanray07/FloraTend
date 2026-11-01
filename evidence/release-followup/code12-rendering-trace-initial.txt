@@ -1,0 +1,235 @@
+error reading cpu 0 frequency Permission denied (13)
+error reading cpu 1 frequency Permission denied (13)
+error reading cpu 2 frequency Permission denied (13)
+error reading cpu 3 frequency Permission denied (13)
+error reading cpu 4 frequency Permission denied (13)
+error reading cpu 5 frequency Permission denied (13)
+error reading cpu 6 frequency Permission denied (13)
+error reading cpu 7 frequency Permission denied (13)
+error reading cpu 0 frequency Permission denied (13)
+error reading cpu 1 frequency Permission denied (13)
+error reading cpu 2 frequency Permission denied (13)
+error reading cpu 3 frequency Permission denied (13)
+error reading cpu 4 frequency Permission denied (13)
+error reading cpu 5 frequency Permission denied (13)
+error reading cpu 6 frequency Permission denied (13)
+error reading cpu 7 frequency Permission denied (13)
+error reading cpu 0 frequency Permission denied (13)
+error reading cpu 1 frequency Permission denied (13)
+error reading cpu 2 frequency Permission denied (13)
+error reading cpu 3 frequency Permission denied (13)
+error reading cpu 4 frequency Permission denied (13)
+error reading cpu 5 frequency Permission denied (13)
+error reading cpu 6 frequency Permission denied (13)
+error reading cpu 7 frequency Permission denied (13)
+error reading cpu 0 frequency Permission denied (13)
+error reading cpu 1 frequency Permission denied (13)
+error reading cpu 2 frequency Permission denied (13)
+error reading cpu 3 frequency Permission denied (13)
+error reading cpu 4 frequency Permission denied (13)
+error reading cpu 5 frequency Permission denied (13)
+error reading cpu 6 frequency Permission denied (13)
+error reading cpu 7 frequency Permission denied (13)
+{
+  "versionCode": 12,
+  "instrumentationDetached": true,
+  "debuggable": false,
+  "workload": {
+    "plants": 120,
+    "schedules": 120,
+    "journal": 120,
+    "history": 120,
+    "controlledFixture": true,
+    "genuineAmazonPurchase": false
+  },
+  "phases": [
+    {
+      "phase": "garden-first-visible-scroll",
+      "frames": 389,
+      "jankyFrames": 116,
+      "jankyPercent": 29.82,
+      "p95Millis": 48,
+      "appMarkerCount": 23894,
+      "slices": {
+        "worker/other": {
+          "count": 20522,
+          "inclusiveMillis": 14890.9129999156,
+          "maxMillis": 82.47100000153296
+        },
+        "main/other": {
+          "count": 915,
+          "inclusiveMillis": 1567.7490000016405,
+          "maxMillis": 88.12100000068313
+        },
+        "main/doFrame": {
+          "count": 430,
+          "inclusiveMillis": 3409.4869999971706,
+          "maxMillis": 101.36400000192225
+        },
+        "main/draw": {
+          "count": 778,
+          "inclusiveMillis": 2307.0200000038312,
+          "maxMillis": 15.376999999716645
+        },
+        "main/traversals": {
+          "count": 389,
+          "inclusiveMillis": 1834.088999999949,
+          "maxMillis": 15.445000000909204
+        },
+        "worker/draw": {
+          "count": 628,
+          "inclusiveMillis": 4004.252000064298,
+          "maxMillis": 21.96199999889359
+        },
+        "worker/layout": {
+          "count": 116,
+          "inclusiveMillis": 364.55199999181787,
+          "maxMillis": 20.250000001396984
+        },
+        "worker/measure": {
+          "count": 79,
+          "inclusiveMillis": 241.00300001373398,
+          "maxMillis": 26.999999998224666
+        },
+        "worker/gc": {
+          "count": 28,
+          "inclusiveMillis": 377.29300000864896,
+          "maxMillis": 87.60700000129873
+        },
+        "main/gc": {
+          "count": 1,
+          "inclusiveMillis": 0.003999997716164216,
+          "maxMillis": 0.003999997716164216
+        },
+        "worker/doFrame": {
+          "count": 2,
+          "inclusiveMillis": 4.14200000159326,
+          "maxMillis": 2.4560000019846484
+        },
+        "worker/decode": {
+          "count": 6,
+          "inclusiveMillis": 42.46899999634479,
+          "maxMillis": 24.428999997326173
+        }
+      },
+      "scope": "Inclusive nested slice durations, not exclusive CPU time; trace overhead applies."
+    },
+    {
+      "phase": "garden-warm-reverse-scroll",
+      "frames": 0,
+      "jankyFrames": 0,
+      "jankyPercent": 0.0,
+      "p95Millis": 4950,
+      "appMarkerCount": 659,
+      "slices": {
+        "main/other": {
+          "count": 189,
+          "inclusiveMillis": 158.3669999927224,
+          "maxMillis": 1.7299999999522697
+        },
+        "main/doFrame": {
+          "count": 180,
+          "inclusiveMillis": 164.6029999574239,
+          "maxMillis": 2.9640000029758085
+        },
+        "worker/other": {
+          "count": 290,
+          "inclusiveMillis": 194.73399999696994,
+          "maxMillis": 12.23300000128802
+        }
+      },
+      "scope": "Inclusive nested slice durations, not exclusive CPU time; trace overhead applies."
+    },
+    {
+      "phase": "voice-keyboard-focus",
+      "frames": 28,
+      "jankyFrames": 12,
+      "jankyPercent": 42.86,
+      "p95Millis": 53,
+      "appMarkerCount": 598,
+      "slices": {
+        "worker/other": {
+          "count": 571,
+          "inclusiveMillis": 480.3330000358983,
+          "maxMillis": 34.92000000187545
+        },
+        "worker/draw": {
+          "count": 27,
+          "inclusiveMillis": 212.31299999999464,
+          "maxMillis": 38.78199999962817
+        }
+      },
+      "scope": "Inclusive nested slice durations, not exclusive CPU time; trace overhead applies."
+    },
+    {
+      "phase": "voice-typing",
+      "frames": 24,
+      "jankyFrames": 12,
+      "jankyPercent": 50.0,
+      "p95Millis": 23,
+      "appMarkerCount": 1636,
+      "slices": {
+        "worker/other": {
+          "count": 1444,
+          "inclusiveMillis": 1037.3790000121517,
+          "maxMillis": 20.582000001013512
+        },
+        "main/other": {
+          "count": 53,
+          "inclusiveMillis": 113.91500000536325,
+          "maxMillis": 13.079000000288943
+        },
+        "main/draw": {
+          "count": 44,
+          "inclusiveMillis": 178.0070000058913,
+          "maxMillis": 6.424000002880348
+        },
+        "main/traversals": {
+          "count": 22,
+          "inclusiveMillis": 96.81399999681162,
+          "maxMillis": 6.498999999166699
+        },
+        "main/doFrame": {
+          "count": 27,
+          "inclusiveMillis": 211.32600000419188,
+          "maxMillis": 19.63900000191643
+        },
+        "worker/draw": {
+          "count": 27,
+          "inclusiveMillis": 129.81199998830562,
+          "maxMillis": 11.848999998619547
+        },
+        "worker/traversals": {
+          "count": 1,
+          "inclusiveMillis": 11.539000002812827,
+          "maxMillis": 11.539000002812827
+        },
+        "main/binder": {
+          "count": 1,
+          "inclusiveMillis": 0.043000000005122274,
+          "maxMillis": 0.043000000005122274
+        },
+        "worker/layout": {
+          "count": 13,
+          "inclusiveMillis": 40.7290000039211,
+          "maxMillis": 11.838999998872168
+        },
+        "worker/gc": {
+          "count": 1,
+          "inclusiveMillis": 0.7450000011886004,
+          "maxMillis": 0.7450000011886004
+        },
+        "worker/measure": {
+          "count": 3,
+          "inclusiveMillis": 7.075999998050975,
+          "maxMillis": 4.1229999987990595
+        }
+      },
+      "scope": "Inclusive nested slice durations, not exclusive CPU time; trace overhead applies."
+    }
+  ],
+  "result": "DIAGNOSTIC_ONLY",
+  "releaseGateApproved": false,
+  "rawTracesAndScreenshotsPrivate": true,
+  "scope": "Controlled nondebug perf package; tracing overhead and natural compiler state. No Amazon purchase, no microphone activation and no main-package changes."
+}
