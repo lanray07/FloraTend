@@ -1,0 +1,64 @@
+
+com.floratend.app.PhotoPickerRotationTest:.
+Error in plantDraftAndSelectedPhotoSurvivePickerRotation(com.floratend.app.PhotoPickerRotationTest):
+java.lang.AssertionError: Action performScrollTo() failed.
+Reason: Expected exactly '1' node but found '2' nodes that satisfy: (Text + EditableText contains 'Herbs' (ignoreCase: false))
+Nodes found:
+1) Node #657 at (l=950.0, t=439.0, r=1055.0, b=487.0)px
+Focused = 'false'
+Selected = 'false'
+Role = 'Checkbox'
+Text = '[Herbs]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 8 siblings
+2) Node #785 at (l=36.0, t=1374.0, r=141.0, b=1422.0)px
+Focused = 'false'
+Selected = 'false'
+Role = 'Checkbox'
+Text = '[Herbs]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 17 siblings
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:76)
+	at com.floratend.app.PhotoPickerRotationTest.plantDraftAndSelectedPhotoSurvivePickerRotation(PhotoPickerRotationTest.kt:78)
+
+com.floratend.app.PhotoOrientationTest:.
+
+Time: 21.417
+There was 1 failure:
+1) plantDraftAndSelectedPhotoSurvivePickerRotation(com.floratend.app.PhotoPickerRotationTest)
+java.lang.AssertionError: Action performScrollTo() failed.
+Reason: Expected exactly '1' node but found '2' nodes that satisfy: (Text + EditableText contains 'Herbs' (ignoreCase: false))
+Nodes found:
+1) Node #657 at (l=950.0, t=439.0, r=1055.0, b=487.0)px
+Focused = 'false'
+Selected = 'false'
+Role = 'Checkbox'
+Text = '[Herbs]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 8 siblings
+2) Node #785 at (l=36.0, t=1374.0, r=141.0, b=1422.0)px
+Focused = 'false'
+Selected = 'false'
+Role = 'Checkbox'
+Text = '[Herbs]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 17 siblings
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:76)
+	at com.floratend.app.PhotoPickerRotationTest.plantDraftAndSelectedPhotoSurvivePickerRotation(PhotoPickerRotationTest.kt:78)
+
+FAILURES!!!
+Tests run: 3,  Failures: 1
+
+

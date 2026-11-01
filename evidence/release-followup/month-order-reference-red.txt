@@ -1,0 +1,21 @@
+
+com.floratend.app.LocalizedFormattingTest:
+Error in monthFormattingMatchesAndroidCalendarOrder(com.floratend.app.LocalizedFormattingTest):
+java.lang.AssertionError: es-ES expected <marzo de 2011> actual <marzo 2011>; es-419 expected <marzo de 2011> actual <marzo 2011>; pt-BR expected <março de 2011> actual <março 2011>; pt-PT expected <março de 2011> actual <março 2011>; ja-JP expected <2011年3月> actual <3月 2011>; ko-KR expected <2011년 3월> actual <3월 2011>; zh-CN expected <2011年3月> actual <三月 2011>; zh-TW expected <2011年3月> actual <3月 2011>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.floratend.app.LocalizedFormattingTest.monthFormattingMatchesAndroidCalendarOrder(LocalizedFormattingTest.kt:31)
+.
+
+Time: 0.997
+There was 1 failure:
+1) monthFormattingMatchesAndroidCalendarOrder(com.floratend.app.LocalizedFormattingTest)
+java.lang.AssertionError: es-ES expected <marzo de 2011> actual <marzo 2011>; es-419 expected <marzo de 2011> actual <marzo 2011>; pt-BR expected <março de 2011> actual <março 2011>; pt-PT expected <março de 2011> actual <março 2011>; ja-JP expected <2011年3月> actual <3月 2011>; ko-KR expected <2011년 3월> actual <3월 2011>; zh-CN expected <2011年3月> actual <三月 2011>; zh-TW expected <2011年3月> actual <3月 2011>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.floratend.app.LocalizedFormattingTest.monthFormattingMatchesAndroidCalendarOrder(LocalizedFormattingTest.kt:31)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1
+
+

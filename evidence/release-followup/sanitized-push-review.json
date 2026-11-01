@@ -1,0 +1,6 @@
+{
+  "text_files_scanned": 121,
+  "known_sensitive_pattern_files": [],
+  "forbidden_binary_secret_artifacts": [],
+  "scope": "Pre-push pattern review of changed/untracked text; exact configured values were checked privately in signed APKs separately. Actual account/receipt/invitation data and raw service logs are not retained here."
+}

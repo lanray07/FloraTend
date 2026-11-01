@@ -1,0 +1,45 @@
+
+com.floratend.app.PrivacyReleaseTest:.
+com.floratend.app.PersistenceTest:..
+com.floratend.app.ReminderWorkerTest:.
+com.floratend.app.SpeechCapabilityTest:.
+com.floratend.app.UiSmokeTest:....
+com.floratend.app.BillingStartupTest:..
+com.floratend.app.EntitlementStoreTest:.....
+com.floratend.app.LocalizedUiTest:...
+com.floratend.app.ReleaseWorkflowTest:..
+com.floratend.app.MeasurementEditorTest:..
+com.floratend.app.SpokenFeedbackTest:.
+com.floratend.app.BotanicalAssetTest:.
+com.floratend.app.SchemaMigrationTest:..
+com.floratend.app.OrderedQueryIndexTest:.
+com.floratend.app.AccessibilityLayoutTest:...
+com.floratend.app.RecordLoadingTest:..
+com.floratend.app.PhotoAttachmentTest:.
+Error in plantEditorImportsPrivateDownsampledCopy(com.floratend.app.PhotoAttachmentTest):
+androidx.compose.ui.test.ComposeTimeoutException: Condition still not satisfied after 10000 ms
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitUntil(ComposeUiTest.android.kt:441)
+	at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitUntil(AndroidComposeTestRule.android.kt:306)
+	at com.floratend.app.PhotoAttachmentTest.plantEditorImportsPrivateDownsampledCopy(PhotoAttachmentTest.kt:75)
+
+com.floratend.app.SpeechContractTest:...
+com.floratend.app.ExportDestinationTest:.
+com.floratend.app.LocalizedNotificationTest:.
+com.floratend.app.NotificationLanguageChangeTest:.
+com.floratend.app.LocalizedFormattingTest:..
+com.floratend.app.LocalizedMonthTest:.
+com.floratend.app.PhotoOrientationTest:.
+com.floratend.app.PhotoPickerRotationTest:..
+
+Time: 211.713
+There was 1 failure:
+1) plantEditorImportsPrivateDownsampledCopy(com.floratend.app.PhotoAttachmentTest)
+androidx.compose.ui.test.ComposeTimeoutException: Condition still not satisfied after 10000 ms
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitUntil(ComposeUiTest.android.kt:441)
+	at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitUntil(AndroidComposeTestRule.android.kt:306)
+	at com.floratend.app.PhotoAttachmentTest.plantEditorImportsPrivateDownsampledCopy(PhotoAttachmentTest.kt:75)
+
+FAILURES!!!
+Tests run: 47,  Failures: 1
+
+

@@ -1,0 +1,8 @@
+
+com.floratend.app.LocalizedFormattingTest:.
+
+Time: 0.588
+
+OK (1 test)
+
+

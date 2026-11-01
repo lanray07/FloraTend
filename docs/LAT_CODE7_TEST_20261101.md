@@ -1,3 +1,5 @@
+> Current release work: [code11 follow-up](RELEASE_FOLLOWUP_20261101.md), [current acceptance matrix](../ACCEPTANCE_TEST_RESULTS.csv), and [later checkout diagnosis](CHECKOUT_DELAY_DIAGNOSIS_20261101.md). Results and criterion counts below are historical and retain their original scopes.
+
 # Amazon code-7 verification - 1 November 2026
 
 **Requested genuine LAT billing checks PASS on actual Amazon 0.1.6/code 7. Overall release remains BLOCKED.** Automatic purchase activation, explicit owned Restore and offline process restart passed. Earlier checkout delays remain an unresolved release limitation; no claim of full production readiness is made.

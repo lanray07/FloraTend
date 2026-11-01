@@ -39,9 +39,14 @@ class ExportDestinationTest {
         assertTrue("Android document picker",device.wait(Until.hasObject(By.pkg("com.android.documentsui")),10000))
         val name=device.findObject(By.clazz("android.widget.EditText"))
         assertNotNull(name)
-        name.text="floratend-qa-rotation.json"
+        val filename="floratend-qa-rotation-${System.currentTimeMillis()}.json"
         device.setOrientationNatural()
         device.waitForIdle()
+        // DocumentsUI may recreate its own filename field; choose the final destination after rotation.
+        val finalName=device.wait(Until.findObject(By.clazz("android.widget.EditText")),5000)
+        assertNotNull(finalName)
+        finalName.text=filename
+        java.io.File(app.getExternalFilesDir(null),"export-filename.txt").writeText(filename)
         val save=device.wait(Until.findObject(By.res("com.android.documentsui","button1")),5000)
             ?: device.findObject(By.text("Save")) ?: device.findObject(By.text("SAVE"))
         assertNotNull("DocumentsUI Save",save)

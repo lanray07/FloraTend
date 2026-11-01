@@ -1,0 +1,127 @@
+{
+  "execution_date": "2026-11-01",
+  "reviewer": "Assistant technical content review; no human linguistic/rights approval",
+  "listing_drafts": [
+    {
+      "locale": "de-DE",
+      "keyword_phrase_count": 5,
+      "distinct_keyword_phrases": true,
+      "keyword_text_characters": 90,
+      "source_sha256": "ebb432601ccd6b04ddfae34f6e41847f73c6545c5696b61fe43a4ba81100c07f"
+    },
+    {
+      "locale": "en-AU",
+      "keyword_phrase_count": 5,
+      "distinct_keyword_phrases": true,
+      "keyword_text_characters": 98,
+      "source_sha256": "b4438e14624473af817e47345e9ac02e43e42cc4d396b26e6b95ee15f6aad2a9"
+    },
+    {
+      "locale": "en-GB",
+      "keyword_phrase_count": 5,
+      "distinct_keyword_phrases": true,
+      "keyword_text_characters": 98,
+      "source_sha256": "910da7e037dce1670c37f42578ec87ef96e4273d40c2fc6b4b00ed2d2f707616"
+    },
+    {
+      "locale": "en-IN",
+      "keyword_phrase_count": 5,
+      "distinct_keyword_phrases": true,
+      "keyword_text_characters": 98,
+      "source_sha256": "8781b676c4a635d8931041eb92e156e6bccbed31e6e6d5a35b113ebc997f56b8"
+    },
+    {
+      "locale": "en-US",
+      "keyword_phrase_count": 5,
+      "distinct_keyword_phrases": true,
+      "keyword_text_characters": 98,
+      "source_sha256": "0e498efaf3e3455af544007293d736039fffd46944f3d409a2be1d04dca5c115"
+    },
+    {
+      "locale": "es-ES",
+      "keyword_phrase_count": 5,
+      "distinct_keyword_phrases": true,
+      "keyword_text_characters": 109,
+      "source_sha256": "a83b1509518d3f3676f2a41290f0d0ea933c1c19d9e1e964a20b4c14de7c4eb5"
+    },
+    {
+      "locale": "es-MX",
+      "keyword_phrase_count": 5,
+      "distinct_keyword_phrases": true,
+      "keyword_text_characters": 109,
+      "source_sha256": "0985b9e71edf0e7dbf0d55bdd63e39888e48dcd801196fea47f041eb83543167"
+    },
+    {
+      "locale": "fr-FR",
+      "keyword_phrase_count": 5,
+      "distinct_keyword_phrases": true,
+      "keyword_text_characters": 103,
+      "source_sha256": "d0c44c70fbd5e3a3b439a2be3c0b39cf39b25aa372fd074d0a5594a5e7ec3846"
+    },
+    {
+      "locale": "it-IT",
+      "keyword_phrase_count": 5,
+      "distinct_keyword_phrases": true,
+      "keyword_text_characters": 114,
+      "source_sha256": "efb5a41bb39d37975868bd02a91806e4b8b84dc740b750fa35933a0414e38483"
+    },
+    {
+      "locale": "ja-JP",
+      "keyword_phrase_count": 5,
+      "distinct_keyword_phrases": true,
+      "keyword_text_characters": 42,
+      "source_sha256": "6b63147049c1175c047a34bd519f58dde14f1694ced9c02eab7ca9a185669c09"
+    },
+    {
+      "locale": "nl-NL",
+      "keyword_phrase_count": 5,
+      "distinct_keyword_phrases": true,
+      "keyword_text_characters": 109,
+      "source_sha256": "6628ad80f9e7e346d113d1855779a5411fb5d1d9a0cfe054c3bf2289e6893ce1"
+    },
+    {
+      "locale": "pl-PL",
+      "keyword_phrase_count": 5,
+      "distinct_keyword_phrases": true,
+      "keyword_text_characters": 112,
+      "source_sha256": "7f9dbfbafbc71bf1eb5aecec7d0dc885163fef2ad1904e6b9ddaf6cbafb4478b"
+    },
+    {
+      "locale": "pt-BR",
+      "keyword_phrase_count": 5,
+      "distinct_keyword_phrases": true,
+      "keyword_text_characters": 117,
+      "source_sha256": "fd9840239b89c7cb05d553ecaf9cdb8e7fc85e41fac08201b3b95f2596d07129"
+    },
+    {
+      "locale": "pt-PT",
+      "keyword_phrase_count": 5,
+      "distinct_keyword_phrases": true,
+      "keyword_text_characters": 117,
+      "source_sha256": "75726df0b5665db3b9c36f57c93464af94a325f03586720376e558989538436e"
+    },
+    {
+      "locale": "sv-SE",
+      "keyword_phrase_count": 5,
+      "distinct_keyword_phrases": true,
+      "keyword_text_characters": 87,
+      "source_sha256": "f2466effd6df4b4e31291b38e8aa541fc903cf277be8bd485365a561e958811c"
+    }
+  ],
+  "headline_count": 120,
+  "review_rating_award_pattern_matches": 0,
+  "manual_headline_topics": [
+    "plant organisation",
+    "care routine",
+    "locations",
+    "calendar",
+    "growth journal",
+    "typed commands",
+    "offline records",
+    "recorded-care insights"
+  ],
+  "unsupported_identification_or_recognized_speech_claim": false,
+  "native_capture_version": 11,
+  "verified_composition_capture_hash_pairs": 120,
+  "scope": "Reviewed draft source headlines/keyword lists and rendered-source mapping. No fabricated customer endorsements, ratings or awards are present. Translations, typography, marketing claims and legal rights still need their separate qualified reviews."
+}

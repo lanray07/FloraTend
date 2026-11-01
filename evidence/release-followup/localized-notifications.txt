@@ -1,0 +1,8 @@
+
+com.floratend.app.LocalizedNotificationTest:.
+
+Time: 5.359
+
+OK (1 test)
+
+

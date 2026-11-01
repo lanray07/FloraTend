@@ -1,0 +1,34 @@
+{
+  "execution_date": "2026-11-01",
+  "version": "0.1.10/code11",
+  "first_party_explicit_http_calls": [
+    {
+      "file": "app/src/main/java/com/floratend/app/ReceiptVerifier.kt",
+      "line": 6,
+      "source": "import java.net.HttpURLConnection"
+    },
+    {
+      "file": "app/src/main/java/com/floratend/app/ReceiptVerifier.kt",
+      "line": 26,
+      "source": "var connection: HttpURLConnection? = null"
+    },
+    {
+      "file": "app/src/main/java/com/floratend/app/ReceiptVerifier.kt",
+      "line": 28,
+      "source": "connection = URL(endpoint).openConnection() as HttpURLConnection"
+    }
+  ],
+  "photo_import_uses_private_files_directory": true,
+  "photo_import_has_no_http_call": true,
+  "receipt_body_fields": [
+    "userId",
+    "receiptId"
+  ],
+  "plant_or_image_payload_in_receipt_request": false,
+  "input_sha256": {
+    "app/src/main/java/com/floratend/app/Photos.kt": "40c3490590002a3ef43a74bb4d681afbe5ff27053bbd016522594a27d8c21a11",
+    "app/src/main/java/com/floratend/app/ReceiptVerifier.kt": "2ca968dfd430a096da87ce5c5023e9d58258bb821abb884ee8ef8942ba097990",
+    "app/src/main/java/com/floratend/app/Data.kt": "ea276c5accee599a5dfb59c96c1eb614003f6878159a57a053a8dcc7152612c4"
+  },
+  "scope": "First-party code/data-flow review combined with actual offline persistence, real picker/private-copy and strict receipt-schema tests. Not a packet capture, third-party SDK audit, legal compliance claim or live identification test. Optional installed speech services, Amazon and Cloudflare processing are separately disclosed."
+}

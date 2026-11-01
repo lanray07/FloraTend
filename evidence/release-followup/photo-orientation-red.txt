@@ -1,0 +1,21 @@
+
+com.floratend.app.PhotoOrientationTest:
+Error in importsEveryExifOrientationAsUprightPrivatePixels(com.floratend.app.PhotoOrientationTest):
+java.lang.AssertionError: EXIF 2 corner 0
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.floratend.app.PhotoOrientationTest.importsEveryExifOrientationAsUprightPrivatePixels(PhotoOrientationTest.kt:38)
+
+
+Time: 0.084
+There was 1 failure:
+1) importsEveryExifOrientationAsUprightPrivatePixels(com.floratend.app.PhotoOrientationTest)
+java.lang.AssertionError: EXIF 2 corner 0
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.floratend.app.PhotoOrientationTest.importsEveryExifOrientationAsUprightPrivatePixels(PhotoOrientationTest.kt:38)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+

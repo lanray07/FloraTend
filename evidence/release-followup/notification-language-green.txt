@@ -1,0 +1,8 @@
+
+com.floratend.app.NotificationLanguageChangeTest:.
+
+Time: 8,328
+
+OK (1 test)
+
+

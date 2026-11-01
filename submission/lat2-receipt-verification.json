@@ -45,5 +45,23 @@
     "explicit_owned_restore": "PASS actual Amazon7 under exclusive access",
     "offline_process_restart": "PASS actual Amazon7 no default network and changed PID",
     "checkout_both_orientations": "PASS after reboot; initial delays retained, original cause unisolated"
+  },
+  "historical_record_preserved": true,
+  "current_checkpoint": {
+    "checked": "2026-11-01",
+    "actual_amazon_installed_version_code": 8,
+    "version_name": "0.1.7",
+    "installer": "com.amazon.venezia",
+    "genuine_code8_evidence": "docs/CHECKOUT_DELAY_DIAGNOSIS_20261101.md",
+    "latest_release_followup": "docs/RELEASE_FOLLOWUP_20261101.md",
+    "code10_status": "Test in-progress confirmed 1November; source b64a62c6ba24f7b76efb67ecc653d81916372dd8",
+    "code11_status": "Test submitted, console confirmed; dedicated FloraTend Premium LAT only, English declaration",
+    "genuine_code11_regression": "PENDING Amazon delivery",
+    "source11_local_native_scope": "47distinct QA cases verified across retained combined+targeted runs; no actual Amazon11 billing result inferred",
+    "overall_verified_criteria": 159,
+    "overall_incomplete_criteria": 45,
+    "code11_release_id": "amzn1.devportal.apprelease.5a6ea3a6b65c4c989a3fa76abdd9115b",
+    "code11_upload_sha256": "f4c549e09be5a8bb5852f0bb6e043a5ca100116c81f22aab9fb4d15bf40665c7",
+    "code11_submission_evidence": "evidence/release-followup/lat-code11-submitted.png"
   }
 }

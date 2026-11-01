@@ -71,6 +71,10 @@ class PhotoAttachmentTest {
         rule.onNodeWithText("Choose photo").performScrollTo().performClick()
         rule.waitUntil(10000) { File(app.filesDir,"photos").listFiles().orEmpty().any { it.path !in initialPaths } }
         rule.waitForIdle()
+        rule.waitUntil(10000) {
+            rule.onAllNodesWithContentDescription(rule.activity.getString(R.string.plant_photo)).fetchSemanticsNodes().isNotEmpty() &&
+                rule.onAllNodes(hasText("Save",substring=false) and isEnabled()).fetchSemanticsNodes().isNotEmpty()
+        }
         rule.onNodeWithText("Save",substring=false).performClick()
         rule.waitUntil(10000) { saved?.photo!=null }
         runBlocking { app.database.dao().save(requireNotNull(saved)) }
@@ -89,6 +93,10 @@ class PhotoAttachmentTest {
         rule.onNodeWithText("Choose photo").performScrollTo().performClick()
         rule.waitUntil(10000) { rule.onAllNodesWithText("Save",substring=false).fetchSemanticsNodes().isNotEmpty() }
         rule.waitUntil(10000) { runCatching { rule.onNodeWithText("Save",substring=false).assertIsEnabled();true }.getOrDefault(false) }
+        rule.waitUntil(10000) {
+            rule.onAllNodesWithContentDescription(rule.activity.getString(R.string.plant_photo)).fetchSemanticsNodes().isNotEmpty() &&
+                rule.onAllNodes(hasText("Save",substring=false) and isEnabled()).fetchSemanticsNodes().isNotEmpty()
+        }
         rule.onNodeWithText("Save",substring=false).performClick()
         rule.waitUntil(10000) { saved?.photo!=null }
         runBlocking { app.database.dao().save(requireNotNull(saved)) }

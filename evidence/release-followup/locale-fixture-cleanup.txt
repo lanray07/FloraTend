@@ -1,0 +1,8 @@
+
+com.floratend.app.LocalizedUiTest:.
+
+Time: 6.538
+
+OK (1 test)
+
+

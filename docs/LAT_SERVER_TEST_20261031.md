@@ -1,3 +1,5 @@
+> Current release work: [code11 follow-up](RELEASE_FOLLOWUP_20261101.md), [current acceptance matrix](../ACCEPTANCE_TEST_RESULTS.csv), and [later checkout diagnosis](CHECKOUT_DELAY_DIAGNOSIS_20261101.md). Results and criterion counts below are historical and retain their original scopes.
+
 > Latest: [1 November actual Amazon code-7 installation and checkout attempts](LAT_CODE7_TEST_20261101.md). Historical results below retain their original scopes.
 
 # Amazon Test 2 server-verification check - 31 October 2026

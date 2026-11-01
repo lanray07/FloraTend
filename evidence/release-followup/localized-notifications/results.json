@@ -1,0 +1,115 @@
+{
+  "locales": [
+    {
+      "locale": "en-GB",
+      "text": "1 plant-care check to review.",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "en-US",
+      "text": "1 plant-care check to review.",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "en-AU",
+      "text": "1 plant-care check to review.",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "es-ES",
+      "text": "1 revisión de plantas pendiente.",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "es-419",
+      "text": "1 revisión de plantas pendiente.",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "fr-FR",
+      "text": "1 vérification de plante à consulter.",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "fr-CA",
+      "text": "1 vérification de plante à consulter.",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "de-DE",
+      "text": "1 Pflanzenkontrolle zum Prüfen.",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "it-IT",
+      "text": "1 controllo di cura da esaminare.",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "pt-BR",
+      "text": "1 verificação de cuidados para revisar.",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "pt-PT",
+      "text": "1 verificação de cuidados para rever.",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "nl-NL",
+      "text": "1 verzorgingscontrole om te bekijken.",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "pl-PL",
+      "text": "1 kontrola pielęgnacji do przejrzenia.",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "sv-SE",
+      "text": "1 skötselkontroll att granska.",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "ja-JP",
+      "text": "確認する植物のお手入れが1件あります。",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "hi-IN",
+      "text": "पौधों की देखभाल की 1 जाँच पर ध्यान दें।",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "ar",
+      "text": "يلزم مراجعة فحص واحد للعناية بالنباتات (١).",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "tr-TR",
+      "text": "Gözden geçirilecek 1 bitki bakım kontrolü var.",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "id-ID",
+      "text": "Ada 1 pemeriksaan perawatan tanaman untuk ditinjau.",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "ko-KR",
+      "text": "확인할 식물 관리 항목 1개.",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "zh-CN",
+      "text": "有 1 项植物养护检查待查看。",
+      "state": "SUCCEEDED"
+    },
+    {
+      "locale": "zh-TW",
+      "text": "有 1 項植物照護檢查待查看。",
+      "state": "SUCCEEDED"
+    }
+  ],
+  "scope": "Real WorkManager and OS notification text\/channel; draft wording, no human grammar approval."
+}

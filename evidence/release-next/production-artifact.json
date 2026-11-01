@@ -14,5 +14,6 @@
     "qa.fixtures": true
   },
   "scope": "Developer-signed candidate inspection; not Amazon delivery, installed-client or genuine code10 billing evidence.",
-  "source_manifest_sha256": "6b6793c85c1866efbbe98c894a45895f5307add1f913a26cfd2e1bd7d0815f4e"
+  "source_manifest_sha256": "6b6793c85c1866efbbe98c894a45895f5307add1f913a26cfd2e1bd7d0815f4e",
+  "source_commit": "b64a62c6ba24f7b76efb67ecc653d81916372dd8"
 }

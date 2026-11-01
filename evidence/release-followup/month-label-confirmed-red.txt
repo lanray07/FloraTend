@@ -1,0 +1,33 @@
+
+com.floratend.app.LocalizedMonthTest:
+Error in frenchInsightsUsesReadableMonthInsteadOfIsoKey(com.floratend.app.LocalizedMonthTest):
+java.lang.AssertionError: Failed: assertDoesNotExist.
+Reason: Did not expect any node but found '1' node that satisfies: (Text + EditableText contains '2011-03' (ignoreCase: false))
+Node found:
+Node #254 at (l=204.0, t=857.0, r=1853.0, b=893.0)px
+Text = '[2011-03]'
+Actions = [SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+Has 14 siblings
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.assertDoesNotExist(SemanticsNodeInteraction.kt:100)
+	at com.floratend.app.LocalizedMonthTest.frenchInsightsUsesReadableMonthInsteadOfIsoKey(LocalizedMonthTest.kt:29)
+
+
+Time: 6,63
+There was 1 failure:
+1) frenchInsightsUsesReadableMonthInsteadOfIsoKey(com.floratend.app.LocalizedMonthTest)
+java.lang.AssertionError: Failed: assertDoesNotExist.
+Reason: Did not expect any node but found '1' node that satisfies: (Text + EditableText contains '2011-03' (ignoreCase: false))
+Node found:
+Node #254 at (l=204.0, t=857.0, r=1853.0, b=893.0)px
+Text = '[2011-03]'
+Actions = [SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+Has 14 siblings
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.assertDoesNotExist(SemanticsNodeInteraction.kt:100)
+	at com.floratend.app.LocalizedMonthTest.frenchInsightsUsesReadableMonthInsteadOfIsoKey(LocalizedMonthTest.kt:29)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+

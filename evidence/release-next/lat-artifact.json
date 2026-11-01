@@ -10,7 +10,8 @@
   "developer_credential_names_absent": true,
   "scope": "Developer-signed LAT upload candidate; Amazon delivery and genuine code10 purchase regression remain pending.",
   "source_manifest_sha256": "6b6793c85c1866efbbe98c894a45895f5307add1f913a26cfd2e1bd7d0815f4e",
-  "amazon_test2_status": "Test submitted",
-  "genuine_code10_regression": "PENDING Amazon delivery",
-  "installed_amazon_version_code": 8
+  "amazon_test2_status": "Test in-progress confirmed1November; followed by code11submission",
+  "genuine_code10_regression": "Not executed; code11supersedes before device update",
+  "installed_amazon_version_code": 8,
+  "source_commit": "b64a62c6ba24f7b76efb67ecc653d81916372dd8"
 }

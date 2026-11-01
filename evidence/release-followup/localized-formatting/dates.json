@@ -1,0 +1,112 @@
+[
+  {
+    "locale": "en-GB",
+    "actual": "9 Mar 2011",
+    "androidReference": "9 Mar 2011"
+  },
+  {
+    "locale": "en-US",
+    "actual": "Mar 9, 2011",
+    "androidReference": "Mar 9, 2011"
+  },
+  {
+    "locale": "en-AU",
+    "actual": "9 Mar 2011",
+    "androidReference": "9 Mar 2011"
+  },
+  {
+    "locale": "es-ES",
+    "actual": "9 mar. 2011",
+    "androidReference": "9 mar. 2011"
+  },
+  {
+    "locale": "es-419",
+    "actual": "9 mar. 2011",
+    "androidReference": "9 mar. 2011"
+  },
+  {
+    "locale": "fr-FR",
+    "actual": "9 mars 2011",
+    "androidReference": "9 mars 2011"
+  },
+  {
+    "locale": "fr-CA",
+    "actual": "9 mars 2011",
+    "androidReference": "9 mars 2011"
+  },
+  {
+    "locale": "de-DE",
+    "actual": "09.03.2011",
+    "androidReference": "09.03.2011"
+  },
+  {
+    "locale": "it-IT",
+    "actual": "9 mar 2011",
+    "androidReference": "9 mar 2011"
+  },
+  {
+    "locale": "pt-BR",
+    "actual": "9 de mar de 2011",
+    "androidReference": "9 de mar de 2011"
+  },
+  {
+    "locale": "pt-PT",
+    "actual": "09\/03\/2011",
+    "androidReference": "09\/03\/2011"
+  },
+  {
+    "locale": "nl-NL",
+    "actual": "9 mrt. 2011",
+    "androidReference": "9 mrt. 2011"
+  },
+  {
+    "locale": "pl-PL",
+    "actual": "9 mar 2011",
+    "androidReference": "9 mar 2011"
+  },
+  {
+    "locale": "sv-SE",
+    "actual": "9 mars 2011",
+    "androidReference": "9 mars 2011"
+  },
+  {
+    "locale": "ja-JP",
+    "actual": "2011\/03\/09",
+    "androidReference": "2011\/03\/09"
+  },
+  {
+    "locale": "hi-IN",
+    "actual": "9 मार्च 2011",
+    "androidReference": "9 मार्च 2011"
+  },
+  {
+    "locale": "ar",
+    "actual": "٠٩‏\/٠٣‏\/٢٠١١",
+    "androidReference": "٠٩‏\/٠٣‏\/٢٠١١"
+  },
+  {
+    "locale": "tr-TR",
+    "actual": "9 Mar 2011",
+    "androidReference": "9 Mar 2011"
+  },
+  {
+    "locale": "id-ID",
+    "actual": "9 Mar 2011",
+    "androidReference": "9 Mar 2011"
+  },
+  {
+    "locale": "ko-KR",
+    "actual": "2011. 3. 9.",
+    "androidReference": "2011. 3. 9."
+  },
+  {
+    "locale": "zh-CN",
+    "actual": "2011年3月9日",
+    "androidReference": "2011年3月9日"
+  },
+  {
+    "locale": "zh-TW",
+    "actual": "2011年3月9日",
+    "androidReference": "2011年3月9日"
+  }
+]

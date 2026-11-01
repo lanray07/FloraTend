@@ -32,4 +32,8 @@ The 152 source captures in `evidence/store-captures/run-20261030-094326` are act
 
 ## Refreshed screenshot drafts — 1 November 2026
 
-The current120compositions now derive from176actual offline native captures across22app locales in `evidence/store-captures/run-20261101-141237`, disposable QA version0.1.9/code10. They preserve the full captured screen and use existing original botanical demonstration imagery. All15listing locales are represented; each retains eight scenes. Native capture, crop/integrity, dimensions and hash checks passed. Linguistic, market terminology, readability and claims approval by qualified reviewers remain pending. Earlier capture directories remain historical evidence.
+The earlier code10compositions derived from176actual offline native captures across22app locales in `evidence/store-captures/run-20261101-141237`, disposable QA version0.1.9/code10. They preserve the full captured screen and use existing original botanical demonstration imagery. All15listing locales are represented; each retains eight scenes. Native capture, crop/integrity, dimensions and hash checks passed. Linguistic, market terminology, readability and claims approval by qualified reviewers remain pending. Earlier capture directories remain historical evidence.
+
+## Latest code11 screenshot refresh
+
+Current120compositions derive from176fresh actual offline native scenes across22app locales in `evidence/store-captures/run-20261101-152934`, QA0.1.10/code11. This refresh includes the corrected date digits and locale-specific month ordering. All15store locales retain eight scenes, with capture/export hashes recorded and verified. Source headlines remain assistant drafts pending qualified linguistic, readability, market and claims review. No customer ratings, reviews or awards were invented.

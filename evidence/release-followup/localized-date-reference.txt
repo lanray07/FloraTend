@@ -1,0 +1,21 @@
+
+com.floratend.app.LocalizedFormattingTest:
+Error in dateFormattingMatchesAndroidLocaleConvention(com.floratend.app.LocalizedFormattingTest):
+java.lang.AssertionError: ar expected <٠٩‏/٠٣‏/٢٠١١> actual <09‏/03‏/2011>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.floratend.app.LocalizedFormattingTest.dateFormattingMatchesAndroidLocaleConvention(LocalizedFormattingTest.kt:30)
+
+
+Time: 0.516
+There was 1 failure:
+1) dateFormattingMatchesAndroidLocaleConvention(com.floratend.app.LocalizedFormattingTest)
+java.lang.AssertionError: ar expected <٠٩‏/٠٣‏/٢٠١١> actual <09‏/03‏/2011>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.floratend.app.LocalizedFormattingTest.dateFormattingMatchesAndroidLocaleConvention(LocalizedFormattingTest.kt:30)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+

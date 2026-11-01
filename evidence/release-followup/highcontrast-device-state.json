@@ -1,0 +1,15 @@
+{
+  "contrastAfter": "null",
+  "executedFont": 1.8,
+  "executedContrast": 1,
+  "contrastBefore": "null",
+  "fontBefore": "1.0",
+  "scope": "Physical HD10 API28 native UI; all original OS preferences restored",
+  "fontAfter": "1.0",
+  "executedAnimationScales": 0,
+  "animationBefore": {
+    "window_animation_scale": "1.0",
+    "animator_duration_scale": "1.0",
+    "transition_animation_scale": "1.0"
+  }
+}

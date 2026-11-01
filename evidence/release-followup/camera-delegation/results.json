@@ -1,0 +1,9 @@
+{
+  "externalCameraPackage": "com.android.camera2",
+  "launchedOnlyAfterTakePhoto": true,
+  "appCameraPermissionDeniedBeforeAndAfter": true,
+  "cancelPreservedDraft": true,
+  "photoCaptured": false,
+  "privatePhotoFilesUnchanged": true,
+  "scope": "Physical Fire HD10\/API28 official camera launch\/cancel; no photograph, camera preview screenshot, upload or hardware image quality claim."
+}

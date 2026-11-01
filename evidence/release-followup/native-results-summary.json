@@ -1,0 +1,16 @@
+{
+  "candidate": "0.1.10/code11",
+  "combined_run": {
+    "cases": 47,
+    "passed": 46,
+    "failed": 1,
+    "evidence": "native-suite-before-ready-wait.txt",
+    "failure": "PhotoAttachment fixture checked file existence before UI readiness; timeout waiting for Save callback"
+  },
+  "corrected_targeted_rerun": {
+    "cases": 2,
+    "passed": 2,
+    "evidence": "photo-attachment-ready-green.txt"
+  },
+  "scope": "All47 distinct cases verified across retained runs. This is not a claim of a single clean47-case run. Controlled QA evidence is separate from genuine Amazon purchase regression."
+}

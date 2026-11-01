@@ -1939,5 +1939,219 @@
       "evidence/release-next/accessibility/fire8-landscape-font180/configuration.json"
     ],
     "corrective_action": "Execute remaining physical/newestOS and battery cases before broad device certification."
+  },
+  "AC-03.05": {
+    "test_name": "Location/category preservation through real picker rotation",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA code11, or dated primary-source research as stated",
+    "status": "PASS",
+    "actual_result": "Physical Fire HD10/API28, isolated QA source0.1.10/code11: typed Window and selected Herb, rotated the real DocumentsUI picker, selected the dedicated controlled image, returned, saved, and asserted persisted location/category plus private photo. Plant and journal picker workflows passed2tests.",
+    "evidence": [
+      "evidence/release-followup/photo-rotation-final.txt",
+      "app/src/androidTest/java/com/floratend/app/PhotoPickerRotationTest.kt"
+    ],
+    "corrective_action": "Retain scope; human linguistic, market and overall release approval remain separate."
+  },
+  "AC-07.09": {
+    "test_name": "All packaged locale notification delivery",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA code11, or dated primary-source research as stated",
+    "status": "PASS",
+    "actual_result": "Real WorkManager and Android notification manager delivered selected-locale text and channel names for all22 packaged bundles. Draft wording remains pending human approval. Language-change notification refresh regression is recorded separately.",
+    "evidence": [
+      "evidence/release-followup/localized-notifications.txt",
+      "evidence/release-followup/localized-notifications/results.json"
+    ],
+    "corrective_action": "Retain scope; human linguistic, market and overall release approval remain separate."
+  },
+  "AC-14.04": {
+    "test_name": "Primary-source English search terminology research",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28; isolated QA code11, or dated primary-source research as stated",
+    "status": "PASS",
+    "actual_result": "Qualitative official Planta/Greg help and RHS vocabulary research mapped five existing English seed phrases to implemented tasks. Tracker/growth-journal intent is explicitly inferred, with no search-volume/ranking claim. Other-market terminology remains pending local review.",
+    "evidence": [
+      "docs/SEARCH_TERMINOLOGY_20261101.md"
+    ],
+    "corrective_action": "Retain scope; human linguistic, market and overall release approval remain separate."
+  },
+  "AC-02.02": {
+    "test_name": "Declared tablet configuration layout runs",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI/API28 with explicitly recorded OS display/accessibility overrides",
+    "status": "PASS",
+    "actual_result": "Three native primary-flow/target/identity tests passed each simulated7/8-inch portrait/landscape configuration at180% font on a physical HD10/API28. HD10 baseline and later high-contrast180% native flows also passed. These are exact configuration overrides, not certification of separate physical7/8 hardware.",
+    "evidence": [
+      "evidence/release-next/layout-fire7-portrait-font180.txt",
+      "evidence/release-next/layout-fire7-landscape-motion0-font180.txt",
+      "evidence/release-next/layout-fire8-portrait-font180.txt",
+      "evidence/release-next/layout-fire8-landscape-font180.txt",
+      "docs/DEVICE_MATRIX_20261101.md"
+    ],
+    "corrective_action": "Retain exact device/configuration scope; separate human/localization approval remains pending."
+  },
+  "AC-17.05": {
+    "test_name": "High-contrast native reachability and visual inspection",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI/API28 with explicitly recorded OS display/accessibility overrides",
+    "status": "PASS",
+    "actual_result": "Physical HD10/API28 high-contrast text enabled,180% font, all three animation scales0:3native target/primary-flow/card-identity tests passed. Captured Garden and Settings visibly show system contrast outlines and legible controls; other primary scenes retained. Original contrast/font/animation preferences restored. Scope is this device/configuration, not all visual impairments or languages.",
+    "evidence": [
+      "evidence/release-followup/highcontrast-motion0.txt",
+      "evidence/release-followup/highcontrast-device-state.json",
+      "evidence/release-followup/hd10-highcontrast-motion0/garden.png",
+      "evidence/release-followup/hd10-highcontrast-motion0/settings.png"
+    ],
+    "corrective_action": "Retain exact device/configuration scope; separate human/localization approval remains pending."
+  },
+  "AC-02.10": {
+    "test_name": "System reduced-animation configuration",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI/API28 with explicitly recorded OS display/accessibility overrides",
+    "status": "PASS",
+    "actual_result": "Physical HD10/API28 primary flows passed3native checks with window/transition/animator scales0 and180%font/high-contrast. Application defines no custom timed/infinite animation loops; Compose/platform controls use system duration scaling. Prior7-inch landscape scale0 run also passed. Original OS values restored.",
+    "evidence": [
+      "evidence/release-followup/highcontrast-motion0.txt",
+      "evidence/release-followup/highcontrast-device-state.json",
+      "evidence/release-next/layout-fire7-landscape-motion0-font180.txt"
+    ],
+    "corrective_action": "Retain exact device/configuration scope; separate human/localization approval remains pending."
+  },
+  "AC-17.06": {
+    "test_name": "System reduced-animation configuration",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI/API28 with explicitly recorded OS display/accessibility overrides",
+    "status": "PASS",
+    "actual_result": "Physical HD10/API28 primary flows passed3native checks with window/transition/animator scales0 and180%font/high-contrast. Application defines no custom timed/infinite animation loops; Compose/platform controls use system duration scaling. Prior7-inch landscape scale0 run also passed. Original OS values restored.",
+    "evidence": [
+      "evidence/release-followup/highcontrast-motion0.txt",
+      "evidence/release-followup/highcontrast-device-state.json",
+      "evidence/release-next/layout-fire7-landscape-motion0-font180.txt"
+    ],
+    "corrective_action": "Retain exact device/configuration scope; separate human/localization approval remains pending."
+  },
+  "AC-07.07": {
+    "test_name": "Platform-referenced localized dates and actual Insights month",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI/API28, isolated QA source0.1.10/code11",
+    "status": "PASS",
+    "actual_result": "Native date and year-month outputs match independent Android ICU reference for all22 packaged locales. Arabic digits and8 fixed-month-pattern mismatches reproduced red. Actual French Insights now displays mars2011 instead of raw2011-03. Formatting/Insights cases passed within the combined run; its separate PhotoAttachment timing-test failure is retained. Human wording approval remains separate.",
+    "evidence": [
+      "evidence/release-followup/localized-formatting/dates.json",
+      "evidence/release-followup/localized-formatting/months.json",
+      "evidence/release-followup/localized-date-reference.txt",
+      "evidence/release-followup/month-label-confirmed-red.txt",
+      "evidence/release-followup/month-order-reference-red.txt",
+      "evidence/release-followup/native-suite-before-ready-wait.txt"
+    ],
+    "corrective_action": "Retain exact locale/platform scope; human linguistic and genuine LAT approval remain open."
+  },
+  "AC-16.04": {
+    "test_name": "Contextual external camera launch/cancel",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI/API28 isolated QA code11 or dated source/artifact fact review as stated",
+    "status": "PASS",
+    "actual_result": "Official com.android.camera2 opened only after Take photo on physical HD10/API28. FloraTend CAMERA permission remained denied before/after; cancel retained the draft and private photo files were unchanged. No camera photo or preview screenshot was captured.",
+    "evidence": [
+      "evidence/release-followup/camera-delegation.txt",
+      "evidence/release-followup/camera-delegation/results.json"
+    ],
+    "corrective_action": "Retain technical scope; human linguistic, market, rights and whole-release approval remain separate."
+  },
+  "AC-13.10": {
+    "test_name": "Production artwork provenance and native rendering",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI/API28 isolated QA code11 or dated source/artifact fact review as stated",
+    "status": "PASS",
+    "actual_result": "Reviewed original generated hero/vector/icon source provenance and10actual native botanical renderings. Current code11 draft screenshots use actual controlled-data UI, not fabricated screens. No competitor art or placeholder artwork is included in the application-owned production asset set. This is a creation/source review, not trademark or legal rights certification.",
+    "evidence": [
+      "assets/ASSET_PROVENANCE.md",
+      "evidence/release-next/botanical-assets/native-vector-contact-sheet.png",
+      "evidence/release-followup/native-suite-before-ready-wait.txt",
+      "evidence/release-followup/lat-artifact.json"
+    ],
+    "corrective_action": "Retain technical scope; human linguistic, market, rights and whole-release approval remain separate."
+  },
+  "AC-14.09": {
+    "test_name": "Concise distinct keyword phrase audit",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI/API28 isolated QA code11 or dated source/artifact fact review as stated",
+    "status": "PASS",
+    "actual_result": "All15draft listings contain exactly5distinct task phrases per locale, with no duplicated keyword phrases or competitor-brand stuffing. Source lists were read and checked; this establishes concise draft structure, not search-volume or qualified market terminology approval.",
+    "evidence": [
+      "evidence/release-followup/content-facts-audit.json",
+      "docs/SEARCH_TERMINOLOGY_20261101.md"
+    ],
+    "corrective_action": "Retain technical scope; human linguistic, market, rights and whole-release approval remain separate."
+  },
+  "AC-08.11": {
+    "test_name": "Screenshot endorsement/rating fact review",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI/API28 isolated QA code11 or dated source/artifact fact review as stated",
+    "status": "PASS",
+    "actual_result": "Read all120source headlines and checked actual native UI/renderer mapping and hashes. No fabricated customer testimonials, numeric/star ratings or award badges are present. Qualified linguistic/readability/claims approval remains pending.",
+    "evidence": [
+      "evidence/release-followup/content-facts-audit.json",
+      "assets/screenshots/headlines.json",
+      "assets/screenshots/localized/localized-manifest.json"
+    ],
+    "corrective_action": "Retain technical scope; human linguistic, market, rights and whole-release approval remain separate."
+  },
+  "AC-14.10": {
+    "test_name": "Metadata endorsement/rating fact review",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI/API28 isolated QA code11 or dated source/artifact fact review as stated",
+    "status": "PASS",
+    "actual_result": "Reviewed15draft listing inputs and checked known rating/award claims. No customer reviews, numerical/star ratings or awards are asserted. This content-fact result does not approve the draft translations, naming or overall store policy.",
+    "evidence": [
+      "evidence/release-followup/content-facts-audit.json",
+      "evidence/release-followup/metadata-audit.json"
+    ],
+    "corrective_action": "Retain technical scope; human linguistic, market, rights and whole-release approval remain separate."
+  },
+  "AC-08.12": {
+    "test_name": "Screenshot feature-to-execution cross-check",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI/API28 isolated QA code11 or dated source/artifact fact review as stated",
+    "status": "PASS",
+    "actual_result": "All8headline topics map to implemented UI: collection, routines,locations,calendar,journal,typed commands,offline records and recorded-care counts.176fresh actual offline code11scenes and120hash-linked exports contain controlled demonstration data. No identification, diagnosis, guaranteed growth or supported microphone recognition is advertised by these headlines. This is technical feature matching; qualified marketing/linguistic review remains separate.",
+    "evidence": [
+      "evidence/release-followup/content-facts-audit.json",
+      "evidence/store-captures/run-20261101-152934/instrumentation.txt",
+      "evidence/store-captures/run-20261101-152934/capture-manifest.json",
+      "evidence/release-followup/native-suite-before-ready-wait.txt",
+      "evidence/release-followup/photo-attachment-ready-green.txt"
+    ],
+    "corrective_action": "Retain technical scope; human linguistic, market, rights and whole-release approval remain separate."
+  },
+  "AC-16.02": {
+    "test_name": "Local core records and explicit receipt data boundary",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10/API28 controlled QA workflows plus first-party code/schema review",
+    "status": "PASS",
+    "actual_result": "Actual offline process restart retained plant/care/journal/private-image records;176fresh offline code11scenes exercised local core UI without an app account. First-party network review found only the receipt verifier, whose request contains Amazon user/receipt identifiers, not plant records. Optional speech/export/provider processing remains separately disclosed; this is not a claim of no network traffic or legal compliance.",
+    "evidence": [
+      "evidence/release-followup/local-record-photo-data-flow.json",
+      "docs/PRIVACY_DATA_FLOW_20261101.md",
+      "evidence/release-next/offline-process/verified.json",
+      "evidence/store-captures/run-20261101-152934/instrumentation.txt"
+    ],
+    "corrective_action": "Re-evaluate before enabling any photo provider; final publisher/privacy/legal approval remains pending."
+  },
+  "AC-16.05": {
+    "test_name": "Private photo paths with no active upload workflow",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10/API28 controlled QA workflows plus first-party code/schema review",
+    "status": "PASS",
+    "actual_result": "Real DocumentsUI URI import and rotated draft return produced private downsampled images; official camera cancellation captured nothing and retained the private-file set. First-party Photos contains only local reads/private JPEG writes; the only explicit HTTP request is the two-field receipt verifier. No identification uploader is configured. This verifies the current local-photo boundary, not a future provider/consent engine or external SDK packet trace.",
+    "evidence": [
+      "evidence/release-followup/local-record-photo-data-flow.json",
+      "docs/PRIVACY_DATA_FLOW_20261101.md",
+      "evidence/release-followup/photo-rotation-final.txt",
+      "evidence/release-followup/photo-attachment-ready-green.txt",
+      "evidence/release-followup/camera-delegation/results.json",
+      "evidence/release-followup/server-tests.txt"
+    ],
+    "corrective_action": "Re-evaluate before enabling any photo provider; final publisher/privacy/legal approval remains pending."
   }
 }

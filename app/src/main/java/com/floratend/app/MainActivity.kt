@@ -236,7 +236,9 @@ private val Clay = Color(0xFFC8795B)
 
     var tab by rememberSaveable { mutableIntStateOf(0) }
 
-    var editor by remember { mutableStateOf<Plant?>(null) }
+    var editorId by rememberSaveable { mutableStateOf<String?>(null) }
+    var editingNew by rememberSaveable { mutableStateOf(false) }
+    val editor = editorId?.let { id -> if(editingNew) Plant(id=id,name="") else plants.find { it.id==id } }
 
     var selected by remember { mutableStateOf<Plant?>(null) }
 
@@ -248,13 +250,14 @@ private val Clay = Color(0xFFC8795B)
 
     var descending by remember { mutableStateOf(false) }
 
-    var newSchedule by remember { mutableStateOf(false) }
+    var newSchedule by rememberSaveable { mutableStateOf(false) }
 
-    var newJournal by remember { mutableStateOf(false) }
+    var newJournal by rememberSaveable { mutableStateOf(false) }
 
     var observation by remember { mutableStateOf<CareSchedule?>(null) }
 
-    var journalEditor by remember { mutableStateOf<JournalEntry?>(null) }
+    var journalEditorId by rememberSaveable { mutableStateOf<String?>(null) }
+    val journalEditor = journal.find { it.id==journalEditorId }
 
     val colors = if (dark) darkColorScheme(primary = Color(0xFFADCFAF), secondary = Color(0xFFE8AD91), primaryContainer=Color(0xFF294632), secondaryContainer=Color(0xFF334737), surfaceVariant=Color(0xFF303B32)) else lightColorScheme(primary = Forest, secondary = Clay, background = Ivory, surface = Ivory, primaryContainer=Color(0xFFD9E7D7), onPrimaryContainer=Forest, secondaryContainer=Color(0xFFE1EBDF), onSecondaryContainer=Forest, surfaceVariant=Color(0xFFEDF0E7), onSurfaceVariant=Color(0xFF485448))
 
@@ -318,7 +321,7 @@ private val Clay = Color(0xFFC8795B)
 
                                         Text(pluralStringResource(R.plurals.collection_count,plants.size,plants.size), modifier = Modifier.weight(1f))
 
-                                        Button(onClick = { editor = Plant(name = "") }) { Icon(Icons.Outlined.Add,null); Text(s(R.string.add_plant)) }
+                                        Button(onClick = { editingNew=true;editorId=java.util.UUID.randomUUID().toString() }) { Icon(Icons.Outlined.Add,null); Text(s(R.string.add_plant)) }
 
                                     }
 
@@ -353,7 +356,7 @@ private val Clay = Color(0xFFC8795B)
 
                                     LazyColumn(verticalArrangement=Arrangement.spacedBy(12.dp)) { items(journal,key={it.id}) { entry ->
 
-                                        Card(Modifier.fillMaxWidth().clickable { journalEditor = entry }) { Column(Modifier.padding(16.dp)) {
+                                        Card(Modifier.fillMaxWidth().clickable { journalEditorId = entry.id }) { Column(Modifier.padding(16.dp)) {
 
                                             Text(plants.find { it.id == entry.plantId }?.name.orEmpty(), style=MaterialTheme.typography.titleMedium)
 
@@ -375,7 +378,7 @@ private val Clay = Color(0xFFC8795B)
 
                                 }
 
-                                3 -> VoiceScreen(activity,plants,schedules,vm,onTab={tab=it},onAdd={editor=Plant(name="")},onSearch={query=it;category="";tab=0})
+                                3 -> VoiceScreen(activity,plants,schedules,vm,onTab={tab=it},onAdd={editingNew=true;editorId=java.util.UUID.randomUUID().toString()},onSearch={query=it;category="";tab=0})
 
                                 4 -> {
 
@@ -387,7 +390,7 @@ private val Clay = Color(0xFFC8795B)
 
                                         item { Text(s(R.string.collection_breakdown),style=MaterialTheme.typography.titleLarge,modifier=Modifier.padding(vertical=16.dp)); plants.groupBy { it.category }.forEach { (key,value) -> Stat(categoryLabel(key),value.size) } }
 
-                                        item { Text(s(R.string.monthly_care),style=MaterialTheme.typography.titleLarge,modifier=Modifier.padding(vertical=16.dp)); history.groupBy { it.date.take(7) }.toSortedMap().forEach { (month,records) -> Stat(month,records.size) } }
+                                        item { Text(s(R.string.monthly_care),style=MaterialTheme.typography.titleLarge,modifier=Modifier.padding(vertical=16.dp)); history.groupBy { it.date.take(7) }.toSortedMap().forEach { (month,records) -> Stat(formatMonth(month),records.size) } }
 
                                         items(history.take(100)) { record -> ListItem(headlineContent={Text(plants.find { it.id == record.plantId }?.name.orEmpty())},supportingContent={Text("${careLabel(record.type)} · ${formatDate(record.date)} ${record.observation}")}) }
 
@@ -409,9 +412,9 @@ private val Clay = Color(0xFFC8795B)
 
         }
 
-        editor?.let { plant -> PlantEditor(plant,onDismiss={editor=null},onSave={vm.save(it) { editor=null }}) }
+        editor?.let { plant -> PlantEditor(plant,onDismiss={editorId=null},onSave={vm.save(it) { editorId=null }}) }
 
-        selected?.let { plant -> AlertDialog(onDismissRequest={selected=null},title={Text(plant.name)},text={ Column(Modifier.verticalScroll(rememberScrollState())) { Photo(plant.photo); Text(plant.species); Text(categoryLabel(plant.category)); Text(plant.location); Text(s(R.string.acquired_value).format(formatDate(plant.acquired))); plant.potCm?.let { Text(s(R.string.pot_value).format(it)) }; Text(plant.soil); Text(plant.light); Text(plant.notes); Text(s(R.string.guidance),modifier=Modifier.padding(top=16.dp)); TextButton(onClick={vm.save(plant.copy(id=java.util.UUID.randomUUID().toString(),name=plant.name+" (2)")) { selected=null }}) { Text(s(R.string.duplicate)) }; TextButton(onClick={delete=plant;selected=null}) { Text(s(R.string.delete)) } } },confirmButton={TextButton(onClick={editor=plant;selected=null}) { Text(s(R.string.edit)) }},dismissButton={TextButton(onClick={selected=null}) { Text(s(R.string.close)) }}) }
+        selected?.let { plant -> AlertDialog(onDismissRequest={selected=null},title={Text(plant.name)},text={ Column(Modifier.verticalScroll(rememberScrollState())) { Photo(plant.photo); Text(plant.species); Text(categoryLabel(plant.category)); Text(plant.location); Text(s(R.string.acquired_value).format(formatDate(plant.acquired))); plant.potCm?.let { Text(s(R.string.pot_value).format(it)) }; Text(plant.soil); Text(plant.light); Text(plant.notes); Text(s(R.string.guidance),modifier=Modifier.padding(top=16.dp)); TextButton(onClick={vm.save(plant.copy(id=java.util.UUID.randomUUID().toString(),name=plant.name+" (2)")) { selected=null }}) { Text(s(R.string.duplicate)) }; TextButton(onClick={delete=plant;selected=null}) { Text(s(R.string.delete)) } } },confirmButton={TextButton(onClick={editingNew=false;editorId=plant.id;selected=null}) { Text(s(R.string.edit)) }},dismissButton={TextButton(onClick={selected=null}) { Text(s(R.string.close)) }}) }
 
         delete?.let { plant -> Confirm(s(R.string.delete_plant),{ delete=null }) { vm.delete(plant);delete=null } }
 
@@ -419,7 +422,7 @@ private val Clay = Color(0xFFC8795B)
 
         if(newJournal) JournalEditor(plants,null,{newJournal=false},{vm.journal(it);newJournal=false},{})
 
-        journalEditor?.let { entry -> JournalEditor(plants,entry,{journalEditor=null},{vm.journal(it);journalEditor=null},{vm.delete(entry);journalEditor=null}) }
+        journalEditor?.let { entry -> JournalEditor(plants,entry,{journalEditorId=null},{vm.journal(it);journalEditorId=null},{vm.delete(entry);journalEditorId=null}) }
 
         observation?.let { schedule -> AlertDialog(onDismissRequest={observation=null},title={Text(s(R.string.record_care))},text={Column { Text(s(R.string.check_first)); listOf(R.string.dry,R.string.moist,R.string.wet,R.string.watered,R.string.done).forEach { id -> val label=s(id); TextButton(onClick={vm.complete(schedule,label);observation=null}) { Text(label) } } }},confirmButton={TextButton(onClick={observation=null}){Text(s(R.string.cancel))}}) }
 
@@ -435,7 +438,9 @@ private val Clay = Color(0xFFC8795B)
 
 @Composable fun careLabel(key: String): String = s(when(key) {"soil"->R.string.soil_check;"water"->R.string.watering;"fertilise"->R.string.fertilising;"prune"->R.string.pruning;"repot"->R.string.repotting;"clean"->R.string.leaf_cleaning;"pest"->R.string.pest_check;else->R.string.custom_care})
 
-fun formatDate(value:String):String = runCatching { LocalDate.parse(value).format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM)) }.getOrDefault(value)
+fun formatDate(value:String):String = runCatching { LocalDate.parse(value).format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM).withDecimalStyle(java.time.format.DecimalStyle.of(java.util.Locale.getDefault()))) }.getOrDefault(value)
+
+fun formatMonth(value:String):String = runCatching { java.time.YearMonth.parse(value).format(DateTimeFormatter.ofPattern(android.text.format.DateFormat.getBestDateTimePattern(java.util.Locale.getDefault(),"yMMMM")).withDecimalStyle(java.time.format.DecimalStyle.of(java.util.Locale.getDefault()))) }.getOrDefault(value)
 
 @Composable fun Photo(path:String?) { if(path != null) { if(File(path).exists()) AsyncImage(model=File(path),contentDescription=s(R.string.plant_photo),modifier=Modifier.fillMaxWidth().height(180.dp)); else Text(s(R.string.photo_missing)) } }
 

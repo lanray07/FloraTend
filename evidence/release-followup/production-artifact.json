@@ -1,0 +1,16 @@
+{
+  "version_name": "0.1.10",
+  "version_code": 11,
+  "application_id": "com.floratend.app",
+  "sha256": "292a097d5f9f719d36fb13daa36515340c76f0ec9bf874f59de82029192d383e",
+  "verifier_environment": "PRODUCTION",
+  "expected_endpoint_in_dex": true,
+  "other_environment_endpoint_absent": true,
+  "qa_classes_absent": true,
+  "source_manifest_sha256": "890f1f33a882a6b451c87454b5cff4c3b3c272ecd3a6a50c6eae15a1fb305f27",
+  "scope": "Developer-signed upload candidate. Actual Amazon-delivered code11 regression remains PENDING. No developer APK installed over the Amazon application.",
+  "upload_certificate_sha256": "c08b2dd3462a14be0351a87c0da7afd83a4efd64ea6ff168aa83853692ff3a94",
+  "configured_private_values_absent": true,
+  "private_value_check_evidence": "protected-secret-artifact-check.json",
+  "nondebuggable_manifest_verified": true
+}

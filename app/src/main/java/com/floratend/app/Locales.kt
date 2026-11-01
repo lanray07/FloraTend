@@ -22,7 +22,11 @@ object AppLocales {
         return context.createConfigurationContext(config)
     }
     fun dictionaryTag(locale: Locale): String? {
-        if (locale.language=="zh") return if(locale.script=="Hant" || locale.country in listOf("TW","HK","MO")) "zh-TW" else "zh-CN"
+        if (locale.language=="zh") return when(locale.script) {
+            "Hans" -> "zh-CN"
+            "Hant" -> "zh-TW"
+            else -> if(locale.country in listOf("TW","HK","MO")) "zh-TW" else "zh-CN"
+        }
         val exact=locale.toLanguageTag()
         return supported.firstOrNull { it.equals(exact,true) }
             ?: supported.firstOrNull { Locale.forLanguageTag(it).language==locale.language }

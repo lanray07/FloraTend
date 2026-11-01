@@ -17,6 +17,9 @@ class PrivacyReleaseTest {
     @get:Rule val rule=createAndroidComposeRule<MainActivity>()
     @Test fun confirmedDeleteAllRemovesRecordsAndImportedPhotos() {
         val app=rule.activity.application as FloraApp
+        check(BuildConfig.APPLICATION_ID.endsWith(".qa"))
+        AppLocales.choose(app,"en-GB")
+        rule.activityRule.scenario.recreate()
         val dao=app.database.dao()
         runBlocking { check(dao.plants().first().isEmpty()) { "Empty test collection required; refusing to delete user records" } }
         check(app.filesDir.resolve("photos").walkTopDown().none { it.isFile }) {

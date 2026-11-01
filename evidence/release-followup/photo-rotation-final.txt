@@ -1,0 +1,8 @@
+
+com.floratend.app.PhotoPickerRotationTest:..
+
+Time: 26.027
+
+OK (2 tests)
+
+

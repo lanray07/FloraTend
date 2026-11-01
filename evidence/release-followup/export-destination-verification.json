@@ -1,0 +1,15 @@
+{
+  "version": "0.1.10/code11",
+  "actualDocumentsUiDestination": true,
+  "rotatedWhilePickerOpen": true,
+  "utf8UnicodeAndQuotedNotePreserved": true,
+  "allFourCollectionsPresent": true,
+  "counts": {
+    "plants": 1,
+    "schedules": 0,
+    "journal": 0,
+    "history": 0
+  },
+  "sha256": "4c90a688e6b9b200f0bbe4385385ba167183e3f2bf399b21192fa1375a96ac3d",
+  "scope": "Controlled QA entitlement/record export, not actual Amazon purchase evidence; payload retained privately only."
+}

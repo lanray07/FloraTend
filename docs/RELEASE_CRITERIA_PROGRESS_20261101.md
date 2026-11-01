@@ -1,3 +1,5 @@
+> Latest: [code11 follow-up](RELEASE_FOLLOWUP_20261101.md) and [current generated matrix](../ACCEPTANCE_TEST_RESULTS.csv). The code10 results/counts below are a preserved milestone.
+
 # Release criteria progress — 1 November 2026
 
 Development source is 0.1.9 / code 10, Room schema 2. The installed Amazon application remains verified code 8. This development pass closes 43 of the 104 previously unmet criteria: 143/204 now have scoped PASS evidence; 61 remain incomplete. Genuine code 8 billing results do not certify this new candidate. Full release readiness is not claimed.

@@ -114,10 +114,10 @@ import java.time.LocalDate
     TextButton(onClick={open=true}) { Text(s(R.string.language)+": "+name) }
     if(open) AlertDialog(onDismissRequest={open=false},title={Text(s(R.string.language))},text={
         LazyColumn(Modifier.heightIn(max=360.dp)) {
-            item { TextButton(onClick={AppLocales.choose(activity,"");open=false;activity.recreate()}) { Text(s(R.string.system_language)) } }
+            item { TextButton(onClick={AppLocales.choose(activity,"");Reminders.refresh(activity.applicationContext);open=false;activity.recreate()}) { Text(s(R.string.system_language)) } }
             items(AppLocales.supported) { localeTag ->
                 val locale=Locale.forLanguageTag(localeTag)
-                TextButton(onClick={AppLocales.choose(activity,localeTag);open=false;activity.recreate()},modifier=Modifier.fillMaxWidth()) { Text(locale.getDisplayName(locale)) }
+                TextButton(onClick={AppLocales.choose(activity,localeTag);Reminders.refresh(activity.applicationContext);open=false;activity.recreate()},modifier=Modifier.fillMaxWidth()) { Text(locale.getDisplayName(locale)) }
             }
         }
     },confirmButton={TextButton(onClick={open=false}) { Text(s(R.string.close)) }})

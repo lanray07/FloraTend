@@ -1,0 +1,21 @@
+
+com.floratend.app.PhotoPickerRotationTest:
+Error in plantDraftAndSelectedPhotoSurvivePickerRotation(com.floratend.app.PhotoPickerRotationTest):
+androidx.compose.ui.test.ComposeTimeoutException: Condition still not satisfied after 10000 ms
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitUntil(ComposeUiTest.android.kt:441)
+	at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitUntil(AndroidComposeTestRule.android.kt:306)
+	at com.floratend.app.PhotoPickerRotationTest.plantDraftAndSelectedPhotoSurvivePickerRotation(PhotoPickerRotationTest.kt:79)
+
+
+Time: 25.014
+There was 1 failure:
+1) plantDraftAndSelectedPhotoSurvivePickerRotation(com.floratend.app.PhotoPickerRotationTest)
+androidx.compose.ui.test.ComposeTimeoutException: Condition still not satisfied after 10000 ms
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitUntil(ComposeUiTest.android.kt:441)
+	at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitUntil(AndroidComposeTestRule.android.kt:306)
+	at com.floratend.app.PhotoPickerRotationTest.plantDraftAndSelectedPhotoSurvivePickerRotation(PhotoPickerRotationTest.kt:79)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
