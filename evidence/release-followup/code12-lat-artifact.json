@@ -1,0 +1,13 @@
+{
+  "versionName": "0.1.11",
+  "versionCode": 12,
+  "applicationId": "com.floratend.app",
+  "sha256": "1d2c20c09566a2c7fc619d130c635b1d6788353d81eb02c1fd151bf67f29c98d",
+  "verifierEnvironment": "LAT",
+  "exclusiveExpectedEndpoint": true,
+  "nondebuggable": true,
+  "uploadCertificateSha256": "c08b2dd3462a14be0351a87c0da7afd83a4efd64ea6ff168aa83853692ff3a94",
+  "qaClassesAbsent": true,
+  "sourceManifestSha256": "0ddbec62738ad076e9118831223c7a2456c2fa595d3093ac1cad1bb583ee8d29",
+  "distribution": "Developer-signed candidate only; not installed over Amazon11 and not submitted. Genuine11billing evidence remains separately scoped."
+}

@@ -1,0 +1,5 @@
+{
+  "installationOrSubmissionPerformed": false,
+  "conflictingEmptyGradlePropertyRejected": true,
+  "scope": "Executed artifact guard after a real conflicting-property build; no server gate relaxation"
+}

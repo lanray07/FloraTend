@@ -2,7 +2,8 @@ param([switch]$BuildDeviceTests)
 $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path -Parent $PSScriptRoot
 Set-Location -LiteralPath $projectRoot
-$names = @('FLORATEND_KEYSTORE','FLORATEND_STORE_PASSWORD','FLORATEND_KEY_ALIAS','FLORATEND_KEY_PASSWORD')
+$requiredNames = @('FLORATEND_KEYSTORE','FLORATEND_STORE_PASSWORD','FLORATEND_KEY_ALIAS','FLORATEND_KEY_PASSWORD')
+$names = $requiredNames + @('FLORATEND_RECEIPT_VERIFIER_URL')
 $previous = @{}
 foreach ($name in $names) { $previous[$name] = [Environment]::GetEnvironmentVariable($name,'Process') }
 try {
@@ -31,7 +32,12 @@ try {
             if ($LASTEXITCODE -ne 0) { throw 'Signing key creation failed' }
         }
     }
-    foreach ($name in $names) { if (![Environment]::GetEnvironmentVariable($name,'Process')) { throw "Missing signing variable: $name" } }
+    foreach ($name in $requiredNames) { if (![Environment]::GetEnvironmentVariable($name,'Process')) { throw "Missing signing variable: $name" } }
+    # A signed candidate must have a verifier even when PowerShell supplies an
+    # existing empty environment variable. Explicit LAT overrides remain valid.
+    if ([string]::IsNullOrWhiteSpace($env:FLORATEND_RECEIPT_VERIFIER_URL)) {
+        $env:FLORATEND_RECEIPT_VERIFIER_URL = 'https://floratend-receipt-verifier-production.lanraybanks.workers.dev/verify'
+    }
     $gradleArgs = @(':app:assembleRelease','--console=plain')
     $buildLog = 'evidence/signed-release-build.log'
     if ($BuildDeviceTests) {
@@ -41,7 +47,32 @@ try {
     }
     & .\gradlew.bat @gradleArgs *> $buildLog
     if ($LASTEXITCODE -ne 0) { throw "Signed release build failed; see $buildLog" }
+    # Verify the output too: a Gradle property can take precedence over the env.
+    Add-Type -AssemblyName System.IO.Compression.FileSystem
+    $apk = [IO.Compression.ZipFile]::OpenRead((Join-Path $projectRoot 'app/build/outputs/apk/release/app-release.apk'))
+    $expectedFound = $false
+    $unexpectedFound = $false
+    $knownVerifiers = @('https://floratend-receipt-verifier-production.lanraybanks.workers.dev/verify','https://floratend-receipt-verifier.lanraybanks.workers.dev/verify')
+    try {
+        foreach ($entry in $apk.Entries | Where-Object { $_.FullName -match '^classes\d*\.dex$' }) {
+            $reader = [IO.StreamReader]::new($entry.Open(),[Text.Encoding]::UTF8)
+            try {
+                $dex = $reader.ReadToEnd()
+                if ($dex.Contains($env:FLORATEND_RECEIPT_VERIFIER_URL)) { $expectedFound = $true }
+                foreach ($knownVerifier in $knownVerifiers) {
+                    if ($knownVerifier -ne $env:FLORATEND_RECEIPT_VERIFIER_URL -and $dex.Contains($knownVerifier)) { $unexpectedFound = $true }
+                }
+            } finally { $reader.Dispose() }
+        }
+    } finally { $apk.Dispose() }
+    if (!$expectedFound -or $unexpectedFound) { throw 'Signed APK verifier does not match the requested environment; candidate rejected.' }
     Write-Output 'Signed release APK built. Signing secrets remain outside the repository in Windows-protected local configuration.'
 } finally {
-    foreach ($name in $names) { [Environment]::SetEnvironmentVariable($name,$previous[$name],'Process') }
+    foreach ($name in $names) {
+        if ($null -eq $previous[$name]) {
+            [Environment]::SetEnvironmentVariable($name,[NullString]::Value,'Process')
+        } else {
+            [Environment]::SetEnvironmentVariable($name,$previous[$name],'Process')
+        }
+    }
 }

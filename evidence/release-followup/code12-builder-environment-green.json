@@ -1,0 +1,16 @@
+{
+  "tests": [
+    {
+      "buildSucceeded": true,
+      "initialState": "empty",
+      "initialEnvironmentRestored": true
+    },
+    {
+      "buildSucceeded": true,
+      "initialState": "absent",
+      "initialEnvironmentRestored": true
+    }
+  ],
+  "scope": "Executed signing helper with both empty and absent verifier variables; production default restored safely without emitting secrets",
+  "artifactVerification": "Separate code12 production APK endpoint/certificate checks required"
+}

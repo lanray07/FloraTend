@@ -1,3 +1,5 @@
+> Latest development: [source 12 follow-up](RELEASE_CODE12_20261101.md). Genuine Amazon 11 results below remain preserved.
+
 # Release follow-up — 1 November 2026
 
 Source0.1.10/code11 supersedes the frozen code10 candidate. Code10 entered Test2 in-progress; code11 was submitted to the same private Test2 track after local verification; console status Test submitted. Actual Amazon-delivered code11 was installed in place through Appstore Update, preserving records. The genuine code11 results below supersede the earlier distribution checkpoint; no developer build replaced the main package.

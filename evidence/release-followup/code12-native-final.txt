@@ -1,0 +1,11 @@
+
+com.floratend.app.CalendarScaleTest:.
+com.floratend.app.DirectionalIconTest:.
+com.floratend.app.UiSmokeTest:....
+com.floratend.app.ReleaseWorkflowTest:..
+com.floratend.app.LocalizedSurfaceContractTest:..
+com.floratend.app.LocalizedFormattingTest:..
+
+Time: 80.206
+
+OK (12 tests)

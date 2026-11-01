@@ -10,6 +10,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material3.*
@@ -35,7 +36,7 @@ import java.time.LocalDate
     Heading(s(R.string.care_calendar),s(R.string.check_first))
     Button(onClick=onAdd,enabled=plants.isNotEmpty()){Text(s(R.string.add_schedule))}
     Row { listOf(R.string.day,R.string.week,R.string.month).forEachIndexed { i,id -> FilterChip(selected=view==i,onClick={view=i},label={Text(s(id))},modifier=Modifier.padding(end=8.dp)) } }
-    Row(Modifier.horizontalScroll(rememberScrollState())) { FilterChip(selected=filter.isEmpty(),onClick={filter=""},label={Text(s(R.string.all))});plants.forEach { p -> FilterChip(selected=filter==p.id,onClick={filter=p.id},label={Text(p.name)}) } }
+    LazyRow { item { FilterChip(selected=filter.isEmpty(),onClick={filter=""},label={Text(s(R.string.all))}) };items(plants,key={it.id}) { p -> FilterChip(selected=filter==p.id,onClick={filter=p.id},label={Text(p.name)}) } }
     Row(Modifier.horizontalScroll(rememberScrollState())) { FilterChip(selected=type.isEmpty(),onClick={type=""},label={Text(s(R.string.all))});listOf("soil","water","fertilise","prune","repot","clean","pest","custom").forEach { key -> FilterChip(selected=type==key,onClick={type=key},label={Text(careLabel(key))}) } }
     val until=LocalDate.now().plusDays(when(view){0->0;1->7;else->30}).toString()
     val visible=schedules.filter { (filter.isEmpty() || it.plantId==filter) && (type.isEmpty() || it.type==type) && it.nextDate<=until }

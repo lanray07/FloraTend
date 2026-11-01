@@ -1,0 +1,6 @@
+
+com.floratend.app.PerformanceCollectionSeedTest:.
+
+Time: 4.124
+
+OK (1 test)

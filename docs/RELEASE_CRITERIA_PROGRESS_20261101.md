@@ -1,4 +1,4 @@
-> Latest: [code11 follow-up](RELEASE_FOLLOWUP_20261101.md) and [current generated matrix](../ACCEPTANCE_TEST_RESULTS.csv). The code10 results/counts below are a preserved milestone.
+> Latest: [source12 follow-up](RELEASE_CODE12_20261101.md) and [current generated matrix](../ACCEPTANCE_TEST_RESULTS.csv). The code10 results/counts below are a preserved milestone.
 
 # Release criteria progress — 1 November 2026
 

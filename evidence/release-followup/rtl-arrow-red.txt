@@ -1,0 +1,19 @@
+
+com.floratend.app.DirectionalIconTest:
+Error in cardDetailArrowMirrorsWithLayoutDirection(com.floratend.app.DirectionalIconTest):
+java.lang.AssertionError: The actual card-detail vector must mirror in RTL
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.floratend.app.DirectionalIconTest.cardDetailArrowMirrorsWithLayoutDirection(DirectionalIconTest.kt:8)
+
+
+Time: 0.064
+There was 1 failure:
+1) cardDetailArrowMirrorsWithLayoutDirection(com.floratend.app.DirectionalIconTest)
+java.lang.AssertionError: The actual card-detail vector must mirror in RTL
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.floratend.app.DirectionalIconTest.cardDetailArrowMirrorsWithLayoutDirection(DirectionalIconTest.kt:8)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1

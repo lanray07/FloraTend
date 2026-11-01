@@ -1,0 +1,26 @@
+Security exception: Only the system can clear all profile data
+
+java.lang.SecurityException: Only the system can clear all profile data
+	at com.android.server.pm.PackageManagerService.enforceSystemOrRoot(PackageManagerService.java:9092)
+	at com.android.server.pm.PackageManagerService.clearApplicationProfileData(PackageManagerService.java:19695)
+	at com.android.server.pm.PackageManagerShellCommand.runCompile(PackageManagerShellCommand.java:1250)
+	at com.android.server.pm.PackageManagerShellCommand.onCommand(PackageManagerShellCommand.java:188)
+	at android.os.ShellCommand.exec(ShellCommand.java:103)
+	at com.android.server.pm.PackageManagerService.onShellCommand(PackageManagerService.java:21839)
+	at android.os.Binder.shellCommand(Binder.java:634)
+	at android.os.Binder.onTransact(Binder.java:532)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:2796)
+	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:3975)
+	at android.os.Binder.execTransact(Binder.java:731)
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\measure_core_frames.py", line 58, in <module>
+    raise SystemExit(main())
+  File "D:\App Projects\FloraTend\tools\measure_core_frames.py", line 24, in main
+    compiled = adb('shell', 'cmd', 'package', 'compile', '--reset', PACKAGE).decode()
+  File "D:\App Projects\FloraTend\tools\measure_core_frames.py", line 14, in adb
+    return subprocess.check_output([str(ADB), *args])
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe', 'shell', 'cmd', 'package', 'compile', '--reset', 'com.floratend.app.perf']' returned non-zero exit status 255.

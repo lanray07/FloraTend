@@ -459,7 +459,7 @@ fun formatMonth(value:String):String = runCatching { java.time.YearMonth.parse(v
 
             Column(Modifier.padding(start=20.dp).weight(1f)) { Text(plant.name,fontFamily=FontFamily.Serif,fontSize=25.sp); Text(plant.species, color=MaterialTheme.colorScheme.onSurfaceVariant); Text(plant.location,modifier=Modifier.padding(top=6.dp)); schedules.filter { !it.paused }.minByOrNull { it.nextDate }?.let { Text(s(R.string.next_check).format(formatDate(it.nextDate)),color=MaterialTheme.colorScheme.primary) } }
 
-            Icon(Icons.Outlined.KeyboardArrowRight,null)
+            Icon(FloraIcons.Detail,null)
 
         }
 

@@ -1,5 +1,7 @@
 package com.floratend.app
 
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.outlined.KeyboardArrowRight
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
@@ -10,6 +12,7 @@ import androidx.compose.ui.unit.dp
 
 /** Original compact line icons; avoids packaging an entire extended icon catalogue. */
 object FloraIcons {
+    val Detail get() = Icons.AutoMirrored.Outlined.KeyboardArrowRight
     private fun icon(name:String,data:String) = ImageVector.Builder(name,24.dp,24.dp,24f,24f).addPath(
         pathData=PathParser().parsePathString(data).toNodes(),
         stroke=SolidColor(Color.Black),strokeLineWidth=1.7f,

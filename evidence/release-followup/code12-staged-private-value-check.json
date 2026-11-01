@@ -1,0 +1,7 @@
+{
+  "exactPrivateValuesChecked": 3,
+  "scope": "Server configuration and signing password decrypted in memory only; no secret values emitted or persisted",
+  "exactPrivateValuesAbsent": true,
+  "stagedFilesChecked": 575,
+  "apkKeystoreDpapiFilesStaged": false
+}

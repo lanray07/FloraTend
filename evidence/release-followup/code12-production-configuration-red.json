@@ -1,0 +1,9 @@
+{
+  "versionCode": 12,
+  "result": "REJECTED",
+  "sha256": "c367a4e6fc306d59befc3261abf64f47980a7eddb8519c645d1ce2ae4916dee0",
+  "productionEndpointPresent": false,
+  "latEndpointPresent": false,
+  "reason": "Build invocation left verifier environment empty; candidate rejected before any installation/submission. Strict server configuration remains fail-closed. Rebuild requires explicit production endpoint.",
+  "scope": "Artifact configuration failure; not a passing production candidate or genuine purchase result."
+}

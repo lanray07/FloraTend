@@ -21,7 +21,7 @@
   "invitation_accepted": true,
   "amazon_installed_version_code": 6,
   "amazon_apk_sha256": "2e647a22019aefb67be951a58086a13deb535b40934b2665a3009ce86e8a332d",
-  "latest_check": "docs/RELEASE_FOLLOWUP_20261101.md",
+  "latest_check": "docs/RELEASE_CODE12_20261101.md",
   "verification_scope": "Actual Amazon code6 genuine purchase followed by server-gated owned Restore; strict installed client gate plus UI, no raw RVS payload captured",
   "automatic_purchase_activation": "FAIL on code6; fixed source7 awaiting genuine regression",
   "explicit_owned_restore": "PASS code6",
@@ -75,5 +75,15 @@
     "scope": "Genuine private free LAT; strict installed-client gate plus UI/DEX provenance, no raw RVS response. Historical code6 fields retained.",
     "evidence": "evidence/release-followup/code11-genuine-results.json",
     "checkout_delays_fully_resolved": false
+  },
+  "latest_code12_candidate": {
+    "versionCode": 12,
+    "versionName": "0.1.11",
+    "submitted": false,
+    "actualAmazonInstalledCode": 11,
+    "productionArtifact": "evidence/release-followup/code12-production-artifact.json",
+    "latArtifact": "evidence/release-followup/code12-lat-artifact.json",
+    "genuineAmazon12Regression": "NOT RUN; no code12 distribution performed",
+    "scope": "Rendering and signing-tool follow-up only. Genuine Amazon11 purchase/restore/offline evidence retained separately."
   }
 }

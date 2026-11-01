@@ -1,0 +1,80 @@
+{
+  "versionCode": 12,
+  "package": "com.floratend.app.perf",
+  "debuggable": false,
+  "instrumentationDetached": true,
+  "compileStateReset": false,
+  "compileState": "Natural install/update compiler state; Fire rejects shell profile reset as system-only",
+  "seededPlantPhotos": 120,
+  "screens": [
+    {
+      "screen": "garden",
+      "frames": 801,
+      "jankyFrames": 425,
+      "jankyPercent": 53.06,
+      "frameP95Ms": 22,
+      "captureSha256": "19329f73e45c9c419a28fee3dd5cd920d4173cb5a052fbeddfab6d3f9694d0e0",
+      "thresholdPassed": false
+    },
+    {
+      "screen": "calendar",
+      "frames": 229,
+      "jankyFrames": 11,
+      "jankyPercent": 4.8,
+      "frameP95Ms": 14,
+      "captureSha256": "ea750899c0b45885002f64356f49db46308657f482fb8f92a01912ac4c04cc98",
+      "thresholdPassed": true
+    },
+    {
+      "screen": "journal",
+      "frames": 242,
+      "jankyFrames": 2,
+      "jankyPercent": 0.83,
+      "frameP95Ms": 11,
+      "captureSha256": "de5466f2a56925332e95c7ef8c488dc2e557c97664969a67b99a068c360ad319",
+      "thresholdPassed": true
+    },
+    {
+      "screen": "voice",
+      "frames": 76,
+      "jankyFrames": 28,
+      "jankyPercent": 36.84,
+      "frameP95Ms": 48,
+      "captureSha256": "17ba7e179583a4a1b90064c296bf04ad4a6290490a7ba335e1b63f0f8b5b611e",
+      "thresholdPassed": false
+    },
+    {
+      "screen": "insights",
+      "frames": 242,
+      "jankyFrames": 1,
+      "jankyPercent": 0.41,
+      "frameP95Ms": 11,
+      "captureSha256": "604396cb9a87c54ef5684c1a54da043c8bfa4ba0e1accfae5cf3c6d4fba4c689",
+      "thresholdPassed": true
+    },
+    {
+      "screen": "settings",
+      "frames": 255,
+      "jankyFrames": 2,
+      "jankyPercent": 0.78,
+      "frameP95Ms": 11,
+      "captureSha256": "2c9c91b8abb2c8d8c76abea08f74ba4a08c2298cd70186bdbafeea9d190207f2",
+      "thresholdPassed": true
+    }
+  ],
+  "populatedWorkload": {
+    "plants": 120,
+    "schedules": 120,
+    "journal": 120,
+    "history": 120,
+    "controlledFixture": true,
+    "genuineAmazonPurchase": false
+  },
+  "voiceInteraction": "Typed review only; command not executed",
+  "thresholds": {
+    "frameP95Ms": 32,
+    "jankyPercent": 10
+  },
+  "result": "FAIL",
+  "scope": "Controlled ordinary core navigation/scrolling on physical Fire HD10 API28. OS gesture input; raw traces/captures private. Not Amazon billing, other hardware, battery or worst-case performance certification."
+}

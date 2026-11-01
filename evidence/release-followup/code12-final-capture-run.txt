@@ -1,0 +1,1 @@
+Captured 176 actual offline UI scenes across 22 app locales in evidence\store-captures\run-20261101-170304; human review remains pending.

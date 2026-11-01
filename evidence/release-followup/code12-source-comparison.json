@@ -1,0 +1,16 @@
+{
+  "changedProductionInputsSinceGenuine11": [
+    "app/build.gradle.kts",
+    "app/src/main/java/com/floratend/app/FloraIcons.kt",
+    "app/src/main/java/com/floratend/app/MainActivity.kt",
+    "app/src/main/java/com/floratend/app/Screens.kt"
+  ],
+  "unchangedBillingReceiptInputs": [
+    "app/src/main/java/com/floratend/app/AmazonBilling.kt",
+    "app/src/main/java/com/floratend/app/BillingPolicy.kt",
+    "app/src/main/java/com/floratend/app/EntitlementStore.kt",
+    "app/src/main/java/com/floratend/app/ReceiptVerifier.kt"
+  ],
+  "frozenCurrentInputsMatch": 91,
+  "scope": "Source/module provenance only; not a genuine Amazon12 transaction."
+}

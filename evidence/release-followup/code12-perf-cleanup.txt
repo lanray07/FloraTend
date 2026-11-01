@@ -1,0 +1,6 @@
+
+com.floratend.app.DisposablePerfCleanupTest:.
+
+Time: 3.901
+
+OK (1 test)

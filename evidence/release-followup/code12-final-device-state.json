@@ -1,0 +1,31 @@
+{
+  "developmentCode": 12,
+  "actualAmazonInstalledCode": 11,
+  "installer": "com.amazon.venezia",
+  "nondebuggable": true,
+  "qaBackupValidated": true,
+  "qaBackupSha256": "534fc0e7f725a92bd56bd90c61d22834f051b0e603de07c434bda46a5d038ee6",
+  "qaRecordCountsBeforeUninstall": {
+    "plants": 0,
+    "schedules": 0,
+    "journal": 0,
+    "history": 0
+  },
+  "onlyFloraTendPackage": [
+    "package:com.floratend.app"
+  ],
+  "wifiOn": "1",
+  "network": [
+    "Active default network: 112"
+  ],
+  "accelerometerRotation": "1",
+  "userRotation": "0",
+  "fontScale": "1.0",
+  "windowSize": "Physical size: 1200x1920",
+  "windowDensity": "Physical density: 240",
+  "accessibilityEnabled": "0",
+  "librarySort": "By Title, unchanged",
+  "mainPackageClearedOrUninstalled": false,
+  "protectedAppstoreForceStopped": false,
+  "scope": "Final source12 development test cleanup. Only actual Amazon11 retained; private fresh QA backup validated and all record tables empty before removing disposable packages. Perf fixture backup/cleanup recorded separately."
+}

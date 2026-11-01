@@ -1,0 +1,6 @@
+
+com.floratend.app.DirectionalIconTest:.
+
+Time: 0.033
+
+OK (1 test)

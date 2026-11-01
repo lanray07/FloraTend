@@ -1,0 +1,6 @@
+
+com.floratend.app.StoreScreenshotTest:.
+
+Time: 224.606
+
+OK (1 test)

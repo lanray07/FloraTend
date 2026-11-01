@@ -1,0 +1,173 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preQaBuild UP-TO-DATE
+> Task :app:mergeQaNativeDebugMetadata NO-SOURCE
+> Task :core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:compileKotlin UP-TO-DATE
+> Task :core:compileJava NO-SOURCE
+> Task :core:processResources NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar UP-TO-DATE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateQaBuildConfig
+> Task :app:checkQaAarMetadata UP-TO-DATE
+> Task :app:generateQaResValues UP-TO-DATE
+> Task :app:mapQaSourceSetPaths UP-TO-DATE
+> Task :app:generateQaResources UP-TO-DATE
+> Task :app:mergeQaResources UP-TO-DATE
+> Task :app:packageQaResources UP-TO-DATE
+> Task :app:parseQaLocalResources UP-TO-DATE
+> Task :app:createQaCompatibleScreenManifests
+> Task :app:extractDeepLinksQa UP-TO-DATE
+> Task :app:processQaMainManifest
+> Task :app:processQaManifest
+> Task :app:javaPreCompileQa UP-TO-DATE
+> Task :app:processQaManifestForPackage
+> Task :app:mergeQaShaders UP-TO-DATE
+> Task :app:compileQaShaders NO-SOURCE
+> Task :app:generateQaAssets UP-TO-DATE
+> Task :app:mergeQaAssets UP-TO-DATE
+> Task :app:compressQaAssets UP-TO-DATE
+> Task :app:checkQaDuplicateClasses UP-TO-DATE
+> Task :app:desugarQaFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexQa UP-TO-DATE
+> Task :app:mergeLibDexQa UP-TO-DATE
+> Task :app:mergeQaJniLibFolders UP-TO-DATE
+> Task :app:mergeQaNativeLibs UP-TO-DATE
+> Task :app:stripQaDebugSymbols UP-TO-DATE
+> Task :app:validateSigningQa UP-TO-DATE
+> Task :app:writeQaAppMetadata UP-TO-DATE
+> Task :app:writeQaSigningConfigVersions UP-TO-DATE
+> Task :app:preQaAndroidTestBuild SKIPPED
+> Task :app:processQaAndroidTestManifest UP-TO-DATE
+> Task :app:generateQaAndroidTestBuildConfig UP-TO-DATE
+> Task :app:checkQaAndroidTestAarMetadata UP-TO-DATE
+> Task :app:generateQaAndroidTestResValues UP-TO-DATE
+> Task :app:mapQaAndroidTestSourceSetPaths UP-TO-DATE
+> Task :app:generateQaAndroidTestResources UP-TO-DATE
+> Task :app:mergeQaAndroidTestResources UP-TO-DATE
+> Task :app:processQaAndroidTestResources UP-TO-DATE
+> Task :app:javaPreCompileQaAndroidTest UP-TO-DATE
+> Task :app:mergeQaAndroidTestShaders UP-TO-DATE
+> Task :app:compileQaAndroidTestShaders NO-SOURCE
+> Task :app:generateQaAndroidTestAssets UP-TO-DATE
+> Task :app:checkQaAndroidTestDuplicateClasses UP-TO-DATE
+> Task :app:desugarQaAndroidTestFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexQaAndroidTest UP-TO-DATE
+> Task :app:mergeLibDexQaAndroidTest UP-TO-DATE
+> Task :app:mergeQaAndroidTestJniLibFolders UP-TO-DATE
+> Task :app:mergeQaAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripQaAndroidTestDebugSymbols NO-SOURCE
+> Task :app:validateSigningQaAndroidTest UP-TO-DATE
+> Task :app:writeQaAndroidTestSigningConfigVersions UP-TO-DATE
+> Task :core:compileTestKotlin UP-TO-DATE
+> Task :core:compileTestJava NO-SOURCE
+> Task :core:processTestResources UP-TO-DATE
+> Task :core:testClasses UP-TO-DATE
+> Task :core:test UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugBuildConfig
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:processDebugManifestForPackage
+> Task :app:processQaResources
+> Task :app:processDebugResources
+> Task :app:kspQaKotlin
+> Task :app:kspDebugKotlin
+> Task :app:mergeQaAndroidTestAssets UP-TO-DATE
+> Task :app:compressQaAndroidTestAssets UP-TO-DATE
+> Task :app:compileQaKotlin
+> Task :app:compileQaJavaWithJavac
+> Task :app:dexBuilderQa
+> Task :app:mergeProjectDexQa
+> Task :app:mergeQaGlobalSynthetics UP-TO-DATE
+> Task :app:processQaJavaRes UP-TO-DATE
+> Task :app:mergeQaJavaResource UP-TO-DATE
+> Task :app:packageQa
+> Task :app:createQaApkListingFileRedirect
+> Task :app:assembleQa
+> Task :app:bundleQaClassesToCompileJar
+> Task :app:kspQaAndroidTestKotlin
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac
+> Task :app:bundleDebugClassesToRuntimeJar
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:compileQaAndroidTestKotlin
+> Task :app:compileQaAndroidTestJavaWithJavac UP-TO-DATE
+> Task :app:dexBuilderQaAndroidTest
+> Task :app:kspDebugUnitTestKotlin
+> Task :app:mergeQaAndroidTestGlobalSynthetics UP-TO-DATE
+> Task :app:mergeProjectDexQaAndroidTest
+> Task :app:processQaAndroidTestJavaRes UP-TO-DATE
+> Task :app:mergeQaAndroidTestJavaResource UP-TO-DATE
+> Task :app:packageQaAndroidTest
+> Task :app:createQaAndroidTestApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleQaAndroidTest
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:buildKotlinToolingMetadata UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:generateReleaseBuildConfig
+> Task :app:checkReleaseAarMetadata UP-TO-DATE
+> Task :app:generateReleaseResValues UP-TO-DATE
+> Task :app:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :app:generateReleaseResources UP-TO-DATE
+> Task :app:compileDebugUnitTestKotlin
+> Task :app:mergeReleaseResources UP-TO-DATE
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:testDebugUnitTest
+> Task :app:packageReleaseResources UP-TO-DATE
+> Task :app:parseReleaseLocalResources UP-TO-DATE
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease UP-TO-DATE
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :app:javaPreCompileRelease UP-TO-DATE
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileReleaseUnitTest UP-TO-DATE
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:generateDebugLintReportModel
+> Task :app:generateDebugUnitTestLintModel
+> Task :app:processReleaseManifestForPackage
+> Task :app:processReleaseResources
+> Task :app:kspReleaseKotlin
+> Task :app:lintAnalyzeDebug
+> Task :app:compileReleaseKotlin
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:bundleReleaseClassesToRuntimeJar
+> Task :app:bundleReleaseClassesToCompileJar
+> Task :app:kspReleaseUnitTestKotlin
+> Task :app:compileReleaseUnitTestKotlin
+> Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processReleaseJavaRes UP-TO-DATE
+> Task :app:processReleaseUnitTestJavaRes UP-TO-DATE
+> Task :app:testReleaseUnitTest
+> Task :app:generateReleaseLintReportModel
+> Task :app:generateReleaseUnitTestLintModel
+> Task :app:lintAnalyzeRelease
+> Task :app:lintAnalyzeDebugUnitTest
+> Task :app:lintAnalyzeReleaseUnitTest
+
+> Task :app:lintReportDebug
+Wrote HTML report to file:///D:/App%20Projects/FloraTend/app/build/reports/lint-results-debug.html
+
+> Task :app:lintDebug
+
+> Task :app:lintReportRelease
+Wrote HTML report to file:///D:/App%20Projects/FloraTend/app/build/reports/lint-results-release.html
+
+> Task :app:lintRelease
+
+BUILD SUCCESSFUL in 3m 17s
+139 actionable tasks: 59 executed, 80 up-to-date

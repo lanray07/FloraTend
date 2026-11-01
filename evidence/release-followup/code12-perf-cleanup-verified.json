@@ -1,0 +1,21 @@
+{
+  "backupValidated": true,
+  "beforeCounts": {
+    "plants": 120,
+    "schedules": 120,
+    "journal": 120,
+    "history": 120
+  },
+  "afterCounts": {
+    "plants": 0,
+    "schedules": 0,
+    "journal": 0,
+    "history": 0
+  },
+  "linkedPhotosBackedUpAndHashVerified": 120,
+  "onlyControlledFixtureRemoved": true,
+  "mainAmazonPackageTouched": false,
+  "hostBackupReadOnlySqliteVerified": true,
+  "databaseBackupSha256": "c3f26e5abf642ec67ebe4324bd6d1a16e99320b83147309f425049a14dfa2c52",
+  "photosRemainPrivate": true
+}

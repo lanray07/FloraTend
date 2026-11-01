@@ -1,0 +1,71 @@
+{
+  "versionCode": 12,
+  "package": "com.floratend.app.perf",
+  "debuggable": false,
+  "instrumentationDetached": true,
+  "compileStateReset": false,
+  "compileState": "Fresh installation and controlled seed; Fire rejects shell profile reset as system-only",
+  "seededPlantPhotos": 120,
+  "screens": [
+    {
+      "screen": "garden",
+      "frames": 806,
+      "jankyFrames": 53,
+      "jankyPercent": 6.58,
+      "frameP95Ms": 20,
+      "captureSha256": "f47696e07dfcd38ee0e434a8106fadbb638f45cf07271c0d2978eb0403431f34",
+      "thresholdPassed": true
+    },
+    {
+      "screen": "calendar",
+      "frames": 9,
+      "jankyFrames": 3,
+      "jankyPercent": 33.33,
+      "frameP95Ms": 700,
+      "captureSha256": "d2ed8843397db1cee35978606c66a6f5052be50914715bf2275508bcd485f777",
+      "thresholdPassed": false
+    },
+    {
+      "screen": "journal",
+      "frames": 16,
+      "jankyFrames": 3,
+      "jankyPercent": 18.75,
+      "frameP95Ms": 150,
+      "captureSha256": "220e03a78cbab516876c71c8b7e5ad2ffec305aa5ae1f97d8df51835aa3885b2",
+      "thresholdPassed": false
+    },
+    {
+      "screen": "voice",
+      "frames": 20,
+      "jankyFrames": 2,
+      "jankyPercent": 10.0,
+      "frameP95Ms": 89,
+      "captureSha256": "b9abb8f40b09281972063d16c43f634035bc5b774d34021383d4693f724a5a8b",
+      "thresholdPassed": false
+    },
+    {
+      "screen": "insights",
+      "frames": 22,
+      "jankyFrames": 2,
+      "jankyPercent": 9.09,
+      "frameP95Ms": 61,
+      "captureSha256": "4930ef3f74c99b26c5bd81cc55801d8e0d2bf484fb0b37ecd3cb5dc7b9da5cb7",
+      "thresholdPassed": false
+    },
+    {
+      "screen": "settings",
+      "frames": 254,
+      "jankyFrames": 2,
+      "jankyPercent": 0.79,
+      "frameP95Ms": 11,
+      "captureSha256": "0ccaa4ba64417ca58ac1f31ea89c82ef0cab681ec99f208cf99fbf3ceb5c1612",
+      "thresholdPassed": true
+    }
+  ],
+  "thresholds": {
+    "frameP95Ms": 32,
+    "jankyPercent": 10
+  },
+  "result": "FAIL",
+  "scope": "Controlled ordinary core navigation/scrolling on physical Fire HD10 API28. OS gesture input; raw traces/captures private. Not Amazon billing, other hardware, battery or worst-case performance certification."
+}
