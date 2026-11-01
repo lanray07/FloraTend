@@ -1,0 +1,37 @@
+{
+  "locales": [
+    {
+      "locale": "es-ES",
+      "selectedTagPersisted": true,
+      "activityRecreated": true,
+      "activityLayoutDirection": 0,
+      "gardenScreenshot": "es-ES-garden.png",
+      "voiceScreenshot": "es-ES-voice.png"
+    },
+    {
+      "locale": "de-DE",
+      "selectedTagPersisted": true,
+      "activityRecreated": true,
+      "activityLayoutDirection": 0,
+      "gardenScreenshot": "de-DE-garden.png",
+      "voiceScreenshot": "de-DE-voice.png"
+    },
+    {
+      "locale": "ja-JP",
+      "selectedTagPersisted": true,
+      "activityRecreated": true,
+      "activityLayoutDirection": 0,
+      "gardenScreenshot": "ja-JP-garden.png",
+      "voiceScreenshot": "ja-JP-voice.png"
+    },
+    {
+      "locale": "ar",
+      "selectedTagPersisted": true,
+      "activityRecreated": true,
+      "activityLayoutDirection": 1,
+      "gardenScreenshot": "ar-garden.png",
+      "voiceScreenshot": "ar-voice.png"
+    }
+  ],
+  "humanTypographyOrTranslationApproval": false
+}

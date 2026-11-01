@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-01",
+  "scope": "Executed file integrity and source-usage inspection, not full creative/legal approval",
+  "files": [
+    {
+      "path": "assets/app_icon_master.svg",
+      "sha256": "a826d8752a14e9332600dd60d8232b48f908fc409a2de1afb7bca87b59c2f90b",
+      "bytes": 473,
+      "xmlParses": true
+    },
+    {
+      "path": "assets/store/floratend-icon-512.png",
+      "sha256": "d06f9550472b8ef8c86e9b7800e090fd06a108cf4460dedc0a5a9383ddd001cc",
+      "bytes": 33827,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/botanical_hero.png",
+      "sha256": "38c194e20f6a777ae2d1858b2dac860a8e95d511bda76e610d5863c00552d1c7",
+      "bytes": 2503597,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "sha256": "3d891b19f6095e05f49ae5b6f23d0a6b27128943294ed20fc4a6204a10c771e5",
+      "bytes": 226,
+      "xmlParses": true
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v33/ic_launcher.xml",
+      "sha256": "aeef1db2bf55e2703d1cabacfdf5bc0cb3f23d510aabab2336f9f683d543a5e5",
+      "bytes": 293,
+      "xmlParses": true
+    },
+    {
+      "path": "assets/screenshots/template-source.svg",
+      "sha256": "de6c82eb6afbb55bbff258abcea80e247fc14d0ae954aed7fd368d3d4e958805",
+      "bytes": 958,
+      "xmlParses": true
+    },
+    {
+      "path": "assets/ASSET_PROVENANCE.md",
+      "sha256": "27fcee4b4ef44d6648c7281dbdd7c615c238a86aa31f1e60466759a7b8eda53d",
+      "bytes": 4293
+    }
+  ],
+  "usage": {
+    "manifest": "@mipmap/ic_launcher",
+    "adaptiveLayers": "foreground/background plus v33 monochrome",
+    "emptyState": "MainActivity.Empty uses botanical_hero",
+    "template": "editable source and 120 composed localized drafts",
+    "provenance": "Original paths and generated illustration method documented; trademark and legal review pending"
+  }
+}

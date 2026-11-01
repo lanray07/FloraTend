@@ -1,0 +1,21 @@
+{
+  "presentationSeconds": 3.125,
+  "limitSeconds": 5.0,
+  "observationTimeoutSeconds": 60,
+  "samples": [
+    {
+      "elapsedSeconds": 1.172,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 3.125,
+      "amazonButtonPixels": 45305
+    }
+  ],
+  "result": "PASS",
+  "scope": "Actual LAT checkout presentation only; no payment or receipt verification",
+  "uiAutomationAttached": false,
+  "payPressed": false,
+  "canceled": false,
+  "rawArtifactsPrivate": true
+}

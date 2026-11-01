@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-01",
+  "environment": "Actual Amazon nondebug code8 / Fire HD10 API28 / exclusive tablet access",
+  "freshEntitlementPrecondition": "Dedicated one-tester FloraTend Premium LAT reset acknowledged; inactive price/history UI retained",
+  "automaticPremiumGrant": "PASS before Restore pressed",
+  "explicitOwnedRestore": "PASS",
+  "offlineProcessRestart": "PASS Premium and export controls retained; Wi-Fi disabled and no default network; changed PID",
+  "finalOnlineRestore": "PASS",
+  "checkoutPresentation": "PASS first-launch landscape and three process restarts in landscape/portrait, 3.125 to 3.391 seconds",
+  "purchase": "Free LAT purchase only, same previously authorized terms",
+  "evidenceScope": "Genuine UI plus strict installed-client server verification gate; no raw RVS response or attached developer instrumentation claimed",
+  "uiAutomationDuringCheckout": false,
+  "productionReceiptEdgeCases": "PENDING",
+  "historicalFailuresRetained": true
+}

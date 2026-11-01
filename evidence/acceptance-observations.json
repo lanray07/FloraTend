@@ -335,14 +335,17 @@
     "corrective_action": "Keep the APK hash associated with this build evidence; verify the signed release independently."
   },
   "AC-01.04": {
-    "test_name": "Publisher-signed release generation prerequisite",
-    "status": "BLOCKED",
-    "actual_result": "The release signing process is documented and configured from environment variables, but no verified publisher-signed release is recorded. A debug APK is not submission evidence.",
+    "test_name": "Signed code8 release generation",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "Configured DPAPI-backed signing generated the LAT release candidate; apksigner verified its certificate. Amazon independently re-signed and delivered code8.",
     "evidence": [
-      "README.md",
-      "app/build.gradle.kts"
+      "evidence/code8-signed-build.log",
+      "evidence/code8-signature.txt",
+      "evidence/code8-candidate.json"
     ],
-    "corrective_action": "Provision the publisher's private signing material securely, build the release and verify its certificate."
+    "corrective_action": ""
   },
   "AC-01.06": {
     "test_name": "Mandatory Google service dependency declaration audit",
@@ -1168,5 +1171,246 @@
     "corrective_action": "Investigate retained checkout delay and finish production receipt edge cases, publisher privacy review and broader acceptance gates.",
     "execution_date": "2026-11-01",
     "environment": "Physical Fire HD10 API28; actual Amazon Test2 code7; strict LAT verifier"
+  },
+  "AC-02.05": {
+    "test_name": "Physical light/dark UI regression",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "Native QA test rotated portrait/landscape and switched themes; retained real light and dark captures. Fire HD10 coverage only.",
+    "evidence": [
+      "evidence/release-sweep/native-qa.txt",
+      "evidence/release-sweep/acceptance/10-portrait.png",
+      "evidence/release-sweep/acceptance/12-landscape-dark.png"
+    ],
+    "corrective_action": ""
+  },
+  "AC-03.06": {
+    "test_name": "Name and category search UI",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "ReleaseWorkflowTest searched Herb category and Alpha name and asserted inclusion/exclusion of actual saved records.",
+    "evidence": [
+      "evidence/release-sweep/workflow-native.txt",
+      "app/src/androidTest/java/com/floratend/app/ReleaseWorkflowTest.kt"
+    ],
+    "corrective_action": ""
+  },
+  "AC-03.07": {
+    "test_name": "Category filter and sort UI",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "ReleaseWorkflowTest selected Herbs/All and verified both ascending and descending rendered card positions.",
+    "evidence": [
+      "evidence/release-sweep/workflow-native.txt",
+      "app/src/androidTest/java/com/floratend/app/ReleaseWorkflowTest.kt"
+    ],
+    "corrective_action": ""
+  },
+  "AC-04.01": {
+    "test_name": "Watering schedule UI",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "ReleaseWorkflowTest selected Watering check in the actual schedule editor and verified saved water schedule.",
+    "evidence": [
+      "evidence/release-sweep/workflow-native.txt",
+      "app/src/androidTest/java/com/floratend/app/ReleaseWorkflowTest.kt"
+    ],
+    "corrective_action": ""
+  },
+  "AC-04.03": {
+    "test_name": "Reschedule UI regression",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "Native UiSmokeTest changed a reminder date and asserted the persisted date; pause and snooze checks also passed.",
+    "evidence": [
+      "evidence/release-sweep/native-qa.txt",
+      "app/src/androidTest/java/com/floratend/app/UiSmokeTest.kt"
+    ],
+    "corrective_action": ""
+  },
+  "AC-04.05": {
+    "test_name": "Care-type schedule UI",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "ReleaseWorkflowTest created fertilising, pruning and repotting schedules through the editor and verified each persisted type.",
+    "evidence": [
+      "evidence/release-sweep/workflow-native.txt",
+      "app/src/androidTest/java/com/floratend/app/ReleaseWorkflowTest.kt"
+    ],
+    "corrective_action": ""
+  },
+  "AC-04.10": {
+    "test_name": "Check-first guidance and explicit care confirmation",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "Rendered care guidance calls reminders a prompt to inspect soil/condition. Native watering test asserted no history before Confirm, then one record after explicit confirmation.",
+    "evidence": [
+      "evidence/release-sweep/native-qa.txt",
+      "evidence/release-sweep/acceptance/02-care.png",
+      "evidence/release-sweep/acceptance/14-water-confirmation.png"
+    ],
+    "corrective_action": ""
+  },
+  "AC-05.05": {
+    "test_name": "Journal chronological ordering",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "Two dated saved entries were asserted newest-first in Room, then retained across Activity recreation. This is not a historical schema migration test.",
+    "evidence": [
+      "evidence/release-sweep/workflow-native.txt",
+      "app/src/androidTest/java/com/floratend/app/ReleaseWorkflowTest.kt"
+    ],
+    "corrective_action": ""
+  },
+  "AC-05.08": {
+    "test_name": "Metric and imperial journal display",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "ReleaseWorkflowTest verified 25.4 cm and 10 in for the same persisted value after switching units. Localized decimal input and automatic locale unit preference remain separate work.",
+    "evidence": [
+      "evidence/release-sweep/workflow-native.txt",
+      "app/src/androidTest/java/com/floratend/app/ReleaseWorkflowTest.kt"
+    ],
+    "corrective_action": ""
+  },
+  "AC-06.06": {
+    "test_name": "Real available TTS engine synthesis",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "SpeechCapabilityTest initialized the installed TTS engine and synthesized an English response to a nonempty audio file, then deleted it. Unsupported locale output is not claimed.",
+    "evidence": [
+      "evidence/release-sweep/native-qa.txt",
+      "evidence/release-sweep/acceptance/speech-engine-test.json"
+    ],
+    "corrective_action": ""
+  },
+  "AC-06.07": {
+    "test_name": "Voice/text mutation confirmation",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "Native reviewed watering command did not write history before Confirm; journal and plant deletion confirmations were exercised. Raw ASR recognition was unavailable on this Fire.",
+    "evidence": [
+      "evidence/release-sweep/native-qa.txt",
+      "evidence/release-sweep/acceptance/14-water-confirmation.png"
+    ],
+    "corrective_action": ""
+  },
+  "AC-10.09": {
+    "test_name": "Actual offline billing error state",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "Actual Amazon code8 offline restart retained Premium and exports while reporting restoration could not be verified until connected.",
+    "evidence": [
+      "evidence/checkout-timing/code8-offline-restart.png",
+      "evidence/checkout-timing/code8-offline-state.json"
+    ],
+    "corrective_action": ""
+  },
+  "AC-11.08": {
+    "test_name": "Manual plant entry regression",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "Native UiSmokeTest created and edited a plant manually without an identification provider; unavailable identification is clearly stated.",
+    "evidence": [
+      "evidence/release-sweep/native-qa.txt",
+      "evidence/release-sweep/acceptance/01-garden.png"
+    ],
+    "corrective_action": ""
+  },
+  "AC-16.01": {
+    "test_name": "Local core flows without app account",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "Nineteen isolated QA tests completed local plant/care/journal/voice fallback workflows without an app account. Amazon account remains required for optional purchases.",
+    "evidence": [
+      "evidence/release-sweep/native-qa.txt"
+    ],
+    "corrective_action": ""
+  },
+  "AC-16.10": {
+    "test_name": "Backup boundary review",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "Reviewed Settings explicitly states cloud sync/encrypted backup unavailable; source audit confirms Android automatic backup disabled. No backup upload or restore is presented as implemented.",
+    "evidence": [
+      "evidence/release-sweep/source-audit.json",
+      "evidence/checkout-timing/code8-automatic-grant.png"
+    ],
+    "corrective_action": ""
+  },
+  "AC-13.01": {
+    "test_name": "Asset integrity and usage inspection",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "Original app icon exists with SVG master and validated 512px raster",
+    "evidence": [
+      "evidence/release-sweep/asset-inspection.json",
+      "assets/ASSET_PROVENANCE.md"
+    ],
+    "corrective_action": ""
+  },
+  "AC-13.02": {
+    "test_name": "Asset integrity and usage inspection",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "Adaptive icon containers and foreground/background/monochrome layers exist and are manifest-referenced",
+    "evidence": [
+      "evidence/release-sweep/asset-inspection.json",
+      "assets/ASSET_PROVENANCE.md"
+    ],
+    "corrective_action": ""
+  },
+  "AC-13.05": {
+    "test_name": "Asset integrity and usage inspection",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "Original botanical artwork is used by the native empty-state composable",
+    "evidence": [
+      "evidence/release-sweep/asset-inspection.json",
+      "assets/ASSET_PROVENANCE.md"
+    ],
+    "corrective_action": ""
+  },
+  "AC-13.07": {
+    "test_name": "Asset integrity and usage inspection",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "Editable screenshot template and localized composed drafts exist; approval remains pending",
+    "evidence": [
+      "evidence/release-sweep/asset-inspection.json",
+      "assets/ASSET_PROVENANCE.md"
+    ],
+    "corrective_action": ""
+  },
+  "AC-13.08": {
+    "test_name": "Asset integrity and usage inspection",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "status": "PASS",
+    "actual_result": "Asset provenance documents original geometry and illustration generation; no legal/trademark clearance is claimed",
+    "evidence": [
+      "evidence/release-sweep/asset-inspection.json",
+      "assets/ASSET_PROVENANCE.md"
+    ],
+    "corrective_action": ""
   }
 }

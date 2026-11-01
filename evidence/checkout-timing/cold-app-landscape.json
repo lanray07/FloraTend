@@ -1,0 +1,137 @@
+{
+  "presentationSeconds": null,
+  "limitSeconds": 5.0,
+  "observationTimeoutSeconds": 60,
+  "samples": [
+    {
+      "elapsedSeconds": 1.375,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 3.281,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 5.031,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 6.906,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 8.844,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 11.063,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 12.875,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 14.672,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 16.391,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 18.11,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 19.906,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 21.75,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 23.75,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 25.656,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 27.485,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 29.172,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 31.016,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 32.781,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 34.797,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 36.75,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 38.563,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 40.563,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 42.719,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 44.922,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 46.922,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 48.828,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 50.86,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 52.813,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 55.156,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 57.078,
+      "amazonButtonPixels": 0
+    },
+    {
+      "elapsedSeconds": 59.344,
+      "amazonButtonPixels": 0
+    }
+  ],
+  "result": "FAIL",
+  "scope": "Actual LAT checkout presentation only; no payment or receipt verification",
+  "uiAutomationAttached": false,
+  "payPressed": false,
+  "canceled": false,
+  "rawArtifactsPrivate": true
+}

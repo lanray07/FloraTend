@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-01",
+  "versionCode": 8,
+  "versionName": "0.1.7",
+  "releaseName": "FloraTend 0.1.7 cold-start checkout fix",
+  "testTrack": 2,
+  "asin": "B0HPTL2TBX",
+  "status": "Test in-progress",
+  "scope": "Dedicated FloraTend Premium LAT tester group only; no public promotion",
+  "developerCandidateSha256": "ca8223cece19daab3d962cf9de68d01e1f8be2beee0c4a69f51602ff79e5abdb",
+  "amazonInstalledApkSha256": "64e3c82611a9e6c1dde48abd55207c3908d33cd6ba357314eea4566ad3d4de46",
+  "drmApplied": true,
+  "supportedDevices": {
+    "fireTablets": 12,
+    "fireTV": 0,
+    "automotive": 0
+  },
+  "genuineCheckoutRegression": "PASS four observed presentations, first launch plus three cold process starts",
+  "automaticGrant": "PASS",
+  "ownedRestore": "PASS",
+  "offlineRestart": "PASS",
+  "rawRvsResponseCaptured": false,
+  "strictServerGatePreserved": true,
+  "evidence": "docs/CHECKOUT_DELAY_DIAGNOSIS_20261101.md"
+}

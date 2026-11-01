@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-01",
+  "wifiOn": true,
+  "defaultNetworkAvailable": true,
+  "accelerometerRotation": "1",
+  "userRotation": "0",
+  "packages": [
+    "package:com.floratend.app"
+  ],
+  "appDataCleared": false,
+  "qaFixturePackagesRemoved": true,
+  "appstoreSort": "By Title retained; no library sort mutation in this sweep"
+}

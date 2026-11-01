@@ -1,0 +1,39 @@
+
+com.floratend.app.ReleaseWorkflowTest:
+Error in careTypesSavedPhotosMeasurementsAndRecreation(com.floratend.app.ReleaseWorkflowTest):
+java.lang.AssertionError: Failed to assert count of nodes.
+Reason: Expected '2' nodes but found '1' node that satisfies: (Text + EditableText contains 'Height: 10 in' (ignoreCase: false))
+Node found:
+Node #731 at (l=204.0, t=-111.0, r=1872.0, b=351.0)px
+IsTraversalGroup = 'true'
+Focused = 'false'
+Text = '[Release journal fern, 1 Feb 2026, Latest saved photo, Height: 10 in]'
+ContentDescription = '[Saved plant photograph]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 6 siblings
+
+	at androidx.compose.ui.test.AssertionsKt.assertCountEquals(Assertions.kt:286)
+	at com.floratend.app.ReleaseWorkflowTest.careTypesSavedPhotosMeasurementsAndRecreation(ReleaseWorkflowTest.kt:91)
+.
+
+Time: 14.939
+There was 1 failure:
+1) careTypesSavedPhotosMeasurementsAndRecreation(com.floratend.app.ReleaseWorkflowTest)
+java.lang.AssertionError: Failed to assert count of nodes.
+Reason: Expected '2' nodes but found '1' node that satisfies: (Text + EditableText contains 'Height: 10 in' (ignoreCase: false))
+Node found:
+Node #731 at (l=204.0, t=-111.0, r=1872.0, b=351.0)px
+IsTraversalGroup = 'true'
+Focused = 'false'
+Text = '[Release journal fern, 1 Feb 2026, Latest saved photo, Height: 10 in]'
+ContentDescription = '[Saved plant photograph]'
+Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+MergeDescendants = 'true'
+Has 6 siblings
+
+	at androidx.compose.ui.test.AssertionsKt.assertCountEquals(Assertions.kt:286)
+	at com.floratend.app.ReleaseWorkflowTest.careTypesSavedPhotosMeasurementsAndRecreation(ReleaseWorkflowTest.kt:91)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1

@@ -110,6 +110,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
+        // Register before recovery can suspend past the first Activity resume.
+        (application as FloraApp).billing.register()
         AppLocales.dictionaryTag(Locale.getDefault())?.let { tag ->
             runCatching { assets.open("voice/$tag.properties").use { VoiceParser.install(tag,VoiceDictionary.read(it)) } }
         }

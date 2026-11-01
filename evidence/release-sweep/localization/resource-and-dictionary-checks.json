@@ -1,0 +1,291 @@
+{
+  "locales": [
+    {
+      "locale": "en-GB",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 0,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    },
+    {
+      "locale": "en-US",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 0,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    },
+    {
+      "locale": "en-AU",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 0,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    },
+    {
+      "locale": "es-ES",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 0,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    },
+    {
+      "locale": "es-419",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 0,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    },
+    {
+      "locale": "fr-FR",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 0,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    },
+    {
+      "locale": "fr-CA",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 0,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    },
+    {
+      "locale": "de-DE",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 0,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    },
+    {
+      "locale": "it-IT",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 0,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    },
+    {
+      "locale": "pt-BR",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 0,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    },
+    {
+      "locale": "pt-PT",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 0,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    },
+    {
+      "locale": "nl-NL",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 0,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    },
+    {
+      "locale": "pl-PL",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 0,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    },
+    {
+      "locale": "sv-SE",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 0,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    },
+    {
+      "locale": "ja-JP",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 0,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    },
+    {
+      "locale": "hi-IN",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 0,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    },
+    {
+      "locale": "ar",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 1,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    },
+    {
+      "locale": "tr-TR",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 0,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    },
+    {
+      "locale": "id-ID",
+      "loadedStringCount": 166,
+      "pluralSampleCounts": [
+        0,
+        1,
+        2,
+        3,
+        11,
+        100
+      ],
+      "layoutDirection": 0,
+      "dictionaryLoaded": true,
+      "fiveTextCommandsParsed": true
+    }
+  ],
+  "speechRecognitionExercised": false,
+  "humanLinguisticReview": false
+}

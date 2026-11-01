@@ -1,0 +1,6 @@
+
+com.floratend.app.ReleaseWorkflowTest:..
+
+Time: 14.793
+
+OK (2 tests)

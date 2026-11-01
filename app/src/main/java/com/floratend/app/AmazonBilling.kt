@@ -40,11 +40,17 @@ class AmazonBilling(context: Context, private val settings: FloraSettings) : Pur
     fun register() {
         if (registrationStarted) return
         registrationStarted = true
+        val hasKey = runCatching { app.assets.open("AppstoreAuthenticationKey.pem").use { it.read() >= 0 } }.getOrDefault(false)
+        // Called synchronously in MainActivity.onCreate so the SDK observes its
+        // first start/resume rather than queuing checkout until a later resume.
+        if (hasKey) {
+            try { PurchasingService.registerListener(app, this@AmazonBilling) }
+            catch (error: Exception) { unavailable(); return }
+        }
         scope.launch {
             try {
                 entitlements.recover()
-                if (!runCatching { app.assets.open("AppstoreAuthenticationKey.pem").use { it.read() >= 0 } }.getOrDefault(false)) return@launch
-                PurchasingService.registerListener(app, this@AmazonBilling)
+                if (!hasKey) return@launch
                 registered = true
                 LicensingService.verifyLicense(app) {
                     scope.launch {

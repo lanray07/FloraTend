@@ -38,7 +38,11 @@ jobs:
       - name: Build, JVM tests and Android lint
         run: bash gradlew --no-daemon :app:assembleDebug :app:assembleDebugAndroidTest :app:testDebugUnitTest :app:testReleaseUnitTest :app:lintDebug :app:lintRelease
       - name: Supporting regression tests
-        run: python -m unittest discover -s tools -p 'test_*.py' -v
+        # The checkout timing detector validates retained actual Fire captures.
+        # Pin the same image decoder used for its local regression run.
+        run: |
+          python -m pip install Pillow==12.2.0
+          python -m unittest discover -s tools -p 'test_*.py' -v
       - name: Audit Android configuration
         run: python tools/audit_source.py
       - name: Extract Android source strings

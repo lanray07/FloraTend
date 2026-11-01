@@ -1,0 +1,27 @@
+
+com.floratend.app.ReleaseWorkflowTest:
+Error in careTypesSavedPhotosMeasurementsAndRecreation(com.floratend.app.ReleaseWorkflowTest):
+java.lang.AssertionError: Action performScrollTo() failed.
+Reason: Expected exactly '1' node but could not find any node that satisfies: (Text + EditableText contains 'First and latest saved photographs · Release journal fern' (ignoreCase: false))
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:76)
+	at com.floratend.app.ReleaseWorkflowTest.careTypesSavedPhotosMeasurementsAndRecreation(ReleaseWorkflowTest.kt:87)
+.
+
+Time: 14.882
+There was 1 failure:
+1) careTypesSavedPhotosMeasurementsAndRecreation(com.floratend.app.ReleaseWorkflowTest)
+java.lang.AssertionError: Action performScrollTo() failed.
+Reason: Expected exactly '1' node but could not find any node that satisfies: (Text + EditableText contains 'First and latest saved photographs · Release journal fern' (ignoreCase: false))
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.ActionsKt.performScrollTo(Actions.kt:76)
+	at com.floratend.app.ReleaseWorkflowTest.careTypesSavedPhotosMeasurementsAndRecreation(ReleaseWorkflowTest.kt:87)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1

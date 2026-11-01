@@ -65,6 +65,6 @@ class FloraApp : Application() {
     val database by lazy { Room.databaseBuilder(this, FloraDatabase::class.java, "floratend.db").build() }
     val settings by lazy { FloraSettings(this) }
     val billing by lazy { AmazonBilling(this, settings) }
-    override fun onCreate() { super.onCreate(); Reminders.schedule(this); billing.register() }
+    override fun onCreate() { super.onCreate(); Reminders.schedule(this) }
 }
 

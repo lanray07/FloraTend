@@ -1,4 +1,4 @@
-> Current implementation: [0.1.5 server verification](SERVER_RECEIPT_RELEASE_CHECK_20261030.md), [backend setup](../server/README.md). Test 2 is submitted; genuine server verification remains pending.
+> Current implementation: strict server verification, code7 genuine automatic purchase/Restore/offline checks passed; code8 addresses a reproduced cold-start checkout queue. See [current diagnosis](CHECKOUT_DELAY_DIAGNOSIS_20261101.md), [code7 results](LAT_CODE7_TEST_20261101.md) and [backend setup](../server/README.md). Earlier build statuses below are historical.
 
 # Amazon billing integration and remaining verification
 
@@ -12,7 +12,7 @@ The actual entitled item is now **TEST / Approved**, with 12 localized metadata/
 
 ## Implemented client behaviour
 
-- Registers the PurchasingListener, invokes license verification and checks SDK mode. Production builds accept PRODUCTION mode; sandbox is allowed only for debug builds.
+- Registers the PurchasingListener synchronously from MainActivity.onCreate before cache-recovery suspension, invokes license verification and checks SDK mode. Production builds accept PRODUCTION mode; sandbox is allowed only for debug builds.
 - Retrieves user data on refresh/resume, requests product details and shows the returned product price when the expected entitled product is available.
 - Correlates callbacks with request IDs and expected account IDs. Account changes clear the previous grant before synchronising the new account.
 - Checks entitlement SKU, product type and receipt ID; deferred receipts do not grant Premium. Cancellations can revoke the grant.
@@ -20,7 +20,7 @@ The actual entitled item is now **TEST / Approved**, with 12 localized metadata/
 - Commits account/mode/receipt metadata before projecting the Premium flag to DataStore or acknowledging fulfillment. A serialized EntitlementStore recovers the projection on startup; stale account writes and release sandbox grants are rejected. Cached state is retained when a refresh cannot complete offline.
 - Correlates unsuccessful purchase callbacks by request and current owner even when Amazon returns a blank user ID. Successful grants require matching returned ownership. Terminal purchase errors remain visible through background refresh. Fulfillment follows successful persistence.
 
-The [current verification report](PRODUCTION_BILLING_RELEASE_CHECKS.md) distinguishes real sandbox callbacks, controlled cache fixtures and JVM policy tests. Physical offline force-stop/relaunch, failed purchase, access gates and cache recovery passed. Real SDK pagination, duplicate/deferred delivery and signed-release device transitions still need integration tests. Code 6 now requires server receipt verification before new production-mode grants. Both free-hosted services are deployed; genuine receipt verification on an Amazon-delivered code-6 build remains pending. Only server-verified, owner- and endpoint-bound caches survive offline refresh failures. Never add the backend RVS secret to the APK.
+The [current verification report](PRODUCTION_BILLING_RELEASE_CHECKS.md) distinguishes real sandbox callbacks, controlled cache fixtures and JVM policy tests. Physical offline force-stop/relaunch, failed purchase, access gates and cache recovery passed. Real SDK pagination, duplicate/deferred delivery and signed-release device transitions still need integration tests. Code 6 now requires server receipt verification before new production-mode grants. Both Free services are deployed. Actual code6 explicit Restore and actual code7 automatic purchase activation, owned Restore and offline restart passed the installed strict server gate. No public raw RVS response is claimed. Cold-start code8 presentation is a separate regression pending Amazon delivery. Only server-verified, owner- and endpoint-bound caches survive offline refresh failures. Never add the backend RVS secret to the APK.
 
 ## Required executed scenarios
 

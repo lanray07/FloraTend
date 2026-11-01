@@ -1,0 +1,89 @@
+{
+  "recognitionAvailable": false,
+  "ttsInitializationCompleted": true,
+  "ttsInitStatus": 0,
+  "defaultTtsEngine": "com.ivona.tts.oem",
+  "ttsLocaleCapabilities": [
+    {
+      "locale": "en-GB",
+      "availabilityCode": 1
+    },
+    {
+      "locale": "en-US",
+      "availabilityCode": 0
+    },
+    {
+      "locale": "en-AU",
+      "availabilityCode": 0
+    },
+    {
+      "locale": "es-ES",
+      "availabilityCode": -2
+    },
+    {
+      "locale": "es-419",
+      "availabilityCode": -2
+    },
+    {
+      "locale": "fr-FR",
+      "availabilityCode": -2
+    },
+    {
+      "locale": "fr-CA",
+      "availabilityCode": -2
+    },
+    {
+      "locale": "de-DE",
+      "availabilityCode": -2
+    },
+    {
+      "locale": "it-IT",
+      "availabilityCode": -2
+    },
+    {
+      "locale": "pt-BR",
+      "availabilityCode": -2
+    },
+    {
+      "locale": "pt-PT",
+      "availabilityCode": -2
+    },
+    {
+      "locale": "nl-NL",
+      "availabilityCode": -2
+    },
+    {
+      "locale": "pl-PL",
+      "availabilityCode": -2
+    },
+    {
+      "locale": "sv-SE",
+      "availabilityCode": -2
+    },
+    {
+      "locale": "ja-JP",
+      "availabilityCode": -2
+    },
+    {
+      "locale": "hi-IN",
+      "availabilityCode": -2
+    },
+    {
+      "locale": "ar",
+      "availabilityCode": -2
+    },
+    {
+      "locale": "tr-TR",
+      "availabilityCode": -2
+    },
+    {
+      "locale": "id-ID",
+      "availabilityCode": -2
+    }
+  ],
+  "currentLanguageStatus": 1,
+  "synthesisAcceptedCode": 0,
+  "synthesisCompleted": true,
+  "synthesisSucceeded": true,
+  "synthesizedBytes": 94390
+}
