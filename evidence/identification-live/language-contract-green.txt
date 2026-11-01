@@ -1,0 +1,29 @@
+✔ successful consented upload uses fixed origin, stripped filename, safe output and release (69.7007ms)
+✔ missing consent never calls provider or budget (1.2557ms)
+✔ browser origin never calls provider or budget (0.7092ms)
+✔ wrong content type never calls provider or budget (0.7706ms)
+✔ bad JPEG never calls provider or budget (1.2161ms)
+✔ too large never calls provider or budget (5.3267ms)
+✔ missing edge IP never calls provider or budget (0.7927ms)
+✔ query destinations and invalid locales cannot influence upstream (3.2029ms)
+✔ absent credentials/budget fail closed (2.142ms)
+✔ exhaustion and concurrency return bounded errors before fetch (12.3613ms)
+✔ missing reservation ticket fails closed (1.931ms)
+✔ paid, malformed or exhausted quota cannot submit a photo (5.3412ms)
+✔ redirects and provider errors never expose provider bodies or credentials (8.2121ms)
+✔ unsupported common-name locale omits English names (2.0669ms)
+✔ observed provider language tags do not disable all identification requests (2.4246ms)
+✔ identify-route rejection is no-match, unlike quota-route 404 (3.2611ms)
+✔ timeout bounds even an uncooperative transport (25.9811ms)
+✔ bounded result stream and malformed JSON fail closed (5.8926ms)
+✔ release failures cannot override a safe response (2.5716ms)
+✔ candidate bounds, sorting, deduplication and no-match (1.4757ms)
+✔ configured cap cannot exceed free safety budget (0.166ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 317.8678

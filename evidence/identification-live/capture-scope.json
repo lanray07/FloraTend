@@ -1,0 +1,5 @@
+{
+  "03-editable-species-field.png": "Shows the editable field after selection; screenshot occurred before the manual replacement redraw. It is not proof of the final corrected text.",
+  "04-restarted-record.png": "Shows the corrected saved species and preserved note/photo after a separate offline process restart. Native database assertions also passed.",
+  "06-offline-manual-restarted.png": "Captured during dialog entrance animation; persisted species/note/photo are visible. No static transparency or performance conclusion inferred."
+}

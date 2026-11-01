@@ -1,5 +1,9 @@
 # Pl@ntNet integration â€” code13, verification in progress
 
+**Latest status:** [live/native verification](PLANTNET_LIVE_TEST_20261101.md) now confirms one genuine request and the scoped consent, correction, rotation, failure and restart paths. The original missing-key/tablet checkpoints below are historical. The application default remains disabled pending publisher/release review.
+
+## Original checkpoint before the live run
+
 The user selected the Pl@ntNet free tier on1November2026. Development is now0.1.12/code13. A real private key was not present at the initial check. `tools/configure_plantnet_key.ps1` is ready; its CurrentUserDPAPI self-test passed. The user requested account/key help; the official developer signup page is open for their password/verification steps. No live identification, deployment or account creation is claimed.
 
 The public identification endpoint defaults to empty. The new action remains disabled in normal builds until the privately configured server is verified. A developer may supply `-Pfloratend.plantIdentifierUrl=https://<verified-host>/identify`; no key belongs in that property. Existing receipt-verifier configuration and strict billing gating remain unchanged. Source12 signed candidates/captures are historical artifacts and do not certify source13. No new Amazon submission or main-package installation was performed.

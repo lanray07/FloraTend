@@ -1,0 +1,12 @@
+{
+  "hostBackupVerified": true,
+  "integrityCheck": "ok",
+  "domainCounts": {
+    "plants": 2,
+    "schedules": 0,
+    "journal": 0,
+    "history": 0
+  },
+  "photoHashesVerified": 2,
+  "mainPackageDataReadOrModified": false
+}

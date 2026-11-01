@@ -1,0 +1,8 @@
+{
+  "noDefaultNetwork": true,
+  "actualTransportFailure": true,
+  "manualSpeciesSaved": true,
+  "editedNoteSaved": true,
+  "photoPreserved": true,
+  "databaseUnchangedBeforeExplicitSave": true
+}

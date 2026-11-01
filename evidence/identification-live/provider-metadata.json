@@ -1,0 +1,19 @@
+{
+  "credentialValidated": true,
+  "identifyTotal": 500,
+  "identifyRemainingBeforePhoto": 500,
+  "observedLanguageTagsInclude": [
+    "en",
+    "sat",
+    "zh-hant",
+    "zh-tw",
+    "pt-br",
+    "en-au"
+  ],
+  "identificationPhotoRequestsAtProbe": 0,
+  "rawHeadersOrProviderAccountIdsRetained": false,
+  "identifyRemainingAfterPhoto": 499,
+  "identifyAllowanceStill500": true,
+  "identifyQuotaConsumed": 1,
+  "genuineImageRequestsInNativeTest": 1
+}

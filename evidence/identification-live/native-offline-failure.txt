@@ -1,0 +1,6 @@
+
+com.floratend.app.LiveIdentificationTest:.
+
+Time: 11.227
+
+OK (1 test)

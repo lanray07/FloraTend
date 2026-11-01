@@ -114,7 +114,7 @@ export function createIdentifier({apiKey,rateSalt,reserve,release,fetcher=fetch,
       const languagesResponse=await get('/v2/languages');
       if(languagesResponse.status!==200){await languagesResponse.body?.cancel().catch(()=>{});return reply(503,'unavailable');}
       const languages=await jsonLimited(languagesResponse,controller.signal,32768);
-      if(!Array.isArray(languages) || languages.length>300 || !languages.includes('en') || !languages.every(code=>typeof code==='string' && /^[a-z]{2}(?:-[a-z]{2})?$/.test(code)))return reply(503,'unavailable');
+      if(!Array.isArray(languages) || languages.length>300 || !languages.includes('en') || !languages.every(code=>typeof code==='string' && code.length<=35 && /^[a-z]{2,3}(?:-[a-z0-9]{2,8})*$/.test(code)))return reply(503,'unavailable');
       const selectedLanguage=languages.includes(language)?language:'en';
       const target=upstream('/v2/identify/all');
       target.searchParams.set('lang',selectedLanguage);target.searchParams.set('nb-results','3');target.searchParams.set('include-related-images','false');target.searchParams.set('no-reject','false');

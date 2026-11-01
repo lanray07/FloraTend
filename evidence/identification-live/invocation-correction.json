@@ -1,0 +1,7 @@
+{
+  "initialInvocationFailed": true,
+  "reason": "PowerShell split the unquoted Gradle property; task .testBuildType=qa was not found",
+  "correctedByQuotingEntirePropertyArgument": true,
+  "productFailure": false,
+  "correctedBuild": "PASS"
+}

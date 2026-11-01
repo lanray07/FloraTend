@@ -1,0 +1,6 @@
+
+com.floratend.app.PlantIdentificationContractTest:...
+
+Time: 15.437
+
+OK (3 tests)

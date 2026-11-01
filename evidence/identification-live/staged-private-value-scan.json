@@ -1,0 +1,6 @@
+{
+  "scope": "Exact credentials and Cloudflare account identifier in staged content before this report; screenshots separately reviewed; no private values emitted",
+  "stagedFilesChecked": 43,
+  "matches": 0,
+  "privateValuesChecked": 7
+}

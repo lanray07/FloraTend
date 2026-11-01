@@ -1,0 +1,40 @@
+
+> test
+> node --test receipt-verifier.test.mjs plant-identification.test.mjs plantnet-budget.test.mjs
+
+✔ successful consented upload uses fixed origin, stripped filename, safe output and release (51.5793ms)
+✔ missing consent never calls provider or budget (0.7213ms)
+✔ browser origin never calls provider or budget (0.5931ms)
+✔ wrong content type never calls provider or budget (0.6516ms)
+✔ bad JPEG never calls provider or budget (0.7434ms)
+✔ too large never calls provider or budget (1.9969ms)
+✔ missing edge IP never calls provider or budget (0.4031ms)
+✔ query destinations and invalid locales cannot influence upstream (1.7584ms)
+✔ absent credentials/budget fail closed (1.2359ms)
+✔ exhaustion and concurrency return bounded errors before fetch (6.2703ms)
+✔ missing reservation ticket fails closed (1.4018ms)
+✔ paid, malformed or exhausted quota cannot submit a photo (4.3192ms)
+✔ redirects and provider errors never expose provider bodies or credentials (5.4654ms)
+✔ unsupported common-name locale omits English names (1.9877ms)
+✔ observed provider language tags do not disable all identification requests (1.7913ms)
+✔ identify-route rejection is no-match, unlike quota-route 404 (2.747ms)
+✔ timeout bounds even an uncooperative transport (14.6227ms)
+✔ bounded result stream and malformed JSON fail closed (8.9924ms)
+✔ release failures cannot override a safe response (6.2765ms)
+✔ candidate bounds, sorting, deduplication and no-match (3.2795ms)
+✔ configured cap cannot exceed free safety budget (0.4874ms)
+✔ SQLite actor atomically enforces per-owner/global/concurrency budgets (7707.6444ms)
+✔ Amazon fields bind exact SKU, type, receipt and environment (1.2088ms)
+✔ successful HTTP flow returns minimal non-cacheable result (39.5849ms)
+✔ bad input, query strings, missing configuration and rate limits cannot call RVS (6.0316ms)
+✔ only definitive Amazon answers revoke; outages never fabricate success (8.0641ms)
+✔ bearer identifiers are URL encoded, never interpreted as an upstream host (0.9659ms)
+✔ Workers-compatible manual redirects never forward the shared secret (0.9451ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8817.2632

@@ -1,0 +1,55 @@
+{
+  "recordedAtUtc": "2026-11-01T20:28:21.073797+00:00",
+  "development": "0.1.12/code13",
+  "genuineProviderRequests": 1,
+  "genuineProviderImages": 1,
+  "providerQuotaBefore": 500,
+  "providerQuotaAfter": 499,
+  "functionalNativePass": 7,
+  "backupCleanupNativePass": 2,
+  "nativeFailures": 0,
+  "serverTestsPass": 28,
+  "supportingTestsPass": 60,
+  "jvmSuites": {
+    "core": {
+      "tests": 6,
+      "failures": 0,
+      "errors": 0
+    },
+    "debug": {
+      "tests": 34,
+      "failures": 0,
+      "errors": 0
+    },
+    "release": {
+      "tests": 34,
+      "failures": 0,
+      "errors": 0
+    }
+  },
+  "lint": {
+    "debug": {
+      "errors": 0,
+      "warnings": 46
+    },
+    "release": {
+      "errors": 0,
+      "warnings": 46
+    }
+  },
+  "hostBuild": "SUCCESS,5m19s,121tasks",
+  "serverSourceHashesUtf8Lf": {
+    "server/plant-identification.mjs": "84eaae3a2e4dda9d8f14d1e4f0c1fd718f0150c9515a21204516eb044834948b",
+    "server/plantnet-worker.mjs": "67fcb0169caca6b51b6e43d9469bf3957eda5f8b28c93edd0c6e239e453469e4",
+    "server/wrangler.plantnet.jsonc": "d561a0a7d6af3ae96a562eeb34bf12399d71a1a68da7665742113491fea80df0"
+  },
+  "mainAmazonApp": "Unchanged code11; SHA256/certificate verified; no data clear/uninstall",
+  "normalDefaultIdentifierEndpoint": "Empty/disabled pending publisher/release configuration review",
+  "nativeScope": "QA only, actual real transport; one English provider sample, not an accuracy benchmark or Amazon-signed code13 test",
+  "ledger": {
+    "pass": 178,
+    "total": 204,
+    "incomplete": 26
+  },
+  "rawProviderBodiesOrAccountHeadersPublished": false
+}

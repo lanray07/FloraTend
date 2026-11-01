@@ -64,6 +64,10 @@ test('redirects and provider errors never expose provider bodies or credentials'
 test('unsupported common-name locale omits English names',async()=>{
   const f=fixture();const req=new Request('https://identifier.test/identify?lang=ja',request());const body=await (await f.handler(req)).json();assert.equal(body.language,'en');assert.deepEqual(body.results[0].commonNames,[]);
 });
+test('observed provider language tags do not disable all identification requests',async()=>{
+  let count=0;const f=fixture({fetcher:async()=>++count===1?Response.json({quota:{identify:{total:500,remaining:500}}}):count===2?Response.json(['en','sat','zh-tw','pt-br','zh-hant','de-at','en-au']):Response.json({results:[candidate()]})});
+  assert.equal((await f.handler(request())).status,200);
+});
 test('identify-route rejection is no-match, unlike quota-route 404',async()=>{
   let count=0;const f=fixture({fetcher:async()=>++count===1?Response.json({quota:{identify:{total:500,remaining:5}}}):count===2?Response.json(['en']):new Response('Species not found',{status:404})});
   const response=await f.handler(request());assert.equal(response.status,200);assert.deepEqual(await response.json(),{state:'no_match',provider:'plantnet',language:'en',results:[]});

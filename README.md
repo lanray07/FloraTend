@@ -1,4 +1,4 @@
-> Current development: **0.1.12 / code13**, with [Pl@ntNet integration and pending verification](docs/PLANTNET_INTEGRATION_20261101.md). Actual Amazon code11 remains the last verified installed build. The acceptance ledger records173/204 scoped passes and31 incomplete criteria; it does not certify the new candidate.
+> Current development: **0.1.12 / code13**, with [scoped Pl@ntNet live/native evidence](docs/PLANTNET_LIVE_TEST_20261101.md). Actual Amazon code11 remains the last verified installed build. The acceptance ledger records178/204 scoped passes and26 incomplete criteria; it does not certify the new candidate.
 
 > Current checkout work: [cold-start diagnosis and code8 regression](docs/CHECKOUT_DELAY_DIAGNOSIS_20261101.md).
 

@@ -19,6 +19,8 @@ evidence/gradle-threads.txt
 *.p12
 *.pfx
 *.dpapi.json
+*.dpapi
+/PlantNetapi.txt
 evidence/localized-device/startup-debug.png
 evidence/billing/tester.png
 evidence/billing/*ui.xml

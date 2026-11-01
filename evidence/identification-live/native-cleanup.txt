@@ -1,0 +1,6 @@
+
+com.floratend.app.IdentificationCleanupTest:.
+
+Time: 4.504
+
+OK (1 test)

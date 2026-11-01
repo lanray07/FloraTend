@@ -1,0 +1,18 @@
+{
+  "version": "0.1.12/code13",
+  "applicationId": "com.floratend.app.qa",
+  "debuggable": true,
+  "identifierUrlOverride": "https://floratend-plant-identification.lanraybanks.workers.dev/identify",
+  "keyEmbedded": false,
+  "scope": "Initial three contract tests used empty-default QA config; genuine/offline cases used explicit BuildConfig endpoint. The instrumentation APK gained additional independent test methods between invocations; these are the final artifact hashes. No Amazon-delivered code13 claim.",
+  "artifacts": {
+    "app-qa.apk": {
+      "sha256": "9562af447b2a8f6d4e6da30d5508e7b7c76e980556774a68c4881ef2729190d2",
+      "bytes": 14408320
+    },
+    "app-qa-androidTest.apk": {
+      "sha256": "ba6c2d6e896638bc04f0d5501cd9f80c8a72523fcda16c4362d387445882c636",
+      "bytes": 2196610
+    }
+  }
+}
