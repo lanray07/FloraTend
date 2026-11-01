@@ -2,9 +2,9 @@
 
 Native Android plant collection, care-check scheduler and growth journal, primarily intended for Amazon Fire tablets. Kotlin, Compose Material 3, Room, DataStore and WorkManager; no required Google Play Services. Product name and package identifier remain provisional pending publisher clearance.
 
-**Development build — release status BLOCKED.** The authoritative executed verification is [RELEASE_READINESS.md](RELEASE_READINESS.md), with individual results in [ACCEPTANCE_TEST_RESULTS.csv](ACCEPTANCE_TEST_RESULTS.csv). Compilation, source implementation and a small set of device tests do not establish production readiness.
+**Development build â€” release status BLOCKED.** The authoritative executed verification is [RELEASE_READINESS.md](RELEASE_READINESS.md), with individual results in [ACCEPTANCE_TEST_RESULTS.csv](ACCEPTANCE_TEST_RESULTS.csv). Compilation, source implementation and a small set of device tests do not establish production readiness.
 
-Current candidate: [server verification and LAT Test 2](docs/SERVER_RECEIPT_RELEASE_CHECK_20261030.md). Free Cloudflare LAT and production verifiers are deployed; Amazon code 6 passed genuine server-gated Restore and offline restart, but automatic purchase activation failed. Corrected code 7 is submitted to LAT for a genuine purchase regression. See [actual code-6 results](docs/LAT_SERVER_TEST_20261031.md). See [.env.example](.env.example) and [backend setup](server/README.md).
+Current candidate: [server verification and LAT Test 2](docs/SERVER_RECEIPT_RELEASE_CHECK_20261030.md). Free Cloudflare LAT and production verifiers are deployed; Amazon code 6 passed genuine server-gated Restore and offline restart, but automatic purchase activation failed. Amazon-delivered code 7 is installed and verified; fresh checkout attempts remained on Settings waiting. See [latest code-7 checks](docs/LAT_CODE7_TEST_20261101.md). See [actual code-6 results](docs/LAT_SERVER_TEST_20261031.md). See [.env.example](.env.example) and [backend setup](server/README.md).
 
 ## Build and run
 
@@ -22,7 +22,7 @@ On macOS/Linux use `bash gradlew` in place of `.\gradlew.bat`. The debug APK is 
 .\tools\test_localized_fire.ps1
 ```
 
-Tests can modify the app's local records and preferences; use a dedicated test installation/device profile. No production account or plant data should be used. The app requires Android API 26 or higher, targets API 36, and currently has version `0.1.6` / code `7`. A minimum SDK declaration is not a verified device-compatibility promise. The exact submitted signed code-5 APK also passed 15 physical-tablet tests; see [signed tablet results and reproduction](docs/SIGNED_TABLET_TEST_20261030.md). The later Amazon-delivered LAT build now retrieves the £3.73 regional price; [live LAT evidence](docs/LAT_LIVE_TEST_20261030.md) records a successful LAT purchase, restart persistence and owned-entitlement restoration after a clean Amazon reinstall. Other release gates remain open. Stateful App Tester and store capture tests require explicit opt-in; do not run the entire instrumentation package blindly.
+Tests can modify the app's local records and preferences; use a dedicated test installation/device profile. No production account or plant data should be used. The app requires Android API 26 or higher, targets API 36, and currently has version `0.1.6` / code `7`. A minimum SDK declaration is not a verified device-compatibility promise. The exact submitted signed code-5 APK also passed 15 physical-tablet tests; see [signed tablet results and reproduction](docs/SIGNED_TABLET_TEST_20261030.md). The later Amazon-delivered LAT build now retrieves the Â£3.73 regional price; [live LAT evidence](docs/LAT_LIVE_TEST_20261030.md) records a successful LAT purchase, restart persistence and owned-entitlement restoration after a clean Amazon reinstall. Other release gates remain open. Stateful App Tester and store capture tests require explicit opt-in; do not run the entire instrumentation package blindly.
 
 ## Supporting checks
 

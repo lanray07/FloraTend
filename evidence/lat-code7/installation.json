@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-01",
+  "versionCode": 7,
+  "versionName": "0.1.6",
+  "installer": "com.amazon.venezia",
+  "debuggable": false,
+  "apkSHA256": "9d6ebeceb52c85d3f827392b002799c5b43e0fdbbd79ca7daa81fd16a9aa3351",
+  "certificateSHA256": "8e35b165d5a1dc14c10820cee25ed2c24e9c543ceb2f059b9f5bc93baa672297",
+  "inPlaceUpdate": true,
+  "recordsRemoved": false,
+  "latEndpointPresent": true,
+  "purchaseGuardPresent": true
+}

@@ -1,0 +1,9 @@
+# Amazon code-7 verification - 1 November 2026
+
+**BLOCKED: genuine fresh purchase regression incomplete.** The actual Amazon-delivered 0.1.6/code 7 installation is verified, including installer and matching Amazon certificate. The update preserved local records. See [installation](../evidence/lat-code7/installation.json).
+
+Amazon acknowledged reset of the disposable entitlement for the one tester in the dedicated FloraTend Premium LAT group. After a full refresh, Premium was inactive and the GBP3.73 price and history were available. No app data was cleared. [Reset acknowledgement](../evidence/lat-code7/entitlement-reset-confirmed.png), [fresh purchase precondition](../evidence/lat-code7/before-purchase.png).
+
+Two landscape attempts and one portrait attempt remained on Settings waiting; no checkout dialog appeared and no payment was pressed. No UIAutomator attached after the purchase taps. Opening the actual Test2 Appstore product page and restarting only FloraTend did not recover presentation. These failures are retained, and do not establish a black window, purchase, server grant or code7 activation success. [Sanitized result](../evidence/lat-code7/pre-reboot-checks.json), [landscape](../evidence/lat-code7/landscape-initial-waiting.png), [retry](../evidence/lat-code7/landscape-retry.png), [portrait](../evidence/lat-code7/portrait-attempt.png).
+
+A normal tablet reboot was started after restoring original rotation (accelerometer1/user0). Fire's protected Appstore was not force-stopped or bypassed. Resume after reboot to retry checkout and finish genuine purchase activation, explicit owned Restore and offline restart. Code6 historical server-gated Restore/offline results and code7 red/green JVM tests retain their existing scopes. No raw logs, account/receipt/invitation IDs or secrets are published. Hosting remains Free and submissions remain test-only. Overall release readiness remains blocked with125 unmet criteria.

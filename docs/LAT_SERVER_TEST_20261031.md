@@ -1,3 +1,5 @@
+> Latest: [1 November actual Amazon code-7 installation and checkout attempts](LAT_CODE7_TEST_20261101.md). Historical results below retain their original scopes.
+
 # Amazon Test 2 server-verification check - 31 October 2026
 
 **Release remains BLOCKED.** Actual Amazon code 6 completed a free LAT purchase, server-gated owned Restore and offline process restart. Automatic Premium activation immediately after purchase failed. Source 0.1.6/code 7 fixes a reproduced verification/history race; Amazon has accepted it as **Test submitted**. Its fresh genuine purchase regression remains pending.

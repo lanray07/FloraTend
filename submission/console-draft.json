@@ -151,15 +151,18 @@
     "upcoming": {
       "name": "FloraTend 0.1.6 purchase verification fix",
       "release_id": "amzn1.devportal.apprelease.0e6f92e850c74edd9216137c06b725a5",
-      "status": "Test submitted",
+      "status": "Test in-progress",
       "version_code": 7,
       "version_name": "0.1.6",
       "apk_sha256": "dc39d4875f9350f743a0966ed0db62eccb5abdcfb45476406014893b760a174d",
       "drm": true,
       "tablet_devices_selected": 12,
       "tester_group": "FloraTend Premium LAT",
-      "genuine_purchase_regression": "PENDING",
-      "evidence": "evidence/lat-server-live/code7-submitted.png"
+      "genuine_purchase_regression": "BLOCKED: checkout absent twice landscape and once portrait; reboot awaits USB authorization",
+      "evidence": "evidence/lat-server-live/code7-submitted.png",
+      "amazon_installed_version_code": 7,
+      "amazon_apk_sha256": "9d6ebeceb52c85d3f827392b002799c5b43e0fdbbd79ca7daa81fd16a9aa3351",
+      "latest_check": "docs/LAT_CODE7_TEST_20261101.md"
     }
   }
 }

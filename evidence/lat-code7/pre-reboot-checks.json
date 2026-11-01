@@ -1,0 +1,12 @@
+{
+  "actualAmazonCode": 7,
+  "resetConfirmed": true,
+  "premiumInactiveAfterReset": true,
+  "price": "GBP3.73",
+  "landscapeAttemptsWithoutCheckout": 2,
+  "portraitAttemptsWithoutCheckout": 1,
+  "uiAutomatorAttachedAfterTap": false,
+  "paymentPressed": false,
+  "appRestartAndStoreReopenRecovered": false,
+  "scope": "FAIL checkout presentation, no genuine purchase yet; original cause unisolated"
+}
