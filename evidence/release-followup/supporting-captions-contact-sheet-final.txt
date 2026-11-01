@@ -1,0 +1,130 @@
+{
+  "contactSheetsRebuilt": 15,
+  "sourceCaptionedImages": 120,
+  "atomicReplacementSucceeded": true,
+  "writes": [
+    {
+      "locale": "de-DE",
+      "replacementRetries": 0
+    },
+    {
+      "locale": "en-AU",
+      "replacementRetries": 0
+    },
+    {
+      "locale": "en-GB",
+      "replacementRetries": 0
+    },
+    {
+      "locale": "en-IN",
+      "replacementRetries": 0
+    },
+    {
+      "locale": "en-US",
+      "replacementRetries": 0
+    },
+    {
+      "locale": "es-ES",
+      "replacementRetries": 0
+    },
+    {
+      "locale": "es-MX",
+      "replacementRetries": 0
+    },
+    {
+      "locale": "fr-FR",
+      "replacementRetries": 0
+    },
+    {
+      "locale": "it-IT",
+      "replacementRetries": 0
+    },
+    {
+      "locale": "ja-JP",
+      "replacementRetries": 0
+    },
+    {
+      "locale": "nl-NL",
+      "replacementRetries": 0
+    },
+    {
+      "locale": "pl-PL",
+      "replacementRetries": 0
+    },
+    {
+      "locale": "pt-BR",
+      "replacementRetries": 0
+    },
+    {
+      "locale": "pt-PT",
+      "replacementRetries": 0
+    },
+    {
+      "locale": "sv-SE",
+      "replacementRetries": 1
+    }
+  ],
+  "contactSheets": [
+    {
+      "locale": "de-DE",
+      "sha256": "996bd687213a1957fc365ec449cb5dc3f994ad265d0a8c42393756caa5418b58"
+    },
+    {
+      "locale": "en-AU",
+      "sha256": "b0cfafab8f0f6b9ee432dbeeb55ba154caaab637a7d03d7a1e0d3689b4b28826"
+    },
+    {
+      "locale": "en-GB",
+      "sha256": "1a36840653000c3def649ddfd6b82ed3fa3567b3048b7a13b1a6bd9e14bcb2f7"
+    },
+    {
+      "locale": "en-IN",
+      "sha256": "1a36840653000c3def649ddfd6b82ed3fa3567b3048b7a13b1a6bd9e14bcb2f7"
+    },
+    {
+      "locale": "en-US",
+      "sha256": "f61efde7ef3d57dd21c47271db72d5c9739ed2c8e2a316bf6861515745e8a6c5"
+    },
+    {
+      "locale": "es-ES",
+      "sha256": "f3e2c532aa641dafadab17cf6889af5b6347608609149fd9e373c99b856e7188"
+    },
+    {
+      "locale": "es-MX",
+      "sha256": "9b2bfd8aeb082dedb1d45e0878f2ec4ad47c804dc3fe3ded8b3b075b787a1409"
+    },
+    {
+      "locale": "fr-FR",
+      "sha256": "c366314681e246dc1faaedfa6a44c49f6853d271e4ddfe7437377addf9555d66"
+    },
+    {
+      "locale": "it-IT",
+      "sha256": "4ea442d32b94f5b9662e607380edaf96e5baf7250401a5797bb3988dfe852ec8"
+    },
+    {
+      "locale": "ja-JP",
+      "sha256": "0150e6749344ece143172a53ffbd16b1f24dc0c6dae53e2f8f80f06bab6875af"
+    },
+    {
+      "locale": "nl-NL",
+      "sha256": "1f8a786026d6ad503a38c15b74b5c89971dcebc8b2abb458e6ca2fa30cbd405d"
+    },
+    {
+      "locale": "pl-PL",
+      "sha256": "54d2d9cd85248ede98d23e6b689f9896fe10edb67730bdbf6b0a9e867f2db2f1"
+    },
+    {
+      "locale": "pt-BR",
+      "sha256": "e99cba5330ca445397321f560a2d3c3eb986bfe878108a9eade1d100cdd17753"
+    },
+    {
+      "locale": "pt-PT",
+      "sha256": "0ae928849fe8a8f4df38798154750b0106b403b9ae8eaaef2f181501bded83f0"
+    },
+    {
+      "locale": "sv-SE",
+      "sha256": "302afd8cfa51e61c02a1dc595f2f044b52562e9aa29ed0da0db7b5c5cc5c2522"
+    }
+  ],
+  "scope": "Actual same-file run using final bounded-retry contact-sheet helper; earlier failures retained. Low-level Windows cause unisolated."
+}

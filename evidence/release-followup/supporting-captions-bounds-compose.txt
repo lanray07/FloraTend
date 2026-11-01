@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\compose_localized_screenshots.py", line 90, in <module>
+    compose(args.captures.resolve(),args.output.resolve())
+  File "D:\App Projects\FloraTend\tools\compose_localized_screenshots.py", line 63, in compose
+    assert bounds[0]>=104 and bounds[2]<=2456 and bounds[3]<450,'Supporting caption exceeds its reserved space'
+AssertionError: Supporting caption exceeds its reserved space

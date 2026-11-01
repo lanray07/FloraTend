@@ -22,13 +22,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-GB/01-hero.png",
       "capture_sha256": "d2e9ef662a6f39c2a1025c93c91b64c4a860100e4928f629c37d3811686dd538",
       "export": "assets/screenshots/localized/en-GB/01-hero.png",
-      "export_sha256": "0a01b158bc5cdacb4482e8c2979b0de1e2f7e7e12e76b4ff558750808c58afd7",
+      "export_sha256": "cb903bb38e60207477f11d1a320e232e5108279f460c2f5ab0930a5b5f1ab950",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Every plant deserves a little attention.",
+      "caption_lines": [
+        "Every plant deserves a little attention."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          703,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-GB",
@@ -42,13 +68,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-GB/02-watering.png",
       "capture_sha256": "49024165fc272b7df1a5d3b3b10c9b5bdc49a6d6a3425e799c3ba2f99467ce68",
       "export": "assets/screenshots/localized/en-GB/02-watering.png",
-      "export_sha256": "5b57ecaa70810a388ec4b110cc8b846a026b1045bdf0143be35ee86ee7bbf538",
+      "export_sha256": "1115662c6c0354152243adb340a767a7cb3748ee3ed6c8a2fb9542cf2fa9f017",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "A reminder to check, not an instruction to water. Check soil moisture, drainage and your plant’s condition first.",
+      "caption_lines": [
+        "A reminder to check, not an instruction to water. Check soil moisture, drainage and your plant’s condition first."
+      ],
+      "caption_line_bounds": [
+        [
+          103,
+          357,
+          1866,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-GB",
@@ -62,13 +114,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-GB/03-library.png",
       "capture_sha256": "d232f4952762976b465084db11eb491f99930dbb21965f6dc180071431770c86",
       "export": "assets/screenshots/localized/en-GB/03-library.png",
-      "export_sha256": "0aff36ddc7306aaf85c0a18394274d12d4cffd306af1d10608758324d0c66d7e",
+      "export_sha256": "ffe2100a6cfe8efc85e3b8f048378180ef5f0060c720eb655efdceffe87e3282",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Search plants, species or locations",
+      "caption_lines": [
+        "Search plants, species or locations"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          645,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-GB",
@@ -82,13 +160,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-GB/04-calendar.png",
       "capture_sha256": "a0c07f5f37e043d49e854c592b77b763ddc4c18d42d2334e2c46dde2c1f44270",
       "export": "assets/screenshots/localized/en-GB/04-calendar.png",
-      "export_sha256": "6618fe3c7ebc4c0f00ccb318e22ec77bca0dcf8ffad9b2222213389668612d69",
+      "export_sha256": "e2d925a12bb5279ff465fcf23648235dd8730d97685bf235458fa46b4392ddee",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Care check reminders",
+      "caption_lines": [
+        "Care check reminders"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          449,
+          384
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-GB",
@@ -102,13 +206,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-GB/05-growth.png",
       "capture_sha256": "9c39c20a29140818f17294143eb63795d2e326d4e815ca35f0544b46b84f7640",
       "export": "assets/screenshots/localized/en-GB/05-growth.png",
-      "export_sha256": "439920363a5f0581cdc0d8f1acca981c0969a1f1666bc9eadb92c49c5da05164",
+      "export_sha256": "2a05655e6f8f2806c756c75fe42a18c002e1509741c28d35e8d9f7a94ba13e58",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Photos, observations and small signs of growth.",
+      "caption_lines": [
+        "Photos, observations and small signs of growth."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          860,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-GB",
@@ -122,13 +252,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-GB/06-voice.png",
       "capture_sha256": "bfdcbd349e75d031431eca28b60815c100ff3eb0f34d330f9f94c6e73e82a42e",
       "export": "assets/screenshots/localized/en-GB/06-voice.png",
-      "export_sha256": "d7f004387a969c905cf229fd759029344fac950e35cae1d2394b4bf975e4d0df",
+      "export_sha256": "66f5888a863cfd96945f086797b10030c77976bda54b1ee6d583a0845909c8d2",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Review or type a command",
+      "caption_lines": [
+        "Review or type a command"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          534,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-GB",
@@ -142,13 +298,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-GB/07-offline.png",
       "capture_sha256": "e0fec0c40807897cc847f79660df0e4ae1695564a62da667bfa9ae1495cd1c87",
       "export": "assets/screenshots/localized/en-GB/07-offline.png",
-      "export_sha256": "7d7d30c3f3a5123464abf36bd4421a0260ef3f6ba3b5afc6645ed5669f7a9e6d",
+      "export_sha256": "5ca092004355d71c439cb54c18b514e93622ec542ddb18112c7bd17bc9a99a77",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Saved on this device",
+      "caption_lines": [
+        "Saved on this device"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          425,
+          384
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-GB",
@@ -162,13 +344,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-GB/08-insights.png",
       "capture_sha256": "4a55b54e558253a4dccd36d1083a2797fd015e5351717aba0387e22f1a3ec934",
       "export": "assets/screenshots/localized/en-GB/08-insights.png",
-      "export_sha256": "bd26c03b48e26e35e1440c36aaf5b00cd26c57a3032894b01f988b7ed55aa881",
+      "export_sha256": "1d53fe3c1c3c63f6dd5a8310629baf599f8a3fd95e7929fe9ea744244f736392",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Your records at a glance. Activity does not prove plant health.",
+      "caption_lines": [
+        "Your records at a glance. Activity does not prove plant health."
+      ],
+      "caption_line_bounds": [
+        [
+          103,
+          357,
+          1076,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-US",
@@ -182,13 +390,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-US/01-hero.png",
       "capture_sha256": "0f2832cd40f2ef8c5cf6f2262efb81fa73c7bfa348bd92663930d022a63571b2",
       "export": "assets/screenshots/localized/en-US/01-hero.png",
-      "export_sha256": "b340562dd4168e9623dbbd9879c1010e3eb2bc4d74557cce5fdb982045ba032e",
+      "export_sha256": "7068d6bd8ab148aeb1b08a1c5dc10d1c3bab91279eb800d137ad855e2c2c6834",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Every plant deserves a little attention.\"",
+      "caption_lines": [
+        "\"Every plant deserves a little attention.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          733,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
+      "caption_resource_sha256": "65068dbf0adf910a0250168d1a069aaa9e0328d7dd34a52a146404a34305fd41",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-US",
@@ -202,13 +436,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-US/02-watering.png",
       "capture_sha256": "7eb648b67c728ac8310bfb59f5171ac18319ff169510dc9ede3b59272634d7b5",
       "export": "assets/screenshots/localized/en-US/02-watering.png",
-      "export_sha256": "07c7a80b4eb6c2aa60715a0e89568e3f3193c53cfab466e5300f282af2709891",
+      "export_sha256": "27a3f8af6ed694a8f1b4185bdd36dc1ff8f90a069b211f903e90e236df0ddbff",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"A reminder to check, not an instruction to water. Check soil moisture, drainage and your plant’s condition first.\"",
+      "caption_lines": [
+        "\"A reminder to check, not an instruction to water. Check soil moisture, drainage and your plant’s condition first.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          1896,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
+      "caption_resource_sha256": "65068dbf0adf910a0250168d1a069aaa9e0328d7dd34a52a146404a34305fd41",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-US",
@@ -222,13 +482,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-US/03-library.png",
       "capture_sha256": "2f8c73960185df43c1616b6d8211d7f553c4488be67ceb5578fccd90cc17272f",
       "export": "assets/screenshots/localized/en-US/03-library.png",
-      "export_sha256": "3586d4cef013ad5b3ee31a93e517ae5efc9843592fd6ae8de9e0945f66eafa8e",
+      "export_sha256": "6067e22cc96cd3c8f96ce1ce3e2f4a4b17b05eadbab73f812714d96faa456007",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Search plants, species or locations\"",
+      "caption_lines": [
+        "\"Search plants, species or locations\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          675,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
+      "caption_resource_sha256": "65068dbf0adf910a0250168d1a069aaa9e0328d7dd34a52a146404a34305fd41",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-US",
@@ -242,13 +528,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-US/04-calendar.png",
       "capture_sha256": "b3c03bb970f21b6aded997fea6e00abbaa19aea7d5d96cc8631d40b92123e742",
       "export": "assets/screenshots/localized/en-US/04-calendar.png",
-      "export_sha256": "5f929abd17cd6a05c76149d65cbdd7e8dd908f5108d0a6da72518402294e55e9",
+      "export_sha256": "4f5613022603554a303900c35f214604afb596cb9fd818dafd61da930ff2a349",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Care check reminders\"",
+      "caption_lines": [
+        "\"Care check reminders\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          479,
+          384
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
+      "caption_resource_sha256": "65068dbf0adf910a0250168d1a069aaa9e0328d7dd34a52a146404a34305fd41",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-US",
@@ -262,13 +574,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-US/05-growth.png",
       "capture_sha256": "631dfdc4550681c382216920c551bc28fe96709bb737ae0b3ce690a8b6a20974",
       "export": "assets/screenshots/localized/en-US/05-growth.png",
-      "export_sha256": "876181af6e976247dfa6a77e20d0ce014ff19460210dd376182020fbf17eebe4",
+      "export_sha256": "09c53436d0acf782831645601d0fb2911d1e59d558e20c7477908bf1dccfdefa",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Photos, observations and small signs of growth.\"",
+      "caption_lines": [
+        "\"Photos, observations and small signs of growth.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          890,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
+      "caption_resource_sha256": "65068dbf0adf910a0250168d1a069aaa9e0328d7dd34a52a146404a34305fd41",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-US",
@@ -282,13 +620,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-US/06-voice.png",
       "capture_sha256": "bfdcbd349e75d031431eca28b60815c100ff3eb0f34d330f9f94c6e73e82a42e",
       "export": "assets/screenshots/localized/en-US/06-voice.png",
-      "export_sha256": "d7f004387a969c905cf229fd759029344fac950e35cae1d2394b4bf975e4d0df",
+      "export_sha256": "995403d6094b7b73c280ba18adf661b01ff2ffb54c03a457009a70b2ee1971b2",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Review or type a command\"",
+      "caption_lines": [
+        "\"Review or type a command\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          564,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
+      "caption_resource_sha256": "65068dbf0adf910a0250168d1a069aaa9e0328d7dd34a52a146404a34305fd41",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-US",
@@ -302,13 +666,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-US/07-offline.png",
       "capture_sha256": "30ad622853972975f8f3afdc5664661dd34a39652362c9301433326f728a1b5b",
       "export": "assets/screenshots/localized/en-US/07-offline.png",
-      "export_sha256": "9696dc417d054df0986cb31a59dfb56c70b4c42d266959c03d6b0126e84cbd1f",
+      "export_sha256": "60aa1c37d9dc84091d09667a00ef1cad9c17b8f469bd33218f5aca69db98a707",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Saved on this device\"",
+      "caption_lines": [
+        "\"Saved on this device\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          455,
+          384
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
+      "caption_resource_sha256": "65068dbf0adf910a0250168d1a069aaa9e0328d7dd34a52a146404a34305fd41",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-US",
@@ -322,13 +712,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-US/08-insights.png",
       "capture_sha256": "1ec97ac1f95568b6f73797716d1dd0d6f068a11af1307cd24911f95c4aceddd3",
       "export": "assets/screenshots/localized/en-US/08-insights.png",
-      "export_sha256": "d498712ae63f4a0fdff531ff7f8d2b6be324232f9aa32de1a6401556f5aeeee2",
+      "export_sha256": "5d0b4aa9bd8b3ac484426c0b945d100418bb51454efb779ed7791e180d2a240b",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Your records at a glance. Activity does not prove plant health.\"",
+      "caption_lines": [
+        "\"Your records at a glance. Activity does not prove plant health.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          1106,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-en-rUS/strings.xml",
+      "caption_resource_sha256": "65068dbf0adf910a0250168d1a069aaa9e0328d7dd34a52a146404a34305fd41",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-AU",
@@ -342,13 +758,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-AU/01-hero.png",
       "capture_sha256": "4b6a4a47e15d0fe7397c8f5bc06582438af6db0278bcf683a95b508480ab7c0c",
       "export": "assets/screenshots/localized/en-AU/01-hero.png",
-      "export_sha256": "e44ea7df29c4572e2ec4f0694843d99adfb052bb0915c91082df0045bb971f59",
+      "export_sha256": "d2e9328fc48267fd96c17580b7f8fa869c41ba129c98d37bb5c27bafc7bcf719",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Every plant deserves a little attention.\"",
+      "caption_lines": [
+        "\"Every plant deserves a little attention.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          733,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
+      "caption_resource_sha256": "350efcb29ebd91bb1a5d10ed5de3f6e0b65a21f59fdf98681fb027c150fe593a",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-AU",
@@ -362,13 +804,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-AU/02-watering.png",
       "capture_sha256": "49024165fc272b7df1a5d3b3b10c9b5bdc49a6d6a3425e799c3ba2f99467ce68",
       "export": "assets/screenshots/localized/en-AU/02-watering.png",
-      "export_sha256": "5b57ecaa70810a388ec4b110cc8b846a026b1045bdf0143be35ee86ee7bbf538",
+      "export_sha256": "01a26876ccd9ac181cab287b3c915fbcffb02647baeff98ccb1fa4e90a861c80",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"A reminder to check, not an instruction to water. Check soil moisture, drainage and your plant’s condition first.\"",
+      "caption_lines": [
+        "\"A reminder to check, not an instruction to water. Check soil moisture, drainage and your plant’s condition first.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          1896,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
+      "caption_resource_sha256": "350efcb29ebd91bb1a5d10ed5de3f6e0b65a21f59fdf98681fb027c150fe593a",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-AU",
@@ -382,13 +850,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-AU/03-library.png",
       "capture_sha256": "d232f4952762976b465084db11eb491f99930dbb21965f6dc180071431770c86",
       "export": "assets/screenshots/localized/en-AU/03-library.png",
-      "export_sha256": "0aff36ddc7306aaf85c0a18394274d12d4cffd306af1d10608758324d0c66d7e",
+      "export_sha256": "8a64868a7d355c8a3c705d12b5c4819f5c7b5b7a7c75a8755f7507823c2904c3",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Search plants, species or locations\"",
+      "caption_lines": [
+        "\"Search plants, species or locations\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          675,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
+      "caption_resource_sha256": "350efcb29ebd91bb1a5d10ed5de3f6e0b65a21f59fdf98681fb027c150fe593a",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-AU",
@@ -402,13 +896,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-AU/04-calendar.png",
       "capture_sha256": "a0c07f5f37e043d49e854c592b77b763ddc4c18d42d2334e2c46dde2c1f44270",
       "export": "assets/screenshots/localized/en-AU/04-calendar.png",
-      "export_sha256": "6618fe3c7ebc4c0f00ccb318e22ec77bca0dcf8ffad9b2222213389668612d69",
+      "export_sha256": "e19b407ba22006b4c517de5ffd158e8a527e66610d7a8875f5e2551085219ac8",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Care check reminders\"",
+      "caption_lines": [
+        "\"Care check reminders\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          479,
+          384
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
+      "caption_resource_sha256": "350efcb29ebd91bb1a5d10ed5de3f6e0b65a21f59fdf98681fb027c150fe593a",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-AU",
@@ -422,13 +942,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-AU/05-growth.png",
       "capture_sha256": "9c39c20a29140818f17294143eb63795d2e326d4e815ca35f0544b46b84f7640",
       "export": "assets/screenshots/localized/en-AU/05-growth.png",
-      "export_sha256": "439920363a5f0581cdc0d8f1acca981c0969a1f1666bc9eadb92c49c5da05164",
+      "export_sha256": "0814c1be2e5d1875c713fd483bb24836947a84a7301521dcd38724c3b244ca54",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Photos, observations and small signs of growth.\"",
+      "caption_lines": [
+        "\"Photos, observations and small signs of growth.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          890,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
+      "caption_resource_sha256": "350efcb29ebd91bb1a5d10ed5de3f6e0b65a21f59fdf98681fb027c150fe593a",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-AU",
@@ -442,13 +988,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-AU/06-voice.png",
       "capture_sha256": "bfdcbd349e75d031431eca28b60815c100ff3eb0f34d330f9f94c6e73e82a42e",
       "export": "assets/screenshots/localized/en-AU/06-voice.png",
-      "export_sha256": "d7f004387a969c905cf229fd759029344fac950e35cae1d2394b4bf975e4d0df",
+      "export_sha256": "995403d6094b7b73c280ba18adf661b01ff2ffb54c03a457009a70b2ee1971b2",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Review or type a command\"",
+      "caption_lines": [
+        "\"Review or type a command\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          564,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
+      "caption_resource_sha256": "350efcb29ebd91bb1a5d10ed5de3f6e0b65a21f59fdf98681fb027c150fe593a",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-AU",
@@ -462,13 +1034,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-AU/07-offline.png",
       "capture_sha256": "e0fec0c40807897cc847f79660df0e4ae1695564a62da667bfa9ae1495cd1c87",
       "export": "assets/screenshots/localized/en-AU/07-offline.png",
-      "export_sha256": "7d7d30c3f3a5123464abf36bd4421a0260ef3f6ba3b5afc6645ed5669f7a9e6d",
+      "export_sha256": "3cb8989a5bf462343e2ea351ab5377b83b14290b002895724ce24b1e55ca5a05",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Saved on this device\"",
+      "caption_lines": [
+        "\"Saved on this device\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          455,
+          384
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
+      "caption_resource_sha256": "350efcb29ebd91bb1a5d10ed5de3f6e0b65a21f59fdf98681fb027c150fe593a",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-AU",
@@ -482,13 +1080,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-AU/08-insights.png",
       "capture_sha256": "4a55b54e558253a4dccd36d1083a2797fd015e5351717aba0387e22f1a3ec934",
       "export": "assets/screenshots/localized/en-AU/08-insights.png",
-      "export_sha256": "bd26c03b48e26e35e1440c36aaf5b00cd26c57a3032894b01f988b7ed55aa881",
+      "export_sha256": "a2df331e4821df0ddc20cb45b0677d069c42857e04049ded9c66be4eb8c76da0",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Your records at a glance. Activity does not prove plant health.\"",
+      "caption_lines": [
+        "\"Your records at a glance. Activity does not prove plant health.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          1106,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-en-rAU/strings.xml",
+      "caption_resource_sha256": "350efcb29ebd91bb1a5d10ed5de3f6e0b65a21f59fdf98681fb027c150fe593a",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-IN",
@@ -502,13 +1126,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-GB/01-hero.png",
       "capture_sha256": "d2e9ef662a6f39c2a1025c93c91b64c4a860100e4928f629c37d3811686dd538",
       "export": "assets/screenshots/localized/en-IN/01-hero.png",
-      "export_sha256": "0a01b158bc5cdacb4482e8c2979b0de1e2f7e7e12e76b4ff558750808c58afd7",
+      "export_sha256": "cb903bb38e60207477f11d1a320e232e5108279f460c2f5ab0930a5b5f1ab950",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Every plant deserves a little attention.",
+      "caption_lines": [
+        "Every plant deserves a little attention."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          703,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-IN",
@@ -522,13 +1172,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-GB/02-watering.png",
       "capture_sha256": "49024165fc272b7df1a5d3b3b10c9b5bdc49a6d6a3425e799c3ba2f99467ce68",
       "export": "assets/screenshots/localized/en-IN/02-watering.png",
-      "export_sha256": "5b57ecaa70810a388ec4b110cc8b846a026b1045bdf0143be35ee86ee7bbf538",
+      "export_sha256": "1115662c6c0354152243adb340a767a7cb3748ee3ed6c8a2fb9542cf2fa9f017",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "A reminder to check, not an instruction to water. Check soil moisture, drainage and your plant’s condition first.",
+      "caption_lines": [
+        "A reminder to check, not an instruction to water. Check soil moisture, drainage and your plant’s condition first."
+      ],
+      "caption_line_bounds": [
+        [
+          103,
+          357,
+          1866,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-IN",
@@ -542,13 +1218,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-GB/03-library.png",
       "capture_sha256": "d232f4952762976b465084db11eb491f99930dbb21965f6dc180071431770c86",
       "export": "assets/screenshots/localized/en-IN/03-library.png",
-      "export_sha256": "0aff36ddc7306aaf85c0a18394274d12d4cffd306af1d10608758324d0c66d7e",
+      "export_sha256": "ffe2100a6cfe8efc85e3b8f048378180ef5f0060c720eb655efdceffe87e3282",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Search plants, species or locations",
+      "caption_lines": [
+        "Search plants, species or locations"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          645,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-IN",
@@ -562,13 +1264,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-GB/04-calendar.png",
       "capture_sha256": "a0c07f5f37e043d49e854c592b77b763ddc4c18d42d2334e2c46dde2c1f44270",
       "export": "assets/screenshots/localized/en-IN/04-calendar.png",
-      "export_sha256": "6618fe3c7ebc4c0f00ccb318e22ec77bca0dcf8ffad9b2222213389668612d69",
+      "export_sha256": "e2d925a12bb5279ff465fcf23648235dd8730d97685bf235458fa46b4392ddee",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Care check reminders",
+      "caption_lines": [
+        "Care check reminders"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          449,
+          384
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-IN",
@@ -582,13 +1310,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-GB/05-growth.png",
       "capture_sha256": "9c39c20a29140818f17294143eb63795d2e326d4e815ca35f0544b46b84f7640",
       "export": "assets/screenshots/localized/en-IN/05-growth.png",
-      "export_sha256": "439920363a5f0581cdc0d8f1acca981c0969a1f1666bc9eadb92c49c5da05164",
+      "export_sha256": "2a05655e6f8f2806c756c75fe42a18c002e1509741c28d35e8d9f7a94ba13e58",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Photos, observations and small signs of growth.",
+      "caption_lines": [
+        "Photos, observations and small signs of growth."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          860,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-IN",
@@ -602,13 +1356,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-GB/06-voice.png",
       "capture_sha256": "bfdcbd349e75d031431eca28b60815c100ff3eb0f34d330f9f94c6e73e82a42e",
       "export": "assets/screenshots/localized/en-IN/06-voice.png",
-      "export_sha256": "d7f004387a969c905cf229fd759029344fac950e35cae1d2394b4bf975e4d0df",
+      "export_sha256": "66f5888a863cfd96945f086797b10030c77976bda54b1ee6d583a0845909c8d2",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Review or type a command",
+      "caption_lines": [
+        "Review or type a command"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          534,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-IN",
@@ -622,13 +1402,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-GB/07-offline.png",
       "capture_sha256": "e0fec0c40807897cc847f79660df0e4ae1695564a62da667bfa9ae1495cd1c87",
       "export": "assets/screenshots/localized/en-IN/07-offline.png",
-      "export_sha256": "7d7d30c3f3a5123464abf36bd4421a0260ef3f6ba3b5afc6645ed5669f7a9e6d",
+      "export_sha256": "5ca092004355d71c439cb54c18b514e93622ec542ddb18112c7bd17bc9a99a77",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Saved on this device",
+      "caption_lines": [
+        "Saved on this device"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          425,
+          384
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "en-IN",
@@ -642,13 +1448,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/en-GB/08-insights.png",
       "capture_sha256": "4a55b54e558253a4dccd36d1083a2797fd015e5351717aba0387e22f1a3ec934",
       "export": "assets/screenshots/localized/en-IN/08-insights.png",
-      "export_sha256": "bd26c03b48e26e35e1440c36aaf5b00cd26c57a3032894b01f988b7ed55aa881",
+      "export_sha256": "1d53fe3c1c3c63f6dd5a8310629baf599f8a3fd95e7929fe9ea744244f736392",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Your records at a glance. Activity does not prove plant health.",
+      "caption_lines": [
+        "Your records at a glance. Activity does not prove plant health."
+      ],
+      "caption_line_bounds": [
+        [
+          103,
+          357,
+          1076,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values/strings.xml",
+      "caption_resource_sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "es-ES",
@@ -662,13 +1494,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/es-ES/01-hero.png",
       "capture_sha256": "d7496013268486a4e6ba28b7ac4485fa79d563e4007f2be6b49c510bcfa41d58",
       "export": "assets/screenshots/localized/es-ES/01-hero.png",
-      "export_sha256": "11bc0c219f74f2080cb856f34f84b4967c6cdcbac38bf96829eb24d567487383",
+      "export_sha256": "8489cdca676283907f99348c392c501d2c38d0d893eca63e7778e01b29c945b6",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Cada planta merece un poco de atención.\"",
+      "caption_lines": [
+        "\"Cada planta merece un poco de atención.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          782,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
+      "caption_resource_sha256": "c6df93caa7cba9d704ba50eb12f4fcf5fd4ca354b4d178b177ef94cfaa51c550",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "es-ES",
@@ -682,13 +1540,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/es-ES/02-watering.png",
       "capture_sha256": "1ac55206d92f9a7437c59e0b93eb53c8bed31a210c0652309c41a5effbba18eb",
       "export": "assets/screenshots/localized/es-ES/02-watering.png",
-      "export_sha256": "40f5481d1f180a66d2deb8f6c96c6830447e9d4d550d35b56280f091338c2389",
+      "export_sha256": "312b946328662ac93b7839f49b2d7656ef0ca95e123ccef91df09a78904513fc",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Es un recordatorio para revisar, no una orden de regar. Comprueba primero la humedad del sustrato, el drenaje y el estado de la planta.\"",
+      "caption_lines": [
+        "\"Es un recordatorio para revisar, no una orden de regar. Comprueba primero la humedad del sustrato, el drenaje y el estado de la planta.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          2289,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
+      "caption_resource_sha256": "c6df93caa7cba9d704ba50eb12f4fcf5fd4ca354b4d178b177ef94cfaa51c550",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "es-ES",
@@ -702,13 +1586,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/es-ES/03-library.png",
       "capture_sha256": "8e21d58c2519e87dff30c666a26a349778b4bc429f21eec31ebafc183e56a36f",
       "export": "assets/screenshots/localized/es-ES/03-library.png",
-      "export_sha256": "66eb2a51cb0b95b5118834cfae9de07e81975e83454700a525ed04c3d0c3a95e",
+      "export_sha256": "b5fcb228be861bf7b42987a63a20ecd13436527bcda96eae4aa2427223f93618",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Buscar plantas, especies o ubicaciones\"",
+      "caption_lines": [
+        "\"Buscar plantas, especies o ubicaciones\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          742,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
+      "caption_resource_sha256": "c6df93caa7cba9d704ba50eb12f4fcf5fd4ca354b4d178b177ef94cfaa51c550",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "es-ES",
@@ -722,13 +1632,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/es-ES/04-calendar.png",
       "capture_sha256": "49ea2d68b56e3a9bea939c70a5a71e7a705a5581e5eaa22608ca5292999f66c6",
       "export": "assets/screenshots/localized/es-ES/04-calendar.png",
-      "export_sha256": "fc6d66780f78389898d9b648c3a8178ec74b140019101790df19c1f7ef170508",
+      "export_sha256": "fd10b8176e105fb658662412d3a575398a88561fdb32fb3558d15299502e6496",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Recordatorios para revisar las plantas\"",
+      "caption_lines": [
+        "\"Recordatorios para revisar las plantas\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          735,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
+      "caption_resource_sha256": "c6df93caa7cba9d704ba50eb12f4fcf5fd4ca354b4d178b177ef94cfaa51c550",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "es-ES",
@@ -742,13 +1678,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/es-ES/05-growth.png",
       "capture_sha256": "c116af1b06482933fa37bede0a684b5c6f6ded53d485d9a36c074effe85082be",
       "export": "assets/screenshots/localized/es-ES/05-growth.png",
-      "export_sha256": "c353df0fcc7e2d3029e1b16e4b412e8c1394aa9589192eec911c66f088836a95",
+      "export_sha256": "175c8e8c81d169924f6af10e75dfa6d66f438c3e1e588c57f0f31847a3ff6670",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Fotos, observaciones y pequeñas señales de crecimiento.\"",
+      "caption_lines": [
+        "\"Fotos, observaciones y pequeñas señales de crecimiento.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          1028,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
+      "caption_resource_sha256": "c6df93caa7cba9d704ba50eb12f4fcf5fd4ca354b4d178b177ef94cfaa51c550",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "es-ES",
@@ -762,13 +1724,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/es-ES/06-voice.png",
       "capture_sha256": "4dbbc08496e3ec57e6476ef6b7fb15c39a52854aeca88c5b9baa3ff895aad08d",
       "export": "assets/screenshots/localized/es-ES/06-voice.png",
-      "export_sha256": "24442897a68655903ca22b89b4259ac2611179cdfe67af27ea434aa26e77d081",
+      "export_sha256": "4182b72c856311fb2369a6262239378b8cca3866683129d9bd1fe6633390b0fa",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Revisa o escribe una orden\"",
+      "caption_lines": [
+        "\"Revisa o escribe una orden\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          559,
+          384
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
+      "caption_resource_sha256": "c6df93caa7cba9d704ba50eb12f4fcf5fd4ca354b4d178b177ef94cfaa51c550",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "es-ES",
@@ -782,13 +1770,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/es-ES/07-offline.png",
       "capture_sha256": "fdb64562050c2f6f6dd6d3b1daaa33a77d9028343548bfd24028c1901685c831",
       "export": "assets/screenshots/localized/es-ES/07-offline.png",
-      "export_sha256": "91f5db66f2a775fff334f58313d1fa8f0d22b65e785dcecf63ca63bbc40baa6e",
+      "export_sha256": "7ed5523f7118d5b9eea73bec2905c4180a678f61b85954c28e9917e48f8c3ea6",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Guardado en este dispositivo\"",
+      "caption_lines": [
+        "\"Guardado en este dispositivo\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          595,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
+      "caption_resource_sha256": "c6df93caa7cba9d704ba50eb12f4fcf5fd4ca354b4d178b177ef94cfaa51c550",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "es-ES",
@@ -802,13 +1816,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/es-ES/08-insights.png",
       "capture_sha256": "48fb38d52e343ddaa6926e7e3400b74f357fe4dd2f1c665499549741b6680b7e",
       "export": "assets/screenshots/localized/es-ES/08-insights.png",
-      "export_sha256": "d9d5c0b01fba911ffaf375e3e385df123c7545287dea7ab1f5fb2305f9938f44",
+      "export_sha256": "906a1ed9f6a69ca782fefa0f2af38c3d91a2f292f78ef72cbd968e2e8637108e",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Tus registros de un vistazo. La actividad no demuestra que las plantas estén sanas.\"",
+      "caption_lines": [
+        "\"Tus registros de un vistazo. La actividad no demuestra que las plantas estén sanas.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          1444,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-es-rES/strings.xml",
+      "caption_resource_sha256": "c6df93caa7cba9d704ba50eb12f4fcf5fd4ca354b4d178b177ef94cfaa51c550",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "es-MX",
@@ -822,13 +1862,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/es-419/01-hero.png",
       "capture_sha256": "c947c22f800b971d221e01c0b1b1b688aad77ce1c04741d79b5b067b7bec7564",
       "export": "assets/screenshots/localized/es-MX/01-hero.png",
-      "export_sha256": "6b20892046ee4026a4194a417eb07c533fcf35d5ab6778f0664aab40ef31da48",
+      "export_sha256": "20b1aff062ab80ab335ca1d02f89bb13cea312b36235e38243e202c14274df43",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Cada planta merece un poco de atención.\"",
+      "caption_lines": [
+        "\"Cada planta merece un poco de atención.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          782,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
+      "caption_resource_sha256": "b80da49305e0c226cd0e0312d30b7666520eb89711da4d9e19a13db21fd51715",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "es-MX",
@@ -842,13 +1908,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/es-419/02-watering.png",
       "capture_sha256": "430f531d67f8f2ab171d61b6c3b2196810f6da91ffc490c2a78dfa76cb639927",
       "export": "assets/screenshots/localized/es-MX/02-watering.png",
-      "export_sha256": "0a9343e376420f6e9714b3f09f19fb9dff18e6fec0e38a9b9f90904ded6bcc0c",
+      "export_sha256": "861a40f89e8907e9c59aa18387af12c299f24a86ce93d9d260d1d72a58d6f032",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Es un recordatorio para revisar, no una orden de regar. Comprueba primero la humedad del sustrato, el drenaje y el estado de la planta.\"",
+      "caption_lines": [
+        "\"Es un recordatorio para revisar, no una orden de regar. Comprueba primero la humedad del sustrato, el drenaje y el estado de la planta.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          2289,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
+      "caption_resource_sha256": "b80da49305e0c226cd0e0312d30b7666520eb89711da4d9e19a13db21fd51715",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "es-MX",
@@ -862,13 +1954,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/es-419/03-library.png",
       "capture_sha256": "fd7f7c111c4706949824591ec7f248b3e4972e8f29f8f4e8892b64018a36ff9d",
       "export": "assets/screenshots/localized/es-MX/03-library.png",
-      "export_sha256": "52eac5e2f594d7a4e62cd6a04edf403beb9bb1fbd7138b5cfc6e111181941475",
+      "export_sha256": "d343d34d8c318326e0d6d068f496bacd830011a7ca7182339b9ed8f9f6071780",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Buscar plantas, especies o ubicaciones\"",
+      "caption_lines": [
+        "\"Buscar plantas, especies o ubicaciones\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          742,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
+      "caption_resource_sha256": "b80da49305e0c226cd0e0312d30b7666520eb89711da4d9e19a13db21fd51715",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "es-MX",
@@ -882,13 +2000,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/es-419/04-calendar.png",
       "capture_sha256": "9b854c22735024c7685a4cfd810aeb79ccb90f816818011baaf320a3608b7ee1",
       "export": "assets/screenshots/localized/es-MX/04-calendar.png",
-      "export_sha256": "390c8854a7b5bd045d5496f50759528e3af3d5e40fb8569231cf08b5d14c274a",
+      "export_sha256": "7250e04d81d9248674466b515405d96614b4234490f43bf600ebdfa66422973b",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Recordatorios para revisar las plantas\"",
+      "caption_lines": [
+        "\"Recordatorios para revisar las plantas\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          735,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
+      "caption_resource_sha256": "b80da49305e0c226cd0e0312d30b7666520eb89711da4d9e19a13db21fd51715",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "es-MX",
@@ -902,13 +2046,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/es-419/05-growth.png",
       "capture_sha256": "c5a0d4875b3e8feff96942b066613d2bcbfe731d03e0aea19f8832a49fd68a59",
       "export": "assets/screenshots/localized/es-MX/05-growth.png",
-      "export_sha256": "2405255babf34166e6a307e4f7b91267fe33b10af10b0f75f8bee827168439ed",
+      "export_sha256": "896370cc73e47261e3b4d79fbc0660077113300182b8fd84000b17ec99ce6cdf",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Fotos, observaciones y pequeñas señales de crecimiento.\"",
+      "caption_lines": [
+        "\"Fotos, observaciones y pequeñas señales de crecimiento.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          1028,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
+      "caption_resource_sha256": "b80da49305e0c226cd0e0312d30b7666520eb89711da4d9e19a13db21fd51715",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "es-MX",
@@ -922,13 +2092,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/es-419/06-voice.png",
       "capture_sha256": "7d86ea0082bbe4a6461db78170ac9aa5232e7551b6e113c2f7bce2937368828c",
       "export": "assets/screenshots/localized/es-MX/06-voice.png",
-      "export_sha256": "2795b8ad5804b64981d267737b3db629f967f4057e82c99de89ad9aac8a774fb",
+      "export_sha256": "b2ca7f5c33a3302550b4df8ea1d15a5653c8d9b492791425e8de645e09373790",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Revisa o escribe una orden\"",
+      "caption_lines": [
+        "\"Revisa o escribe una orden\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          559,
+          384
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
+      "caption_resource_sha256": "b80da49305e0c226cd0e0312d30b7666520eb89711da4d9e19a13db21fd51715",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "es-MX",
@@ -942,13 +2138,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/es-419/07-offline.png",
       "capture_sha256": "a562a49eb8df9a5df3858630f4eadfea37c8c25f81dfa0d23f00b4f551b68875",
       "export": "assets/screenshots/localized/es-MX/07-offline.png",
-      "export_sha256": "ac5a1b7b645b7935fe7aaa4c20de87ac4f2bc7b022169ae94b9063f9d2dbdd00",
+      "export_sha256": "5a117c9671fa5a80041590b1f241c43574a5143f5adae635fb6ee36fa95f51d8",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Guardado en este dispositivo\"",
+      "caption_lines": [
+        "\"Guardado en este dispositivo\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          595,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
+      "caption_resource_sha256": "b80da49305e0c226cd0e0312d30b7666520eb89711da4d9e19a13db21fd51715",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "es-MX",
@@ -962,13 +2184,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/es-419/08-insights.png",
       "capture_sha256": "08c1c91cb281fd5d7d9d64f6b164d393a6f8401774fbd0584375ea0983bd83a5",
       "export": "assets/screenshots/localized/es-MX/08-insights.png",
-      "export_sha256": "56f1c02149c0e402b5e8335129a272b8552266364d348e584af0e6fbfa115d92",
+      "export_sha256": "dd3496e6722df7f5830da8c06a4ee57b8e9c42e53dec8556e3803ec52ca89201",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Tus registros de un vistazo. La actividad no demuestra que las plantas estén sanas.\"",
+      "caption_lines": [
+        "\"Tus registros de un vistazo. La actividad no demuestra que las plantas estén sanas.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          1444,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-b+es+419/strings.xml",
+      "caption_resource_sha256": "b80da49305e0c226cd0e0312d30b7666520eb89711da4d9e19a13db21fd51715",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "fr-FR",
@@ -982,13 +2230,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/fr-FR/01-hero.png",
       "capture_sha256": "92c028c5dd4ab3999c8995f094c9b14a679d9248c19932798f3984b9d11e3168",
       "export": "assets/screenshots/localized/fr-FR/01-hero.png",
-      "export_sha256": "1d9156fea2bc6710b1bf502abc3950c68a28aa497fa2129578acaad873219e88",
+      "export_sha256": "8773e8d44349d7bcd62f6d55b42ff53c0b724a1c4e2abe88b89ad8616d94a956",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Chaque plante mérite un peu d’attention.\"",
+      "caption_lines": [
+        "\"Chaque plante mérite un peu d’attention.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          785,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
+      "caption_resource_sha256": "4c7ee61dd3c6bd3e8ffb453cbe4bf6ca3d699e50ce9e148e6aa01b6271c1ab37",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "fr-FR",
@@ -1002,13 +2276,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/fr-FR/02-watering.png",
       "capture_sha256": "53b5897e5a04c24010a576496b614b4e301057e8294b8ab1e44215dddf914907",
       "export": "assets/screenshots/localized/fr-FR/02-watering.png",
-      "export_sha256": "1d7ada42878b1d6b4f3b5fdd2e175f5c83b7d889d26cd6bed9438fa74c683df9",
+      "export_sha256": "dc6e96918e31c4b00df39cc9dbd5640b43d6336b7b10136e98f780e520409ea7",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Un rappel pour vérifier, pas une consigne d’arrosage. Vérifiez d’abord l’humidité du terreau, le drainage et l’état de la plante.\"",
+      "caption_lines": [
+        "\"Un rappel pour vérifier, pas une consigne d’arrosage. Vérifiez d’abord l’humidité du terreau, le drainage et l’état de la plante.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          2108,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
+      "caption_resource_sha256": "4c7ee61dd3c6bd3e8ffb453cbe4bf6ca3d699e50ce9e148e6aa01b6271c1ab37",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "fr-FR",
@@ -1022,13 +2322,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/fr-FR/03-library.png",
       "capture_sha256": "35aa956c31f7f6cf8673b7108fddff21655f6a06db2ed0ffa6a11de593f47721",
       "export": "assets/screenshots/localized/fr-FR/03-library.png",
-      "export_sha256": "16c180f99b1a8a3ea1a0b9842beab0102817e52b5e3b3eb97dc8bac86e53496b",
+      "export_sha256": "bee6e9b6dede9fb02b1b3d123489ea78950fc60a002a8fe835bc8a97d8ba6221",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Rechercher des plantes, espèces ou emplacements\"",
+      "caption_lines": [
+        "\"Rechercher des plantes, espèces ou emplacements\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          927,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
+      "caption_resource_sha256": "4c7ee61dd3c6bd3e8ffb453cbe4bf6ca3d699e50ce9e148e6aa01b6271c1ab37",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "fr-FR",
@@ -1042,13 +2368,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/fr-FR/04-calendar.png",
       "capture_sha256": "94bd83577962b6acf0fa1c53d817a724049f8721a2f78c294754c43330c14fa8",
       "export": "assets/screenshots/localized/fr-FR/04-calendar.png",
-      "export_sha256": "3de647a16f52d5104b8b356b1917b584dbf22902fde3b7c3e5db9fb3166aaa71",
+      "export_sha256": "925b191c90ed86218c142b89e1ae00ea1c5484398039458e53b9b6b727260e26",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Rappels de vérification des plantes\"",
+      "caption_lines": [
+        "\"Rappels de vérification des plantes\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          686,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
+      "caption_resource_sha256": "4c7ee61dd3c6bd3e8ffb453cbe4bf6ca3d699e50ce9e148e6aa01b6271c1ab37",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "fr-FR",
@@ -1062,13 +2414,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/fr-FR/05-growth.png",
       "capture_sha256": "8125315568842e79585573ba4411c7d72b8dcf4a96628af8b4f085fac474ec6c",
       "export": "assets/screenshots/localized/fr-FR/05-growth.png",
-      "export_sha256": "84ac2025387c9ca82a03f03c869c105e74b6cc58c1587cc269596d0628457d0f",
+      "export_sha256": "6c41b33109a61fdbc0573b3a1e798e6632d8f09f96baadeb11c7587244184cd8",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Photos, observations et petits signes de croissance.\"",
+      "caption_lines": [
+        "\"Photos, observations et petits signes de croissance.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          939,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
+      "caption_resource_sha256": "4c7ee61dd3c6bd3e8ffb453cbe4bf6ca3d699e50ce9e148e6aa01b6271c1ab37",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "fr-FR",
@@ -1082,13 +2460,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/fr-FR/06-voice.png",
       "capture_sha256": "1663f3b3b6ffcc7f49b1779c814f64f4cdc11e97f8aa2e3fa4c15e0e983ffbf4",
       "export": "assets/screenshots/localized/fr-FR/06-voice.png",
-      "export_sha256": "687336d328300d7b2eb20ee1b7024060a1e6d46a24ebdd603cc4d052b40eb9d5",
+      "export_sha256": "54244cf2a7f3221bb2c82e8d99c2e8007abc9d3f4e5710896dc35319b4dbfe8c",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Vérifiez ou saisissez une commande\"",
+      "caption_lines": [
+        "\"Vérifiez ou saisissez une commande\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          705,
+          384
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
+      "caption_resource_sha256": "4c7ee61dd3c6bd3e8ffb453cbe4bf6ca3d699e50ce9e148e6aa01b6271c1ab37",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "fr-FR",
@@ -1102,13 +2506,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/fr-FR/07-offline.png",
       "capture_sha256": "71b0a715537cfef01aa5b31fcd72893eee83f5989f98d5bf52ffe52942a35479",
       "export": "assets/screenshots/localized/fr-FR/07-offline.png",
-      "export_sha256": "d2272352423c3783044d5a49baafbbaf17eb3fcea101b2153c588e2467dfb448",
+      "export_sha256": "61f79c189370795fb189646b53bcf13177963eef648ed2a6c6a44f211a3fc936",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Enregistré sur cet appareil\"",
+      "caption_lines": [
+        "\"Enregistré sur cet appareil\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          555,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
+      "caption_resource_sha256": "4c7ee61dd3c6bd3e8ffb453cbe4bf6ca3d699e50ce9e148e6aa01b6271c1ab37",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "fr-FR",
@@ -1122,13 +2552,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/fr-FR/08-insights.png",
       "capture_sha256": "4b4f26e7ef2e1d34b7130a3e8dd594e35128ec0682c5eaa37c7b3d9d6cb84ac8",
       "export": "assets/screenshots/localized/fr-FR/08-insights.png",
-      "export_sha256": "4f48a037938c9018f1545089f7d80554cea7dd6f150427791aeb15938f91c09a",
+      "export_sha256": "dede451d142baaee10e1fec59975a38815e514285b2eb02b5f2d308708f67c61",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Vos données en un coup d’œil. L’activité ne prouve pas la bonne santé des plantes.\"",
+      "caption_lines": [
+        "\"Vos données en un coup d’œil. L’activité ne prouve pas la bonne santé des plantes.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          1435,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-fr-rFR/strings.xml",
+      "caption_resource_sha256": "4c7ee61dd3c6bd3e8ffb453cbe4bf6ca3d699e50ce9e148e6aa01b6271c1ab37",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "de-DE",
@@ -1142,13 +2598,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/de-DE/01-hero.png",
       "capture_sha256": "92ae0329fab6906d58bc909c1069ced4c7e1ce7223298fd79fb9069621f9aad6",
       "export": "assets/screenshots/localized/de-DE/01-hero.png",
-      "export_sha256": "8d7641ae070311bb933bc4140e63a983d1b097afa330224fc2f526f987415d41",
+      "export_sha256": "aa88906479618d1218c31c1e6a91cb3a8e20def131b5a21c0f463357b7e3b937",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Jede Pflanze verdient ein wenig Aufmerksamkeit.\"",
+      "caption_lines": [
+        "\"Jede Pflanze verdient ein wenig Aufmerksamkeit.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          919,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
+      "caption_resource_sha256": "6d94f8ec0ce2c8ac0044a06194a398167b3c16db85b0ff7eadbafa1fb9313ba8",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "de-DE",
@@ -1162,13 +2644,46 @@
       "capture": "evidence/store-captures/run-20261101-170304/de-DE/02-watering.png",
       "capture_sha256": "d9ec0a679fb3928499996c47426cada3de9546759dc179101fbd44fa5ea8c5d2",
       "export": "assets/screenshots/localized/de-DE/02-watering.png",
-      "export_sha256": "829b627aa5d6e892419120346d53bbecb541065a4e4d512ff3d1aa79e4f0ed01",
+      "export_sha256": "a42f38472a175f3e2cb25d51549b1ead3ebe2545af51412b1ae724b0e1ead44d",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Eine Erinnerung zum Prüfen, keine Aufforderung zum Gießen. Prüfe zuerst die Bodenfeuchte, den Wasserabfluss und den Zustand deiner Pflanze.\"",
+      "caption_lines": [
+        "\"Eine Erinnerung zum Prüfen, keine Aufforderung zum Gießen. Prüfe zuerst die Bodenfeuchte, den Wasserabfluss und den Zustand deiner",
+        "Pflanze.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          2313,
+          392
+        ],
+        [
+          104,
+          403,
+          245,
+          430
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
+      "caption_resource_sha256": "6d94f8ec0ce2c8ac0044a06194a398167b3c16db85b0ff7eadbafa1fb9313ba8",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "de-DE",
@@ -1182,13 +2697,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/de-DE/03-library.png",
       "capture_sha256": "0055ab6483187f60b8fad004b270136e9d619bc3cad134072a6fc1b4af32f154",
       "export": "assets/screenshots/localized/de-DE/03-library.png",
-      "export_sha256": "6d13d229c54e6122dafebff29beb1f32474c104fad692402564aa5d26cecfbcf",
+      "export_sha256": "d3749f8aa3702a39f18cf027993b04186ec72542219bc743e4bc416bcf9fa785",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Pflanzen, Arten oder Standorte suchen\"",
+      "caption_lines": [
+        "\"Pflanzen, Arten oder Standorte suchen\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          745,
+          390
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
+      "caption_resource_sha256": "6d94f8ec0ce2c8ac0044a06194a398167b3c16db85b0ff7eadbafa1fb9313ba8",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "de-DE",
@@ -1202,13 +2743,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/de-DE/04-calendar.png",
       "capture_sha256": "5cda1ef69416f6a66e54d1e1e7b30176edfd8a89604563e849de17c3bf3941dc",
       "export": "assets/screenshots/localized/de-DE/04-calendar.png",
-      "export_sha256": "8d11ac480605e508032e83fa020a3fffda567bf9d6f490e30ab8bc098ba2d27e",
+      "export_sha256": "609c513410c8e2ee0e16537fc25a95fdef8feb13623b02d714b36d6047409f16",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Erinnerungen an Pflegekontrollen\"",
+      "caption_lines": [
+        "\"Erinnerungen an Pflegekontrollen\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          672,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
+      "caption_resource_sha256": "6d94f8ec0ce2c8ac0044a06194a398167b3c16db85b0ff7eadbafa1fb9313ba8",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "de-DE",
@@ -1222,13 +2789,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/de-DE/05-growth.png",
       "capture_sha256": "110556bc43c5fe08eb6877e5ca4c514eaf61316f36a6f51642741cecc2ffd6ec",
       "export": "assets/screenshots/localized/de-DE/05-growth.png",
-      "export_sha256": "ae89799ab4ebb42642f83792ca7134c04730d37c8aab689f098eb4afd8f1e0b5",
+      "export_sha256": "7a5ee29549e0c6ab9c660051d8f35e59dd814a83af63b7c7f8d8a6aaabc385d3",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Fotos, Beobachtungen und kleine Zeichen des Wachstums.\"",
+      "caption_lines": [
+        "\"Fotos, Beobachtungen und kleine Zeichen des Wachstums.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          1065,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
+      "caption_resource_sha256": "6d94f8ec0ce2c8ac0044a06194a398167b3c16db85b0ff7eadbafa1fb9313ba8",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "de-DE",
@@ -1242,13 +2835,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/de-DE/06-voice.png",
       "capture_sha256": "6f0b96575fd06f6845832cdea80dae8fb6049b51fc2ca1a66e075ffad1cc48df",
       "export": "assets/screenshots/localized/de-DE/06-voice.png",
-      "export_sha256": "006ff454695d84cd94cbb71025e1cfa7e7918a0cc2136984c339ada080f0f56e",
+      "export_sha256": "99b60545070707453114cff84dec0cb04e034fa85b7ac4e8d183209475374a5d",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Befehl prüfen oder eingeben\"",
+      "caption_lines": [
+        "\"Befehl prüfen oder eingeben\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          583,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
+      "caption_resource_sha256": "6d94f8ec0ce2c8ac0044a06194a398167b3c16db85b0ff7eadbafa1fb9313ba8",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "de-DE",
@@ -1262,13 +2881,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/de-DE/07-offline.png",
       "capture_sha256": "ad4413b6dbd59e9b7e9364fc2f0c71c9b5132e6269210faf27e2b60285955e65",
       "export": "assets/screenshots/localized/de-DE/07-offline.png",
-      "export_sha256": "b3e19807cea7277ce9349ba7cc6dbb715b59137e11372e5f88bbcbefe35f44b5",
+      "export_sha256": "b773217c281a4340799ccd662787841df89ca4d6dbd09d381ce4239f91f23151",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Auf diesem Gerät gespeichert\"",
+      "caption_lines": [
+        "\"Auf diesem Gerät gespeichert\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          601,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
+      "caption_resource_sha256": "6d94f8ec0ce2c8ac0044a06194a398167b3c16db85b0ff7eadbafa1fb9313ba8",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "de-DE",
@@ -1282,13 +2927,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/de-DE/08-insights.png",
       "capture_sha256": "4a3b36b73616b613b15845728b7f9cd6b3050fb21e19c2f1834a778df0e63014",
       "export": "assets/screenshots/localized/de-DE/08-insights.png",
-      "export_sha256": "add35cc576a4bdb451d3a652508e86b9b1039fed25425341872140d967627a6f",
+      "export_sha256": "e2d0513723df5e567679e77314c550ec4dfdeea81f0143f629a1c89ef14abc4c",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"Deine Einträge auf einen Blick. Aktivität ist kein Beleg für Pflanzengesundheit.\"",
+      "caption_lines": [
+        "\"Deine Einträge auf einen Blick. Aktivität ist kein Beleg für Pflanzengesundheit.\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          1381,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-de-rDE/strings.xml",
+      "caption_resource_sha256": "6d94f8ec0ce2c8ac0044a06194a398167b3c16db85b0ff7eadbafa1fb9313ba8",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "it-IT",
@@ -1302,13 +2973,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/it-IT/01-hero.png",
       "capture_sha256": "16c3eb16f1d3d43bbaf252c874f20889d0ef4d98b80e1a7b327d097ef4f152cb",
       "export": "assets/screenshots/localized/it-IT/01-hero.png",
-      "export_sha256": "313702843400672e1bbe42cd9a5aa9eed778f322178aa812a5a00dd6354a4ca4",
+      "export_sha256": "ee4d71efa0d16a10cf5e20f527794e848b7ec66653407430be8af8dfef119915",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Ogni pianta merita un po’ di attenzione.",
+      "caption_lines": [
+        "Ogni pianta merita un po’ di attenzione."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          737,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
+      "caption_resource_sha256": "de18428087947555ad881a7743f2e3ba85b0d6dbe83ac81d93905d0f905e1dec",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "it-IT",
@@ -1322,13 +3019,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/it-IT/02-watering.png",
       "capture_sha256": "8bb437bf9847d7dee869c9fb4f57bf1375138a854b7a684ae6bd924454bb79cd",
       "export": "assets/screenshots/localized/it-IT/02-watering.png",
-      "export_sha256": "a48d121a0ed56a8f68601e7113003e8d94b53e6c170483dad36b7eaf798b6184",
+      "export_sha256": "0f8f3a1051d67e399eacd031867e252163a48bda8cac56f6c2ee88e1bf5bf11c",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Un promemoria per controllare, non un invito ad annaffiare. Verifica prima l’umidità del terreno, il drenaggio e le condizioni della pianta.",
+      "caption_lines": [
+        "Un promemoria per controllare, non un invito ad annaffiare. Verifica prima l’umidità del terreno, il drenaggio e le condizioni della pianta."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          2288,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
+      "caption_resource_sha256": "de18428087947555ad881a7743f2e3ba85b0d6dbe83ac81d93905d0f905e1dec",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "it-IT",
@@ -1342,13 +3065,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/it-IT/03-library.png",
       "capture_sha256": "c08679bea7c51cdab201fc6663a95c31ce78e6ed2e5c10dfb42eace29ab8f6c4",
       "export": "assets/screenshots/localized/it-IT/03-library.png",
-      "export_sha256": "f8b0aec7ffe803825f0b113c98547467bef6396faddbcbbf72a869333c1107ce",
+      "export_sha256": "ceed9f957135ba07a87fb1d15d57f69939a0972f7a65e6661a3bb17d5a6b4316",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Cerca piante, specie o posizioni",
+      "caption_lines": [
+        "Cerca piante, specie o posizioni"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          358,
+          601,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
+      "caption_resource_sha256": "de18428087947555ad881a7743f2e3ba85b0d6dbe83ac81d93905d0f905e1dec",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "it-IT",
@@ -1362,13 +3111,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/it-IT/04-calendar.png",
       "capture_sha256": "561734d3d9b0ff926b73946b356e56f568d129e7deff689dd7ecec81cfc11ab1",
       "export": "assets/screenshots/localized/it-IT/04-calendar.png",
-      "export_sha256": "eb65f7e15102e9b6dd049c55d6d689a3a391aec728d402fe35178b0cdb1b73db",
+      "export_sha256": "1ff8b06c6458722887bd1cab4a63a6abe670db018125fd901c9fa4b3fea673a9",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Promemoria per i controlli",
+      "caption_lines": [
+        "Promemoria per i controlli"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          528,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
+      "caption_resource_sha256": "de18428087947555ad881a7743f2e3ba85b0d6dbe83ac81d93905d0f905e1dec",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "it-IT",
@@ -1382,13 +3157,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/it-IT/05-growth.png",
       "capture_sha256": "1a73c418902ba3473710dc956c15a820667486abfed94cc8f5748659f4896bc0",
       "export": "assets/screenshots/localized/it-IT/05-growth.png",
-      "export_sha256": "b8add54c0d0b82d348c9ad2dd2b0c6f06d376ea88de7a78977bcc9083922c9dc",
+      "export_sha256": "3a73c1918351ba33de336d3747aac4e68dfc84f83706a764e9ad5b8862352053",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Foto, osservazioni e piccoli segni di crescita.",
+      "caption_lines": [
+        "Foto, osservazioni e piccoli segni di crescita."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          804,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
+      "caption_resource_sha256": "de18428087947555ad881a7743f2e3ba85b0d6dbe83ac81d93905d0f905e1dec",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "it-IT",
@@ -1402,13 +3203,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/it-IT/06-voice.png",
       "capture_sha256": "470ae0101e85e02c48d7fd90745634b512b2c2ee096810a432c964d86bc22772",
       "export": "assets/screenshots/localized/it-IT/06-voice.png",
-      "export_sha256": "aae2f73f371e574c2f39e0d11b1a049dc180b26a1835a40e7b4498a7817198f5",
+      "export_sha256": "e06feb5e6d094b2b95b70eb1b8529cc5f4e571298fc36287cdb9f3443b266b3b",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Controlla o digita un comando",
+      "caption_lines": [
+        "Controlla o digita un comando"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          585,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
+      "caption_resource_sha256": "de18428087947555ad881a7743f2e3ba85b0d6dbe83ac81d93905d0f905e1dec",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "it-IT",
@@ -1422,13 +3249,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/it-IT/07-offline.png",
       "capture_sha256": "09fcea97d6d72aa140e5b9fdfd85859fc112b6030c15cd8c5fb36d440fdba599",
       "export": "assets/screenshots/localized/it-IT/07-offline.png",
-      "export_sha256": "1b8b93677946889b39fad4708429c9bbb7717236802e4cc036bbca7d78830412",
+      "export_sha256": "de0a8c8c6fabcbfbb18315965b70203458d859098ce90b635add21aa00c0db07",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Salvato su questo dispositivo",
+      "caption_lines": [
+        "Salvato su questo dispositivo"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          563,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
+      "caption_resource_sha256": "de18428087947555ad881a7743f2e3ba85b0d6dbe83ac81d93905d0f905e1dec",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "it-IT",
@@ -1442,13 +3295,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/it-IT/08-insights.png",
       "capture_sha256": "36e486dfb4da973cdf33836cc4ef860b89658c3d6befecda5b27a5eac41d7a67",
       "export": "assets/screenshots/localized/it-IT/08-insights.png",
-      "export_sha256": "ff43b3115a047229387ae5f6c2aee022e4d2ac29a4847cf27ce4f906e6ddfe01",
+      "export_sha256": "88c50ecde1bba000d71614e0e23cb7496ae1c66925a3ed96cb05a201160999a6",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "I tuoi dati a colpo d’occhio. Le attività svolte non dimostrano la salute delle piante.",
+      "caption_lines": [
+        "I tuoi dati a colpo d’occhio. Le attività svolte non dimostrano la salute delle piante."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          1408,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-it-rIT/strings.xml",
+      "caption_resource_sha256": "de18428087947555ad881a7743f2e3ba85b0d6dbe83ac81d93905d0f905e1dec",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "ja-JP",
@@ -1462,13 +3341,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/ja-JP/01-hero.png",
       "capture_sha256": "9b6a2ea68fb3cec81511a3434e37925de3f25dfd780d3c1a3aeedf77bd95fb46",
       "export": "assets/screenshots/localized/ja-JP/01-hero.png",
-      "export_sha256": "c9d761fb962e62a61135425b020b1deaa3dadabcc909e13791ea0496607e68d0",
+      "export_sha256": "d38e1a22d157e0dace50d0af04e0d863cd08a193ad02ec1a5a88a3912c791acc",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"どんな植物にも、少しの気づかいを。\"",
+      "caption_lines": [
+        "\"どんな植物にも、少しの気づかいを。\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          350,
+          752,
+          386
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
+      "caption_resource_sha256": "005401ff5b004a2cf9da0136f0202a1a4e39f0351079a28568f13acb0dc5a538",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "ja-JP",
@@ -1482,13 +3387,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/ja-JP/02-watering.png",
       "capture_sha256": "7569c36f5d3ae260db1d8c17defac6eecb736572547e6a0d7e631b94074f881b",
       "export": "assets/screenshots/localized/ja-JP/02-watering.png",
-      "export_sha256": "3cc6d19a8fb34bd12a4245340cb1c6895139db93d5685528ec2777c9cd09d867",
+      "export_sha256": "f7cac9bfc9f120bd2df753586bdd353f09ffa3ac3795830feba0d3b7be268b56",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"水やりの指示ではなく、状態を確認するためのリマインダーです。まず土の湿り具合、水はけ、植物の状態を確認してください。\"",
+      "caption_lines": [
+        "\"水やりの指示ではなく、状態を確認するためのリマインダーです。まず土の湿り具合、水はけ、植物の状態を確認してください。\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          350,
+          2228,
+          385
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
+      "caption_resource_sha256": "005401ff5b004a2cf9da0136f0202a1a4e39f0351079a28568f13acb0dc5a538",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "ja-JP",
@@ -1502,13 +3433,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/ja-JP/03-library.png",
       "capture_sha256": "aa4fa187b67adeaea7fea80d33d5f41346a920cd3dadf8925e6c0a22aa02dfd1",
       "export": "assets/screenshots/localized/ja-JP/03-library.png",
-      "export_sha256": "ec82c8718f41543f107d57f794fd800200b97ba4a85e4a412a5947ba63fddef5",
+      "export_sha256": "df96f49242582718b4edd93055e04e015293e9adb108ef2ffb9d9969da771f75",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"植物、種類、置き場所を検索\"",
+      "caption_lines": [
+        "\"植物、種類、置き場所を検索\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          351,
+          608,
+          385
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
+      "caption_resource_sha256": "005401ff5b004a2cf9da0136f0202a1a4e39f0351079a28568f13acb0dc5a538",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "ja-JP",
@@ -1522,13 +3479,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/ja-JP/04-calendar.png",
       "capture_sha256": "8833ccf1a0ea0ec1d936ce53af4e14deba0e077ad45d34de99697832077d1d27",
       "export": "assets/screenshots/localized/ja-JP/04-calendar.png",
-      "export_sha256": "b4227f862e825832161de2f14061cc6f2de89db91166204e63132f505bc12145",
+      "export_sha256": "011a8c4cb1fad6b7eb5834ed490a7c41991fbe861d6ccf52cca7ca6c8de871e5",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"お手入れ確認のリマインダー\"",
+      "caption_lines": [
+        "\"お手入れ確認のリマインダー\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          350,
+          608,
+          385
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
+      "caption_resource_sha256": "005401ff5b004a2cf9da0136f0202a1a4e39f0351079a28568f13acb0dc5a538",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "ja-JP",
@@ -1542,13 +3525,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/ja-JP/05-growth.png",
       "capture_sha256": "5a73c37e23b2fec919d5c84ef1f9610fcaede1ed9b992fdf36ecf2ff439c7601",
       "export": "assets/screenshots/localized/ja-JP/05-growth.png",
-      "export_sha256": "f5ca73e128c3467116ac4dc153b4ea5f8aa9aa767458bda674e855f865ea22cd",
+      "export_sha256": "e245821b356ec4ac5afa193eab2e8e6e8c23d9650569afa33e795bf73ab2a18e",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"写真や観察、成長の小さな兆しを残しましょう。\"",
+      "caption_lines": [
+        "\"写真や観察、成長の小さな兆しを残しましょう。\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          351,
+          932,
+          386
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
+      "caption_resource_sha256": "005401ff5b004a2cf9da0136f0202a1a4e39f0351079a28568f13acb0dc5a538",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "ja-JP",
@@ -1562,13 +3571,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/ja-JP/06-voice.png",
       "capture_sha256": "4ac6797a97c0e53bc635ab641a975c004796e515fc437569fc86285dd113912e",
       "export": "assets/screenshots/localized/ja-JP/06-voice.png",
-      "export_sha256": "5085a61db4d994d7c812a0021b5faf1f277b04a9007d2b99fa7efc02bfb274fc",
+      "export_sha256": "3a46f3c9a238985088639b576650a10bb6775b9fbf2530ff23904712075003ec",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"コマンドを確認または入力\"",
+      "caption_lines": [
+        "\"コマンドを確認または入力\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          351,
+          572,
+          385
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
+      "caption_resource_sha256": "005401ff5b004a2cf9da0136f0202a1a4e39f0351079a28568f13acb0dc5a538",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "ja-JP",
@@ -1582,13 +3617,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/ja-JP/07-offline.png",
       "capture_sha256": "4ce81ee2481add07342a33b4c5fd8b79706d92ce3104125aa0a12e432177efd9",
       "export": "assets/screenshots/localized/ja-JP/07-offline.png",
-      "export_sha256": "b13ce3e561cef8bd53f10f48a41b5207ff89c1f29ecc80938d1991522b146e81",
+      "export_sha256": "23189aeaa962b90038decca0e365f0d5e765f6f2f271227f9df3227e956ae842",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"この端末に保存済み\"",
+      "caption_lines": [
+        "\"この端末に保存済み\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          351,
+          464,
+          385
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
+      "caption_resource_sha256": "005401ff5b004a2cf9da0136f0202a1a4e39f0351079a28568f13acb0dc5a538",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "ja-JP",
@@ -1602,13 +3663,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/ja-JP/08-insights.png",
       "capture_sha256": "3bacf4baa4f344febc7d72fbb576233aa152732df0266fae4fa3428dc838be6f",
       "export": "assets/screenshots/localized/ja-JP/08-insights.png",
-      "export_sha256": "ab41b3cb34a64233956e22bf5058ba180da97e44ee4848f9ac5781b648c87dac",
+      "export_sha256": "e28b860b5474d42422306cbb34db2b4212076dfc8a8c5363204c4d0a3b166f8c",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "\"記録をひと目で確認。お手入れの実施は植物の健康を証明するものではありません。\"",
+      "caption_lines": [
+        "\"記録をひと目で確認。お手入れの実施は植物の健康を証明するものではありません。\""
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          351,
+          1508,
+          385
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-ja-rJP/strings.xml",
+      "caption_resource_sha256": "005401ff5b004a2cf9da0136f0202a1a4e39f0351079a28568f13acb0dc5a538",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "nl-NL",
@@ -1622,13 +3709,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/nl-NL/01-hero.png",
       "capture_sha256": "089e9dd8fbf6305bd616babc11f87148d46005e01a721fe427ed96fe02059411",
       "export": "assets/screenshots/localized/nl-NL/01-hero.png",
-      "export_sha256": "610b5cb55b7a946fbbaf36caeb10cd1098d45c2e29347b6f850cee5e89900c84",
+      "export_sha256": "21f26dd2ed7047de004f0a9c2edfb3ef7a1b13d6a8c9f15df606aa2ed9304da7",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Elke plant verdient een beetje aandacht.",
+      "caption_lines": [
+        "Elke plant verdient een beetje aandacht."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          737,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
+      "caption_resource_sha256": "0a83fb38e12bf5f0754c88118ab8f80bd0e582844b8c07d1012f2581f7ec888b",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "nl-NL",
@@ -1642,13 +3755,46 @@
       "capture": "evidence/store-captures/run-20261101-170304/nl-NL/02-watering.png",
       "capture_sha256": "df5948f18b065b7b877764aa524ca3e532ff8134acdfad41989622399653be4f",
       "export": "assets/screenshots/localized/nl-NL/02-watering.png",
-      "export_sha256": "956411e441ccb74dd5cf956842d9bd9cb6f4676f5a04c049a6d72130aa8515bf",
+      "export_sha256": "e995f303f9fd6b3a7bb18340819eb295d32bfa88da4080933d24b752bf1d0e27",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Een herinnering om te controleren, geen opdracht om water te geven. Controleer eerst de bodemvochtigheid, afwatering en conditie van je plant.",
+      "caption_lines": [
+        "Een herinnering om te controleren, geen opdracht om water te geven. Controleer eerst de bodemvochtigheid, afwatering en conditie van je",
+        "plant."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          2290,
+          392
+        ],
+        [
+          104,
+          403,
+          196,
+          438
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
+      "caption_resource_sha256": "0a83fb38e12bf5f0754c88118ab8f80bd0e582844b8c07d1012f2581f7ec888b",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "nl-NL",
@@ -1662,13 +3808,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/nl-NL/03-library.png",
       "capture_sha256": "c9e980d56cde1ace51bff5c8c9ddb408730c51d479401b73f7405ffc5c1c12fc",
       "export": "assets/screenshots/localized/nl-NL/03-library.png",
-      "export_sha256": "21a10794e10d176833392436357903aaabbf83cfc8a5502b217ef5ca8e3cf9d3",
+      "export_sha256": "22bed772395dc6719dfb97ac02f042bb9584505c4072029a7356abd1fb07927d",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Zoek planten, soorten of locaties",
+      "caption_lines": [
+        "Zoek planten, soorten of locaties"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          616,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
+      "caption_resource_sha256": "0a83fb38e12bf5f0754c88118ab8f80bd0e582844b8c07d1012f2581f7ec888b",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "nl-NL",
@@ -1682,13 +3854,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/nl-NL/04-calendar.png",
       "capture_sha256": "dfa6f0c9a2b8ca9a3868acc73c451a72e94b3f1b4eb45bc42da5a63a04d1975f",
       "export": "assets/screenshots/localized/nl-NL/04-calendar.png",
-      "export_sha256": "3bcf2abc3a4adb2d5fba30fab24cfffb898a06af03e564028f294b49f008ea19",
+      "export_sha256": "a31567b84f89f092b07500445d15daa7a083ecf4c185bd32c834b63b65bea716",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Herinneringen voor verzorgingscontroles",
+      "caption_lines": [
+        "Herinneringen voor verzorgingscontroles"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          756,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
+      "caption_resource_sha256": "0a83fb38e12bf5f0754c88118ab8f80bd0e582844b8c07d1012f2581f7ec888b",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "nl-NL",
@@ -1702,13 +3900,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/nl-NL/05-growth.png",
       "capture_sha256": "e92f8e9f4e5bfab18d52be3eb4dbfb24cab5a5579fd5310b41794f52c3890b35",
       "export": "assets/screenshots/localized/nl-NL/05-growth.png",
-      "export_sha256": "165cef9cee336fc233fd04338f645599be1fdd1c5ee1e5472673ac04193ac54d",
+      "export_sha256": "13d2dee8fa24e4edb2e11b55223c82e2b7a65e5caef21b5d46056a2da1f5e153",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Foto’s, observaties en kleine tekenen van groei.",
+      "caption_lines": [
+        "Foto’s, observaties en kleine tekenen van groei."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          847,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
+      "caption_resource_sha256": "0a83fb38e12bf5f0754c88118ab8f80bd0e582844b8c07d1012f2581f7ec888b",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "nl-NL",
@@ -1722,13 +3946,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/nl-NL/06-voice.png",
       "capture_sha256": "40822c6559fd0677e8209f0a6933257ec42bdb46175c292acd10384e8fb4b7c4",
       "export": "assets/screenshots/localized/nl-NL/06-voice.png",
-      "export_sha256": "d4eace26511674fe10a11ae8821f33d28a1d7e3231f742b480f088a30d60c614",
+      "export_sha256": "ceaf1a184b820969fbbfed81f4da0f6f45f7969973a9c9e7f5b04b65f2c18f98",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Controleer of typ een opdracht",
+      "caption_lines": [
+        "Controleer of typ een opdracht"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          588,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
+      "caption_resource_sha256": "0a83fb38e12bf5f0754c88118ab8f80bd0e582844b8c07d1012f2581f7ec888b",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "nl-NL",
@@ -1742,13 +3992,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/nl-NL/07-offline.png",
       "capture_sha256": "d1423d006842c965020236820eebf39d7b4ccab7860a87629320e9098d73d1c6",
       "export": "assets/screenshots/localized/nl-NL/07-offline.png",
-      "export_sha256": "ce07295b82ae3f447f341252933fc5d5018ff46d9c9b2eb3ef4b588e1cc94603",
+      "export_sha256": "bf27c8bc4d6019fdcd8213efbac6d449a861dd8771cef39b5a8fd1a3360a7a0c",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Opgeslagen op dit apparaat",
+      "caption_lines": [
+        "Opgeslagen op dit apparaat"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          539,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
+      "caption_resource_sha256": "0a83fb38e12bf5f0754c88118ab8f80bd0e582844b8c07d1012f2581f7ec888b",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "nl-NL",
@@ -1762,13 +4038,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/nl-NL/08-insights.png",
       "capture_sha256": "82a71213c93b18765c9f714281bf8354d3a305c994e88cbe99718ca15328917b",
       "export": "assets/screenshots/localized/nl-NL/08-insights.png",
-      "export_sha256": "3704ffce9324c1f683d7e10bfccbc266654861d17e8aa1f010994121fada0dda",
+      "export_sha256": "13c2c182c9f83f2e2899d4c6e0a99601d368c0332304793c263cd3341b23be91",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Je gegevens in één oogopslag. Activiteit bewijst niet dat planten gezond zijn.",
+      "caption_lines": [
+        "Je gegevens in één oogopslag. Activiteit bewijst niet dat planten gezond zijn."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          1307,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-nl-rNL/strings.xml",
+      "caption_resource_sha256": "0a83fb38e12bf5f0754c88118ab8f80bd0e582844b8c07d1012f2581f7ec888b",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pl-PL",
@@ -1782,13 +4084,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pl-PL/01-hero.png",
       "capture_sha256": "5641d3ae76954fbcaef1900968ab91b0d047ccf4cc88cefc0aef03778267a621",
       "export": "assets/screenshots/localized/pl-PL/01-hero.png",
-      "export_sha256": "134e1c729dbbedf5abb45ecd5e3bbc75f6e5263d374cea2a30e6c5b4eebe0ca2",
+      "export_sha256": "1ac022db8b76e5e58772ad9002d65b40ba696d714301e07d6087f3fac46fd51e",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Każda roślina zasługuje na odrobinę uwagi.",
+      "caption_lines": [
+        "Każda roślina zasługuje na odrobinę uwagi."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          792,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
+      "caption_resource_sha256": "ac6877f9340a27ab7e2479337cac807ec2abc8ce6bd2c23ce2a61339c9208fd1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pl-PL",
@@ -1802,13 +4130,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pl-PL/02-watering.png",
       "capture_sha256": "824714e9e2ff647cceb323b949dcd7f66806ba8e6fa4ebb61fb90ebf37794c9d",
       "export": "assets/screenshots/localized/pl-PL/02-watering.png",
-      "export_sha256": "dc477fb9f9d3cef3e5afeb23f4d4b4b69eb33e73060b480a74204c764dcb5ed8",
+      "export_sha256": "2a9b0e346f0b1b6ce5628f9efe0c001cbd2907ad058b2c270b2961a37eb3370a",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "To przypomnienie o kontroli, a nie polecenie podlewania. Najpierw sprawdź wilgotność podłoża, odpływ wody i stan rośliny.",
+      "caption_lines": [
+        "To przypomnienie o kontroli, a nie polecenie podlewania. Najpierw sprawdź wilgotność podłoża, odpływ wody i stan rośliny."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          2077,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
+      "caption_resource_sha256": "ac6877f9340a27ab7e2479337cac807ec2abc8ce6bd2c23ce2a61339c9208fd1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pl-PL",
@@ -1822,13 +4176,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pl-PL/03-library.png",
       "capture_sha256": "3747e1c7d825a3901d633210cc2c000d7eac1bf8099eac7c828f8a016d7d24f0",
       "export": "assets/screenshots/localized/pl-PL/03-library.png",
-      "export_sha256": "0f7c3468ef69fe25630c64ce65f1219d88c3cb14bf8e71a57751d1af64089396",
+      "export_sha256": "8101f24add64883c2f392011afc23e9a987027a4df1394c28b77a37809684f36",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Szukaj roślin, gatunków lub lokalizacji",
+      "caption_lines": [
+        "Szukaj roślin, gatunków lub lokalizacji"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          712,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
+      "caption_resource_sha256": "ac6877f9340a27ab7e2479337cac807ec2abc8ce6bd2c23ce2a61339c9208fd1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pl-PL",
@@ -1842,13 +4222,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pl-PL/04-calendar.png",
       "capture_sha256": "cfef3f2cd4598ee10c2b740535dddc7d5f05146ec5a75f5faf67508043066092",
       "export": "assets/screenshots/localized/pl-PL/04-calendar.png",
-      "export_sha256": "558edac1063c9a3a3ed326805be7ab0b086c322a60524c22643ca61a5a83a16e",
+      "export_sha256": "cff6bf53379b2064f5872e38320512ff4ed5d7d87d52e67aab9655a51132a5a2",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Przypomnienia o kontroli roślin",
+      "caption_lines": [
+        "Przypomnienia o kontroli roślin"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          610,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
+      "caption_resource_sha256": "ac6877f9340a27ab7e2479337cac807ec2abc8ce6bd2c23ce2a61339c9208fd1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pl-PL",
@@ -1862,13 +4268,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pl-PL/05-growth.png",
       "capture_sha256": "9aa18cdd943bf95c4ec43c6a68f83489b64362617863356699a3902064baf47c",
       "export": "assets/screenshots/localized/pl-PL/05-growth.png",
-      "export_sha256": "3e0808e963bc5ea3201bb58371c13f33046ea798500ca3d8ed64abfc962d15d2",
+      "export_sha256": "dc541361e050ae039b0c85d3b5b68d9344caaa8496784aa50d54200d594662a8",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Zdjęcia, obserwacje i drobne oznaki wzrostu.",
+      "caption_lines": [
+        "Zdjęcia, obserwacje i drobne oznaki wzrostu."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          815,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
+      "caption_resource_sha256": "ac6877f9340a27ab7e2479337cac807ec2abc8ce6bd2c23ce2a61339c9208fd1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pl-PL",
@@ -1882,13 +4314,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pl-PL/06-voice.png",
       "capture_sha256": "ada166dbccb45163e845939e01dfd43d73aa7e6c682d1d26cd7f6eb4f98a2895",
       "export": "assets/screenshots/localized/pl-PL/06-voice.png",
-      "export_sha256": "e8b9fbc006fc087797ea862dcb7785f55b555b8356b737b64b6a48d2bce1e58c",
+      "export_sha256": "2a05b0e630ad6c6963ace54fdbd6f72c1c65f0545b3f953af3f3af6b59236ff9",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Sprawdź lub wpisz polecenie",
+      "caption_lines": [
+        "Sprawdź lub wpisz polecenie"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          560,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
+      "caption_resource_sha256": "ac6877f9340a27ab7e2479337cac807ec2abc8ce6bd2c23ce2a61339c9208fd1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pl-PL",
@@ -1902,13 +4360,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pl-PL/07-offline.png",
       "capture_sha256": "1ba9c907e0480bb80d518befc8a62e978d5feba75b3972f26d071d853c132e61",
       "export": "assets/screenshots/localized/pl-PL/07-offline.png",
-      "export_sha256": "871cc3933a9268e950f323a0de060d3ffe4f0c5cd74b4848af7c30a559cd33e3",
+      "export_sha256": "807cf556eb0731f714ea62366f069e825eddc9015aff461aaaee22113c1fda4e",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Zapisano na tym urządzeniu",
+      "caption_lines": [
+        "Zapisano na tym urządzeniu"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          555,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
+      "caption_resource_sha256": "ac6877f9340a27ab7e2479337cac807ec2abc8ce6bd2c23ce2a61339c9208fd1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pl-PL",
@@ -1922,13 +4406,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pl-PL/08-insights.png",
       "capture_sha256": "2431a80b4a7445b5538fb34df33e026381db86075b7140a068ba2deb6cdd6559",
       "export": "assets/screenshots/localized/pl-PL/08-insights.png",
-      "export_sha256": "5baeb857e46db669c62d467b646a36cd98340bea727d6d8ff78d55af670f1f6a",
+      "export_sha256": "80a06e5fc5dd8df4c5539c4f92b48bdd0d6accb15366708a0e1250c4125cb6e7",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Twoje dane w skrócie. Wykonana pielęgnacja nie dowodzi zdrowia roślin.",
+      "caption_lines": [
+        "Twoje dane w skrócie. Wykonana pielęgnacja nie dowodzi zdrowia roślin."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          1267,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-pl-rPL/strings.xml",
+      "caption_resource_sha256": "ac6877f9340a27ab7e2479337cac807ec2abc8ce6bd2c23ce2a61339c9208fd1",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pt-BR",
@@ -1942,13 +4452,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pt-BR/01-hero.png",
       "capture_sha256": "95df10b8b3c338f5b45eeeb8dcefbb8c808eb6b87f00b22d051b76450fd5f00c",
       "export": "assets/screenshots/localized/pt-BR/01-hero.png",
-      "export_sha256": "0cdfe12f92e018307367df29e885010c3a76b64caae442a9c25751fe69d2adeb",
+      "export_sha256": "2d0ba0e4e3e93d42a3ecfb1d0c4492a7a3001351417291d6332db3d76b4dd92d",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Toda planta merece um pouco de atenção.",
+      "caption_lines": [
+        "Toda planta merece um pouco de atenção."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          770,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
+      "caption_resource_sha256": "cc62f3d455ffcb3acac4d15d4464c098cd0e277b57f42f60127f9c92a3fdb494",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pt-BR",
@@ -1962,13 +4498,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pt-BR/02-watering.png",
       "capture_sha256": "88926c4626af7c4e028442b6e45f903440b6c3b5755885f7d0f9a20f25a58f59",
       "export": "assets/screenshots/localized/pt-BR/02-watering.png",
-      "export_sha256": "ba539eefd4397f6a81ab1e9b1f5627f8a511a63350965b1463673d12f7ba4a93",
+      "export_sha256": "46151feeb8bb50b2ad27fd783185b69b9fcb75932266d63538c6824e90a01440",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Um lembrete para verificar, não uma instrução para regar. Confira primeiro a umidade do solo, a drenagem e o estado da planta.",
+      "caption_lines": [
+        "Um lembrete para verificar, não uma instrução para regar. Confira primeiro a umidade do solo, a drenagem e o estado da planta."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          2148,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
+      "caption_resource_sha256": "cc62f3d455ffcb3acac4d15d4464c098cd0e277b57f42f60127f9c92a3fdb494",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pt-BR",
@@ -1982,13 +4544,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pt-BR/03-library.png",
       "capture_sha256": "90f6e3f87ace267875b7fecce1a505a34a20a21c0b9693d467db5cc04234c222",
       "export": "assets/screenshots/localized/pt-BR/03-library.png",
-      "export_sha256": "623cb78416326ebed0c82948fd12c53823e3c6064e75df5f40d72869efadd19f",
+      "export_sha256": "a472785133dd0c09da6c509c86868fe782c47c38bea94731678c549c594e2c18",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Buscar plantas, espécies ou locais",
+      "caption_lines": [
+        "Buscar plantas, espécies ou locais"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          637,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
+      "caption_resource_sha256": "cc62f3d455ffcb3acac4d15d4464c098cd0e277b57f42f60127f9c92a3fdb494",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pt-BR",
@@ -2002,13 +4590,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pt-BR/04-calendar.png",
       "capture_sha256": "12639b8d4b8b630b109549e34a7a2de53929986b5c06ae72547438c4b77b860e",
       "export": "assets/screenshots/localized/pt-BR/04-calendar.png",
-      "export_sha256": "044c532ca95b4d61e6f126b81bf25761f5cd76adaf593ef258f2a8deea0b487c",
+      "export_sha256": "c4f29034e9e739095f5488318e7d32d98f5513dd6137279ca01332231df470eb",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Lembretes de verificação dos cuidados",
+      "caption_lines": [
+        "Lembretes de verificação dos cuidados"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          716,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
+      "caption_resource_sha256": "cc62f3d455ffcb3acac4d15d4464c098cd0e277b57f42f60127f9c92a3fdb494",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pt-BR",
@@ -2022,13 +4636,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pt-BR/05-growth.png",
       "capture_sha256": "7d79f22212df034c5bab0f1c0b76e074af76d2d7109ae4c5b2b21dec01a95d9d",
       "export": "assets/screenshots/localized/pt-BR/05-growth.png",
-      "export_sha256": "209bdc8d4940717610ab82a07340c6b401ed47423bab9313136fb91c0e2a8fe3",
+      "export_sha256": "b7d9464090c9217155d88f36ff31593d2ee317d811eacfc5529853d7cb537217",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Fotos, observações e pequenos sinais de crescimento.",
+      "caption_lines": [
+        "Fotos, observações e pequenos sinais de crescimento."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          949,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
+      "caption_resource_sha256": "cc62f3d455ffcb3acac4d15d4464c098cd0e277b57f42f60127f9c92a3fdb494",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pt-BR",
@@ -2042,13 +4682,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pt-BR/06-voice.png",
       "capture_sha256": "a29e4f31ecaad76c0a0476392913d42e57d0063da9da52b00a3f36fa7b8bea64",
       "export": "assets/screenshots/localized/pt-BR/06-voice.png",
-      "export_sha256": "e96c08f244fc6b6a2bf3b5c337bce6ba91574363b03e67347f88d897500d2078",
+      "export_sha256": "fe002764b3415a7751b1644d0f25ae36c286c21757939935c40dbfc4435c1c5c",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Revise ou digite um comando",
+      "caption_lines": [
+        "Revise ou digite um comando"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          573,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
+      "caption_resource_sha256": "cc62f3d455ffcb3acac4d15d4464c098cd0e277b57f42f60127f9c92a3fdb494",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pt-BR",
@@ -2062,13 +4728,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pt-BR/07-offline.png",
       "capture_sha256": "0a1c431222636039cfe61a712ae30b596e08661334dff442bad0a627c762cbc7",
       "export": "assets/screenshots/localized/pt-BR/07-offline.png",
-      "export_sha256": "0d3a1c6fcb98db58ca847f6304b66013a004ebcb50516a2170234dac573b1b96",
+      "export_sha256": "24a9d3d23f255c3b18e58b3e1c87d96e59f9f5508dba1e3f97a79cf2e831ee7d",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Salvo neste dispositivo",
+      "caption_lines": [
+        "Salvo neste dispositivo"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          465,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
+      "caption_resource_sha256": "cc62f3d455ffcb3acac4d15d4464c098cd0e277b57f42f60127f9c92a3fdb494",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pt-BR",
@@ -2082,13 +4774,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pt-BR/08-insights.png",
       "capture_sha256": "d76854f90d78bbae0f15f42d15d0d65904471c42486151fe315669cc473be14d",
       "export": "assets/screenshots/localized/pt-BR/08-insights.png",
-      "export_sha256": "1f37771dae335edf9659c15ab1809b4e6012f1a30de8d883bf7209ed2dc9a717",
+      "export_sha256": "9ca928abfad901e2a740c8efdbb23bac14ba3602e14d946753990628e98030c6",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Seus registros em resumo. A atividade não comprova a saúde das plantas.",
+      "caption_lines": [
+        "Seus registros em resumo. A atividade não comprova a saúde das plantas."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          1274,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-pt-rBR/strings.xml",
+      "caption_resource_sha256": "cc62f3d455ffcb3acac4d15d4464c098cd0e277b57f42f60127f9c92a3fdb494",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pt-PT",
@@ -2102,13 +4820,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pt-PT/01-hero.png",
       "capture_sha256": "259511469b345ba2a53705bd2f051a1bddf5bb6b66f374d905c76c9b7709c804",
       "export": "assets/screenshots/localized/pt-PT/01-hero.png",
-      "export_sha256": "8d7ca1cc4e1ff1badc3f94ba138bc395c6ae1de93fae1fe40e53f94416d11ba1",
+      "export_sha256": "5e53899fb35b92bd0fe9d316ddfca3599452d92784b66243ce3be4162b5824e5",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Todas as plantas merecem um pouco de atenção.",
+      "caption_lines": [
+        "Todas as plantas merecem um pouco de atenção."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          877,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
+      "caption_resource_sha256": "fff72971234914ca715312cbd89b858b24469c2d05a0ada7cc6e662ab0ed2d95",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pt-PT",
@@ -2122,13 +4866,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pt-PT/02-watering.png",
       "capture_sha256": "5b0bced85b30aa8e86e28352572a29769e9a3243c6e4d7252525d4edbf2932bd",
       "export": "assets/screenshots/localized/pt-PT/02-watering.png",
-      "export_sha256": "1e34e0b09f926371faa4c67e1b061c43e8117c1e467ecc78af21ff3e6b6e0bc5",
+      "export_sha256": "b6d84a2d9eb3599dbce44aa4d8a7b47954de928ae644aaade610aa0e188b7aee",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Um lembrete para verificar, não uma instrução para regar. Verifique primeiro a humidade do solo, a drenagem e o estado da planta.",
+      "caption_lines": [
+        "Um lembrete para verificar, não uma instrução para regar. Verifique primeiro a humidade do solo, a drenagem e o estado da planta."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          2198,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
+      "caption_resource_sha256": "fff72971234914ca715312cbd89b858b24469c2d05a0ada7cc6e662ab0ed2d95",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pt-PT",
@@ -2142,13 +4912,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pt-PT/03-library.png",
       "capture_sha256": "ebba87bec448c4448eac8976077173a9fe15a92925aa0cdce207b28c633b9053",
       "export": "assets/screenshots/localized/pt-PT/03-library.png",
-      "export_sha256": "143c8bf9ffcde18ed2f76cc775b9a839a445219d0eb390570dbfb3a08f3fba12",
+      "export_sha256": "02ab9119d330b01be3ecf6678ce9a58548754aa6774892afebba3965a869ab04",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Pesquisar plantas, espécies ou locais",
+      "caption_lines": [
+        "Pesquisar plantas, espécies ou locais"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          683,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
+      "caption_resource_sha256": "fff72971234914ca715312cbd89b858b24469c2d05a0ada7cc6e662ab0ed2d95",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pt-PT",
@@ -2162,13 +4958,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pt-PT/04-calendar.png",
       "capture_sha256": "e7d6638a9965dd3ceef0be568db2da6da09f7a8eeaeb9eb74b452ccb5b328bd0",
       "export": "assets/screenshots/localized/pt-PT/04-calendar.png",
-      "export_sha256": "7b95b121bb3fa207ee520657b60d9d0d7ad8f0c4a5ff765dffbdab3f16f9a4c9",
+      "export_sha256": "6fa8e5aae77e1dfdfbcc04012909f7ff16bf576e71afb734bdf75ea848b40af8",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Lembretes de verificação dos cuidados",
+      "caption_lines": [
+        "Lembretes de verificação dos cuidados"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          716,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
+      "caption_resource_sha256": "fff72971234914ca715312cbd89b858b24469c2d05a0ada7cc6e662ab0ed2d95",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pt-PT",
@@ -2182,13 +5004,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pt-PT/05-growth.png",
       "capture_sha256": "b5c4351638b5952333b3b36858a1459590005245308c9d5823b8e7f3b10306a5",
       "export": "assets/screenshots/localized/pt-PT/05-growth.png",
-      "export_sha256": "3ece7fa266793706ed36074a12380c4d8eeddf0e01fb32c53dd1f881be4aa487",
+      "export_sha256": "3e3a3fbba857b1a6770a8489f440f5d5cc3a7097f19040127c5e73c3051cd1e3",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Fotografias, observações e pequenos sinais de crescimento.",
+      "caption_lines": [
+        "Fotografias, observações e pequenos sinais de crescimento."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          1041,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
+      "caption_resource_sha256": "fff72971234914ca715312cbd89b858b24469c2d05a0ada7cc6e662ab0ed2d95",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pt-PT",
@@ -2202,13 +5050,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pt-PT/06-voice.png",
       "capture_sha256": "c271e1c5453c00695ad6dcd0a40d316c9c2c1387bb4df3be2f6547d6d1bc53fa",
       "export": "assets/screenshots/localized/pt-PT/06-voice.png",
-      "export_sha256": "b5a77883078e0ecb8e4244143fde88b7b7bd04fe862a55060b5ae15ef59026df",
+      "export_sha256": "f1d192033c1f267cb3c25274d46dfe62b8f82b1f2ca94c8786104f78a2ae6955",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Reveja ou escreva um comando",
+      "caption_lines": [
+        "Reveja ou escreva um comando"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          602,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
+      "caption_resource_sha256": "fff72971234914ca715312cbd89b858b24469c2d05a0ada7cc6e662ab0ed2d95",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pt-PT",
@@ -2222,13 +5096,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pt-PT/07-offline.png",
       "capture_sha256": "d0508f45aa63b6ac169fa54f0158536b4730ab28652c0c83df42bd704fef3a58",
       "export": "assets/screenshots/localized/pt-PT/07-offline.png",
-      "export_sha256": "53329ccd35cb0246db14f6401181e8b30d213333e42ad759aea210d056b2c57a",
+      "export_sha256": "c6080196a4601a7e9e58b9fbab43068c8cb85f6d3758eb6c15e0fa2a8d05b4fe",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Guardado neste dispositivo",
+      "caption_lines": [
+        "Guardado neste dispositivo"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          539,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
+      "caption_resource_sha256": "fff72971234914ca715312cbd89b858b24469c2d05a0ada7cc6e662ab0ed2d95",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "pt-PT",
@@ -2242,13 +5142,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/pt-PT/08-insights.png",
       "capture_sha256": "ff59ff316e8ec40fcc7207b32dc492ba77edb4b79c17fe406c8294180f51cda0",
       "export": "assets/screenshots/localized/pt-PT/08-insights.png",
-      "export_sha256": "7ea87be2cce8bd0e6acccacd1134a847b3bfb9251a3e0e3e15e49a2434e921b2",
+      "export_sha256": "fe6a6bcf638b7171a56c18f03759dfe24690e5d352d10070211299cce4f9bd7b",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Os seus registos em resumo. A atividade não comprova a saúde das plantas.",
+      "caption_lines": [
+        "Os seus registos em resumo. A atividade não comprova a saúde das plantas."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          1307,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-pt-rPT/strings.xml",
+      "caption_resource_sha256": "fff72971234914ca715312cbd89b858b24469c2d05a0ada7cc6e662ab0ed2d95",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "sv-SE",
@@ -2262,13 +5188,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/sv-SE/01-hero.png",
       "capture_sha256": "978f99c8b02960f093f7cabf2378f7da2cd2b1febbf26176805f21d2cb231aac",
       "export": "assets/screenshots/localized/sv-SE/01-hero.png",
-      "export_sha256": "5562dd48fab3112409ebde1fd2646ef53547b767995b6810e29c2bd1ae2814ca",
+      "export_sha256": "89ed0c255e5a9f66d097c9d829fcfced0a607c497ddeb9641e3db6c54b21f2a8",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Varje växt förtjänar lite omsorg.",
+      "caption_lines": [
+        "Varje växt förtjänar lite omsorg."
+      ],
+      "caption_line_bounds": [
+        [
+          103,
+          357,
+          611,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "tagline",
+      "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
+      "caption_resource_sha256": "4e1f1d0bbdf0d4f28b1d3716d1e2235d5d16966df8c4d5b448498b7d5ed15e4d",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "sv-SE",
@@ -2282,13 +5234,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/sv-SE/02-watering.png",
       "capture_sha256": "6c4c2af7d638cc87d7307507177c83dca208ce4a325e67ec275392e1dd7f18e5",
       "export": "assets/screenshots/localized/sv-SE/02-watering.png",
-      "export_sha256": "d9afeb2ab0d637edfd31de8aa2a6bb28ab63a160931b113f285226439ecf8939",
+      "export_sha256": "2f1d1b109846fafabac31329f37933aee8bb7c01d26123e675b7b88f1e0db5bd",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "En påminnelse om att kontrollera, inte en uppmaning att vattna. Kontrollera först jordens fuktighet, dräneringen och växtens skick.",
+      "caption_lines": [
+        "En påminnelse om att kontrollera, inte en uppmaning att vattna. Kontrollera först jordens fuktighet, dräneringen och växtens skick."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          2188,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "check_first",
+      "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
+      "caption_resource_sha256": "4e1f1d0bbdf0d4f28b1d3716d1e2235d5d16966df8c4d5b448498b7d5ed15e4d",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "sv-SE",
@@ -2302,13 +5280,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/sv-SE/03-library.png",
       "capture_sha256": "06934e98270afb5841c27016d5f725047dab2cfa352b3335aae236ffaee40319",
       "export": "assets/screenshots/localized/sv-SE/03-library.png",
-      "export_sha256": "8baba1a68f4584e305b2e41b8440b03303eb1c590fbf39bdfed68284bbbdacc1",
+      "export_sha256": "c0e489439fad480c14de76815bcdc69b4f463d5ccf3d57c79c77f94eeac1e1a9",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Sök växter, arter eller platser",
+      "caption_lines": [
+        "Sök växter, arter eller platser"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          561,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "search",
+      "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
+      "caption_resource_sha256": "4e1f1d0bbdf0d4f28b1d3716d1e2235d5d16966df8c4d5b448498b7d5ed15e4d",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "sv-SE",
@@ -2322,13 +5326,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/sv-SE/04-calendar.png",
       "capture_sha256": "2bd97001c9ffdc98883152be188de83f0555abf0aa60bd8a0b154e19d1807ac3",
       "export": "assets/screenshots/localized/sv-SE/04-calendar.png",
-      "export_sha256": "8220edb59295074d40a14ed872633bcf4138337455decae4bd51b5b662332f55",
+      "export_sha256": "a8c3f2f5c8d3dc496b1954e983b159332ca2dd539ede53149c29a8fa088258e9",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Påminnelser om skötselkontroller",
+      "caption_lines": [
+        "Påminnelser om skötselkontroller"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          639,
+          384
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "care_reminders",
+      "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
+      "caption_resource_sha256": "4e1f1d0bbdf0d4f28b1d3716d1e2235d5d16966df8c4d5b448498b7d5ed15e4d",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "sv-SE",
@@ -2342,13 +5372,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/sv-SE/05-growth.png",
       "capture_sha256": "ac006eb38875e21069d2970944418bce3be7bce93471a01d830c1cdd9db43bed",
       "export": "assets/screenshots/localized/sv-SE/05-growth.png",
-      "export_sha256": "fde134270421e8fe7b4e6e5772de951b29f9aad3b356c99f5f9835d5fe1434dd",
+      "export_sha256": "8b34781addd05e9fba13ed7383b762e6a48e976581fbd4a757fd8b819ac3aed2",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Foton, observationer och små tecken på tillväxt.",
+      "caption_lines": [
+        "Foton, observationer och små tecken på tillväxt."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          861,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "journal_intro",
+      "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
+      "caption_resource_sha256": "4e1f1d0bbdf0d4f28b1d3716d1e2235d5d16966df8c4d5b448498b7d5ed15e4d",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "sv-SE",
@@ -2362,13 +5418,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/sv-SE/06-voice.png",
       "capture_sha256": "41b0771413086cdd209fd543d5395854533764a00be6373d9035b68478cbf00e",
       "export": "assets/screenshots/localized/sv-SE/06-voice.png",
-      "export_sha256": "038723e43f0d835dfbdd26b0c876c079e85e106d8e96adcb66b22625c6ccb806",
+      "export_sha256": "015673887e607e578c289d72850bbf9f364a7e82ef5c583482bfc64314b0c79a",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Granska eller skriv ett kommando",
+      "caption_lines": [
+        "Granska eller skriv ett kommando"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          643,
+          384
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "command",
+      "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
+      "caption_resource_sha256": "4e1f1d0bbdf0d4f28b1d3716d1e2235d5d16966df8c4d5b448498b7d5ed15e4d",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "sv-SE",
@@ -2382,13 +5464,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/sv-SE/07-offline.png",
       "capture_sha256": "359371b7b6ed6c25757b2bd137c8554d70e13d7cb21584d8ecc164948ae73f1c",
       "export": "assets/screenshots/localized/sv-SE/07-offline.png",
-      "export_sha256": "b89098cdf63ab14c4ffd5734a06d67205ac338866a95653b269bcfb0ca4e569a",
+      "export_sha256": "ac944bbf089f74a5543d08616a6575d6121e494ee10bd6286f4451b4601431ca",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Sparat på denna enhet",
+      "caption_lines": [
+        "Sparat på denna enhet"
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          356,
+          460,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "local_records",
+      "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
+      "caption_resource_sha256": "4e1f1d0bbdf0d4f28b1d3716d1e2235d5d16966df8c4d5b448498b7d5ed15e4d",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     },
     {
       "listing_locale": "sv-SE",
@@ -2402,13 +5510,39 @@
       "capture": "evidence/store-captures/run-20261101-170304/sv-SE/08-insights.png",
       "capture_sha256": "272c7e6f4098bb91ab9ea021b17c352e0232bd35fc4582f6381d39cabd61fb51",
       "export": "assets/screenshots/localized/sv-SE/08-insights.png",
-      "export_sha256": "5084591f9ab2e80eafaea2d24cb96f92df98cba80de81c168f102f0fc822d896",
+      "export_sha256": "8c2675cba51c87f06d96dd09af338bbc3d4bea87a6df37931f4c118bd9361525",
       "width": 2560,
       "height": 1600,
       "status": "DRAFT_PENDING_HUMAN_REVIEW",
       "actual_rendered_ui": true,
       "offline_capture": true,
-      "demonstration_records": true
+      "demonstration_records": true,
+      "supporting_caption": "Dina anteckningar i korthet. Aktivitet bevisar inte växthälsa.",
+      "caption_lines": [
+        "Dina anteckningar i korthet. Aktivitet bevisar inte växthälsa."
+      ],
+      "caption_line_bounds": [
+        [
+          104,
+          357,
+          1058,
+          392
+        ]
+      ],
+      "caption_font_px": 36,
+      "caption_resource_key": "insights_intro",
+      "caption_resource_source": "app/src/main/res/values-sv-rSE/strings.xml",
+      "caption_resource_sha256": "4e1f1d0bbdf0d4f28b1d3716d1e2235d5d16966df8c4d5b448498b7d5ed15e4d",
+      "native_frame_bounds": [
+        440,
+        480,
+        2120,
+        1530
+      ],
+      "native_frame_max_size": [
+        2360,
+        1050
+      ]
     }
   ],
   "device": {

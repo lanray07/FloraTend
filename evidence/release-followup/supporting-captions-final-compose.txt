@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\App Projects\FloraTend\tools\compose_localized_screenshots.py", line 91, in <module>
+    compose(args.captures.resolve(),args.output.resolve())
+  File "D:\App Projects\FloraTend\tools\compose_localized_screenshots.py", line 87, in compose
+    sheet.save(out/locale/'contact-sheet.jpg',quality=90)
+  File "C:\Users\User\AppData\Roaming\Python\Python310\site-packages\PIL\Image.py", line 2708, in save
+    fp = builtins.open(filename, "w+b")
+OSError: [Errno 22] Invalid argument: 'D:\\App Projects\\FloraTend\\assets\\screenshots\\localized\\nl-NL\\contact-sheet.jpg'

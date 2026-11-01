@@ -1,6 +1,6 @@
 # Source 12 release follow-up â€” 1 November 2026
 
-Development is **0.1.11 / code 12**, Room schema 2. The generated checklist records **170/204 PASS, 34 incomplete**: 70 of the 104 criteria open at the start of this continuation have scoped passing evidence. Overall release remains blocked. The actual Amazon-delivered app stays code 11; its genuine free LAT purchase, automatic strict server-gated Premium activation, owned Restore and offline/final online Restore passed. Source 12 has not been submitted or installed over that package.
+Development is **0.1.11 / code 12**, Room schema 2. The generated checklist records **173/204 PASS, 31 incomplete**: 73 of the 104 criteria open at the start of this continuation have scoped passing evidence. Overall release remains blocked. The actual Amazon-delivered app stays code 11; its genuine free LAT purchase, automatic strict server-gated Premium activation, owned Restore and offline/final online Restore passed. Source 12 has not been submitted or installed over that package.
 
 ## Implemented and tested
 
@@ -53,3 +53,12 @@ The final HD10 landscape native run passed242 bounded-text/editor/onboarding che
 
 
 The OS-simulated compact portrait600x1024/density160 run also passed242 checks, with180% font, on the same physical HD10. This is simulated configuration coverage, not a second physical device. Both final report JSON files explicitly retain the unbounded-width limitation. AC07.05 remains incomplete. The fresh private QA backup was validated with all four record tables empty before uninstalling QA/test packages; only actualAmazon11 remains. Font1.0, physical display configuration, Wi-FiON and original rotation1/0 are restored. See `evidence/release-followup/locale-contract-final-device-state.json`.
+
+
+## Supporting store captions
+
+All120 draft compositions for15 listing locales now include supporting captions drawn from the corresponding app resource bundle. Manifest entries bind caption text/key/source hash, ink bounds and full native-image bounds. Caption bounds, locale provenance, PNG hashes and full-frame pixel equality passed. Manual visual spot checks of English care and Japanese typed-command images found the expected caption and native UI; they do not establish human language or broad readability approval. Qualified approvals remain zero. The previously executed source12 native capture asserts resource locale and localized headings/actions for all22 locales; this closes target-language resource selection separately from linguistic quality.
+
+The compositor reproduced Windows direct-write Errno22 on an existing contact sheet; a first atomic replacement also hit access denial on different destinations. The final helper encodes before replacing, closes input images and retries only bounded Windows access/invalid-argument failures. A final real run rebuilt all15contact sheets. Controlled transient-denial and persistent-denial regressions passed: success retries preserve the prior complete sheet until replacement, and permanent failure remains an error with that prior sheet intact. Earlier failures remain retained; the low-level Windows cause is unisolated.
+
+The latest supporting suite passed47tests. The prior locale evidence commit d869ed8 / CI41333699978 succeeded. This caption/tool/evidence follow-up requires its own exact-head CI; no new production APK, LAT submission, public listing or paid service was changed.

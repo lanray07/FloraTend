@@ -1,0 +1,7 @@
+{
+  "exactPrivateValuesAbsent": true,
+  "exactPrivateValuesChecked": 3,
+  "scope": "Staged worktree content checked against exact server/signing values; decrypted in memory only, none emitted or persisted",
+  "privateArtifactsStaged": false,
+  "stagedFilesChecked": 153
+}

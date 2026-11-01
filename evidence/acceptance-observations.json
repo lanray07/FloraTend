@@ -2357,5 +2357,47 @@
       "evidence/release-followup/locale-layout-fire7-portrait-bounded/results.json"
     ],
     "corrective_action": "Complete horizontal-scroll width/viewport inspection and qualified locale layout review; do not infer separate physical7inch hardware coverage."
+  },
+  "AC-08.03": {
+    "test_name": "Real per-locale native screenshot capture assertions",
+    "execution_date": "2026-11-01",
+    "environment": "Actual code12isolatedQA on physicalFireHD10/API28;22app locales;15listing locales",
+    "status": "PASS",
+    "actual_result": "Executed StoreScreenshotTest asserted each Activity resource locale and localized headings/actions before capturing eight actual native scenes per22locale,176total. Export manifest maps15listing locales to actual native captures, including explicitenIN/enGB andesMX/es419 language mappings. Controlled Latin botanical names are demonstration record fields. Pixel/hash provenance checks pass; human linguistic quality/region approval remains separate.",
+    "evidence": [
+      "evidence/store-captures/run-20261101-170304/instrumentation.txt",
+      "evidence/store-captures/run-20261101-170304/capture-manifest.json",
+      "app/src/androidTest/java/com/floratend/app/StoreScreenshotTest.kt",
+      "evidence/release-followup/screenshot-full-frame-native-pixels.txt"
+    ],
+    "corrective_action": "Obtain qualified language/region review; no wording approval inferred from correct resource selection."
+  },
+  "AC-08.05": {
+    "test_name": "Localized supporting captions rendered for all15listing locales",
+    "execution_date": "2026-11-01",
+    "environment": "Windows/Pillow; source12real native offline capture set;120finalcompositions",
+    "status": "PASS",
+    "actual_result": "All120draft store images now render supporting captions sourced from the matching native locale resource bundle, with resource-key/hash provenance. Tests verify exact resource text, nonempty captions, at most2lines, reserved-space bounds, export hashes and full native-frame pixel preservation. All15contact sheets rebuilt using final helper. Qualified translation/naturalness/readability/claims approval remains pending.",
+    "evidence": [
+      "evidence/release-followup/supporting-captions-final-validation.txt",
+      "evidence/release-followup/supporting-captions-contact-sheet-final.txt",
+      "assets/screenshots/localized/localized-manifest.json",
+      "tools/compose_localized_screenshots.py"
+    ],
+    "corrective_action": "Keep all captions and listings marked drafts until qualified human review; no market-language approval inferred."
+  },
+  "AC-14.05": {
+    "test_name": "Localized supporting captions rendered for all15listing locales",
+    "execution_date": "2026-11-01",
+    "environment": "Windows/Pillow; source12real native offline capture set;120finalcompositions",
+    "status": "PASS",
+    "actual_result": "All120draft store images now render supporting captions sourced from the matching native locale resource bundle, with resource-key/hash provenance. Tests verify exact resource text, nonempty captions, at most2lines, reserved-space bounds, export hashes and full native-frame pixel preservation. All15contact sheets rebuilt using final helper. Qualified translation/naturalness/readability/claims approval remains pending.",
+    "evidence": [
+      "evidence/release-followup/supporting-captions-final-validation.txt",
+      "evidence/release-followup/supporting-captions-contact-sheet-final.txt",
+      "assets/screenshots/localized/localized-manifest.json",
+      "tools/compose_localized_screenshots.py"
+    ],
+    "corrective_action": "Keep all captions and listings marked drafts until qualified human review; no market-language approval inferred."
   }
 }

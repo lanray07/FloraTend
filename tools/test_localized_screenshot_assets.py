@@ -3,13 +3,49 @@ import hashlib
 import json
 from pathlib import Path
 import unittest
+import xml.etree.ElementTree as ET
+import tempfile
+from unittest.mock import patch
 from PIL import Image, ImageChops, ImageOps
 
 from screenshots import validate_png
+from compose_localized_screenshots import write_contact_sheets
 
 ROOT = Path(__file__).resolve().parents[1]
 SCENES = {'01-hero', '02-watering', '03-library', '04-calendar',
           '05-growth', '06-voice', '07-offline', '08-insights'}
+
+
+class ContactSheetWriteTests(unittest.TestCase):
+    def prepare(self,root):
+        folder=root/'en-GB';folder.mkdir()
+        for scene in SCENES:
+            Image.new('RGB',(32,20),'green').save(folder/(scene+'.png'))
+        destination=folder/'contact-sheet.jpg';destination.write_bytes(b'previous-complete-sheet')
+        return destination
+
+    def test_transient_replacement_denial_preserves_previous_sheet_then_succeeds(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);destination=self.prepare(root);original=Path.replace;attempts=[]
+            def replace(path,target):
+                attempts.append(path)
+                if len(attempts)==1:
+                    self.assertEqual(b'previous-complete-sheet',destination.read_bytes())
+                    error=PermissionError('controlled temporary denial');error.winerror=5;raise error
+                return original(path,target)
+            with patch.object(Path,'replace',replace),patch('compose_localized_screenshots.time.sleep'):
+                rows=write_contact_sheets(root,['en-GB'])
+            self.assertEqual(1,rows[0]['replacementRetries'])
+            with Image.open(destination) as sheet:self.assertEqual((1280,400),sheet.size)
+
+    def test_persistent_denial_fails_and_preserves_previous_sheet(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);destination=self.prepare(root)
+            error=PermissionError('controlled persistent denial');error.winerror=5
+            with patch.object(Path,'replace',side_effect=error) as replace,patch('compose_localized_screenshots.time.sleep'):
+                with self.assertRaises(PermissionError):write_contact_sheets(root,['en-GB'])
+            self.assertEqual(6,replace.call_count)
+            self.assertEqual(b'previous-complete-sheet',destination.read_bytes())
 
 
 class LocalizedScreenshotAssets(unittest.TestCase):
@@ -67,13 +103,32 @@ class LocalizedScreenshotAssets(unittest.TestCase):
         for row in self.manifest['screenshots']:
             with self.subTest(locale=row['listing_locale'], scene=row['scene']):
                 with Image.open(ROOT / row['capture']) as raw:
-                    expected = ImageOps.contain(raw.convert('RGB'), (2360, 1150), Image.Resampling.LANCZOS)
-                x, y = (2560 - expected.width) // 2, 380
+                    expected = ImageOps.contain(raw.convert('RGB'), tuple(row['native_frame_max_size']), Image.Resampling.LANCZOS)
+                x, y, right, bottom = row['native_frame_bounds']
+                self.assertEqual((expected.width, expected.height), (right-x, bottom-y))
                 self.assertLessEqual(x + expected.width, 2560)
                 self.assertLessEqual(y + expected.height, 1600)
                 with Image.open(ROOT / row['export']) as exported:
                     actual = exported.convert('RGB').crop((x, y, x + expected.width, y + expected.height))
                 self.assertIsNone(ImageChops.difference(expected, actual).getbbox())
+
+    def test_all_supporting_captions_use_localized_app_resource(self):
+        for row in self.manifest['screenshots']:
+            with self.subTest(locale=row['listing_locale'], scene=row['scene']):
+                source=ROOT / row['caption_resource_source']
+                self.assertEqual(row['caption_resource_sha256'], hashlib.sha256(source.read_bytes()).hexdigest())
+                strings={n.attrib['name']:''.join(n.itertext()).replace("\\'", "'").replace('\\"','"') for n in ET.parse(source).getroot() if n.tag=='string'}
+                self.assertEqual(strings[row['caption_resource_key']],row['supporting_caption'])
+                self.assertTrue(row['supporting_caption'].strip())
+                self.assertLessEqual(len(row['caption_lines']),2)
+                self.assertNotIn('%',row['supporting_caption'])
+                self.assertEqual(36,row['caption_font_px'])
+                self.assertEqual(len(row['caption_lines']),len(row['caption_line_bounds']))
+                for left, top, right, bottom in row['caption_line_bounds']:
+                    self.assertGreaterEqual(left,96)
+                    self.assertGreaterEqual(top,350)
+                    self.assertLessEqual(right,2456)
+                    self.assertLess(bottom,450)
 
 
 if __name__ == '__main__':

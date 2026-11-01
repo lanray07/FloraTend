@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "<stdin>", line 6, in <module>
+  File "D:\App Projects\FloraTend\tools\compose_localized_screenshots.py", line 26, in write_contact_sheets
+    temporary.write_bytes(buffer.getvalue());temporary.replace(destination)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\pathlib.py", line 1247, in replace
+    self._accessor.replace(self, target)
+PermissionError: [WinError 5] Access is denied: 'assets\\screenshots\\localized\\en-US\\contact-sheet.rendering.jpg' -> 'assets\\screenshots\\localized\\en-US\\contact-sheet.jpg'
