@@ -1,0 +1,1608 @@
+{
+  "variant": "hd10-final",
+  "surfaces": [
+    {
+      "locale": "en-GB",
+      "surface": "onboarding-language",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 7,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-GB",
+      "surface": "onboarding-experience",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 8,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-GB",
+      "surface": "onboarding-privacy",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 6,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-GB",
+      "surface": "garden",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 28,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-GB",
+      "surface": "calendar",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 32,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-GB",
+      "surface": "journal",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 16,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-GB",
+      "surface": "voice",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 18,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-GB",
+      "surface": "insights",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 22,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-GB",
+      "surface": "settings",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 29,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-GB",
+      "surface": "plant-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 58,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-GB",
+      "surface": "journal-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 30,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "onboarding-language",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 7,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "onboarding-experience",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 8,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "onboarding-privacy",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 6,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "garden",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 28,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "calendar",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 32,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "journal",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 16,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "voice",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 18,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "insights",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 22,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "settings",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 29,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "plant-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 58,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-US",
+      "surface": "journal-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 30,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-AU",
+      "surface": "onboarding-language",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 7,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-AU",
+      "surface": "onboarding-experience",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 8,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-AU",
+      "surface": "onboarding-privacy",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 6,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-AU",
+      "surface": "garden",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 28,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-AU",
+      "surface": "calendar",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 32,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-AU",
+      "surface": "journal",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 16,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-AU",
+      "surface": "voice",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 18,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-AU",
+      "surface": "insights",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 22,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-AU",
+      "surface": "settings",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 29,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-AU",
+      "surface": "plant-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 58,
+      "overflowTexts": []
+    },
+    {
+      "locale": "en-AU",
+      "surface": "journal-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 30,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-ES",
+      "surface": "onboarding-language",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 7,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-ES",
+      "surface": "onboarding-experience",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 8,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-ES",
+      "surface": "onboarding-privacy",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 6,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-ES",
+      "surface": "garden",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 28,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-ES",
+      "surface": "calendar",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 32,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-ES",
+      "surface": "journal",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 16,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-ES",
+      "surface": "voice",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 19,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-ES",
+      "surface": "insights",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 22,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-ES",
+      "surface": "settings",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 29,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-ES",
+      "surface": "plant-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 58,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-ES",
+      "surface": "journal-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 30,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-419",
+      "surface": "onboarding-language",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 7,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-419",
+      "surface": "onboarding-experience",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 8,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-419",
+      "surface": "onboarding-privacy",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 6,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-419",
+      "surface": "garden",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 28,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-419",
+      "surface": "calendar",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 32,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-419",
+      "surface": "journal",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 16,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-419",
+      "surface": "voice",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 19,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-419",
+      "surface": "insights",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 22,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-419",
+      "surface": "settings",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 29,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-419",
+      "surface": "plant-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 58,
+      "overflowTexts": []
+    },
+    {
+      "locale": "es-419",
+      "surface": "journal-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 30,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-FR",
+      "surface": "onboarding-language",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 7,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-FR",
+      "surface": "onboarding-experience",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 8,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-FR",
+      "surface": "onboarding-privacy",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 6,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-FR",
+      "surface": "garden",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 28,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-FR",
+      "surface": "calendar",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 32,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-FR",
+      "surface": "journal",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 16,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-FR",
+      "surface": "voice",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 19,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-FR",
+      "surface": "insights",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 22,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-FR",
+      "surface": "settings",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 29,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-FR",
+      "surface": "plant-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 58,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-FR",
+      "surface": "journal-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 30,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-CA",
+      "surface": "onboarding-language",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 7,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-CA",
+      "surface": "onboarding-experience",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 8,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-CA",
+      "surface": "onboarding-privacy",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 6,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-CA",
+      "surface": "garden",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 28,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-CA",
+      "surface": "calendar",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 32,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-CA",
+      "surface": "journal",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 16,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-CA",
+      "surface": "voice",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 19,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-CA",
+      "surface": "insights",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 22,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-CA",
+      "surface": "settings",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 29,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-CA",
+      "surface": "plant-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 58,
+      "overflowTexts": []
+    },
+    {
+      "locale": "fr-CA",
+      "surface": "journal-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 30,
+      "overflowTexts": []
+    },
+    {
+      "locale": "de-DE",
+      "surface": "onboarding-language",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 7,
+      "overflowTexts": []
+    },
+    {
+      "locale": "de-DE",
+      "surface": "onboarding-experience",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 8,
+      "overflowTexts": []
+    },
+    {
+      "locale": "de-DE",
+      "surface": "onboarding-privacy",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 6,
+      "overflowTexts": []
+    },
+    {
+      "locale": "de-DE",
+      "surface": "garden",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 28,
+      "overflowTexts": []
+    },
+    {
+      "locale": "de-DE",
+      "surface": "calendar",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 32,
+      "overflowTexts": []
+    },
+    {
+      "locale": "de-DE",
+      "surface": "journal",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 16,
+      "overflowTexts": []
+    },
+    {
+      "locale": "de-DE",
+      "surface": "voice",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 19,
+      "overflowTexts": []
+    },
+    {
+      "locale": "de-DE",
+      "surface": "insights",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 22,
+      "overflowTexts": []
+    },
+    {
+      "locale": "de-DE",
+      "surface": "settings",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 29,
+      "overflowTexts": []
+    },
+    {
+      "locale": "de-DE",
+      "surface": "plant-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 58,
+      "overflowTexts": []
+    },
+    {
+      "locale": "de-DE",
+      "surface": "journal-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 30,
+      "overflowTexts": []
+    },
+    {
+      "locale": "it-IT",
+      "surface": "onboarding-language",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 7,
+      "overflowTexts": []
+    },
+    {
+      "locale": "it-IT",
+      "surface": "onboarding-experience",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 8,
+      "overflowTexts": []
+    },
+    {
+      "locale": "it-IT",
+      "surface": "onboarding-privacy",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 6,
+      "overflowTexts": []
+    },
+    {
+      "locale": "it-IT",
+      "surface": "garden",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 28,
+      "overflowTexts": []
+    },
+    {
+      "locale": "it-IT",
+      "surface": "calendar",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 32,
+      "overflowTexts": []
+    },
+    {
+      "locale": "it-IT",
+      "surface": "journal",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 16,
+      "overflowTexts": []
+    },
+    {
+      "locale": "it-IT",
+      "surface": "voice",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 19,
+      "overflowTexts": []
+    },
+    {
+      "locale": "it-IT",
+      "surface": "insights",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 22,
+      "overflowTexts": []
+    },
+    {
+      "locale": "it-IT",
+      "surface": "settings",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 29,
+      "overflowTexts": []
+    },
+    {
+      "locale": "it-IT",
+      "surface": "plant-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 58,
+      "overflowTexts": []
+    },
+    {
+      "locale": "it-IT",
+      "surface": "journal-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 30,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-BR",
+      "surface": "onboarding-language",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 7,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-BR",
+      "surface": "onboarding-experience",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 8,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-BR",
+      "surface": "onboarding-privacy",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 6,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-BR",
+      "surface": "garden",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 28,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-BR",
+      "surface": "calendar",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 32,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-BR",
+      "surface": "journal",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 16,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-BR",
+      "surface": "voice",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 19,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-BR",
+      "surface": "insights",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 22,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-BR",
+      "surface": "settings",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 29,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-BR",
+      "surface": "plant-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 58,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-BR",
+      "surface": "journal-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 30,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-PT",
+      "surface": "onboarding-language",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 7,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-PT",
+      "surface": "onboarding-experience",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 8,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-PT",
+      "surface": "onboarding-privacy",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 6,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-PT",
+      "surface": "garden",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 28,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-PT",
+      "surface": "calendar",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 32,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-PT",
+      "surface": "journal",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 16,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-PT",
+      "surface": "voice",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 19,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-PT",
+      "surface": "insights",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 22,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-PT",
+      "surface": "settings",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 29,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-PT",
+      "surface": "plant-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 58,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pt-PT",
+      "surface": "journal-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 30,
+      "overflowTexts": []
+    },
+    {
+      "locale": "nl-NL",
+      "surface": "onboarding-language",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 7,
+      "overflowTexts": []
+    },
+    {
+      "locale": "nl-NL",
+      "surface": "onboarding-experience",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 8,
+      "overflowTexts": []
+    },
+    {
+      "locale": "nl-NL",
+      "surface": "onboarding-privacy",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 6,
+      "overflowTexts": []
+    },
+    {
+      "locale": "nl-NL",
+      "surface": "garden",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 28,
+      "overflowTexts": []
+    },
+    {
+      "locale": "nl-NL",
+      "surface": "calendar",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 32,
+      "overflowTexts": []
+    },
+    {
+      "locale": "nl-NL",
+      "surface": "journal",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 16,
+      "overflowTexts": []
+    },
+    {
+      "locale": "nl-NL",
+      "surface": "voice",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 19,
+      "overflowTexts": []
+    },
+    {
+      "locale": "nl-NL",
+      "surface": "insights",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 22,
+      "overflowTexts": []
+    },
+    {
+      "locale": "nl-NL",
+      "surface": "settings",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 29,
+      "overflowTexts": []
+    },
+    {
+      "locale": "nl-NL",
+      "surface": "plant-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 58,
+      "overflowTexts": []
+    },
+    {
+      "locale": "nl-NL",
+      "surface": "journal-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 30,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pl-PL",
+      "surface": "onboarding-language",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 7,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pl-PL",
+      "surface": "onboarding-experience",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 8,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pl-PL",
+      "surface": "onboarding-privacy",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 6,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pl-PL",
+      "surface": "garden",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 28,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pl-PL",
+      "surface": "calendar",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 32,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pl-PL",
+      "surface": "journal",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 16,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pl-PL",
+      "surface": "voice",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 19,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pl-PL",
+      "surface": "insights",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 22,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pl-PL",
+      "surface": "settings",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 29,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pl-PL",
+      "surface": "plant-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 58,
+      "overflowTexts": []
+    },
+    {
+      "locale": "pl-PL",
+      "surface": "journal-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 30,
+      "overflowTexts": []
+    },
+    {
+      "locale": "sv-SE",
+      "surface": "onboarding-language",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 7,
+      "overflowTexts": []
+    },
+    {
+      "locale": "sv-SE",
+      "surface": "onboarding-experience",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 8,
+      "overflowTexts": []
+    },
+    {
+      "locale": "sv-SE",
+      "surface": "onboarding-privacy",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 6,
+      "overflowTexts": []
+    },
+    {
+      "locale": "sv-SE",
+      "surface": "garden",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 28,
+      "overflowTexts": []
+    },
+    {
+      "locale": "sv-SE",
+      "surface": "calendar",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 32,
+      "overflowTexts": []
+    },
+    {
+      "locale": "sv-SE",
+      "surface": "journal",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 16,
+      "overflowTexts": []
+    },
+    {
+      "locale": "sv-SE",
+      "surface": "voice",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 19,
+      "overflowTexts": []
+    },
+    {
+      "locale": "sv-SE",
+      "surface": "insights",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 22,
+      "overflowTexts": []
+    },
+    {
+      "locale": "sv-SE",
+      "surface": "settings",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 29,
+      "overflowTexts": []
+    },
+    {
+      "locale": "sv-SE",
+      "surface": "plant-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 58,
+      "overflowTexts": []
+    },
+    {
+      "locale": "sv-SE",
+      "surface": "journal-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 30,
+      "overflowTexts": []
+    },
+    {
+      "locale": "ja-JP",
+      "surface": "onboarding-language",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 7,
+      "overflowTexts": []
+    },
+    {
+      "locale": "ja-JP",
+      "surface": "onboarding-experience",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 8,
+      "overflowTexts": []
+    },
+    {
+      "locale": "ja-JP",
+      "surface": "onboarding-privacy",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 6,
+      "overflowTexts": []
+    },
+    {
+      "locale": "ja-JP",
+      "surface": "garden",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 28,
+      "overflowTexts": []
+    },
+    {
+      "locale": "ja-JP",
+      "surface": "calendar",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 32,
+      "overflowTexts": []
+    },
+    {
+      "locale": "ja-JP",
+      "surface": "journal",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 16,
+      "overflowTexts": []
+    },
+    {
+      "locale": "ja-JP",
+      "surface": "voice",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 19,
+      "overflowTexts": []
+    },
+    {
+      "locale": "ja-JP",
+      "surface": "insights",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 22,
+      "overflowTexts": []
+    },
+    {
+      "locale": "ja-JP",
+      "surface": "settings",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 29,
+      "overflowTexts": []
+    },
+    {
+      "locale": "ja-JP",
+      "surface": "plant-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 58,
+      "overflowTexts": []
+    },
+    {
+      "locale": "ja-JP",
+      "surface": "journal-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 30,
+      "overflowTexts": []
+    },
+    {
+      "locale": "hi-IN",
+      "surface": "onboarding-language",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 7,
+      "overflowTexts": []
+    },
+    {
+      "locale": "hi-IN",
+      "surface": "onboarding-experience",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 8,
+      "overflowTexts": []
+    },
+    {
+      "locale": "hi-IN",
+      "surface": "onboarding-privacy",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 6,
+      "overflowTexts": []
+    },
+    {
+      "locale": "hi-IN",
+      "surface": "garden",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 28,
+      "overflowTexts": []
+    },
+    {
+      "locale": "hi-IN",
+      "surface": "calendar",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 32,
+      "overflowTexts": []
+    },
+    {
+      "locale": "hi-IN",
+      "surface": "journal",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 16,
+      "overflowTexts": []
+    },
+    {
+      "locale": "hi-IN",
+      "surface": "voice",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 19,
+      "overflowTexts": []
+    },
+    {
+      "locale": "hi-IN",
+      "surface": "insights",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 22,
+      "overflowTexts": []
+    },
+    {
+      "locale": "hi-IN",
+      "surface": "settings",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 29,
+      "overflowTexts": []
+    },
+    {
+      "locale": "hi-IN",
+      "surface": "plant-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 58,
+      "overflowTexts": []
+    },
+    {
+      "locale": "hi-IN",
+      "surface": "journal-editor",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 30,
+      "overflowTexts": []
+    },
+    {
+      "locale": "ar",
+      "surface": "onboarding-language",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 7,
+      "overflowTexts": [
+        "مرحبا بك في FloraTend",
+        "كل نبات يستحق قليلا من الاهتمام.",
+        "اللغة: العربية",
+        "يتبع FloraTend لغة جهازك. يمكنك تغييرها في الإعدادات.",
+        "الترجمات تجريبية وقد تتضمن أخطاء. اختر لغة تفهمها جيدا.",
+        "متابعة",
+        "تخطي الآن"
+      ]
+    }
+  ],
+  "humanApproval": false,
+  "scope": "Internal text-layout overflow and reachable actions; scrollable viewport clipping is separately inspected"
+}

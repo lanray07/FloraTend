@@ -1,0 +1,357 @@
+{
+  "locales": [
+    {
+      "locale": "en-GB",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "Height: 25.4 cm",
+          "leaves": "Leaves: 1234"
+        },
+        {
+          "imperial": true,
+          "height": "Height: 10 in",
+          "leaves": "Leaves: 1234"
+        }
+      ],
+      "pot": "Pot: 12.3 cm"
+    },
+    {
+      "locale": "en-US",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "Height: 25.4 cm",
+          "leaves": "Leaves: 1234"
+        },
+        {
+          "imperial": true,
+          "height": "Height: 10 in",
+          "leaves": "Leaves: 1234"
+        }
+      ],
+      "pot": "Pot: 12.3 cm"
+    },
+    {
+      "locale": "en-AU",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "Height: 25.4 cm",
+          "leaves": "Leaves: 1234"
+        },
+        {
+          "imperial": true,
+          "height": "Height: 10 in",
+          "leaves": "Leaves: 1234"
+        }
+      ],
+      "pot": "Pot: 12.3 cm"
+    },
+    {
+      "locale": "es-ES",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "Altura: 25,4 cm",
+          "leaves": "Hojas: 1234"
+        },
+        {
+          "imperial": true,
+          "height": "Altura: 10 pulg.",
+          "leaves": "Hojas: 1234"
+        }
+      ],
+      "pot": "Maceta: 12,3 cm"
+    },
+    {
+      "locale": "es-419",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "Altura: 25.4 cm",
+          "leaves": "Hojas: 1234"
+        },
+        {
+          "imperial": true,
+          "height": "Altura: 10 pulg.",
+          "leaves": "Hojas: 1234"
+        }
+      ],
+      "pot": "Maceta: 12.3 cm"
+    },
+    {
+      "locale": "fr-FR",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "Hauteur : 25,4 cm",
+          "leaves": "Feuilles : 1234"
+        },
+        {
+          "imperial": true,
+          "height": "Hauteur : 10 po",
+          "leaves": "Feuilles : 1234"
+        }
+      ],
+      "pot": "Pot : 12,3 cm"
+    },
+    {
+      "locale": "fr-CA",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "Hauteur : 25,4 cm",
+          "leaves": "Feuilles : 1234"
+        },
+        {
+          "imperial": true,
+          "height": "Hauteur : 10 po",
+          "leaves": "Feuilles : 1234"
+        }
+      ],
+      "pot": "Pot : 12,3 cm"
+    },
+    {
+      "locale": "de-DE",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "Höhe: 25,4 cm",
+          "leaves": "Blätter: 1234"
+        },
+        {
+          "imperial": true,
+          "height": "Höhe: 10 Zoll",
+          "leaves": "Blätter: 1234"
+        }
+      ],
+      "pot": "Topf: 12,3 cm"
+    },
+    {
+      "locale": "it-IT",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "Altezza: 25,4 cm",
+          "leaves": "Foglie: 1234"
+        },
+        {
+          "imperial": true,
+          "height": "Altezza: 10 pollici",
+          "leaves": "Foglie: 1234"
+        }
+      ],
+      "pot": "Vaso: 12,3 cm"
+    },
+    {
+      "locale": "pt-BR",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "Altura: 25,4 cm",
+          "leaves": "Folhas: 1234"
+        },
+        {
+          "imperial": true,
+          "height": "Altura: 10 pol.",
+          "leaves": "Folhas: 1234"
+        }
+      ],
+      "pot": "Vaso: 12,3 cm"
+    },
+    {
+      "locale": "pt-PT",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "Altura: 25,4 cm",
+          "leaves": "Folhas: 1234"
+        },
+        {
+          "imperial": true,
+          "height": "Altura: 10 pol.",
+          "leaves": "Folhas: 1234"
+        }
+      ],
+      "pot": "Vaso: 12,3 cm"
+    },
+    {
+      "locale": "nl-NL",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "Hoogte: 25,4 cm",
+          "leaves": "Bladeren: 1234"
+        },
+        {
+          "imperial": true,
+          "height": "Hoogte: 10 inch",
+          "leaves": "Bladeren: 1234"
+        }
+      ],
+      "pot": "Potdiameter: 12,3 cm"
+    },
+    {
+      "locale": "pl-PL",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "Wysokość: 25,4 cm",
+          "leaves": "Liście: 1234"
+        },
+        {
+          "imperial": true,
+          "height": "Wysokość: 10 cali",
+          "leaves": "Liście: 1234"
+        }
+      ],
+      "pot": "Doniczka: 12,3 cm"
+    },
+    {
+      "locale": "sv-SE",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "Höjd: 25,4 cm",
+          "leaves": "Blad: 1234"
+        },
+        {
+          "imperial": true,
+          "height": "Höjd: 10 tum",
+          "leaves": "Blad: 1234"
+        }
+      ],
+      "pot": "Kruka: 12,3 cm"
+    },
+    {
+      "locale": "ja-JP",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "高さ：25.4 cm",
+          "leaves": "葉の枚数：1234"
+        },
+        {
+          "imperial": true,
+          "height": "高さ：10インチ",
+          "leaves": "葉の枚数：1234"
+        }
+      ],
+      "pot": "鉢：12.3 cm"
+    },
+    {
+      "locale": "hi-IN",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "ऊँचाई: 25.4 सेमी",
+          "leaves": "पत्तियाँ: 1234"
+        },
+        {
+          "imperial": true,
+          "height": "ऊँचाई: 10 इंच",
+          "leaves": "पत्तियाँ: 1234"
+        }
+      ],
+      "pot": "गमला: 12.3 सेमी"
+    },
+    {
+      "locale": "ar",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "الارتفاع: ٢٥٫٤ سم",
+          "leaves": "الأوراق: ١٢٣٤"
+        },
+        {
+          "imperial": true,
+          "height": "الارتفاع: ١٠ بوصة",
+          "leaves": "الأوراق: ١٢٣٤"
+        }
+      ],
+      "pot": "الأصيص: ١٢٫٣ سم"
+    },
+    {
+      "locale": "tr-TR",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "Boy: 25,4 cm",
+          "leaves": "Yapraklar: 1234"
+        },
+        {
+          "imperial": true,
+          "height": "Boy: 10 inç",
+          "leaves": "Yapraklar: 1234"
+        }
+      ],
+      "pot": "Saksı: 12,3 cm"
+    },
+    {
+      "locale": "id-ID",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "Tinggi: 25,4 cm",
+          "leaves": "Daun: 1234"
+        },
+        {
+          "imperial": true,
+          "height": "Tinggi: 10 inci",
+          "leaves": "Daun: 1234"
+        }
+      ],
+      "pot": "Diameter pot: 12,3 cm"
+    },
+    {
+      "locale": "ko-KR",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "높이: 25.4 cm",
+          "leaves": "잎: 1234개"
+        },
+        {
+          "imperial": true,
+          "height": "높이: 10인치",
+          "leaves": "잎: 1234개"
+        }
+      ],
+      "pot": "화분: 12.3 cm"
+    },
+    {
+      "locale": "zh-CN",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "高度：25.4 厘米",
+          "leaves": "叶片：1234 片"
+        },
+        {
+          "imperial": true,
+          "height": "高度：10 英寸",
+          "leaves": "叶片：1234 片"
+        }
+      ],
+      "pot": "花盆：12.3 厘米"
+    },
+    {
+      "locale": "zh-TW",
+      "growthMeasurements": [
+        {
+          "imperial": false,
+          "height": "高度：25.4 公分",
+          "leaves": "葉片：1234 片"
+        },
+        {
+          "imperial": true,
+          "height": "高度：10 英吋",
+          "leaves": "葉片：1234 片"
+        }
+      ],
+      "pot": "花盆：12.3 公分"
+    }
+  ],
+  "humanApproval": false
+}

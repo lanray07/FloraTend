@@ -1,0 +1,21 @@
+
+com.floratend.app.LocaleTextLayoutTest:
+Error in allLocalesKeepOnboardingCoreAndEditorTextWithinLayout(com.floratend.app.LocaleTextLayoutTest):
+androidx.compose.ui.test.ComposeTimeoutException: Condition still not satisfied after 15000 ms
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitUntil(ComposeUiTest.android.kt:441)
+	at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitUntil(AndroidComposeTestRule.android.kt:306)
+	at com.floratend.app.LocaleTextLayoutTest.waitText(LocaleTextLayoutTest.kt:47)
+	at com.floratend.app.LocaleTextLayoutTest.allLocalesKeepOnboardingCoreAndEditorTextWithinLayout(LocaleTextLayoutTest.kt:99)
+
+
+Time: 28.862
+There was 1 failure:
+1) allLocalesKeepOnboardingCoreAndEditorTextWithinLayout(com.floratend.app.LocaleTextLayoutTest)
+androidx.compose.ui.test.ComposeTimeoutException: Condition still not satisfied after 15000 ms
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitUntil(ComposeUiTest.android.kt:441)
+	at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitUntil(AndroidComposeTestRule.android.kt:306)
+	at com.floratend.app.LocaleTextLayoutTest.waitText(LocaleTextLayoutTest.kt:47)
+	at com.floratend.app.LocaleTextLayoutTest.allLocalesKeepOnboardingCoreAndEditorTextWithinLayout(LocaleTextLayoutTest.kt:99)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1

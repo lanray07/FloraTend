@@ -1,0 +1,24 @@
+{
+  "variant": "hd10-font180",
+  "surfaces": [
+    {
+      "locale": "en-GB",
+      "surface": "onboarding-language",
+      "fontScale": 1.8,
+      "widthDp": 1280,
+      "heightDp": 728,
+      "measuredTextLayouts": 7,
+      "overflowTexts": [
+        "Welcome to FloraTend",
+        "Every plant deserves a little attention.",
+        "Language: English (United Kingdom)",
+        "FloraTend follows your device language. You can change it in settings.",
+        "Translations are previews and may contain mistakes. Choose a language you understand well.",
+        "Continue",
+        "Skip for now"
+      ]
+    }
+  ],
+  "humanApproval": false,
+  "scope": "Internal text-layout overflow and reachable actions; scrollable viewport clipping is separately inspected"
+}

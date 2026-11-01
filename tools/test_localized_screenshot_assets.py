@@ -3,6 +3,7 @@ import hashlib
 import json
 from pathlib import Path
 import unittest
+from PIL import Image, ImageChops, ImageOps
 
 from screenshots import validate_png
 
@@ -59,6 +60,20 @@ class LocalizedScreenshotAssets(unittest.TestCase):
             self.assertEqual(SCENES, {s['scene'] for s in locale['scenes']})
             for scene in locale['scenes']:
                 self.assertTrue((run / scene['file']).is_file())
+
+    def test_export_preserves_entire_native_capture_without_cropping(self):
+        # Compare the actual exported pixels, not just compositor declarations.
+        # Human wording/readability approval remains a separate release gate.
+        for row in self.manifest['screenshots']:
+            with self.subTest(locale=row['listing_locale'], scene=row['scene']):
+                with Image.open(ROOT / row['capture']) as raw:
+                    expected = ImageOps.contain(raw.convert('RGB'), (2360, 1150), Image.Resampling.LANCZOS)
+                x, y = (2560 - expected.width) // 2, 380
+                self.assertLessEqual(x + expected.width, 2560)
+                self.assertLessEqual(y + expected.height, 1600)
+                with Image.open(ROOT / row['export']) as exported:
+                    actual = exported.convert('RGB').crop((x, y, x + expected.width, y + expected.height))
+                self.assertIsNone(ImageChops.difference(expected, actual).getbbox())
 
 
 if __name__ == '__main__':

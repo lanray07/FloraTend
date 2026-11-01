@@ -1,0 +1,27 @@
+{
+  "mainVersionCode": 11,
+  "mainInstaller": "com.amazon.venezia",
+  "mainNondebuggable": true,
+  "freshPrivateQaBackupValidated": true,
+  "qaBackupSha256": "82a062d70e50cfd2ec3601ee35410c5dc56fa7c965df02289110d3af52c8d038",
+  "qaRecordCountsBeforeUninstall": {
+    "plants": 0,
+    "schedules": 0,
+    "journal": 0,
+    "history": 0
+  },
+  "packages": [
+    "package:com.floratend.app"
+  ],
+  "fontScale": "1.0",
+  "rotation": [
+    "1",
+    "0"
+  ],
+  "wifiOn": "1",
+  "wmSize": "Physical size: 1200x1920",
+  "wmDensity": "Physical density: 240",
+  "mainDataClearedOrPackageReplaced": false,
+  "librarySort": "By Title unchanged",
+  "protectedAppstoreForceStopped": false
+}

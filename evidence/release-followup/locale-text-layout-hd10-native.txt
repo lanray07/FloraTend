@@ -1,0 +1,21 @@
+
+com.floratend.app.LocaleTextLayoutTest:
+Error in allLocalesKeepOnboardingCoreAndEditorTextWithinLayout(com.floratend.app.LocaleTextLayoutTest):
+java.lang.AssertionError: Overflow on en-GB/onboarding-language: [Welcome to FloraTend, Every plant deserves a little attention., Language: English (United Kingdom), FloraTend follows your device language. You can change it in settings., Translations are previews and may contain mistakes. Choose a language you understand well., Continue, Skip for now]
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.floratend.app.LocaleTextLayoutTest.inspect(LocaleTextLayoutTest.kt:79)
+	at com.floratend.app.LocaleTextLayoutTest.allLocalesKeepOnboardingCoreAndEditorTextWithinLayout(LocaleTextLayoutTest.kt:86)
+
+
+Time: 6.911
+There was 1 failure:
+1) allLocalesKeepOnboardingCoreAndEditorTextWithinLayout(com.floratend.app.LocaleTextLayoutTest)
+java.lang.AssertionError: Overflow on en-GB/onboarding-language: [Welcome to FloraTend, Every plant deserves a little attention., Language: English (United Kingdom), FloraTend follows your device language. You can change it in settings., Translations are previews and may contain mistakes. Choose a language you understand well., Continue, Skip for now]
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.floratend.app.LocaleTextLayoutTest.inspect(LocaleTextLayoutTest.kt:79)
+	at com.floratend.app.LocaleTextLayoutTest.allLocalesKeepOnboardingCoreAndEditorTextWithinLayout(LocaleTextLayoutTest.kt:86)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1

@@ -1,6 +1,6 @@
-# Source 12 release follow-up — 1 November 2026
+# Source 12 release follow-up â€” 1 November 2026
 
-Development is **0.1.11 / code 12**, Room schema 2. The generated checklist records **164/204 PASS, 40 incomplete**: 64 of the 104 criteria open at the start of this continuation have scoped passing evidence. Overall release remains blocked. The actual Amazon-delivered app stays code 11; its genuine free LAT purchase, automatic strict server-gated Premium activation, owned Restore and offline/final online Restore passed. Source 12 has not been submitted or installed over that package.
+Development is **0.1.11 / code 12**, Room schema 2. The generated checklist records **170/204 PASS, 34 incomplete**: 70 of the 104 criteria open at the start of this continuation have scoped passing evidence. Overall release remains blocked. The actual Amazon-delivered app stays code 11; its genuine free LAT purchase, automatic strict server-gated Premium activation, owned Restore and offline/final online Restore passed. Source 12 has not been submitted or installed over that package.
 
 ## Implemented and tested
 
@@ -36,3 +36,20 @@ The earlier identification-provider choice/private-credentials question remains 
 Final source-12 captures regenerated176 actual offline scenes across22 app locales, followed by120 draft compositions for15 listing locales; hashes were checked. Human approvals remain zero. The final QA package was backed up privately, its four record tables verified empty, then removed. The nondebug performance fixture had a separate verified SQLite/photo backup before controlled cleanup; only then were its packages removed. Wi-Fi, font/size/density and original rotation were restored; only actual Amazon11 remains installed. [Final state](../evidence/release-followup/code12-final-device-state.json), [performance backup verification](../evidence/release-followup/code12-perf-cleanup-verified.json).
 
 The final supporting suite passed43 tests. No raw SDK logs, receipt/account identifiers, private invitation, APK or decrypted signing/server secret was added to Git. The latest evidence commit must pass its own exact-head CI; earlier4376141 / CI41326017146 succeeded before these source12 changes.
+
+
+## Additional locale and image contracts
+
+Native tests exercised real saved journal/detail measurements against independent Android ICU references and actual photo/card accessibility labels in all22 locales (two passing tests). A separate targeted native test passed textual paused/resume state, disabled action, selected category and switch state checks. These close formatting/accessibility/status contracts, not qualified wording review. Existing real DocumentsUI input selection/rotation and delegated camera launch/cancel evidence now closes the input-selection and permission criteria only. Actual camera capture and the unconfigured identification engine remain unverified.
+
+All120 exported screen regions were compared pixel for pixel with a fresh full native-source contain-resize; no native screenshot crop or pixel difference was found. This leaves headline naturalness, supporting captions and human readability separate. The supporting Python suite now passes44 tests.
+
+Large-font native layout verification was added separately. Initial harness failures are retained: Compose paragraph-box width did not equal visible label width, RTL line coordinates retained the paragraph alignment offset, and the scenario preserved the selected Journal tab after repeated onboarding. The measurement now checks actual line extents/ellipsis/height and explicitly navigates Garden. No production UI change was made on the basis of those harness failures. Results and scope are recorded alongside the native runs.
+
+Latest prior exact-head CI6395d982 /41330829920 succeeded. Additional test/evidence changes require their own exact-head CI.
+
+
+The final HD10 landscape native run passed242 bounded-text/editor/onboarding checks across22 locales at180% font. It explicitly recorded638 effectively unbounded horizontal-scroll text widths as unassessed, so it does not close the global text-expansion criterion. The earlier Arabic chip false-positive screenshots and failed measurement runs remain available for review. No production code was changed to satisfy a harness limitation.
+
+
+The OS-simulated compact portrait600x1024/density160 run also passed242 checks, with180% font, on the same physical HD10. This is simulated configuration coverage, not a second physical device. Both final report JSON files explicitly retain the unbounded-width limitation. AC07.05 remains incomplete. The fresh private QA backup was validated with all four record tables empty before uninstalling QA/test packages; only actualAmazon11 remains. Font1.0, physical display configuration, Wi-FiON and original rotation1/0 are restored. See `evidence/release-followup/locale-contract-final-device-state.json`.

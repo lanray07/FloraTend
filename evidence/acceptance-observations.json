@@ -2265,5 +2265,97 @@
       "docs/RELEASE_CODE12_20261101.md"
     ],
     "corrective_action": "Continue repeatable performance isolation and retest missed Garden/typed-Voice bounds; do not infer responsiveness from functional flows or earlier source10 profiling."
+  },
+  "AC-07.08": {
+    "test_name": "All-locale persisted measurement formatting",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10/API28; isolated code12 QA application; actual production composables and Android ICU reference",
+    "status": "PASS",
+    "actual_result": "Native real journal/detail text matched independent Android ICU formatting in all22 locales: metric/imperial height, leaf count, pot dimensions and localized digit shaping. Date/month references are covered by the preceding all-locale native suite.",
+    "evidence": [
+      "evidence/release-followup/locale-boundary-native.txt",
+      "evidence/release-followup/locale-boundaries/measurements.json",
+      "evidence/release-followup/code12-native-final.txt"
+    ],
+    "corrective_action": "Retain executed scope; qualified language approval and other release gates remain separate."
+  },
+  "AC-07.11": {
+    "test_name": "All-locale actual image/card accessibility labels",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10/API28; isolated code12 QA application; actual production composables and Android ICU reference",
+    "status": "PASS",
+    "actual_result": "Actual Photo and PlantCard composables expose translated photo/category labels and button role for all22 selected locales. Prior native surface tests cover translated microphone/speech controls. Draft wording approval remains separate.",
+    "evidence": [
+      "evidence/release-followup/locale-boundary-native.txt",
+      "evidence/release-followup/locale-boundaries/accessibility-labels.json",
+      "evidence/release-followup/code12-native-final.txt"
+    ],
+    "corrective_action": "Retain executed scope; qualified language approval and other release gates remain separate."
+  },
+  "AC-17.04": {
+    "test_name": "Text and semantics accompany status",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10/API28; isolated code12 QA application; actual production composables and Android ICU reference",
+    "status": "PASS",
+    "actual_result": "Native paused care exposes Paused/Resume text plus disabled care action; category chip selected semantics and dark-theme switch off/on semantics passed. Executed genuine Premium and speech/error states also expose text; status is not conveyed only through colour.",
+    "evidence": [
+      "evidence/release-followup/status-semantics-native.txt",
+      "evidence/release-followup/locale-boundaries/status-semantics.json",
+      "evidence/release-followup/code11-genuine-results.json"
+    ],
+    "corrective_action": "Retain executed scope; qualified language approval and other release gates remain separate."
+  },
+  "AC-11.01": {
+    "test_name": "Real system photo input selection",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10/API28; isolated code12 QA application; actual production composables and Android ICU reference",
+    "status": "PASS",
+    "actual_result": "Real DocumentsUI image selection and private import passed for plant and journal editors through rotation. Stock camera explicit launch/cancel passed separately. This closes photo input selection only; no actual camera capture or identification-engine result is claimed.",
+    "evidence": [
+      "evidence/release-followup/photo-rotation-final.txt",
+      "evidence/release-followup/camera-delegation.txt",
+      "evidence/release-followup/camera-delegation/results.json"
+    ],
+    "corrective_action": "Retain executed scope; qualified language approval and other release gates remain separate."
+  },
+  "AC-11.02": {
+    "test_name": "OS photo grants and delegated camera permission",
+    "execution_date": "2026-11-01",
+    "environment": "Physical Fire HD10/API28; isolated code12 QA application; actual production composables and Android ICU reference",
+    "status": "PASS",
+    "actual_result": "Actual OS content picker grants allowed selected-image private import across rotation. Explicit stock-camera delegation launched and cancelled while app CAMERA permission remained denied before/after; draft/files were preserved. Identification upload consent and configured engine remain separate gates.",
+    "evidence": [
+      "evidence/release-followup/photo-rotation-final.txt",
+      "evidence/release-followup/camera-delegation.txt",
+      "evidence/release-followup/camera-delegation/results.json"
+    ],
+    "corrective_action": "Retain executed scope; qualified language approval and other release gates remain separate."
+  },
+  "AC-08.08": {
+    "test_name": "Full native-image pixel preservation across120 exports",
+    "execution_date": "2026-11-01",
+    "environment": "Windows/Python/Pillow; all15 listing locales x8 source12 native offline scenes",
+    "status": "PASS",
+    "actual_result": "Every exported native-screen region matched a fresh full-source contain-resize pixel for pixel with no crop; full resized region stays inside2560x1600. PNG integrity and captured/export hashes also passed. This proves preservation of the native frame; translated readability and supporting captions remain separate incomplete gates.",
+    "evidence": [
+      "evidence/release-followup/screenshot-full-frame-native-pixels.txt",
+      "assets/screenshots/localized/localized-manifest.json",
+      "tools/test_localized_screenshot_assets.py"
+    ],
+    "corrective_action": "Retain separate qualified language/readability review; no human approval inferred."
+  },
+  "AC-07.05": {
+    "test_name": "All22locale enlarged bounded-text coverage, partial gate",
+    "execution_date": "2026-11-01",
+    "environment": "Physical FireHD10/API28; native HD10landscape and OS-simulated600x1024/density160portrait; fontScale1.8; isolatedQA12",
+    "status": "NOT TESTED",
+    "actual_result": "Both native runs passed242 surface checks each across22locales: three onboarding steps, six core screens and two editors. Bounded line extents/ellipsis/height and reached workflow controls passed. Effectively unbounded horizontal-scroll text width and complete scrolled viewport review remain unassessed, so global expansion gate stays incomplete. Initial harness measurement/navigation failures retained.",
+    "evidence": [
+      "evidence/release-followup/locale-layout-hd10-bounded-native.txt",
+      "evidence/release-followup/locale-layout-hd10-bounded/results.json",
+      "evidence/release-followup/locale-layout-fire7-portrait-bounded-native.txt",
+      "evidence/release-followup/locale-layout-fire7-portrait-bounded/results.json"
+    ],
+    "corrective_action": "Complete horizontal-scroll width/viewport inspection and qualified locale layout review; do not infer separate physical7inch hardware coverage."
   }
 }

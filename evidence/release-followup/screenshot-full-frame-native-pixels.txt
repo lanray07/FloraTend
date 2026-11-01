@@ -1,0 +1,9 @@
+test_all_app_locales_captured_offline (test_localized_screenshot_assets.LocalizedScreenshotAssets) ... ok
+test_complete_unique_locale_scene_matrix (test_localized_screenshot_assets.LocalizedScreenshotAssets) ... ok
+test_export_preserves_entire_native_capture_without_cropping (test_localized_screenshot_assets.LocalizedScreenshotAssets) ... ok
+test_png_integrity_and_native_capture_provenance (test_localized_screenshot_assets.LocalizedScreenshotAssets) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 30.728s
+
+OK

@@ -1,0 +1,12 @@
+{
+  "locales": [
+    {
+      "locale": "en-GB",
+      "pausedAndResumeText": true,
+      "disabledActionSemantics": true,
+      "categorySelectedSemantics": true,
+      "switchToggleState": true
+    }
+  ],
+  "humanApproval": false
+}

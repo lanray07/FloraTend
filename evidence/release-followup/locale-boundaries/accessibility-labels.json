@@ -1,0 +1,137 @@
+{
+  "locales": [
+    {
+      "locale": "en-GB",
+      "photoLabel": "Saved plant photograph",
+      "cardLabel": "Controlled herb. Scientific identifier. Herbs. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "en-US",
+      "photoLabel": "Saved plant photograph",
+      "cardLabel": "Controlled herb. Scientific identifier. Herbs. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "en-AU",
+      "photoLabel": "Saved plant photograph",
+      "cardLabel": "Controlled herb. Scientific identifier. Herbs. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "es-ES",
+      "photoLabel": "Fotografía guardada de la planta",
+      "cardLabel": "Controlled herb. Scientific identifier. Hierbas aromáticas. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "es-419",
+      "photoLabel": "Fotografía guardada de la planta",
+      "cardLabel": "Controlled herb. Scientific identifier. Hierbas aromáticas. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "fr-FR",
+      "photoLabel": "Photo enregistrée de la plante",
+      "cardLabel": "Controlled herb. Scientific identifier. Plantes aromatiques. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "fr-CA",
+      "photoLabel": "Photo enregistrée de la plante",
+      "cardLabel": "Controlled herb. Scientific identifier. Plantes aromatiques. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "de-DE",
+      "photoLabel": "Gespeichertes Pflanzenfoto",
+      "cardLabel": "Controlled herb. Scientific identifier. Kräuter. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "it-IT",
+      "photoLabel": "Fotografia salvata della pianta",
+      "cardLabel": "Controlled herb. Scientific identifier. Erbe aromatiche. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "pt-BR",
+      "photoLabel": "Fotografia salva da planta",
+      "cardLabel": "Controlled herb. Scientific identifier. Ervas aromáticas. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "pt-PT",
+      "photoLabel": "Fotografia guardada da planta",
+      "cardLabel": "Controlled herb. Scientific identifier. Ervas aromáticas. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "nl-NL",
+      "photoLabel": "Opgeslagen plantenfoto",
+      "cardLabel": "Controlled herb. Scientific identifier. Kruiden. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "pl-PL",
+      "photoLabel": "Zapisane zdjęcie rośliny",
+      "cardLabel": "Controlled herb. Scientific identifier. Zioła. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "sv-SE",
+      "photoLabel": "Sparat växtfoto",
+      "cardLabel": "Controlled herb. Scientific identifier. Örter. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "ja-JP",
+      "photoLabel": "保存済みの植物の写真",
+      "cardLabel": "Controlled herb. Scientific identifier. ハーブ. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "hi-IN",
+      "photoLabel": "पौधे की सहेजी गई फ़ोटो",
+      "cardLabel": "Controlled herb. Scientific identifier. जड़ी-बूटियाँ. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "ar",
+      "photoLabel": "صورة النبات المحفوظة",
+      "cardLabel": "Controlled herb. Scientific identifier. الأعشاب. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "tr-TR",
+      "photoLabel": "Kaydedilmiş bitki fotoğrafı",
+      "cardLabel": "Controlled herb. Scientific identifier. Otlar. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "id-ID",
+      "photoLabel": "Foto tanaman tersimpan",
+      "cardLabel": "Controlled herb. Scientific identifier. Herba. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "ko-KR",
+      "photoLabel": "저장된 식물 사진",
+      "cardLabel": "Controlled herb. Scientific identifier. 허브. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "zh-CN",
+      "photoLabel": "已保存的植物照片",
+      "cardLabel": "Controlled herb. Scientific identifier. 香草植物. Controlled room",
+      "cardButtonRole": true
+    },
+    {
+      "locale": "zh-TW",
+      "photoLabel": "已儲存的植物照片",
+      "cardLabel": "Controlled herb. Scientific identifier. 香草植物. Controlled room",
+      "cardButtonRole": true
+    }
+  ],
+  "humanApproval": false
+}

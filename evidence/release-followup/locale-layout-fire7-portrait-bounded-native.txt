@@ -1,0 +1,6 @@
+
+com.floratend.app.LocaleTextLayoutTest:.
+
+Time: 74.843
+
+OK (1 test)

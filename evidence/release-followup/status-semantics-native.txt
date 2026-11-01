@@ -1,0 +1,6 @@
+
+com.floratend.app.LocaleBoundaryTest:.
+
+Time: 9.198
+
+OK (1 test)
