@@ -9,4 +9,5 @@
   <string name="identification_error">"पहचान उपलब्ध नहीं है। फिर कोशिश करें या प्रजाति स्वयं लिखें।"</string>
   <string name="identification_terms">"Pl@ntNet · शर्तें और गोपनीयता"</string>
   <string name="identification_consent">"सुझावों के लिए यह फ़ोटो Pl@ntNet को भेजें? FloraTend इसे अपने सर्वर से बिना वहाँ सहेजे आगे भेजता है। Pl@ntNet चित्र को संसाधित करता है और अनुरोध का मेटाडेटा रखता है। फ़ोटो भेजें चुनने तक कोई अपलोड नहीं होता।"</string>
+  <string name="identification_settings">"वैकल्पिक फ़ोटो पहचान में Pl@ntNet का उपयोग फ़ोटो भेजें चुनने के बाद ही होता है। आप प्रजाति स्वयं लिख सकते हैं।"</string>
 </resources>

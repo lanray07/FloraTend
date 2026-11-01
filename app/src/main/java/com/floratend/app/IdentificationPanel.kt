@@ -2,11 +2,14 @@ package com.floratend.app
 
 import androidx.activity.compose.LocalActivity
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.Modifier
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -48,7 +51,7 @@ import java.util.UUID
         }
         if(photo!=null)TextButton(onClick={uri.openUri("https://my.plantnet.org/terms_of_use")}) { Text(s(R.string.identification_terms)) }
     }
-    if(consent)AlertDialog(onDismissRequest={consent=false},title={Text(s(R.string.identify_photo))},text={Text(s(R.string.identification_consent))},
-        confirmButton={TextButton(onClick={consent=false;photo?.let { model.bind(it);model.send(it,context.resources.configuration.locales[0].language) }}){Text(s(R.string.send_photo))}},
+    if(consent)AlertDialog(onDismissRequest={consent=false},title={Text(s(R.string.identify_photo))},text={Text(s(R.string.identification_consent),Modifier.verticalScroll(rememberScrollState()))},
+        confirmButton={TextButton(onClick={consent=false;photo?.let { model.bind(it);model.send(it,context.resources.configuration.locales[0].toLanguageTag()) }}){Text(s(R.string.send_photo))}},
         dismissButton={TextButton(onClick={consent=false}){Text(s(R.string.cancel))}})
 }

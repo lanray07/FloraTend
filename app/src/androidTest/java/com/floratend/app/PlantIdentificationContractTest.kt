@@ -54,4 +54,10 @@ class PlantIdentificationContractTest {
             assertThrows(IllegalArgumentException::class.java) {ServerPlantIdentifier.privatePhoto(app,oversized.path)}
         } finally {outside.delete();oversized.delete()}
     }
+    @Test fun androidPlatformJsonParsesAndRejectsUnsafeServerResults() {
+        val json="""{"provider":"plantnet","state":"identified","language":"en","results":[{"scientificName":"Ajuga genevensis","commonNames":["Blue bugle"],"score":0.9}]}"""
+        assertEquals("Ajuga genevensis",(parseIdentification(json) as IdentificationResult.Suggestions).items.single().scientificName)
+        assertThrows(IllegalArgumentException::class.java) {parseIdentification(json.replace("0.9","\"0.9\""))}
+        assertThrows(IllegalArgumentException::class.java) {parseIdentification(json.replace("Ajuga genevensis","https://bad.example"))}
+    }
 }

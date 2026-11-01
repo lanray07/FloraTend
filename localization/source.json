@@ -59,6 +59,12 @@
       "value": "\"Send this selected photo to Pl@ntNet for suggestions? FloraTend forwards it through its server without saving it there. Pl@ntNet processes the image and retains request metadata. No upload occurs until you choose Send photo.\""
     }
   },
+  "identification_settings": {
+    "type": "string",
+    "values": {
+      "value": "\"Optional photo identification uses Pl@ntNet only after you choose Send photo. You can enter the species manually.\""
+    }
+  },
   "acquired": {
     "type": "string",
     "values": {

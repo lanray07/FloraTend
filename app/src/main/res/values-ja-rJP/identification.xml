@@ -9,4 +9,5 @@
   <string name="identification_error">"識別できません。再試行するか、種名を入力してください。"</string>
   <string name="identification_terms">"Pl@ntNet · 利用規約とプライバシー"</string>
   <string name="identification_consent">"候補を調べるため、この写真をPl@ntNetに送信しますか？FloraTendのサーバーを経由しますが、そこで写真は保存されません。Pl@ntNetは画像を処理し、リクエストのメタデータを保持します。「写真を送信」を選ぶまでアップロードされません。"</string>
+  <string name="identification_settings">"任意の写真識別では「写真を送信」を選んだ場合のみPl@ntNetを使用します。種名は手動でも入力できます。"</string>
 </resources>

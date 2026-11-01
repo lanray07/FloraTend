@@ -102,7 +102,7 @@ import java.time.LocalDate
         TextButton(onClick={app.billing.restore()}){Text(s(R.string.restore))};if(message.isNotEmpty()) Text(message)
         Text(s(R.string.export_notice));Row{TextButton(enabled=premium,onClick={pendingExport="json";exporter.launch("floratend.json")}){Text(s(R.string.export_json))};TextButton(enabled=premium,onClick={pendingExport="csv";exporter.launch("floratend.csv")}){Text(s(R.string.export_csv))}}
         Text(status)
-        Text(s(R.string.identification_unavailable),modifier=Modifier.padding(vertical=16.dp));Text(s(R.string.language_pending));Text(s(R.string.privacy_intro),modifier=Modifier.padding(vertical=16.dp));Text(s(R.string.backup_unavailable));TextButton(onClick={wipe=true}){Text(s(R.string.delete_all))}
+        Text(s(if(app.plantIdentifier.available) R.string.identification_settings else R.string.identification_unavailable),modifier=Modifier.padding(vertical=16.dp));Text(s(R.string.language_pending));Text(s(R.string.privacy_intro),modifier=Modifier.padding(vertical=16.dp));Text(s(R.string.backup_unavailable));TextButton(onClick={wipe=true}){Text(s(R.string.delete_all))}
     }
     if(wipe) Confirm(s(R.string.delete_all),{wipe=false}){vm.wipe();wipe=false}
 }

@@ -61,7 +61,7 @@ test_unconfigured_site_fails_production_validation (test_supporting_tools.Websit
 test_unsafe_origins_rejected (test_supporting_tools.WebsiteTests) ... ok
 
 ----------------------------------------------------------------------
-Ran 60 tests in 44.054s
+Ran 60 tests in 30.808s
 
 OK
 {

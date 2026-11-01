@@ -9,4 +9,5 @@
   <string name="identification_error">"التعرّف غير متاح. حاول مجددًا أو أدخل النوع يدويًا."</string>
   <string name="identification_terms">"Pl@ntNet · الشروط والخصوصية"</string>
   <string name="identification_consent">"هل تريد إرسال هذه الصورة إلى Pl@ntNet للحصول على اقتراحات؟ يمرّرها FloraTend عبر خادمه دون حفظها فيه. يعالج Pl@ntNet الصورة ويحتفظ بالبيانات الوصفية للطلب. لن تُرفع الصورة حتى تختار إرسال الصورة."</string>
+  <string name="identification_settings">"يستخدم التعرّف الاختياري Pl@ntNet فقط بعد اختيار إرسال الصورة. يمكنك إدخال النوع يدويًا."</string>
 </resources>

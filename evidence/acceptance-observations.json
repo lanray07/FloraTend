@@ -1,27 +1,32 @@
 {
   "AC-07.01": {
     "test_name": "Requested interface locale audit",
-    "execution_date": "2026-10-30",
+    "execution_date": "2026-11-01",
     "environment": "Windows / Python 3.10 / Android resource source audit",
     "status": "BLOCKED",
-    "actual_result": "All22 packaged locale bundles contain172 translatable resources with zero structural/placeholder validation errors. All remain assistant drafts without qualified human approval tied to current source hash. Real engine availability is separate.",
+    "actual_result": "Source13 host audit measures183 translatable resources in each of22 locale bundles with zero structural/placeholder errors. Modular XML copy is included in extraction and review digests. Qualified human approvals remain0/22. Earlier native source12 layout evidence does not verify the new identification copy.",
     "evidence": [
       "localization/validation-report.json",
       "localization/review.json",
-      "evidence/release-next/localization-validation.txt"
+      "evidence/release-next/localization-validation.txt",
+      "docs/PLANTNET_INTEGRATION_20261101.md",
+      "evidence/identification/verification.json"
     ],
     "corrective_action": "Translate, validate, render and review every release-approved interface locale."
   },
   "AC-07.14": {
     "test_name": "Human linguistic approval audit",
     "status": "BLOCKED",
-    "actual_result": "All22 packaged locale bundles contain172 translatable resources with zero structural/placeholder validation errors. All remain assistant drafts without qualified human approval tied to current source hash. Real engine availability is separate.",
+    "actual_result": "Source13 host audit measures183 translatable resources in each of22 locale bundles with zero structural/placeholder errors. Modular XML copy is included in extraction and review digests. Qualified human approvals remain0/22. Earlier native source12 layout evidence does not verify the new identification copy.",
     "evidence": [
       "localization/validation-report.json",
       "localization/review.json",
-      "evidence/release-next/localization-validation.txt"
+      "evidence/release-next/localization-validation.txt",
+      "docs/PLANTNET_INTEGRATION_20261101.md",
+      "evidence/identification/verification.json"
     ],
-    "corrective_action": "Obtain qualified human review tied to the exact current source hash."
+    "corrective_action": "Obtain qualified human review tied to the exact current source hash.",
+    "execution_date": "2026-11-01"
   },
   "AC-08.01": {
     "test_name": "Complete localized screenshot export matrix",
@@ -1779,7 +1784,7 @@
     "execution_date": "2026-11-01",
     "environment": "Physical Fire HD10 KFTRWI API28; isolated QA package; simulated sizes where stated; source0.1.8/9 code9/10 per run logs",
     "test_name": "120 saved photographs without memory failure",
-    "actual_result": "Physical HD10 scrolled120 distinct private photographs after source3200x2400 import. All120files remained, no decode/OOM/crash observed; PSS115711→128565KiB. FrameP95 in debug/instrumentation was slow and is not approved as smooth.",
+    "actual_result": "Physical HD10 scrolled120 distinct private photographs after source3200x2400 import. All120files remained, no decode/OOM/crash observed; PSS115711â†’128565KiB. FrameP95 in debug/instrumentation was slow and is not approved as smooth.",
     "evidence": [
       "evidence/release-next/photo-regression.txt",
       "evidence/release-next/performance/photo-collection.json"
@@ -1850,7 +1855,7 @@
     "execution_date": "2026-11-01",
     "environment": "Python3.10; local draft files; official Amazon pages rechecked1November",
     "test_name": "Localized full description draft preparation",
-    "actual_result": "All15 locale drafts have nonempty full descriptions below4000characters and3–5nonemptyfeaturebullets. Qualified linguistic/claims approval remains pending.",
+    "actual_result": "All15 locale drafts have nonempty full descriptions below4000characters and3â€“5nonemptyfeaturebullets. Qualified linguistic/claims approval remains pending.",
     "evidence": [
       "evidence/release-next/metadata-audit.json"
     ],
@@ -2181,7 +2186,7 @@
     "status": "PASS",
     "corrective_action": "Keep qualified human wording approval and real multilingual speech-engine verification separate.",
     "test_name": "Compiled plural selection across all22 locales",
-    "actual_result": "572 comparisons (22locales ×2plurals ×13counts) matched Android ICU selected categories and the exact source form. Includes Arabic zero/one/two/few/many/other and Polish categories. Grammar itself remains unapproved draft wording.",
+    "actual_result": "572 comparisons (22locales Ã—2plurals Ã—13counts) matched Android ICU selected categories and the exact source form. Includes Arabic zero/one/two/few/many/other and Polish categories. Grammar itself remains unapproved draft wording.",
     "evidence": [
       "app/src/androidTest/java/com/floratend/app/LocalizedSurfaceContractTest.kt",
       "evidence/release-followup/localized-surface-contracts.txt",
@@ -2413,5 +2418,66 @@
       "evidence/release-followup/supporting-captions-portable-provenance-validation.txt"
     ],
     "corrective_action": "Keep all captions and listings marked drafts until qualified human review; no market-language approval inferred."
+  },
+  "AC-11.03": {
+    "test_name": "Live Pl@ntNet integration prerequisites",
+    "execution_date": "2026-11-01",
+    "environment": "Windows host; development0.1.12/code13; no connected ADB device",
+    "status": "BLOCKED",
+    "actual_result": "User selected the free tier. Private key/account setup is pending; no server deployment or genuine identification request occurred. The client and bounded server proxy are implemented and host contracts pass. Default endpoint is empty, so normal builds cannot upload. Synthetic/local SQLite tests do not establish live engine operation.",
+    "evidence": [
+      "docs/PLANTNET_INTEGRATION_20261101.md",
+      "evidence/identification/verification.json",
+      "evidence/identification/server-contracts.txt"
+    ],
+    "corrective_action": "Complete private free-account key setup, verify the free-only server configuration and perform an explicitly consented genuine photo identification on the isolated QA app."
+  },
+  "AC-11.04": {
+    "test_name": "Identification consent and editable-result contracts, native pending",
+    "execution_date": "2026-11-01",
+    "environment": "Source13 host JVM/Node contracts; native tests compiled, no ADB device",
+    "status": "NOT TESTED",
+    "actual_result": "Implemented per-request disclosure, manual entry, possible-match scores, explicit species selection/correction and bounded failure/cancellation states. Host tests cover no-send-before-action, late-response rejection and current-photo-only selection. Native consent/correction, file boundaries and Android JSON tests remain unexecuted; no genuine provider result is claimed.",
+    "evidence": [
+      "docs/PLANTNET_INTEGRATION_20261101.md",
+      "evidence/identification/verification.json"
+    ],
+    "corrective_action": "Reconnect the authorized tablet, run the isolated QA native contracts and execute the configured provider flow; retain actual UI/data evidence before passing."
+  },
+  "AC-11.05": {
+    "test_name": "Identification consent and editable-result contracts, native pending",
+    "execution_date": "2026-11-01",
+    "environment": "Source13 host JVM/Node contracts; native tests compiled, no ADB device",
+    "status": "NOT TESTED",
+    "actual_result": "Implemented per-request disclosure, manual entry, possible-match scores, explicit species selection/correction and bounded failure/cancellation states. Host tests cover no-send-before-action, late-response rejection and current-photo-only selection. Native consent/correction, file boundaries and Android JSON tests remain unexecuted; no genuine provider result is claimed.",
+    "evidence": [
+      "docs/PLANTNET_INTEGRATION_20261101.md",
+      "evidence/identification/verification.json"
+    ],
+    "corrective_action": "Reconnect the authorized tablet, run the isolated QA native contracts and execute the configured provider flow; retain actual UI/data evidence before passing."
+  },
+  "AC-11.06": {
+    "test_name": "Identification consent and editable-result contracts, native pending",
+    "execution_date": "2026-11-01",
+    "environment": "Source13 host JVM/Node contracts; native tests compiled, no ADB device",
+    "status": "NOT TESTED",
+    "actual_result": "Implemented per-request disclosure, manual entry, possible-match scores, explicit species selection/correction and bounded failure/cancellation states. Host tests cover no-send-before-action, late-response rejection and current-photo-only selection. Native consent/correction, file boundaries and Android JSON tests remain unexecuted; no genuine provider result is claimed.",
+    "evidence": [
+      "docs/PLANTNET_INTEGRATION_20261101.md",
+      "evidence/identification/verification.json"
+    ],
+    "corrective_action": "Reconnect the authorized tablet, run the isolated QA native contracts and execute the configured provider flow; retain actual UI/data evidence before passing."
+  },
+  "AC-11.07": {
+    "test_name": "Identification consent and editable-result contracts, native pending",
+    "execution_date": "2026-11-01",
+    "environment": "Source13 host JVM/Node contracts; native tests compiled, no ADB device",
+    "status": "NOT TESTED",
+    "actual_result": "Implemented per-request disclosure, manual entry, possible-match scores, explicit species selection/correction and bounded failure/cancellation states. Host tests cover no-send-before-action, late-response rejection and current-photo-only selection. Native consent/correction, file boundaries and Android JSON tests remain unexecuted; no genuine provider result is claimed.",
+    "evidence": [
+      "docs/PLANTNET_INTEGRATION_20261101.md",
+      "evidence/identification/verification.json"
+    ],
+    "corrective_action": "Reconnect the authorized tablet, run the isolated QA native contracts and execute the configured provider flow; retain actual UI/data evidence before passing."
   }
 }

@@ -41,14 +41,14 @@ interface PlantIdentifier {
 /** A public server address only. Provider keys, receipt identifiers and notes never enter this transport. */
 class ServerPlantIdentifier(private val context:Context,private val endpoint:String=BuildConfig.PLANT_IDENTIFIER_URL):PlantIdentifier {
     override val available:Boolean get()=configuredIdentifier(endpoint)
-    private val client=OkHttpClient.Builder().followRedirects(false).followSslRedirects(false)
+    private val client by lazy { OkHttpClient.Builder().followRedirects(false).followSslRedirects(false).retryOnConnectionFailure(false)
         .callTimeout(22,TimeUnit.SECONDS).connectTimeout(8,TimeUnit.SECONDS)
-        .readTimeout(18,TimeUnit.SECONDS).writeTimeout(10,TimeUnit.SECONDS).build()
+        .readTimeout(18,TimeUnit.SECONDS).writeTimeout(10,TimeUnit.SECONDS).build() }
     override suspend fun identify(photo:String,language:String):IdentificationResult {
         if(!available)return IdentificationResult.Unavailable
         return try {
             val bytes=withContext(Dispatchers.IO) { privatePhoto(context,photo) }
-            val lang=language.lowercase(Locale.ROOT).takeIf { it.matches(Regex("[a-z]{2}")) } ?: "en"
+            val lang=identificationLanguage(language)
             val request=Request.Builder().url("$endpoint?lang=$lang")
                 .header("X-FloraTend-Photo-Consent","plantnet-photo-v1")
                 .post(bytes.toRequestBody("image/jpeg".toMediaType())).build()
@@ -65,7 +65,10 @@ class ServerPlantIdentifier(private val context:Context,private val endpoint:Str
                                     val stream=it.body?.byteStream() ?: return@use IdentificationResult.Unavailable
                                     val bytes=stream.readBounded(65536)
                                     require(bytes.size<=65536)
-                                    parseIdentification(bytes.toString(Charsets.UTF_8))
+                                    when(val parsed=parseIdentification(bytes.toString(Charsets.UTF_8))) {
+                                        is IdentificationResult.Suggestions -> if(identificationCommonNamesAllowed(language))parsed else IdentificationResult.Suggestions(parsed.items.map { item -> item.copy(commonNames=emptyList()) })
+                                        else -> parsed
+                                    }
                                 }
                                 else -> IdentificationResult.Unavailable
                             }
@@ -91,6 +94,10 @@ class ServerPlantIdentifier(private val context:Context,private val endpoint:Str
 }
 
 internal fun configuredIdentifier(endpoint:String):Boolean=runCatching { URI(endpoint).let { it.scheme=="https" && !it.host.isNullOrBlank() && it.path=="/identify" && it.userInfo==null && it.query==null && it.fragment==null } }.getOrDefault(false)
+
+internal fun identificationLanguage(tag:String):String = Locale.forLanguageTag(tag).language.lowercase(Locale.ROOT).takeIf { it.matches(Regex("[a-z]{2}")) } ?: "en"
+// Until a Traditional Chinese provider route is verified, avoid an unverified script fallback.
+internal fun identificationCommonNamesAllowed(tag:String):Boolean = Locale.forLanguageTag(tag).let { it.language!="zh" || (it.script!="Hant" && it.country !in setOf("TW","HK","MO")) }
 
 internal fun java.io.InputStream.readBounded(maximum:Int):ByteArray {
     val output=java.io.ByteArrayOutputStream()

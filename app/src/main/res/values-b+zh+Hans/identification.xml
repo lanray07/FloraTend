@@ -9,4 +9,5 @@
   <string name="identification_error">"暂时无法识别。请重试或手动输入物种。"</string>
   <string name="identification_terms">"Pl@ntNet · 条款和隐私"</string>
   <string name="identification_consent">"将这张照片发送至Pl@ntNet以获取建议？FloraTend通过自己的服务器转发照片，但不会在服务器上保存。Pl@ntNet会处理图像并保留请求元数据。只有选择“发送照片”后才会上传。"</string>
+  <string name="identification_settings">"可选的照片识别仅在您选择“发送照片”后使用Pl@ntNet。您也可以手动输入物种。"</string>
 </resources>

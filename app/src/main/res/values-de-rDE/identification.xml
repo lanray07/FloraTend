@@ -9,4 +9,5 @@
   <string name="identification_error">"Bestimmung nicht verfügbar. Versuche es erneut oder gib die Art selbst ein."</string>
   <string name="identification_terms">"Pl@ntNet · Bedingungen und Datenschutz"</string>
   <string name="identification_consent">"Dieses Foto für Vorschläge an Pl@ntNet senden? FloraTend leitet es über seinen Server weiter, ohne es dort zu speichern. Pl@ntNet verarbeitet das Bild und bewahrt Anfragemetadaten auf. Erst mit Foto senden wird es hochgeladen."</string>
+  <string name="identification_settings">"Die optionale Fotobestimmung nutzt Pl@ntNet erst nach deiner Wahl Foto senden. Du kannst die Art selbst eingeben."</string>
 </resources>

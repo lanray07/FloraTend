@@ -9,4 +9,5 @@
   <string name="identification_error">"Herkenning niet beschikbaar. Probeer opnieuw of voer de soort zelf in."</string>
   <string name="identification_terms">"Pl@ntNet · Voorwaarden en privacy"</string>
   <string name="identification_consent">"Deze foto naar Pl@ntNet sturen voor suggesties? FloraTend stuurt deze via zijn server door zonder deze daar op te slaan. Pl@ntNet verwerkt de afbeelding en bewaart verzoekmetadata. Er wordt pas geüpload als je Foto verzenden kiest."</string>
+  <string name="identification_settings">"Optionele fotoherkenning gebruikt Pl@ntNet pas nadat je Foto verzenden kiest. Je kunt de soort zelf invoeren."</string>
 </resources>

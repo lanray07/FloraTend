@@ -1,4 +1,4 @@
-# Pl@ntNet integration — code13, verification in progress
+# Pl@ntNet integration â€” code13, verification in progress
 
 The user selected the Pl@ntNet free tier on1November2026. Development is now0.1.12/code13. A real private key was not present at the initial check. `tools/configure_plantnet_key.ps1` is ready; its CurrentUserDPAPI self-test passed. The user requested account/key help; the official developer signup page is open for their password/verification steps. No live identification, deployment or account creation is claimed.
 
@@ -41,11 +41,11 @@ The release remains blocked; selecting the provider or passing a fixture test do
 
 ## Host verification
 
-Six new Android JVM regressions execute real org.json parsing plus bounded reads, HTTPS configuration, no-send-before-explicit-action, duplicate-request suppression, cancellation/photo-change late-response rejection and current-photo-only selection. Both debug and release JVM suites each pass33tests, plus6core tests. A debug APK and debug instrumentation APK have been built. Lint and exact-headCI completion are tracked separately; no native runtime pass is inferred from compilation.
+Seven new Android JVM regressions execute real org.json parsing plus bounded reads, HTTPS configuration, no-send-before-explicit-action, duplicate-request suppression, cancellation/photo-change late-response rejection and current-photo-only selection. Both debug and release JVM suites each pass34tests, plus6core tests. A debug APK and debug instrumentation APK have been built. Lint and exact-headCI completion are tracked separately; no native runtime pass is inferred from compilation.
 
 Twenty pure Node identification contracts plus one real local workerd/SQLite test and six unchanged receipt contracts pass. The SQLite test uses the actual production budget class with a test-only bridge/subclass; expiry cases seed old timestamps and invoke the actual cleanup alarm, without pretending a UTC day naturally elapsed. Initial Miniflare v4-style options failed against the pinned v5 beta; the explicit compatibility converter fixes that harness. The pinned runtime supports30October, so the new Worker uses2026-10-30 compatibility. These are local tests, not Cloudflare deployment proof.
 
-The new Worker bundle passes Wrangler dry-run without secret values. Daily quota, language list, identification redirects/errors, no-match404, bounded output, safe-name/score filtering and synchronous release-failure handling are covered. Sixty supporting tests pass. Localization now measures modular XML resources too:182translatable entries per locale, zero structural/placeholder errors,22pending human reviews. Translation output preserves file partitions and includes all copy in the review digest. Existing source12 screenshot caption provenance remains bound to unchanged original resource files.
+The new Worker bundle passes Wrangler dry-run without secret values. Daily quota, language list, identification redirects/errors, no-match404, bounded output, safe-name/score filtering and synchronous release-failure handling are covered. Sixty supporting tests pass. Localization now measures modular XML resources too:183translatable entries per locale, zero structural/placeholder errors,22pending human reviews. Translation output preserves file partitions and includes all copy in the review digest. Existing source12 screenshot caption provenance remains bound to unchanged original resource files.
 
 Reproduction:
 
@@ -73,3 +73,9 @@ Localization validation intentionally exits nonzero until qualified reviews are 
 - [CloudflareFree SQLite Durable Objects](https://developers.cloudflare.com/durable-objects/platform/pricing/)
 
 References were inspected1November2026. Publisher review must approve the final disclosures, attribution and use terms; no legal-compliance certification is made.
+
+## Final client refinements
+
+Full UI language tags are reduced to the requested ISO language for the provider. Traditional Chinese keeps scientific names and omits unverified common-name script fallbacks. A seventh JVM test covers these mappings. Consent text scrolls at large font sizes; the HTTP client is initialized only when needed and connection-failure replay is disabled for photo POSTs. Configured Settings copy now describes the explicit Sendphoto action. All22 bundles include that additional copy. Three QA native contracts cover consent/choice/correction, private-file boundaries and Android-platform JSON; none has executed on the disconnected tablet.
+
+The earlier implementation commit865b9ea passed both local lints and exact CI41341762555. Final refinements require the latest-head CI again. Current lint results are tracked in the verification snapshot; a compile or fixture pass still cannot close the genuine provider/native criteria.

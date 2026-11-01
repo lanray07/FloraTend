@@ -9,4 +9,5 @@
   <string name="identification_error">"Rozpoznawanie jest niedostępne. Spróbuj ponownie lub wpisz gatunek."</string>
   <string name="identification_terms">"Pl@ntNet · Warunki i prywatność"</string>
   <string name="identification_consent">"Wysłać to zdjęcie do Pl@ntNet, aby uzyskać sugestie? FloraTend przekazuje je przez swój serwer bez zapisywania go tam. Pl@ntNet przetwarza obraz i zachowuje metadane żądania. Wysyłanie następuje dopiero po wybraniu Wyślij zdjęcie."</string>
+  <string name="identification_settings">"Opcjonalne rozpoznawanie używa Pl@ntNet dopiero po wybraniu Wyślij zdjęcie. Gatunek można wpisać ręcznie."</string>
 </resources>

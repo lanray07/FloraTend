@@ -10,6 +10,11 @@ import org.junit.Test
 
 @OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)
 class PlantIdentificationTest {
+    @Test fun languageMappingPreservesSelectedLanguageAndRejectsUnverifiedScriptFallback() {
+        assertEquals("ja",identificationLanguage("ja-JP"));assertEquals("fr",identificationLanguage("fr-CA"));assertEquals("en",identificationLanguage("invalid"))
+        for(tag in listOf("zh-Hant","zh-Hant-TW","zh-TW","zh-HK","zh-MO"))assertFalse(tag,identificationCommonNamesAllowed(tag))
+        for(tag in listOf("zh-Hans","zh-CN","ja-JP","en-GB"))assertTrue(tag,identificationCommonNamesAllowed(tag))
+    }
     @Test fun onlyConfiguredHttpsEndpointCanEnableUploads() {
         assertTrue(configuredIdentifier("https://identifier.example/identify"))
         listOf("","http://identifier.example/identify","https://user@identifier.example/identify","https://identifier.example/identify?key=x","https://identifier.example/identify#x","https://identifier.example/other").forEach { assertFalse(it,configuredIdentifier(it)) }

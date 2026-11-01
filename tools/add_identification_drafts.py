@@ -4,7 +4,7 @@ import html
 import json
 
 ROOT=Path(__file__).resolve().parents[1]
-KEYS=['identify_photo','send_photo','identifying_photo','identification_suggestions','identification_score','identification_no_match','identification_limit','identification_error','identification_terms','identification_consent']
+KEYS=['identify_photo','send_photo','identifying_photo','identification_suggestions','identification_score','identification_no_match','identification_limit','identification_error','identification_terms','identification_consent','identification_settings']
 COPY={
 'en':[
 'Identify photo','Send photo','Looking for plant matches…','Suggestions can be wrong. Choose a species to fill the editable field, then check it before saving.','Match score: %1$s','No match found. Try a clearer plant photo or enter the species manually.','The daily identification allowance is used up. Try tomorrow or enter the species manually.','Identification is unavailable. Try again or enter the species manually.','Pl@ntNet · Terms and privacy',
@@ -62,12 +62,33 @@ COPY={
 'Skicka detta foto till Pl@ntNet för förslag? FloraTend vidarebefordrar det via sin server utan att spara det där. Pl@ntNet behandlar bilden och behåller begärans metadata. Inget laddas upp förrän du väljer Skicka foto.'],
 }
 
+SETTINGS={
+'en':'Optional photo identification uses Pl@ntNet only after you choose Send photo. You can enter the species manually.',
+'fr':'L’identification facultative utilise Pl@ntNet uniquement après votre choix Envoyer la photo. Vous pouvez saisir l’espèce manuellement.',
+'es':'La identificación opcional usa Pl@ntNet solo cuando eliges Enviar foto. Puedes introducir la especie manualmente.',
+'de':'Die optionale Fotobestimmung nutzt Pl@ntNet erst nach deiner Wahl Foto senden. Du kannst die Art selbst eingeben.',
+'it':'L’identificazione facoltativa usa Pl@ntNet solo dopo la scelta Invia foto. Puoi inserire la specie manualmente.',
+'pt':'A identificação opcional usa o Pl@ntNet apenas após escolher Enviar foto. Pode introduzir a espécie manualmente.',
+'pt-BR':'A identificação opcional usa o Pl@ntNet apenas depois de escolher Enviar foto. Você pode digitar a espécie manualmente.',
+'nl':'Optionele fotoherkenning gebruikt Pl@ntNet pas nadat je Foto verzenden kiest. Je kunt de soort zelf invoeren.',
+'pl':'Opcjonalne rozpoznawanie używa Pl@ntNet dopiero po wybraniu Wyślij zdjęcie. Gatunek można wpisać ręcznie.',
+'ar':'يستخدم التعرّف الاختياري Pl@ntNet فقط بعد اختيار إرسال الصورة. يمكنك إدخال النوع يدويًا.',
+'hi':'वैकल्पिक फ़ोटो पहचान में Pl@ntNet का उपयोग फ़ोटो भेजें चुनने के बाद ही होता है। आप प्रजाति स्वयं लिख सकते हैं।',
+'ja':'任意の写真識別では「写真を送信」を選んだ場合のみPl@ntNetを使用します。種名は手動でも入力できます。',
+'ko':'선택 사항인 사진 식별은 사진 보내기를 선택한 후에만 Pl@ntNet를 사용합니다. 종을 직접 입력할 수도 있습니다.',
+'zh-Hans':'可选的照片识别仅在您选择“发送照片”后使用Pl@ntNet。您也可以手动输入物种。',
+'zh-Hant':'選用的照片辨識僅在您選擇「傳送照片」後使用Pl@ntNet。您也可以手動輸入物種。',
+'tr':'İsteğe bağlı fotoğraf tanımlama, yalnızca Fotoğrafı gönder seçildikten sonra Pl@ntNet’i kullanır. Türü elle de girebilirsiniz.',
+'id':'Identifikasi foto opsional memakai Pl@ntNet hanya setelah Anda memilih Kirim foto. Anda juga dapat memasukkan spesies secara manual.',
+'sv':'Valfri fotoidentifiering använder Pl@ntNet först när du väljer Skicka foto. Du kan också ange arten själv.',
+}
+
 def main():
     locales=json.loads((ROOT/'localization/locales.json').read_text())
     for locale in locales:
         tag=locale['locale']
         language=('zh-Hans' if tag=='zh-CN' else 'zh-Hant' if tag=='zh-TW' else 'pt-BR' if tag=='pt-BR' else tag.split('-')[0])
-        values=COPY[language]
+        values=COPY[language]+[SETTINGS[language]]
         assert len(values)==len(KEYS)
         def escape(value):return html.escape('"'+value.replace('\\','\\\\').replace('"','\\"').replace("'","\\'")+'"',quote=False)
         xml='<resources>\n'+'\n'.join(f'  <string name="{key}">{escape(value)}</string>' for key,value in zip(KEYS,values))+'\n</resources>\n'

@@ -1,6 +1,6 @@
 {
   "version": "0.1.12/code13",
-  "recordedAtUtc": "2026-11-01T19:24:32.663251+00:00",
+  "recordedAtUtc": "2026-11-01T19:38:00.528788+00:00",
   "jvmSuites": {
     "test": {
       "tests": 6,
@@ -8,12 +8,12 @@
       "errors": 0
     },
     "testDebugUnitTest": {
-      "tests": 33,
+      "tests": 34,
       "failures": 0,
       "errors": 0
     },
     "testReleaseUnitTest": {
-      "tests": 33,
+      "tests": 34,
       "failures": 0,
       "errors": 0
     }
@@ -26,12 +26,12 @@
     "passed": 60
   },
   "localeBundles": 22,
-  "translatableEntriesPerLocale": 182,
+  "translatableEntriesPerLocale": 183,
   "structuralErrors": 0,
   "qualifiedLocaleApprovals": 0,
   "debugApk": "BUILT",
   "debugInstrumentationApk": "BUILT; not executed",
-  "lint": "IN PROGRESS",
+  "lint": "Final refinements in progress; prior865b9ea debug/release lint both passed with zero errors",
   "firstCompileLintAttempt": "Exited1 without a final result; no lint pass inferred",
   "identifierEndpointDefault": "empty; uploads disabled",
   "serverDeployed": false,
@@ -44,5 +44,12 @@
     "scope": "Historical scoped component evidence; not new candidate certification"
   },
   "amazonPackage": "Actual Amazon code11 left intact; no new submission, install, clear or uninstall",
-  "performanceGate": "FAIL retained; no experimental optimization promoted"
+  "performanceGate": "FAIL retained; no experimental optimization promoted",
+  "nativeContractsAdded": 3,
+  "priorCode13Ci": {
+    "head": "865b9eaf82dee3adc9588aef8011958d2e014f2d",
+    "run": 41341762555,
+    "conclusion": "SUCCESS"
+  },
+  "languageScriptGuard": "Traditional Chinese common names omitted until an appropriate provider route is verified"
 }

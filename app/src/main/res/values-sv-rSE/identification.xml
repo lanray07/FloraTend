@@ -9,4 +9,5 @@
   <string name="identification_error">"Identifiering är inte tillgänglig. Försök igen eller ange arten själv."</string>
   <string name="identification_terms">"Pl@ntNet · Villkor och integritet"</string>
   <string name="identification_consent">"Skicka detta foto till Pl@ntNet för förslag? FloraTend vidarebefordrar det via sin server utan att spara det där. Pl@ntNet behandlar bilden och behåller begärans metadata. Inget laddas upp förrän du väljer Skicka foto."</string>
+  <string name="identification_settings">"Valfri fotoidentifiering använder Pl@ntNet först när du väljer Skicka foto. Du kan också ange arten själv."</string>
 </resources>

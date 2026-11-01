@@ -9,4 +9,5 @@
   <string name="identification_error">"Identifikasi tidak tersedia. Coba lagi atau masukkan spesies secara manual."</string>
   <string name="identification_terms">"Pl@ntNet · Ketentuan dan privasi"</string>
   <string name="identification_consent">"Kirim foto ini ke Pl@ntNet untuk mendapatkan saran? FloraTend meneruskannya melalui server tanpa menyimpannya di sana. Pl@ntNet memproses gambar dan menyimpan metadata permintaan. Foto tidak diunggah sebelum Anda memilih Kirim foto."</string>
+  <string name="identification_settings">"Identifikasi foto opsional memakai Pl@ntNet hanya setelah Anda memilih Kirim foto. Anda juga dapat memasukkan spesies secara manual."</string>
 </resources>

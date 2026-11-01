@@ -1,6 +1,6 @@
 {
-  "stagedFilesChecked": 53,
   "privateValuesChecked": 3,
-  "scope": "Exact private values in staged file content; private values never printed",
-  "matches": 0
+  "stagedFilesChecked": 38,
+  "matches": 0,
+  "scope": "Exact private values in final staged changes, before writing this report; no private values printed"
 }

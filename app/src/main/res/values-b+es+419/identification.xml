@@ -9,4 +9,5 @@
   <string name="identification_error">"Identificación no disponible. Inténtalo de nuevo o introduce la especie."</string>
   <string name="identification_terms">"Pl@ntNet · Condiciones y privacidad"</string>
   <string name="identification_consent">"¿Enviar esta foto a Pl@ntNet para obtener sugerencias? FloraTend la transmite mediante su servidor sin guardarla allí. Pl@ntNet procesa la imagen y conserva metadatos de la solicitud. No se envía nada hasta que elijas Enviar foto."</string>
+  <string name="identification_settings">"La identificación opcional usa Pl@ntNet solo cuando eliges Enviar foto. Puedes introducir la especie manualmente."</string>
 </resources>

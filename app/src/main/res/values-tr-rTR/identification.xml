@@ -9,4 +9,5 @@
   <string name="identification_error">"Tanımlama kullanılamıyor. Yeniden deneyin veya türü elle girin."</string>
   <string name="identification_terms">"Pl@ntNet · Koşullar ve gizlilik"</string>
   <string name="identification_consent">"Öneriler için bu fotoğraf Pl@ntNet’e gönderilsin mi? FloraTend fotoğrafı sunucusunda kaydetmeden iletir. Pl@ntNet görüntüyü işler ve istek meta verilerini saklar. Fotoğrafı gönder seçilene kadar yükleme yapılmaz."</string>
+  <string name="identification_settings">"İsteğe bağlı fotoğraf tanımlama, yalnızca Fotoğrafı gönder seçildikten sonra Pl@ntNet’i kullanır. Türü elle de girebilirsiniz."</string>
 </resources>
