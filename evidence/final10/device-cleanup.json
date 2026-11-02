@@ -1,0 +1,11 @@
+{
+  "voiceViewSettingRestored": true,
+  "accessibilityEnabled": 0,
+  "enabledServicesRestoredToAbsent": true,
+  "qaDatabaseDirectoryEmpty": true,
+  "freshEmptyDirectoryProofRetainedPrivately": true,
+  "qaPackagesRemoved": true,
+  "mainAppClearedOrUninstalled": false,
+  "mainRecordsChanged": false,
+  "retainedDiagnostic": "ADB cat of absent DB yielded error text; it was rejected as a valid backup. Direct empty-directory guard then passed."
+}
