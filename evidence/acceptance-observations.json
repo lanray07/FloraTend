@@ -204,24 +204,34 @@
     "corrective_action": "Translate and review metadata for additional approved languages."
   },
   "AC-15.04": {
-    "test_name": "Production canonical URL configuration",
-    "status": "BLOCKED",
-    "actual_result": "No verified deployment SITE_URL is configured. Generator tests prove configured-domain output using a reserved fixture, but no production canonical is invented.",
+    "test_name": "Live GitHub Pages canonical URLs",
+    "status": "PASS",
+    "actual_result": "PASS: all12 HTTPS project pages returned200, matched validated build bytes and exposed the correct single canonical URL. English development website only; no public app availability or language/privacy approval inferred.",
     "evidence": [
-      "evidence/supporting/website-build.log",
-      "evidence/supporting/tool-tests.log"
+      "docs/GITHUB_URLS_20261102.md",
+      "evidence/github-pages/live-verification.json",
+      "website/hosting.json",
+      ".github/workflows/pages.yml"
     ],
-    "corrective_action": "Set the verified deployed HTTPS origin and run production build and validation."
+    "corrective_action": "No corrective action for this verified URL gate; translated pages and publisher review remain separate gates.",
+    "execution_date": "2026-11-02",
+    "environment": "Public GitHub Pages / HTTPS / Python HTTP and HTML/XML validation",
+    "test_procedure": "Fetch live sitemap and all12 pages; assert HTTP200, unique absolute URLs, exact canonicals and validated-build byte hashes."
   },
   "AC-15.05": {
-    "test_name": "Production sitemap completeness",
-    "status": "BLOCKED",
-    "actual_result": "Valid sitemap.xml exists locally but intentionally contains no production URLs without a verified SITE_URL. A configured-origin fixture passes twelve-URL validation.",
+    "test_name": "Live GitHub Pages XML sitemap",
+    "status": "PASS",
+    "actual_result": "PASS: public HTTPS sitemap returned200 and contained12 unique absolute URLs; every listed page returned200 with matching canonical. English development website only; no public app availability or language/privacy approval inferred.",
     "evidence": [
-      "website/dist/sitemap.xml",
-      "evidence/supporting/tool-tests.log"
+      "docs/GITHUB_URLS_20261102.md",
+      "evidence/github-pages/live-verification.json",
+      "website/hosting.json",
+      ".github/workflows/pages.yml"
     ],
-    "corrective_action": "Generate a complete sitemap using the actual deployment URL, then verify published URLs."
+    "corrective_action": "No corrective action for this verified URL gate; translated pages and publisher review remain separate gates.",
+    "execution_date": "2026-11-02",
+    "environment": "Public GitHub Pages / HTTPS / Python HTTP and HTML/XML validation",
+    "test_procedure": "Fetch live sitemap and all12 pages; assert HTTP200, unique absolute URLs, exact canonicals and validated-build byte hashes."
   },
   "AC-15.06": {
     "test_name": "Robots file existence and safe local mode",

@@ -1,0 +1,87 @@
+{
+  "verifiedAtUtc": "2026-11-02T00:14:39.612303+00:00",
+  "buildCommit": "489292481afb21b45c4f54dffd1a44658c34b245",
+  "deploymentRun": 41365960041,
+  "deploymentResult": "SUCCESS",
+  "pages": [
+    {
+      "url": "https://lanray07.github.io/FloraTend/index.html",
+      "httpStatus": 200,
+      "canonical": "https://lanray07.github.io/FloraTend/index.html",
+      "matchesValidatedBuild": true
+    },
+    {
+      "url": "https://lanray07.github.io/FloraTend/features.html",
+      "httpStatus": 200,
+      "canonical": "https://lanray07.github.io/FloraTend/features.html",
+      "matchesValidatedBuild": true
+    },
+    {
+      "url": "https://lanray07.github.io/FloraTend/plant-watering-reminders.html",
+      "httpStatus": 200,
+      "canonical": "https://lanray07.github.io/FloraTend/plant-watering-reminders.html",
+      "matchesValidatedBuild": true
+    },
+    {
+      "url": "https://lanray07.github.io/FloraTend/houseplant-tracker.html",
+      "httpStatus": 200,
+      "canonical": "https://lanray07.github.io/FloraTend/houseplant-tracker.html",
+      "matchesValidatedBuild": true
+    },
+    {
+      "url": "https://lanray07.github.io/FloraTend/plant-care-calendar.html",
+      "httpStatus": 200,
+      "canonical": "https://lanray07.github.io/FloraTend/plant-care-calendar.html",
+      "matchesValidatedBuild": true
+    },
+    {
+      "url": "https://lanray07.github.io/FloraTend/growth-journal.html",
+      "httpStatus": 200,
+      "canonical": "https://lanray07.github.io/FloraTend/growth-journal.html",
+      "matchesValidatedBuild": true
+    },
+    {
+      "url": "https://lanray07.github.io/FloraTend/voice-features.html",
+      "httpStatus": 200,
+      "canonical": "https://lanray07.github.io/FloraTend/voice-features.html",
+      "matchesValidatedBuild": true
+    },
+    {
+      "url": "https://lanray07.github.io/FloraTend/fire-tablet-compatibility.html",
+      "httpStatus": 200,
+      "canonical": "https://lanray07.github.io/FloraTend/fire-tablet-compatibility.html",
+      "matchesValidatedBuild": true
+    },
+    {
+      "url": "https://lanray07.github.io/FloraTend/pricing.html",
+      "httpStatus": 200,
+      "canonical": "https://lanray07.github.io/FloraTend/pricing.html",
+      "matchesValidatedBuild": true
+    },
+    {
+      "url": "https://lanray07.github.io/FloraTend/faq.html",
+      "httpStatus": 200,
+      "canonical": "https://lanray07.github.io/FloraTend/faq.html",
+      "matchesValidatedBuild": true
+    },
+    {
+      "url": "https://lanray07.github.io/FloraTend/privacy.html",
+      "httpStatus": 200,
+      "canonical": "https://lanray07.github.io/FloraTend/privacy.html",
+      "matchesValidatedBuild": true
+    },
+    {
+      "url": "https://lanray07.github.io/FloraTend/support.html",
+      "httpStatus": 200,
+      "canonical": "https://lanray07.github.io/FloraTend/support.html",
+      "matchesValidatedBuild": true
+    }
+  ],
+  "sitemapUrl": "https://lanray07.github.io/FloraTend/sitemap.xml",
+  "sitemapHttpStatus": 200,
+  "sitemapAbsoluteUrls": 12,
+  "projectRobotsHttpStatus": 200,
+  "appstoreLinkConfigured": false,
+  "privacyReviewApproved": false,
+  "localeScope": "English development website only; no translated-page or public-app availability claim."
+}
