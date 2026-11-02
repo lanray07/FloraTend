@@ -2588,5 +2588,32 @@
       "docs/RELEASE_CODE15_20261101.md"
     ],
     "corrective_action": "Resolve remaining full-phone capture failure; obtain qualified review and actual phone compatibility evidence separately."
+  },
+  "AC-14.06": {
+    "status": "PASS",
+    "test_name": "Listing functional-claim traceability review",
+    "execution_date": "2026-11-02",
+    "environment": "AI technical review of15exact listing drafts, current source15 implementation and retained native/JVM evidence",
+    "actual_result": "All advertised functional claims map to implemented collection, care, journal, local storage, conditional voice/text and five-plant free-cap behavior. No unsupported diagnosis, guaranteed watering or universal speech claim found. Human linguistic/market/rights approval remains separate.",
+    "evidence": [
+      "docs/RELEASE_FINAL_INPUTS_20261102.md",
+      "evidence/final10/listing-claim-review.json",
+      "evidence/calendar-hour/verification.json",
+      "evidence/final30/genuine-results.json"
+    ],
+    "corrective_action": "No functional-claim correction required; obtain separate human language and publisher review."
+  },
+  "AC-14.07": {
+    "status": "BLOCKED",
+    "test_name": "Amazon metadata technical rules and approval dependency",
+    "execution_date": "2026-11-02",
+    "environment": "Python metadata audit / official Amazon field and listing policy documentation",
+    "actual_result": "All15drafts pass current technical field checks. HTML, emojis, all-caps fields, invalid Unicode, price/ASIN content and field-limit failures are rejected. Complete human language, asset/rights and publisher approval remain outstanding.",
+    "evidence": [
+      "docs/RELEASE_FINAL_INPUTS_20261102.md",
+      "evidence/final10/metadata-audit.json",
+      "tools/test_metadata_policy.py"
+    ],
+    "corrective_action": "Obtain release-language, asset/rights and publisher sign-off; do not infer full policy approval from static checks."
   }
 }

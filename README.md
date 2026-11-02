@@ -1,6 +1,6 @@
 > Website: [GitHub Pages](https://lanray07.github.io/FloraTend/), [privacy](https://lanray07.github.io/FloraTend/privacy.html), [support](https://lanray07.github.io/FloraTend/support.html). [Live URL evidence](docs/GITHUB_URLS_20261102.md).
 
-> Current development: **0.1.14 / code15**, [Calendar fix and private Test2 submission](docs/RELEASE_CODE15_20261101.md). Ledger:186/204 scoped passes,18incomplete. Optimized accessibility and other release gates remain open; public release is BLOCKED.
+> Current development: **0.1.14 / code15**, [Calendar fix and private Test2 submission](docs/RELEASE_CODE15_20261101.md). Ledger:187/204 scoped passes,17incomplete. Optimized accessibility and other release gates remain open; public release is BLOCKED.
 
 > Current checkout work: [cold-start diagnosis and code8 regression](docs/CHECKOUT_DELAY_DIAGNOSIS_20261101.md).
 

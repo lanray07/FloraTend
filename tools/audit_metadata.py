@@ -4,9 +4,10 @@ import json,re
 from datetime import date
 ROOT=Path(__file__).resolve().parents[1]
 ALLOWED={'locale','review_status','display_title','short_description','long_description','feature_bullets','keywords'}
-def audit():
+def audit(listing_dir=None):
     rows=[]
-    for path in sorted((ROOT/'submission/listings').glob('*.json')):
+    listing_dir=listing_dir or ROOT/"submission/listings"
+    for path in sorted(listing_dir.glob("*.json")):
         data=json.loads(path.read_text(encoding='utf-8-sig'))
         errors=[]
         if set(data)!=ALLOWED:errors.append('Unexpected or missing draft fields')
@@ -17,6 +18,10 @@ def audit():
         if not 3<=len(data['feature_bullets'])<=5 or any(not x.strip() for x in data['feature_bullets']):errors.append('Expected3–5nonemptybullets')
         if 'FloraTend' not in data['display_title']:errors.append('Missing brand')
         text=' '.join(data[k] for k in ['display_title','short_description','long_description','keywords'])+' '+' '.join(data['feature_bullets'])
+        if re.search(r'<[^>]+>',text):errors.append('HTML markup is not permitted in metadata')
+        if re.search('[\U0001F000-\U0001FAFF\u2600-\u27BF]',text):errors.append('Emoji or decorative pictographs are not permitted in metadata')
+        if any(data[k].isupper() for k in ['display_title','short_description','long_description']):errors.append('ALL CAPS metadata field')
+        if '\ufffd' in text:errors.append('Unicode replacement character in metadata')
         if re.search(r'B0[A-Z0-9]{8}|£|€|\$\s*\d|\b(?:GBP|USD|JPY)\s*\d',text):errors.append('Potential forbidden price/ASIN')
         terms=[x.strip().casefold() for x in data['keywords'].split(',')]
         if not all(terms) or len(set(terms))!=len(terms):errors.append('Empty/duplicated keyword terms')
