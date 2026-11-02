@@ -1,0 +1,68 @@
+{
+  "voiceViewServiceEnabled": true,
+  "dontSuppressAccessibilityServices": true,
+  "nativeNodeActions": [
+    {
+      "label": "Add plant",
+      "class": "android.view.View",
+      "focus": true,
+      "click": true
+    },
+    {
+      "label": "Cancel",
+      "class": "android.view.View",
+      "focus": true,
+      "click": true
+    },
+    {
+      "label": "Calendar",
+      "class": "android.view.View",
+      "focus": true,
+      "click": true
+    },
+    {
+      "label": "Journal",
+      "class": "android.view.View",
+      "focus": true,
+      "click": true
+    },
+    {
+      "label": "Voice",
+      "class": "android.view.View",
+      "focus": true,
+      "click": true
+    },
+    {
+      "label": "Insights",
+      "class": "android.view.View",
+      "focus": true,
+      "click": true
+    },
+    {
+      "label": "Settings",
+      "class": "android.view.View",
+      "focus": true,
+      "click": true
+    },
+    {
+      "label": "Language: Device language",
+      "class": "android.view.View",
+      "focus": true,
+      "click": true
+    },
+    {
+      "label": "Close",
+      "class": "android.view.View",
+      "focus": true,
+      "click": true
+    }
+  ],
+  "readOnlyAmazonTarget": true,
+  "amazonVersionCode": 15,
+  "amazonTargetInstrumented": false,
+  "scope": "Actual Amazon15 on Fire HD10/API28; VoiceView active with external QA-hosted native accessibility focus/click. Add-plant editor cancelled; no records written. No multilingual pronunciation or manual touch-gesture approval.",
+  "result": "PASS_READ_ONLY_SCOPE",
+  "voiceViewBoundAndTouchExplorationConfirmed": true,
+  "saveOrPersistedEditRetested": false,
+  "fullScreenReaderCriterionApproved": false
+}
