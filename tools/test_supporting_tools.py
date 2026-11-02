@@ -20,6 +20,7 @@ def load(name, file):
 reporting = load("reporting", ROOT / "tools/report_acceptance.py")
 site = load("site_build", ROOT / "website/build.py")
 validator = load("site_validate", ROOT / "website/validate.py")
+localized = load("site_localized", ROOT / "website/localized.py")
 
 
 class ReportingTests(unittest.TestCase):
@@ -59,12 +60,60 @@ class ReportingTests(unittest.TestCase):
 
 
 class WebsiteTests(unittest.TestCase):
+    def test_localized_resource_provenance_ignores_checkout_line_endings(self):
+        with tempfile.TemporaryDirectory() as directory:
+            left, right = Path(directory) / 'lf.xml', Path(directory) / 'crlf.xml'
+            left.write_bytes('<resources>\nمرحبا\n</resources>\n'.encode('utf-8'))
+            right.write_bytes(b'\xef\xbb\xbf' + left.read_bytes().replace(b'\n', b'\r\n'))
+            self.assertEqual(localized.source_digest(left), localized.source_digest(right))
+            right.write_text('<resources>Changed</resources>', encoding='utf-8')
+            self.assertNotEqual(localized.source_digest(left), localized.source_digest(right))
+
+    def test_localized_overviews_are_real_translations_with_reciprocal_links_and_rtl(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            report = site.build(output, "https://example.org/floratend")
+            self.assertEqual(22, len(report['localized_overviews']))
+            self.assertFalse(report['localized_human_approved'])
+            for locale, details in report['localized_overviews'].items():
+                parser = validator.PageParser()
+                parser.feed((output / details['path']).read_text(encoding='utf-8'))
+                self.assertEqual(locale, parser.language)
+                self.assertEqual(23, len(parser.alternates))
+                self.assertIn(('es', 'https://example.org/floratend/locales/es-419/index.html'), parser.alternates)
+                self.assertNotIn('es-419', dict(parser.alternates))
+                self.assertEqual(details['direction'], parser.direction)
+            arabic = (output / 'locales/ar/index.html').read_text(encoding='utf-8')
+            self.assertIn('dir="rtl"', arabic)
+            self.assertNotIn('A little care. A greener home.', arabic)
+            self.assertIn('lang="en-GB"', arabic)  # English-only support is labelled honestly.
+            self.assertEqual([], validator.validate(output, production=True)['errors'])
+
+    def test_missing_or_misdirected_hreflang_is_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            site.build(output, "https://example.org/floratend")
+            path = output / 'locales/fr-FR/index.html'
+            original = path.read_text(encoding='utf-8')
+            for modified in [original.replace('hreflang="de-DE"', 'hreflang="de"'),
+                             original.replace('https://example.org/floratend/locales/de-DE/index.html', 'https://example.org/floratend/index.html')]:
+                path.write_text(modified, encoding='utf-8')
+                self.assertTrue(any('hreflang' in error for error in validator.validate(output, production=True)['errors']))
+
+    def test_sitemap_duplicate_cannot_hide_a_missing_localized_url(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            site.build(output, "https://example.org/floratend")
+            sitemap = output / 'sitemap.xml'
+            sitemap.write_text(sitemap.read_text(encoding='utf-8').replace('/locales/ar/index.html', '/locales/fr-FR/index.html'), encoding='utf-8')
+            self.assertTrue(any('sitemap' in error for error in validator.validate(output, production=True)['errors']))
+
     def test_local_build_complete_and_nonindexable(self):
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory)
             result = site.build(output)
             self.assertFalse(result["production_configured"])
-            self.assertEqual(12, result["pages"])
+            self.assertEqual(34, result["pages"])
             self.assertIn("Disallow: /", (output / "robots.txt").read_text())
             self.assertEqual([], validator.validate(output)["errors"])
 

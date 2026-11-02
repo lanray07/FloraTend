@@ -11,11 +11,14 @@ import html
 import json
 import os
 import re
+import sys
 from pathlib import Path
 from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT))
+from localized import build_overviews, locale_inputs, overview_path
 PAGES = {
     "index": ("A little attention. A growing collection.", "FloraTend is a plant care and watering tracker in development for Amazon Fire tablets and compatible Android devices.", [
         ("Your own growing space", "Bring plant names, care checks and growth notes into one calm place. FloraTend is being built around local records and everyday routines, with no account required for core care."),
@@ -75,7 +78,7 @@ PAGES = {
         ("Release support checklist", "The project privacy notice is at https://github.com/lanray07/FloraTend/blob/main/PRIVACY.md and support guidance is at https://github.com/lanray07/FloraTend/blob/main/SUPPORT.md. Final publisher review and a public Amazon listing remain pending.")]),
 }
 
-CSS = """@font-face{font-family:FloraFallback;src:local('Georgia')}*{box-sizing:border-box}body{margin:0;background:#faf8f2;color:#2d332e;font-family:system-ui,sans-serif;line-height:1.7}a{color:#315c45;text-underline-offset:4px}a:focus-visible{outline:3px solid #c8795b;outline-offset:6px}header{max-width:1120px;margin:auto;padding:28px 32px;border-bottom:1px solid #d9dfd4;display:flex;justify-content:space-between;align-items:center;gap:24px}.brand{font-size:24px;font-weight:700;text-decoration:none;display:flex;align-items:center;gap:12px}.brand svg{width:40px;height:40px}nav{display:flex;gap:24px;flex-wrap:wrap}nav a{font-size:14px;text-decoration:none;min-height:48px;display:flex;align-items:center}.hero{max-width:1120px;padding:76px 32px 56px;margin:auto}h1{font-family:FloraFallback,Georgia,serif;font-weight:400;max-width:850px;font-size:clamp(40px,6vw,76px);line-height:1.08;letter-spacing:-1.8px;margin:0 0 28px}.intro{font-size:20px;max-width:690px;color:#546052}.notice{margin-top:32px;max-width:690px;padding:16px 20px;border-left:3px solid #c8795b;background:#f0e9df;font-size:14px}.content{max-width:1120px;margin:auto;padding:0 32px 64px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 72px}.content section{padding:20px 0 24px;border-top:1px solid #d9dfd4}h2{font-family:Georgia,serif;font-size:28px;line-height:1.25;font-weight:400}.content p{max-width:600px;overflow-wrap:anywhere}footer{background:#e6ebdf;padding:40px 32px;color:#4d5c4c}footer div{max-width:1056px;margin:auto}footer ul{padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:12px 24px}footer a{min-height:48px;display:inline-flex;align-items:center;font-size:14px}small{display:block;max-width:780px} @media(max-width:700px){header{align-items:flex-start;flex-direction:column;padding:20px}nav{gap:18px}.hero{padding:48px 20px 32px}h1{letter-spacing:-1px}.content{padding:0 20px 40px;grid-template-columns:1fr;gap:0}.intro{font-size:18px}}@media(prefers-color-scheme:dark){body{background:#17251d;color:#f6f4ed}a{color:#b7d2b8}.intro{color:#c1cdbd}header,.content section{border-color:#415343}.notice{background:#354033}footer{background:#26382b;color:#c7d2c1}}"""
+CSS = """@font-face{font-family:FloraFallback;src:local('Georgia')}*{box-sizing:border-box}body{margin:0;background:#faf8f2;color:#2d332e;font-family:system-ui,sans-serif;line-height:1.7}a{color:#315c45;text-underline-offset:4px}a:focus-visible{outline:3px solid #c8795b;outline-offset:6px}header{max-width:1120px;margin:auto;padding:28px 32px;border-bottom:1px solid #d9dfd4;display:flex;justify-content:space-between;align-items:center;gap:24px}.brand{font-size:24px;font-weight:700;text-decoration:none;display:flex;align-items:center;gap:12px}.brand svg{width:40px;height:40px}nav{display:flex;gap:24px;flex-wrap:wrap}nav a{font-size:14px;text-decoration:none;min-height:48px;display:flex;align-items:center}.hero{max-width:1120px;padding:76px 32px 56px;margin:auto}h1{font-family:FloraFallback,Georgia,serif;font-weight:400;max-width:850px;font-size:clamp(40px,6vw,76px);line-height:1.08;letter-spacing:-1.8px;margin:0 0 28px}.intro{font-size:20px;max-width:690px;color:#546052}.notice{margin-top:32px;max-width:690px;padding:16px 20px;border-inline-start:3px solid #c8795b;background:#f0e9df;font-size:14px}.content{max-width:1120px;margin:auto;padding:0 32px 64px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 72px}.content section{padding:20px 0 24px;border-top:1px solid #d9dfd4}h2{font-family:Georgia,serif;font-size:28px;line-height:1.25;font-weight:400}.content p{max-width:600px;overflow-wrap:anywhere}footer{background:#e6ebdf;padding:40px 32px;color:#4d5c4c}footer div{max-width:1056px;margin:auto}footer ul{padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:12px 24px}footer a{min-height:48px;display:inline-flex;align-items:center;font-size:14px}small{display:block;max-width:780px} @media(max-width:700px){header{align-items:flex-start;flex-direction:column;padding:20px}nav{gap:18px}.hero{padding:48px 20px 32px}h1{letter-spacing:-1px}.content{padding:0 20px 40px;grid-template-columns:1fr;gap:0}.intro{font-size:18px}}@media(prefers-color-scheme:dark){body{background:#17251d;color:#f6f4ed}a{color:#b7d2b8}.intro{color:#c1cdbd}header,.content section{border-color:#415343}.notice{background:#354033}footer{background:#26382b;color:#c7d2c1}}"""
 
 
 def validate_origin(value: str) -> str:
@@ -99,6 +102,7 @@ def build(output: Path, site_url: str = "", appstore_url: str = "") -> dict:
     (output / "style.css").write_text(CSS, encoding="utf-8")
     mark = '<svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#315c45" d="M24 3C18 12 8 23 8 32a16 16 0 0 0 32 0C40 23 30 12 24 3Z"/><path fill="#b5c9a6" d="M23 34C11 22 26 17 34 17c0 10-3 17-11 17Z"/><path d="m19 39 12-17" fill="none" stroke="#faf8f2" stroke-width="2"/></svg>'
     nav = '<nav aria-label="Main navigation"><a href="features.html">Features</a><a href="fire-tablet-compatibility.html">Fire tablets</a><a href="pricing.html">Pricing</a><a href="support.html">Support</a></nav>'
+    locale_links = ''.join(f'<li><a href="{overview_path(tag)}" lang="{tag}">{html.escape(item["copy"]["name"])}</a></li>' for tag, item in locale_inputs().items())
     for slug, (heading, description, sections) in PAGES.items():
         path = page_path(slug)
         canonical = f'{origin}/{path}' if origin else ""
@@ -113,22 +117,26 @@ def build(output: Path, site_url: str = "", appstore_url: str = "") -> dict:
         }
         if slug in references:
             body += '<section><h2>Useful links</h2><ul>' + ''.join(f'<li><a href="{html.escape(url)}">{html.escape(label)}</a></li>' for label, url in references[slug]) + '</ul></section>'
+        if slug == 'index':
+            body += '<section><h2>Language previews</h2><p>Localized overview pages use the current app translations. Qualified language review remains pending; support and privacy pages are currently in English.</p><ul>' + locale_links + '</ul></section>'
         footer_links = "".join(f'<li><a href="{page_path(key)}">{html.escape("Home" if key == "index" else key.replace("-", " ").title())}</a></li>' for key in PAGES)
         store = f'<p><a href="{html.escape(appstore_url)}">View FloraTend on Amazon Appstore</a></p>' if appstore_url else ""
         structured_data = json.dumps(schema).replace("<", "\\u003c")
         document = f'<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(heading)} | FloraTend</title><meta name="description" content="{html.escape(description)}">{metadata}<link rel="stylesheet" href="style.css"><script type="application/ld+json">{structured_data}</script></head><body><header><a class="brand" href="index.html">{mark}FloraTend</a>{nav}</header><main id="main"><div class="hero"><h1>{html.escape(heading)}</h1><p class="intro">{html.escape(description)}</p><p class="notice">In development. App availability, supported devices, translations and Premium purchasing await release verification.</p>{store}</div><div class="content">{body}</div></main><footer><div><p>Every plant deserves a little attention.</p><ul>{footer_links}</ul><small>FloraTend is a provisional product name. Care information is general education, not a diagnosis. No claim of universal device or voice compatibility is made.</small></div></footer></body></html>'
         (output / path).write_text(document, encoding="utf-8")
+    localized_paths, provenance = build_overviews(output, origin)
+    all_paths = [page_path(slug) for slug in PAGES] + localized_paths
     ET.register_namespace("", "http://www.sitemaps.org/schemas/sitemap/0.9")
     sitemap = ET.Element("{http://www.sitemaps.org/schemas/sitemap/0.9}urlset")
     if origin:
-        for slug in PAGES:
+        for path in all_paths:
             entry = ET.SubElement(sitemap, "{http://www.sitemaps.org/schemas/sitemap/0.9}url")
-            ET.SubElement(entry, "{http://www.sitemaps.org/schemas/sitemap/0.9}loc").text = f"{origin}/{page_path(slug)}"
+            ET.SubElement(entry, "{http://www.sitemaps.org/schemas/sitemap/0.9}loc").text = f"{origin}/{path}"
     ET.ElementTree(sitemap).write(output / "sitemap.xml", encoding="utf-8", xml_declaration=True)
     robots = f"User-agent: *\nAllow: /\nSitemap: {origin}/sitemap.xml\n" if origin else "User-agent: *\nDisallow: /\n"
     (output / "robots.txt").write_text(robots, encoding="utf-8")
-    report = {"pages": len(PAGES), "language": "en-GB", "production_configured": bool(origin), "canonical_origin": origin or None, "appstore_link_configured": bool(appstore_url), "pending": ["Verified deployment origin required"] if not origin else []}
-    report["pending"].extend(["Publisher legal/contact information and final privacy review", "Translated pages and human review", "Product facts reconciliation against verified release", "Verified Appstore listing URL"])
+    report = {"pages": len(all_paths), "english_detail_pages": len(PAGES), "localized_overviews": provenance, "localized_human_approved": False, "page_paths": all_paths, "language": "en-GB", "production_configured": bool(origin), "canonical_origin": origin or None, "appstore_link_configured": bool(appstore_url), "pending": ["Verified deployment origin required"] if not origin else []}
+    report["pending"].extend(["Publisher legal/contact information and final privacy review", "Qualified language review; localized detail/support/legal pages", "Product facts reconciliation against verified release", "Verified Appstore listing URL"])
     (output / "build-report.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     return report
 

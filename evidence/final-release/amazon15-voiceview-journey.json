@@ -1,0 +1,185 @@
+{
+  "amazonVersionCode": 15,
+  "amazonTargetInstrumented": false,
+  "realVoiceViewEnabled": true,
+  "actions": [
+    {
+      "label": "Add plant",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Save",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Controlled VoiceView plant",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Edit",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Save",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Controlled VoiceView plant edited",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Close",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Calendar",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Add care schedule",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Controlled VoiceView plant edited",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Save",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Controlled VoiceView plant edited",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Record care",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Soil checked: dry",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Next 7 days",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Pause",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Resume",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Snooze until tomorrow",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Reschedule",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Cancel",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Journal",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Add journal entry",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Cancel",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Voice",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Run command",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Insights",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Settings",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Language: Device language",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Close",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Garden",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Controlled VoiceView plant edited",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Delete",
+      "accessibilityFocus": true,
+      "click": true
+    },
+    {
+      "label": "Delete",
+      "accessibilityFocus": true,
+      "click": true
+    }
+  ],
+  "fixtureRemoved": true,
+  "result": "PASS",
+  "createdAndEditedRecordReopened": true,
+  "unknownCommandErrorAccessible": true,
+  "ownPlantCareControlsExercised": true,
+  "scope": "Real VoiceView with native accessibility focus/click/set-text on delivered Amazon15. Own unique plant created, edited, reopened and removed with its care schedule/history. Care recorded, paused/resumed, snoozed; reschedule and journal editors cancelled. No audio/pronunciation or manual gesture certification.",
+  "execution_date": "2026-11-02",
+  "environment": "Actual Amazon15 nondebug com.amazon.venezia / Fire HD10 API28; separate QA-hosted runner",
+  "realServiceBoundDuringRun": true,
+  "touchExplorationEnabledDuringRun": true,
+  "tests": 1,
+  "elapsedSeconds": 9.154,
+  "existingUserRecordsModified": false
+}

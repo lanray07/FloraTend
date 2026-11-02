@@ -273,13 +273,17 @@
   },
   "AC-15.09": {
     "test_name": "Localised alternate-page prerequisite",
-    "status": "BLOCKED",
-    "actual_result": "Only source-English pages exist. No hreflang links are fabricated for untranslated pages; source-English alternate URLs require a real domain.",
+    "status": "NOT TESTED",
+    "actual_result": "22equivalent translated development overview pages implemented, using current Android copy and localized notices/navigation. Local production build validates34total pages, self canonicals,23reciprocal alternates per overview and unique sitemap URLs. ArabicRTL and Japanese rendering reviewed. New public deployment/readback pending; human language approval remains separate.",
     "evidence": [
-      "website/dist/build-report.json",
+      "evidence/final-release/website-validation.json",
+      "website/localized.py",
+      "website/locale-copy.json",
       "website/README.md"
     ],
-    "corrective_action": "Build reviewed locale pages and configure reciprocal real URLs before approving locale alternate annotations."
+    "corrective_action": "Deploy and verify the actual34public pages and reciprocal URLs before marking this technical gate passed; retain human wording/detail-page translation limitations.",
+    "execution_date": "2026-11-02",
+    "environment": "Windows/Python production website build with actual GitHub Pages origin"
   },
   "AC-15.11": {
     "test_name": "Privacy and support page generation",
@@ -1940,18 +1944,19 @@
     "corrective_action": "Retain language/hardware scope; arrange multilingual human review separately."
   },
   "AC-17.01": {
-    "status": "NOT TESTED",
-    "actual_result": "Prior real VoiceView evidence remains valid only for its recorded earlier source. Optimized15 has not been reapproved: AndroidJUnitRunner tracing class was stripped and OS accessibility root dumping failed after Calendar navigation. Visual care-control operation/persistence passed separately; that does not establish screen-reader access.",
+    "test_name": "Actual Amazon15 essential-control VoiceView journey",
+    "execution_date": "2026-11-02",
+    "environment": "Amazon-delivered code15 / physical Fire HD10 API28 / bound VoiceView with touch exploration / external QA-hosted runner",
+    "status": "PASS",
+    "actual_result": "Real VoiceView was bound during the9.154second passing journey. Native accessibility focus/click/set-text created, saved, reopened, edited and removed one unique test plant; recorded care, paused/resumed, snoozed and opened rescheduling; opened Journal, exercised typed-command error feedback, Insights, Settings and the language dialog. Only the run-created plant and its related care records were removed. The Amazon target was not instrumented. This is English essential-control accessibility verification, not multilingual pronunciation or manual-gesture certification. Earlier limited/failed harness evidence retained.",
     "evidence": [
-      "evidence/release-next/voiceview-bridge.txt",
-      "evidence/release-next/voiceview/voiceview-bridge/results.json",
-      "evidence/release-next/voiceview/calendar-action.png",
-      "evidence/release-next/schema2-card-label-green.txt",
-      "evidence/calendar-hour/minified-instrumentation-limitation.json",
-      "evidence/calendar-hour/minified-os-ui.json",
-      "evidence/calendar-hour/minified-visual-ui.json"
+      "evidence/final-release/amazon15-voiceview-journey.json",
+      "evidence/final-release/device-cleanup.json",
+      "evidence/final-release/retained-failures.json",
+      "app/src/androidTest/java/com/floratend/app/AmazonVoiceViewJourneyTest.kt",
+      "evidence/final10/amazon15-voiceview-readonly.json"
     ],
-    "corrective_action": "Investigate optimized accessibility/test-tool behavior and run real VoiceView journey on the Amazon-delivered candidate; no user input is required for this engineering follow-up."
+    "corrective_action": "Retain language-review and recognition-capable hardware gates separately; rerun essential controls after relevant app changes."
   },
   "AC-17.09": {
     "status": "PASS",
@@ -2615,5 +2620,19 @@
       "tools/test_metadata_policy.py"
     ],
     "corrective_action": "Obtain release-language, asset/rights and publisher sign-off; do not infer full policy approval from static checks."
+  },
+  "AC-17.08": {
+    "test_name": "Native error-message readability and actionable recovery",
+    "execution_date": "2026-11-02",
+    "environment": "Physical Fire HD10/API28 / isolated source15 QA / requested font scale1.3; actual Amazon15 VoiceView unknown-command error",
+    "status": "PASS",
+    "actual_result": "Four native tests passed in22.126seconds. Failed Save displayed plain recovery copy without the controlled exception details, retained the draft and allowed successful retry. Invalid pot size explained disabled Save and accepted correction without losing the nickname. Delayed loading remained distinct from an empty collection; failed reads had a working Try again action without writes. The actual Amazon15 unknown-command feedback was exposed to accessibility focus. Source-English error copy was technically reviewed; this is not a human multilingual usability study or a real disk-failure reproduction.",
+    "evidence": [
+      "evidence/final-release/error-recovery.json",
+      "evidence/final-release/amazon15-voiceview-journey.json",
+      "app/src/androidTest/java/com/floratend/app/ErrorRecoveryTest.kt",
+      "app/src/androidTest/java/com/floratend/app/RecordLoadingTest.kt"
+    ],
+    "corrective_action": "Keep qualified linguistic review open for release languages; do not infer universal comprehension from these representative technical checks."
   }
 }

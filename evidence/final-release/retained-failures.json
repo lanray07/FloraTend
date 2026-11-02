@@ -1,0 +1,30 @@
+{
+  "execution_date": "2026-11-02",
+  "retainedRawLogs": "Private ignored build directory; not published",
+  "attempts": [
+    {
+      "stage": "Initial selected Garden",
+      "failure": "Redundant focus rejected; no records changed"
+    },
+    {
+      "stage": "Selected Garden label",
+      "failure": "Focus target was separate from clickable semantic ancestor; no records changed"
+    },
+    {
+      "stage": "Focus then click",
+      "failure": "Virtual node refreshed after focus; fresh node required; no records changed"
+    },
+    {
+      "stage": "Open new plant",
+      "failure": "Search edit matched same fixture text; run-created plant removed with exact-name guarded recovery; recovery PASS"
+    },
+    {
+      "stage": "Return to Garden",
+      "failure": "Asynchronous external navigation had not exposed editor; run-created edited plant removed with guarded recovery; recovery PASS"
+    }
+  ],
+  "finalResult": "PASS expanded native journey after harness corrections",
+  "productionDefectInferred": false,
+  "historicalCheckoutAndRenderingFailuresRetained": true,
+  "cleanupGuard": "A shell existence-check diagnostic returned nonzero. The directory-only host archive was rejected as a domain backup after a host SQLite open created an empty file with no tables. Direct Android ls -A then verified the actual databases directory empty and there were no photo files before isolated uninstall. The earlier QA storage-test backup remains valid and private."
+}

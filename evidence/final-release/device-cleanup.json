@@ -1,0 +1,31 @@
+{
+  "execution_date": "2026-11-02",
+  "qaBackupIntegrity": "ok",
+  "qaDomainRows": {
+    "plants": 0,
+    "schedules": 0,
+    "journal": 0,
+    "history": 0
+  },
+  "qaPhotoFiles": 0,
+  "qaAndTestPackagesRemoved": true,
+  "mainAmazonAppClearedOrUninstalled": false,
+  "ownMainTestPlantRemoved": true,
+  "deviceSettingsRestored": {
+    "font_scale": "1.0",
+    "accelerometer_rotation": "1",
+    "user_rotation": "0",
+    "wifi_on": "1",
+    "accessibility_enabled": "0",
+    "enabled_accessibility_services": "null"
+  },
+  "backupKeptPrivate": true,
+  "subsequentBoundServiceCheck": {
+    "result": "PASS",
+    "realVoiceViewBoundDuringRun": true,
+    "domainDatabaseDirectoryDirectlyVerifiedEmpty": true,
+    "privateEmptyProofSaved": true,
+    "qaAndTestPackagesRemoved": true,
+    "fixtureRemoved": true
+  }
+}

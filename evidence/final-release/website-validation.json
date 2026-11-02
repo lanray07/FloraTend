@@ -1,0 +1,35 @@
+{
+  "execution_date": "2026-11-02",
+  "result": "PASS",
+  "pages": 34,
+  "localizedOverviews": 22,
+  "reciprocalAlternatesPerOverview": 23,
+  "rtlLocale": "ar",
+  "humanApproved": false,
+  "englishDetailPrivacySupportPages": 12,
+  "es419SearchHreflang": "es",
+  "normalization": "Resource provenance is UTF8/LF, BOM stripped",
+  "browserChecks": [
+    {
+      "locale": "ar",
+      "direction": "rtl",
+      "innerWidth": 1280,
+      "documentWidth": 1265,
+      "screenshotInspected": true
+    },
+    {
+      "locale": "ja-JP",
+      "innerWidth": 1280,
+      "documentWidth": 1265,
+      "screenshotInspected": true
+    }
+  ],
+  "regressions": [
+    "Missing/misdirected reciprocal alternate rejected",
+    "Duplicate sitemap URL hiding omitted localized page rejected",
+    "LF/CRLF/BOM resource provenance equivalence; changed content differs"
+  ],
+  "deployment": "PENDING new GitHub Pages deployment",
+  "sourceGuidance": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+  "scope": "Equivalent localized overview pages; English legal/support links are explicitly labelled. Not complete translation of the12English detail pages, no search ranking or human approval claim."
+}

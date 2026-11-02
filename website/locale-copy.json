@@ -1,0 +1,137 @@
+{
+  "review_status": "draft_pending_human_review",
+  "locales": {
+    "en-GB": {
+      "name": "English (UK)",
+      "notice": "Preview translations. FloraTend is in development and is not publicly available.",
+      "languages": "Languages",
+      "support": "Support and privacy (English)"
+    },
+    "en-US": {
+      "name": "English (US)",
+      "notice": "Preview translations. FloraTend is in development and is not publicly available.",
+      "languages": "Languages",
+      "support": "Support and privacy (English)"
+    },
+    "en-AU": {
+      "name": "English (Australia)",
+      "notice": "Preview translations. FloraTend is in development and is not publicly available.",
+      "languages": "Languages",
+      "support": "Support and privacy (English)"
+    },
+    "fr-FR": {
+      "name": "Français",
+      "notice": "Traductions provisoires. FloraTend est en cours de développement et n’est pas disponible au public.",
+      "languages": "Langues",
+      "support": "Assistance et confidentialité (en anglais)"
+    },
+    "fr-CA": {
+      "name": "Français (Canada)",
+      "notice": "Traductions provisoires. FloraTend est en cours de développement et n’est pas disponible au public.",
+      "languages": "Langues",
+      "support": "Assistance et confidentialité (en anglais)"
+    },
+    "es-ES": {
+      "name": "Español",
+      "notice": "Traducciones provisionales. FloraTend está en desarrollo y aún no está disponible para el público.",
+      "languages": "Idiomas",
+      "support": "Ayuda y privacidad (en inglés)"
+    },
+    "es-419": {
+      "name": "Español (Latinoamérica)",
+      "notice": "Traducciones provisionales. FloraTend está en desarrollo y aún no está disponible para el público.",
+      "languages": "Idiomas",
+      "support": "Ayuda y privacidad (en inglés)"
+    },
+    "de-DE": {
+      "name": "Deutsch",
+      "notice": "Vorläufige Übersetzungen. FloraTend befindet sich in Entwicklung und ist noch nicht öffentlich verfügbar.",
+      "languages": "Sprachen",
+      "support": "Hilfe und Datenschutz (auf Englisch)"
+    },
+    "it-IT": {
+      "name": "Italiano",
+      "notice": "Traduzioni provvisorie. FloraTend è in fase di sviluppo e non è ancora disponibile al pubblico.",
+      "languages": "Lingue",
+      "support": "Assistenza e privacy (in inglese)"
+    },
+    "pt-BR": {
+      "name": "Português (Brasil)",
+      "notice": "Traduções provisórias. O FloraTend está em desenvolvimento e ainda não está disponível ao público.",
+      "languages": "Idiomas",
+      "support": "Suporte e privacidade (em inglês)"
+    },
+    "pt-PT": {
+      "name": "Português (Portugal)",
+      "notice": "Traduções provisórias. O FloraTend está em desenvolvimento e ainda não está disponível ao público.",
+      "languages": "Idiomas",
+      "support": "Apoio e privacidade (em inglês)"
+    },
+    "nl-NL": {
+      "name": "Nederlands",
+      "notice": "Voorlopige vertalingen. FloraTend is in ontwikkeling en nog niet openbaar beschikbaar.",
+      "languages": "Talen",
+      "support": "Ondersteuning en privacy (in het Engels)"
+    },
+    "pl-PL": {
+      "name": "Polski",
+      "notice": "Wstępne tłumaczenia. FloraTend jest w trakcie tworzenia i nie jest jeszcze publicznie dostępny.",
+      "languages": "Języki",
+      "support": "Pomoc i prywatność (po angielsku)"
+    },
+    "sv-SE": {
+      "name": "Svenska",
+      "notice": "Preliminära översättningar. FloraTend är under utveckling och är ännu inte tillgänglig för allmänheten.",
+      "languages": "Språk",
+      "support": "Support och integritet (på engelska)"
+    },
+    "ja-JP": {
+      "name": "日本語",
+      "notice": "翻訳は確認中です。FloraTendは開発中で、まだ一般公開されていません。",
+      "languages": "言語",
+      "support": "サポートとプライバシー（英語）"
+    },
+    "hi-IN": {
+      "name": "हिन्दी",
+      "notice": "अनुवाद प्रारंभिक हैं। FloraTend अभी विकसित किया जा रहा है और सार्वजनिक रूप से उपलब्ध नहीं है।",
+      "languages": "भाषाएँ",
+      "support": "सहायता और गोपनीयता (अंग्रेज़ी में)"
+    },
+    "ar": {
+      "name": "العربية",
+      "notice": "الترجمات أولية. لا يزال FloraTend قيد التطوير وغير متاح للجمهور.",
+      "languages": "اللغات",
+      "support": "الدعم والخصوصية (بالإنجليزية)"
+    },
+    "tr-TR": {
+      "name": "Türkçe",
+      "notice": "Çeviriler ön sürümdür. FloraTend geliştirme aşamasındadır ve henüz herkesin kullanımına açık değildir.",
+      "languages": "Diller",
+      "support": "Destek ve gizlilik (İngilizce)"
+    },
+    "id-ID": {
+      "name": "Bahasa Indonesia",
+      "notice": "Terjemahan masih sementara. FloraTend sedang dikembangkan dan belum tersedia untuk umum.",
+      "languages": "Bahasa",
+      "support": "Dukungan dan privasi (bahasa Inggris)"
+    },
+    "ko-KR": {
+      "name": "한국어",
+      "notice": "검토 중인 번역입니다. FloraTend는 개발 중이며 아직 일반에 공개되지 않았습니다.",
+      "languages": "언어",
+      "support": "지원 및 개인정보 보호(영어)"
+    },
+    "zh-CN": {
+      "name": "简体中文",
+      "notice": "翻译尚待审核。FloraTend仍在开发中，尚未公开发布。",
+      "languages": "语言",
+      "support": "支持与隐私（英语）"
+    },
+    "zh-TW": {
+      "name": "繁體中文",
+      "notice": "翻譯尚待審核。FloraTend仍在開發中，尚未公開發布。",
+      "languages": "語言",
+      "support": "支援與隱私（英語）"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "execution_date": "2026-11-02",
+  "result": "PASS",
+  "tests": 4,
+  "elapsedSeconds": 22.126,
+  "environment": "Physical Fire HD10/API28 / isolated QA source15 / requested font scale1.3",
+  "cases": [
+    "Failed save: plain recovery message displayed; exception details absent; draft retained; Close and Save retry persist the same controlled plant",
+    "Invalid pot size: disabled Save explained by validation copy; correction retains nickname and accepts12cm",
+    "Delayed reads: loading is distinguished from empty collection",
+    "Failed read: plain error and working Try again; no data written"
+  ],
+  "scope": "Actual native UI and real Room persistence; storage failures are controlled DAO fixtures, not genuine disk faults. English accessibility/error-recovery technical review, not human linguistic or usability-study certification. Genuine offline identification error and real Amazon error/cancel evidence retained separately.",
+  "sourceEnglishCopyReviewed": {
+    "export_error": "Export could not be saved. Choose another destination.",
+    "mic_denied": "Microphone permission was declined. You can type a command instead.",
+    "photo_error": "Could not open that photograph. Try another image or camera app.",
+    "photo_missing": "This photograph is no longer available.",
+    "save_error": "Your record could not be saved. Please try again.",
+    "valid_plant": "Enter a name, a valid date, and a positive pot size if supplied.",
+    "voice_ambiguous": "Please choose the plant and its care schedule using the calendar. The name or schedule was ambiguous.",
+    "voice_error": "Speech could not be recognised. Try again or type your command.",
+    "voice_unavailable": "Speech recognition is unavailable on this device. Type a command below or use the app controls.",
+    "voice_unknown": "Command not recognised. Try one of the examples below, or use the app controls.",
+    "billing_incomplete": "Amazon did not complete the purchase. No new entitlement was granted.",
+    "billing_restore_failed": "Amazon purchase restoration could not be verified. Try again when connected.",
+    "billing_unavailable": "Amazon purchasing is unavailable. Check your store connection and try again.",
+    "load_error": "Your records could not be loaded. Please try again.",
+    "identification_no_match": "No match found. Try a clearer plant photo or enter the species manually.",
+    "identification_limit": "The daily identification allowance is used up. Try tomorrow or enter the species manually.",
+    "identification_error": "Identification is unavailable. Try again or enter the species manually."
+  },
+  "reviewType": "AI technical review of cause/state and available recovery actions; qualified locale review remains open."
+}
