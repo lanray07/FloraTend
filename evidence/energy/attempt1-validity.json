@@ -1,0 +1,22 @@
+{
+  "measurementValidity": "INVALID",
+  "errors": [
+    "Recorder did not report a complete physically unplugged window",
+    "Missing start/end measurement samples",
+    "Measured uptime interval below the required duration",
+    "Cumulative onBatterySeconds does not corroborate the sample interval",
+    "Cumulative screenOffOnBatterySeconds does not corroborate the sample interval"
+  ],
+  "recordedSamples": 1,
+  "measurementSamples": 0,
+  "measuredSeconds": 0,
+  "levelDropPercentagePoints": null,
+  "chargeCounterDecreaseUah": null,
+  "chargeCounterWasConstant": null,
+  "systemStatsDeltas": {
+    "onBatterySeconds": null,
+    "screenOffOnBatterySeconds": null
+  },
+  "energyAcceptanceDecision": "NOT_EVALUABLE",
+  "scope": "Recording validity and aggregate readings only. Constant/coarse counters do not prove zero energy use. App attribution, observer overhead and background-work behaviour require review. Raw system logs are not exported."
+}

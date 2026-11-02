@@ -1,0 +1,23 @@
+{
+  "execution_date": "2026-11-02T08:53:21.879646+00:00",
+  "targetVersionCode": 15,
+  "targetInstaller": "com.amazon.venezia",
+  "userReportedUnpluggedMinutes": 32,
+  "recorderStatusAtCollection": "WAITING_FOR_PHYSICAL_UNPLUG",
+  "recorderProcessStillRunning": true,
+  "recordedSamples": 1,
+  "recordedSamplePhase": "waiting",
+  "recordedSampleUsbPowered": true,
+  "recordedPhysicallyUnpluggedSeconds": 0,
+  "androidTimeOnBatterySecondsSinceFullCharge": 27.378,
+  "androidScreenOffOnBatterySecondsSinceFullCharge": 0,
+  "androidStatsScope": "Cumulative system statistics; not attributed to this attempted window",
+  "result": "NO_VALID_UNPLUGGED_MEASUREMENT",
+  "releaseGate": "AC-18.05 remains NOT TESTED",
+  "cause": "Unisolated: no power-off transition observed in the collected run; user report is retained separately from device observations. This does not establish an application battery defect.",
+  "oldRecorderStoppedBeforeRetry": true,
+  "appForceStoppedOrCleared": false,
+  "rawFilesPrivate": true,
+  "sampleFileSha256": "2c24e93a1fbaa7ffe7434a9546df740754b43db6df0a9f4191ed38bc04dc458d",
+  "observerLimitation": "Initial recorder wrote only a baseline while waiting. It cannot distinguish continuous powered readings from a scheduling gap. Retry adds waiting heartbeats without introducing a wakelock."
+}
