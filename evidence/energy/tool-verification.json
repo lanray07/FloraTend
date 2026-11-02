@@ -1,0 +1,12 @@
+{
+  "execution_date": "2026-11-02",
+  "supportingTests": 86,
+  "result": "PASS",
+  "elapsedSeconds": 87.11,
+  "targetedEnergyParserTests": 7,
+  "recorderShellSyntax": "PASS bash -n",
+  "recorderCheckoutLineEndings": "LF enforced through .gitattributes",
+  "realInputDurationRegression": "Old2029seconds included powered reconnection; corrected valid unplugged sample span1792seconds; strict result remainsINVALID",
+  "deviceAccountingNotFixture": "Independent real system-accounting evidence reviewed separately",
+  "rawLogsPublished": false
+}

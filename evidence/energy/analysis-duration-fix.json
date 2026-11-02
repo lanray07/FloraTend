@@ -1,0 +1,12 @@
+{
+  "execution_date": "2026-11-02",
+  "sourceBefore": "d9fc225",
+  "actualRetryInputUsed": true,
+  "oldReportedUnpluggedSeconds": 2029,
+  "correctedReportedUnpluggedSeconds": 1792,
+  "oldAndNewStrictValidity": "INVALID",
+  "fix": "Exclude the powered reconnection sample from the reported unplugged sample span; retain total observed span separately. No missing samples or acceptance pass inferred.",
+  "regression": "test_reconnection_sample_does_not_extend_unplugged_duration",
+  "rawInputPrivate": true,
+  "sampleInputSha256": "83e22581e7146c3667002dc960e4664f70d29bdd2ae6549df0a56737a37abfdc"
+}

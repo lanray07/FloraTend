@@ -2,3 +2,5 @@
 /evidence/** -text
 *.png binary
 *.jar binary
+# Android shell tools must remain executable text after Windows checkouts.
+/tools/*.sh text eol=lf

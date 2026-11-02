@@ -61,7 +61,10 @@ def analyze(status, sample_text, start_stats='', end_stats='', minimum_seconds=1
         errors.append('Recorder did not report a complete physically unplugged window')
     if len(measured) < 2 or not measured or measured[0]['phase'] != 'start':
         errors.append('Missing start/end measurement samples')
-    elapsed = measured[-1]['uptimeSeconds'] - measured[0]['uptimeSeconds'] if len(measured) >= 2 else 0
+    unplugged = [sample for sample in measured if sample['phase'] != 'invalid' and all(value is False for value in sample['power'].values())]
+    observed_span = measured[-1]['uptimeSeconds'] - measured[0]['uptimeSeconds'] if len(measured) >= 2 else 0
+    # A powered reconnection sample must never extend the claimed unplugged span.
+    elapsed = unplugged[-1]['uptimeSeconds'] - unplugged[0]['uptimeSeconds'] if len(unplugged) >= 2 else 0
     if elapsed < minimum_seconds:
         errors.append('Measured uptime interval below the required duration')
     for sample in measured:
@@ -87,6 +90,7 @@ def analyze(status, sample_text, start_stats='', end_stats='', minimum_seconds=1
     return {'measurementValidity': 'INVALID' if errors else 'VALID_PHYSICALLY_UNPLUGGED_WINDOW',
             'errors': list(dict.fromkeys(errors)), 'recordedSamples': len(all_samples),
             'measurementSamples': len(measured), 'measuredSeconds': elapsed,
+            'recordingObservedSpanSeconds': observed_span,
             'levelDropPercentagePoints': level_drop, 'chargeCounterDecreaseUah': counter_change,
             'chargeCounterWasConstant': counter_change == 0 if counter_change is not None else None,
             'systemStatsDeltas': deltas, 'energyAcceptanceDecision': 'NOT_EVALUABLE' if errors else 'REQUIRES_REVIEW',

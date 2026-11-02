@@ -1,0 +1,61 @@
+{
+  "execution_date": "2026-11-02T09:33:40.750620+00:00",
+  "target": "Actual Amazon0.1.14/code15 / nondebug com.amazon.venezia / FireHD10/API28",
+  "evidenceChannel": "Independent Android cumulative battery and target-UID state accounting, bracketing the interval with the same counter epoch",
+  "result": "VALID_REAL_BACKGROUND_INTERVAL_REVIEWED",
+  "counterEpochUnchanged": true,
+  "counterEpochStart": "2026-11-02-08-53-47",
+  "measuredOnBatterySeconds": 2010.763,
+  "targetUidCachedBackgroundSeconds": 2010.763,
+  "targetForegroundActivityDeltaSeconds": 0.0,
+  "measuredScreenOffOnBatterySeconds": 1707.087,
+  "wholeEpochOnBatterySeconds": 2018.719,
+  "wholeEpochScreenOffOnBatterySeconds": 1712.757,
+  "targetUidReportedWakelockEntries": 0,
+  "targetUidSeparatePowerEstimate": "Not separately listed; not interpreted as zero mAh",
+  "batterySaver": "Enabled for virtually the entire recorded battery epoch",
+  "batteryGauge": {
+    "startPercent": 100,
+    "lastUnpluggedPercent": 100,
+    "chargeCounterConstantUah": 6500000,
+    "interpretation": "Coarse/constant readings; no claim of zero energy use"
+  },
+  "wholeDeviceModeledDrainDeltaMah": 20.334,
+  "modeledDrainIsActualAppEnergy": false,
+  "strictAllScreenOffRecorderPassed": false,
+  "strictRecorderLimitations": [
+    "Initial samples were Awake despite the Sleep key request",
+    "Only1792seconds separate the first and last valid unplugged samples",
+    "A long polling gap is consistent with deep idle; the next loop observed USB reconnection and aborted",
+    "The powered reconnection sample is excluded from the claimed unplugged sample duration"
+  ],
+  "rawLogsPrivate": true,
+  "nativeRecorderSourceNormalizedSha256": "25c9cee269489ebc852a6a8d747ec7889e9d3ee515b1f1d408a1b1f98de40724",
+  "sourceInputSha256": {
+    "nativeStartStats": "cafebeddc08cd29063753b0dd0eb5dffe49f2d38911896cfed01ace83f2f3b80",
+    "hostReconnectStats": "6499fbc3a917cac34be458484a2710adc0106be436fc03e5c9e8cb954633afff",
+    "nativeSamples": "83e22581e7146c3667002dc960e4664f70d29bdd2ae6549df0a56737a37abfdc"
+  },
+  "acceptanceReview": {
+    "criterion": "AC-18.05 Background work does not unnecessarily drain battery.",
+    "decision": "PASS scoped to this actual default idle/background configuration",
+    "basis": "More than30minutes physically on battery with the target UID cached throughout and no foreground delta; reported cumulative UID CPU192ms and no target wakelocks. Original default care-reminder setting was off, and retained native tests verify disabled work cancellation and one12hour periodic request when enabled. No excessive background activity observed in this actual default configuration.",
+    "notClaimed": [
+      "A completed30minute all-screen-off recorder protocol",
+      "Zero energy consumption",
+      "Calibrated app mAh measurement",
+      "All power modes, populated workloads or an entire12hour reminder cycle"
+    ]
+  },
+  "configuration": {
+    "careRemindersEnabled": false,
+    "howVerified": "Post-measurement read-only Settings UI; source default false; recorder never changes this preference",
+    "batterySaverDuringEpoch": true,
+    "collection": "Existing empty Garden; no test records added",
+    "spokenFeedbackEnabled": true,
+    "noPreferencesChangedDuringReadback": true
+  },
+  "reportedTargetUidWholeEpochCpuSeconds": 0.192,
+  "reportedCpuCounterUpperBoundForWindowSeconds": 0.192,
+  "reportedCpuUpperBoundPercentOfWindow": 0.00955
+}

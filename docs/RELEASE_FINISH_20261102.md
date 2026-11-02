@@ -1,5 +1,7 @@
 # Release follow-up - 2 November 2026
 
+Latest update:193/204criteria verified after actual unplugged default-background accounting. The separate [energy report](ENERGY_TEST_20261102.md) preserves the failed strict screen-off protocol and the independent33m30s cached-background evidence. Its limits are explicit; full public submission remains blocked by11review/provider/hardware criteria.
+
 ## Executed verification
 
 - Actual Amazon15 essential-control VoiceView journey: PASS. Bound VoiceView with touch exploration was independently read back during the run. External QA-hosted native accessibility focus/click/set-text created, saved, reopened, edited and removed one unique test plant. Its care schedule was completed, paused/resumed, snoozed and opened for rescheduling. Journal, typed-command error feedback, Insights, Settings and language navigation were reached. The delivered app was never instrumented or overwritten. No existing plant was edited or removed. English control accessibility is the scope; multilingual pronunciation/manual gesture certification is not inferred.

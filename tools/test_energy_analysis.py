@@ -43,6 +43,13 @@ class EnergyAnalysisTests(unittest.TestCase):
         for second in [sample(2, 1100, 'measurement'), sample(2, 1901, 'invalid', power='true')]:
             self.assertEqual('INVALID', analyze(COMPLETE, sample(1, 100, 'start') + second, stats('1s'), stats('30m 2s'))['measurementValidity'])
 
+    def test_reconnection_sample_does_not_extend_unplugged_duration(self):
+        text = sample(1, 100, 'start') + sample(2, 1892, 'measurement') + sample(3, 2129, 'invalid', power='true')
+        result = analyze('ABORTED_POWER_RECONNECTED_DURING_WINDOW', text, stats('1s'), stats('30m 2s'))
+        self.assertEqual(1792, result['measuredSeconds'])
+        self.assertEqual(2029, result['recordingObservedSpanSeconds'])
+        self.assertEqual('INVALID', result['measurementValidity'])
+
     def test_frozen_system_statistics_cannot_pass_even_if_sample_times_advance(self):
         self.assertEqual('INVALID', analyze(COMPLETE, sample(1, 100, 'start') + sample(2, 1901, 'measurement'), stats('27s 378ms'), stats('27s 378ms'))['measurementValidity'])
 

@@ -2,14 +2,14 @@
 
 **BLOCKED**
 
-Verified acceptance rate: **192 / 204 = 94.12%**. BLOCKED and NOT TESTED criteria count as incomplete.
+Verified acceptance rate: **193 / 204 = 94.61%**. BLOCKED and NOT TESTED criteria count as incomplete.
 
 | Status | Mandatory criteria |
 |---|---:|
 | BLOCKED | 5 |
 | FAIL | 0 |
-| NOT TESTED | 7 |
-| PASS | 192 |
+| NOT TESTED | 6 |
+| PASS | 193 |
 
 The criterion-level evidence, expected behaviour and corrective actions are in [ACCEPTANCE_TEST_RESULTS.csv](ACCEPTANCE_TEST_RESULTS.csv) and [ACCEPTANCE_CRITERIA.md](ACCEPTANCE_CRITERIA.md). This decision is conservative: no release is approved while any mandatory criterion remains unverified. Publication additionally requires explicit user authorisation.
 
@@ -20,5 +20,4 @@ The criterion-level evidence, expected behaviour and corrective actions are in [
 - AC-08 — Localised Amazon Appstore Screenshots: 3 criteria incomplete.
 - AC-09 — Automatic Translation Pipeline: 1 criteria incomplete.
 - AC-14 — Amazon SEO / ASO: 1 criteria incomplete.
-- AC-18 — Performance and Reliability: 1 criteria incomplete.
 - AC-19 — Release Package: 2 criteria incomplete.

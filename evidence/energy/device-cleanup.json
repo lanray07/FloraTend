@@ -1,0 +1,27 @@
+{
+  "execution_date": "2026-11-02",
+  "mainAmazon15ApkHashUnchanged": true,
+  "mainProcessSameAsMeasurementStart": true,
+  "rawRecorderFilesHashVerifiedBeforeRemoval": 19,
+  "remoteObserverDirectoriesRemoved": 2,
+  "mainAppClearedOrUninstalledOrForceStopped": false,
+  "mainRecordsTouched": false,
+  "onlyFloraTendMainPackageInstalled": true,
+  "deviceSettings": {
+    "font_scale": "1.0",
+    "accelerometer_rotation": "1",
+    "user_rotation": "0",
+    "wifi_on": "1",
+    "accessibility_enabled": "0",
+    "enabled_accessibility_services": "null"
+  },
+  "physicalDisplay": "Physical size: 1200x1920",
+  "physicalDensity": "Physical density: 240",
+  "mainAppRestoredToForeground": true,
+  "rawBackupsRemainPrivate": true,
+  "postMeasurementBatterySaverSetting": "0",
+  "batterySaverExplicitlyChangedByAgent": false,
+  "careRemindersOffVerifiedReadOnly": true,
+  "mainAppReturnedToGardenAfterReadback": true,
+  "privateSettingsProofSha256": "7662e3037be66b315850ee12fa7c7799b54082f9b158589a3218ff7820067797"
+}
