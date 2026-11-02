@@ -1,0 +1,13 @@
+{
+  "execution_date": "2026-11-02",
+  "paidEndpointRegression": {
+    "red": "Expected rejection failed before fix",
+    "green": "10localization testsPASS after restricting endpoint"
+  },
+  "allowedEndpoint": "https://api-free.deepl.com",
+  "dpapiConfigurationSelfTest": "PASS CurrentUser roundtrip; no plaintextfile; no network",
+  "missingCredentialCheck": "BLOCKED before request; no live-pass file created",
+  "actualProviderRequest": false,
+  "liveCriterionStatus": "BLOCKED pending separate private DeepL API Free credential",
+  "plantnetCredentialReused": false
+}

@@ -1,7 +1,7 @@
 {
   "execution_date": "2026-11-02",
-  "tests": 76,
+  "tests": 79,
   "result": "PASS",
-  "elapsedSeconds": 49.422,
-  "scope": "Supporting tooling and retained-evidence contracts. Includes16website/reporting tests; not a substitute for real device/provider/human gates."
+  "elapsedSeconds": 44.732,
+  "scope": "Supporting tooling and retained-evidence contracts. Includes16website/reporting tests, paid-endpoint rejection and two no-false-live-proof translation verifier failure tests. Not a substitute for real device/provider/human gates."
 }

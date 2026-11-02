@@ -82,7 +82,7 @@ def build_overviews(output: Path, origin: str):
         document = f'''<!doctype html><html lang="{locale}" dir="{item['direction']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{escape(strings['your_garden'])} | FloraTend</title><meta name="description" content="{escape(strings['tagline'])}">{metadata}<link rel="stylesheet" href="../../style.css"><script type="application/ld+json">{structured}</script></head><body><header><a class="brand" href="index.html">FloraTend</a><nav><a href="#languages">{escape(copy['languages'])}</a><a href="../../support.html" lang="en-GB">{escape(copy['support'])}</a></nav></header><main id="main"><div class="hero"><h1>{escape(strings['your_garden'])}</h1><p class="intro">{escape(strings['tagline'])}</p><p class="notice">{escape(copy['notice'])}</p></div><div class="content">{sections}</div></main><footer><div><p>{escape(copy['notice'])}</p><p><a href="../../privacy.html" lang="en-GB">{escape(copy['support'])}</a></p><h2 id="languages">{escape(copy['languages'])}</h2><ul>{languages}</ul></div></footer></body></html>'''
         destination = output / path
         destination.parent.mkdir(parents=True, exist_ok=True)
-        destination.write_text(document, encoding='utf-8')
+        destination.write_text(document, encoding='utf-8', newline='\n')
         paths.append(path)
         provenance[locale] = {'path': path, 'direction': item['direction'], 'resource_sha256': item['resource_sha256'],
                               'page_sha256': hashlib.sha256(document.encode('utf-8')).hexdigest()}

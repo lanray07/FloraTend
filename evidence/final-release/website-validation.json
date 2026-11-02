@@ -29,7 +29,7 @@
     "Duplicate sitemap URL hiding omitted localized page rejected",
     "LF/CRLF/BOM resource provenance equivalence; changed content differs"
   ],
-  "deployment": "PENDING new GitHub Pages deployment",
+  "deployment": "SUCCESS GitHub Pages41410108339; all34HTML URLs HTTP200 and exact expected bytes",
   "sourceGuidance": "https://developers.google.com/search/docs/specialty/international/localized-versions",
   "scope": "Equivalent localized overview pages; English legal/support links are explicitly labelled. Not complete translation of the12English detail pages, no search ranking or human approval claim."
 }

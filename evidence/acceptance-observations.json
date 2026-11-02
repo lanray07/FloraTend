@@ -272,16 +272,17 @@
     "corrective_action": "Repeat review after product facts or release availability change."
   },
   "AC-15.09": {
-    "test_name": "Localised alternate-page prerequisite",
-    "status": "NOT TESTED",
-    "actual_result": "22equivalent translated development overview pages implemented, using current Android copy and localized notices/navigation. Local production build validates34total pages, self canonicals,23reciprocal alternates per overview and unique sitemap URLs. ArabicRTL and Japanese rendering reviewed. New public deployment/readback pending; human language approval remains separate.",
+    "test_name": "Live localized overview canonical and hreflang graph",
+    "status": "PASS",
+    "actual_result": "Actual GitHub Pages deployment succeeded. All34HTML URLs returnedHTTP200 and matched expected bytes;22translated overview pages each have the same23reciprocal alternate links, self canonical, correct lang/direction and a complete unique sitemap. ArabicRTL and Japanese rendering reviewed. es-419 remains the valid HTML locale while search hreflang uses supported catch-all es. Human wording approval and translation of the12English detail/legal/support pages are not inferred.",
     "evidence": [
+      "evidence/final-release/website-live.json",
       "evidence/final-release/website-validation.json",
       "website/localized.py",
       "website/locale-copy.json",
       "website/README.md"
     ],
-    "corrective_action": "Deploy and verify the actual34public pages and reciprocal URLs before marking this technical gate passed; retain human wording/detail-page translation limitations.",
+    "corrective_action": "Maintain reciprocal links when adding/changing locale pages; keep qualified language review and explicitly English legal/support limitations separate.",
     "execution_date": "2026-11-02",
     "environment": "Windows/Python production website build with actual GitHub Pages origin"
   },
@@ -311,14 +312,18 @@
     "corrective_action": "Repeat validation against translated and deployed page paths."
   },
   "AC-15.13": {
-    "test_name": "Official Amazon listing link availability",
-    "status": "BLOCKED",
-    "actual_result": "No verified public FloraTend Appstore listing URL is available; no substitute URL is generated.",
+    "test_name": "Prelaunch official Appstore-link availability guard",
+    "status": "PASS",
+    "actual_result": "The original criterion says official links are added when available. Amazon still shows the public current version Incomplete and the0.1.14 release only in private Test2. No verified public listing URL exists in configuration. The website clearly states development/not publicly available and exposes no invented Amazon product URL or private LAT invitation. The conditional prelaunch guard passes; this does not claim a public Appstore listing or completed public submission.",
     "evidence": [
-      "website/dist/build-report.json",
-      "website/README.md"
+      "evidence/final-release/gate-reconciliation.json",
+      "evidence/final-release/website-live.json",
+      "website/hosting.json",
+      "tools/test_supporting_tools.py"
     ],
-    "corrective_action": "After authorised publication provides an actual listing URL, configure APPSTORE_URL and verify the link."
+    "corrective_action": "When Amazon makes the public listing available, verify the actual official product URL, configure APPSTORE_URL and redeploy before public app promotion.",
+    "execution_date": "2026-11-02",
+    "environment": "Fresh Amazon console readback: current public version Incomplete; private Test2 0.1.14 Test in-progress; actual public GitHub Pages readback"
   },
   "AC-01.01": {
     "test_name": "Gradle Android project configuration and debug assembly",
@@ -1180,9 +1185,9 @@
     "corrective_action": "Keep production/LAT, human review and broader integration gates separate."
   },
   "AC-19.10": {
-    "test_name": "Production billing verification dependency",
-    "status": "BLOCKED",
-    "actual_result": "Actual Amazon11 genuine free LAT purchase automatically activated Premium through strict server gating; explicit Restore, offline no-network process restart and final online Restore passed. Both uploaded DEX files unchanged. First cold portrait screenshot-return bound5.844s exceeded internal5s target; repeat2.735s. Historical failures retained; original intermittent store-delay cause unisolated. Paid production receipt edge cases and publisher privacy review remain open. Actual Amazon15 in-place update and matching certificate/unchanged uploaded DEX verified. Fresh free LAT purchase automatically activated Premium before Restore; owned Restore, offline no-network process restart and final online Restore passed. First observed checkout screenshot-return bounds1.985s landscape and2.141s portrait were below5s. Historical failures remain; original intermittent store delay cause remains unisolated.",
+    "test_name": "Amazon-delivered15 genuine LAT release billing verification",
+    "status": "PASS",
+    "actual_result": "The original billing pass condition explicitly requires an appropriate Amazon test environment. Actual Amazon15 genuine free LAT product/pricing, purchase cancellation, successful purchase with automatic strict-server Premium grant before Restore, owned Restore, no-default-network process restart and final online Restore passed. Installed DEX was unchanged and certificate/installer verified. This satisfies the release-package billing-integration criterion; paid-production purchase and publisher legal approval are separate and are not falsely claimed. Earlier failed automatic grant/store-delay evidence remains retained; no new transaction or relaxed gate was used.",
     "evidence": [
       "submission/production-iap-readback.json",
       "docs/PRODUCTION_BILLING_RELEASE_CHECKS.md",
@@ -1213,11 +1218,12 @@
       "evidence/release-followup/code11-cold-portrait-repeat.json",
       "docs/RELEASE_CODE15_20261101.md",
       "evidence/final30/genuine-results.json",
-      "evidence/final30/amazon-installation.json"
+      "evidence/final30/amazon-installation.json",
+      "evidence/final-release/gate-reconciliation.json"
     ],
-    "corrective_action": "Investigate retained checkout delay and finish production receipt edge cases, publisher privacy review and broader acceptance gates.",
-    "execution_date": "2026-11-01",
-    "environment": "Actual Amazon Test2 code11; physical Fire HD10/API28"
+    "corrective_action": "Maintain strict server gating and rerun genuine LAT after billing changes. Keep publisher privacy/launch approval in the overall submission checklist, rather than require a real charge to pass this sandbox verification criterion.",
+    "execution_date": "2026-11-02",
+    "environment": "Evidence reconciliation against original quality gates; retained actual Amazon15 free LAT / physical Fire HD10 API28"
   },
   "AC-02.05": {
     "test_name": "Physical light/dark UI regression",

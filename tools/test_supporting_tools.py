@@ -115,6 +115,9 @@ class WebsiteTests(unittest.TestCase):
             self.assertFalse(result["production_configured"])
             self.assertEqual(34, result["pages"])
             self.assertIn("Disallow: /", (output / "robots.txt").read_text())
+            self.assertNotIn(b'\r', (output / 'robots.txt').read_bytes())
+            self.assertNotIn(b'\r', (output / 'build-report.json').read_bytes())
+            self.assertNotIn(b'\r', (output / 'sitemap.xml').read_bytes())
             self.assertEqual([], validator.validate(output)["errors"])
 
     def test_configured_domain_generates_canonicals_and_sitemap(self):

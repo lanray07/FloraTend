@@ -1,0 +1,213 @@
+{
+  "execution_date": "2026-11-02T08:05:16.846490+00:00",
+  "result": "PASS",
+  "site": "https://lanray07.github.io/FloraTend",
+  "sourceCommit": "6daf2a53f61b0dd71589ebb59bbc533e6ddd9113",
+  "deploymentRun": 41410108339,
+  "deploymentResult": "SUCCESS",
+  "htmlPages": 34,
+  "localizedOverviews": 22,
+  "http200Files": 38,
+  "exactExpectedHtmlAndStaticBytes": 37,
+  "reciprocalAlternatesPerOverview": 23,
+  "humanApproved": false,
+  "validation": {
+    "checked_pages": 34,
+    "production": true,
+    "errors": [],
+    "status": "PASS"
+  },
+  "files": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "8c600b4f257f9e108cf3f00fd9e33494d2e2f0c49648e522f2ca7ad7bcb64e0f"
+    },
+    {
+      "path": "features.html",
+      "status": 200,
+      "sha256": "a57ed5a43a93c003a7a7c38b5eae0002f89dd6bb4c0a363e3580594da61d4894"
+    },
+    {
+      "path": "plant-watering-reminders.html",
+      "status": 200,
+      "sha256": "9d097cfe0979f42d4a6c3efa5745e97bb0916c25885e495a05e42e067d58f08e"
+    },
+    {
+      "path": "houseplant-tracker.html",
+      "status": 200,
+      "sha256": "109b771e1158fabe0cd13c5177d26e3d1722e3c6f67ad9c70f30f37e387af5f0"
+    },
+    {
+      "path": "plant-care-calendar.html",
+      "status": 200,
+      "sha256": "3b15b9b53adafbcc2dbb28a89fdf2e7a6817b1e5a31230aca1985a0c1f3f5025"
+    },
+    {
+      "path": "growth-journal.html",
+      "status": 200,
+      "sha256": "6bab05be77ba7ee36409071c97a85a37755735552394bd966570b91cb24b9699"
+    },
+    {
+      "path": "voice-features.html",
+      "status": 200,
+      "sha256": "64174a6c26a29df23b4e7dc2ccd00106581651c61d42e1c4c906b95b193272a4"
+    },
+    {
+      "path": "fire-tablet-compatibility.html",
+      "status": 200,
+      "sha256": "b77ee4f0a3b5424029dee64136c3d51c99c8120ae1db4563272e29e3ee641023"
+    },
+    {
+      "path": "pricing.html",
+      "status": 200,
+      "sha256": "596b32c923785f475b8d02694b7629364d55961c26bc5a8b592e9c839985e58a"
+    },
+    {
+      "path": "faq.html",
+      "status": 200,
+      "sha256": "a730d7f8e4df9cbd71592418cdbff1fbe61c54b2a85aae1a5ae6b3d737224031"
+    },
+    {
+      "path": "privacy.html",
+      "status": 200,
+      "sha256": "1779fa4d5f2338ff3a2525f9ee0cd422200fc8cf74ee662b456843bcad8f6850"
+    },
+    {
+      "path": "support.html",
+      "status": 200,
+      "sha256": "7797f601ea1b1eca0bb26dd2aba92900696d3d8ee8caedf2a9bd3b9c53575114"
+    },
+    {
+      "path": "locales/en-GB/index.html",
+      "status": 200,
+      "sha256": "ee73a2a43b6d64006c6aca213ca7aea89e95c3661daf9619eb01d428eb5031a7"
+    },
+    {
+      "path": "locales/en-US/index.html",
+      "status": 200,
+      "sha256": "f7add7424b2b0facdaaa3539e1d1285c986a3121eab63cd17b5d115e673542a6"
+    },
+    {
+      "path": "locales/en-AU/index.html",
+      "status": 200,
+      "sha256": "e6a41f0ce74031a2c9a8ceae50738e09f25fbdfc73032cac39794fec173469d9"
+    },
+    {
+      "path": "locales/es-ES/index.html",
+      "status": 200,
+      "sha256": "5103077bd088c71c5b9f9f25de6287da18487bcea5d7e77d8fc97b397fe0b931"
+    },
+    {
+      "path": "locales/es-419/index.html",
+      "status": 200,
+      "sha256": "8996590bfe55ccd44ef1957f62d210827c6f06c4bd0730f05351e6da585abcdd"
+    },
+    {
+      "path": "locales/fr-FR/index.html",
+      "status": 200,
+      "sha256": "f3a439d2f091d10d5746d2e1776196f3c9587ed3da556e3a4c788f5d0398e459"
+    },
+    {
+      "path": "locales/fr-CA/index.html",
+      "status": 200,
+      "sha256": "d7ca4c9ab2354ba9ed10fb46ba162b22b35280e60e103f915c60bd44419ae1f8"
+    },
+    {
+      "path": "locales/de-DE/index.html",
+      "status": 200,
+      "sha256": "744f38a0392c6d84547c8eb6645fcef48648383228c6f79f699f44c5867b466c"
+    },
+    {
+      "path": "locales/it-IT/index.html",
+      "status": 200,
+      "sha256": "8659c36dceac5ce158d018d2c92e8792b0cb3ddd2330b755154a68b19bd7c8b4"
+    },
+    {
+      "path": "locales/pt-BR/index.html",
+      "status": 200,
+      "sha256": "1f2e236cfbabc5dfbf8b8568c8cc974a4d35e78700c7321e359ad074ee236af9"
+    },
+    {
+      "path": "locales/pt-PT/index.html",
+      "status": 200,
+      "sha256": "0eba3dfb7c4e1d2e8eadb7ca8183920a802cf362e62eda3e186d66e1b9bd05e0"
+    },
+    {
+      "path": "locales/nl-NL/index.html",
+      "status": 200,
+      "sha256": "52a1e93f010d979ca6f0994488d10931dee3dfd00368ad435f282306ac9bc629"
+    },
+    {
+      "path": "locales/pl-PL/index.html",
+      "status": 200,
+      "sha256": "5ac7b2c095dd7821bce0c1ee9a8a111e875e276351ce2ca688150b0f69bf57a9"
+    },
+    {
+      "path": "locales/sv-SE/index.html",
+      "status": 200,
+      "sha256": "2c57d565d1e3223eaa93642177f107570506886034b0c0daafa2e526baf07960"
+    },
+    {
+      "path": "locales/ja-JP/index.html",
+      "status": 200,
+      "sha256": "a42e5d1035876d9d1e5cd1c17125a3f2396d60b9961fc0ca221ec09a889e6baa"
+    },
+    {
+      "path": "locales/hi-IN/index.html",
+      "status": 200,
+      "sha256": "968e3a438d105f4948a551531aa4aa989321359f8a1257ddf95d472df84f6d0b"
+    },
+    {
+      "path": "locales/ar/index.html",
+      "status": 200,
+      "sha256": "ea1566932638d37e4595ad556d50c5a525d6ddfabb3facda68ed4bf9901621b0"
+    },
+    {
+      "path": "locales/tr-TR/index.html",
+      "status": 200,
+      "sha256": "a08275171065d484e434030b8792b56e4ed68949b58684fd8435a9bd4247e5b3"
+    },
+    {
+      "path": "locales/id-ID/index.html",
+      "status": 200,
+      "sha256": "62b86fb678b5751139fe6db748741e2570f6c5b4fe751027719b561ca15cc2d1"
+    },
+    {
+      "path": "locales/ko-KR/index.html",
+      "status": 200,
+      "sha256": "430dc5d0b8c711f3a27533f2e34a52f3c8a06d8a0e7346e16a97c234ce28d58f"
+    },
+    {
+      "path": "locales/zh-CN/index.html",
+      "status": 200,
+      "sha256": "4919f9332d307274ce69b2db266b92cac7a36e31fba11d5e4adf70babee8df17"
+    },
+    {
+      "path": "locales/zh-TW/index.html",
+      "status": 200,
+      "sha256": "4aee3f8d1fcebefda70c9a8e73ed90fffaa999460cb816bddafe44ba76adeef5"
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "sha256": "48635ee5199066e368eada53d79e347ac0163937212455d64a75a5da14c46a4a"
+    },
+    {
+      "path": "robots.txt",
+      "status": 200,
+      "sha256": "0fb7457742bcd646cfaad07e02ed71a0fe8b1f409a0bb71d99561a0d8444e802"
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "sha256": "58850a4ee281dee51c2f72d54e6884ae4c6c85a7159007fe435f61b3dd1415f5"
+    },
+    {
+      "path": "build-report.json",
+      "status": 200,
+      "sha256": "5d4e0d67c1a7e71f0ae1997b2c96d464c5a441f95893c1075a80f63b76b4fa76"
+    }
+  ],
+  "scope": "Actual public Pages HTTP readback, exact HTML/static byte comparison and recursive canonical/hreflang/sitemap validation; not indexing/ranking or human language approval."
+}

@@ -99,7 +99,7 @@ def build(output: Path, site_url: str = "", appstore_url: str = "") -> dict:
         if parsed.scheme != "https" or not re.fullmatch(r"(?:www\.)?amazon\.[a-z.]+", parsed.hostname or "") or "/dp/" not in parsed.path:
             raise ValueError("APPSTORE_URL must be a verified HTTPS Amazon product /dp/ URL")
     output.mkdir(parents=True, exist_ok=True)
-    (output / "style.css").write_text(CSS, encoding="utf-8")
+    (output / "style.css").write_text(CSS, encoding="utf-8", newline="\n")
     mark = '<svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#315c45" d="M24 3C18 12 8 23 8 32a16 16 0 0 0 32 0C40 23 30 12 24 3Z"/><path fill="#b5c9a6" d="M23 34C11 22 26 17 34 17c0 10-3 17-11 17Z"/><path d="m19 39 12-17" fill="none" stroke="#faf8f2" stroke-width="2"/></svg>'
     nav = '<nav aria-label="Main navigation"><a href="features.html">Features</a><a href="fire-tablet-compatibility.html">Fire tablets</a><a href="pricing.html">Pricing</a><a href="support.html">Support</a></nav>'
     locale_links = ''.join(f'<li><a href="{overview_path(tag)}" lang="{tag}">{html.escape(item["copy"]["name"])}</a></li>' for tag, item in locale_inputs().items())
@@ -123,7 +123,7 @@ def build(output: Path, site_url: str = "", appstore_url: str = "") -> dict:
         store = f'<p><a href="{html.escape(appstore_url)}">View FloraTend on Amazon Appstore</a></p>' if appstore_url else ""
         structured_data = json.dumps(schema).replace("<", "\\u003c")
         document = f'<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(heading)} | FloraTend</title><meta name="description" content="{html.escape(description)}">{metadata}<link rel="stylesheet" href="style.css"><script type="application/ld+json">{structured_data}</script></head><body><header><a class="brand" href="index.html">{mark}FloraTend</a>{nav}</header><main id="main"><div class="hero"><h1>{html.escape(heading)}</h1><p class="intro">{html.escape(description)}</p><p class="notice">In development. App availability, supported devices, translations and Premium purchasing await release verification.</p>{store}</div><div class="content">{body}</div></main><footer><div><p>Every plant deserves a little attention.</p><ul>{footer_links}</ul><small>FloraTend is a provisional product name. Care information is general education, not a diagnosis. No claim of universal device or voice compatibility is made.</small></div></footer></body></html>'
-        (output / path).write_text(document, encoding="utf-8")
+        (output / path).write_text(document, encoding="utf-8", newline="\n")
     localized_paths, provenance = build_overviews(output, origin)
     all_paths = [page_path(slug) for slug in PAGES] + localized_paths
     ET.register_namespace("", "http://www.sitemaps.org/schemas/sitemap/0.9")
@@ -132,12 +132,12 @@ def build(output: Path, site_url: str = "", appstore_url: str = "") -> dict:
         for path in all_paths:
             entry = ET.SubElement(sitemap, "{http://www.sitemaps.org/schemas/sitemap/0.9}url")
             ET.SubElement(entry, "{http://www.sitemaps.org/schemas/sitemap/0.9}loc").text = f"{origin}/{path}"
-    ET.ElementTree(sitemap).write(output / "sitemap.xml", encoding="utf-8", xml_declaration=True)
+    (output / "sitemap.xml").write_bytes(ET.tostring(sitemap, encoding="utf-8", xml_declaration=True))
     robots = f"User-agent: *\nAllow: /\nSitemap: {origin}/sitemap.xml\n" if origin else "User-agent: *\nDisallow: /\n"
-    (output / "robots.txt").write_text(robots, encoding="utf-8")
+    (output / "robots.txt").write_text(robots, encoding="utf-8", newline="\n")
     report = {"pages": len(all_paths), "english_detail_pages": len(PAGES), "localized_overviews": provenance, "localized_human_approved": False, "page_paths": all_paths, "language": "en-GB", "production_configured": bool(origin), "canonical_origin": origin or None, "appstore_link_configured": bool(appstore_url), "pending": ["Verified deployment origin required"] if not origin else []}
     report["pending"].extend(["Publisher legal/contact information and final privacy review", "Qualified language review; localized detail/support/legal pages", "Product facts reconciliation against verified release", "Verified Appstore listing URL"])
-    (output / "build-report.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+    (output / "build-report.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8", newline="\n")
     return report
 
 

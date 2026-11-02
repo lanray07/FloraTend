@@ -98,8 +98,8 @@ class DeepL:
     def __init__(self, key=None, endpoint=None):
         self.key = key or os.environ.get('DEEPL_AUTH_KEY')
         self.endpoint = endpoint or os.environ.get('DEEPL_ENDPOINT', 'https://api-free.deepl.com')
-        if self.endpoint not in ('https://api-free.deepl.com', 'https://api.deepl.com'):
-            raise ValueError('Only official HTTPS DeepL endpoints are allowed')
+        if self.endpoint != 'https://api-free.deepl.com':
+            raise ValueError('Only the official HTTPS DeepL API Free endpoint is allowed')
 
     def translate(self, text, target):
         if not self.key:

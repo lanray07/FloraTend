@@ -81,6 +81,10 @@ class LocalizationTests(unittest.TestCase):
         with self.assertRaises(RuntimeError):
             provider.translate('Hello', 'DE')
 
+    def test_paid_endpoint_is_rejected_under_free_only_configuration(self):
+        with self.assertRaises(ValueError):
+            DeepL(key='non-secret-test-value', endpoint='https://api.deepl.com')
+
     def test_duplicate_resource_names_rejected(self):
         with tempfile.TemporaryDirectory() as temporary:
             path = Path(temporary) / 'strings.xml'

@@ -26,5 +26,6 @@
   "finalResult": "PASS expanded native journey after harness corrections",
   "productionDefectInferred": false,
   "historicalCheckoutAndRenderingFailuresRetained": true,
-  "cleanupGuard": "A shell existence-check diagnostic returned nonzero. The directory-only host archive was rejected as a domain backup after a host SQLite open created an empty file with no tables. Direct Android ls -A then verified the actual databases directory empty and there were no photo files before isolated uninstall. The earlier QA storage-test backup remains valid and private."
+  "cleanupGuard": "A shell existence-check diagnostic returned nonzero. The directory-only host archive was rejected as a domain backup after a host SQLite open created an empty file with no tables. Direct Android ls -A then verified the actual databases directory empty and there were no photo files before isolated uninstall. The earlier QA storage-test backup remains valid and private.",
+  "websiteByteComparison": "First live readback passed34HTML hash comparisons and canonical/hreflang validation. robots.txt and then the XML declaration newline differed because Windows text writers emitted CRLF and Linux emitted LF. Explicit UTF8/LF text output and binary serialized XML fixed reproducible cross-platform drift; complete37HTML/static byte comparison then passed against saved actual HTTP bytes."
 }
