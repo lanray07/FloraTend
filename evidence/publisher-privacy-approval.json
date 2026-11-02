@@ -1,0 +1,13 @@
+{
+  "execution_date": "2026-11-02T09:47:03.107944+00:00",
+  "decision": "APPROVED_AFTER_REVIEW",
+  "reviewerRole": "Publisher/user",
+  "source": "Explicit user response in this chat",
+  "scope": "Current privacy notice wording only",
+  "policyGitBlob": "5db3d6b6fc7267f6a7fc817a453b223b8a325684",
+  "policyGitBytesSha256": "e8cc4f1a3b321e44edfce94c895adb15f6973c0fa3b6a546e65da23da94c4f04",
+  "policyUrl": "https://github.com/lanray07/FloraTend/blob/b3497a2762d295116024d3f39e02b8d90205476b/PRIVACY.md",
+  "independentLegalComplianceCertification": false,
+  "finalAmazonDeclarationsSubmitted": false,
+  "publicAppSubmissionPerformed": false
+}

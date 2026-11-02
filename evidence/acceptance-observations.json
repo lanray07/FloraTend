@@ -906,7 +906,8 @@
     "evidence": [
       "PRIVACY.md",
       "submission/targeting-console-20261030.png",
-      "submission/console-draft.json"
+      "submission/console-draft.json",
+      "evidence/publisher-privacy-approval.json"
     ],
     "corrective_action": "Retain this evidence scope; complete remaining release gates separately."
   },
@@ -2590,7 +2591,8 @@
     "evidence": [
       "evidence/calendar-hour/disclosure-review.json",
       "docs/PRIVACY_DATA_FLOW_20261101.md",
-      "evidence/rendering/website-facts-review.json"
+      "evidence/rendering/website-facts-review.json",
+      "evidence/publisher-privacy-approval.json"
     ],
     "corrective_action": "Obtain qualified translated notice and publisher/legal review before public release."
   },
