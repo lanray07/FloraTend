@@ -8,7 +8,7 @@ Include your FloraTend version, Fire tablet/Android model, operating-system vers
 
 ## Common questions
 
-**Do I need an account or an internet connection?** Core plant records, care schedules and journal notes are stored on your device and require no separate FloraTend account. Optional Amazon purchasing and installed speech services may require a connection.
+**Do I need an account or an internet connection?** Core plant records, care schedules and journal notes are stored on your device and require no separate FloraTend account. Optional Amazon purchasing, installed speech services and photo identification in configured versions may require a connection.
 
 **Why is the microphone unavailable?** Some Fire tablets have no compatible Android speech-recognition service. Use the touch controls or type an assistant command. Spoken feedback also depends on an installed voice that supports the selected language.
 

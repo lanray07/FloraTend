@@ -1,0 +1,54 @@
+name: Publish GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'website/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Website regression checks
+        run: python -m unittest discover -s tools -p test_supporting_tools.py -v
+      - uses: actions/configure-pages@v6
+        id: pages
+      - name: Build with the actual Pages URL
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          python website/build.py --production --output build/pages
+          python website/validate.py build/pages --production
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: build/pages
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy verified static pages
+        id: deployment
+        uses: actions/deploy-pages@v5
