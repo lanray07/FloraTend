@@ -1,0 +1,146 @@
+{
+  "execution_date": "2026-11-03",
+  "scope": "Draft fields/limits only; no human linguistic, rights, market terminology or overall policy approval. Display-title numeric maximum requires console validation.",
+  "sources": [
+    "https://developer.amazon.com/docs/app-submission/appstore-details.html",
+    "https://developer.amazon.com/docs/policy-center/listing-promo.html"
+  ],
+  "human_approved": false,
+  "locales": [
+    {
+      "locale": "de-DE",
+      "title_characters": 35,
+      "short_utf8_bytes": 271,
+      "long_characters": 1701,
+      "feature_bullets": 5,
+      "keyword_terms": 5,
+      "errors": []
+    },
+    {
+      "locale": "en-AU",
+      "title_characters": 41,
+      "short_utf8_bytes": 227,
+      "long_characters": 1424,
+      "feature_bullets": 5,
+      "keyword_terms": 5,
+      "errors": []
+    },
+    {
+      "locale": "en-GB",
+      "title_characters": 41,
+      "short_utf8_bytes": 227,
+      "long_characters": 1424,
+      "feature_bullets": 5,
+      "keyword_terms": 5,
+      "errors": []
+    },
+    {
+      "locale": "en-IN",
+      "title_characters": 41,
+      "short_utf8_bytes": 227,
+      "long_characters": 1424,
+      "feature_bullets": 5,
+      "keyword_terms": 5,
+      "errors": []
+    },
+    {
+      "locale": "en-US",
+      "title_characters": 41,
+      "short_utf8_bytes": 227,
+      "long_characters": 1424,
+      "feature_bullets": 5,
+      "keyword_terms": 5,
+      "errors": []
+    },
+    {
+      "locale": "es-ES",
+      "title_characters": 39,
+      "short_utf8_bytes": 261,
+      "long_characters": 1639,
+      "feature_bullets": 5,
+      "keyword_terms": 5,
+      "errors": []
+    },
+    {
+      "locale": "es-MX",
+      "title_characters": 39,
+      "short_utf8_bytes": 246,
+      "long_characters": 1616,
+      "feature_bullets": 5,
+      "keyword_terms": 5,
+      "errors": []
+    },
+    {
+      "locale": "fr-FR",
+      "title_characters": 33,
+      "short_utf8_bytes": 257,
+      "long_characters": 1791,
+      "feature_bullets": 5,
+      "keyword_terms": 5,
+      "errors": []
+    },
+    {
+      "locale": "it-IT",
+      "title_characters": 57,
+      "short_utf8_bytes": 221,
+      "long_characters": 1655,
+      "feature_bullets": 5,
+      "keyword_terms": 5,
+      "errors": []
+    },
+    {
+      "locale": "ja-JP",
+      "title_characters": 25,
+      "short_utf8_bytes": 300,
+      "long_characters": 683,
+      "feature_bullets": 5,
+      "keyword_terms": 5,
+      "errors": []
+    },
+    {
+      "locale": "nl-NL",
+      "title_characters": 51,
+      "short_utf8_bytes": 231,
+      "long_characters": 1657,
+      "feature_bullets": 5,
+      "keyword_terms": 5,
+      "errors": []
+    },
+    {
+      "locale": "pl-PL",
+      "title_characters": 59,
+      "short_utf8_bytes": 240,
+      "long_characters": 1620,
+      "feature_bullets": 5,
+      "keyword_terms": 5,
+      "errors": []
+    },
+    {
+      "locale": "pt-BR",
+      "title_characters": 52,
+      "short_utf8_bytes": 230,
+      "long_characters": 1638,
+      "feature_bullets": 5,
+      "keyword_terms": 5,
+      "errors": []
+    },
+    {
+      "locale": "pt-PT",
+      "title_characters": 52,
+      "short_utf8_bytes": 233,
+      "long_characters": 1652,
+      "feature_bullets": 5,
+      "keyword_terms": 5,
+      "errors": []
+    },
+    {
+      "locale": "sv-SE",
+      "title_characters": 51,
+      "short_utf8_bytes": 227,
+      "long_characters": 1516,
+      "feature_bullets": 5,
+      "keyword_terms": 5,
+      "errors": []
+    }
+  ]
+}

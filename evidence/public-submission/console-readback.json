@@ -1,0 +1,25 @@
+{
+  "execution_date": "2026-11-03",
+  "scope": "Browser UI readback of public draft after APK replacement; not submission approval",
+  "uploadedVersionCode": 15,
+  "uploadedFileName": "floratend-code15-production.apk",
+  "drmApplied": true,
+  "status": "Incomplete",
+  "submitted": false,
+  "category": "Lifestyle",
+  "subcategory": "Home & Garden",
+  "targetedFireTablets": 12,
+  "targetedFireTV": 0,
+  "targetedAutomotive": 0,
+  "regions": "All available countries/regions",
+  "declaredBinaryLanguages": [
+    "English"
+  ],
+  "worldwideLanguageReviewPending": true,
+  "githubSupportUrlConfirmed": true,
+  "githubPrivacyUrlConfirmed": true,
+  "exportCertificationChecked": false,
+  "submitControlEnabled": false,
+  "sourceEvidence": "production15-artifact.json",
+  "screenshotsRetainedPrivately": true
+}

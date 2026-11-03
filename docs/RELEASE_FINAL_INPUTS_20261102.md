@@ -1,5 +1,7 @@
 # Remaining release inputs - 2 November 2026
 
+Update, 3 November: the publisher retained worldwide scope and will provide a recognition-capable Android device. The verified production code 15 APK has replaced code 5 in the public Amazon draft, which remains Incomplete. DeepL no longer offers legacy API Free for new signup; the publisher is completing the replacement free API Developer signup. Do not run the legacy Free-only key setup for that account until plan/endpoint compatibility has been verified. See the [current public-submission checkpoint](https://github.com/lanray07/FloraTend/blob/main/docs/PUBLIC_SUBMISSION_20261103.md).
+
 The latest executed ledger has193/204criteria verified;11remain. The expanded actual Amazon15 VoiceView journey and four native error-recovery cases now pass. The22localized website overviews are live:34total public HTML pages pass HTTP, canonical, reciprocal-language and sitemap verification. Overall public production submission is still blocked.
 
 ## Publisher inputs
@@ -14,4 +16,4 @@ The latest executed ledger has193/204criteria verified;11remain. The expanded ac
 
 The official-Appstore-link criterion is conditional on availability and passes as a prelaunch safeguard: the current public version is Incomplete, no verified public listing URL is configured, and no private Test2 invitation/ASIN is substituted. Add/verify the public URL when Amazon exposes it. The billing integration criterion passes the original appropriate-test-environment requirement; a paid transaction is not imposed as an additional gate. No paid-production receipt or universal SDK-edge-case certification is claimed. Existing actual Amazon15 free LAT purchase, automatic strict-server Premium grant, owned Restore, no-network restart and final online Restore remain passed, with historical failures retained.
 
-The private Test2 build was already submitted and delivered. No APK, production endpoint, billing gate or active test release changed in this follow-up. Human language/asset/privacy approval, hardware/provider checks and final public submission reconciliation remain explicit gates. Full readiness and public submission are not claimed.
+The private Test2 build was already submitted and delivered. In the 2 November follow-up no APK, production endpoint, billing gate or active test release changed. The 3 November public-draft APK replacement is recorded in the newer checkpoint above. Human language/asset reviews, hardware/provider checks and final public declarations remain explicit gates. Privacy wording approval is already recorded. Full readiness and public submission are not claimed.

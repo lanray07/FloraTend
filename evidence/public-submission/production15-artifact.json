@@ -1,0 +1,18 @@
+{
+  "execution_date": "2026-11-03",
+  "versionCode": 15,
+  "versionName": "0.1.14",
+  "applicationId": "com.floratend.app",
+  "sha256": "28a25bb0813895885d1f962636f835b00442c6dd077dc162855b7a80640051d8",
+  "bytes": 4819363,
+  "uploadCertificateSha256": "c08b2dd3462a14be0351a87c0da7afd83a4efd64ea6ff168aa83853692ff3a94",
+  "signatureVerified": true,
+  "debuggable": false,
+  "productionReceiptEndpointConfirmedInDex": true,
+  "latReceiptEndpointPresent": false,
+  "photoIdentificationEndpointPresent": false,
+  "sourceFilesMatchRecorded15": 136,
+  "installedOverAmazonPackage": false,
+  "genuineProductionPurchaseClaimed": false,
+  "scope": "Developer-signed production configuration candidate; existing genuine code15 LAT evidence remains separately scoped."
+}

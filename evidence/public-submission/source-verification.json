@@ -1,0 +1,13 @@
+{
+  "execution_date": "2026-11-03",
+  "comparedManifest": "evidence/calendar-hour/source15-inputs.json",
+  "sourceFilesCompared": 136,
+  "changed": [],
+  "sourceUnchanged": true,
+  "sourceAuditPassed": true,
+  "metadataStructureAuditPassed": true,
+  "supportingRegressionTests": 16,
+  "supportingRegressionResult": "PASS",
+  "humanLinguisticApproval": false,
+  "publicSubmissionPerformed": false
+}

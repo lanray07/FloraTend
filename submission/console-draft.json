@@ -34,7 +34,7 @@
   "app_binary_languages_saved": [
     "English"
   ],
-  "submission_authorized": false,
+  "submission_authorized": true,
   "github_urls_saved_and_read_back": "2026-10-28",
   "icons_uploaded": [
     "assets/store/floratend-icon-512.png",
@@ -42,12 +42,14 @@
   ],
   "apk": {
     "path": "app/build/outputs/apk/release/app-release.apk",
-    "sha256": "155fe9912c7060b4dd27dc46185c4f11522c05c79907d2774482914e3acfe35f",
-    "version_code": 5,
-    "version_name": "0.1.4",
-    "upload_status": "accepted_by_console_version_code_5",
+    "sha256": "28a25bb0813895885d1f962636f835b00442c6dd077dc162855b7a80640051d8",
+    "version_code": 15,
+    "version_name": "0.1.14",
+    "upload_status": "accepted_by_console_version_code_15",
     "console_drm_applied": true,
-    "target_sdk": 36
+    "target_sdk": 36,
+    "verifier_environment": "PRODUCTION",
+    "photo_identification_enabled": false
   },
   "target_audience": [
     "16-17",
@@ -60,7 +62,7 @@
   "tablet_devices_selected": 12,
   "minimum_target_api_warning": "cleared_after_API36_upload",
   "new_alexa_tablets": "still disabled in device picker; not verified",
-  "last_verified": "2026-10-31",
+  "last_verified": "2026-11-03",
   "screenshots": {
     "exports": 120,
     "metadata_locales": 15,
@@ -167,5 +169,24 @@
       "offline_process_restart": "PASS actual Amazon7 no default network and changed PID",
       "checkout_both_orientations": "PASS after reboot; initial delays retained, original cause unisolated"
     }
+  },
+  "previous_public_draft_apk": {
+    "path": "app/build/outputs/apk/release/app-release.apk",
+    "sha256": "155fe9912c7060b4dd27dc46185c4f11522c05c79907d2774482914e3acfe35f",
+    "version_code": 5,
+    "version_name": "0.1.4",
+    "upload_status": "accepted_by_console_version_code_5",
+    "console_drm_applied": true,
+    "target_sdk": 36
+  },
+  "submission_authorization_scope": "User requested completion and public Amazon submission on 2026-11-03. Missing acceptance evidence and public compliance certification remain unresolved.",
+  "public_preparation": {
+    "evidence": "docs/PUBLIC_SUBMISSION_20261103.md",
+    "status": "Incomplete; APK replacement accepted, not submitted",
+    "export_compliance_certified": false,
+    "qualified_localization_reviews_complete": false,
+    "launch_scope": "WORLDWIDE retained explicitly by publisher",
+    "support_urls": "Existing GitHub support/privacy URLs confirmed",
+    "private_raw_console_logs_published": false
   }
 }
