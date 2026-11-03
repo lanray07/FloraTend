@@ -1,0 +1,10 @@
+{
+  "speechInputEnabled": false,
+  "microphonePermissionGranted": false,
+  "availableSyntheticServiceStarted": false,
+  "pushToTalkControlPresent": false,
+  "typedCalendarNavigationPassed": true,
+  "unsupportedPhraseRejected": true,
+  "actualMicrophoneRecognitionTested": false,
+  "publisherApprovedDeferral": true
+}

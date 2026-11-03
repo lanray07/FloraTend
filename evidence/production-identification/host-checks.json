@@ -34,5 +34,8 @@
   "serverFailures": 0,
   "websitePagesValidated": 34,
   "websiteErrors": 0,
-  "humanApprovalInferred": false
+  "humanApprovalInferred": false,
+  "pythonFinalRegressionsAfterAssetRefresh": 90,
+  "metadataAuditAfterAssetRefresh": "PASS",
+  "currentStoreAssetManifest": "assets/screenshots/localized/localized-manifest.json"
 }

@@ -1,9 +1,9 @@
 {
   "date": "2026-11-03",
   "publicDraft": "Incomplete",
-  "uploadedApkReadback": 15,
-  "code16UploadConfirmed": false,
-  "fileChooserBlocked": true,
+  "uploadedApkReadback": 16,
+  "code16UploadConfirmed": true,
+  "fileChooserBlocked": false,
   "descriptionAndBulletLocalesSavedAndVerifiedAfterReload": [
     "en-US",
     "de-DE",
@@ -42,7 +42,18 @@
     "Turkish"
   ],
   "humanApprovalInferred": false,
-  "finalPrivacyProposalApplied": false,
+  "finalPrivacyProposalApplied": true,
   "exportCertificationAccepted": false,
-  "publicSubmissionCompleted": false
+  "publicSubmissionCompleted": false,
+  "uploadedFilename": "FloraTend-code16-production.apk",
+  "fileChooserRecovery": "Reopened submission tab; keyboard Return on dialog Choose files triggered supported chooser; uploaded verified Downloads copy.",
+  "verifiedAtUtc": "2026-11-03T20:38:44.460457+00:00",
+  "microphoneCollectionChangeSavedAndReopened": true,
+  "collectionTransferFlagsVerified": 39,
+  "privacyPolicyUrlRetained": true,
+  "fireTabletsSelected": 12,
+  "tvSelected": 0,
+  "automotiveSelected": 0,
+  "worldwideScopeRetained": true,
+  "privacyVerificationScope": "All 39 collection/transfer flags match proposal; voice collection purpose explicitly cleared; other historical purposes retained. Final publisher declaration review still pending."
 }

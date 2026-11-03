@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-03",
+  "qaBackupVerified": true,
+  "sqliteIntegrity": "ok",
+  "domainTableCounts": {
+    "plants": 0,
+    "schedules": 0,
+    "journal": 0,
+    "history": 0
+  },
+  "remainingPhotoFiles": 0,
+  "backupArchiveSha256": "868886efaa70d7dbdeb758a4c9e42a8572f933ef3d0b67edc71529cd79905210",
+  "scope": "Disposable QA data only; main Amazon package untouched"
+}

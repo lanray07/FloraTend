@@ -1,0 +1,32 @@
+{
+  "actualTransport": true,
+  "endpointFromBuildConfig": true,
+  "photoSource": "https:\/\/libreshot.com\/english-daisy\/",
+  "photoAuthor": "Martin Vorel",
+  "photoLicense": "CC0",
+  "sourceLabel": "Bellis perennis",
+  "requestCount": 1,
+  "resultType": "Suggestions",
+  "savedAutomatically": false,
+  "suggestions": [
+    {
+      "scientificName": "Bellis perennis",
+      "score": 0.59052
+    },
+    {
+      "scientificName": "Bellis sylvestris",
+      "score": 0.1056
+    },
+    {
+      "scientificName": "Bellis annua",
+      "score": 0.09512
+    }
+  ],
+  "savedAfterExplicitReview": true,
+  "manualCorrectionPersisted": true,
+  "notePreserved": true,
+  "photoPreserved": true,
+  "requestCountAfterRotation": 1,
+  "orientationChanged": true,
+  "normalizedPhotoSha256": "0a1d9f8c06089d288a955049c1942578ea8275121cd5c8090056633b275a2ece"
+}

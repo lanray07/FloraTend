@@ -1,0 +1,4009 @@
+{
+  "comparisons": [
+    {
+      "locale": "en-GB",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-GB",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-US",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "en-AU",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-ES",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "es-419",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-FR",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "fr-CA",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "de-DE",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "it-IT",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-BR",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pt-PT",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "nl-NL",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "few",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "few",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "few",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "few",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "few",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "few",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "few",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "few",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "few",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "pl-PL",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "few",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "sv-SE",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ja-JP",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "hi-IN",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "zero",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "two",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "few",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "few",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "few",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "zero",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "two",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "few",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "few",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "few",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "many",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ar",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "one",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "tr-TR",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "id-ID",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "ko-KR",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-CN",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "collection_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "collection_count",
+      "count": 1,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "collection_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "collection_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "collection_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "collection_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "collection_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "collection_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "collection_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "collection_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "collection_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "collection_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "collection_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "reminder_count",
+      "count": 0,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "reminder_count",
+      "count": 1,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "reminder_count",
+      "count": 2,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "reminder_count",
+      "count": 3,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "reminder_count",
+      "count": 4,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "reminder_count",
+      "count": 5,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "reminder_count",
+      "count": 11,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "reminder_count",
+      "count": 21,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "reminder_count",
+      "count": 22,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "reminder_count",
+      "count": 25,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "reminder_count",
+      "count": 100,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "reminder_count",
+      "count": 101,
+      "category": "other",
+      "matched": true
+    },
+    {
+      "locale": "zh-TW",
+      "plural": "reminder_count",
+      "count": 102,
+      "category": "other",
+      "matched": true
+    }
+  ],
+  "humanApproval": false
+}

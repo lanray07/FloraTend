@@ -1381,16 +1381,22 @@
     "corrective_action": ""
   },
   "AC-11.08": {
-    "test_name": "Manual plant entry regression",
-    "execution_date": "2026-11-01",
-    "environment": "Physical Fire HD10 KFTRWI API28 / source0.1.7 code8 / isolated QA unless actual Amazon explicitly stated; Windows artifact inspection",
+    "test_name": "Code 16 manual entry during real failure",
+    "execution_date": "2026-11-03",
+    "environment": "Physical Fire HD10/API28; isolated QA0.1.15/code16; production identifier endpoint; microphone input deferred",
     "status": "PASS",
-    "actual_result": "Native UiSmokeTest created and edited a plant manually without an identification provider; unavailable identification is clearly stated.",
+    "actual_result": "Actual offline identification failure left the species and note editable. Manual save and subsequent separate-process offline restart passed without losing the original photo.",
     "evidence": [
       "evidence/release-sweep/native-qa.txt",
-      "evidence/release-sweep/acceptance/01-garden.png"
+      "evidence/release-sweep/acceptance/01-garden.png",
+      "docs/PRODUCTION_IDENTIFICATION_20261103.md",
+      "evidence/production-identification/native-status.json",
+      "evidence/production-identification/device/genuine-result.json",
+      "evidence/production-identification/device/restart-result.json",
+      "evidence/production-identification/device/offline-error-result.json",
+      "evidence/production-identification/device/offline-manual-restart.json"
     ],
-    "corrective_action": ""
+    "corrective_action": "Retain historical failures and scoped provenance. Finish current store assets, qualified worldwide reviews and final publisher declarations before public submission."
   },
   "AC-16.01": {
     "test_name": "Local core flows without app account",
@@ -2447,11 +2453,11 @@
     "corrective_action": "Keep all captions and listings marked drafts until qualified human review; no market-language approval inferred."
   },
   "AC-11.03": {
-    "test_name": "Genuine configured Pl@ntNet identification",
-    "execution_date": "2026-11-01",
-    "environment": "Physical Fire HD10/API28; isolated QA0.1.12/code13; explicit real proxy URL; no change to Amazon11",
+    "test_name": "Genuine code 16 configured identification",
+    "execution_date": "2026-11-03",
+    "environment": "Physical Fire HD10/API28; isolated QA0.1.15/code16; production identifier endpoint; microphone input deferred",
     "status": "PASS",
-    "actual_result": "Actual provider, through the deployed bounded proxy and production ServerPlantIdentifier in isolatedQA13, returned Bellis perennis as top suggestion (score0.59052) for one CC0 publisher-labelled daisy. API identify quota changed500 to499. No synthetic response supplied; test decorator counted/delegated the real transport. Not an independent accuracy benchmark or Amazon-delivered code13 test.",
+    "actual_result": "Actual production endpoint through ServerPlantIdentifier returned Bellis perennis (score 0.59052) for the licensed CC0 daisy. Successful test made one request, including across rotation. Earlier partial response/lock interruption is retained separately. Isolated QA16, not Amazon-delivered instrumentation or an accuracy benchmark.",
     "evidence": [
       "docs/PLANTNET_LIVE_TEST_20261101.md",
       "evidence/identification-live/device/genuine-result.json",
@@ -2459,16 +2465,22 @@
       "evidence/identification-live/device/restart-result.json",
       "evidence/identification-live/device/offline-error-result.json",
       "evidence/identification-live/device/offline-manual-restart.json",
-      "evidence/identification-live/provider-metadata.json"
+      "evidence/identification-live/provider-metadata.json",
+      "docs/PRODUCTION_IDENTIFICATION_20261103.md",
+      "evidence/production-identification/native-status.json",
+      "evidence/production-identification/device/genuine-result.json",
+      "evidence/production-identification/device/restart-result.json",
+      "evidence/production-identification/device/offline-error-result.json",
+      "evidence/production-identification/device/offline-manual-restart.json"
     ],
-    "corrective_action": "Retain scoped evidence; finish remaining publisher/privacy/locale/performance and release-artifact gates before public release."
+    "corrective_action": "Retain historical failures and scoped provenance. Finish current store assets, qualified worldwide reviews and final publisher declarations before public submission."
   },
   "AC-11.04": {
-    "test_name": "Native possible-match presentation",
-    "execution_date": "2026-11-01",
-    "environment": "Physical Fire HD10/API28; isolated QA0.1.12/code13; explicit real proxy URL; no change to Amazon11",
+    "test_name": "Code 16 possible-match presentation",
+    "execution_date": "2026-11-03",
+    "environment": "Physical Fire HD10/API28; isolated QA0.1.15/code16; production identifier endpoint; microphone input deferred",
     "status": "PASS",
-    "actual_result": "Actual English UI showed multiple suggested species, locale-formatted match scores and the explicit warning that suggestions can be wrong. The saved species stayed unchanged until explicit selection/review/save. One genuine image; no broader accuracy or linguistic approval claim.",
+    "actual_result": "Actual English UI displayed multiple possible species and the warning that suggestions can be wrong; match scores remain uncalibrated. The saved species stayed unchanged before explicit selection and Save. No global linguistic or accuracy approval inferred.",
     "evidence": [
       "docs/PLANTNET_LIVE_TEST_20261101.md",
       "evidence/identification-live/device/genuine-result.json",
@@ -2476,16 +2488,22 @@
       "evidence/identification-live/device/restart-result.json",
       "evidence/identification-live/device/offline-error-result.json",
       "evidence/identification-live/device/offline-manual-restart.json",
-      "evidence/identification-live/provider-metadata.json"
+      "evidence/identification-live/provider-metadata.json",
+      "docs/PRODUCTION_IDENTIFICATION_20261103.md",
+      "evidence/production-identification/native-status.json",
+      "evidence/production-identification/device/genuine-result.json",
+      "evidence/production-identification/device/restart-result.json",
+      "evidence/production-identification/device/offline-error-result.json",
+      "evidence/production-identification/device/offline-manual-restart.json"
     ],
-    "corrective_action": "Retain scoped evidence; finish remaining publisher/privacy/locale/performance and release-artifact gates before public release."
+    "corrective_action": "Retain historical failures and scoped provenance. Finish current store assets, qualified worldwide reviews and final publisher declarations before public submission."
   },
   "AC-11.05": {
-    "test_name": "Native explicit selection and correction",
-    "execution_date": "2026-11-01",
-    "environment": "Physical Fire HD10/API28; isolated QA0.1.12/code13; explicit real proxy URL; no change to Amazon11",
+    "test_name": "Code 16 explicit correction and persistence",
+    "execution_date": "2026-11-03",
+    "environment": "Physical Fire HD10/API28; isolated QA0.1.15/code16; production identifier endpoint; microphone input deferred",
     "status": "PASS",
-    "actual_result": "After the genuine result, explicitly chose Bellis perennis, corrected the editable species field and saved. The correction, existing note and photo survived a separate process restart with no default network. Rotation changed orientation without a second provider request.",
+    "actual_result": "Selected the real returned Bellis perennis suggestion, manually corrected the editable species field, explicitly saved, and verified corrected species plus original note/photo. Separate no-network process restart retained all three.",
     "evidence": [
       "docs/PLANTNET_LIVE_TEST_20261101.md",
       "evidence/identification-live/device/genuine-result.json",
@@ -2493,16 +2511,22 @@
       "evidence/identification-live/device/restart-result.json",
       "evidence/identification-live/device/offline-error-result.json",
       "evidence/identification-live/device/offline-manual-restart.json",
-      "evidence/identification-live/provider-metadata.json"
+      "evidence/identification-live/provider-metadata.json",
+      "docs/PRODUCTION_IDENTIFICATION_20261103.md",
+      "evidence/production-identification/native-status.json",
+      "evidence/production-identification/device/genuine-result.json",
+      "evidence/production-identification/device/restart-result.json",
+      "evidence/production-identification/device/offline-error-result.json",
+      "evidence/production-identification/device/offline-manual-restart.json"
     ],
-    "corrective_action": "Retain scoped evidence; finish remaining publisher/privacy/locale/performance and release-artifact gates before public release."
+    "corrective_action": "Retain historical failures and scoped provenance. Finish current store assets, qualified worldwide reviews and final publisher declarations before public submission."
   },
   "AC-11.06": {
-    "test_name": "Real offline identification failure preserves draft",
-    "execution_date": "2026-11-01",
-    "environment": "Physical Fire HD10/API28; isolated QA0.1.12/code13; explicit real proxy URL; no change to Amazon11",
+    "test_name": "Code 16 real offline request recovery",
+    "execution_date": "2026-11-03",
+    "environment": "Physical Fire HD10/API28; isolated QA0.1.15/code16; production identifier endpoint; microphone input deferred",
     "status": "PASS",
-    "actual_result": "With Wi-Fi disabled and no default network, the actual client failed gracefully. Edited manual species/note survived the failure and explicit save; both plus the photo survived another actual process stop/restart. Controlled QA records only.",
+    "actual_result": "With no default network, actual identification transport failed visibly. The database stayed unchanged until manual Save; edited species/note and original photo were saved and survived a separate no-network process restart.",
     "evidence": [
       "docs/PLANTNET_LIVE_TEST_20261101.md",
       "evidence/identification-live/device/genuine-result.json",
@@ -2510,16 +2534,22 @@
       "evidence/identification-live/device/restart-result.json",
       "evidence/identification-live/device/offline-error-result.json",
       "evidence/identification-live/device/offline-manual-restart.json",
-      "evidence/identification-live/provider-metadata.json"
+      "evidence/identification-live/provider-metadata.json",
+      "docs/PRODUCTION_IDENTIFICATION_20261103.md",
+      "evidence/production-identification/native-status.json",
+      "evidence/production-identification/device/genuine-result.json",
+      "evidence/production-identification/device/restart-result.json",
+      "evidence/production-identification/device/offline-error-result.json",
+      "evidence/production-identification/device/offline-manual-restart.json"
     ],
-    "corrective_action": "Retain scoped evidence; finish remaining publisher/privacy/locale/performance and release-artifact gates before public release."
+    "corrective_action": "Retain historical failures and scoped provenance. Finish current store assets, qualified worldwide reviews and final publisher declarations before public submission."
   },
   "AC-11.07": {
-    "test_name": "Native per-request photo consent",
-    "execution_date": "2026-11-01",
-    "environment": "Physical Fire HD10/API28; isolated QA0.1.12/code13; explicit real proxy URL; no change to Amazon11",
+    "test_name": "Code 16 consent cancel and explicit send",
+    "execution_date": "2026-11-03",
+    "environment": "Physical Fire HD10/API28; isolated QA0.1.15/code16; production identifier endpoint; microphone input deferred",
     "status": "PASS",
-    "actual_result": "Actual UI displayed the selected controlled photograph and processing/metadata disclosure. Cancel produced zero client calls; Sendphoto produced exactly one genuine request despite rotation. Photo selection/record setup alone did not invoke identification. Functional consent proof; publisher privacy/legal review remains a separate gate.",
+    "actual_result": "Actual consent dialog cancellation left the delegated real-transport counter at zero; explicit Send photo made one request. Rotation did not create another request. Revised production notice separately approved by publisher for its exact pinned wording; translated notice approval remains pending.",
     "evidence": [
       "docs/PLANTNET_LIVE_TEST_20261101.md",
       "evidence/identification-live/device/genuine-result.json",
@@ -2527,9 +2557,15 @@
       "evidence/identification-live/device/restart-result.json",
       "evidence/identification-live/device/offline-error-result.json",
       "evidence/identification-live/device/offline-manual-restart.json",
-      "evidence/identification-live/provider-metadata.json"
+      "evidence/identification-live/provider-metadata.json",
+      "docs/PRODUCTION_IDENTIFICATION_20261103.md",
+      "evidence/production-identification/native-status.json",
+      "evidence/production-identification/device/genuine-result.json",
+      "evidence/production-identification/device/restart-result.json",
+      "evidence/production-identification/device/offline-error-result.json",
+      "evidence/production-identification/device/offline-manual-restart.json"
     ],
-    "corrective_action": "Retain scoped evidence; finish remaining publisher/privacy/locale/performance and release-artifact gates before public release."
+    "corrective_action": "Retain historical failures and scoped provenance. Finish current store assets, qualified worldwide reviews and final publisher declarations before public submission."
   },
   "AC-02.08": {
     "status": "PASS",
@@ -2602,9 +2638,10 @@
       "evidence/rendering/website-facts-review.json",
       "evidence/publisher-privacy-approval.json",
       "submission/privacy-label-production16-proposal.json",
-      "docs/PRODUCTION_IDENTIFICATION_20261103.md"
+      "docs/PRODUCTION_IDENTIFICATION_20261103.md",
+      "evidence/production-identification/publisher-privacy-approval.json"
     ],
-    "corrective_action": "Revised production-photo/no-microphone privacy wording requires new publisher approval. Prior approval remains limited to exact earlier blob. Qualified translated review and final console reconciliation pending."
+    "corrective_action": "Publisher approved exact revised production-photo/no-microphone notice after review on 3 November; both approval records retained. Qualified translated review and final Amazon console reconciliation remain pending."
   },
   "AC-08.10": {
     "status": "PASS",

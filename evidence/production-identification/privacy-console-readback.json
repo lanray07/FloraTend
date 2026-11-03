@@ -1,0 +1,206 @@
+{
+  "date": "2026-11-03",
+  "versionCode": 16,
+  "collectionAndTransferFieldsVerified": 39,
+  "fields": [
+    {
+      "field": "Name",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Email Address",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "User IDs",
+      "collected": true,
+      "shared": false
+    },
+    {
+      "field": "Address",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Phone number",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Race and ethnicity",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Sexual orientation",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Political or religious beliefs",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Other user info",
+      "collected": true,
+      "shared": false
+    },
+    {
+      "field": "User payment info",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Purchase history",
+      "collected": true,
+      "shared": false
+    },
+    {
+      "field": "Credit score",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Other financial info",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Device or other ID",
+      "collected": true,
+      "shared": false
+    },
+    {
+      "field": "Advertising ID",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Health & Biometrics Info",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Fitness info",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Approximate location",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Precise location",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Web browsing history",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Photos",
+      "collected": true,
+      "shared": false
+    },
+    {
+      "field": "Videos",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Voice or sound recordings",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Music files",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Other audio files",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Crash logs",
+      "collected": true,
+      "shared": false
+    },
+    {
+      "field": "Diagnostics",
+      "collected": true,
+      "shared": false
+    },
+    {
+      "field": "Other app performance data",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "App interactions",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "In-app search history",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Installed apps",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Other user-generated content",
+      "collected": true,
+      "shared": false
+    },
+    {
+      "field": "Other actions",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Emails",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "SMS or MMS",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Other in-app messages",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Files and doc",
+      "collected": false,
+      "shared": false
+    },
+    {
+      "field": "Calendar events",
+      "collected": true,
+      "shared": false
+    },
+    {
+      "field": "Contacts / Phone Logs",
+      "collected": false,
+      "shared": false
+    }
+  ],
+  "purposes": "Historical purposes retained; microphone purpose explicitly cleared before collection set to No. Final publisher review remains required.",
+  "privacyWordingApproved": true,
+  "exportCertificationAccepted": false,
+  "publicSubmissionCompleted": false
+}

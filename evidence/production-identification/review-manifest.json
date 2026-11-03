@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
   "privacySha256Utf8Lf": "7ac1dbe3ecf2561cd390201f0995f38969379ab87506529538e76b1edd254368",
-  "privacyApproval": "pending revised wording; prior approval remains limited to old blob",
+  "privacyApproval": "APPROVED_AFTER_REVIEW: exact policy hash recorded in publisher-privacy-approval.json",
   "interfaceLocales": [
     {
       "locale": "en-GB",
@@ -265,5 +265,28 @@
     "pt-PT",
     "sv-SE"
   ],
-  "qualifiedHumanApprovals": 0
+  "qualifiedHumanApprovals": 0,
+  "storeAssetManifest": "assets/screenshots/localized/localized-manifest.json",
+  "storeAssetManifestSha256Utf8Lf": "74dc4ab158b280f74e59e04f06bf53f5ff502e2cb8b912c70e4fa1eaf0bc8550",
+  "storeAssetVersionCode": 16,
+  "storeImages": 120,
+  "nativeCaptureImages": 176,
+  "nativeCaptureRun": "evidence/store-captures/run-20261103-204256",
+  "listingContentHashes": {
+    "en-US": "df7a69269d28227a48ffbfbbc86ee8204ff8bbbd6df116967362a25a36715bd3",
+    "es-ES": "4408854bd5133316ff33ed5b32de2d37f5f49832307570c4345f23f03f115e0d",
+    "es-MX": "65a6fa7c863a91b92d7a5db9a30d63216b679da82a6e477fabf2d2cced007b72",
+    "fr-FR": "60d921b4a34764822b55ad1874ed21fd914a1c76c18252731bbc21509540f0e1",
+    "de-DE": "4a162443e5f8d3982c868a0fe3bb298df455d8dcb4d5dd069d175334464cb1e0",
+    "en-GB": "6b5692484da6dc208c8e0567784d7544883d7b5c8f4a331c900a81a54bb62f68",
+    "en-AU": "2b0eaf7b34d8253da27f80b87d1c554dcab73672a0fbf7e7c740140fbb5c537f",
+    "en-IN": "96966ca1a1d26eb681af03450d3bf0fa33e71af81f9d5e5e1190dc5b1c7f61f2",
+    "it-IT": "52b56381c069805ad1cdd2d8521932a88bcedd7dad0f8823b8b0dc5938978ae9",
+    "pt-BR": "43deaf977aa039b8bbe316c90c4585f43017a8033266da1536e72276a07aea90",
+    "pt-PT": "edb754cede812da0fd022a8f23fc9390a464f0703dbd8dbdc0fc2ed2ddcafee8",
+    "nl-NL": "9fa11edca54f7e0ac4f50c896c476dd01fb5f45a3a7e46af0f61e2edfeb3d3db",
+    "pl-PL": "2211d70665799f7cc127b841fb3d96865e25af5d639ea40397a37fbea845a2bd",
+    "sv-SE": "8852bf744540b74577ef67cd7d775701e592dd4db4ba7c1ac174ac9c8332d269",
+    "ja-JP": "3a1803175d9c3b855aa4b4463e1d7fa9a97226f9c0eeef3d60ba33b692acf891"
+  }
 }

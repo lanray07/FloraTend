@@ -44,7 +44,15 @@ class LiveIdentificationTest {
     @Test fun genuineConsentedPhotoMatchesAndChoiceIsSavedOnlyAfterReview() {
         val source=File(app.getExternalFilesDir(null),"identification-fixtures/daisy.jpg")
         check(source.isFile)
-        val photo=Photos.import(app,Uri.fromFile(source))
+        val resume=InstrumentationRegistry.getArguments().getString("floratend.resumeInterruptedIdentification")=="true"
+        val prior=runBlocking {app.database.dao().exportPlants()}
+        val existing=if(resume)prior.single().also {
+            check(it.id==id && it.species=="Manual species before request" && it.notes=="QA note survives identification")
+            check(File(requireNotNull(it.photo)).canonicalFile.parentFile==File(app.filesDir,"photos").canonicalFile)
+            check(File(requireNotNull(it.photo)).isFile)
+        } else null
+        if(!resume)check(prior.none {it.id==id})
+        val photo=existing?.photo ?: Photos.import(app,Uri.fromFile(source))
         val calls=AtomicInteger();val returned=AtomicReference<IdentificationResult?>()
         val actual=app.plantIdentifier;check(actual.available)
         val counting=object:PlantIdentifier {
@@ -55,9 +63,8 @@ class LiveIdentificationTest {
         }
         app.javaClass.getMethod("setIdentificationFixture",PlantIdentifier::class.java).invoke(app,counting)
         runBlocking {
-            check(app.database.dao().exportPlants().none {it.id==id})
             app.settings.set("onboarded",true)
-            app.database.dao().save(Plant(id=id,name=name,species="Manual species before request",notes="QA note survives identification",photo=photo))
+            if(existing==null)app.database.dao().save(Plant(id=id,name=name,species="Manual species before request",notes="QA note survives identification",photo=photo))
         }
         AppLocales.choose(app,"en-GB");rule.activityRule.scenario.recreate();openEditor()
         rule.onNodeWithText(rule.activity.getString(R.string.identify_photo)).performScrollTo();click(R.string.identify_photo)

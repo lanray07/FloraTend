@@ -1,0 +1,14 @@
+{
+  "execution_date": "2026-11-03T20:33:59.285881+00:00",
+  "decision": "APPROVED_AFTER_REVIEW",
+  "reviewerRole": "Publisher/user",
+  "source": "Explicit user reply: Approve revised wording after review",
+  "scope": "Exact revised privacy wording covering production photo identification and deferred Fire microphone input",
+  "policyGitBlob": "4a7f96e392372e9aa7ac6d3063c5f6a7a8b74043",
+  "policyGitBytesSha256": "7ac1dbe3ecf2561cd390201f0995f38969379ab87506529538e76b1edd254368",
+  "policyUrl": "https://github.com/lanray07/FloraTend/blob/302950f9d58750262216d3f143bb6058f9760d06/PRIVACY.md",
+  "priorApprovalRetained": "evidence/publisher-privacy-approval.json",
+  "independentLegalComplianceCertification": false,
+  "finalAmazonDeclarationsSubmitted": false,
+  "publicAppSubmissionPerformed": false
+}

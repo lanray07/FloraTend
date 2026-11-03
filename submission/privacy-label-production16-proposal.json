@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "status": "technical_proposal_pending_publisher_review_and_console_reconciliation",
+  "status": "draft_saved_collection_transfer_verified_pending_final_publisher_review",
   "versionCode": 16,
   "scope": "initial Fire release; speech input disabled and microphone permission removed",
   "declarations": [
@@ -272,5 +272,6 @@
     "https://my.plantnet.org/terms_of_use"
   ],
   "bindingDeclarationAccepted": false,
-  "consoleUpdated": false
+  "consoleUpdated": true,
+  "collectionTransferFlagReadback": "evidence/production-identification/privacy-console-readback.json"
 }

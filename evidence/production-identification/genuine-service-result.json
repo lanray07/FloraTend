@@ -1,0 +1,32 @@
+{
+  "actualTransport": true,
+  "endpointFromBuildConfig": true,
+  "photoSource": "https://libreshot.com/english-daisy/",
+  "photoAuthor": "Martin Vorel",
+  "photoLicense": "CC0",
+  "sourceLabel": "Bellis perennis",
+  "requestCount": 1,
+  "resultType": "Suggestions",
+  "savedAutomatically": false,
+  "suggestions": [
+    {
+      "scientificName": "Bellis perennis",
+      "score": 0.59052
+    },
+    {
+      "scientificName": "Bellis sylvestris",
+      "score": 0.1056
+    },
+    {
+      "scientificName": "Bellis annua",
+      "score": 0.09512
+    }
+  ],
+  "date": "2026-11-03",
+  "candidateVersionCode": 16,
+  "consentCancellationRequestCount": 0,
+  "nativeUiSuitePassed": false,
+  "interruption": "Tablet went to sleep and locked after real response; Compose hierarchy unavailable. Stay-awake setting had changed back to 0.",
+  "automaticSaveObserved": false,
+  "explicitChoiceSaveAndOfflineRestart": "PENDING"
+}
