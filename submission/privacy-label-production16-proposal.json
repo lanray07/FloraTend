@@ -1,0 +1,276 @@
+{
+  "date": "2026-11-03",
+  "status": "technical_proposal_pending_publisher_review_and_console_reconciliation",
+  "versionCode": 16,
+  "scope": "initial Fire release; speech input disabled and microphone permission removed",
+  "declarations": [
+    {
+      "field": "Name",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Email Address",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "User IDs",
+      "collected": true,
+      "shared": false,
+      "purposes": [
+        "App functionality",
+        "Fraud Prevention, Security and Compliance"
+      ]
+    },
+    {
+      "field": "Address",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Phone number",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Race and ethnicity",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Sexual orientation",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Political or religious beliefs",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Other user info",
+      "collected": true,
+      "shared": false,
+      "purposes": [
+        "App functionality"
+      ]
+    },
+    {
+      "field": "User payment info",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Purchase history",
+      "collected": true,
+      "shared": false,
+      "purposes": [
+        "App functionality",
+        "Fraud Prevention, Security and Compliance"
+      ]
+    },
+    {
+      "field": "Credit score",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Other financial info",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Device or other ID",
+      "collected": true,
+      "shared": false,
+      "purposes": [
+        "App functionality",
+        "Fraud Prevention, Security and Compliance"
+      ]
+    },
+    {
+      "field": "Advertising ID",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Health & Biometrics Info",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Fitness info",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Approximate location",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Precise location",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Web browsing history",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Photos",
+      "collected": true,
+      "shared": false,
+      "purposes": [
+        "App functionality"
+      ]
+    },
+    {
+      "field": "Videos",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Voice or sound recordings",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Music files",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Other audio files",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Crash logs",
+      "collected": true,
+      "shared": false,
+      "purposes": [
+        "App functionality",
+        "Analytics"
+      ]
+    },
+    {
+      "field": "Diagnostics",
+      "collected": true,
+      "shared": false,
+      "purposes": [
+        "App functionality",
+        "Analytics"
+      ]
+    },
+    {
+      "field": "Other app performance data",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "App interactions",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "In-app search history",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Installed apps",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Other user-generated content",
+      "collected": true,
+      "shared": false,
+      "purposes": [
+        "App functionality"
+      ]
+    },
+    {
+      "field": "Other actions",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Emails",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "SMS or MMS",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Other in-app messages",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Files and doc",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    },
+    {
+      "field": "Calendar events",
+      "collected": true,
+      "shared": false,
+      "purposes": [
+        "App functionality"
+      ]
+    },
+    {
+      "field": "Contacts / Phone Logs",
+      "collected": false,
+      "shared": false,
+      "purposes": []
+    }
+  ],
+  "changesFromHistoricalDraft": [
+    "Voice or sound recordings: no collection because this profile captures no microphone audio. Text sent to installed TTS remains separately disclosed."
+  ],
+  "photos": "Consented JPEG and language code forwarded via Cloudflare to Pl@ntNet; photo collection for App functionality retained. No advertising.",
+  "sharedInterpretation": "Service-provider or prominently consented user-initiated transfer exclusions may apply under Amazon definitions; publisher must confirm actual questionnaire.",
+  "sources": [
+    "https://developer.amazon.com/docs/app-submission/appstore-privacy-labels.html",
+    "https://my.plantnet.org/terms_of_use"
+  ],
+  "bindingDeclarationAccepted": false,
+  "consoleUpdated": false
+}

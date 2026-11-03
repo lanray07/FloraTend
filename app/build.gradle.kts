@@ -13,8 +13,10 @@ android {
         applicationId = "com.floratend.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 15
-        versionName = "0.1.14"
+        versionCode = 16
+        versionName = "0.1.15"
+        // Publisher deferred microphone input from the initial Fire release.
+        buildConfigField("boolean", "SPEECH_INPUT_ENABLED", "false")
         // Empty until the privately configured, free-only identification server is verified.
         val identifierUrl = providers.gradleProperty("floratend.plantIdentifierUrl").getOrElse("")
         require(identifierUrl.isEmpty() || identifierUrl.matches(Regex("https://[a-zA-Z0-9.-]+/identify"))) { "Invalid plant identifier HTTPS URL" }
@@ -44,6 +46,13 @@ android {
         versionNameSuffix = "-qa"
         matchingFallbacks += "debug"
     }
+    // Explicit future-development opt-in; it cannot enable release speech input.
+    buildTypes.getByName("debug") {
+        buildConfigField("boolean", "SPEECH_INPUT_ENABLED", providers.gradleProperty("floratend.speechInputEnabled").getOrElse("false").toBooleanStrict().toString())
+    }
+    buildTypes.getByName("qa") {
+        buildConfigField("boolean", "SPEECH_INPUT_ENABLED", providers.gradleProperty("floratend.speechInputEnabled").getOrElse("false").toBooleanStrict().toString())
+    }
     // Isolated, non-debuggable rendering verification; never the Amazon package.
     buildTypes.create("benchmark") {
         initWith(buildTypes.getByName("release"))
@@ -59,6 +68,7 @@ android {
     testOptions { unitTests.isReturnDefaultValues = true }
     sourceSets.getByName("test").resources.srcDir("src/main/assets")
     sourceSets.getByName("androidTest").assets.srcDir("$projectDir/schemas")
+    sourceSets.getByName("benchmark").manifest.srcFile("src/release/AndroidManifest.xml")
 }
 ksp { arg("room.schemaLocation", "$projectDir/schemas") }
 dependencies {

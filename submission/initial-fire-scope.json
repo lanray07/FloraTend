@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-03",
+  "platform": "Amazon Fire tablets",
+  "worldwideScopeRetained": true,
+  "publisherDecision": "Defer push-to-talk for the initial Fire release",
+  "deferredCriteria": ["AC-06.02"],
+  "retainedCapabilities": ["typed commands", "touch controls", "optional text-to-speech"],
+  "speechInputEnabled": false,
+  "microphonePermissionInProduction": false,
+  "actualMicrophoneRecognitionPassed": false,
+  "originalCriteria": 204,
+  "originalPassingAtStartOfChange": 194,
+  "initialFireApplicableCriteria": 203,
+  "otherIncompleteAtStartOfChange": 9,
+  "fullReleaseReadinessClaimed": false,
+  "publicSubmissionCompleted": false
+}

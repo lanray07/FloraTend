@@ -1,4 +1,8 @@
-param([switch]$BuildDeviceTests,[string]$PlantIdentifierUrl="")
+param(
+    [switch]$BuildDeviceTests,
+    [string]$PlantIdentifierUrl="https://floratend-plant-identification.lanraybanks.workers.dev/identify",
+    [string]$LogPath="build/signed-release-build.log"
+)
 $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path -Parent $PSScriptRoot
 Set-Location -LiteralPath $projectRoot
@@ -43,12 +47,12 @@ try {
         if($PlantIdentifierUrl -notmatch '^https://[a-zA-Z0-9.-]+/identify$'){throw 'Invalid identification HTTPS endpoint'}
         $gradleArgs += ('-Pfloratend.plantIdentifierUrl='+$PlantIdentifierUrl)
     }
-    $buildLog = 'evidence/signed-release-build.log'
+    $buildLog = $LogPath
     if ($BuildDeviceTests) {
         $gradleArgs += @('-Pfloratend.testBuildType=release', ':app:assembleReleaseAndroidTest')
-        $buildLog = 'evidence/direct-release/instrumentation-build.log'
-        [System.IO.Directory]::CreateDirectory((Join-Path $projectRoot 'evidence/direct-release')) | Out-Null
+        if (!$PSBoundParameters.ContainsKey('LogPath')) { $buildLog = 'build/signed-release-device-build.log' }
     }
+    [System.IO.Directory]::CreateDirectory((Split-Path -Parent (Join-Path $projectRoot $buildLog))) | Out-Null
     & .\gradlew.bat @gradleArgs *> $buildLog
     if ($LASTEXITCODE -ne 0) { throw "Signed release build failed; see $buildLog" }
     # Verify the output too: a Gradle property can take precedence over the env.

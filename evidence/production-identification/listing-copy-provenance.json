@@ -1,0 +1,130 @@
+{
+  "execution_date": "2026-11-03",
+  "scope": "Changed photo-identification paragraph and initial-Fire spoken-feedback copy only",
+  "sources": {
+    "paragraph": "Text commands offer another way to navigate and record care. Optional spoken responses depend on compatible text-to-speech engines and languages installed on your device. Use touch controls or type a command.",
+    "bullet": "Use touch controls and text commands, with optional spoken responses on supported devices.",
+    "headline": "Type commands. Hear replies.",
+    "photo": "Optional photo identification suggests species using Pl@ntNet. A selected photo is uploaded only after your explicit confirmation. Suggestions can be wrong; review or edit the species before saving. Manual entry remains available, and daily limits apply."
+  },
+  "provider": "DeepL API Developer",
+  "endpoint": "https://api-free.deepl.com",
+  "actualProviderRequestsInSuccessfulBatchRun": 10,
+  "priorXmlGroupingFailureRetained": true,
+  "providerTargets": {
+    "de-DE": "DE",
+    "es-ES": "ES",
+    "fr-FR": "FR",
+    "it-IT": "IT",
+    "ja-JP": "JA",
+    "nl-NL": "NL",
+    "pl-PL": "PL",
+    "pt-BR": "PT-BR",
+    "pt-PT": "PT-PT",
+    "sv-SE": "SV"
+  },
+  "englishSourceLocales": [
+    "en-US",
+    "en-GB",
+    "en-AU",
+    "en-IN"
+  ],
+  "assistantRegionalAdaptations": [
+    "es-MX"
+  ],
+  "locales": {
+    "de-DE": {
+      "paragraph": "Textbefehle bieten eine weitere Möglichkeit, durch das System zu navigieren und Pflegevorgänge zu dokumentieren. Optionale Sprachausgaben hängen von kompatiblen Text-to-Speech-Engines und den auf Ihrem Gerät installierten Sprachen ab. Verwenden Sie die Touch-Bedienung oder geben Sie einen Befehl ein.",
+      "bullet": "Verwenden Sie Touch-Bedienelemente und Textbefehle – auf unterstützten Geräten sind optionale Sprachantworten möglich.",
+      "headline": "Befehle eingeben. Antworten hören.",
+      "photo": "Ein optionales Foto zur Identifizierung der Art wird mithilfe von Pl@ntNet vorgeschlagen. Ein ausgewähltes Foto wird erst nach Ihrer ausdrücklichen Bestätigung hochgeladen. Die Vorschläge können fehlerhaft sein; überprüfen oder bearbeiten Sie die Art vor dem Speichern. Die manuelle Eingabe ist weiterhin möglich, und es gelten tägliche Obergrenzen."
+    },
+    "es-ES": {
+      "paragraph": "Los comandos de texto ofrecen otra forma de navegar y registrar la atención sanitaria. Las respuestas de voz opcionales dependen de los motores de conversión de texto a voz compatibles y de los idiomas instalados en tu dispositivo. Utiliza los controles táctiles o escribe un comando.",
+      "bullet": "Utiliza controles táctiles y comandos de texto, con respuestas de voz opcionales en los dispositivos compatibles.",
+      "headline": "Escribe comandos. Escucha las respuestas.",
+      "photo": "La identificación opcional mediante fotografía sugiere especies utilizando Pl@ntNet. La fotografía seleccionada solo se sube tras tu confirmación explícita. Las sugerencias pueden ser erróneas; revisa o edita la especie antes de guardarla. Sigue estando disponible la introducción manual de datos, y se aplican límites diarios."
+    },
+    "fr-FR": {
+      "paragraph": "Les commandes textuelles constituent un autre moyen de naviguer et d'enregistrer les soins. Les réponses vocales, disponibles en option, dépendent des moteurs de synthèse vocale compatibles et des langues installées sur votre appareil. Utilisez les commandes tactiles ou saisissez une commande.",
+      "bullet": "Utilisez les commandes tactiles et les commandes textuelles, avec des réponses vocales en option sur les appareils compatibles.",
+      "headline": "Tapez des commandes. Écoutez les réponses.",
+      "photo": "La saisie facultative d'une photo d'identification permet de suggérer des espèces à l'aide de Pl@ntNet. La photo sélectionnée n'est téléchargée qu'après votre confirmation explicite. Les suggestions peuvent être erronées ; vérifiez ou modifiez l'espèce avant de valider. La saisie manuelle reste disponible, et des limites quotidiennes s'appliquent."
+    },
+    "it-IT": {
+      "paragraph": "I comandi testuali offrono un altro modo per navigare e registrare le cure. Le risposte vocali opzionali dipendono dai motori di sintesi vocale compatibili e dalle lingue installate sul dispositivo. Utilizza i comandi touch o digita un comando.",
+      "bullet": "Utilizza i comandi touch e i comandi testuali, con risposte vocali opzionali sui dispositivi compatibili.",
+      "headline": "Digita i comandi. Ascolta le risposte.",
+      "photo": "L'identificazione facoltativa tramite foto suggerisce la specie utilizzando Pl@ntNet. La foto selezionata viene caricata solo dopo la tua conferma esplicita. I suggerimenti potrebbero essere errati; verifica o modifica la specie prima di salvare. È comunque possibile inserire i dati manualmente e si applicano i limiti giornalieri."
+    },
+    "ja-JP": {
+      "paragraph": "テキストコマンドは、操作やケア記録を行うためのもう1つの方法です。音声による応答機能は、お使いのデバイスに互換性のあるテキスト読み上げエンジンと言語がインストールされている場合に利用可能です。タッチ操作を行うか、コマンドを入力してください。",
+      "bullet": "タッチ操作やテキストコマンドを使用し、対応デバイスではオプションで音声応答も利用できます。",
+      "headline": "コマンドを入力して、返答を聞きましょう。",
+      "photo": "オプションの写真による同定では、Pl@ntNet を使用して種を提案します。選択した写真は、ユーザーによる明示的な確認があった後にのみアップロードされます。提案内容が間違っている場合もありますので、保存する前に種を確認または編集してください。手動入力も引き続き利用可能ですが、1日あたりの投稿数に制限があります。"
+    },
+    "nl-NL": {
+      "paragraph": "Tekstcommando’s bieden een andere manier om te navigeren en zorggegevens vast te leggen. Of er gesproken reacties worden weergegeven, hangt af van de compatibele tekst-naar-spraak-engines en talen die op uw apparaat zijn geïnstalleerd. Gebruik de aanraakbediening of typ een commando in.",
+      "bullet": "Gebruik aanraakbediening en tekstopdrachten, met optionele gesproken reacties op ondersteunde apparaten.",
+      "headline": "Voer commando's in. Luister naar de antwoorden.",
+      "photo": "Met de optionele foto-identificatie kunt u de soort voorstellen met behulp van Pl@ntNet. Een geselecteerde foto wordt pas geüpload nadat u dit uitdrukkelijk hebt bevestigd. Voorstellen kunnen onjuist zijn; controleer of wijzig de soort voordat u deze opslaat. Handmatige invoer blijft mogelijk en er gelden dagelijkse limieten."
+    },
+    "pl-PL": {
+      "paragraph": "Polecenia tekstowe to kolejny sposób na poruszanie się po aplikacji i rejestrowanie opieki. Opcjonalne odpowiedzi głosowe zależą od kompatybilnych silników zamiany tekstu na mowę oraz języków zainstalowanych na urządzeniu. Można korzystać z elementów sterujących dotykowych lub wpisać polecenie.",
+      "bullet": "Korzystaj z elementów sterujących dotykowych i poleceń tekstowych, a na obsługiwanych urządzeniach możesz dodatkowo uzyskać odpowiedzi głosowe.",
+      "headline": "Wpisuj polecenia. Słuchaj odpowiedzi.",
+      "photo": "Opcjonalna identyfikacja na podstawie zdjęcia pozwala sugerować gatunek za pomocą Pl@ntNet. Wybrane zdjęcie zostanie przesłane dopiero po wyraźnym potwierdzeniu przez użytkownika. Sugestie mogą być błędne; przed zapisaniem należy sprawdzić lub edytować gatunek. Nadal dostępna jest opcja ręcznego wprowadzania danych, a obowiązują dzienne limity."
+    },
+    "pt-BR": {
+      "paragraph": "Os comandos de texto oferecem outra maneira de navegar e registrar os cuidados. As respostas faladas opcionais dependem dos mecanismos de conversão de texto em fala compatíveis e dos idiomas instalados no seu dispositivo. Use os controles sensíveis ao toque ou digite um comando.",
+      "bullet": "Use controles sensíveis ao toque e comandos de texto, com respostas faladas opcionais em dispositivos compatíveis.",
+      "headline": "Digite comandos. Ouça as respostas.",
+      "photo": "A identificação opcional por foto sugere espécies usando Pl@ntNet. A foto selecionada só será enviada após sua confirmação explícita. As sugestões podem estar erradas; verifique ou edite a espécie antes de salvar. A inserção manual continua disponível, e há limites diários."
+    },
+    "pt-PT": {
+      "paragraph": "Os comandos de texto oferecem outra forma de navegar e registar os cuidados prestados. As respostas faladas opcionais dependem dos motores de conversão de texto em voz compatíveis e dos idiomas instalados no seu dispositivo. Utilize os controlos táteis ou escreva um comando.",
+      "bullet": "Utilize controlos táteis e comandos de texto, com respostas faladas opcionais nos dispositivos compatíveis.",
+      "headline": "Digite comandos. Ouça as respostas.",
+      "photo": "A identificação opcional por fotografia sugere espécies utilizando Pl@ntNet. A fotografia selecionada só é carregada após a sua confirmação explícita. As sugestões podem estar erradas; reveja ou edite a espécie antes de guardar. A introdução manual continua disponível e aplicam-se limites diários."
+    },
+    "sv-SE": {
+      "paragraph": "Textkommandon är ett annat sätt att navigera och dokumentera vården. Valfria röstsvar beror på vilka kompatibla text-till-tal-motorer och språk som är installerade på din enhet. Använd pekkontroller eller skriv in ett kommando.",
+      "bullet": "Använd pekkontroller och textkommandon, med valfria röstsvar på enheter som stöder denna funktion.",
+      "headline": "Skriv in kommandon. Lyssna på svaren.",
+      "photo": "Valfri fotoidentifiering föreslår arter med hjälp av Pl@ntNet. En vald bild laddas upp först efter att du uttryckligen har bekräftat detta. Förslagen kan vara felaktiga; granska eller redigera arten innan du sparar. Manuell inmatning är fortfarande möjlig, och dagliga begränsningar gäller."
+    },
+    "en-US": {
+      "paragraph": "Text commands offer another way to navigate and record care. Optional spoken responses depend on compatible text-to-speech engines and languages installed on your device. Use touch controls or type a command.",
+      "bullet": "Use touch controls and text commands, with optional spoken responses on supported devices.",
+      "headline": "Type commands. Hear replies.",
+      "photo": "Optional photo identification suggests species using Pl@ntNet. A selected photo is uploaded only after your explicit confirmation. Suggestions can be wrong; review or edit the species before saving. Manual entry remains available, and daily limits apply."
+    },
+    "en-GB": {
+      "paragraph": "Text commands offer another way to navigate and record care. Optional spoken responses depend on compatible text-to-speech engines and languages installed on your device. Use touch controls or type a command.",
+      "bullet": "Use touch controls and text commands, with optional spoken responses on supported devices.",
+      "headline": "Type commands. Hear replies.",
+      "photo": "Optional photo identification suggests species using Pl@ntNet. A selected photo is uploaded only after your explicit confirmation. Suggestions can be wrong; review or edit the species before saving. Manual entry remains available, and daily limits apply."
+    },
+    "en-AU": {
+      "paragraph": "Text commands offer another way to navigate and record care. Optional spoken responses depend on compatible text-to-speech engines and languages installed on your device. Use touch controls or type a command.",
+      "bullet": "Use touch controls and text commands, with optional spoken responses on supported devices.",
+      "headline": "Type commands. Hear replies.",
+      "photo": "Optional photo identification suggests species using Pl@ntNet. A selected photo is uploaded only after your explicit confirmation. Suggestions can be wrong; review or edit the species before saving. Manual entry remains available, and daily limits apply."
+    },
+    "en-IN": {
+      "paragraph": "Text commands offer another way to navigate and record care. Optional spoken responses depend on compatible text-to-speech engines and languages installed on your device. Use touch controls or type a command.",
+      "bullet": "Use touch controls and text commands, with optional spoken responses on supported devices.",
+      "headline": "Type commands. Hear replies.",
+      "photo": "Optional photo identification suggests species using Pl@ntNet. A selected photo is uploaded only after your explicit confirmation. Suggestions can be wrong; review or edit the species before saving. Manual entry remains available, and daily limits apply."
+    },
+    "es-MX": {
+      "paragraph": "Los comandos de texto ofrecen otra forma de navegar y registrar los cuidados. Las respuestas habladas opcionales dependen de los motores de texto a voz y los idiomas compatibles instalados en tu dispositivo. Usa los controles táctiles o escribe un comando.",
+      "bullet": "Usa controles táctiles y comandos de texto, con respuestas habladas opcionales en dispositivos compatibles.",
+      "headline": "Escribe comandos. Escucha respuestas.",
+      "photo": "La identificación opcional de fotos sugiere especies mediante Pl@ntNet. La foto seleccionada solo se sube después de tu confirmación explícita. Las sugerencias pueden ser incorrectas; revisa o edita la especie antes de guardar. La entrada manual sigue disponible y se aplican límites diarios."
+    }
+  },
+  "humanApproved": false,
+  "appResourcesModified": false,
+  "credentialsExported": false
+}

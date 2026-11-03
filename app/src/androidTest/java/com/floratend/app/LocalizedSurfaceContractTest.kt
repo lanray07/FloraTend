@@ -48,11 +48,12 @@ class LocalizedSurfaceContractTest {
             }
             rule.onNodeWithText(rule.activity.getString(R.string.purchase_verification_privacy),substring=false).performScrollTo().assertIsDisplayed()
             nav(R.string.voice)
-            rule.onNodeWithText(rule.activity.getString(R.string.voice_intro),substring=false).assertIsDisplayed()
-            for(id in listOf(R.string.voice_privacy,R.string.command,R.string.voice_examples)) {
+            rule.onNodeWithText(rule.activity.getString(if(BuildConfig.SPEECH_INPUT_ENABLED) R.string.voice_intro else R.string.voice_unavailable),substring=false).assertIsDisplayed()
+            val voiceLabels=if(BuildConfig.SPEECH_INPUT_ENABLED) listOf(R.string.voice_privacy,R.string.command,R.string.voice_examples) else listOf(R.string.command,R.string.voice_examples)
+            for(id in voiceLabels) {
                 rule.onNodeWithText(rule.activity.getString(id),substring=false).performScrollTo().assertIsDisplayed()
             }
-            rows.put(JSONObject().put("locale",tag).put("paywallTexts",3).put("toggleAccessibilityLabels",4).put("voicePrompts",4))
+            rows.put(JSONObject().put("locale",tag).put("paywallTexts",3).put("toggleAccessibilityLabels",4).put("voicePrompts",1+voiceLabels.size))
         }
         val dir=File(app.getExternalFilesDir(null),"surface-contracts").apply { mkdirs() }
         File(dir,"surfaces.json").writeText(JSONObject().put("locales",rows).put("humanApproval",false)

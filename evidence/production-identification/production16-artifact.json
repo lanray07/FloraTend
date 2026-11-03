@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-03",
+  "package": "com.floratend.app",
+  "versionCode": 16,
+  "versionName": "0.1.15",
+  "apkSha256": "79de8d5d4c14381ee07f082bd6623c40218f2c6d7f4621df77b3ddc574648d2b",
+  "uploadCertificateSha256": "c08b2dd3462a14be0351a87c0da7afd83a4efd64ea6ff168aa83853692ff3a94",
+  "signatureVerified": true,
+  "minApi": 26,
+  "targetApi": 36,
+  "debuggable": false,
+  "productionReceiptEndpointInDex": true,
+  "latReceiptEndpointInDex": false,
+  "productionIdentifierEndpointInDex": true,
+  "microphonePermissionPresent": false,
+  "speechInputEnabled": false,
+  "r8Enabled": true,
+  "amazonSdkStackMapWarningsRetainedPrivately": true,
+  "installedOverAmazonApp": false,
+  "amazonDeliveredCode16Verified": false
+}

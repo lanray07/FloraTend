@@ -149,7 +149,10 @@ class UiSmokeTest {
         nav("Voice")
         val folder=File(app.getExternalFilesDir(null),"acceptance").apply { mkdirs() }
         File(folder,"voice-capabilities.json").writeText(org.json.JSONObject().put("recognitionAvailable",SpeechRecognizer.isRecognitionAvailable(rule.activity)).put("microphonePermission",rule.activity.checkSelfPermission(android.Manifest.permission.RECORD_AUDIO)).put("locale",java.util.Locale.getDefault().toLanguageTag()).put("ttsServiceCount",rule.activity.packageManager.queryIntentServices(android.content.Intent(android.speech.tts.TextToSpeech.Engine.INTENT_ACTION_TTS_SERVICE),0).size).toString(2))
-        if(!SpeechRecognizer.isRecognitionAvailable(rule.activity)) {
+        if(!BuildConfig.SPEECH_INPUT_ENABLED) {
+            rule.onNodeWithText("Push to talk").assertDoesNotExist()
+            rule.onNodeWithText("Speech recognition is unavailable on this device.",substring=true).assertIsDisplayed()
+        } else if(!SpeechRecognizer.isRecognitionAvailable(rule.activity)) {
             rule.onNodeWithText("Push to talk").assertIsNotEnabled()
             rule.onNodeWithText("Speech recognition is unavailable on this device.",substring=true).assertIsDisplayed()
         }

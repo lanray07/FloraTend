@@ -29,6 +29,7 @@ class SpeechContractTest {
     private val prefs get()=app.getSharedPreferences("qa_speech_fixture",0)
     private var feedback=true
     @Before fun prepare() {
+        Assume.assumeTrue("Speech input is explicitly deferred in this release profile",BuildConfig.SPEECH_INPUT_ENABLED)
         check(BuildConfig.APPLICATION_ID.endsWith(".qa"))
         feedback=runBlocking { app.settings.spokenFeedback.first() }
         runBlocking { app.settings.set("onboarded",true);app.settings.set("spoken_feedback",false) }
@@ -42,6 +43,7 @@ class SpeechContractTest {
         nav.performClick()
     }
     @After fun restore() {
+        if(!BuildConfig.SPEECH_INPUT_ENABLED)return
         app.packageManager.setComponentEnabledSetting(fixture,PackageManager.COMPONENT_ENABLED_STATE_DEFAULT,PackageManager.DONT_KILL_APP)
         runBlocking { app.settings.set("spoken_feedback",feedback) }
     }

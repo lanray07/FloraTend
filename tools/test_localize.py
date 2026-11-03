@@ -1,6 +1,9 @@
 import tempfile
 from pathlib import Path
 import unittest
+import io
+import json
+from unittest.mock import patch
 
 from localize import DeepL, emit_resources, extract, protect, restore, translate_records, validate
 
@@ -15,6 +18,22 @@ class FakeProvider:
 
 
 class LocalizationTests(unittest.TestCase):
+    def test_batch_keeps_copy_fields_independent_instead_of_xml_wrappers(self):
+        provider = DeepL(key='non-secret-test-value')
+        response = io.BytesIO(json.dumps({'translations': [{'text': 'Escribe comandos.'}, {'text': 'Escucha respuestas.'}]}).encode())
+        with patch('localize.urlopen', return_value=response) as request:
+            result = provider.translate_many(['Type commands.', 'Hear replies.'], 'ES')
+        self.assertEqual(['Escribe comandos.', 'Escucha respuestas.'], result)
+        payload = json.loads(request.call_args.args[0].data)
+        self.assertEqual(['Type commands.', 'Hear replies.'], payload['text'])
+
+    def test_batch_rejects_response_count_mismatch_before_copy_assignment(self):
+        provider = DeepL(key='non-secret-test-value')
+        response = io.BytesIO(json.dumps({'translations': [{'text': 'One field only'}]}).encode())
+        with patch('localize.urlopen', return_value=response):
+            with self.assertRaises(ValueError):
+                provider.translate_many(['Type commands.', 'Hear replies.'], 'ES')
+
     def test_protects_repeated_positional_placeholders_and_brand(self):
         text = 'FloraTend: Check %1$s & %1$s {count}'
         protected, tokens = protect(text, ['FloraTend'])

@@ -1,5 +1,7 @@
 # Remaining release inputs - 2 November 2026
 
+Current follow-up: the publisher explicitly deferred push-to-talk for the initial Fire release and requested production photo identification. Code 16 preparation and the revised privacy wording supersede the older configuration and hardware requirements below. The earlier privacy approval remains limited to its original exact wording. Use the [current submission review](https://github.com/lanray07/FloraTend/blob/main/docs/SUBMISSION_REVIEW_20261103.md); the remaining text is preserved checkpoint history.
+
 Update, 3 November: **194/204 criteria pass; 10 remain incomplete**. The publisher retained worldwide scope. Hardware was clarified as the same Fire tablet, which still lacks a speech-recognition service. The verified production code 15 APK has replaced code 5 in the public Amazon draft, which remains Incomplete. The publisher saved a separate API Developer key privately, and one genuine DeepL Free-endpoint translation plus Android XML round trip passed. No paid fallback was used. See the [current public-submission checkpoint](https://github.com/lanray07/FloraTend/blob/main/docs/PUBLIC_SUBMISSION_20261103.md).
 
 At the 2 November checkpoint,193/204criteria were verified;11remained. The newer ledger above supersedes that count. The expanded actual Amazon15 VoiceView journey and four native error-recovery cases pass. The22localized website overviews are live:34total public HTML pages pass HTTP, canonical, reciprocal-language and sitemap verification. Overall public production submission is still blocked.

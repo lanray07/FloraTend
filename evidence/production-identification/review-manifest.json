@@ -1,0 +1,269 @@
+{
+  "date": "2026-11-03",
+  "privacySha256Utf8Lf": "7ac1dbe3ecf2561cd390201f0995f38969379ab87506529538e76b1edd254368",
+  "privacyApproval": "pending revised wording; prior approval remains limited to old blob",
+  "interfaceLocales": [
+    {
+      "locale": "en-GB",
+      "resourceDirectory": "values",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "2c7bd41dbf2df5e5ceeaa1099ec8cdf52789ed01e9740bb4263951b227ecc095",
+        "ids.xml": "c774224cf02932321eb663c4af995b47a3fb9fd5c0a225434d396d2589641994",
+        "privacy.xml": "9b6cb480344dfbefe7fe22117eaffb658a48dcc6d92cac27a8ef67413d71f9d9",
+        "strings.xml": "ca07a5f9c393511f2a75391b4a17ae72cb85a1815c1e070c7f1335053bb49a01",
+        "styles.xml": "6390bfa952bceb5b2e6c61f415a27ca1e6825a6adf958661c58c3c87457068d7"
+      },
+      "reviewDocument": "docs/review/20261103/en-GB.md",
+      "reviewed": false
+    },
+    {
+      "locale": "en-US",
+      "resourceDirectory": "values-en-rUS",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "2c7bd41dbf2df5e5ceeaa1099ec8cdf52789ed01e9740bb4263951b227ecc095",
+        "privacy.xml": "9b6cb480344dfbefe7fe22117eaffb658a48dcc6d92cac27a8ef67413d71f9d9",
+        "strings.xml": "b1603b991ae4e2afc015b8973c32651b137c2a609aae5c37346cb9b2c0b916bd"
+      },
+      "reviewDocument": "docs/review/20261103/en-US.md",
+      "reviewed": false
+    },
+    {
+      "locale": "en-AU",
+      "resourceDirectory": "values-en-rAU",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "2c7bd41dbf2df5e5ceeaa1099ec8cdf52789ed01e9740bb4263951b227ecc095",
+        "privacy.xml": "9b6cb480344dfbefe7fe22117eaffb658a48dcc6d92cac27a8ef67413d71f9d9",
+        "strings.xml": "b11cf4dcee36c9c4157fb39b41e3f712fbf5978924f751b6284617bfd7046793"
+      },
+      "reviewDocument": "docs/review/20261103/en-AU.md",
+      "reviewed": false
+    },
+    {
+      "locale": "es-ES",
+      "resourceDirectory": "values-es-rES",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "fc58cd1410e98232d10801b578107d015164d44feaee9167ced43ab43a644c61",
+        "privacy.xml": "08ba0c0894a88a0b311ab81c7f073ca87d23b451c0ba05a58fa97bbb464eefba",
+        "strings.xml": "d2e7cb550eb1b84732765bdc88546593aa83738d9173a15f7d590d8b18a51fbc"
+      },
+      "reviewDocument": "docs/review/20261103/es-ES.md",
+      "reviewed": false
+    },
+    {
+      "locale": "es-419",
+      "resourceDirectory": "values-b+es+419",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "fc58cd1410e98232d10801b578107d015164d44feaee9167ced43ab43a644c61",
+        "privacy.xml": "08ba0c0894a88a0b311ab81c7f073ca87d23b451c0ba05a58fa97bbb464eefba",
+        "strings.xml": "065abe4f89ad5009fdf0eeb1f1ce29fffc9d08fed4d8bd839640ffcdc6f8fd5f"
+      },
+      "reviewDocument": "docs/review/20261103/es-419.md",
+      "reviewed": false
+    },
+    {
+      "locale": "fr-FR",
+      "resourceDirectory": "values-fr-rFR",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "733edde5c8d1993ccd878468b6ea48bac8011e7515859bcb62a0f12cad35fe07",
+        "privacy.xml": "8bd34bd47515dd3438cb2e653b55b70ab099ce73123da4a64ec12cd3a03460cb",
+        "strings.xml": "f9f13a327936baaf3fb228b56916bc0a8d2e62d758e28eb9e6f2fb530719fdd2"
+      },
+      "reviewDocument": "docs/review/20261103/fr-FR.md",
+      "reviewed": false
+    },
+    {
+      "locale": "fr-CA",
+      "resourceDirectory": "values-fr-rCA",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "733edde5c8d1993ccd878468b6ea48bac8011e7515859bcb62a0f12cad35fe07",
+        "privacy.xml": "8bd34bd47515dd3438cb2e653b55b70ab099ce73123da4a64ec12cd3a03460cb",
+        "strings.xml": "8da2cfa323060d7d1a7b5a227e83e2b41a84dd501a626cc084a8155b9070c3f8"
+      },
+      "reviewDocument": "docs/review/20261103/fr-CA.md",
+      "reviewed": false
+    },
+    {
+      "locale": "de-DE",
+      "resourceDirectory": "values-de-rDE",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "59906e7588c1e6a955464fa76fa98c02920678a79824b58f1954ae2beb06f451",
+        "privacy.xml": "73deab70c6148486ea82ad273d5a28898637eed8e71a30b387bd801a49030436",
+        "strings.xml": "ba7929b08222a372cc61ec89fd10bd83d33f49591e6d3e9d8c389d06d8a81dd8"
+      },
+      "reviewDocument": "docs/review/20261103/de-DE.md",
+      "reviewed": false
+    },
+    {
+      "locale": "it-IT",
+      "resourceDirectory": "values-it-rIT",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "3e929d3d40055001842c46ac791a05ac5e86d3576cb24dd9fabde896fb4f1a50",
+        "privacy.xml": "5c8298289de054ae25b46f8723dfb2ce233472d33854eb96cc2ef9d951df347a",
+        "strings.xml": "48aefc51efd0dc76fe84c58b54e427fc4badb14659371fb18cfaad79c9327bf2"
+      },
+      "reviewDocument": "docs/review/20261103/it-IT.md",
+      "reviewed": false
+    },
+    {
+      "locale": "pt-BR",
+      "resourceDirectory": "values-pt-rBR",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "f3475056309e4265eb65d95c51c7e1b1f10a3559096eb192a8586cc4c76c24c0",
+        "privacy.xml": "553f96922720d198660f3b5c72a85d3f3fb067d3c5207f07926a37ecd7a8bcd5",
+        "strings.xml": "2711acfd10c0111cfb685d415dfe698d0d17a6c74be78c991d87504511fca0e0"
+      },
+      "reviewDocument": "docs/review/20261103/pt-BR.md",
+      "reviewed": false
+    },
+    {
+      "locale": "pt-PT",
+      "resourceDirectory": "values-pt-rPT",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "8cc6f87a8073eb9b314ad4177a8d435a628779402b4f1b810446d89c4c132787",
+        "privacy.xml": "a964256f1d3f98532091292682ad0c95a5f871fe9d4c985d96b8956a2bfa4151",
+        "strings.xml": "67591bf3746423f96a03cff4dff3b1760f67ad73e170bc8a33b17af6637c6ce9"
+      },
+      "reviewDocument": "docs/review/20261103/pt-PT.md",
+      "reviewed": false
+    },
+    {
+      "locale": "nl-NL",
+      "resourceDirectory": "values-nl-rNL",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "f399c803ee04832507397b2c9c8a983f301fd3e7ea77357d3b560dca8a0cc9f7",
+        "privacy.xml": "89bd4ccbb66b95fcd3daa600af5d01326e3fdc6b12576ec2064b9de34a03a23b",
+        "strings.xml": "afac45d2612f435b563873c081c431ee3ce2e6c17991f8f40395b34d018ffd65"
+      },
+      "reviewDocument": "docs/review/20261103/nl-NL.md",
+      "reviewed": false
+    },
+    {
+      "locale": "pl-PL",
+      "resourceDirectory": "values-pl-rPL",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "e2a8a326d446b9c8028eb54195c38277d0c1be9e26c268129d3bb0315d084496",
+        "privacy.xml": "8d36d9cb9dd996cb0317a6ee22396162055e5588410aebf10d92f23896effd06",
+        "strings.xml": "c56748d4057fb8f4c62cbed94c724bbee54d347f58c3bf49f43113e348ffbee0"
+      },
+      "reviewDocument": "docs/review/20261103/pl-PL.md",
+      "reviewed": false
+    },
+    {
+      "locale": "sv-SE",
+      "resourceDirectory": "values-sv-rSE",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "a7d2d869135032ccd834dee5d2c8a5669f0e358bfc386a61f1cc7bb5dfa57b11",
+        "privacy.xml": "023581e07f8656a437a518dce56e5b4e7071c66d8db1c5d3dbf13199190d6a5b",
+        "strings.xml": "b0258a2c8309cc6e7d43f90c2ebe9517de386927feb1d9c1b77b392811031f5f"
+      },
+      "reviewDocument": "docs/review/20261103/sv-SE.md",
+      "reviewed": false
+    },
+    {
+      "locale": "ja-JP",
+      "resourceDirectory": "values-ja-rJP",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "1096f6e9e639affc68f504873346b52086141c74b40d0bbc7a86a8ccf53ec92b",
+        "privacy.xml": "eeddb025d27434b391e2144d6a50f3efb739ea7abfcb48c4bc6056027a17da30",
+        "strings.xml": "8c912ca4ce2f0f4b7a379484b0de6906b51b991e2390634b6cdfb2ed528b8884"
+      },
+      "reviewDocument": "docs/review/20261103/ja-JP.md",
+      "reviewed": false
+    },
+    {
+      "locale": "hi-IN",
+      "resourceDirectory": "values-hi-rIN",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "7a97976e74c4842ae4c4bfeeba9504f4d43a1f344467b6ade82ae57bd9de518a",
+        "privacy.xml": "b793ce5e2ac98b662bfaece1ee7d07f4cc19ad49a77a4615313b02bf8aa79c5e",
+        "strings.xml": "4df3fe2efd12146ac4e964b9dc1c32506529ce3e011290fbc98ef2bbcffa3599"
+      },
+      "reviewDocument": "docs/review/20261103/hi-IN.md",
+      "reviewed": false
+    },
+    {
+      "locale": "ar",
+      "resourceDirectory": "values-ar",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "9966e339b878d372b8c33c42440a56cf898899ff052b7817acc6641c60b84d03",
+        "privacy.xml": "8ae0175777161e562a38d9c2af60be9ee97fc91b74420aa75a2f549c90ba992f",
+        "strings.xml": "e4d74ac508ddd4d1a3722406207f66d80970d53992a33232faf17ab6386c20fd"
+      },
+      "reviewDocument": "docs/review/20261103/ar.md",
+      "reviewed": false
+    },
+    {
+      "locale": "tr-TR",
+      "resourceDirectory": "values-tr-rTR",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "6971a20161b983980e1355c6533e12ad3392a3be4199067fa5b259d67829f4ee",
+        "privacy.xml": "a8d13232178a9923d9a26003834c61163f15d7279c703db4bb3348691ad0da3b",
+        "strings.xml": "40754ae973219fb24c836b0246dc0b4a1ebb6a7f0a4e732ba431f4952c5bc693"
+      },
+      "reviewDocument": "docs/review/20261103/tr-TR.md",
+      "reviewed": false
+    },
+    {
+      "locale": "id-ID",
+      "resourceDirectory": "values-in-rID",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "c7a3b72b450f26dcbb90612ae0a9b37a897a326e1f917c1709ec040c951aa383",
+        "privacy.xml": "ddec71cefdc9ce4e44347582c8e523d92e298cf3383c5e35284956dedd8931d6",
+        "strings.xml": "383b3b5efee10c18de341b15511fa1d8ea3eb7e0f38a5b54dc50fdbb963734e2"
+      },
+      "reviewDocument": "docs/review/20261103/id-ID.md",
+      "reviewed": false
+    },
+    {
+      "locale": "ko-KR",
+      "resourceDirectory": "values-ko-rKR",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "b860d1a6ac155ad0d03b6fc5c27eb2fc919370c039280787634865a0a9ba91e9",
+        "privacy.xml": "7c6e6663e3e4842895f50f8243cebfe9c10367e1cbeb39bc74fae385074e88ed",
+        "strings.xml": "bd623f4dcf9714ff0e3de019eef87c1a37061d123f20ceac85cda0ff6d9f0c02"
+      },
+      "reviewDocument": "docs/review/20261103/ko-KR.md",
+      "reviewed": false
+    },
+    {
+      "locale": "zh-CN",
+      "resourceDirectory": "values-b+zh+Hans",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "abfc47f9ead26fcf283060b3593b84da882130e9d967734cd8604232709e8c55",
+        "privacy.xml": "987933e1b2b56f8808f85c404d473570138f7f11d51a5d082d8947d2999e583e",
+        "strings.xml": "8b0df5fdb891bf3baf28f7912c2b3342be2636bbc1dcf92dfcd732b727a30e00"
+      },
+      "reviewDocument": "docs/review/20261103/zh-CN.md",
+      "reviewed": false
+    },
+    {
+      "locale": "zh-TW",
+      "resourceDirectory": "values-b+zh+Hant",
+      "resourceSha256Utf8Lf": {
+        "identification.xml": "499c22dab5d983e82929e6b27af6480ca02bcd62f9781d7af7ecdc9a548c27c9",
+        "privacy.xml": "d61a12b4808708413765ce0bf6910d2862e925158b9e2250e2353b544922461d",
+        "strings.xml": "e459c45b68756966e9151796fd1a2b558a7d318a60a99e64fe952b9620f4dccd"
+      },
+      "reviewDocument": "docs/review/20261103/zh-TW.md",
+      "reviewed": false
+    }
+  ],
+  "listingLocales": [
+    "de-DE",
+    "en-AU",
+    "en-GB",
+    "en-IN",
+    "en-US",
+    "es-ES",
+    "es-MX",
+    "fr-FR",
+    "it-IT",
+    "ja-JP",
+    "nl-NL",
+    "pl-PL",
+    "pt-BR",
+    "pt-PT",
+    "sv-SE"
+  ],
+  "qualifiedHumanApprovals": 0
+}

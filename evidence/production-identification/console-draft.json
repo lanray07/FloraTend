@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-03",
+  "publicDraft": "Incomplete",
+  "uploadedApkReadback": 15,
+  "code16UploadConfirmed": false,
+  "fileChooserBlocked": true,
+  "descriptionAndBulletLocalesSavedAndVerifiedAfterReload": [
+    "en-US",
+    "de-DE",
+    "en-AU",
+    "en-GB",
+    "en-IN",
+    "es-ES",
+    "es-MX",
+    "fr-FR",
+    "it-IT",
+    "ja-JP",
+    "nl-NL",
+    "pl-PL",
+    "pt-BR",
+    "pt-PT",
+    "sv-SE"
+  ],
+  "binaryLanguageChoicesSaved": [
+    "Arabic",
+    "Chinese",
+    "Dutch",
+    "English",
+    "French",
+    "German",
+    "Hindi",
+    "Italian",
+    "Japanese",
+    "Korean",
+    "Polish",
+    "Portuguese",
+    "Spanish"
+  ],
+  "unavailableBinaryLanguageChoices": [
+    "Indonesian",
+    "Swedish",
+    "Turkish"
+  ],
+  "humanApprovalInferred": false,
+  "finalPrivacyProposalApplied": false,
+  "exportCertificationAccepted": false,
+  "publicSubmissionCompleted": false
+}

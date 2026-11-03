@@ -61,10 +61,14 @@ import java.time.LocalDate
     val focusManager=LocalFocusManager.current
     var response by remember { mutableStateOf("") };var pending by remember { mutableStateOf<CareSchedule?>(null) }
     val permission=rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted -> if(granted) activity.listen() else response=activity.getString(R.string.mic_denied) }
-    Heading(s(R.string.voice_assistant),s(R.string.voice_intro))
+    Heading(s(R.string.voice_assistant),if(BuildConfig.SPEECH_INPUT_ENABLED) s(R.string.voice_intro) else null)
     Column(Modifier.verticalScroll(rememberScrollState())) {
-        Text(s(R.string.voice_privacy)); if(activity.speechOutputSupported==false) Text(s(R.string.voice_output_unavailable));if(!SpeechRecognizer.isRecognitionAvailable(activity)) Text(s(R.string.voice_unavailable),modifier=Modifier.padding(vertical=16.dp))
+        if(!BuildConfig.SPEECH_INPUT_ENABLED) Text(s(R.string.voice_unavailable),modifier=Modifier.padding(bottom=16.dp))
+        if(activity.speechOutputSupported==false) Text(s(R.string.voice_output_unavailable))
+        if(BuildConfig.SPEECH_INPUT_ENABLED) {
+        Text(s(R.string.voice_privacy));if(!SpeechRecognizer.isRecognitionAvailable(activity)) Text(s(R.string.voice_unavailable),modifier=Modifier.padding(vertical=16.dp))
         Button(onClick={if(ContextCompat.checkSelfPermission(activity,Manifest.permission.RECORD_AUDIO)==PackageManager.PERMISSION_GRANTED) activity.listen() else permission.launch(Manifest.permission.RECORD_AUDIO)},enabled=!activity.listening && SpeechRecognizer.isRecognitionAvailable(activity)) {Icon(FloraIcons.Mic,null);Text(s(if(activity.listening) R.string.listening else R.string.push_to_talk))}
+        }
         NativeCommandEditor(activity)
         Button(onClick={
             focusManager.clearFocus()

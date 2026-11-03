@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-03",
+  "voiceDeferralGuard": "PASS",
+  "realTypedCalendarNavigation": "PASS",
+  "actualMicrophoneRecognition": "NOT TESTED; explicitly deferred for initial Fire scope",
+  "genuineCode16PhotoUi": "INCOMPLETE: ActivityScenario destroyed during run; overlapping other-app instrumentation observed; tablet subsequently locked",
+  "newVoiceTestInitialFailure": "Unsupported test phrase Open my calendar was correctly rejected. Corrected test now asserts rejection and supported Show my care calendar navigation.",
+  "photoBoundaryGroupedFailure": "ActivityScenario destroyed in initial group; same unchanged test passed independently",
+  "genuineRunRepeated": false,
+  "failedOutputsRetainedPrivately": true,
+  "interruptedQaRecordCount": 1,
+  "interruptedQaBackupIntegrity": "ok",
+  "qaCleanupAndCurrentScreenshots": "PENDING exclusive unlocked tablet",
+  "mainAmazonApkUnchanged": true,
+  "mainAmazonVersionCode": 15,
+  "rotationRestored": "accelerometer=1,user=0",
+  "stayAwakeRestored": 0,
+  "wifiOn": true,
+  "source16AmazonPurchaseClaimed": false
+}

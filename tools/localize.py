@@ -102,16 +102,24 @@ class DeepL:
             raise ValueError('Only the official HTTPS DeepL API Free endpoint is allowed')
 
     def translate(self, text, target):
+        return self.translate_many([text], target)[0]
+
+    def translate_many(self, texts, target):
         if not self.key:
             raise RuntimeError('BLOCKED: DEEPL_AUTH_KEY is not configured')
-        payload = {'text': [text], 'target_lang': target, 'source_lang': 'EN',
+        if not isinstance(texts, list) or not texts or any(not isinstance(text, str) or not text.strip() for text in texts):
+            raise ValueError('Expected nonempty independent text fields')
+        payload = {'text': texts, 'target_lang': target, 'source_lang': 'EN',
                    'tag_handling': 'xml', 'ignore_tags': ['x'], 'preserve_formatting': True}
         request = Request(self.endpoint + '/v2/translate',
                           data=json.dumps(payload).encode('utf-8'), method='POST',
                           headers={'Authorization': 'DeepL-Auth-Key ' + self.key,
                                    'Content-Type': 'application/json'})
         with urlopen(request, timeout=45) as response:
-            return json.load(response)['translations'][0]['text']
+            rows = json.load(response)['translations']
+        if not isinstance(rows, list) or len(rows) != len(texts) or any(not isinstance(row, dict) or not isinstance(row.get('text'), str) or not row['text'].strip() for row in rows):
+            raise ValueError('Translation response does not match the requested text fields')
+        return [row['text'] for row in rows]
 
 
 def translate_records(source, locale, target, provider, cache, terms):

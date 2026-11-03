@@ -36,7 +36,7 @@ def locale_inputs():
                         value = value[1:-1]
                     strings[node.get('name')] = value.replace("\\'", "'").replace('\\"', '"').replace('\\n', '\n')
         keys = ['your_garden', 'tagline', 'garden', 'empty_garden_body', 'care_calendar', 'check_first',
-                'growth_journal', 'journal_intro', 'voice', 'voice_privacy']
+                'growth_journal', 'journal_intro', 'identify_photo', 'identification_settings']
         for key in keys:
             assert strings.get(key), (item['locale'], key)
             assert not re.search(r'%\d*\$?[sdf]', strings[key]), (item['locale'], key)
@@ -69,7 +69,7 @@ def build_overviews(output: Path, origin: str):
             metadata += f'<link rel="alternate" hreflang="x-default" href="{escape(origin)}/{overview_path("en-GB")}">'
         sections = ''.join(f'<section><h2>{escape(strings[heading])}</h2><p>{escape(strings[body])}</p></section>'
                            for heading, body in [('garden', 'empty_garden_body'), ('care_calendar', 'check_first'),
-                                                 ('growth_journal', 'journal_intro'), ('voice', 'voice_privacy')])
+                                                 ('growth_journal', 'journal_intro'), ('identify_photo', 'identification_settings')])
         languages = ''.join(f'<li><a href="../{tag}/index.html" lang="{tag}" hreflang="{tag}"'
                             + (' aria-current="page"' if tag == locale else '')
                             + f'>{escape(value["copy"]["name"])}</a></li>' for tag, value in locales.items())

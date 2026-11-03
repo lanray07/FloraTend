@@ -422,15 +422,17 @@
     "corrective_action": "Execute device notification/timezone-change and further zone-boundary scenarios separately."
   },
   "AC-19.01": {
-    "test_name": "Signed release code 5 assembly",
-    "execution_date": "2026-10-30",
-    "environment": "Physical KFTRWI API28 / actual Amazon App Tester where stated / compiled debug and release JVM variants / signed APK audit",
+    "test_name": "Signed production code 16 assembly and APK inspection",
+    "execution_date": "2026-11-03",
+    "environment": "Windows/private signing configuration; SDK35 apksigner/aapt; signed release16",
     "status": "PASS",
-    "actual_result": "Real release assembly completed with the private signing configuration outside Git. V2 signature, expected certificate, package/version and non-debuggable archive were verified.",
+    "actual_result": "Signed release16/0.1.15 assembly and signature pass, using the existing upload certificate. Nondebug package, min26/target36, production receipt verifier, configured production identification endpoint and absence of microphone permission verified. R8 Amazon SDK stack-map warnings retained privately. No Amazon-delivered16 installation or purchase claimed.",
     "evidence": [
       "evidence/signed-release-build.log",
       "evidence/billing-production/release-signature.txt",
-      "evidence/billing-production/release-artifact-audit.json"
+      "evidence/billing-production/release-artifact-audit.json",
+      "evidence/production-identification/production16-artifact.json",
+      "evidence/production-identification/source16-manifest.json"
     ],
     "corrective_action": "Keep production/LAT, human review and broader integration gates separate."
   },
@@ -2598,9 +2600,11 @@
       "evidence/calendar-hour/disclosure-review.json",
       "docs/PRIVACY_DATA_FLOW_20261101.md",
       "evidence/rendering/website-facts-review.json",
-      "evidence/publisher-privacy-approval.json"
+      "evidence/publisher-privacy-approval.json",
+      "submission/privacy-label-production16-proposal.json",
+      "docs/PRODUCTION_IDENTIFICATION_20261103.md"
     ],
-    "corrective_action": "Obtain qualified translated notice and publisher/legal review before public release."
+    "corrective_action": "Revised production-photo/no-microphone privacy wording requires new publisher approval. Prior approval remains limited to exact earlier blob. Qualified translated review and final console reconciliation pending."
   },
   "AC-08.10": {
     "status": "PASS",
@@ -2659,5 +2663,16 @@
       "app/src/androidTest/java/com/floratend/app/RecordLoadingTest.kt"
     ],
     "corrective_action": "Keep qualified linguistic review open for release languages; do not infer universal comprehension from these representative technical checks."
+  },
+  "AC-06.02": {
+    "status": "NOT TESTED",
+    "test_name": "Actual microphone recognition; deferred initial Fire scope",
+    "actual_result": "Publisher explicitly deferred push-to-talk for the initial Fire release on 3 November. Production16 omits microphone permission and action; actual recognition is not marked PASS. Native deferred-service guard and typed Calendar navigation pass separately. The original 204-criterion ledger is preserved; initial Fire scope has 203 applicable criteria.",
+    "evidence": [
+      "submission/initial-fire-scope.json",
+      "evidence/production-identification/native-status.json",
+      "evidence/production-identification/production16-artifact.json"
+    ],
+    "corrective_action": "For any future microphone-enabled release, perform real supported-device recognition tests. No extra device is required for the explicitly deferred initial Fire scope."
   }
 }

@@ -150,7 +150,7 @@ class MainActivity : ComponentActivity() {
 
     fun listen() {
 
-        if (!SpeechRecognizer.isRecognitionAvailable(this)) { transcript = getString(R.string.voice_unavailable); return }
+        if (!BuildConfig.SPEECH_INPUT_ENABLED || !SpeechRecognizer.isRecognitionAvailable(this)) { transcript = getString(R.string.voice_unavailable); return }
 
         recognizer?.destroy()
 

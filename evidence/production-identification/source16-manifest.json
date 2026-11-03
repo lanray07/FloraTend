@@ -1,0 +1,553 @@
+{
+  "encoding": "working-tree bytes; artifact built from these inputs",
+  "files": [
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "sha256": "515a6bd5bb5528c6d9e8501a50ff509e82d069da2ed8ea772e262247570ce7f8"
+    },
+    {
+      "path": "app/src/main/assets/AppstoreAuthenticationKey.pem",
+      "sha256": "2c9b58467bf27a78210ff9f3f3f12bfe6f689f910296633aaf3fa1a8858a3fa8"
+    },
+    {
+      "path": "app/src/main/assets/voice/ar.properties",
+      "sha256": "3cb2bdf97fbcd457a9fdd42d1de627bdfc8d1ca7bf35aaf5b50a1543491c10ed"
+    },
+    {
+      "path": "app/src/main/assets/voice/de-DE.properties",
+      "sha256": "2b6b04d5553a9756849132ca025074c95bbabc5c54e2a6fb267bac237d625b00"
+    },
+    {
+      "path": "app/src/main/assets/voice/en-AU.properties",
+      "sha256": "771263057cc5d6674a2de15ffb4dc5268aa92e4a6d9db2dc1eed1e1687d0b4df"
+    },
+    {
+      "path": "app/src/main/assets/voice/en-GB.properties",
+      "sha256": "a0066f400ee9873182ff07da67da926179ab5b0ac369c0bd4fed73c62b58f0ba"
+    },
+    {
+      "path": "app/src/main/assets/voice/en-US.properties",
+      "sha256": "771263057cc5d6674a2de15ffb4dc5268aa92e4a6d9db2dc1eed1e1687d0b4df"
+    },
+    {
+      "path": "app/src/main/assets/voice/es-419.properties",
+      "sha256": "9317751139e87d5988c3b7e84bccde7f884400fbcc34670672ead383b42d2a89"
+    },
+    {
+      "path": "app/src/main/assets/voice/es-ES.properties",
+      "sha256": "9317751139e87d5988c3b7e84bccde7f884400fbcc34670672ead383b42d2a89"
+    },
+    {
+      "path": "app/src/main/assets/voice/fr-CA.properties",
+      "sha256": "a4aef9271d09596cfdcd86598f5ed6a15435b17aad227ebe5f7bc234835119cd"
+    },
+    {
+      "path": "app/src/main/assets/voice/fr-FR.properties",
+      "sha256": "a4aef9271d09596cfdcd86598f5ed6a15435b17aad227ebe5f7bc234835119cd"
+    },
+    {
+      "path": "app/src/main/assets/voice/hi-IN.properties",
+      "sha256": "bd6368953576f3a626642408717a19df7cfe73e6ed799a426107ccb434babfe7"
+    },
+    {
+      "path": "app/src/main/assets/voice/id-ID.properties",
+      "sha256": "910a84aaee820e8304503bdff83e122da88bbfc1e258168ffa4d116ada8bfb3a"
+    },
+    {
+      "path": "app/src/main/assets/voice/it-IT.properties",
+      "sha256": "cdba97b9f755a9f800351604238fcb6390eeb08840583aef00251c36a8267ff1"
+    },
+    {
+      "path": "app/src/main/assets/voice/ja-JP.properties",
+      "sha256": "5ad4a5ecc86d24be92094c93ea822160b8f864808a68fa4f8230ba8c1d1875d2"
+    },
+    {
+      "path": "app/src/main/assets/voice/ko-KR.properties",
+      "sha256": "23b85a413fcd3638778038f0e0ed4514cff76fee9a9376a68b217d543df103ba"
+    },
+    {
+      "path": "app/src/main/assets/voice/nl-NL.properties",
+      "sha256": "d270304da61f08991be4a4f8ee00fe30707c15b132890c154bc9e8cfacf66645"
+    },
+    {
+      "path": "app/src/main/assets/voice/pl-PL.properties",
+      "sha256": "f81b12681589fc55104a6c68d200a526be343d61c0809dd8260c0bea7afaf1e6"
+    },
+    {
+      "path": "app/src/main/assets/voice/pt-BR.properties",
+      "sha256": "c5d3e294e60b8cd936d45dcac8c3a31c34e8b9f450c02811e1635da58d363715"
+    },
+    {
+      "path": "app/src/main/assets/voice/pt-PT.properties",
+      "sha256": "b369b3eb45a7edf0fcd828c3d872f99b7bbf6e47a7ca877ae7ed0f7a07db9f05"
+    },
+    {
+      "path": "app/src/main/assets/voice/sv-SE.properties",
+      "sha256": "27226ad5ef14c2cd6b3b9d4b461fb01c7c0bf8d836633fed9990154e08746e48"
+    },
+    {
+      "path": "app/src/main/assets/voice/tr-TR.properties",
+      "sha256": "059c8493886f3c85c202bf4eee32c4dbb04c4fdb0086093d1a5544864d90c850"
+    },
+    {
+      "path": "app/src/main/assets/voice/zh-CN.properties",
+      "sha256": "ededc4a17a57a8865e97f833b47cecf6d66ccd0e04e91fc078e3dce308df0411"
+    },
+    {
+      "path": "app/src/main/assets/voice/zh-TW.properties",
+      "sha256": "e4ac4b30a59102f6e0e114bb88530cd1085b7a698e67f0cbe5b9cc87b5e9db43"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/AmazonBilling.kt",
+      "sha256": "9ad1cf6f8e7cbf8376edf9cfddffa44f88dbc55352b661198ef9f126ab1a70b0"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/BillingPolicy.kt",
+      "sha256": "95a5b50c67cb09f80a5670181152a50ddcd5233483657f2af6c0138b68bfb64b"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/Data.kt",
+      "sha256": "592c9236e5ed0c8d275806184246564ae6fe97677c7aaf412bbafa839ee66d6b"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/Editors.kt",
+      "sha256": "f7915b6ecba74589be53e8d240eb4f455c09b5995cb9eabdf6a775d092e3efea"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/EntitlementStore.kt",
+      "sha256": "7da3703d329a8dbf6b79ad9d747d768fcbf322351ad95cf97d079847195eb66e"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/Export.kt",
+      "sha256": "14b1566fab1405614d8ecfa8b65bee3d8c40ccb7b8c533aec1ffd5168e8e6bb6"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/FloraIcons.kt",
+      "sha256": "5815ba1ab5103e9295c6e326535d4953bb2d9772522d58a457d5c9d3e4b457e8"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/IdentificationPanel.kt",
+      "sha256": "a6acbb7557bb8facf5b7c800ef413531f382c033e8e49fb866466a2103c6a53b"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/Locales.kt",
+      "sha256": "9b3b91378b2aa0ec9f008a489f0e8d7366514f9ad7d5a80e874912777f84e664"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/MainActivity.kt",
+      "sha256": "0dd2cb995991e90261e8099857c34e8e436dbb76828fe20255e94bce66f2979c"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/PendingPurchaseRequests.kt",
+      "sha256": "455913c8f5f8fdd31fc0282379b23a21b382166fefe1e65b404c074f01b24939"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/Photos.kt",
+      "sha256": "40c3490590002a3ef43a74bb4d681afbe5ff27053bbd016522594a27d8c21a11"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/PlantIdentification.kt",
+      "sha256": "dab297e128e537fb2376137f54575ec863675076f77dd2c7936d180f5159c575"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/PlantLibraryQuery.kt",
+      "sha256": "bff4e2992bc35e0189b0891dd042c6bfe7b175b1ef0ba728e8cf93bceb257f7c"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/PlantViewModel.kt",
+      "sha256": "2cba141e9e3876e276fcf80a5c6ff04ef48f644d50d2c15d49a6a17ea3900730"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/ReceiptVerifier.kt",
+      "sha256": "2ca968dfd430a096da87ce5c5023e9d58258bb821abb884ee8ef8942ba097990"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/Reminders.kt",
+      "sha256": "4f57aecca2012d49c351ae99c2af52cd8def57570d1243ceb4e93e5d4d9329cb"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/Screens.kt",
+      "sha256": "e39a5cbf80212347b60de5d9c6ef13669a01c130a2007baab05ce5e281ba65ec"
+    },
+    {
+      "path": "app/src/main/java/com/floratend/app/Settings.kt",
+      "sha256": "61587a29516495327cb9fc56e4f61df8160ce5413431543dc96ad25e918f222a"
+    },
+    {
+      "path": "app/src/main/res/drawable/art_cactus.xml",
+      "sha256": "66c5efd3396a282f9689075e44d4ffaa69009a373c441fe733e1878aff32ed50"
+    },
+    {
+      "path": "app/src/main/res/drawable/art_flowering.xml",
+      "sha256": "16c0cfab5d2cd838e0c29797b5ced341593175bc13a57e55ede9cbc350b06720"
+    },
+    {
+      "path": "app/src/main/res/drawable/art_herb.xml",
+      "sha256": "7a35948965a975967510bae4dfbb3c06247c08bbedf9495d53e13418d252d563"
+    },
+    {
+      "path": "app/src/main/res/drawable/art_indoor.xml",
+      "sha256": "ccd32293d4df7ac1235764d5293577ddb6f4675d00408c2ef9bf3881551eb81c"
+    },
+    {
+      "path": "app/src/main/res/drawable/art_other.xml",
+      "sha256": "ac16748e654bab77d8652b0d1487c2dbcf0140d9365db5ff31f2cfa8805c1a8a"
+    },
+    {
+      "path": "app/src/main/res/drawable/art_outdoor.xml",
+      "sha256": "4307b8889df5e5b0199b25377e0d0821feefaefb4fa7b7f11129ad6075edf2a9"
+    },
+    {
+      "path": "app/src/main/res/drawable/art_premium.xml",
+      "sha256": "0a5c64f349184420ee359a96a40e2ad3239837e52e6479cb80a69ce97652886d"
+    },
+    {
+      "path": "app/src/main/res/drawable/art_splash.xml",
+      "sha256": "ac16748e654bab77d8652b0d1487c2dbcf0140d9365db5ff31f2cfa8805c1a8a"
+    },
+    {
+      "path": "app/src/main/res/drawable/art_succulent.xml",
+      "sha256": "ef3cefa79de1b96ebd2e2d4c9e01deb03fe226ecdb7718552e31825ddddb29f5"
+    },
+    {
+      "path": "app/src/main/res/drawable/art_tree.xml",
+      "sha256": "82cdc74d4c7fdd76c2a6bf4df38aab548ef30b3b79cca9c2388cf441c05c1751"
+    },
+    {
+      "path": "app/src/main/res/drawable/floratend_launch.xml",
+      "sha256": "e2eb95b19b81fcff1bdf629ec3b813e0e4745e9899c72e78c333396ea6902408"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_flora.xml",
+      "sha256": "a6f4d21048e2536345b5d95d0200d123652ea89850594c7a3c906a483d3db176"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_flora_background.xml",
+      "sha256": "f9c2444940aec98f9bb5380d27ee639ec3c262e76103622528118749d7ca86c7"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_flora_foreground.xml",
+      "sha256": "a9e9efbb4bf5b1dff3564cfe6aed6fe67bac78e21221f06340325adafdcd6761"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_flora_monochrome.xml",
+      "sha256": "1cd92780d8134128e05debe6accf6c233e05cf09f9cc29f2626b1858f55dc89d"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/botanical_hero.png",
+      "sha256": "38c194e20f6a777ae2d1858b2dac860a8e95d511bda76e610d5863c00552d1c7"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "sha256": "3d891b19f6095e05f49ae5b6f23d0a6b27128943294ed20fc4a6204a10c771e5"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v33/ic_launcher.xml",
+      "sha256": "aeef1db2bf55e2703d1cabacfdf5bc0cb3f23d510aabab2336f9f683d543a5e5"
+    },
+    {
+      "path": "app/src/main/res/values/identification.xml",
+      "sha256": "66fffc88ecb04cf0f740fd6f51b5e4e500b9bc9201e7cfc419e4ed49ec7da4ba"
+    },
+    {
+      "path": "app/src/main/res/values/ids.xml",
+      "sha256": "c774224cf02932321eb663c4af995b47a3fb9fd5c0a225434d396d2589641994"
+    },
+    {
+      "path": "app/src/main/res/values/privacy.xml",
+      "sha256": "ddd5e48374733468a05548aa57bff0d4536cbbf282f7ca13a943d5d3097e8011"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "sha256": "2a1112fd0a540e95104c1a7d496895a0558e22ceaab8626e4c04c4518a978da1"
+    },
+    {
+      "path": "app/src/main/res/values/styles.xml",
+      "sha256": "6390bfa952bceb5b2e6c61f415a27ca1e6825a6adf958661c58c3c87457068d7"
+    },
+    {
+      "path": "app/src/main/res/values-ar/identification.xml",
+      "sha256": "5403508f814d2a24a7111db3b0ac89c8ed0e07b51d2012c7fbca01b93edf1410"
+    },
+    {
+      "path": "app/src/main/res/values-ar/privacy.xml",
+      "sha256": "c44d31a3b3d5368e378323b587d962bbd21a35b69f8a6551cdbcdfd5f19d5eca"
+    },
+    {
+      "path": "app/src/main/res/values-ar/strings.xml",
+      "sha256": "e117a830d2e401d481e187f90eca425dbb5f281edab8bf6cd540625f8d881d91"
+    },
+    {
+      "path": "app/src/main/res/values-b+es+419/identification.xml",
+      "sha256": "3c771ac95f89357e267d77ddee4ce9c47b5a417631bcdc41d4f201910092782a"
+    },
+    {
+      "path": "app/src/main/res/values-b+es+419/privacy.xml",
+      "sha256": "10718289e6fd946b3dca70ab14995b966a90b2d924996a22c5ec8793da0bb64a"
+    },
+    {
+      "path": "app/src/main/res/values-b+es+419/strings.xml",
+      "sha256": "b80da49305e0c226cd0e0312d30b7666520eb89711da4d9e19a13db21fd51715"
+    },
+    {
+      "path": "app/src/main/res/values-b+zh+Hans/identification.xml",
+      "sha256": "ce744eb9c62bf5d743775aef15d3761d41bad37b042ddb2c54067219e3dbe305"
+    },
+    {
+      "path": "app/src/main/res/values-b+zh+Hans/privacy.xml",
+      "sha256": "64bfe9edaf2a70e288bf5f7d800d132e4231aeed0ae00a84357bbe9c7f0467fd"
+    },
+    {
+      "path": "app/src/main/res/values-b+zh+Hans/strings.xml",
+      "sha256": "f2644e3a5c91a7bf7748a2a18fa1da0f8fd276f56f30230560cea356eb83fbcc"
+    },
+    {
+      "path": "app/src/main/res/values-b+zh+Hant/identification.xml",
+      "sha256": "ba488a66f6a62432edf4a1b45188a9a63b74b190976b6dc96dbd9cd5fd6bdac9"
+    },
+    {
+      "path": "app/src/main/res/values-b+zh+Hant/privacy.xml",
+      "sha256": "74d3c7845ac3e24bacc4c9dc23ae52a3ad6d8435e3e8f3670fab1c11afd4e3e7"
+    },
+    {
+      "path": "app/src/main/res/values-b+zh+Hant/strings.xml",
+      "sha256": "15c94f8a067eb396ed9789f861d527b6565e86e991285f9b5f95dda24979ffa0"
+    },
+    {
+      "path": "app/src/main/res/values-de-rDE/identification.xml",
+      "sha256": "a4baf484f2622652634c91f19237893068fbe11efc4d3bcc1aca7909b89363ab"
+    },
+    {
+      "path": "app/src/main/res/values-de-rDE/privacy.xml",
+      "sha256": "4f66e0392d8916e793b2579b86cd3d4f6e94e874c8cc54bf5eefffece9b9bf0f"
+    },
+    {
+      "path": "app/src/main/res/values-de-rDE/strings.xml",
+      "sha256": "6d94f8ec0ce2c8ac0044a06194a398167b3c16db85b0ff7eadbafa1fb9313ba8"
+    },
+    {
+      "path": "app/src/main/res/values-en-rAU/identification.xml",
+      "sha256": "66fffc88ecb04cf0f740fd6f51b5e4e500b9bc9201e7cfc419e4ed49ec7da4ba"
+    },
+    {
+      "path": "app/src/main/res/values-en-rAU/privacy.xml",
+      "sha256": "ddd5e48374733468a05548aa57bff0d4536cbbf282f7ca13a943d5d3097e8011"
+    },
+    {
+      "path": "app/src/main/res/values-en-rAU/strings.xml",
+      "sha256": "350efcb29ebd91bb1a5d10ed5de3f6e0b65a21f59fdf98681fb027c150fe593a"
+    },
+    {
+      "path": "app/src/main/res/values-en-rUS/identification.xml",
+      "sha256": "66fffc88ecb04cf0f740fd6f51b5e4e500b9bc9201e7cfc419e4ed49ec7da4ba"
+    },
+    {
+      "path": "app/src/main/res/values-en-rUS/privacy.xml",
+      "sha256": "ddd5e48374733468a05548aa57bff0d4536cbbf282f7ca13a943d5d3097e8011"
+    },
+    {
+      "path": "app/src/main/res/values-en-rUS/strings.xml",
+      "sha256": "65068dbf0adf910a0250168d1a069aaa9e0328d7dd34a52a146404a34305fd41"
+    },
+    {
+      "path": "app/src/main/res/values-es-rES/identification.xml",
+      "sha256": "3c771ac95f89357e267d77ddee4ce9c47b5a417631bcdc41d4f201910092782a"
+    },
+    {
+      "path": "app/src/main/res/values-es-rES/privacy.xml",
+      "sha256": "10718289e6fd946b3dca70ab14995b966a90b2d924996a22c5ec8793da0bb64a"
+    },
+    {
+      "path": "app/src/main/res/values-es-rES/strings.xml",
+      "sha256": "c6df93caa7cba9d704ba50eb12f4fcf5fd4ca354b4d178b177ef94cfaa51c550"
+    },
+    {
+      "path": "app/src/main/res/values-fr-rCA/identification.xml",
+      "sha256": "f799f7d75d64e33d5430d1a8517aed75311a767fae0924f3620f746f7418d33e"
+    },
+    {
+      "path": "app/src/main/res/values-fr-rCA/privacy.xml",
+      "sha256": "94787a168f1182c56b614097c7e301169bffd89374328effb55ca4003a01dc9e"
+    },
+    {
+      "path": "app/src/main/res/values-fr-rCA/strings.xml",
+      "sha256": "e411adecc287548a72cca2bdb9495741e708f9c1c4adc68eefdb0af2e5e35eb7"
+    },
+    {
+      "path": "app/src/main/res/values-fr-rFR/identification.xml",
+      "sha256": "f799f7d75d64e33d5430d1a8517aed75311a767fae0924f3620f746f7418d33e"
+    },
+    {
+      "path": "app/src/main/res/values-fr-rFR/privacy.xml",
+      "sha256": "94787a168f1182c56b614097c7e301169bffd89374328effb55ca4003a01dc9e"
+    },
+    {
+      "path": "app/src/main/res/values-fr-rFR/strings.xml",
+      "sha256": "4c7ee61dd3c6bd3e8ffb453cbe4bf6ca3d699e50ce9e148e6aa01b6271c1ab37"
+    },
+    {
+      "path": "app/src/main/res/values-hi-rIN/identification.xml",
+      "sha256": "94a61ff851ff77004f45e7706902154e2337294c3d4a80c8f75928654c74a2a7"
+    },
+    {
+      "path": "app/src/main/res/values-hi-rIN/privacy.xml",
+      "sha256": "cd89687dfead851fa9eaa8fa401c1faefb118b2e82f165920cf798b34b68b3b8"
+    },
+    {
+      "path": "app/src/main/res/values-hi-rIN/strings.xml",
+      "sha256": "b34825c3cebc33710cc62cb8ec87d9adaea8d52c955b1c037187a334cd71884c"
+    },
+    {
+      "path": "app/src/main/res/values-in-rID/identification.xml",
+      "sha256": "3eba8bdb504c9a6e524f484491e2300c11c30567676e95260d7825bb34c7e3c8"
+    },
+    {
+      "path": "app/src/main/res/values-in-rID/privacy.xml",
+      "sha256": "55a27a5f49230960aeea1cdeacd059e960e146b05b626f131e18956026d0894c"
+    },
+    {
+      "path": "app/src/main/res/values-in-rID/strings.xml",
+      "sha256": "6cf0be89da39f2da26f1e875e8d3b86193841d9b8460eb38c09bce41548f1ff4"
+    },
+    {
+      "path": "app/src/main/res/values-it-rIT/identification.xml",
+      "sha256": "7de2b1b7ef0942629e5b1af5e320a7e2fc9334b0896a52c84835db7bfbbbdef3"
+    },
+    {
+      "path": "app/src/main/res/values-it-rIT/privacy.xml",
+      "sha256": "bebb2e25721f940770e4e70b32de5d38fc5d3b2366a8b5b633998017e45c0cc0"
+    },
+    {
+      "path": "app/src/main/res/values-it-rIT/strings.xml",
+      "sha256": "de18428087947555ad881a7743f2e3ba85b0d6dbe83ac81d93905d0f905e1dec"
+    },
+    {
+      "path": "app/src/main/res/values-ja-rJP/identification.xml",
+      "sha256": "af2faab4c4433fd67686a1484534957a49b69d6e0a6635b9bea2ea46ad90d687"
+    },
+    {
+      "path": "app/src/main/res/values-ja-rJP/privacy.xml",
+      "sha256": "8c32cc3eca29adc3edfc8ff6c36913f55ee2038d7e0af6be5b522e5c14adb610"
+    },
+    {
+      "path": "app/src/main/res/values-ja-rJP/strings.xml",
+      "sha256": "005401ff5b004a2cf9da0136f0202a1a4e39f0351079a28568f13acb0dc5a538"
+    },
+    {
+      "path": "app/src/main/res/values-ko-rKR/identification.xml",
+      "sha256": "ec33bc6ab19772f8608073e725a107cf776442c6b5a46e2d2cd2bbd3d84735a5"
+    },
+    {
+      "path": "app/src/main/res/values-ko-rKR/privacy.xml",
+      "sha256": "4472b74648e70c419d92179ee05b2275468d95b1555df0aef1389ad791fed9cf"
+    },
+    {
+      "path": "app/src/main/res/values-ko-rKR/strings.xml",
+      "sha256": "05c0bf83ba7da80dbeea9b24c9f4d96e69a8a74f1f779c58daaa4575b82a9c0c"
+    },
+    {
+      "path": "app/src/main/res/values-nl-rNL/identification.xml",
+      "sha256": "fc1e1987c925277117c83ff78b556bdc11c659280d1f41c498d8092f3a7a87a2"
+    },
+    {
+      "path": "app/src/main/res/values-nl-rNL/privacy.xml",
+      "sha256": "3cdef5cbe4f82b531646d5b4e9f2a9ab636660dfac390c4f1ad483fa6174512f"
+    },
+    {
+      "path": "app/src/main/res/values-nl-rNL/strings.xml",
+      "sha256": "0a83fb38e12bf5f0754c88118ab8f80bd0e582844b8c07d1012f2581f7ec888b"
+    },
+    {
+      "path": "app/src/main/res/values-pl-rPL/identification.xml",
+      "sha256": "076890cc05850b17fee2357a1021f925c319a9a63b184b3f815546a1bd18a980"
+    },
+    {
+      "path": "app/src/main/res/values-pl-rPL/privacy.xml",
+      "sha256": "edb1190dd45e11776e07c1400d118b33adccb04da156d46c0fb5451923cb4b71"
+    },
+    {
+      "path": "app/src/main/res/values-pl-rPL/strings.xml",
+      "sha256": "ac6877f9340a27ab7e2479337cac807ec2abc8ce6bd2c23ce2a61339c9208fd1"
+    },
+    {
+      "path": "app/src/main/res/values-pt-rBR/identification.xml",
+      "sha256": "c3f6707859589684e79c3b9ebdb5bd51216d645d46a11907f21b0e0822fdf6b4"
+    },
+    {
+      "path": "app/src/main/res/values-pt-rBR/privacy.xml",
+      "sha256": "6b4cd1b7b1a4c71790fbbaee104e4130e8d564fb9a8aa01cac1bccd042fb6961"
+    },
+    {
+      "path": "app/src/main/res/values-pt-rBR/strings.xml",
+      "sha256": "cc62f3d455ffcb3acac4d15d4464c098cd0e277b57f42f60127f9c92a3fdb494"
+    },
+    {
+      "path": "app/src/main/res/values-pt-rPT/identification.xml",
+      "sha256": "f69c071e68c9a8f5b05381cad6da105327edd884a62cba5c3d177a4d2815458b"
+    },
+    {
+      "path": "app/src/main/res/values-pt-rPT/privacy.xml",
+      "sha256": "cdbb8a97f558bf2b9dbdfd5e2f62077b377450bf836dbb3e33b479b3c567250c"
+    },
+    {
+      "path": "app/src/main/res/values-pt-rPT/strings.xml",
+      "sha256": "fff72971234914ca715312cbd89b858b24469c2d05a0ada7cc6e662ab0ed2d95"
+    },
+    {
+      "path": "app/src/main/res/values-sv-rSE/identification.xml",
+      "sha256": "b144ea83539b4c9f99f9a9d576505711219113d2090093af32065d75cfe2202d"
+    },
+    {
+      "path": "app/src/main/res/values-sv-rSE/privacy.xml",
+      "sha256": "d70da75531b8f410d6047200207939c414d605025e9875498c8b0345507f7c13"
+    },
+    {
+      "path": "app/src/main/res/values-sv-rSE/strings.xml",
+      "sha256": "4e1f1d0bbdf0d4f28b1d3716d1e2235d5d16966df8c4d5b448498b7d5ed15e4d"
+    },
+    {
+      "path": "app/src/main/res/values-tr-rTR/identification.xml",
+      "sha256": "53c20994ec944124ac0bd40e141f79687fb15878cec88c5555a710ca261ce6e2"
+    },
+    {
+      "path": "app/src/main/res/values-tr-rTR/privacy.xml",
+      "sha256": "6ad9cde72d079ce086d2705130a5af5273763fcf459b68bc797ece45b3ca4e3c"
+    },
+    {
+      "path": "app/src/main/res/values-tr-rTR/strings.xml",
+      "sha256": "580847182ade5d4e02b7126dd3e6c10c1363d1ef1894c174c9ba5aa2ce5df8ec"
+    },
+    {
+      "path": "app/src/main/res/values-v31/styles.xml",
+      "sha256": "93d3cbcc07e6e79c6b4f8a3a87b8cd23cbc2fceeeaa4090586e5efefd2dec452"
+    },
+    {
+      "path": "app/src/release/AndroidManifest.xml",
+      "sha256": "14586c28d0f053c90b3ee3a86c551dab727a35066368905ff0e67fab5a80b5a8"
+    },
+    {
+      "path": "core/src/main/kotlin/com/floratend/app/DecimalInput.kt",
+      "sha256": "f7e05e9bcd282ea362c9c45c22e35b84cdcf7872d5f2563c99e44227668009b6"
+    },
+    {
+      "path": "core/src/main/kotlin/com/floratend/app/Recurrence.kt",
+      "sha256": "8bad91a4eafe5c276fb7e383067e28e8d345424607c9097e3b04157a2fd5cb38"
+    },
+    {
+      "path": "core/src/main/kotlin/com/floratend/app/Voice.kt",
+      "sha256": "7cc3e180e5f2acc8bb9d8f22dcf807c79ffcec5a2e085147cb2065ef8683d86f"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "sha256": "deb119aa7d5daf3f2f9439d290f3d4aeadd8972e21d092b8355656a70bc9a749"
+    },
+    {
+      "path": "tools/build_signed_release.ps1",
+      "sha256": "231bbe0d8a44f23e69ed6297b0b441863801afdffed86fa501d631ffc2d6c525"
+    },
+    {
+      "path": "app/proguard-rules.pro",
+      "sha256": "3cfa5be6a2e6c12304b957d1f49a47ea3c57fd72d0a1786a0fe3903cb3cf4fd1"
+    }
+  ]
+}

@@ -1,4 +1,6 @@
-# Public submission preparation — 3 November 2026
+# Public submission preparation â€” 3 November 2026
+
+Current follow-up: the publisher explicitly deferred push-to-talk for the initial Fire release and requested production photo identification. Code 16 preparation and the revised privacy wording supersede the older configuration and hardware requirements below. The earlier privacy approval remains limited to its original exact wording. Use the [current submission review](https://github.com/lanray07/FloraTend/blob/main/docs/SUBMISSION_REVIEW_20261103.md); the remaining text is preserved checkpoint history.
 
 The publisher requested completion and submission. This authorizes preparing and submitting FloraTend to Amazon; it does not supply missing test results, language reviews or compliance declarations.
 

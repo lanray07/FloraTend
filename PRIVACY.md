@@ -1,6 +1,6 @@
 # FloraTend privacy notice
 
-Last updated: 2 November 2026
+Last updated: 3 November 2026
 
 FloraTend is maintained by Lanray. Contact: **banksmi@mail.com**. This notice describes the current FloraTend app; availability and features may vary by release and device.
 
@@ -8,13 +8,13 @@ FloraTend is maintained by Lanray. Contact: **banksmi@mail.com**. This notice de
 
 Plant names, species, locations you enter, notes, care schedules, care history, journal entries, measurements and imported photographs are stored in the app's private storage on your device. A separate FloraTend account is not required. FloraTend does not operate a cloud database or cloud synchronization service for these records.
 
-Choosing a photograph copies an image into app storage. Taking a photograph uses an available camera application. FloraTend does not request precise device location or automatically upload plant photographs. Cloud backup is not available. In explicitly configured test versions, optional photo identification sends a photo only after the separate Send photo consent described below. It is disabled in the default build pending release review.
+Choosing a photograph copies an image into app storage. Taking a photograph uses an available camera application. FloraTend does not request precise device location or automatically upload plant photographs. Cloud backup is not available. Optional photo identification is enabled in the production candidate and sends the selected photo only after the separate Send photo consent described below. You can decline and enter a species manually.
 
 ## Speech and spoken feedback
 
-Microphone access is requested only if you choose push-to-talk on a device with a compatible recognition service. FloraTend does not continuously listen or retain raw microphone recordings. Recognized text is displayed for review and used to interpret a command.
+The initial Fire release provides typed commands and optional spoken responses. Push-to-talk is deferred from this release: it does not request microphone access or capture microphone audio.
 
-Your installed speech-recognition and text-to-speech providers process speech or text when you use assistant commands or spoken feedback. Depending on the installed provider and voice, processing may use a network connection and be subject to that provider's privacy policy. Spoken feedback can include plant names or reminders you request. Touch controls and typed commands remain available when speech recognition is unavailable. Installed voices and supported languages vary by device.
+Your installed text-to-speech provider processes text when you use spoken feedback. Depending on the installed provider and voice, processing may use a network connection and be subject to that provider's privacy policy. Spoken feedback can include plant names or reminders you request. Touch controls and typed commands remain available. Installed voices and supported languages vary by device, and you can disable spoken feedback in Settings.
 
 ## Amazon purchases
 
@@ -22,13 +22,13 @@ Optional purchases and restoration use Amazon's Appstore SDK. Amazon processes s
 
 The SDK also supplies marketplace or account-region information and includes operational diagnostics for receipt verification, parsing failures and exceptions. Connections to Amazon expose connection information, such as an IP address, to the receiving service. These provider operations support purchase functionality, troubleshooting and fraud prevention. FloraTend does not request an advertising identifier or use purchase information for advertising. Amazon controls retention of information processed by its services; clearing FloraTend's local data does not delete Amazon's records.
 
-Current configured Test2 versions verify Premium through a Cloudflare-hosted server and Amazon's Receipt Verification Service. FloraTend sends the app-scoped Amazon user identifier and purchase receipt identifier over HTTPS; plant names, notes, photographs and payment-card details are not part of this request. The verifier stores short-lived keyed owner hashes and rate-limit counters rather than raw identifiers or receipts. Application request logging is disabled in the deployed configuration. Cloudflare and Amazon can process network/request metadata and retain provider backups under their own policies; this is not a promise of zero provider retention. Clearing local app data does not remove provider records.
+Premium purchases and restores use a Cloudflare-hosted server and Amazon's Receipt Verification Service. FloraTend sends the app-scoped Amazon user identifier and purchase receipt identifier over HTTPS; plant names, notes, photographs and payment-card details are not part of this request. The verifier stores short-lived keyed owner hashes and rate-limit counters rather than raw identifiers or receipts. Application request logging is disabled in the deployed configuration. Cloudflare and Amazon can process network/request metadata and retain provider backups under their own policies; this is not a promise of zero provider retention. Clearing local app data does not remove provider records.
 
 ## Optional photo identification
 
-In a configured version, choosing Send photo forwards only the selected/imported JPEG through FloraTend's Cloudflare server to Pl@ntNet. Manual entry and consent cancellation remain available. Plant names, notes, receipt/account identifiers and GPS coordinates are not added to the identification request. The imported image is re-encoded before transmission; identification suggestions are reviewed or edited by you and saved only after an explicit Save action.
+Choosing Send photo forwards the selected/imported JPEG and a language code through FloraTend's Cloudflare server to Pl@ntNet for identification suggestions and available localized names. Manual entry and consent cancellation remain available. Plant names, notes, receipt/account identifiers and GPS coordinates are not added to the identification request. The imported image is re-encoded before transmission; identification suggestions are reviewed or edited by you and saved only after an explicit Save action. Match scores are not calibrated probabilities, and suggestions can be wrong.
 
-The application server forwards rather than stores the photo and has application request logging disabled. Pl@ntNet processes the image and retains request metadata under its own terms. Cloudflare receives ordinary network information. Free-service allowances use day-scoped keyed network-address hashes, daily counters and short-lived reservation leases. Provider logs/backups and processing are separate from the local plant database; local deletion does not delete provider metadata. Provider processing and final production configuration remain subject to publisher privacy review.
+The application server forwards rather than stores the photo and has application request logging disabled. Pl@ntNet processes the image and retains request metadata under its own terms. Cloudflare receives ordinary network information. Free-service allowances use day-scoped keyed network-address hashes, daily counters and short-lived reservation leases. Provider logs/backups and processing are separate from the local plant database; local deletion does not delete provider metadata. Identification can be unavailable or reach its daily allowance; manual species entry remains available.
 
 ## Notifications, settings and analytics
 
