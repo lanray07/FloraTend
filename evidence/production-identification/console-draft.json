@@ -55,5 +55,17 @@
   "tvSelected": 0,
   "automotiveSelected": 0,
   "worldwideScopeRetained": true,
-  "privacyVerificationScope": "All 39 collection/transfer flags match proposal; voice collection purpose explicitly cleared; other historical purposes retained. Final publisher declaration review still pending."
+  "privacyVerificationScope": "All 39 collection/transfer flags match proposal; voice collection purpose explicitly cleared; other historical purposes retained. Final publisher declaration review still pending.",
+  "supportedImageLocalesUpdated": 11,
+  "currentImagesUploadedAndByteVerified": 88,
+  "currentScreenshotVersionCode": 16,
+  "imageUploadVerification": "evidence/production-identification/amazon-store-image-verification.json",
+  "imageLocaleSupport": "evidence/production-identification/amazon-image-locale-support.json",
+  "browserWideningRequired": false,
+  "missingImageChannelFallbackDecision": "PENDING",
+  "finalReviewVersionCode": 16,
+  "finalReviewVerifiedAtUtc": "2026-11-03T21:24:34.801931+00:00",
+  "exportCheckboxChecked": false,
+  "submitButtonDisabled": true,
+  "allSupportedImageChannelsComplete": true
 }

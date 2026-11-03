@@ -6,9 +6,9 @@ Verified acceptance rate: **194 / 204 = 95.10%**. BLOCKED and NOT TESTED criteri
 
 | Status | Mandatory criteria |
 |---|---:|
-| BLOCKED | 4 |
+| BLOCKED | 5 |
 | FAIL | 0 |
-| NOT TESTED | 6 |
+| NOT TESTED | 5 |
 | PASS | 194 |
 
 The criterion-level evidence, expected behaviour and corrective actions are in [ACCEPTANCE_TEST_RESULTS.csv](ACCEPTANCE_TEST_RESULTS.csv) and [ACCEPTANCE_CRITERIA.md](ACCEPTANCE_CRITERIA.md). This decision is conservative: no release is approved while any mandatory criterion remains unverified. Publication additionally requires explicit user authorisation.

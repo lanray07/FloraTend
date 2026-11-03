@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-03",
+  "scope": "Signed-in Amazon public-draft Images and videos \u2192 Add/Remove localization dialog",
+  "imageLocaleOptionsObserved": [
+    "en-US",
+    "de-DE",
+    "en-AU",
+    "en-GB",
+    "en-IN",
+    "es-ES",
+    "es-MX",
+    "fr-FR",
+    "it-IT",
+    "ja-JP",
+    "pt-BR"
+  ],
+  "imageLocaleOptionsNotExposed": [
+    "nl-NL",
+    "pl-PL",
+    "pt-PT",
+    "sv-SE"
+  ],
+  "descriptionLocalesPreparedAndSaved": 15,
+  "localizedScreenshotExportLocalesPrepared": 15,
+  "localizedScreenshotExports": 120,
+  "worldwideScopeRetained": true,
+  "defaultImageLocale": "en-US",
+  "publisherPlatformFallbackDecision": "PENDING",
+  "qualifiedLanguageApprovalInferred": false,
+  "publicSubmissionCompleted": false
+}
