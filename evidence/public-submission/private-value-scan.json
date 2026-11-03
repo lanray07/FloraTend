@@ -1,0 +1,13 @@
+{
+  "scope": "Exact byte-sequence scan of changed/new nonignored repository files and final candidate archives; private values read in memory. Not every transformed encoding or a full security audit.",
+  "repositoryFilesChecked": 37,
+  "encodingPatterns": [
+    "UTF-8",
+    "UTF-16LE"
+  ],
+  "artifactArchivesChecked": 5,
+  "valuesAndIdentifiersChecked": 9,
+  "execution_date": "2026-11-03",
+  "matches": 0,
+  "valuesExported": false
+}

@@ -55,13 +55,19 @@
     "corrective_action": "Rerun extraction after source changes; audit UI literals separately."
   },
   "AC-09.03": {
-    "test_name": "Live DeepL provider verification",
-    "status": "BLOCKED",
-    "actual_result": "Live provider credentials are unavailable. Stub-provider tests do not establish live endpoint or language compatibility.",
+    "test_name": "Live DeepL free Developer provider and XML round trip",
+    "status": "PASS",
+    "execution_date": "2026-11-03",
+    "environment": "Windows / private CurrentUser DPAPI API Developer key / official Free endpoint / German target",
+    "actual_result": "One genuine API Developer translation succeeded at api-free.deepl.com. FloraTend and %1$s were preserved; the actual translated output passed temporary Android XML emit/parse and validation with zero errors. No app resources or credentials were exported. Four verifier regressions, ten pipeline tests and DPAPI self-test passed. This is provider/pipeline evidence, not human approval of the worldwide UI or store assets.",
     "evidence": [
-      "LOCALIZATION_TEST_REPORT.md"
+      "evidence/final-release/deepl-live.json",
+      "evidence/public-submission/deepl-resource-roundtrip.json",
+      "evidence/public-submission/translation-setup-contract.json",
+      "tools/test_translation_provider.py",
+      "tools/test_localize.py"
     ],
-    "corrective_action": "Configure developer-only translation credentials privately, execute a live translation, validate output and obtain review."
+    "corrective_action": "Keep the API key outside Git/APK. Complete the separately recorded qualified language and asset reviews."
   },
   "AC-09.04": {
     "test_name": "Cached translation request suppression",

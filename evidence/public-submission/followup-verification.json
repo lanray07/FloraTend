@@ -1,0 +1,22 @@
+{
+  "execution_date": "2026-11-03",
+  "supportingTests": 88,
+  "supportingTestsSeconds": 82.636,
+  "supportingTestsResult": "PASS",
+  "dpapiSelfTest": "PASS",
+  "genuineProviderRequests": 1,
+  "provider": "DeepL API Developer",
+  "endpoint": "https://api-free.deepl.com",
+  "liveProviderResult": "PASS",
+  "actualOutputAndroidXmlRoundTrip": "PASS",
+  "appResourcesModified": false,
+  "apkChangedByTranslationTooling": false,
+  "acceptance": {
+    "pass": 194,
+    "total": 204,
+    "incomplete": 10
+  },
+  "recognitionCapableDeviceAvailable": false,
+  "qualifiedWorldwideReviewsComplete": false,
+  "publicSubmissionPerformed": false
+}

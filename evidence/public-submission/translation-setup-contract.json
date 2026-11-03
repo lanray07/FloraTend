@@ -1,0 +1,19 @@
+{
+  "execution_date": "2026-11-03",
+  "userConfirmedPlan": "API Developer",
+  "acceptedFreePlanLabels": [
+    "free",
+    "developer"
+  ],
+  "onlyAllowedEndpoint": "https://api-free.deepl.com",
+  "paidEndpointFallback": false,
+  "verifierRegressionTests": 4,
+  "verifierRegressionResult": "PASS",
+  "dpapiCurrentUserSelfTest": "PASS",
+  "plaintextKeyFileWritten": false,
+  "actualProviderGate": "PASS_SEPARATE_GENUINE_REQUEST",
+  "scope": "Setup and negative failure-contract tests only; no synthetic output presented as live translation evidence.",
+  "liveRequestInThisContractTest": false,
+  "liveVerificationEvidence": "evidence/final-release/deepl-live.json",
+  "pipelineRegressionTests": 10
+}

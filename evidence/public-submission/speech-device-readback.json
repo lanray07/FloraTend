@@ -1,0 +1,11 @@
+{
+  "execution_date": "2026-11-03",
+  "authorizedDeviceCount": 1,
+  "manufacturer": "Amazon",
+  "model": "KFTRWI",
+  "recognitionServiceAvailable": false,
+  "userClarification": "Connected device meant the Fire tablet",
+  "actualMicrophoneRecognitionTestExecuted": false,
+  "deviceDataChanged": false,
+  "gate": "NOT_TESTED_RECOGNITION_CAPABLE_HARDWARE_REQUIRED"
+}

@@ -1,5 +1,7 @@
 # Localisation verification — 2026-10-30
 
+Update, 3 November: the live provider gate AC-09.03 now passes. A separately saved CurrentUser-DPAPI DeepL API Developer key made one genuine German translation through the official Free endpoint. FloraTend and `%1$s` survived, and the actual output passed temporary Android XML emit/parse validation. No app resources or credentials were exported, and no paid endpoint was used. See `evidence/final-release/deepl-live.json`, `evidence/public-submission/deepl-resource-roundtrip.json` and `docs/PUBLIC_SUBMISSION_20261103.md`. The historical unconfigured-provider statement below describes30October, not the current state. Current worldwide human language/asset approval remains outstanding; this provider result does not approve the22current bundles.
+
 All 19 requested Android locale bundles now contain the current 168 translatable resources. Resource validation reports zero missing entries, format-placeholder errors or plural-category errors. These are assistant-authored drafts; **zero locales have human release approval**. The validation command therefore intentionally exits 1 and AC-07 remains BLOCKED.
 
 | Executed check | Result | Evidence |

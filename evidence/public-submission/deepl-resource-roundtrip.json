@@ -1,0 +1,12 @@
+{
+  "execution_date": "2026-11-03",
+  "input": "evidence/final-release/deepl-live.json",
+  "actualProviderOutputUsed": true,
+  "temporaryAndroidXmlEmittedAndParsed": true,
+  "validationErrors": [],
+  "brandAndPlaceholderPreserved": true,
+  "appResourcesModified": false,
+  "additionalProviderRequestsMade": false,
+  "humanApproved": false,
+  "result": "PASS"
+}

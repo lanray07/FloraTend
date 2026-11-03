@@ -1,0 +1,14 @@
+{
+  "execution_date": "2026-11-03T17:31:14.490955+00:00",
+  "provider": "DeepL API Developer",
+  "endpoint": "https://api-free.deepl.com",
+  "target": "DE",
+  "source": "FloraTend: Check %1$s before watering.",
+  "translation": "FloraTend: Überprüfen Sie %1$s, bevor Sie gießen.",
+  "placeholderAndBrandPreserved": true,
+  "actualProviderRequest": true,
+  "credentialsExported": false,
+  "appResourcesModified": false,
+  "humanApproved": false,
+  "result": "PASS"
+}
