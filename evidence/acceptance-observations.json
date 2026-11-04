@@ -2706,7 +2706,7 @@
   "AC-06.02": {
     "status": "NOT TESTED",
     "test_name": "Actual microphone recognition; deferred initial Fire scope",
-    "actual_result": "Publisher explicitly deferred push-to-talk for the initial Fire release on 3 November. Production16 omits microphone permission and action; actual recognition is not marked PASS. Native deferred-service guard and typed Calendar navigation pass separately. The original 204-criterion ledger is preserved; initial Fire scope has 203 applicable criteria.",
+    "actual_result": "Publisher explicitly deferred push-to-talk for the initial Fire release on 3 November. Production16 omits microphone permission and action; actual recognition is not marked PASS. Native deferred-service guard and typed Calendar navigation pass separately. The original 204-criterion ledger is preserved. After eight further independent-review deferrals on 4 November, the initial Fire profile has 195 applicable criteria.",
     "evidence": [
       "submission/initial-fire-scope.json",
       "evidence/production-identification/native-status.json",
@@ -2715,11 +2715,11 @@
     "corrective_action": "For any future microphone-enabled release, perform real supported-device recognition tests. No extra device is required for the explicitly deferred initial Fire scope."
   },
   "AC-19.12": {
-    "status": "BLOCKED",
+    "status": "PASS",
     "execution_date": "2026-11-04",
     "environment": "Physical Fire/API28 native QA16, signed production16 inspection, actual Amazon public-draft UI and hosted-image readback",
-    "test_name": "Initial Fire final submission checklist reconciliation",
-    "actual_result": "Code16 uploaded with DRM; production identification/offline recovery, TTS/deferred-microphone guard, 22-locale surfaces/plurals, 120 exports and 88 Amazon-hosted images pass scoped checks. Publisher approved the revised privacy notice and code16 privacy declarations; all39 collection/transfer flags and purposes match. Publisher accepted four image-channel fallbacks and explicitly deferred independent human language/visual sign-offs for this initial worldwide release. Original reviews remain unpassed. Only action-time export certification and actual public submission remain in the scoped final checklist.",
+    "test_name": "Publisher-scoped initial Fire submission reconciliation",
+    "actual_result": "Publisher affirmed the exact export certification at action time. Amazon accepted code16 worldwide for12 Fire tablets and shows SUBMITTED / App Submission Successful on4 November UK time. Production identification/offline/TTS and artifact checks pass; all39 privacy flags and purposes were approved and verified;88 images were verified. Nine explicit initial-release exceptions remain unpassed in the original ledger. Submission is complete under that profile; Amazon approval/publication is not claimed.",
     "evidence": [
       "docs/SUBMISSION_REVIEW_20261103.md",
       "evidence/production-identification/native-status.json",
@@ -2729,8 +2729,10 @@
       "evidence/production-identification/publisher-privacy-approval.json",
       "evidence/production-identification/publisher-final-decisions-20261104.json",
       "evidence/production-identification/privacy-purpose-readback-20261104.json",
-      "submission/initial-fire-scope.json"
+      "submission/initial-fire-scope.json",
+      "evidence/production-identification/amazon-submission-20261104.json",
+      "evidence/production-identification/amazon-submitted-20261104.png"
     ],
-    "corrective_action": "Obtain action-time confirmation of the exact Amazon export certification, submit the scoped code16 release and verify actual status. Preserve nine explicit scope exceptions and original unpassed review observations."
+    "corrective_action": "Await Amazon review; retain nine explicit scope exceptions and address actual review feedback. Do not claim the original full specification or store approval is complete."
   }
 }

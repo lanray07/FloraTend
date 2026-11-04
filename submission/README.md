@@ -1,3 +1,5 @@
+> **Current status, 4 November 2026:** code16 / 0.1.15 submitted worldwide for 12 Fire tablet models. Amazon confirms **SUBMITTED** and **App Submission Successful**; review/publication pending. See [submission evidence](../evidence/production-identification/amazon-submission-20261104.json) and [initial-release scope exceptions](initial-fire-scope.json). The 30 October notes below are historical.
+
 # Amazon draft progress — 30 October 2026
 
 The FloraTend draft is saved in the Lanray Amazon Developer account. **Public distribution has not been submitted or published. Premium IAP is TEST / Approved, and LAT code 5 is submitted for testing only.** IDs, links and current signed APK hash are in `console-draft.json`.

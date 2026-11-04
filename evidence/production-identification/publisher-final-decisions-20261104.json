@@ -20,6 +20,8 @@
   "approvedProposalRevision": "8f089dde64c379ee98493bce5907573b6aeb6b1e",
   "approvedProposalSha256": "c729fff15fc421643ae57d0001df8449d295bc90d5d7627304d823d4c1f3d242",
   "declarationReadback": "evidence/production-identification/privacy-purpose-readback-20261104.json",
-  "exportCertificationAccepted": false,
-  "publicSubmissionCompleted": false
+  "exportCertificationAccepted": true,
+  "publisherExportDecision": "I affirm the certification; check it and submit code 16 now",
+  "publicSubmissionCompleted": true,
+  "submissionEvidence": "evidence/production-identification/amazon-submission-20261104.json"
 }

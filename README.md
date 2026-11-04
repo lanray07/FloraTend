@@ -1,6 +1,6 @@
 > Website: [GitHub Pages](https://lanray07.github.io/FloraTend/), [privacy](https://lanray07.github.io/FloraTend/privacy.html), [support](https://lanray07.github.io/FloraTend/support.html). [Live URL evidence](docs/GITHUB_URLS_20261102.md).
 
-> Current candidate: **0.1.15 / code16**, production photo identification enabled by the signed-build wrapper; push-to-talk explicitly deferred for the initial Fire release. Original ledger: **194/204 scoped passes**; one criterion is deferred in the 203-criterion Fire profile, with nine other gates still open. See [verification and publisher review](docs/SUBMISSION_REVIEW_20261103.md). Public release is BLOCKED.
+> Submitted to Amazon: **0.1.15 / code16**, worldwide for 12 Fire tablet models, on **4 November 2026 (UK)**. Amazon status **SUBMITTED**; approval/publication pending. Initial Fire profile: **195/195 applicable criteria**, with nine explicit publisher-approved scope exceptions; original ledger **195/204 passing**. Production photo identification is enabled. See [submission evidence](evidence/production-identification/amazon-submission-20261104.json) and [scope exceptions](submission/initial-fire-scope.json).
 
 > Current checkout work: [cold-start diagnosis and code8 regression](docs/CHECKOUT_DELAY_DIAGNOSIS_20261101.md).
 
@@ -8,7 +8,7 @@
 
 Native Android plant collection, care-check scheduler and growth journal, primarily intended for Amazon Fire tablets. Kotlin, Compose Material 3, Room, DataStore and WorkManager; no required Google Play Services. Product name and package identifier remain provisional pending publisher clearance.
 
-**Development build â€” release status BLOCKED.** The authoritative executed verification is [RELEASE_READINESS.md](RELEASE_READINESS.md), with individual results in [ACCEPTANCE_TEST_RESULTS.csv](ACCEPTANCE_TEST_RESULTS.csv). Compilation, source implementation and a small set of device tests do not establish production readiness.
+**Initial Fire release submitted; Amazon approval pending. Original full-spec readiness remains BLOCKED by the documented scope exceptions.** The executed verification is [RELEASE_READINESS.md](RELEASE_READINESS.md), with individual results in [ACCEPTANCE_TEST_RESULTS.csv](ACCEPTANCE_TEST_RESULTS.csv).
 
 Historical billing progression: [server verification and LAT Test 2](docs/SERVER_RECEIPT_RELEASE_CHECK_20261030.md). Free Cloudflare LAT and production verifiers are deployed; Amazon code 6 passed genuine server-gated Restore and offline restart, but automatic purchase activation failed. Amazon-delivered code 7 passed fresh free LAT purchase with automatic server-gated Premium activation, explicit owned Restore and offline process restart. Code 8 fixes the reproduced cold-start checkout delay; four actual Amazon presentations completed in 3.125–3.391 seconds. Fresh purchase, owned Restore and offline restart passed again. [Historical code-8 sweep](docs/RELEASE_SWEEP_20261101.md) recorded 100/204 criteria verified. [Current development progress](docs/RELEASE_CRITERIA_PROGRESS_20261101.md) records 143/204 scoped passes, with 61 still incomplete. See [latest code-7 checks](docs/LAT_CODE7_TEST_20261101.md). See [actual code-6 results](docs/LAT_SERVER_TEST_20261031.md). See [.env.example](.env.example) and [backend setup](server/README.md).
 

@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-04",
+  "versionCode": 16,
+  "versionName": "0.1.15",
+  "apkSha256": "79de8d5d4c14381ee07f082bd6623c40218f2c6d7f4621df77b3ddc574648d2b",
+  "submittedSourceHead": "a36a372257ad6ce3dca7b0d181dc58b795d4552d",
+  "preSubmissionCI": {
+    "id": 41788581783,
+    "conclusion": "success",
+    "url": "https://github.com/lanray07/FloraTend/actions/runs/41788581783"
+  },
+  "publisherExportDecision": "I affirm the certification; check it and submit code 16 now",
+  "exportCertificationAccepted": true,
+  "worldwideScopeRetained": true,
+  "fireTabletsSelected": 12,
+  "publicSubmissionCompleted": true,
+  "amazonStatus": "SUBMITTED",
+  "submissionHistory": "App Submission Successful",
+  "amazonDisplayedSubmissionTime": "11:54 pm GMT-8, 03 Nov 2026",
+  "submissionDateEuropeLondon": "2026-11-04",
+  "estimatedAppstoreDateAmazon": "Nov 09 2026, 12:00 AM PST",
+  "estimatedAppstoreDateEuropeLondon": "2026-11-09T08:00:00+00:00",
+  "estimateIsGuarantee": false,
+  "amazonApprovalConfirmed": false,
+  "storeLiveConfirmed": false,
+  "reviewerInstructionsCharacters": 1177,
+  "reviewerInstructionsSubmitted": true,
+  "proof": "evidence/production-identification/amazon-submitted-20261104.png",
+  "scopeExceptions": "submission/initial-fire-scope.json",
+  "remainingExternalDependency": "Amazon review and publication decision; no further publisher input currently required.",
+  "proofSha256": "16507dcba921ada178c4d5b84fb5ce3c4bdf4d63e409d239891a177dde05a481"
+}

@@ -1,5 +1,7 @@
 # Publisher review for the initial Fire release
 
+> **Submission completed, 4 November 2026 (UK).** The publisher affirmed the exact export certification at action time. Amazon confirms **SUBMITTED** and **App Submission Successful** for code16 worldwide and 12 Fire tablet models. Its estimate is 9 November 2026 at 00:00 PST (08:00 UK); this is not approval or a guaranteed publication date. The scoped profile is now **195/195 applicable criteria**, with nine explicit exceptions retained; original ledger **195/204 passing**. No further publisher input is currently required. See [submission evidence](https://github.com/lanray07/FloraTend/blob/main/evidence/production-identification/amazon-submission-20261104.json). The review chronology below preserves the earlier checkpoints and pending-state wording.
+
 This review supersedes the input list from 2 November. Worldwide scope remains requested. The publisher explicitly deferred push-to-talk for the initial Fire release on 3 November; text commands and optional spoken responses remain. No replacement Android device is needed for this scoped release. Actual microphone recognition remains unverified for any future release that enables it.
 
 ## Review and approval needed

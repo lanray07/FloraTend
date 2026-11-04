@@ -27,14 +27,15 @@
   "initialFireApplicableCriteria": 195,
   "otherIncompleteAtStartOfChange": 9,
   "fullReleaseReadinessClaimed": false,
-  "publicSubmissionCompleted": false,
+  "publicSubmissionCompleted": true,
+  "amazonStatus": "SUBMITTED",
+  "amazonApprovalConfirmed": false,
+  "submissionEvidence": "evidence/production-identification/amazon-submission-20261104.json",
   "updated": "2026-11-04",
   "publisherHumanReviewDecision": "Defer independent human sign-off for initial release",
   "publisherHumanReviewDecisionDate": "2026-11-04",
-  "initialFirePassingCriteria": 194,
-  "initialFirePendingCriteria": [
-    "AC-19.12"
-  ],
+  "initialFirePassingCriteria": 195,
+  "initialFirePendingCriteria": [],
   "scopeDecisionEvidence": "evidence/production-identification/publisher-final-decisions-20261104.json",
   "limitations": [
     "Push-to-talk disabled for this profile; no actual microphone recognition pass claimed.",

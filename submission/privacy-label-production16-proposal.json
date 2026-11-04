@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "status": "publisher_approved_saved_declarations_verified_pending_export_and_submission",
+  "status": "publisher_approved_and_submitted",
   "versionCode": 16,
   "scope": "initial Fire release; speech input disabled and microphone permission removed",
   "declarations": [
@@ -271,7 +271,10 @@
     "https://developer.amazon.com/docs/app-submission/appstore-privacy-labels.html",
     "https://my.plantnet.org/terms_of_use"
   ],
-  "bindingDeclarationAccepted": false,
+  "bindingDeclarationAccepted": true,
+  "exportCertificationAccepted": true,
+  "publicSubmissionCompleted": true,
+  "submissionEvidence": "evidence/production-identification/amazon-submission-20261104.json",
   "consoleUpdated": true,
   "collectionTransferFlagReadback": "evidence/production-identification/privacy-console-readback.json",
   "publisherApproved": true,
