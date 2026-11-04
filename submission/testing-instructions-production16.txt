@@ -1,0 +1,9 @@
+Initial release: Amazon Fire tablets, version 0.1.15 (code 16). No app account or login credentials are required for core features.
+
+Create a plant with Add plant, enter a nickname/species/location, and save. The free collection supports five plants. Add a care reminder, record completed care, and add a dated growth-journal entry. Saved core records and photos remain available offline.
+
+Optional photo identification requires an internet connection: choose a plant photo, select Identify photo, review the disclosure, then explicitly confirm sending it. The production service uses Pl@ntNet and may have daily limits. Suggestions can be wrong; select or edit the species before saving. Canceling consent sends no request. Manual species entry remains available when offline or when the service is unavailable.
+
+Initial Fire scope uses touch controls and typed commands. Push-to-talk is disabled and the production APK requests no microphone permission. Optional spoken feedback requires a compatible installed text-to-speech engine/language.
+
+Premium is an optional Amazon in-app purchase. Restore purchases is in Settings. Core app flows can be reviewed without purchasing.
