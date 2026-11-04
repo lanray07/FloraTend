@@ -55,7 +55,7 @@
   "tvSelected": 0,
   "automotiveSelected": 0,
   "worldwideScopeRetained": true,
-  "privacyVerificationScope": "All 39 collection/transfer flags match proposal; voice collection purpose explicitly cleared; other historical purposes retained. Final publisher declaration review still pending.",
+  "privacyVerificationScope": "All 39 collection/transfer flags and all purpose selections match the publisher-approved code 16 proposal; read back on 4 November.",
   "supportedImageLocalesUpdated": 11,
   "currentImagesUploadedAndByteVerified": 88,
   "currentScreenshotVersionCode": 16,
@@ -68,5 +68,9 @@
   "exportCheckboxChecked": false,
   "submitButtonDisabled": true,
   "allSupportedImageChannelsComplete": true,
-  "publisherFallbackDecisionDate": "2026-11-04"
+  "publisherFallbackDecisionDate": "2026-11-04",
+  "publisherPrivacyDeclarationsApproved": true,
+  "publisherPrivacyApprovalDate": "2026-11-04",
+  "independentHumanReviewDeferredForInitialRelease": true,
+  "purposeReadback": "evidence/production-identification/privacy-purpose-readback-20261104.json"
 }

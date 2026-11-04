@@ -3,15 +3,42 @@
   "platform": "Amazon Fire tablets",
   "worldwideScopeRetained": true,
   "publisherDecision": "Defer push-to-talk for the initial Fire release",
-  "deferredCriteria": ["AC-06.02"],
-  "retainedCapabilities": ["typed commands", "touch controls", "optional text-to-speech"],
+  "deferredCriteria": [
+    "AC-06.02",
+    "AC-07.01",
+    "AC-07.02",
+    "AC-07.14",
+    "AC-08.04",
+    "AC-08.06",
+    "AC-08.07",
+    "AC-14.07",
+    "AC-19.08"
+  ],
+  "retainedCapabilities": [
+    "typed commands",
+    "touch controls",
+    "optional text-to-speech"
+  ],
   "speechInputEnabled": false,
   "microphonePermissionInProduction": false,
   "actualMicrophoneRecognitionPassed": false,
   "originalCriteria": 204,
   "originalPassingAtStartOfChange": 194,
-  "initialFireApplicableCriteria": 203,
+  "initialFireApplicableCriteria": 195,
   "otherIncompleteAtStartOfChange": 9,
   "fullReleaseReadinessClaimed": false,
-  "publicSubmissionCompleted": false
+  "publicSubmissionCompleted": false,
+  "updated": "2026-11-04",
+  "publisherHumanReviewDecision": "Defer independent human sign-off for initial release",
+  "publisherHumanReviewDecisionDate": "2026-11-04",
+  "initialFirePassingCriteria": 194,
+  "initialFirePendingCriteria": [
+    "AC-19.12"
+  ],
+  "scopeDecisionEvidence": "evidence/production-identification/publisher-final-decisions-20261104.json",
+  "limitations": [
+    "Push-to-talk disabled for this profile; no actual microphone recognition pass claimed.",
+    "Independent human language/local-search/visual sign-offs deferred; no human review pass claimed.",
+    "Amazon uses English default images for four unavailable image channels; publisher accepted."
+  ]
 }

@@ -1,0 +1,265 @@
+{
+  "date": "2026-11-04",
+  "versionCode": 16,
+  "fieldsVerified": 39,
+  "collectionTransferAndPurposesMatchApprovedProposal": true,
+  "fields": [
+    {
+      "collected": false,
+      "field": "Name",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Email Address",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": true,
+      "field": "User IDs",
+      "purposes": [
+        "App functionality",
+        "Fraud Prevention, Security and Compliance"
+      ],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Address",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Phone number",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Race and ethnicity",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Sexual orientation",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Political or religious beliefs",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": true,
+      "field": "Other user info",
+      "purposes": [
+        "App functionality"
+      ],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "User payment info",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": true,
+      "field": "Purchase history",
+      "purposes": [
+        "App functionality",
+        "Fraud Prevention, Security and Compliance"
+      ],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Credit score",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Other financial info",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": true,
+      "field": "Device or other ID",
+      "purposes": [
+        "App functionality",
+        "Fraud Prevention, Security and Compliance"
+      ],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Advertising ID",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Health & Biometrics Info",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Fitness info",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Approximate location",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Precise location",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Web browsing history",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": true,
+      "field": "Photos",
+      "purposes": [
+        "App functionality"
+      ],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Videos",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Voice or sound recordings",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Music files",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Other audio files",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": true,
+      "field": "Crash logs",
+      "purposes": [
+        "App functionality",
+        "Analytics"
+      ],
+      "shared": false
+    },
+    {
+      "collected": true,
+      "field": "Diagnostics",
+      "purposes": [
+        "App functionality",
+        "Analytics"
+      ],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Other app performance data",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "App interactions",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "In-app search history",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Installed apps",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": true,
+      "field": "Other user-generated content",
+      "purposes": [
+        "App functionality"
+      ],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Other actions",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Emails",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "SMS or MMS",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Other in-app messages",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Files and doc",
+      "purposes": [],
+      "shared": false
+    },
+    {
+      "collected": true,
+      "field": "Calendar events",
+      "purposes": [
+        "App functionality"
+      ],
+      "shared": false
+    },
+    {
+      "collected": false,
+      "field": "Contacts / Phone Logs",
+      "purposes": [],
+      "shared": false
+    }
+  ]
+}

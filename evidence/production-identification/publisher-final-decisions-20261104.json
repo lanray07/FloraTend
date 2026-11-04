@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-04",
+  "versionCode": 16,
+  "publisherLanguageDecision": "Defer independent human sign-off for initial release",
+  "worldwideScopeRetained": true,
+  "independentHumanReviewPerformed": false,
+  "assistantReview": "evidence/production-identification/final-review-20261104.json",
+  "deferredReviewGates": [
+    "AC-07.01",
+    "AC-07.02",
+    "AC-07.14",
+    "AC-08.04",
+    "AC-08.06",
+    "AC-08.07",
+    "AC-14.07",
+    "AC-19.08"
+  ],
+  "limitations": "Independent human linguistic/local-keyword and visual sign-offs are deferred for the initial worldwide Fire release only. Automated/assistant checks do not establish those approvals; original incomplete observations remain incomplete.",
+  "publisherPrivacyDecision": "Approve the code 16 privacy declarations after review",
+  "approvedProposalRevision": "8f089dde64c379ee98493bce5907573b6aeb6b1e",
+  "approvedProposalSha256": "c729fff15fc421643ae57d0001df8449d295bc90d5d7627304d823d4c1f3d242",
+  "declarationReadback": "evidence/production-identification/privacy-purpose-readback-20261104.json",
+  "exportCertificationAccepted": false,
+  "publicSubmissionCompleted": false
+}
