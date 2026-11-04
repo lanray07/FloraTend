@@ -62,10 +62,11 @@
   "imageUploadVerification": "evidence/production-identification/amazon-store-image-verification.json",
   "imageLocaleSupport": "evidence/production-identification/amazon-image-locale-support.json",
   "browserWideningRequired": false,
-  "missingImageChannelFallbackDecision": "PENDING",
+  "missingImageChannelFallbackDecision": "ACCEPTED",
   "finalReviewVersionCode": 16,
   "finalReviewVerifiedAtUtc": "2026-11-03T21:24:34.801931+00:00",
   "exportCheckboxChecked": false,
   "submitButtonDisabled": true,
-  "allSupportedImageChannelsComplete": true
+  "allSupportedImageChannelsComplete": true,
+  "publisherFallbackDecisionDate": "2026-11-04"
 }

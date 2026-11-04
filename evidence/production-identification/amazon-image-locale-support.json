@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "scope": "Signed-in Amazon public-draft Images and videos \u2192 Add/Remove localization dialog",
+  "scope": "Signed-in Amazon public-draft Images and videos → Add/Remove localization dialog",
   "imageLocaleOptionsObserved": [
     "en-US",
     "de-DE",
@@ -25,7 +25,10 @@
   "localizedScreenshotExports": 120,
   "worldwideScopeRetained": true,
   "defaultImageLocale": "en-US",
-  "publisherPlatformFallbackDecision": "PENDING",
+  "publisherPlatformFallbackDecision": "ACCEPTED",
   "qualifiedLanguageApprovalInferred": false,
-  "publicSubmissionCompleted": false
+  "publicSubmissionCompleted": false,
+  "publisherDecisionDate": "2026-11-04",
+  "publisherDecision": "Accept Amazon’s fallback; retain worldwide scope",
+  "decisionScope": "English default images for nl-NL, pl-PL, pt-PT and sv-SE where Amazon exposes no image-upload channel; localized exports remain prepared."
 }

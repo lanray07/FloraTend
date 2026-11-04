@@ -2728,6 +2728,6 @@
       "evidence/production-identification/amazon-image-locale-support.json",
       "evidence/production-identification/publisher-privacy-approval.json"
     ],
-    "corrective_action": "Obtain qualified locale/visual sign-offs, explicit platform-fallback decision and final publisher declarations before submission; microphone input remains explicitly deferred."
+    "corrective_action": "Obtain qualified locale/visual sign-offs and final publisher declarations before submission. Publisher accepted the four-locale Amazon image fallback on 4 November while retaining worldwide scope; microphone input remains explicitly deferred."
   }
 }
